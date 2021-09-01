@@ -54,9 +54,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: document.body,
-      contentEl: document.getElementById('routify-app'),
-      hide: [document.getElementById('leaderboard-1')]
+      backgroundEl: (document.body),
+      contentEl: (document.getElementById('routify-app')),
+      hide: [(document.getElementById('leaderboard-1'))]
     },
     slideup: {
       adUnit: 'slideup-1',
