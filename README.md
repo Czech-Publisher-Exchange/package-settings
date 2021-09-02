@@ -68,12 +68,16 @@ These are done with a simple javascript code but they have to be wrapped in brac
 `publisher:  {}`
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
+| `name`        | String, optional, legal name of the publisher   |            |
+| `note`        | String, optional, useful note for production    |            |
 | `sellerId`    | Integer, required, from cpex.cz/sellers.json    | 0          |
 
 ### Website info
 `website:  {}`
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
+| `name`        | String, optional, name of the website           |            |
+| `note`        | String, optional, useful note for production    |            |
 
 ### CMP
 `cmp:  {}`
