@@ -66,6 +66,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 
 ### Publisher info
 `publisher:  {}`
+*Only used for publisher settings*
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
 | `name`        | String, optional, legal name of the publisher   |            |
@@ -74,6 +75,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 
 ### Website info
 `website:  {}`
+*Only used for website settings*
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
 | `name`        | String, optional, name of the website           |            |
@@ -102,7 +104,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `enabled`     | Boolean, required                               | true       |
 | `prebidPath`  | String URL | https://cdn.cpex.cz/hb/prebid/prebid.min.js     |
 | `prebidDebug` | Boolean, Toggles debug logging from Prebid      | false      |
-| `adUnits`     | Array of AdUnit Objects                         | undefined  |
+| `adUnits`     | Array of AdUnit Objects                         | []         |
 [AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 
 ### Formats
