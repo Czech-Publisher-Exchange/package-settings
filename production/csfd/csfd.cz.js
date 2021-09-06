@@ -25,10 +25,10 @@ window.cpexWebsiteSettings = {
       hide: [document.getElementById('leaderboard-wrapper')]
     },
     slideup: {
-      adUnit: 'cpex-slideUp-wrapper'
+      adUnit: 'slide_up'
     },
     vignette: {
-      adUnit: 'cpex-vignette-wrapper'
+      adUnit: 'cpex_vignette'
     }
   }
 }
