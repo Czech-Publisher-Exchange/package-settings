@@ -93,7 +93,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 `adserver:  {}, required`
 | Attribute            | Values                                 | Default      |
 |----------------------|----------------------------------------|--------------|
-| `adapter`           | String, required, which adapter to use | 'sastracker' |
+| `adapter`            | String, required, which adapter to use |              |
 | `loadPrerequisites`  | Boolean, loads libraries for adserver  | false        |
 | `delayCall`          | Integer, timeout in milliseconds       |              |
 
