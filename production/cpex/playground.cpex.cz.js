@@ -1,7 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
     name: 'cpex.cz',
-    note: 'purge test'
+    note: 'purge test 2'
   },
   headerbidding: {
     adUnits: [{
