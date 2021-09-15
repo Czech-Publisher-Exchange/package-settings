@@ -93,6 +93,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 `adserver:  {}, required`
 | Attribute            | Values                                 | Default      |
 |----------------------|----------------------------------------|--------------|
+| `enabled`            | Boolean, disabling disables HB as well | true         |
 | `adapter`            | String, required, which adapter to use |              |
 | `loadPrerequisites`  | Boolean, loads libraries for adserver  | false        |
 | `delayCall`          | Integer, timeout in milliseconds       |              |
@@ -101,7 +102,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 `headerbidding:  {}`
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
-| `enabled`     | Boolean, required                               | true       |
+| `enabled`     | Boolean                               | true       |
 | `prebidPath`  | String URL | https://cdn.cpex.cz/hb/prebid/prebid.min.js     |
 | `prebidDebug` | Boolean, Toggles debug logging from Prebid      | false      |
 | `adUnits`     | Array of AdUnit Objects                         | []         |
