@@ -3,10 +3,13 @@ window.cpexPublisherSettings = {
     name: 'MAFRA, a.s.',
     sellerId: '003'
   },
+  cmp: {
+    enabled: false
+  },
   adserver: {
     enabled: false
   },
-  cmp: {
+  headerbidding: {
     enabled: false
   }
 }
