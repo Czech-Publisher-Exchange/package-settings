@@ -130,7 +130,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       backgroundEl: (document.body),
-      contentEl: (document.getElementById('portal')),
+      contentEl: (document.getElementById('routify-app')),
       hide: [(document.getElementById('leaderboard-1'))]
     },
     slideup: {
