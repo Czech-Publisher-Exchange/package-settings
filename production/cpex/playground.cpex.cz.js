@@ -1,7 +1,6 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'cpex.cz',
-    note: 'purge test 3'
+    name: 'cpex.cz'
   },
   headerbidding: {
     adUnits: [{
@@ -131,7 +130,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       backgroundEl: (document.body),
-      contentEl: (document.getElementById('routify-app')),
+      contentEl: (document.getElementById('portal')),
       hide: [(document.getElementById('leaderboard-1'))]
     },
     slideup: {
