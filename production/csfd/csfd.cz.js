@@ -20,9 +20,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: document.body,
-      contentEl: document.getElementById('page-wrapper'),
-      hide: [document.getElementById('leaderboard-wrapper')]
+      backgroundEl: (document.body),
+      contentEl: (document.getElementById('page-wrapper')),
+      hide: [(document.getElementById('leaderboard-wrapper'))]
     },
     slideup: {
       adUnit: 'slide_up'
