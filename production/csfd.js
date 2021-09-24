@@ -7,6 +7,6 @@ window.cpexPublisherSettings = {
     adapter: 'sastracker'
   },
   headerbidding: {
-    enabled: true
+    enabled: false
   }
 }
