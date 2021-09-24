@@ -1,0 +1,20 @@
+### STAGES ###
+stages:
+  - deploy
+
+### DEPLOY ###
+deploy:
+  variables:
+    DST_HOST: 'cdn01.cpex.cz'
+    CURRENT_DIR: '/srv/www/cdn-src.cpex.cz/settings'
+  stage: deploy
+  tags:
+    - HostShell
+  script:
+    - |
+      ssh -T -o StrictHostKeyChecking=no $DST_HOST << EOF
+      set -e;
+      cd $CURRENT_DIR;
+      sudo -Hu powernodejs git pull;
+      EOF
+
