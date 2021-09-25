@@ -10,6 +10,8 @@ deploy:
   stage: deploy
   tags:
     - HostShell
+  only:
+    - master
   script:
     - |
       ssh -T -o StrictHostKeyChecking=no $DST_HOST << EOF
