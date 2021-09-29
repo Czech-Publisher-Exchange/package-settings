@@ -5,8 +5,5 @@ window.cpexPublisherSettings = {
   },
   adserver: {
     adapter: 'sastracker'
-  },
-  headerbidding: {
-    enabled: false
   }
 }
