@@ -62,5 +62,8 @@ window.cpexWebsiteSettings = {
     interscroller: {
       enabled: true
     }
+  },
+  cmp: {
+    enabled: false
   }
 }
