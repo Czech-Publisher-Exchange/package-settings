@@ -1,3 +1,8 @@
+### VARIABLES ###
+variables:
+  GIT_STRATEGY: clone
+### END VARIABLES ###
+
 ### STAGES ###
 stages:
   - deploy
