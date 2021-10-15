@@ -1,5 +1,5 @@
 # CPEx Package: Settings
-Settings are files saved into the [package-settings git repository](https://git.cpex.cz/frontend/package-settings) and then published to our [CDN](cdn.cpex.cz). Paths to them are added into the page with `window.cpexPackageConfig`.
+Settings are files saved into the [package-settings git repository](https://git.cpex.cz/frontend/package-settings) and then published to our cdn.cpex.cz. Paths to them are added into the page with `window.cpexPackageConfig`.
 The main package object loads the setting files and merges them into one complete internal configuration.
 
 **Note: Website always overrides publisher setting**
@@ -71,7 +71,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 |---------------|-------------------------------------------------|------------|
 | `name`        | String, optional, legal name of the publisher   |            |
 | `note`        | String, optional, useful note for production    |            |
-| `sellerId`    | Integer, required, from cpex.cz/sellers.json    | 0          |
+| `sellerId`    | Number, required, from cpex.cz/sellers.json     | 0          |
 
 ### Website info
 `website:  {}`
@@ -86,27 +86,39 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | Attribute   | Values                                            | Default    |
 |-------------|---------------------------------------------------|------------|
 | `enabled`   | Boolean                                           | true       |
-| `id`        | String, CMP specific  | '9a8e2159-3781-4da1-9590-fbf86806f86e' |
 | `pixelList` | Array of URL strings                              | array      |
 
 ### Ad server
-`adserver:  {}, required`
+`adserver:  {}`
 | Attribute            | Values                                 | Default      |
 |----------------------|----------------------------------------|--------------|
-| `enabled`            | Boolean, disabling disables HB as well | true         |
 | `adapter`            | String, required, which adapter to use |              |
+| `enabled`            | Boolean, disabling disables HB as well | true         |
 | `loadPrerequisites`  | Boolean, loads libraries for adserver  | false        |
-| `delayCall`          | Integer, timeout in milliseconds       |              |
+| `delayCall`          | Number, timeout in milliseconds        | 0            |
 
 ### Header-bidding
 `headerbidding:  {}`
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
-| `enabled`     | Boolean                               | true       |
+| `enabled`     | Boolean                                         | true       |
 | `prebidPath`  | String URL | https://cdn.cpex.cz/hb/prebid/prebid.min.js     |
 | `prebidDebug` | Boolean, Toggles debug logging from Prebid      | false      |
-| `adUnits`     | Array of AdUnit Objects                         | []         |
-[AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
+| `adUnits`     | Array of AdUnit Objects + custom `filter`       | []         |
+
+[Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
+
+#### Filter - custom AdUnit property
+*removes the adUnit if certain runtime conditions apply*
+
+`filter:  {}`
+| Attribute     | Values                                                       |
+|---------------|--------------------------------------------------------------|
+| `maxWidth`    | Number, remove before auction if viewport is larger than X   |
+| `minWidth`    | Number, remove before auction if viewport is smaller than X  |
+| `url`         | String, remove before auction if url doesn't contain X       |
+| `variable`    | String, remove before auction if window.cpexAdUnitParam != X |
+| `skin`        | String, remove after auction if a skin won in auction        |
 
 ### Formats
 `formats:  {}`
@@ -147,7 +159,7 @@ Note: Element references have to be wrapped in simple brackets, to be properly p
 |-----------|-----------------------------------------------|------------------|
 | `adUnit`  | String, required. adUnit where anything is considered a slideup ||
 | `css`     | String of custom CSS rules                    | default css      |
-| `emptyHeight` | Number, height in pixels used by default| 0                |
+| `emptyHeight` | Number, height in pixels used by default  | 0                |
 | `animationSpeed`| Float, number of seconds                | 0.2              |
 | `backgroundEl`  | DOM element to be considered background | document.body    |
 
