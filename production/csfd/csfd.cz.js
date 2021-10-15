@@ -134,7 +134,7 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'CSFD_leaderboard'
         }
       }, {
-        bidder: 'triplelift',
+        bidder: 'smartadserver',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: '280501',
@@ -1038,6 +1038,20 @@ window.cpexWebsiteSettings = {
           placementId: '20750755'
         }
       }]
+    }, {
+      code: 'slide_up',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [500, 200],
+            [320, 150],
+            [320, 100],
+            [320, 50],
+            [300, 100]
+          ]
+        }
+      },
+      bids: []
     }]
   },
   formats: {
