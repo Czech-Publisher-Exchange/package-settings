@@ -1,7 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
     name: 'cpex.cz',
-    note: ''
+    note: 'Test'
   },
   headerbidding: {
     adUnits: [
