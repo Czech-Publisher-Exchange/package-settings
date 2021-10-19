@@ -134,6 +134,20 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'CSFD_leaderboard'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          g: 'hb',
+          p: 'branding',
+          m: '0'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          g: 'hb',
+          p: '998x200',
+          m: '0'
+        }
+      }, {
         bidder: 'smartadserver',
         params: {
           domain: '//prg.smartadserver.com',
@@ -874,6 +888,13 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '20750750'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          g: 'hb',
+          p: 'interscroller',
+          m: '1'
+        }
       }]
     }, {
       code: 'mobile_square_2',
@@ -1051,7 +1072,14 @@ window.cpexWebsiteSettings = {
           ]
         }
       },
-      bids: []
+      bids: [{
+        bidder: 'r2b2',
+        params: {
+          g: 'hb',
+          p: '970x310',
+          m: '1'
+        }
+      }]
     }]
   },
   formats: {
