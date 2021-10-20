@@ -69,6 +69,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 *Only used for publisher settings*
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
+| `code`        | Required, short standard publisher identifier   |            |
 | `name`        | String, optional, legal name of the publisher   |            |
 | `note`        | String, optional, useful note for production    |            |
 | `sellerId`    | Number, required, from cpex.cz/sellers.json     | 0          |
@@ -87,6 +88,22 @@ These are done with a simple javascript code but they have to be wrapped in brac
 |-------------|---------------------------------------------------|------------|
 | `enabled`   | Boolean                                           | true       |
 | `pixelList` | Array of URL strings                              | array      |
+
+### AAM
+`aam:  {}`
+| Attribute   | Values                                            | Default    |
+|-------------|---------------------------------------------------|------------|
+| `enabled`   | Boolean                                           | true       |
+| `path`      | Boolean                                           | true       |
+| `settings`  | Boolean                                           | true       |
+
+#### AAM settings
+`aam.settings:  {}`
+| Attribute   | Values                                            | Default    |
+|-------------|---------------------------------------------------|------------|
+| `enabled`   | Boolean                                           | true       |
+| `path`      | String, URL to AAM  | 'https://cdn.cpex.cz/aam/cpex-aam-min.js'|
+| `settings`  | Object, mirrors `cpex_AAM_conf` in the AAM itself | inside AAM |
 
 ### Ad server
 `adserver:  {}`
