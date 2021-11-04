@@ -6,7 +6,8 @@ window.cpexWebsiteSettings = {
     settings: {
       behavior: {},
       publisher: 'vlm'
-    }
+    },
+    enabled: true
   },
   headerbidding: {
     enabled: true,
