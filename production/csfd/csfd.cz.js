@@ -966,7 +966,8 @@ window.cpexWebsiteSettings = {
       backgroundEl: (document.body),
       contentEl: (document.getElementById('page-wrapper')),
       hide: [(document.getElementById('leaderboard-wrapper'))],
-      enabled: true
+      enabled: true,
+      zIndex: 0
     },
     slideup: {
       adUnit: 'slide_up',
