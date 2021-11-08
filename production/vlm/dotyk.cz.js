@@ -4,7 +4,6 @@ window.cpexWebsiteSettings = {
   },
   aam: {
     settings: {
-      behavior: {},
       publisher: 'vlm'
     },
     enabled: true
