@@ -156,6 +156,7 @@ Note: Element references have to be wrapped in simple brackets, to be properly p
 |----------------------|-------------------------------------------------------|
 | `backgroundEl`       | DOM element considered as a background, wrapped in () |
 | `contentEl`          | DOM element considered as a content, wrapped in ()    |
+| `zIndex`             | CSS z-index value for skin wrapper, basically depth   |
 | `hide`               | Array of DOM elements to hide, wrapped in ()          |
 
 #### Interscroller
