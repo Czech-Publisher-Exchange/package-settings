@@ -1,12 +1,18 @@
 window.cpexPublisherSettings = {
   publisher: {
     name: 'Vltava Labe Media',
-    sellerId: '005'
+    sellerId: '005',
+    code: 'vlm'
   },
   adserver: {
-    adapter: 'sastracker'
+    adapter: 'googletag'
   },
   headerbidding: {
-    enabled: true
+    enabled: false
+  },
+  aam: {
+    settings: {
+      publisher: 'vlm'
+    }
   }
 }
