@@ -5,10 +5,7 @@ window.cpexPublisherSettings = {
     code: 'vlm'
   },
   adserver: {
-    adapter: 'googletag'
-  },
-  headerbidding: {
-    enabled: false
+    adapter: 'sastracker'
   },
   aam: {
     settings: {
