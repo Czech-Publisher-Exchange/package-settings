@@ -18,8 +18,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName("page")[0]),
-      hide: [(document.getElementsByClassName("leaderboard-top")[0])]
+      contentEl: (document.getElementsByClassName('page')[0]),
+      hide: [(document.getElementsByClassName('leaderboard-top')[0])]
     },
     native: {
       enabled: true
