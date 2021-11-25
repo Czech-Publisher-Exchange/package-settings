@@ -5,8 +5,7 @@ window.cpexWebsiteSettings = {
   aam: {
     settings: {
       publisher: 'vlm'
-    },
-    enabled: true
+    }
   },
   headerbidding: {
     enabled: true,
@@ -395,5 +394,28 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  website: {
+    name: 'dotyk.cz'
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementByClassName('page')[0])
+    },
+    interscroller: {
+      enabled: true
+    },
+    native: {
+      enabled: true
+    },
+    slideup: {
+      enabled: true,
+      adUnit: 'm-sticky'
+    },
+    vignette: {
+      enabled: true,
+      adUnit: 'm-vignette'
+    }
   }
 }
