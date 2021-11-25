@@ -401,7 +401,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementByClassName('page')[0])
+      contentEl: (document.getElementsByClassName('page')[0])
     },
     interscroller: {
       enabled: true
