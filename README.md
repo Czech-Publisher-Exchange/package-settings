@@ -141,6 +141,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 `formats:  {}`
 | Attribute       | Values                                                     |
 |-----------------|------------------------------------------------------------|
+| `allowedSSPs`   | Array, list of advertiser IDs allowed for custom formats   |
 | `skin`          | Object with Skin properties, see below                     |
 | `interscroller` | Object with Interscroller properties, see below            |
 | `native`        | Object with Native properties, see below                   |
@@ -149,15 +150,16 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `testCreatives` | Object, key: AdUnit, valid: testCreative object, see below |
 
 #### Skin
-Note: Element references have to be wrapped in simple brackets, to be properly parsed in the settings editor. Use only single quotes.
+
+**Note: Element DOM selectors are written in Javascript code and have to be wrapped in simple brackets, to be properly parsed in the settings editor.**
 
 `skin:  {}`
-| Attribute            | Values                                                |
-|----------------------|-------------------------------------------------------|
-| `backgroundEl`       | DOM element considered as a background, wrapped in () |
-| `contentEl`          | DOM element considered as a content, wrapped in ()    |
-| `zIndex`             | CSS z-index value for skin wrapper, basically depth   |
-| `hide`               | Array of DOM elements to hide, wrapped in ()          |
+| Attribute      | Values                                  | Default           |
+|----------------|-----------------------------------------|-------------------|
+| `backgroundEl` | DOM selector, background element        | document.body     |
+| `contentEl`    | DOM selector, content element           |                   |
+| `hide`         | Array of DOM elements to hide           |                   |
+| `zIndex`       | CSS z-index value for skin wrapper, basically depth       | |
 
 #### Interscroller
 `interscroller:  {}`
@@ -179,7 +181,7 @@ Note: Element references have to be wrapped in simple brackets, to be properly p
 | `css`     | String of custom CSS rules                    | default css      |
 | `emptyHeight` | Number, height in pixels used by default  | 0                |
 | `animationSpeed`| Float, number of seconds                | 0.2              |
-| `backgroundEl`  | DOM element to be considered background | document.body    |
+| `backgroundEl`  | DOM selector, backgroun element         | document.body    |
 
 #### Vignette
 `vignette:  {}`
