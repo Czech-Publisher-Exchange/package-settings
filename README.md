@@ -109,10 +109,13 @@ These are done with a simple javascript code but they have to be wrapped in brac
 `adserver:  {}`
 | Attribute            | Values                                 | Default      |
 |----------------------|----------------------------------------|--------------|
+| `allowedSSPs` | **Only for SAS.** Object, advertiser IDs allowed for custom formats | { pubmatic: 1, index: 3, magnite: 4, xandr: 5 } |
 | `adapter`            | String, required, which adapter to use |              |
 | `enabled`            | Boolean, disabling disables HB as well | true         |
 | `loadPrerequisites`  | Boolean, loads libraries for adserver  | false        |
 | `delayCall`          | Number, timeout in milliseconds        | 0            |
+**Note:** To properly merge between the two types of settings, SSPs should be named consistently. Please use the following strings:
+**pubmatic, index, magnite, xandr**
 
 ### Header-bidding
 `headerbidding:  {}`
@@ -141,7 +144,6 @@ These are done with a simple javascript code but they have to be wrapped in brac
 `formats:  {}`
 | Attribute       | Values                                                     |
 |-----------------|------------------------------------------------------------|
-| `allowedSSPs`   | Array, list of advertiser IDs allowed for custom formats   |
 | `skin`          | Object with Skin properties, see below                     |
 | `interscroller` | Object with Interscroller properties, see below            |
 | `native`        | Object with Native properties, see below                   |
@@ -151,7 +153,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 
 #### Skin
 
-**Note: Element DOM selectors are written in Javascript code and have to be wrapped in simple brackets, to be properly parsed in the settings editor.**
+**Note:** Element DOM selectors are written in Javascript code and have to be wrapped in simple brackets, to be properly parsed in the settings editor.
 
 `skin:  {}`
 | Attribute      | Values                                  | Default           |
