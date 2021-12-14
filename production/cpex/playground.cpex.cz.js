@@ -125,7 +125,13 @@ window.cpexWebsiteSettings = {
   },
   adserver: {
     loadPrerequisites: true,
-    delayCall: 100
+    delayCall: 100,
+    allowedSSPs: {
+      pubmatic: 1,
+      index: 3,
+      magnite: 4,
+      xandr: 26
+    }
   },
   formats: {
     skin: {
