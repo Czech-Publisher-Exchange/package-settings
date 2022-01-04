@@ -1,6 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'cpex.cz'
+    name: 'cpex.cz',
+    note: 'test'
   },
   headerbidding: {
     adUnits: [{
@@ -151,6 +152,11 @@ window.cpexWebsiteSettings = {
         generic: "\n          <style>\n            .cpex-native a { display: flex; text-decoration: none; color: inherit }\n            .cpex-native img { width: 200px; object-fit: cover }\n            .cpex-native .text { padding-left: 20px }\n          </style>\n          <div class='cpex-native article'>\n            <a href='${link}' target='_blank' >\n              <img src='${img}'>\n              <div class='text'>\n                <h2>${title}</h2>\n                <p>${desc}</p>\n              </div>\n            </a>\n          </div>",
         'native-2': "\n          <style>\n            .cpex-native.individual { background-color: #c9b3ff }\n            .cpex-native a { display: flex; text-decoration: none; color: inherit }\n            .cpex-native img { width: 200px; object-fit: cover }\n            .cpex-native .text { padding-left: 20px }\n          </style>\n          <div class='cpex-native article individual'>\n            <a href='${link}' target='_blank' >\n              <img src='${img}'>\n              <div class='text'>\n                <h2>Custom template for an adUnit</h2>\n                <p>You use any custom HTML, CSS and content for a specific adUnit name. It overrides anything present in template properties of the native settings.</p>\n              </div>\n            </a>\n          </div>"
       }
+    }
+  },
+  aam: {
+    settings: {
+      publisher: 'cpex'
     }
   }
 }
