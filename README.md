@@ -65,7 +65,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 ## Complete reference
 
 ### Publisher info
-`publisher:  {}`
+`publisher: {}`
 *Only used for publisher settings*
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
@@ -75,7 +75,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `sellerId`    | Number, required, from cpex.cz/sellers.json     | 0          |
 
 ### Website info
-`website:  {}`
+`website: {}`
 *Only used for website settings*
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
@@ -83,14 +83,14 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `note`        | String, optional, useful note for production    |            |
 
 ### CMP
-`cmp:  {}`
+`cmp: {}`
 | Attribute   | Values                                            | Default    |
 |-------------|---------------------------------------------------|------------|
 | `enabled`   | Boolean                                           | true       |
 | `pixelList` | Array of URL strings                              | array      |
 
 ### AAM
-`aam:  {}`
+`aam: {}`
 | Attribute   | Values                                            | Default    |
 |-------------|---------------------------------------------------|------------|
 | `enabled`   | Boolean                                           | true       |
@@ -98,7 +98,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `settings`  | Boolean                                           | true       |
 
 #### AAM settings
-`aam.settings:  {}`
+`aam.settings: {}`
 | Attribute   | Values                                            | Default    |
 |-------------|---------------------------------------------------|------------|
 | `enabled`   | Boolean                                           | true       |
@@ -106,7 +106,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `settings`  | Object, mirrors `cpex_AAM_conf` in the AAM itself | inside AAM |
 
 ### Ad server
-`adserver:  {}`
+`adserver: {}`
 | Attribute            | Values                                 | Default      |
 |----------------------|----------------------------------------|--------------|
 | `allowedSSPs` | **Only for SAS.** Object, advertiser IDs allowed for custom formats | { pubmatic: 1, index: 3, magnite: 4, xandr: 5 } |
@@ -118,7 +118,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 **pubmatic, index, magnite, xandr**
 
 ### Header-bidding
-`headerbidding:  {}`
+`headerbidding: {}`
 | Attribute     | Values                                          | Default    |
 |---------------|-------------------------------------------------|------------|
 | `enabled`     | Boolean                                         | true       |
@@ -131,7 +131,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 #### Filter - custom AdUnit property
 *removes the adUnit if certain runtime conditions apply*
 
-`filter:  {}`
+`filter: {}`
 | Attribute     | Values                                                       |
 |---------------|--------------------------------------------------------------|
 | `maxWidth`    | Number, remove before auction if viewport is larger than X   |
@@ -141,7 +141,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `skin`        | String, remove after auction if a skin won in auction        |
 
 ### Formats
-`formats:  {}`
+`formats: {}`
 | Attribute       | Values                                                     |
 |-----------------|------------------------------------------------------------|
 | `skin`          | Object with Skin properties, see below                     |
@@ -152,10 +152,9 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `testCreatives` | Object, key: AdUnit, valid: testCreative object, see below |
 
 #### Skin
-
 **Note:** Element DOM selectors are written in Javascript code and have to be wrapped in simple brackets, to be properly parsed in the settings editor.
 
-`skin:  {}`
+`skin: {}`
 | Attribute      | Values                                  | Default           |
 |----------------|-----------------------------------------|-------------------|
 | `backgroundEl` | DOM selector, background element        | document.body     |
@@ -164,29 +163,29 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `zIndex`       | CSS z-index value for skin wrapper, basically depth       | |
 
 #### Interscroller
-`interscroller:  {}`
+`interscroller: {}`
 | Attribute      | Values                                         | Default    |
 |----------------|------------------------------------------------|------------|
 | `height`       | String for CSS, usually in px or vh            | '75vh'     |
 
 #### Native
-`native:  {}`
+`native: {}`
 | Attribute   | Values                                      | Default          |
 |-------------|---------------------------------------------|------------------|
 | `templates` | Object with string of targeted adUnits as key, comma separated. Values contain the template, a string of HTML+CSS, with Mustache variables. If adUnit isn't found, 'generic' key is used. | built-in template |
 
 #### Slideup
-`slideup:  {}`
+`slideup: {}`
 | Attribute | Values                                        | Default          |
 |-----------|-----------------------------------------------|------------------|
 | `adUnit`  | String, required. adUnit where anything is considered a slideup ||
 | `css`     | String of custom CSS rules                    | default css      |
 | `emptyHeight` | Number, height in pixels used by default  | 0                |
 | `animationSpeed`| Float, number of seconds                | 0.2              |
-| `backgroundEl`  | DOM selector, backgroun element         | document.body    |
+| `backgroundEl`  | DOM selector, background element        | document.body    |
 
 #### Vignette
-`vignette:  {}`
+`vignette: {}`
 | Attribute | Values                                        | Default          |
 |-----------|-----------------------------------------------|------------------|
 | `adUnit`  | String, required. adUnit where anything is considered a vignette||
@@ -194,10 +193,17 @@ These are done with a simple javascript code but they have to be wrapped in brac
 
 #### TestCreatives
 Explained here: [TestCreatives](./FORMATS.md#testing)
-`adUnit:  {}`
+`adUnit: {}`
 | Attribute | Values                                                           |
 |-----------|------------------------------------------------------------------|
 | `preset`  | String: 'banner', 'interscroller', 'skin', 'native' or 'slideup' |
 | `html`    | String, Embedded HTML of the test creative                       |
 | `width`   | Number in pixels                                                 |
 | `height`  | Number in pixels                                                 |
+
+### Scripts
+Here you can add any custom javascript code
+`scripts: {}`
+| Attribute | Values                                                           |
+|-----------|------------------------------------------------------------------|
+| `onload`  | Function, executed once package is fully loaded                  |
