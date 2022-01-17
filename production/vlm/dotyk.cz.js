@@ -417,5 +417,10 @@ window.cpexWebsiteSettings = {
       enabled: true,
       adUnit: 'm-vignette'
     }
+  },
+  scripts: {
+    onload: (window.addEventListener('cpexAdRendered', (e) => {
+      console.log('ad rendered, data: ', e)
+    }))
   }
 }
