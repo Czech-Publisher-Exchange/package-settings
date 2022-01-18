@@ -12,5 +12,11 @@ window.cpexWebsiteSettings = {
       magnite: 4,
       xandr: 5
     }
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0])
+    }
   }
 }
