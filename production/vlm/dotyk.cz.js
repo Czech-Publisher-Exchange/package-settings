@@ -419,6 +419,10 @@ window.cpexWebsiteSettings = {
     }
   },
   scripts: {
-    onload: (() => {\n  window.addEventListener('cpexAdRendered', (e) => {\n    console.log('ad rendered, data: ', e)\n  })\n})
+    onload: (() => {
+      window.addEventListener('cpexAdRendered', (e) => {
+        console.log('ad rendered, data: ', e)
+      })
+    })
   }
 }
