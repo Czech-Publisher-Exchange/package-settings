@@ -662,5 +662,8 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  website: {
+    name: 'slunecnice.cz'
   }
 }
