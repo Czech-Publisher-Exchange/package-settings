@@ -17,5 +17,8 @@ window.cpexPublisherSettings = {
     settings: {
       publisher: 'vlm'
     }
+  },
+  cmp: {
+    enabled: false
   }
 }
