@@ -89,6 +89,13 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `enabled`   | Boolean                                           | true       |
 | `pixelList` | Array of URL strings                              | array      |
 
+### Analytics
+`analytics: {}`
+| Attribute   | Values                                            | Default    |
+|-------------|---------------------------------------------------|------------|
+| `enabled`   | Boolean                                           | true       |
+| `force`     | Boolean, allows to skip consent check             | false      |
+
 ### AAM
 `aam: {}`
 | Attribute   | Values                                            | Default    |
@@ -160,7 +167,9 @@ These are done with a simple javascript code but they have to be wrapped in brac
 | `backgroundEl` | DOM selector, background element        | document.body     |
 | `contentEl`    | DOM selector, content element           |                   |
 | `hide`         | Array of DOM elements to hide           |                   |
-| `zIndex`       | CSS z-index value for skin wrapper, basically depth       | |
+| `zIndex`       | CSS `z-index` value for skin wrapper, basically depth     | |
+| `offset`       | Offset from the top of the page, in px  | 0                 |
+| `offsetScroll` | Offset (has to be set) disappears with scrolling | false    |
 
 #### Interscroller
 `interscroller: {}`
