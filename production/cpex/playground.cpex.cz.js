@@ -8,8 +8,8 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250],
             [300, 300],
+            [300, 250],
             [250, 250]
           ]
         }
@@ -18,28 +18,27 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: 140646,
-          zoneId: 1713098,
+          siteId: '140646',
+          zoneId: '1713098',
           position: 'atf',
-          sizes: [15, 48, 14],
-          inventory: {}
+          sizes: ['48', '15', '14']
         }
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '2918143'
+          adSlot: ''
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 19286498
+          placementId: '19286498'
         }
       }, {
         bidder: 'rtbhouse',
         params: {
-          region: 'prebid-eu',
-          publisherId: 'w6O8SDnYNMT7Cb6AHGZf'
+          publisherId: 'w6O8SDnYNMT7Cb6AHGZf',
+          region: 'prebid-eu'
         }
       }]
     }, {
@@ -47,32 +46,34 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250],
             [300, 300],
+            [300, 250],
             [250, 250]
           ]
+        },
+        video: {
+          playerSize: ''
         }
       },
       bids: [{
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: 140646,
-          zoneId: 1713100,
+          siteId: '140646',
+          zoneId: '1713100',
           position: 'atf',
-          sizes: [15, 48, 14],
-          inventory: {}
+          sizes: ['48', '15', '14']
         }
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '2918144'
+          adSlot: ''
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 19286538
+          placementId: '19286538'
         }
       }]
     }, {
@@ -89,16 +90,15 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: 140646,
-          zoneId: 1960456,
+          siteId: '140646',
+          zoneId: '1960456',
           position: 'atf',
-          sizes: [2, 230],
-          inventory: {}
+          sizes: ['2', '230']
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21341120
+          placementId: '21341120'
         }
       }]
     }, {
@@ -114,11 +114,76 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: 140646,
-          zoneId: 2062058,
-          position: 'btf',
-          sizes: [90],
-          inventory: {}
+          siteId: '140646',
+          zoneId: '2062058',
+          position: 'atf',
+          sizes: ['90']
+        }
+      }]
+    }, {
+      code: 'interscroller-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          accountId: '10900',
+          siteId: '140646',
+          zoneId: '2044716',
+          position: 'atf',
+          sizes: ['256']
+        }
+      }]
+    }, {
+      code: 'slideup-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 250],
+            [548, 150]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          accountId: '10900',
+          siteId: '140646',
+          zoneId: '2087210',
+          position: 'atf',
+          sizes: ['60', '15', '90']
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '21779753'
+        }
+      }]
+    }, {
+      code: 'vignette-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [548, 150]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          accountId: '10900',
+          siteId: '140646',
+          zoneId: '2096284',
+          position: 'atf',
+          sizes: ['15', '90']
         }
       }]
     }]
