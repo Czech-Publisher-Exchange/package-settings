@@ -20,5 +20,22 @@ window.cpexPublisherSettings = {
     settings: {
       publisher: 'cpex'
     }
+  },
+  formats: {
+    skin: {
+      enabled: true
+    },
+    interscroller: {
+      enabled: true
+    },
+    native: {
+      enabled: true
+    },
+    slideup: {
+      enabled: true
+    },
+    vignette: {
+      enabled: true
+    }
   }
 }
