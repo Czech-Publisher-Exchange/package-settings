@@ -6,7 +6,7 @@ window.cpexWebsiteSettings = {
   },
   adserver: {
     adapter: 'googletag',
-    loadPrerequisites: false
+    loadPrerequisites: true
   },
   aam: {
     settings: {
