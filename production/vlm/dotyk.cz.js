@@ -414,7 +414,9 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('page')[0]),
-      hide: [(document.getElementsByClassName('reklama-box-leaderboard-top')[0])]
+      hide: [(document.getElementsByClassName('reklama-box-leaderboard-top')[0])],
+      offset: 32,
+      offsetScroll: true
     },
     interscroller: {
       enabled: true
