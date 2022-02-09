@@ -5,8 +5,8 @@ window.cpexWebsiteSettings = {
     code: 'vlm'
   },
   adserver: {
-    adapter: 'googletag',
-    loadPrerequisites: true
+    loadPrerequisites: true,
+    enabled: false
   },
   aam: {
     settings: {
