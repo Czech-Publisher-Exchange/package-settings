@@ -7,7 +7,6 @@ window.cpexWebsiteSettings = {
       publisher: 'eco'
     }
   },
-  adserver: {},
   headerbidding: {
     adUnits: [{
       code: 'leader',
