@@ -433,5 +433,11 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementById('reklama-leader-wrapper'))
+    }
   }
 }
