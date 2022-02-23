@@ -29,7 +29,8 @@ window.cpexWebsiteSettings = {
           siteId: '361048',
           zoneId: '1965808',
           position: 'atf',
-          sizes: ['230', '94', '57', '96', '95', '2']
+          sizes: ['230', '94', '57', '96', '95', '2'],
+          floor: 0
         }
       }, {
         bidder: 'rubicon',
@@ -38,7 +39,8 @@ window.cpexWebsiteSettings = {
           siteId: '361464',
           zoneId: '1965810',
           position: 'atf',
-          sizes: ['230', '94', '57', '96', '95', '2']
+          sizes: ['230', '94', '57', '96', '95', '2'],
+          floor: 0
         }
       }, {
         bidder: 'adform',
@@ -85,7 +87,8 @@ window.cpexWebsiteSettings = {
           siteId: '361048',
           zoneId: '1965820',
           position: 'atf',
-          sizes: ['94', '57', '96', '95', '2']
+          sizes: ['94', '57', '96', '95', '2'],
+          floor: 0
         }
       }, {
         bidder: 'rubicon',
@@ -94,7 +97,8 @@ window.cpexWebsiteSettings = {
           siteId: '361464',
           zoneId: '1965822',
           position: 'atf',
-          sizes: ['94', '57', '96', '95', '2']
+          sizes: ['94', '57', '96', '95', '2'],
+          floor: 0
         }
       }, {
         bidder: 'adform',
@@ -139,7 +143,8 @@ window.cpexWebsiteSettings = {
           siteId: '361048',
           zoneId: '1965824',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: ['83', '48', '15'],
+          floor: 0
         }
       }, {
         bidder: 'rubicon',
@@ -148,7 +153,8 @@ window.cpexWebsiteSettings = {
           siteId: '361464',
           zoneId: '1965826',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: ['83', '48', '15'],
+          floor: 0
         }
       }, {
         bidder: 'adform',
@@ -193,7 +199,8 @@ window.cpexWebsiteSettings = {
           siteId: '361048',
           zoneId: '1965828',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: ['83', '48', '15'],
+          floor: 0
         }
       }, {
         bidder: 'adform',
@@ -238,7 +245,8 @@ window.cpexWebsiteSettings = {
           siteId: '361464',
           zoneId: '1965830',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: ['83', '48', '15'],
+          floor: 0
         }
       }]
     }, {
@@ -259,7 +267,8 @@ window.cpexWebsiteSettings = {
           siteId: '361522',
           zoneId: '1965838',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: ['83', '48', '15'],
+          floor: 0
         }
       }]
     }, {
@@ -280,7 +289,8 @@ window.cpexWebsiteSettings = {
           siteId: '361522',
           zoneId: '1965842',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: ['83', '48', '15'],
+          floor: 0
         }
       }]
     }, {
@@ -302,7 +312,8 @@ window.cpexWebsiteSettings = {
           siteId: '361048',
           zoneId: '1958638',
           position: 'atf',
-          sizes: ['10', '9', '48', '15']
+          sizes: ['10', '9', '48', '15'],
+          floor: 0
         }
       }, {
         bidder: 'rubicon',
@@ -311,7 +322,8 @@ window.cpexWebsiteSettings = {
           siteId: '361464',
           zoneId: '1958640',
           position: 'atf',
-          sizes: ['10', '9', '48', '15']
+          sizes: ['10', '9', '48', '15'],
+          floor: 0
         }
       }, {
         bidder: 'adform',
@@ -357,7 +369,8 @@ window.cpexWebsiteSettings = {
           siteId: '361048',
           zoneId: '1958642',
           position: 'atf',
-          sizes: ['10', '9', '48', '15']
+          sizes: ['10', '9', '48', '15'],
+          floor: 0
         }
       }, {
         bidder: 'rubicon',
@@ -366,7 +379,8 @@ window.cpexWebsiteSettings = {
           siteId: '361464',
           zoneId: '1958644',
           position: 'atf',
-          sizes: ['10', '9', '48', '15']
+          sizes: ['10', '9', '48', '15'],
+          floor: 0
         }
       }, {
         bidder: 'adform',
