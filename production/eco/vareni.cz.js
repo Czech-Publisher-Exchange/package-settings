@@ -13,7 +13,48 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [2000, 1400],
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          accountId: '10900',
+          siteId: '361048',
+          zoneId: '1958646',
+          position: 'atf',
+          sizes: ['230'],
+          floor: 0
+        }
+      }, {
+        bidder: 'rubicon',
+        params: {
+          accountId: '10900',
+          siteId: '361464',
+          zoneId: '1958648',
+          position: 'atf',
+          sizes: ['230'],
+          floor: 0
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '21025308'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          g: 'hb',
+          p: 'branding',
+          m: '0'
+        }
+      }]
+    }, {
+      code: 'leader',
+      mediaTypes: {
+        banner: {
+          sizes: [
             [970, 310],
             [970, 250],
             [970, 210],
@@ -29,7 +70,7 @@ window.cpexWebsiteSettings = {
           siteId: '361048',
           zoneId: '1965808',
           position: 'atf',
-          sizes: ['230', '94', '57', '96', '95', '2'],
+          sizes: ['94', '57', '96', '95', '2'],
           floor: 0
         }
       }, {
@@ -39,13 +80,13 @@ window.cpexWebsiteSettings = {
           siteId: '361464',
           zoneId: '1965810',
           position: 'atf',
-          sizes: ['230', '94', '57', '96', '95', '2'],
+          sizes: ['94', '57', '96', '95', '2'],
           floor: 0
         }
       }, {
         bidder: 'adform',
         params: {
-          mid: 1109659,
+          mid: '',
           rcur: 'USD'
         }
       }, {
@@ -103,7 +144,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 1109665,
+          mid: '',
           rcur: 'USD'
         }
       }, {
@@ -159,7 +200,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 1109660,
+          mid: '',
           rcur: 'USD'
         }
       }, {
@@ -205,7 +246,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 1109662,
+          mid: '',
           rcur: 'USD'
         }
       }, {
@@ -322,13 +363,12 @@ window.cpexWebsiteSettings = {
           siteId: '361464',
           zoneId: '1958640',
           position: 'atf',
-          sizes: ['10', '9', '48', '15'],
-          floor: 0
+          sizes: ['10', '9', '48', '15']
         }
       }, {
         bidder: 'adform',
         params: {
-          mid: 1109663,
+          mid: '',
           rcur: 'USD'
         }
       }, {
@@ -369,8 +409,7 @@ window.cpexWebsiteSettings = {
           siteId: '361048',
           zoneId: '1958642',
           position: 'atf',
-          sizes: ['10', '9', '48', '15'],
-          floor: 0
+          sizes: ['10', '9', '48', '15']
         }
       }, {
         bidder: 'rubicon',
@@ -379,13 +418,12 @@ window.cpexWebsiteSettings = {
           siteId: '361464',
           zoneId: '1958644',
           position: 'atf',
-          sizes: ['10', '9', '48', '15'],
-          floor: 0
+          sizes: ['10', '9', '48', '15']
         }
       }, {
         bidder: 'adform',
         params: {
-          mid: 1109664,
+          mid: '',
           rcur: 'USD'
         }
       }, {
@@ -408,11 +446,5 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
-  },
-  formats: {
-    skin: {
-      enabled: true,
-      contentEl: (document.getElementById('reklama-leader-wrapper'))
-    }
   }
 }
