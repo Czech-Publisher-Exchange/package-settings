@@ -43,7 +43,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 1109659,
           rcur: 'USD'
         }
       }, {
@@ -99,7 +99,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 1109665,
           rcur: 'USD'
         }
       }, {
@@ -153,7 +153,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 1109660,
           rcur: 'USD'
         }
       }, {
@@ -198,7 +198,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 1109662,
           rcur: 'USD'
         }
       }, {
@@ -316,7 +316,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 1109663,
           rcur: 'USD'
         }
       }, {
@@ -371,7 +371,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 1109664,
           rcur: 'USD'
         }
       }, {
