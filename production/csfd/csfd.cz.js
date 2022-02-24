@@ -84,43 +84,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 641702,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641703,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641704,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641559,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641546,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641568,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641582,
+          mid: 669392,
           rcur: 'USD'
         }
       }, {
@@ -136,6 +100,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: 'branding',
           m: '0'
@@ -143,8 +108,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
-          p: '998x200',
+          p: '1000x210',
           m: '0'
         }
       }, {
@@ -223,31 +189,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 641586,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641550,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641572,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 793728,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137784,
+          mid: 669410,
           rcur: 'USD'
         }
       }, {
@@ -263,6 +205,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '120x600',
           m: '0'
@@ -344,31 +287,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936314,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936305,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936313,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936209,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137785,
+          mid: 931711,
           rcur: 'USD'
         }
       }, {
@@ -384,6 +303,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '180x600_1',
           m: '0'
@@ -466,31 +386,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936317,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936315,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936316,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936210,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137786,
+          mid: 931717,
           rcur: 'USD'
         }
       }, {
@@ -512,6 +408,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '336x300_1',
           m: '0'
@@ -594,31 +491,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936320,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936318,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936319,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936215,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137787,
+          mid: 931785,
           rcur: 'USD'
         }
       }, {
@@ -634,6 +507,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '336x300_2',
           m: '0'
@@ -716,31 +590,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936324,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936322,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936323,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936216,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137788,
+          mid: 931786,
           rcur: 'USD'
         }
       }, {
@@ -756,6 +606,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '336x300_3',
           m: '0'
@@ -808,7 +659,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 931787,
           rcur: 'USD'
         }
       }, {
@@ -824,6 +675,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '336x300_4',
           m: '0'
@@ -876,7 +728,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 931788,
           rcur: 'USD'
         }
       }, {
@@ -892,6 +744,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '336x300_5',
           m: '0'
@@ -974,31 +827,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 641583,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641547,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641569,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641560,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137771,
+          mid: 931835,
           rcur: 'USD'
         }
       }, {
@@ -1020,6 +849,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '300x250',
           m: '0'
@@ -1103,31 +933,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936334,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936327,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936330,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936217,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137774,
+          mid: 931836,
           rcur: 'USD'
         }
       }, {
@@ -1143,6 +949,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '480x300_1',
           m: '0'
@@ -1226,31 +1033,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936337,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936335,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936336,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936227,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137775,
+          mid: 931851,
           rcur: 'USD'
         }
       }, {
@@ -1266,6 +1049,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '480x300_2',
           m: '0'
@@ -1347,31 +1131,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 641561,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641548,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641570,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641584,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137769,
+          mid: 931869,
           rcur: 'USD'
         }
       }, {
@@ -1387,6 +1147,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '300x600',
           m: '0'
@@ -1464,25 +1225,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936340,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936338,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936339,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137782,
+          mid: 931871,
           rcur: 'USD'
         }
       }, {
@@ -1498,6 +1241,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '300x600_1',
           m: '0'
@@ -1581,31 +1325,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936343,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936341,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936342,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936230,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137783,
+          mid: 931872,
           rcur: 'USD'
         }
       }, {
@@ -1621,6 +1341,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '300x600_2',
           m: '0'
@@ -1751,31 +1472,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 641589,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641553,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641575,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 641566,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137765,
+          mid: 931875,
           rcur: 'USD'
         }
       }, {
@@ -1791,6 +1488,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '1000x310',
           m: '0'
@@ -1815,7 +1513,7 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 1137836,
           rcur: 'USD'
         }
       }]
@@ -1883,31 +1581,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936654,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 690226,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936653,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 816499,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137829,
+          mid: 669415,
           rcur: 'USD'
         }
       }, {
@@ -1988,31 +1662,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936659,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936656,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936658,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936243,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137766,
+          mid: 931931,
           rcur: 'USD'
         }
       }, {
@@ -2028,6 +1678,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '320x100',
           m: '1'
@@ -2123,43 +1774,13 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936351,
+          mid: 931941,
           rcur: 'USD'
         }
       }, {
         bidder: 'adform',
         params: {
-          mid: 936349,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936350,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936245,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137815,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1245756,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1245757,
+          mid: 1068833,
           rcur: 'USD'
         }
       }, {
@@ -2181,6 +1802,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: 'interscroller',
           m: '1'
@@ -2188,6 +1810,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '300x300_1',
           m: '1'
@@ -2270,31 +1893,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936356,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936352,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936353,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936248,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137821,
+          mid: 931942,
           rcur: 'USD'
         }
       }, {
@@ -2316,6 +1915,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '300x300_2',
           m: '1'
@@ -2398,31 +1998,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936361,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936357,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936360,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936259,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137822,
+          mid: 931943,
           rcur: 'USD'
         }
       }, {
@@ -2438,6 +2014,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '300x300_3',
           m: '1'
@@ -2490,7 +2067,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: '',
+          mid: 931944,
           rcur: 'USD'
         }
       }, {
@@ -2506,6 +2083,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '300x300_4',
           m: '1'
@@ -2587,31 +2165,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936366,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936363,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936364,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936260,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137770,
+          mid: 931951,
           rcur: 'USD'
         }
       }, {
@@ -2627,6 +2181,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '300x300_6',
           m: '1'
@@ -2657,6 +2212,7 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '970x310',
           m: '1'
@@ -2730,31 +2286,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 936337,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936335,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936336,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 936227,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1137775,
+          mid: 931851,
           rcur: 'USD'
         }
       }, {
@@ -2770,6 +2302,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'pomo.csfd.cz',
           g: 'hb',
           p: '480x300_2',
           m: '0'
