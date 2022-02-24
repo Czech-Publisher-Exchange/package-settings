@@ -21,7 +21,7 @@ window.cpexWebsiteSettings = {
   },
   headerbidding: {
     adUnits: [{
-      code: 'halfpagead-horni',
+      code: 'iinfo-area-halfpagead-horni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -72,13 +72,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 690542,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 690640,
+          mid: 727305,
           rcur: 'USD'
         }
       }, {
@@ -94,13 +88,14 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'slunecnice.cz',
           g: 'hb',
           p: '300x600',
           m: '0'
         }
       }]
     }, {
-      code: 'halfpagead-spodni',
+      code: 'iinfo-area-halfpagead-spodni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -151,13 +146,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 1057034,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1057038,
+          mid: 727311,
           rcur: 'USD'
         }
       }, {
@@ -173,13 +162,14 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'slunecnice.cz',
           g: 'hb',
           p: '300x300_1',
           m: '0'
         }
       }]
     }, {
-      code: 'leaderboard',
+      code: 'iinfo-area-leaderboard',
       mediaTypes: {
         banner: {
           sizes: [
@@ -229,13 +219,13 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 690538,
+          mid: 727306,
           rcur: 'USD'
         }
       }, {
         bidder: 'adform',
         params: {
-          mid: 690636,
+          mid: 727307,
           rcur: 'USD'
         }
       }, {
@@ -251,6 +241,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'slunecnice.cz',
           g: 'hb',
           p: 'branding',
           m: '0'
@@ -258,13 +249,14 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'slunecnice.cz',
           g: 'hb',
           p: '998x200',
           m: '0'
         }
       }]
     }, {
-      code: 'leaderboard',
+      code: 'iinfo-area-leaderboard',
       mediaTypes: {
         banner: {
           sizes: [
@@ -311,13 +303,13 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 690538,
+          mid: 727306,
           rcur: 'USD'
         }
       }, {
         bidder: 'adform',
         params: {
-          mid: 690636,
+          mid: 727307,
           rcur: 'USD'
         }
       }, {
@@ -333,13 +325,14 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'slunecnice.cz',
           g: 'hb',
           p: '998x200',
           m: '0'
         }
       }]
     }, {
-      code: 'big-rectangle',
+      code: 'iinfo-area-big-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -388,13 +381,13 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 690543,
+          mid: 727303,
           rcur: 'USD'
         }
       }, {
         bidder: 'adform',
         params: {
-          mid: 690641,
+          mid: 727304,
           rcur: 'USD'
         }
       }, {
@@ -410,13 +403,14 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'slunecnice.cz',
           g: 'hb',
           p: '970x310',
           m: '0'
         }
       }]
     }, {
-      code: 'big-rectangle',
+      code: 'iinfo-area-big-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -464,13 +458,13 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 690543,
+          mid: 727303,
           rcur: 'USD'
         }
       }, {
         bidder: 'adform',
         params: {
-          mid: 690641,
+          mid: 727304,
           rcur: 'USD'
         }
       }, {
@@ -486,13 +480,14 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'slunecnice.cz',
           g: 'hb',
           p: '970x310',
           m: '0'
         }
       }]
     }, {
-      code: 'rectangle',
+      code: 'iinfo-area-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -541,13 +536,13 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 690539,
+          mid: 727308,
           rcur: 'USD'
         }
       }, {
         bidder: 'adform',
         params: {
-          mid: 690637,
+          mid: 727309,
           rcur: 'USD'
         }
       }, {
@@ -563,13 +558,14 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'slunecnice.cz',
           g: 'hb',
           p: '480x300',
           m: '0'
         }
       }]
     }, {
-      code: 'rectangle',
+      code: 'iinfo-area-rectangle',
       mediaTypes: {
         native: {}
       },
@@ -584,7 +580,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'spodni-square-banner',
+      code: 'iinfo-area-spodni-square-banner',
       mediaTypes: {
         banner: {
           sizes: [
@@ -634,13 +630,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 690541,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 690639,
+          mid: 727310,
           rcur: 'USD'
         }
       }, {
@@ -656,6 +646,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'slunecnice.cz',
           g: 'hb',
           p: '300x300_2',
           m: '0'
