@@ -137,7 +137,7 @@ window.cpexWebsiteSettings = {
         params: {
           accountId: '10900',
           siteId: '361048',
-          zoneId: '1965824',
+          zoneId: '2323870',
           position: 'atf',
           sizes: ['83', '48', '15']
         }
@@ -328,7 +328,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '21010492'
+          placementId: '24418823'
         }
       }, {
         bidder: 'r2b2',
