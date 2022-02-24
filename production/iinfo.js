@@ -15,6 +15,7 @@ window.cpexPublisherSettings = {
       index: 3,
       magnite: 4,
       xandr: 5
-    }
+    },
+    areaKey: 'iinfoArea'
   }
 }
