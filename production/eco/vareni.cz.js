@@ -60,6 +60,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'vareni.cz',
           g: 'hb',
           p: '728x90',
           m: '0'
@@ -116,6 +117,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'vareni.cz',
           g: 'hb',
           p: '970x210',
           m: '0'
@@ -170,6 +172,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'vareni.cz',
           g: 'hb',
           p: '480x300_pos1',
           m: '0'
@@ -215,6 +218,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'vareni.cz',
           g: 'hb',
           p: '480x300_pos2',
           m: '0'
@@ -333,6 +337,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'vareni.cz',
           g: 'hb',
           p: '300x600_pos1',
           m: '0'
@@ -388,11 +393,21 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'vareni.cz',
           g: 'hb',
           p: '300x600_pos2',
           m: '0'
         }
       }]
     }]
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementById('reklama-leader-wrapper'))
+    },
+    interscroller: {
+      enabled: true
+    }
   }
 }
