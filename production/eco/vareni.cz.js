@@ -23,24 +23,6 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
-        bidder: 'rubicon',
-        params: {
-          accountId: '10900',
-          siteId: '361048',
-          zoneId: '1965808',
-          position: 'atf',
-          sizes: ['230', '94', '57', '96', '95', '2']
-        }
-      }, {
-        bidder: 'rubicon',
-        params: {
-          accountId: '10900',
-          siteId: '361464',
-          zoneId: '1965810',
-          position: 'atf',
-          sizes: ['230', '94', '57', '96', '95', '2']
-        }
-      }, {
         bidder: 'adform',
         params: {
           mid: 1109659,
