@@ -139,7 +139,7 @@ window.cpexWebsiteSettings = {
         params: {
           accountId: '10900',
           siteId: '361048',
-          zoneId: '2323870',
+          zoneId: '1965824',
           position: 'atf',
           sizes: ['83', '48', '15']
         }
@@ -332,7 +332,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '24418823'
+          placementId: '21010492'
         }
       }, {
         bidder: 'r2b2',
@@ -360,7 +360,7 @@ window.cpexWebsiteSettings = {
         params: {
           accountId: '10900',
           siteId: '361048',
-          zoneId: '2323870',
+          zoneId: '1958642',
           position: 'atf',
           sizes: ['10', '9', '48', '15']
         }
