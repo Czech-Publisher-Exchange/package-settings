@@ -9,7 +9,7 @@ window.cpexWebsiteSettings = {
   },
   headerbidding: {
     adUnits: [{
-      code: 'billboard1',
+      code: 'div-gpt-ad-1641549911045-0',
       mediaTypes: {
         banner: {
           sizes: [
@@ -65,7 +65,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'mediumRectangle1',
+      code: 'div-gpt-ad-1641550340983-0',
       mediaTypes: {
         banner: {
           sizes: [
