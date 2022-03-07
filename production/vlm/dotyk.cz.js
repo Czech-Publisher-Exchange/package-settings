@@ -34,8 +34,8 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: '25692',
-          zoneId: '553014',
+          siteId: '144588',
+          zoneId: '2339272',
           position: 'atf',
           sizes: ['2', '96', '230', '57']
         }
@@ -48,21 +48,6 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_leaderboard-top'
-        }
-      }]
-    }, {
-      code: 'leaderboard-top',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [2000, 1400]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'appnexus',
-        params: {
-          placementId: '18682439'
         }
       }]
     }, {
@@ -208,8 +193,8 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: '46272',
-          zoneId: '1650468',
+          siteId: '46270',
+          zoneId: '2339270',
           position: 'atf',
           sizes: ['15', '48', '256']
         }
@@ -263,7 +248,8 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [320, 150]
+            [320, 150],
+            [300, 250]
           ]
         }
       },
@@ -274,16 +260,16 @@ window.cpexWebsiteSettings = {
           siteId: '46270',
           zoneId: '1077194',
           position: 'atf',
-          sizes: ['60']
+          sizes: ['60', '15']
         }
       }, {
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: '46272',
-          zoneId: '1077196',
+          siteId: '46270',
+          zoneId: '2339266',
           position: 'atf',
-          sizes: ['60']
+          sizes: ['60', '15']
         }
       }]
     }, {
@@ -343,8 +329,8 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: '144590',
-          zoneId: '1389456',
+          siteId: '144588',
+          zoneId: '2339274',
           position: 'atf',
           sizes: ['90']
         }
@@ -371,8 +357,8 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: '144590',
-          zoneId: '1389456',
+          siteId: '144588',
+          zoneId: '2339274',
           position: 'atf',
           sizes: ['90']
         }
@@ -399,8 +385,8 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           accountId: '10900',
-          siteId: '144590',
-          zoneId: '1389456',
+          siteId: '144588',
+          zoneId: '2339274',
           position: 'atf',
           sizes: ['90']
         }
