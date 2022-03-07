@@ -425,5 +425,14 @@ window.cpexWebsiteSettings = {
         console.log('ad rendered, data: ', e)
       })
     })
+  },
+  adserver: {
+    adapter: 'sastracker',
+    allowedSSPs: {
+      pubmatic: 1,
+      index: 3,
+      magnite: 4,
+      xandr: 5
+    }
   }
 }
