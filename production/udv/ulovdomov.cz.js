@@ -27,7 +27,7 @@ window.cpexWebsiteSettings = {
           siteId: '401296',
           zoneId: '2249216',
           position: 'atf',
-          sizes: ['94', '57', '96', '55', '2']
+          sizes: ['94', '57', '96', '55']
         }
       }, {
         bidder: 'rubicon',
@@ -36,7 +36,7 @@ window.cpexWebsiteSettings = {
           siteId: '401294',
           zoneId: '2249194',
           position: 'atf',
-          sizes: ['94', '57', '96', '55', '2']
+          sizes: ['94', '57', '96', '55']
         }
       }, {
         bidder: 'pubmatic',
@@ -53,8 +53,7 @@ window.cpexWebsiteSettings = {
             [970, 310],
             [970, 250],
             [970, 210],
-            [970, 90],
-            [728, 90]
+            [970, 90]
           ]
         }
       }, {
@@ -80,7 +79,7 @@ window.cpexWebsiteSettings = {
           siteId: '401296',
           zoneId: '2249218',
           position: 'atf',
-          sizes: ['48', '15', '14']
+          sizes: ['48', '15']
         }
       }, {
         bidder: 'rubicon',
@@ -89,7 +88,7 @@ window.cpexWebsiteSettings = {
           siteId: '401294',
           zoneId: '2249212',
           position: 'atf',
-          sizes: ['48', '15', '14']
+          sizes: ['48', '15']
         }
       }, {
         bidder: 'pubmatic',
@@ -104,8 +103,7 @@ window.cpexWebsiteSettings = {
           id: '184929',
           size: [
             [300, 300],
-            [300, 250],
-            [250, 250]
+            [300, 250]
           ]
         }
       }, {
