@@ -27,7 +27,7 @@ window.cpexWebsiteSettings = {
           siteId: '401296',
           zoneId: '2249216',
           position: 'atf',
-          sizes: ['94', '57', '96', '55']
+          sizes: ['55', '57', '96', '94']
         }
       }, {
         bidder: 'rubicon',
@@ -36,7 +36,7 @@ window.cpexWebsiteSettings = {
           siteId: '401294',
           zoneId: '2249194',
           position: 'atf',
-          sizes: ['94', '57', '96', '55']
+          sizes: ['55', '57', '96', '94']
         }
       }, {
         bidder: 'pubmatic',
