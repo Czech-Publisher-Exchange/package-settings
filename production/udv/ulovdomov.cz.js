@@ -13,10 +13,9 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [970, 310],
             [970, 250],
             [970, 210],
-            [970, 90]
+            [970, 310]
           ]
         }
       },
@@ -27,7 +26,7 @@ window.cpexWebsiteSettings = {
           siteId: '401296',
           zoneId: '2249216',
           position: 'atf',
-          sizes: ['55', '57', '96', '94']
+          sizes: ['57', '96', '94']
         }
       }, {
         bidder: 'rubicon',
@@ -36,7 +35,7 @@ window.cpexWebsiteSettings = {
           siteId: '401294',
           zoneId: '2249194',
           position: 'atf',
-          sizes: ['55', '57', '96', '94']
+          sizes: ['57', '96', '94']
         }
       }, {
         bidder: 'pubmatic',
