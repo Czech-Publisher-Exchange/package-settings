@@ -42,12 +42,6 @@ window.cpexWebsiteSettings = {
           sizes: ['57', '96', '95', '2']
         }
       }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 1334582,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'adform',
         params: {
           mid: 1148666,
@@ -105,12 +99,6 @@ window.cpexWebsiteSettings = {
           sizes: ['10', '9', '8', '48', '15']
         }
       }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 1334586,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'adform',
         params: {
           mid: 1148675,
@@ -165,12 +153,6 @@ window.cpexWebsiteSettings = {
           zoneId: '2142936',
           position: 'atf',
           sizes: ['48', '15', '14', '44']
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 1334589,
-          rcur: 'USD'
         }
       }, {
         bidder: 'adform',
