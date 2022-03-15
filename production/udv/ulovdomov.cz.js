@@ -13,9 +13,11 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [970, 310],
             [970, 250],
             [970, 210],
-            [970, 310]
+            [970, 90],
+            [728, 90]
           ]
         }
       },
@@ -26,7 +28,7 @@ window.cpexWebsiteSettings = {
           siteId: '401296',
           zoneId: '2249216',
           position: 'atf',
-          sizes: ['57', '96', '94']
+          sizes: ['94', '57', '96', '55', '2']
         }
       }, {
         bidder: 'rubicon',
@@ -35,13 +37,13 @@ window.cpexWebsiteSettings = {
           siteId: '401294',
           zoneId: '2249194',
           position: 'atf',
-          sizes: ['57', '96', '94']
+          sizes: ['94', '57', '96', '55', '2']
         }
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '401294'
+          adSlot: '4165271'
         }
       }, {
         bidder: 'ix',
@@ -52,7 +54,8 @@ window.cpexWebsiteSettings = {
             [970, 310],
             [970, 250],
             [970, 210],
-            [970, 90]
+            [970, 90],
+            [728, 90]
           ]
         }
       }, {
@@ -67,7 +70,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [250, 250]
           ]
         }
       },
@@ -78,7 +82,7 @@ window.cpexWebsiteSettings = {
           siteId: '401296',
           zoneId: '2249218',
           position: 'atf',
-          sizes: ['48', '15']
+          sizes: ['48', '15', '14']
         }
       }, {
         bidder: 'rubicon',
@@ -87,13 +91,13 @@ window.cpexWebsiteSettings = {
           siteId: '401294',
           zoneId: '2249212',
           position: 'atf',
-          sizes: ['48', '15']
+          sizes: ['48', '15', '14']
         }
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '401294'
+          adSlot: '4165272'
         }
       }, {
         bidder: 'ix',
@@ -102,7 +106,8 @@ window.cpexWebsiteSettings = {
           id: '184929',
           size: [
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [250, 250]
           ]
         }
       }, {
