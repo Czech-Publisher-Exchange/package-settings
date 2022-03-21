@@ -9,7 +9,7 @@ window.cpexWebsiteSettings = {
   },
   headerbidding: {
     adUnits: [{
-      code: 'reklama-leader',
+      code: 'leader',
       mediaTypes: {
         banner: {
           sizes: [
@@ -427,6 +427,67 @@ window.cpexWebsiteSettings = {
           g: 'hb',
           p: '300x600_pos2',
           m: '0'
+        }
+      }]
+    }, {
+      code: 'mediumrectangle-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [250, 250],
+            [300, 50]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          accountId: '10900',
+          siteId: '361516',
+          zoneId: '1965840',
+          position: 'atf',
+          sizes: ['48', '15', '14', '44']
+        }
+      }, {
+        bidder: 'rubicon',
+        params: {
+          accountId: '10900',
+          siteId: '361522',
+          zoneId: '1965842',
+          position: 'atf',
+          sizes: ['48', '15', '14', '44']
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1109667,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: '759663'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: '136835',
+          pageId: '150211'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '21011832'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          g: 'hb',
+          p: '300x250_pos2',
+          m: '1'
         }
       }]
     }]
