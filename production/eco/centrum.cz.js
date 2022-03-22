@@ -36,7 +36,10 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 385180,
-          zoneId: 2142928
+          zoneId: 2142928,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [57, 96, 95, 2]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -114,7 +117,10 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 385180,
-          zoneId: 2142944
+          zoneId: 2142944,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 8, 48, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -191,7 +197,10 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 385180,
-          zoneId: 2142936
+          zoneId: 2142936,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14, 44]
         },
         bidderModuleName: 'rubicon'
       }, {
