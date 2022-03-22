@@ -35,5 +35,8 @@ window.cpexPublisherSettings = {
       teads: 'teads',
       rtbhouse: 'rtbhouse'
     }
+  },
+  headerbidding: {
+    auctionTimeoutMs: 2000
   }
 }
