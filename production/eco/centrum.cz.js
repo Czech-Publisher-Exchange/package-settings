@@ -45,7 +45,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic_eco_hb',
         params: {
-          publisherId: 161532,
+          publisherId: '161532',
           adSlot: 4344934
         },
         bidderModuleName: 'pubmatic'
@@ -126,7 +126,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic_eco_hb',
         params: {
-          publisherId: 161532,
+          publisherId: '161532',
           adSlot: 4344934
         },
         bidderModuleName: 'pubmatic'
@@ -206,7 +206,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic_eco_hb',
         params: {
-          publisherId: 161532,
+          publisherId: '161532',
           adSlot: 4344934
         },
         bidderModuleName: 'pubmatic'
