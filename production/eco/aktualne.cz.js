@@ -43,7 +43,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: 4344927
+          adSlot: '4344927'
         },
         bidderModuleName: 'pubmatic'
       }, {
@@ -119,7 +119,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: 4344925
+          adSlot: '4344925'
         },
         bidderModuleName: 'pubmatic'
       }, {
@@ -195,7 +195,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: 4344926
+          adSlot: '4344926'
         },
         bidderModuleName: 'pubmatic'
       }, {
@@ -270,7 +270,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: 4344929
+          adSlot: '4344929'
         },
         bidderModuleName: 'pubmatic'
       }, {
@@ -346,7 +346,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: 4344928
+          adSlot: '4344928'
         },
         bidderModuleName: 'pubmatic'
       }, {
