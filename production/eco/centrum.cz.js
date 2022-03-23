@@ -46,9 +46,16 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: 4344934
+          adSlot: 4344936
         },
         bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'adform_im_hb',
+        params: {
+          mid: 1334582,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
@@ -69,18 +76,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 144524
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: 158416,
-          region: 'prebid-eu'
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 22213120
+          placementId: 22213120
         }
       }, {
         bidder: 'r2b2',
@@ -127,9 +123,16 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: 4344934
+          adSlot: 4344935
         },
         bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'adform_im_hb',
+        params: {
+          mid: 1334586,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
@@ -150,18 +153,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 140099
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: 153776,
-          region: 'prebid-eu'
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 22213128
+          placementId: 22213128
         }
       }, {
         bidder: 'r2b2',
@@ -211,6 +203,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'adform_im_hb',
+        params: {
+          mid: 1334589,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1148708,
@@ -230,18 +229,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 144525
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: 158417,
-          region: 'prebid-eu'
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 22213123
+          placementId: 22213123
         }
       }, {
         bidder: 'r2b2',
@@ -253,5 +241,14 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementByClassName('sc-1cb3an8-0')[0])
+    },
+    native: {
+      enabled: true
+    }
   }
 }
