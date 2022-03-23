@@ -245,7 +245,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementByClassName('sc-1cb3an8-0')[0])
+      contentEl: (document.getElementsByClassName('sc-1cb3an8-0')[0])
     },
     native: {
       enabled: true
