@@ -419,13 +419,7 @@ window.cpexWebsiteSettings = {
       adUnit: 'm-vignette'
     }
   },
-  scripts: {
-    onload: (() => {
-      window.addEventListener('cpexAdRendered', (e) => {
-        console.log('ad rendered, data: ', e)
-      })
-    })
-  },
+  general: {},
   adserver: {
     adapter: 'sastracker',
     allowedSSPs: {

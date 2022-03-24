@@ -64,6 +64,14 @@ These are done with a simple javascript code but they have to be wrapped in brac
 
 ## Complete reference
 
+### General
+Common package configuration, mainly handling of events and scripts.
+`general: {}`
+| Attribute | Values                                              | Default    |
+|-----------|------------------------------------------------------------------|
+| `autorun` | Boolean, true starts package once loaded            | true       |
+| `onload`  | Function, executed once package is fully loaded     |            |
+
 ### Publisher info
 `publisher: {}`
 *Only used for publisher settings*
@@ -209,10 +217,3 @@ Explained here: [TestCreatives](./FORMATS.md#testing)
 | `html`    | String, Embedded HTML of the test creative                       |
 | `width`   | Number in pixels                                                 |
 | `height`  | Number in pixels                                                 |
-
-### Scripts
-Here you can add any custom javascript code
-`scripts: {}`
-| Attribute | Values                                                           |
-|-----------|------------------------------------------------------------------|
-| `onload`  | Function, executed once package is fully loaded                  |
