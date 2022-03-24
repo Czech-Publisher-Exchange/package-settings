@@ -37,6 +37,6 @@ window.cpexPublisherSettings = {
     }
   },
   headerbidding: {
-    auctionTimeoutMs: 2500
+    auctionTimeoutMs: 2600
   }
 }
