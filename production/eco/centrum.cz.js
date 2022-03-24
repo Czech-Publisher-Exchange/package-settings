@@ -83,7 +83,7 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'centrum.cz',
           p: '728x90_2',
-          m: '0',
+          m: 0,
           g: 'hb'
         }
       }]
@@ -160,7 +160,7 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'centrum.cz',
           p: '300x600',
-          m: '0',
+          m: 0,
           g: 'hb'
         }
       }]
@@ -236,7 +236,7 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'centrum.cz',
           p: '300x250',
-          m: '0',
+          m: 0,
           g: 'hb'
         }
       }]
