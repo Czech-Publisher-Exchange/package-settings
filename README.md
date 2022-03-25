@@ -138,6 +138,7 @@ Common package configuration, mainly handling of events and scripts.
 |---------------|-------------------------------------------------|------------|
 | `enabled`     | Boolean                                         | true       |
 | `prebidPath`  | String URL | https://cdn.cpex.cz/hb/prebid/prebid.min.js     |
+| `currency`    | String, converts CPM into this currency         | 'USD'      |
 | `prebidDebug` | Boolean, Toggles debug logging from Prebid      | false      |
 | `adUnits`     | Array of AdUnit Objects + custom `filter`       | []         |
 
