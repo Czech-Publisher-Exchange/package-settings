@@ -80,7 +80,7 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'aktualne.cz',
           p: '728x90_2',
-          m: '0',
+          m: 0,
           g: 'hb'
         }
       }]
@@ -156,7 +156,7 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'aktualne.cz',
           p: '300x600_1',
-          m: '0',
+          m: 0,
           g: 'hb'
         }
       }]
@@ -232,7 +232,7 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'aktualne.cz',
           p: '300x600_2',
-          m: '0',
+          m: 0,
           g: 'hb'
         }
       }]
@@ -307,7 +307,7 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'aktualne.cz',
           p: '480x300',
-          m: '0',
+          m: 0,
           g: 'hb'
         }
       }]
@@ -383,10 +383,20 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'aktualne.cz',
           p: '970x210_2',
-          m: '0',
+          m: 0,
           g: 'hb'
         }
       }]
-    }]
+    }],
+    currency: 'USD'
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementsByClassName('page')[0])
+    },
+    interscroller: {
+      enabled: true
+    }
   }
 }
