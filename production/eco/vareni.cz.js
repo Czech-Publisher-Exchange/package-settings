@@ -13,6 +13,48 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 361048,
+          zoneId: 1958646,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 361464,
+          zoneId: 1958648,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 21025308
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'leader',
+      mediaTypes: {
+        banner: {
+          sizes: [
             [2000, 1400],
             [970, 310],
             [970, 250],
@@ -25,21 +67,29 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361048,
+          zoneId: 1965808,
           accountId: '10900',
-          siteId: '361048',
-          zoneId: '1965808',
           position: 'atf',
-          sizes: ['230', '94', '57', '96', '95', '2']
+          sizes: [230, 94, 57, 96, 95, 2]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 361464,
+          zoneId: 1965810,
           accountId: '10900',
-          siteId: '361464',
-          zoneId: '1965810',
           position: 'atf',
-          sizes: ['230', '94', '57', '96', '95', '2']
-        }
+          sizes: [230, 94, 57, 96, 95, 2]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: 4344939
+        },
+        bidderModuleName: 'pubmatic'
       }, {
         bidder: 'adform',
         params: {
@@ -49,26 +99,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: '759661'
+          siteId: 759661
         }
       }, {
         bidder: 'teads',
         params: {
-          placementId: '140017',
-          pageId: '153681'
+          placementId: 140017,
+          pageId: 153681
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '21011671'
+          placementId: 21011671
         }
       }, {
         bidder: 'r2b2',
         params: {
           d: 'vareni.cz',
-          g: 'hb',
           p: '728x90',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -87,21 +137,29 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361048,
+          zoneId: 1965820,
           accountId: '10900',
-          siteId: '361048',
-          zoneId: '1965820',
           position: 'atf',
-          sizes: ['94', '57', '96', '95', '2']
+          sizes: [94, 57, 96, 95, 2]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 361464,
+          zoneId: 1965822,
           accountId: '10900',
-          siteId: '361464',
-          zoneId: '1965822',
           position: 'atf',
-          sizes: ['94', '57', '96', '95', '2']
-        }
+          sizes: [94, 57, 96, 95, 2]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: 4344940
+        },
+        bidderModuleName: 'pubmatic'
       }, {
         bidder: 'adform',
         params: {
@@ -111,26 +169,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: '759665'
+          siteId: 759665
         }
       }, {
         bidder: 'teads',
         params: {
-          placementId: '140017',
-          pageId: '153681'
+          placementId: 140017,
+          pageId: 153681
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '21011717'
+          placementId: 21011717
         }
       }, {
         bidder: 'r2b2',
         params: {
           d: 'vareni.cz',
-          g: 'hb',
           p: '970x210',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -147,21 +205,29 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361048,
+          zoneId: 1965824,
           accountId: '10900',
-          siteId: '361048',
-          zoneId: '1965824',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: [83, 48, 15]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 361464,
+          zoneId: 1965826,
           accountId: '10900',
-          siteId: '361464',
-          zoneId: '1965826',
           position: 'atf',
-          sizes: ['83', '48', '15']
-        }
+          sizes: [83, 48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: 4344941
+        },
+        bidderModuleName: 'pubmatic'
       }, {
         bidder: 'adform',
         params: {
@@ -171,26 +237,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: '759667'
+          siteId: 759667
         }
       }, {
         bidder: 'teads',
         params: {
-          placementId: '140017',
-          pageId: '153680'
+          placementId: 140017,
+          pageId: 153680
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '21011721'
+          placementId: 21011721
         }
       }, {
         bidder: 'r2b2',
         params: {
           d: 'vareni.cz',
-          g: 'hb',
           p: '480x300_pos1',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -207,12 +273,19 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361048,
+          zoneId: 1965828,
           accountId: '10900',
-          siteId: '361048',
-          zoneId: '1965828',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: [83, 48, 15]
         }
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: 4344942
+        },
+        bidderModuleName: 'pubmatic'
       }, {
         bidder: 'adform',
         params: {
@@ -222,26 +295,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: '759668'
+          siteId: 759668
         }
       }, {
         bidder: 'teads',
         params: {
-          placementId: '140017',
-          pageId: '153680'
+          placementId: 140017,
+          pageId: 153680
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '21011729'
+          placementId: 21011729
         }
       }, {
         bidder: 'r2b2',
         params: {
           d: 'vareni.cz',
-          g: 'hb',
           p: '480x300_pos2',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -258,11 +331,11 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361464,
+          zoneId: 1965830,
           accountId: '10900',
-          siteId: '361464',
-          zoneId: '1965830',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: [83, 48, 15]
         }
       }]
     }, {
@@ -279,11 +352,11 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361522,
+          zoneId: 1965838,
           accountId: '10900',
-          siteId: '361522',
-          zoneId: '1965838',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: [83, 48, 15]
         }
       }]
     }, {
@@ -300,11 +373,11 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361522,
+          zoneId: 1965842,
           accountId: '10900',
-          siteId: '361522',
-          zoneId: '1965842',
           position: 'atf',
-          sizes: ['83', '48', '15']
+          sizes: [83, 48, 15]
         }
       }]
     }, {
@@ -322,21 +395,29 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361048,
+          zoneId: 1958638,
           accountId: '10900',
-          siteId: '361048',
-          zoneId: '1958638',
           position: 'atf',
-          sizes: ['10', '9', '48', '15']
+          sizes: [10, 9, 48, 15]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 361464,
+          zoneId: 1958640,
           accountId: '10900',
-          siteId: '361464',
-          zoneId: '1958640',
           position: 'atf',
-          sizes: ['10', '9', '48', '15']
-        }
+          sizes: [10, 9, 48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: 4344937
+        },
+        bidderModuleName: 'pubmatic'
       }, {
         bidder: 'adform',
         params: {
@@ -346,26 +427,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: '759659'
+          siteId: 759659
         }
       }, {
         bidder: 'teads',
         params: {
-          placementId: '140017',
-          pageId: '153681'
+          placementId: 140017,
+          pageId: 153681
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '21010492'
+          placementId: 21010492
         }
       }, {
         bidder: 'r2b2',
         params: {
           d: 'vareni.cz',
-          g: 'hb',
           p: '300x600_pos1',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -383,21 +464,29 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361048,
+          zoneId: 1958642,
           accountId: '10900',
-          siteId: '361048',
-          zoneId: '1958642',
           position: 'atf',
-          sizes: ['10', '9', '48', '15']
+          sizes: [10, 9, 48, 15]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 361464,
+          zoneId: 1958644,
           accountId: '10900',
-          siteId: '361464',
-          zoneId: '1958644',
           position: 'atf',
-          sizes: ['10', '9', '48', '15']
-        }
+          sizes: [10, 9, 48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: 4344938
+        },
+        bidderModuleName: 'pubmatic'
       }, {
         bidder: 'adform',
         params: {
@@ -407,26 +496,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: '759660'
+          siteId: 759660
         }
       }, {
         bidder: 'teads',
         params: {
-          placementId: '140017',
-          pageId: '153681'
+          placementId: 140017,
+          pageId: 153681
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '21011627'
+          placementId: 21011627
         }
       }, {
         bidder: 'r2b2',
         params: {
           d: 'vareni.cz',
-          g: 'hb',
           p: '300x600_pos2',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -444,21 +533,29 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 361516,
+          zoneId: 1965840,
           accountId: '10900',
-          siteId: '361516',
-          zoneId: '1965840',
           position: 'atf',
-          sizes: ['48', '15', '14', '44']
+          sizes: [48, 15, 14, 44]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 361522,
+          zoneId: 1965842,
           accountId: '10900',
-          siteId: '361522',
-          zoneId: '1965842',
           position: 'atf',
-          sizes: ['48', '15', '14', '44']
-        }
+          sizes: [48, 15, 14, 44]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: 4344945
+        },
+        bidderModuleName: 'pubmatic'
       }, {
         bidder: 'adform',
         params: {
@@ -468,26 +565,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: '759663'
+          siteId: 759663
         }
       }, {
         bidder: 'teads',
         params: {
-          placementId: '136835',
-          pageId: '150211'
+          placementId: 136835,
+          pageId: 150211
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '21011832'
+          placementId: 21011832
         }
       }, {
         bidder: 'r2b2',
         params: {
           d: 'vareni.cz',
-          g: 'hb',
           p: '300x250_pos2',
-          m: '1'
+          m: 1,
+          g: 'hb'
         }
       }]
     }]
