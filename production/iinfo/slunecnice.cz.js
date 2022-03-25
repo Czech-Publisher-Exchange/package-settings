@@ -39,39 +39,42 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 265202,
+          zoneId: 1336786,
           accountId: '10900',
-          siteId: '265202',
-          zoneId: '1336786',
           position: 'atf',
-          sizes: ['10', '9', '8', '15', '48']
+          sizes: [10, 9, 8, 15, 48]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 265182,
+          zoneId: 1336784,
           accountId: '10900',
-          siteId: '265182',
-          zoneId: '1336784',
           position: 'atf',
-          sizes: ['10', '9', '8', '15', '48']
-        }
+          sizes: [10, 9, 8, 15, 48]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158732',
-          adSlot: '265182'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690542,
-          rcur: 'USD'
+          publisherId: 158732,
+          adSlot: 3951706
         }
       }, {
         bidder: 'im-adform',
         params: {
           mid: 690640,
           rcur: 'USD'
-        }
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690640,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
@@ -81,7 +84,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '16315603'
+          placementId: 16315603
         }
       }, {
         bidder: 'triplelift',
@@ -92,9 +95,9 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          g: 'hb',
           p: '300x600',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -113,39 +116,42 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 265202,
+          zoneId: 2088342,
           accountId: '10900',
-          siteId: '265202',
-          zoneId: '2088342',
           position: 'atf',
-          sizes: ['10', '9', '8', '15', '48']
+          sizes: [10, 9, 8, 15, 48]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 265182,
+          zoneId: 2088344,
           accountId: '10900',
-          siteId: '265182',
-          zoneId: '2088344',
           position: 'atf',
-          sizes: ['10', '9', '8', '15', '48']
-        }
+          sizes: [10, 9, 8, 15, 48]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158732',
-          adSlot: '265182'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 1057034,
-          rcur: 'USD'
+          publisherId: 158732,
+          adSlot: 3735837
         }
       }, {
         bidder: 'im-adform',
         params: {
           mid: 1057038,
           rcur: 'USD'
-        }
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 1057038,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
@@ -155,7 +161,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '21786364'
+          placementId: 21786364
         }
       }, {
         bidder: 'triplelift',
@@ -166,9 +172,9 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          g: 'hb',
           p: '300x300_1',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -186,43 +192,46 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 265202,
+          zoneId: 1336774,
           accountId: '10900',
-          siteId: '265202',
-          zoneId: '1336774',
           position: 'atf',
-          sizes: ['2', '96', '259', '230']
+          sizes: [2, 96, 259, 230]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 265182,
+          zoneId: 1336772,
           accountId: '10900',
-          siteId: '265182',
-          zoneId: '1336772',
           position: 'atf',
-          sizes: ['2', '96', '259', '230']
-        }
+          sizes: [2, 96, 259, 230]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158732',
-          adSlot: '265182'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690538,
-          rcur: 'USD'
+          publisherId: 158732,
+          adSlot: 3951705
         }
       }, {
         bidder: 'im-adform',
         params: {
           mid: 690636,
           rcur: 'USD'
-        }
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690636,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
-          mid: 727306,
+          mid: 727307,
           rcur: 'USD'
         }
       }, {
@@ -234,7 +243,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '16315599'
+          placementId: 16315599
         }
       }, {
         bidder: 'triplelift',
@@ -245,17 +254,17 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          g: 'hb',
-          p: 'branding',
-          m: '0'
+          p: 'branding, 998x200',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          g: 'hb',
-          p: '998x200',
-          m: '0'
+          p: 'branding, 998x200',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -270,43 +279,46 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 265202,
+          zoneId: 1336774,
           accountId: '10900',
-          siteId: '265202',
-          zoneId: '1336774',
           position: 'atf',
-          sizes: ['117']
+          sizes: [117]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 265182,
+          zoneId: 1336772,
           accountId: '10900',
-          siteId: '265182',
-          zoneId: '1336772',
           position: 'atf',
-          sizes: ['117']
-        }
+          sizes: [117]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158732',
-          adSlot: '265182'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690538,
-          rcur: 'USD'
+          publisherId: 158732,
+          adSlot: 3951705
         }
       }, {
         bidder: 'im-adform',
         params: {
           mid: 690636,
           rcur: 'USD'
-        }
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690636,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
-          mid: 727306,
+          mid: 727307,
           rcur: 'USD'
         }
       }, {
@@ -318,7 +330,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '16315599'
+          placementId: 16315599
         }
       }, {
         bidder: 'triplelift',
@@ -329,9 +341,9 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          g: 'hb',
           p: '998x200',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -348,43 +360,46 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 265202,
+          zoneId: 1336806,
           accountId: '10900',
-          siteId: '265202',
-          zoneId: '1336806',
           position: 'atf',
-          sizes: ['94', '96', '57']
+          sizes: [94, 96, 57]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 265182,
+          zoneId: 1336804,
           accountId: '10900',
-          siteId: '265182',
-          zoneId: '1336804',
           position: 'atf',
-          sizes: ['94', '96', '57']
-        }
+          sizes: [94, 96, 57]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158732',
-          adSlot: '265182'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690543,
-          rcur: 'USD'
+          publisherId: 158732,
+          adSlot: 3951707
         }
       }, {
         bidder: 'im-adform',
         params: {
           mid: 690641,
           rcur: 'USD'
-        }
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690641,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
-          mid: 727303,
+          mid: 727304,
           rcur: 'USD'
         }
       }, {
@@ -396,7 +411,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '16315604'
+          placementId: 16315604
         }
       }, {
         bidder: 'triplelift',
@@ -407,9 +422,9 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          g: 'hb',
           p: '970x310',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -425,43 +440,46 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 265202,
+          zoneId: 1336806,
           accountId: '10900',
-          siteId: '265202',
-          zoneId: '1336806',
           position: 'atf',
-          sizes: ['15', '48']
+          sizes: [15, 48]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 265182,
+          zoneId: 1336804,
           accountId: '10900',
-          siteId: '265182',
-          zoneId: '1336804',
           position: 'atf',
-          sizes: ['15', '48']
-        }
+          sizes: [15, 48]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158732',
-          adSlot: '265182'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690543,
-          rcur: 'USD'
+          publisherId: 158732,
+          adSlot: 3951707
         }
       }, {
         bidder: 'im-adform',
         params: {
           mid: 690641,
           rcur: 'USD'
-        }
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690641,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
-          mid: 727303,
+          mid: 727304,
           rcur: 'USD'
         }
       }, {
@@ -473,7 +491,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '16315604'
+          placementId: 16315604
         }
       }, {
         bidder: 'triplelift',
@@ -484,9 +502,9 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          g: 'hb',
           p: '970x310',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -503,43 +521,46 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 265202,
+          zoneId: 1336794,
           accountId: '10900',
-          siteId: '265202',
-          zoneId: '1336794',
           position: 'atf',
-          sizes: ['83', '15', '48']
+          sizes: [83, 15, 48]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 265182,
+          zoneId: 1336792,
           accountId: '10900',
-          siteId: '265182',
-          zoneId: '1336792',
           position: 'atf',
-          sizes: ['83', '15', '48']
-        }
+          sizes: [83, 15, 48]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158732',
-          adSlot: '265182'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690539,
-          rcur: 'USD'
+          publisherId: 158732,
+          adSlot: 3951708
         }
       }, {
         bidder: 'im-adform',
         params: {
           mid: 690637,
           rcur: 'USD'
-        }
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690637,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
-          mid: 727308,
+          mid: 727309,
           rcur: 'USD'
         }
       }, {
@@ -551,7 +572,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '16315600'
+          placementId: 16315600
         }
       }, {
         bidder: 'triplelift',
@@ -562,9 +583,9 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          g: 'hb',
           p: '480x300',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -575,11 +596,11 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 265202,
+          zoneId: 1497418,
           accountId: '10900',
-          siteId: '265202',
-          zoneId: '1497418',
           position: 'atf',
-          sizes: ['90']
+          sizes: [90]
         }
       }]
     }, {
@@ -597,39 +618,42 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 265202,
+          zoneId: 1336782,
           accountId: '10900',
-          siteId: '265202',
-          zoneId: '1336782',
           position: 'atf',
-          sizes: ['48', '15', '14', '13']
+          sizes: [48, 15, 14, 13]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 265182,
+          zoneId: 1336780,
           accountId: '10900',
-          siteId: '265182',
-          zoneId: '1336780',
           position: 'atf',
-          sizes: ['48', '15', '14', '13']
-        }
+          sizes: [48, 15, 14, 13]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158732',
-          adSlot: '265182'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690541,
-          rcur: 'USD'
+          publisherId: 158732,
+          adSlot: 3951709
         }
       }, {
         bidder: 'im-adform',
         params: {
           mid: 690639,
           rcur: 'USD'
-        }
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690639,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
@@ -639,7 +663,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '16315602'
+          placementId: 16315602
         }
       }, {
         bidder: 'triplelift',
@@ -650,9 +674,9 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          g: 'hb',
           p: '300x300_2',
-          m: '0'
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
