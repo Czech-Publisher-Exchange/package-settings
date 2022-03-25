@@ -587,7 +587,8 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
-    }]
+    }],
+    currency: 'USD'
   },
   formats: {
     skin: {
