@@ -13,54 +13,47 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [970, 310],
             [970, 250],
             [970, 210],
-            [970, 90]
+            [970, 90],
+            [970, 310]
           ]
         }
       },
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 401296,
+          zoneId: 2249216,
           accountId: '10900',
-          siteId: '401296',
-          zoneId: '2249216',
           position: 'atf',
-          sizes: ['94', '57', '96', '55']
+          sizes: [57, 96, 55, 94]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 401294,
+          zoneId: 2249194,
           accountId: '10900',
-          siteId: '401294',
-          zoneId: '2249194',
           position: 'atf',
-          sizes: ['94', '57', '96', '55']
-        }
+          sizes: [57, 96, 55, 94]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '4165271'
+          adSlot: 4165271
         }
       }, {
         bidder: 'ix',
         params: {
-          siteId: '759954',
-          id: '184929',
-          size: [
-            [970, 310],
-            [970, 250],
-            [970, 210],
-            [970, 90],
-            [728, 90]
-          ]
+          siteId: 759954
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '23725134'
+          placementId: 23725134
         }
       }]
     }, {
@@ -76,44 +69,42 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
+          siteId: 401296,
+          zoneId: 2249218,
           accountId: '10900',
-          siteId: '401296',
-          zoneId: '2249218',
           position: 'atf',
-          sizes: ['48', '15']
+          sizes: [48, 15]
         }
       }, {
-        bidder: 'rubicon',
+        bidder: 'rubicon-mask',
         params: {
+          siteId: 401294,
+          zoneId: 2249212,
           accountId: '10900',
-          siteId: '401294',
-          zoneId: '2249212',
           position: 'atf',
-          sizes: ['48', '15']
-        }
+          sizes: [48, 15]
+        },
+        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '4165272'
+          adSlot: 4165272
         }
       }, {
         bidder: 'ix',
         params: {
-          siteId: '759955',
-          id: '184929',
-          size: [
-            [300, 300],
-            [300, 250],
-            [250, 250]
-          ]
+          siteId: 759955
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '23725141'
+          placementId: 23725141
         }
       }]
     }]
+  },
+  adserver: {
+    adapter: 'googletag'
   }
 }
