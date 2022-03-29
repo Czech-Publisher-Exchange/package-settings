@@ -50,9 +50,6 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250]
           ]
-        },
-        video: {
-          playerSize: ''
         }
       },
       bids: [{
