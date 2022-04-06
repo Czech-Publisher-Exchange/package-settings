@@ -134,13 +134,14 @@ Common package configuration, mainly handling of events and scripts.
 
 ### Header-bidding
 `headerbidding: {}`
-| Attribute     | Values                                          | Default    |
-|---------------|-------------------------------------------------|------------|
-| `enabled`     | Boolean                                         | true       |
-| `prebidPath`  | String URL | https://cdn.cpex.cz/hb/prebid/prebid.min.js     |
-| `currency`    | String, converts CPM into this currency         | 'USD'      |
-| `prebidDebug` | Boolean, Toggles debug logging from Prebid      | false      |
-| `adUnits`     | Array of AdUnit Objects + custom `filter`       | []         |
+| Attribute       | Values                                          | Default  |
+|-----------------|-------------------------------------------------|----------|
+| `enabled`       | Boolean                                         | true     |
+| `prebidPath`    | String URL | https://cdn.cpex.cz/hb/prebid/prebid.min.js   |
+| `currency`      | String, converts CPM into this currency         | 'USD'    |
+| `prebidDebug`   | Boolean, Toggles debug logging from Prebid      | false    |
+| `adUnits`       | Array of AdUnit Objects + custom `filter`       | []       |
+| `analytics`     | Array, names of adapters to enable      | ['id5Analytics'] |
 
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 
