@@ -68,7 +68,7 @@ These are done with a simple javascript code but they have to be wrapped in brac
 Common package configuration, mainly handling of events and scripts.
 `general: {}`
 | Attribute | Values                                              | Default    |
-|-----------|------------------------------------------------------------------|
+|-----------|-----------------------------------------------------|------------|
 | `autorun` | Boolean, true starts package once loaded            | true       |
 | `onload`  | Function, executed once package is fully loaded     |            |
 
