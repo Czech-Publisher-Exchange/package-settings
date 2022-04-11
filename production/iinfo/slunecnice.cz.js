@@ -266,7 +266,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'iinfo-area-leaderboard',
       mediaTypes: {
@@ -345,7 +348,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'iinfo-area-big-rectangle',
       mediaTypes: {
@@ -426,7 +432,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'iinfo-area-big-rectangle',
       mediaTypes: {
@@ -506,7 +515,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'iinfo-area-rectangle',
       mediaTypes: {
