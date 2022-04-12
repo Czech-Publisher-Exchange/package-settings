@@ -1,7 +1,8 @@
 window.cpexPublisherSettings = {
   publisher: {
     code: 'impuls',
-    sellerId: '18'
+    sellerId: '018',
+    name: 'Impuls'
   },
   cmp: {
     enabled: false
