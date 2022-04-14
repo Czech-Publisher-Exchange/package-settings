@@ -36,7 +36,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('page')[0])
+      contentEl: (document.getElementsByClassName('page')[0]),
+      offset: 64
     },
     interscroller: {
       enabled: true
