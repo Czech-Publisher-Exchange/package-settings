@@ -8,7 +8,8 @@ window.cpexWebsiteSettings = {
     }
   },
   headerbidding: {
-    currency: 'USD'
+    currency: 'USD',
+    enabled: false
   },
   formats: {
     skin: {
