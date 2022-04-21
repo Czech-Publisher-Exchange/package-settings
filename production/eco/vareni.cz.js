@@ -568,7 +568,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'mediumrectangle-1',
+      code: 'mediumrectangle-mob-pos1',
       mediaTypes: {
         banner: {
           sizes: [
@@ -638,7 +638,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'mediumrectangle-2',
+      code: 'mediumrectangle-mob-pos2',
       mediaTypes: {
         banner: {
           sizes: [
