@@ -9,7 +9,11 @@ window.cpexPublisherSettings = {
   },
   aam: {
     settings: {
-      publisher: 'eco'
+      publisher: 'eco',
+      behavior: {
+        trackLinks: true
+      },
+      namespace: '1'
     }
   },
   adserver: {
