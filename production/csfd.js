@@ -5,7 +5,10 @@ window.cpexPublisherSettings = {
     code: 'csfd'
   },
   adserver: {
-    adapter: 'sastracker'
+    adapter: 'sastracker',
+    bidderTable: {
+      'omg-adform': 'omg-adform'
+    }
   },
   aam: {
     settings: {
