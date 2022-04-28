@@ -446,6 +446,7 @@ window.cpexWebsiteSettings = {
     }
   },
   adserver: {
-    adapter: 'sastracker'
+    adapter: 'sastracker',
+    areaKey: 'pos'
   }
 }
