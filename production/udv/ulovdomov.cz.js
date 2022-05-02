@@ -43,7 +43,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 4165271
+          adSlot: '4165271'
         }
       }, {
         bidder: 'ix',
@@ -92,7 +92,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 4165272
+          adSlot: '4165272'
         }
       }, {
         bidder: 'ix',
