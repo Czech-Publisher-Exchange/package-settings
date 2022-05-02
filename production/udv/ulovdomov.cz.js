@@ -55,7 +55,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 23725134
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'div-gpt-ad-1641550340983-0',
       mediaTypes: {
@@ -101,7 +104,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 23725141
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   adserver: {
