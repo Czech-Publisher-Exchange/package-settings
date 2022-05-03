@@ -2,7 +2,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       backgroundEl: (document.getElementById('main')),
-      contentEl: (document.getElementsByClassName('m-bg-3')[0]),
+      contentEl: (document.getElementsByClassName('m-bg-4')[0]),
       enabled: true
     },
     interscroller: {
