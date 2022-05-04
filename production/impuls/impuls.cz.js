@@ -205,6 +205,7 @@ window.cpexWebsiteSettings = {
           placementId: 24860767
         }
       }]
-    }]
+    }],
+    currency: 'CZK'
   }
 }
