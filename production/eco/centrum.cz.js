@@ -247,7 +247,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [728, 90],
             [320, 50],
-            [300, 50], ''
+            [300, 50]
           ]
         }
       },
@@ -297,7 +297,7 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [300, 50],
-            [480, 480], ''
+            [480, 480]
           ]
         }
       },
@@ -343,6 +343,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 22213138
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'centrum.cz',
+          p: '300x250_1',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'mediumrectangle-mob-pos2',
@@ -353,7 +361,7 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [300, 50],
-            [480, 480], ''
+            [480, 480]
           ]
         }
       },
@@ -398,6 +406,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 22213139
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'centrum.cz',
+          p: '300x250_2',
+          m: 1,
+          g: 'hb'
         }
       }]
     }],
