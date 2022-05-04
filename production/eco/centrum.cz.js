@@ -46,7 +46,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: '4344936'
+          adSlot: 4344936
         },
         bidderModuleName: 'pubmatic'
       }, {
@@ -70,8 +70,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 158416,
-          pageId: 144524
+          placementId: 144524,
+          pageId: 158416
         }
       }, {
         bidder: 'appnexus',
@@ -123,7 +123,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: '4344935'
+          adSlot: 4344935
         },
         bidderModuleName: 'pubmatic'
       }, {
@@ -147,8 +147,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 153776,
-          pageId: 140099
+          placementId: 140099,
+          pageId: 153776
         }
       }, {
         bidder: 'appnexus',
@@ -199,7 +199,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic_eco_hb',
         params: {
           publisherId: '161532',
-          adSlot: '4344934'
+          adSlot: 4344934
         },
         bidderModuleName: 'pubmatic'
       }, {
@@ -223,8 +223,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 158417,
-          pageId: 144525
+          placementId: 144525,
+          pageId: 158417
         }
       }, {
         bidder: 'appnexus',
@@ -237,182 +237,6 @@ window.cpexWebsiteSettings = {
           d: 'centrum.cz',
           p: '300x250',
           m: 0,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'strip',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [728, 90],
-            [320, 50],
-            [300, 50]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 385182,
-          zoneId: 2142958,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [2, 43, 44]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 385184,
-          zoneId: 2142960,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [2, 43, 44]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4426138'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 809614
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 22213136
-        }
-      }]
-    }, {
-      code: 'mediumrectangle-mob-pos1',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [300, 300],
-            [300, 250],
-            [250, 250],
-            [300, 50],
-            [480, 480]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 385182,
-          zoneId: 2142966,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14, 44]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 385184,
-          zoneId: 2142968,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14, 44]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4426129'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 809612
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 150211,
-          pageId: 136835
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 22213138
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'centrum.cz',
-          p: '300x250_1',
-          m: 1,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'mediumrectangle-mob-pos2',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [300, 300],
-            [300, 250],
-            [250, 250],
-            [300, 50],
-            [480, 480]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 385182,
-          zoneId: 2142970,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14, 44]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 385184,
-          zoneId: 2142972,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14, 44]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4426131'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 809613
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 150211,
-          pageId: 136835
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 22213139
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'centrum.cz',
-          p: '300x250_2',
-          m: 1,
           g: 'hb'
         }
       }]
