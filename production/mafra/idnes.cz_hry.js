@@ -1035,6 +1035,55 @@ window.cpexWebsiteSettings = {
           placementId: 15772682
         }
       }]
+    }, {
+      code: 'branding_fotogalerie',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [2000, 1400],
+            [998, 200],
+            [728, 90],
+            [970, 210],
+            [970, 90]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2157456,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 2157458,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4415597'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 714415
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 22539444
+        }
+      }]
     }]
   }
 }
