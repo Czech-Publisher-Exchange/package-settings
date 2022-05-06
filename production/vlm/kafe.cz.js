@@ -52,7 +52,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 3245623
+          adSlot: '3245623'
         }
       }, {
         bidder: 'adform',
@@ -70,7 +70,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_Leaderboard-top'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'skyscraper-2',
       mediaTypes: {
@@ -105,7 +108,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 3245624
+          adSlot: '3245624'
         }
       }, {
         bidder: 'adform',
@@ -123,7 +126,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_Skyscraper-2'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'm-leaderboard-top',
       mediaTypes: {
@@ -157,7 +163,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 3245627
+          adSlot: '3245627'
         }
       }, {
         bidder: 'adform',
@@ -175,7 +181,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_Leaderboard-top_Mobile'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-1',
       mediaTypes: {
@@ -210,7 +219,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 3245628
+          adSlot: '3245628'
         }
       }, {
         bidder: 'adform',
@@ -228,7 +237,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_Square-1_Mobile'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'leaderboard-bottom',
       mediaTypes: {
@@ -264,7 +276,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 3245632
+          adSlot: '3245632'
         }
       }, {
         bidder: 'adform',
@@ -282,7 +294,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_Leaderboard-bottom'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'skyscraper-1',
       mediaTypes: {
@@ -318,7 +333,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 3245635
+          adSlot: '3245635'
         }
       }, {
         bidder: 'adform',
@@ -336,7 +351,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_Skyscraper-1'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'm-leaderboard-bottom',
       mediaTypes: {
@@ -371,7 +389,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 3245638
+          adSlot: '3245638'
         }
       }, {
         bidder: 'adform',
@@ -389,7 +407,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_Leaderboard-bottom_Mobile'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
@@ -419,7 +440,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_commercial-article-native-detail'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'commercial-article-2-ga-hp',
       mediaTypes: {
@@ -449,7 +473,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_commercial-article-native-detail'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'commercial-article-2-hp',
       mediaTypes: {
@@ -479,7 +506,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_commercial-article-native-detail'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'm-square-2',
       mediaTypes: {
@@ -514,14 +544,17 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 4055811
+          adSlot: '4055811'
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 15783980
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-commercial-article-native-detail',
       mediaTypes: {
@@ -551,7 +584,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_commercial-article-native-detail'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'square-1',
       mediaTypes: {
@@ -585,14 +621,17 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 4080492
+          adSlot: '4080492'
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 15783978
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   formats: {
