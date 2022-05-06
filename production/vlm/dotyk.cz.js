@@ -50,7 +50,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_dotyk_leaderboard-top'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'leaderboard-top',
       mediaTypes: {
@@ -65,7 +68,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 18682439
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'square-1',
       mediaTypes: {
@@ -105,7 +111,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_dotyk_square-1'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'leaderboard-bottom',
       mediaTypes: {
@@ -146,7 +155,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_dotyk_leaderboard-bottom'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'skyscraper-1',
       mediaTypes: {
@@ -187,7 +199,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_dotyk_skyscraper-1'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'm-square-1',
       mediaTypes: {
@@ -228,7 +243,10 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_dotyk_m-square-1'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-2',
       mediaTypes: {
@@ -263,7 +281,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 18980273
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-sticky',
       mediaTypes: {
@@ -293,7 +314,10 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15]
         },
         bidderModuleName: 'rubicon'
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'commercial-article-2',
       mediaTypes: {
@@ -329,7 +353,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 16370636
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
@@ -358,7 +385,10 @@ window.cpexWebsiteSettings = {
           sizes: [90]
         },
         bidderModuleName: 'rubicon'
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'commercial-article-2-GA-hp',
       mediaTypes: {
@@ -387,7 +417,10 @@ window.cpexWebsiteSettings = {
           sizes: [90]
         },
         bidderModuleName: 'rubicon'
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-commercial-article-native-detail',
       mediaTypes: {
