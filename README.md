@@ -67,10 +67,11 @@ These are done with a simple javascript code but they have to be wrapped in brac
 ### General
 Common package configuration, mainly handling of events and scripts.
 `general: {}`
-| Attribute | Values                                              | Default    |
-|-----------|-----------------------------------------------------|------------|
-| `autorun` | Boolean, true starts package once loaded            | true       |
-| `onload`  | Function, executed once package is fully loaded     |            |
+| Attribute      | Values                                         | Default    |
+|----------------|------------------------------------------------|------------|
+| `autorun`      | Boolean, true starts package once loaded       | true       |
+| `onload`       | Function, fired once package is fully loaded   |            |
+| `errorLogging` | Boolean, sends errors to Honeybadger.io        | false      |
 
 ### Publisher info
 `publisher: {}`
@@ -176,10 +177,11 @@ Common package configuration, mainly handling of events and scripts.
 |----------------|-----------------------------------------|-------------------|
 | `backgroundEl` | DOM selector, background element        | document.body     |
 | `contentEl`    | DOM selector, content element           |                   |
+| `contentCSS`   | CSS style for content element         | 'margin-top: 200px' |
 | `hide`         | Array of DOM elements to hide           |                   |
-| `zIndex`       | CSS `z-index` value for skin wrapper, basically depth     | |
+| `zIndex`       | CSS `z-index` for skin wrapper (depth)  |                   |
 | `offset`       | Offset from the top of the page, in px  | 0                 |
-| `offsetScroll` | Offset (has to be set) disappears with scrolling | false    |
+| `offsetScroll` | Should offset disappear with scrolling? | false             |
 
 #### Interscroller
 `interscroller: {}`
