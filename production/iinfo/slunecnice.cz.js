@@ -19,7 +19,8 @@ window.cpexWebsiteSettings = {
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])],
       offset: 25,
-      offsetScroll: true
+      offsetScroll: true,
+      contentCSS: 'width: 1060px;\nmargin: 200px auto;\n'
     }
   },
   headerbidding: {
