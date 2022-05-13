@@ -187,6 +187,23 @@ window.cpexWebsiteSettings = {
           sizes: [15, 90]
         }
       }]
+    }, {
+      code: 'outstream',
+      mediaTypes: {
+        video: {
+          playerSize: [600, 400]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 402166,
+          zoneId: 2260950,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [221]
+        }
+      }]
     }]
   },
   adserver: {
