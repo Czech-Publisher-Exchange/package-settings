@@ -1320,21 +1320,6 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'pre_roll',
-      mediaTypes: {
-        video: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1137836,
-          rcur: 'USD'
-        }
-      }],
-      filter: {
-        url: '^((?!(novinky|televize|kino|vod|bluray|dvd|zebricky|oceneni|diskuze|hledat|podrobne-vyhledavani|soutez|uzivatel)).)*$'
-      }
-    }, {
       code: 'slide_up',
       mediaTypes: {
         banner: {
