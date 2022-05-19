@@ -781,7 +781,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementById('reklama-leader-wrapper')),
+      contentEl: (document.getElementsByClassName('bhWtgq')[0]),
       contentCSS: 'position: relative; z-index: 20;',
       zIndex: 10
     },
