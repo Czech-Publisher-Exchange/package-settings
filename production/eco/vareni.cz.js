@@ -781,7 +781,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementById('reklama-leader-wrapper'))
+      contentEl: (document.getElementById('reklama-leader-wrapper')),
+      contentCSS: 'position: relative;'
     },
     interscroller: {
       enabled: true
