@@ -1086,6 +1086,7 @@ window.cpexWebsiteSettings = {
           placementId: 22539444
         }
       }]
-    }]
+    }],
+    analytics: ['cpexAnalytics']
   }
 }
