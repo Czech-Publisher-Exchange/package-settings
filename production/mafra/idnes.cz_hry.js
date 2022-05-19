@@ -1087,6 +1087,6 @@ window.cpexWebsiteSettings = {
         }
       }]
     }],
-    analytics: ['cpexAnalytics']
+    analytics: ['cpexAnalytics', 'id5Analytics']
   }
 }
