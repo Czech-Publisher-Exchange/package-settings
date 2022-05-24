@@ -182,7 +182,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(uzivatele)'
+        url: '`uzivatele`'
       }
     }, {
       code: 'wide_skyscraper_sticky',
@@ -262,7 +262,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(kino|oceneni|uzivatele|uzivatel)'
+        url: '`kino|oceneni|uzivatele|uzivatel`'
       }
     }, {
       code: 'large_rectangle_1',
@@ -349,7 +349,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(tvurce|uzivatele)'
+        url: '`tvurce|uzivatele`'
       }
     }, {
       code: 'large_rectangle_2',
@@ -430,7 +430,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(tvurce)'
+        url: '`tvurce`'
       }
     }, {
       code: 'large_rectangle_3',
@@ -511,7 +511,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(tvurce)'
+        url: '`tvurce`'
       }
     }, {
       code: 'large_rectangle_4',
@@ -585,7 +585,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(tvurce)'
+        url: '`tvurce`'
       }
     }, {
       code: 'large_rectangle_5',
@@ -659,7 +659,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(tvurce)'
+        url: '`tvurce`'
       }
     }, {
       code: 'square',
@@ -791,7 +791,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(uzivatel)'
+        url: '`uzivatel`'
       }
     }, {
       code: 'wide_rectangle_1',
@@ -866,7 +866,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(novinky)'
+        url: '`novinky`'
       }
     }, {
       code: 'wide_rectangle_2',
@@ -941,7 +941,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(novinky)'
+        url: '`novinky`'
       }
     }, {
       code: 'halfpage',
@@ -1021,7 +1021,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(film)'
+        url: '`film`'
       }
     }, {
       code: 'halfpage_sticky_1',
@@ -1103,7 +1103,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(film|televize|kino|vod|bluray|dvd|zebricky|diskuze|hledat|soutez|uzivatel)'
+        url: '`film|televize|kino|vod|bluray|dvd|zebricky|diskuze|hledat|soutez|uzivatel`'
       }
     }, {
       code: 'halfpage_sticky_2',
@@ -1185,7 +1185,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '(film|kino|vod|bluray|dvd|zebricky)'
+        url: '`film|kino|vod|bluray|dvd|zebricky`'
       }
     }, {
       code: 'leaderboard',
@@ -1564,7 +1564,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '^((?!(uzivatele|diskuze|soutez|uzivatel)).)*$'
+        url: '^`(?!(uzivatele|diskuze|soutez|uzivatel)).`*$'
       }
     }, {
       code: 'mobile_square_2',
@@ -1651,7 +1651,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '^((?!(uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani)).)*$'
+        url: '^`(?!(uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani)).`*$'
       }
     }, {
       code: 'mobile_square_3',
@@ -1732,7 +1732,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '^((?!(film|oceneni|uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani|hledat)).)*$'
+        url: '^`(?!(film|oceneni|uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani|hledat)).`*$'
       }
     }, {
       code: 'mobile_square_4',
@@ -1806,7 +1806,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '(tvurce|novinky|televize|kino|vod|bluray|dvd|zebricky)'
+        url: '`tvurce|novinky|televize|kino|vod|bluray|dvd|zebricky`'
       }
     }, {
       code: 'mobile_square_5',
@@ -1954,7 +1954,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '\/.+'
+        url: '/.+'
       }
     }, {
       code: 'slide_up',
@@ -1980,7 +1980,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '(televize)'
+        url: '`televize`'
       }
     }, {
       code: 'wide_rectangle_hp',
@@ -2061,7 +2061,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '^\/$'
+        url: '^/$'
       }
     }]
   },
@@ -2092,5 +2092,8 @@ window.cpexWebsiteSettings = {
     settings: {
       publisher: 'csfd'
     }
+  },
+  general: {
+    errorLogging: true
   }
 }
