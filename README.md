@@ -177,7 +177,7 @@ Common package configuration, mainly handling of events and scripts.
 |----------------|-----------------------------------------|-------------------|
 | `backgroundEl` | DOM selector, background element        | document.body     |
 | `contentEl`    | DOM selector, content element           |                   |
-| `contentCSS`   | CSS style for content element         | 'margin-top: 200px' |
+| `contentCSS`   | CSS style for content element | 'position: relative; margin-top: 200px' |
 | `hide`         | Array of DOM elements to hide           |                   |
 | `zIndex`       | CSS `z-index` for skin wrapper (depth)  |                   |
 | `offset`       | Offset from the top of the page, in px  | 0                 |
