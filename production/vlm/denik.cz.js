@@ -6,9 +6,7 @@ window.cpexWebsiteSettings = {
     enabled: false
   },
   aam: {
-    settings: {
-      publisher: 'vlm'
-    }
+    enabled: false
   },
   adserver: {
     adapter: 'sastracker'
@@ -958,7 +956,20 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
+      enabled: true,
+      contentEl: (document.getElementsByClassName('page')[0]),
+      offset: 52,
+      offsetScroll: true
+    },
+    interscroller: {
       enabled: true
+    },
+    native: {
+      enabled: true
+    },
+    slideup: {
+      enabled: true,
+      adUnit: 'm_sticky'
     }
   }
 }
