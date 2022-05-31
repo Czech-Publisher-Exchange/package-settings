@@ -11,7 +11,8 @@ window.cpexPublisherSettings = {
       index: 3,
       magnite: 4,
       xandr: 164
-    }
+    },
+    areaKey: 'pos'
   },
   aam: {
     settings: {
