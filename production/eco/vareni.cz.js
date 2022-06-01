@@ -782,8 +782,9 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('bhWtgq')[0]),
-      contentCSS: 'position: relative; z-index: 20;',
-      zIndex: 10
+      contentCSS: ' ',
+      zIndex: 10,
+      backgroundEl: (document.getElementById('brand-a'))
     },
     interscroller: {
       enabled: true
