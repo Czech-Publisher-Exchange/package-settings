@@ -783,7 +783,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementsByClassName('bhWtgq')[0]),
       contentCSS: ' ',
-      zIndex: 10,
+      zIndex: 0,
       backgroundEl: (document.getElementById('brand-a'))
     },
     interscroller: {
