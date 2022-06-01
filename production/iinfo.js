@@ -17,5 +17,8 @@ window.cpexPublisherSettings = {
       xandr: 5
     },
     areaKey: 'iinfoArea'
+  },
+  headerbidding: {
+    analytics: ['id5Analytics', 'cpexAnalytics']
   }
 }
