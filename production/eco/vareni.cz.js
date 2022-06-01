@@ -783,8 +783,8 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementsByClassName('bhWtgq')[0]),
       contentCSS: ' ',
-      zIndex: 0,
-      backgroundEl: (document.getElementById('brand-a')),
+      zIndex: null,
+      backgroundEl: (document.getElementById('brand-c')),
       hide: [(document.getElementById('cpex-remove-overflow'))]
     },
     interscroller: {
