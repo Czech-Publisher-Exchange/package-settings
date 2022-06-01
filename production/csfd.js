@@ -15,5 +15,8 @@ window.cpexPublisherSettings = {
       publisher: 'csfd'
     },
     enabled: true
+  },
+  headerbidding: {
+    analytics: ['id5Analytics', 'cpexAnalytics']
   }
 }
