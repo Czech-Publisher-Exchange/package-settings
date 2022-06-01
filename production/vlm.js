@@ -18,5 +18,8 @@ window.cpexPublisherSettings = {
     settings: {
       publisher: 'vlm'
     }
+  },
+  headerbidding: {
+    analytics: ['id5Analytics', 'cpexAnalytics']
   }
 }
