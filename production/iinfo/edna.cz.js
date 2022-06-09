@@ -423,5 +423,10 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  formats: {
+    skin: {
+      enabled: true
+    }
   }
 }
