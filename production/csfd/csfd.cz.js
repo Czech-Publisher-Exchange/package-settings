@@ -182,7 +182,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`uzivatele`'
+        url: '(uzivatele)'
       }
     }, {
       code: 'wide_skyscraper_sticky',
@@ -262,7 +262,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`kino|oceneni|uzivatele|uzivatel`'
+        url: '(kino|oceneni|uzivatele|uzivatel)'
       }
     }, {
       code: 'large_rectangle_1',
@@ -349,7 +349,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`tvurce|uzivatele`'
+        url: '(tvurce|uzivatele)'
       }
     }, {
       code: 'large_rectangle_2',
@@ -430,7 +430,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`tvurce`'
+        url: '(tvurce)'
       }
     }, {
       code: 'large_rectangle_3',
@@ -511,7 +511,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`tvurce`'
+        url: '(tvurce)'
       }
     }, {
       code: 'large_rectangle_4',
@@ -585,7 +585,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`tvurce`'
+        url: '(tvurce)'
       }
     }, {
       code: 'large_rectangle_5',
@@ -659,7 +659,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`tvurce`'
+        url: '(tvurce)'
       }
     }, {
       code: 'square',
@@ -791,7 +791,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`uzivatel`'
+        url: '(uzivatel)'
       }
     }, {
       code: 'wide_rectangle_1',
@@ -866,7 +866,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`novinky`'
+        url: '(novinky)'
       }
     }, {
       code: 'wide_rectangle_2',
@@ -941,7 +941,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`novinky`'
+        url: '(novinky)'
       }
     }, {
       code: 'halfpage',
@@ -1021,7 +1021,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`film`'
+        url: '(film)'
       }
     }, {
       code: 'halfpage_sticky_1',
@@ -1103,7 +1103,89 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`film|televize|kino|vod|bluray|dvd|zebricky|diskuze|hledat|soutez|uzivatel`'
+        url: '(film|televize|kino|vod|bluray|dvd|zebricky|diskuze|hledat|soutez|uzivatel)'
+      }
+    }, {
+      code: 'halfpage_sticky_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [160, 600],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 235290,
+          zoneId: 2460034,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 48, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 235292,
+          zoneId: 2459894,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4533875'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 931871,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1425882,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 25735470
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'CSFD_csfd_halfpage_sticky_1'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'pomo.csfd.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 96956,
+          tagId: 'sas_96956'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        url: '(film|televize|kino|vod|bluray|dvd|zebricky|diskuze|hledat|soutez|uzivatel)'
       }
     }, {
       code: 'halfpage_sticky_2',
@@ -1185,7 +1267,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '`film|kino|vod|bluray|dvd|zebricky`'
+        url: '(film|kino|vod|bluray|dvd|zebricky)'
       }
     }, {
       code: 'leaderboard',
@@ -1318,6 +1400,21 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'pre_roll',
+      mediaTypes: {
+        video: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1137836,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        url: '^((?!(novinky|televize|kino|vod|bluray|dvd|zebricky|oceneni|diskuze|hledat|podrobne-vyhledavani|soutez|uzivatel)).)*$'
       }
     }, {
       code: 'slide_up',
@@ -1564,7 +1661,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '^`(?!(uzivatele|diskuze|soutez|uzivatel)).`*$'
+        url: '^((?!(uzivatele|diskuze|soutez|uzivatel)).)*$'
       }
     }, {
       code: 'mobile_square_2',
@@ -1651,7 +1748,94 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '^`(?!(uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani)).`*$'
+        url: '^((?!(uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani)).)*$'
+      }
+    }, {
+      code: 'mobile_square_2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 238982,
+          zoneId: 2460036,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 238984,
+          zoneId: 2460032,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4533876'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 931942,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1425890,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 133959,
+          pageId: 123288
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 25735476
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'CSFD_csfd_mobile_square_2'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'pomo.csfd.cz',
+          p: '300x300_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 96942,
+          tagId: 'sas_96942'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        url: '^((?!(uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani)).)*$'
       }
     }, {
       code: 'mobile_square_3',
@@ -1732,7 +1916,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '^`(?!(film|oceneni|uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani|hledat)).`*$'
+        url: '^((?!(film|oceneni|uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani|hledat)).)*$'
       }
     }, {
       code: 'mobile_square_4',
@@ -1806,7 +1990,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '`tvurce|novinky|televize|kino|vod|bluray|dvd|zebricky`'
+        url: '(tvurce|novinky|televize|kino|vod|bluray|dvd|zebricky)'
       }
     }, {
       code: 'mobile_square_5',
@@ -1954,7 +2138,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '/.+'
+        url: '\/.+'
       }
     }, {
       code: 'slide_up',
@@ -1980,7 +2164,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: '`televize`'
+        url: '(televize)'
       }
     }, {
       code: 'wide_rectangle_hp',
@@ -2061,7 +2245,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        url: '^/$'
+        url: '^\/$'
       }
     }]
   },
