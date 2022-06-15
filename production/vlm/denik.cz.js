@@ -959,7 +959,8 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementsByClassName('page')[0]),
       offset: 52,
-      offsetScroll: true
+      offsetScroll: true,
+      contentCSS: ' '
     },
     interscroller: {
       enabled: true
