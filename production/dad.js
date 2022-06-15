@@ -8,9 +8,6 @@ window.cpexPublisherSettings = {
       publisher: 'dad'
     }
   },
-  cmp: {
-    enabled: false
-  },
   adserver: {
     adapter: 'googletag'
   }
