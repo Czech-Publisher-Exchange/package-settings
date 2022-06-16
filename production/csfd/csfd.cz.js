@@ -181,8 +181,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(uzivatele)'
+        minWidth: 1000
       }
     }, {
       code: 'wide_skyscraper_sticky',
@@ -261,8 +260,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(kino|oceneni|uzivatele|uzivatel)'
+        minWidth: 1000
       }
     }, {
       code: 'large_rectangle_1',
@@ -348,8 +346,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(tvurce|uzivatele)'
+        minWidth: 1000
       }
     }, {
       code: 'large_rectangle_2',
@@ -429,8 +426,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(tvurce)'
+        minWidth: 1000
       }
     }, {
       code: 'large_rectangle_3',
@@ -510,8 +506,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(tvurce)'
+        minWidth: 1000
       }
     }, {
       code: 'large_rectangle_4',
@@ -584,8 +579,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(tvurce)'
+        minWidth: 1000
       }
     }, {
       code: 'large_rectangle_5',
@@ -658,8 +652,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(tvurce)'
+        minWidth: 1000
       }
     }, {
       code: 'rectangle',
@@ -745,8 +738,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(uzivatel)'
+        minWidth: 1000
       }
     }, {
       code: 'wide_rectangle_1',
@@ -820,8 +812,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(novinky)'
+        minWidth: 1000
       }
     }, {
       code: 'wide_rectangle_2',
@@ -895,8 +886,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(novinky)'
+        minWidth: 1000
       }
     }, {
       code: 'halfpage',
@@ -975,8 +965,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(film)'
+        minWidth: 1000
       }
     }, {
       code: 'halfpage_sticky_1',
@@ -1057,8 +1046,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(film|televize|kino|vod|bluray|dvd|zebricky|diskuze|hledat|soutez|uzivatel)'
+        minWidth: 1000
       }
     }, {
       code: 'halfpage_sticky_2',
@@ -1139,8 +1127,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '(film|kino|vod|bluray|dvd|zebricky)'
+        minWidth: 1000
       }
     }, {
       code: 'leaderboard',
@@ -1273,21 +1260,6 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
-      }
-    }, {
-      code: 'pre_roll',
-      mediaTypes: {
-        video: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1137836,
-          rcur: 'USD'
-        }
-      }],
-      filter: {
-        url: '^((?!(novinky|televize|kino|vod|bluray|dvd|zebricky|oceneni|diskuze|hledat|podrobne-vyhledavani|soutez|uzivatel)).)*$'
       }
     }, {
       code: 'slide_up',
@@ -1533,8 +1505,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000,
-        url: '^((?!(uzivatele|diskuze|soutez|uzivatel)).)*$'
+        maxWidth: 1000
       }
     }, {
       code: 'mobile_square_2',
@@ -1620,8 +1591,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000,
-        url: '^((?!(uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani)).)*$'
+        maxWidth: 1000
       }
     }, {
       code: 'mobile_square_3',
@@ -1701,8 +1671,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000,
-        url: '^((?!(film|oceneni|uzivatele|diskuze|soutez|uzivatel|podrobne-vyhledavani|hledat)).)*$'
+        maxWidth: 1000
       }
     }, {
       code: 'mobile_square_4',
@@ -1775,8 +1744,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000,
-        url: '(tvurce|novinky|televize|kino|vod|bluray|dvd|zebricky)'
+        maxWidth: 1000
       }
     }, {
       code: 'mobile_billboard',
@@ -1855,8 +1823,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000,
-        url: '\/.+'
+        maxWidth: 1000
       }
     }, {
       code: 'slide_up',
@@ -1881,8 +1848,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000,
-        url: '(televize)'
+        maxWidth: 1000
       }
     }, {
       code: 'wide_rectangle_hp',
@@ -1962,8 +1928,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        url: '^\/$'
+        minWidth: 1000
       }
     }]
   },
