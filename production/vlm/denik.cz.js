@@ -150,7 +150,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '15624108,\n18682437'
+          placementId: '15624108, 18682437'
         }
       }, {
         bidder: 'triplelift',
