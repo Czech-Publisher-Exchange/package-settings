@@ -13,48 +13,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [2000, 1400]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 361048,
-          zoneId: 1958646,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [230]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 361464,
-          zoneId: 1958648,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [230]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 21025308
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'vareni.cz',
-          p: 'branding',
-          m: 0,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'leader',
-      mediaTypes: {
-        banner: {
-          sizes: [
             [2000, 1400],
             [970, 310],
             [970, 250],
