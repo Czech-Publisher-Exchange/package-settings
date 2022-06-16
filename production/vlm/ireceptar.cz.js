@@ -69,7 +69,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '15783966,\n18682461'
+          placementId: '15783966, 18682461'
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_leaderboard_top'
         }
       }],
       filter: {
@@ -108,6 +113,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15783970
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_square_1'
         }
       }],
       filter: {
@@ -148,6 +158,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 15783969
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_skyscraper_1'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -186,6 +201,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15783968
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_leaderboard_bottom'
         }
       }],
       filter: {
@@ -226,6 +246,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 15783976
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_m_leaderboard_bottom'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -265,6 +290,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 15783971
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_m_square_1'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -302,6 +332,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15783975
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_m_square_2'
         }
       }],
       filter: {
@@ -363,6 +398,11 @@ window.cpexWebsiteSettings = {
           sizes: [90]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_commercial-article-native-detail'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -402,6 +442,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 15783974
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_commercial-article-native-detail'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -430,6 +475,11 @@ window.cpexWebsiteSettings = {
           sizes: [90]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_m-commercial-article-native-detail'
+        }
       }],
       filter: {
         maxWidth: 1000
