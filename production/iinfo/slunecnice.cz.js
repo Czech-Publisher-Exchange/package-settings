@@ -20,7 +20,7 @@ window.cpexWebsiteSettings = {
       hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])],
       offset: 25,
       offsetScroll: true,
-      contentCSS: 'width: 1060px;\nmargin: 200px auto;\n'
+      contentCSS: 'width: 1060px; margin: 200px auto;'
     }
   },
   headerbidding: {
