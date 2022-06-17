@@ -690,5 +690,16 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementsByClassName('design-navigation__content test-tt')[0]),
+      offset: 25,
+      offsetScroll: true
+    },
+    native: {
+      enabled: true
+    }
   }
 }
