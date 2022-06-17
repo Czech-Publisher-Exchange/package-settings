@@ -676,7 +676,8 @@ window.cpexWebsiteSettings = {
     skin: {
       contentEl: (document.getElementsByClassName('design-navigation__content test-tt')[0]),
       offset: 25,
-      offsetScroll: true
+      offsetScroll: true,
+      enabled: true
     },
     native: {
       enabled: true
