@@ -207,5 +207,12 @@ window.cpexWebsiteSettings = {
       }]
     }],
     currency: 'CZK'
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.body),
+      contentCSS: "document.getElementById('leaderboard_1')"
+    }
   }
 }
