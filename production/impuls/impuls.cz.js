@@ -212,7 +212,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementById('page')),
-      contentCSS: ' '
+      hide: [()]
     }
   }
 }
