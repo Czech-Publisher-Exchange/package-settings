@@ -678,7 +678,7 @@ window.cpexWebsiteSettings = {
       offset: 25,
       offsetScroll: true,
       enabled: true,
-      contentCSS: 'width: 1060px; margin: 200px auto;'
+      contentCSS: ' '
     },
     native: {
       enabled: true
