@@ -211,8 +211,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementById('page')),
-      hide: [()]
+      contentEl: (document.getElementById('page'))
     }
   }
 }
