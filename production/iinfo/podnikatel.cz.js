@@ -674,7 +674,7 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      contentEl: (document.getElementsByClassName('design-navigation__content test-tt')[0]),
+      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       offset: 25,
       offsetScroll: true,
       enabled: true
