@@ -211,8 +211,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementById('leaderboard_1')),
-      contentCSS: ' '
+      contentEl: (document.getElementById('page'))
     }
   }
 }
