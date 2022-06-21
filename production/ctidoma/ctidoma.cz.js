@@ -18,7 +18,6 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 90],
             [970, 310],
-            [2000, 1400],
             [970, 210]
           ]
         }
@@ -30,7 +29,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2466960,
           accountId: '10900',
           position: 'atf',
-          sizes: [55, 94, 230, 96]
+          sizes: [55, 94, 96]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -39,7 +38,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2466974,
           accountId: '10900',
           position: 'atf',
-          sizes: [55, 94, 230, 96]
+          sizes: [55, 94, 96]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -228,40 +227,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 26086559
-        }
-      }]
-    }, {
-      code: 'cpex-mobile-bottom-popup',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 100]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 431868,
-          zoneId: 2466972,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 431866,
-          zoneId: 2466986,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 26086688
         }
       }]
     }]
