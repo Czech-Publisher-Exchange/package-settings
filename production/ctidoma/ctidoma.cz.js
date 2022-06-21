@@ -8,7 +8,8 @@ window.cpexWebsiteSettings = {
     }
   },
   adserver: {
-    adapter: 'googletag'
+    adapter: 'googletag',
+    loadPrerequisites: true
   },
   headerbidding: {
     adUnits: [{
