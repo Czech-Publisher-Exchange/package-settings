@@ -2,9 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'ctidoma.cz'
   },
-  cmp: {
-    enabled: false
-  },
   aam: {
     settings: {
       publisher: 'ctidoma'
