@@ -9,7 +9,14 @@ window.cpexWebsiteSettings = {
     enabled: false
   },
   adserver: {
-    adapter: 'sastracker'
+    adapter: 'sastracker',
+    allowedSSPs: {
+      pubmatic: '1',
+      index: '3',
+      magnite: '4',
+      xandr: '164',
+      magnite_hb: '11286'
+    }
   },
   headerbidding: {
     enabled: true,
