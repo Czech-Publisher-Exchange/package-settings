@@ -480,6 +480,13 @@ window.cpexWebsiteSettings = {
   },
   adserver: {
     adapter: 'sastracker',
-    areaKey: 'pos'
+    areaKey: 'pos',
+    allowedSSPs: {
+      magnite_hb: '11286',
+      pubmatic: '1',
+      index: '3',
+      magnite: '4',
+      xandr: '164'
+    }
   }
 }
