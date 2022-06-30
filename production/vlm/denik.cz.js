@@ -14,8 +14,7 @@ window.cpexWebsiteSettings = {
       pubmatic: '1',
       index: '3',
       magnite: '4',
-      xandr: '164',
-      magnite_hb: '11286'
+      xandr: '164'
     }
   },
   headerbidding: {
