@@ -960,7 +960,7 @@ window.cpexWebsiteSettings = {
       contentEl: (document.getElementsByClassName('page')[0]),
       offset: 0,
       offsetScroll: true,
-      backgroundEl: (document.getElementsByClassName('reklama-box-leaderboard-top')[0])
+      hide: [(document.getElementsByClassName('reklama-box-leaderboard-top')[0])]
     },
     interscroller: {
       enabled: true
