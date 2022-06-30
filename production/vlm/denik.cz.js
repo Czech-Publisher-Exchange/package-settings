@@ -958,7 +958,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('page')[0]),
-      offset: 52,
+      offset: 0,
       offsetScroll: true
     },
     interscroller: {
