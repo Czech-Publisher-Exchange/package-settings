@@ -482,7 +482,6 @@ window.cpexWebsiteSettings = {
     adapter: 'sastracker',
     areaKey: 'pos',
     allowedSSPs: {
-      magnite_hb: '11286',
       pubmatic: '1',
       index: '3',
       magnite: '4',
