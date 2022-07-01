@@ -278,14 +278,34 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1421075,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 809614
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 165641,
+          pageId: 151406
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213136
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'centrum.cz',
+          p: '320x50',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -327,6 +347,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4426129'
         },
         bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1421069,
+          rcur: 'USD'
+        }
       }, {
         bidder: 'ix',
         params: {
@@ -392,6 +418,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1421071,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 809613
@@ -399,8 +431,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 150211,
-          pageId: 136835
+          placementId: 165642,
+          pageId: 151407
         }
       }, {
         bidder: 'appnexus',
