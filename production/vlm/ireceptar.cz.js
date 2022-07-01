@@ -491,5 +491,8 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }]
+  },
+  general: {
+    onload: "() => { document.getElementsByClassName('wrapper')[0].style.position = 'inherit' }"
   }
 }
