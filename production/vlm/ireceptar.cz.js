@@ -1,8 +1,7 @@
 window.cpexWebsiteSettings = {
   formats: {
     skin: {
-      backgroundEl: (document.getElementById('ireceptar')),
-      contentEl: (document.getElementsByClassName('wrapper')[0]),
+      contentEl: (document.getElementsByClassName('page')[0]),
       enabled: true,
       hide: [(document.getElementsByClassName('leaderboard-top')[0])]
     },
