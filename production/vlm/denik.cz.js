@@ -601,7 +601,11 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-2-GA-hp',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [548, 150]
+          ]
+        }
       },
       bids: [{
         bidder: 'rubicon',
@@ -634,7 +638,11 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [548, 150]
+          ]
+        }
       },
       bids: [{
         bidder: 'rubicon',
@@ -765,7 +773,13 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250]
+          ]
+        }
       },
       bids: [{
         bidder: 'rubicon',
@@ -798,7 +812,11 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'm-commercial-article-native-detail',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [548, 150]
+          ]
+        }
       },
       bids: [{
         bidder: 'triplelift',
@@ -812,7 +830,11 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'm-commercial-article-1-GA',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [548, 150]
+          ]
+        }
       },
       bids: [{
         bidder: 'triplelift',
@@ -826,7 +848,11 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'm-commercial-article-2-GA',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [548, 150]
+          ]
+        }
       },
       bids: [{
         bidder: 'triplelift',
