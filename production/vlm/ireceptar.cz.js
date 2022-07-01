@@ -3,7 +3,8 @@ window.cpexWebsiteSettings = {
     skin: {
       backgroundEl: (document.getElementById('ireceptar')),
       contentEl: (document.getElementsByClassName('page')[0]),
-      enabled: true
+      enabled: true,
+      hide: [(document.getElementsByClassName('leaderboard-top')[0])]
     },
     slideup: {
       adUnit: 'm-sticky',
@@ -27,9 +28,7 @@ window.cpexWebsiteSettings = {
     enabled: false
   },
   aam: {
-    settings: {
-      publisher: 'vlm'
-    }
+    enabled: false
   },
   adserver: {
     adapter: 'sastracker'
