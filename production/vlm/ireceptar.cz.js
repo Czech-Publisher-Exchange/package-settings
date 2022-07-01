@@ -493,6 +493,6 @@ window.cpexWebsiteSettings = {
     }]
   },
   general: {
-    onload: "() => { document.getElementsByClassName('wrapper')[0].style.position = 'inherit' }"
+    onload: (() => { document.getElementsByClassName('wrapper')[0].style.position = 'inherit' })
   }
 }
