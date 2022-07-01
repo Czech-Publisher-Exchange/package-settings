@@ -169,6 +169,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: '4557275'
+        },
+        bidderModuleName: 'pubmatic'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334551,
@@ -176,9 +183,34 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1499304,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 846817
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 165645,
+          pageId: 151410
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21873795
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zena.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -214,9 +246,41 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: '4557278'
+        },
+        bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1499306,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 846818
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 165644,
+          pageId: 151409
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21873809
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zena.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -252,9 +316,41 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: '4557283'
+        },
+        bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1499307,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 846819
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 165643,
+          pageId: 151408
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21873811
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zena.cz',
+          p: '300x600_4',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -516,6 +612,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: '4557521'
+        },
+        bidderModuleName: 'pubmatic'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334567,
@@ -523,9 +626,34 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1499288,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 846816
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 165646,
+          pageId: 151411
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21873769
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zena.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
