@@ -67,8 +67,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 144522,
-          pageId: 158414
+          placementId: 158414,
+          pageId: 144522
         }
       }, {
         bidder: 'appnexus',
@@ -143,8 +143,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 140019,
-          pageId: 153683
+          placementId: 153683,
+          pageId: 140019
         }
       }, {
         bidder: 'appnexus',
@@ -219,8 +219,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 144521,
-          pageId: 158413
+          placementId: 158413,
+          pageId: 144521
         }
       }, {
         bidder: 'appnexus',
@@ -294,8 +294,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 136848,
-          pageId: 150228
+          placementId: 150228,
+          pageId: 136848
         }
       }, {
         bidder: 'appnexus',
@@ -370,8 +370,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 144519,
-          pageId: 158411
+          placementId: 158411,
+          pageId: 144519
         }
       }, {
         bidder: 'appnexus',
@@ -439,13 +439,21 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 140240,
-          pageId: 153926
+          placementId: 153926,
+          pageId: 140240
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 23941417
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'aktualne.cz',
+          p: '300x250_pos1',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -500,13 +508,21 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 140240,
-          pageId: 153926
+          placementId: 158415,
+          pageId: 144523
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 23941418
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'aktualne.cz',
+          p: '300x250_pos2',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -561,13 +577,21 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 140240,
-          pageId: 153926
+          placementId: 158412,
+          pageId: 144520
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 23941419
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'aktualne.cz',
+          p: '300x250_pos3',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -621,13 +645,21 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 140240,
+          placementId: 153927,
           pageId: 153927
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 23941416
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'aktualne.cz',
+          p: '320x50',
+          m: 1,
+          g: 'hb'
         }
       }]
     }],
