@@ -1,7 +1,6 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'ctidoma.cz',
-    note: 'test'
+    name: 'ctidoma.cz'
   },
   aam: {
     settings: {
