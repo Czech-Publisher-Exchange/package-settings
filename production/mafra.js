@@ -19,10 +19,10 @@ window.cpexPublisherSettings = {
       ix: 'index_hb'
     },
     allowedSSPs: {
-      xandr: '10001',
-      magnite: '10000',
-      pubmatic: '10002',
-      index: '10003'
+      xandr: 10001,
+      magnite: 10000,
+      pubmatic: 10002,
+      index: 10003
     }
   },
   aam: {

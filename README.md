@@ -129,11 +129,13 @@ Common package configuration, mainly handling of events and scripts.
 | `enabled`            | Boolean, disabling disables HB as well | true         |
 | `loadPrerequisites`  | Boolean, loads libraries for adserver  | false        |
 | `delayCall`          | Number, timeout in milliseconds        | 0            |
-| `defineSlots` | **Only for GAM.** Array of slot definition Objects         | |
+| `defineSlots`* | **Only for GAM.** Array of slot definition Objects        | |
 | `allowedSSPs` | **Only for SAS.** Object, advertiser IDs allowed for custom formats | { pubmatic: 1, index: 3, magnite: 4, xandr: 5 } |
 | `bidderTable` | **Only for SAS.** Object, bidder names in the SAS instance | stroeerCore: stroeer, appnexus: xandr_hb, pubmatic: pubmatic_hb, rubicon: magnite_hb, adform: adform, im-adform: im-adform, r2b2: r2b2, triplelift: triplelift_hb, ix: index_hb, smart: smart, teads: teads, rtbhouse: rtbhouse |
 **Note:** To properly merge between the two types of settings, SSPs should be named consistently. Please use the following strings:
 **pubmatic, index, magnite, xandr**
+
+* Slot definition object: `{ elementId: '', sizes: [], path: '' }`
 
 ### Header-bidding
 `headerbidding: {}`
