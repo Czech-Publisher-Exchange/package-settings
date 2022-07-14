@@ -146,6 +146,7 @@ Common package configuration, mainly handling of events and scripts.
 | `currency`      | String, converts CPM into this currency         | 'USD'    |
 | `prebidDebug`   | Boolean, Toggles debug logging from Prebid      | false    |
 | `adUnits`       | Array of AdUnit Objects + custom `filter`       | []       |
+| `userIDs`       | Array, names of modules to enable       | ['id5Id', 'sharedId', 'criteo'] |
 | `analytics`     | Array, names of adapters to enable      | ['id5Analytics'] |
 
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
