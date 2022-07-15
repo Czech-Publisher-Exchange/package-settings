@@ -672,7 +672,8 @@ window.cpexWebsiteSettings = {
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       offset: 25,
       offsetScroll: true,
-      enabled: true
+      enabled: true,
+      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
     },
     native: {
       enabled: true
