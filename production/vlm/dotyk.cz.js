@@ -469,7 +469,7 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        'commercial-article-native-detail': '<div class="clanek-item" style="padding-left: 2%">\n  <a class="dom-image-wrap" href="${link}">\n    <img width="200" height="113" loading="lazy" alt="Reklama" class="dom-image" src="${img}">\n  </a>\n  <div class="text-wrapper">\n    <a class="rubrika-title-flex">\n      <h3 class="text-doporucene tema rubrika-title">\n        <span>Reklama</span>\n      </h3>\n    </a>\n    <a href="${link}" class="clanek-title-flex">\n      <h3 class="text-doporucene title clanek-title">\n        <span>${title}</span>\n      </h3>\n    </a>\n    <a href="${link}" class="clanek-popis-flex" title="${desc}">\n      <h3 class="text-doporucene clanek-popis">\n        <span>${desc}</span>\n      </h3>\n    </a>\n  </div>\n</div>'
+        'commercial-article-native-detail': '<div class="clanek-item" style="padding-left: 2%; width: 100%">\n  <a class="dom-image-wrap" href="${link}">\n    <img width="200" height="113" loading="lazy" alt="Reklama" class="dom-image" src="${img}" style="height: 113px; object-fit: cover">\n  </a>\n  <div class="text-wrapper">\n    <a class="rubrika-title-flex">\n      <h3 class="text-doporucene tema rubrika-title">\n        <span>Reklama</span>\n      </h3>\n    </a>\n    <a href="${link}" class="clanek-title-flex">\n      <h3 class="text-doporucene title clanek-title">\n        <span>${title}</span>\n      </h3>\n    </a>\n    <a href="${link}" class="clanek-popis-flex" title="${desc}">\n      <h3 class="text-doporucene clanek-popis">\n        <span>${desc}</span>\n      </h3>\n    </a>\n  </div>\n</div>'
       }
     },
     slideup: {
