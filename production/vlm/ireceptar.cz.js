@@ -490,9 +490,50 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'wallpaper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 2501444,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 2501500,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 26610132
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   general: {
-    onload: (() => { document.getElementsByClassName('wrapper')[0].style.position = 'inherit' })
+    onload: (() => {
+      document.getElementsByClassName('wrapper')[0].style.position = 'inherit'
+    })
   }
 }
