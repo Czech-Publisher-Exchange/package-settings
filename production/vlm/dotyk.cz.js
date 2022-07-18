@@ -467,7 +467,10 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     native: {
-      enabled: true
+      enabled: true,
+      templates: {
+        'commercial-article-native-detail': '<div class="clanek-item">\n  <a class="dom-image-wrap" href="${link}">\n    <img width="200" height="113" loading="lazy" alt="Reklama" class="dom-image" src="${img}">\n  </a>\n  <div class="text-wrapper">\n    <a class="rubrika-title-flex">\n      <h3 class="text-doporucene tema rubrika-title">\n        <span>Reklama</span>\n      </h3>\n    </a>\n    <a href="${link}" class="clanek-title-flex">\n      <h3 class="text-doporucene title clanek-title">\n        <span>${title}</span>\n      </h3>\n    </a>\n    <a href="${link}" class="clanek-popis-flex" title="${desc}">\n      <h3 class="text-doporucene clanek-popis">\n        <span>${desc}</span>\n      </h3>\n    </a>\n  </div>\n</div>'
+      }
     },
     slideup: {
       enabled: true,
