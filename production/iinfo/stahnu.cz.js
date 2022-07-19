@@ -407,7 +407,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       contentCSS: 'width: 1060px; margin: 200px auto;',
-      offset: 25,
+      offset: null,
       offsetScroll: true
     }
   }
