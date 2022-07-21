@@ -1,6 +1,7 @@
 window.cpexPublisherSettings = {
   publisher: {
-    code: 'cpex'
+    code: 'cpex',
+    note: "test'znaku"
   },
   aam: {
     settings: {
