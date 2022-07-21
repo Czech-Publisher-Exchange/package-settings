@@ -1286,7 +1286,10 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     native: {
-      enabled: true
+      enabled: true,
+      templates: {
+        'commercial-article-2-hp': "<article class='box-article box-article-classic'>\n  <div class='box-article-left'>\n    <a class='box-article-img' href='${link}' title='${title}' tabindex='-1'>\n      <img src='${img}' width='210' height='140' loading='lazy'>\n    </a>\n  </div>\n  <div class='box-article-right'>\n    <div class='box-article-tags'>\n      <div class='box-article-tag'>REKLAMA</div>\n    </div>\n    <a href='${link}'>\n      <h3 class='box-article-title fs20'>${title}</h3>\n      <h4 class='box-article-perex fs16'>${desc}</h4>\n    </a>\n  </div>\n</article>"
+      }
     },
     slideup: {
       enabled: true,
