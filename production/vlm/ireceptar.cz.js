@@ -525,6 +525,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 26610132
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptar_wallpaper_1'
+        }
       }],
       filter: {
         minWidth: 1000
