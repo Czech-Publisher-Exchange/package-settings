@@ -13,7 +13,10 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     native: {
-      enabled: true
+      enabled: true,
+      templates: {
+        'commercial-article-native-detail': "<aside class='inserted-article'>\n\t<article class='box-article box-article-mid fl'>\n\t\t<header class='box-article-header fl'>\n\t\t\t<a href='${link}' target='_blank'>\n\t\t\t\t<div class='box-article-image'>\n\t\t\t\t\t<div class='box-article-img ratio ratio4-3'>\n\t\t\t\t\t\t<img src='${img}' width='166' height='125'>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</a>\n\t\t</header>\n\t\t<div class='box-article-right fr'>\n\t\t\t<a class='box-article-title' href='${link}' target='_blank'>\n\t\t\t\t<span class='text-tertiary'>REKLAMA</span>\n\t\t\t\t<h3>${title}</h3>\n\t\t\t</a>\n\t\t</div>\n\t</article>\n</aside>"
+      }
     },
     vignette: {
       enabled: true,
