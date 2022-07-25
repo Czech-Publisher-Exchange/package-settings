@@ -30,7 +30,7 @@ window.cpexPublisherSettings = {
       pubmatic: 'pubmatic_hb',
       pubmatic_eco_hb: 'pubmatic_eco_hb',
       rubicon: 'magnite_hb',
-      adform: 'adform',
+      adform: 'adform_hb',
       adform_im_hb: 'adform_im_hb',
       r2b2: 'r2b2',
       triplelift: 'triplelift_hb',
