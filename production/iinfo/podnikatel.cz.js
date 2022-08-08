@@ -671,7 +671,8 @@ window.cpexWebsiteSettings = {
         }
       }]
     }],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7/prebid.js'
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7/prebid.js',
+    userIDs: ['id5Id', 'sharedId', 'criteo', 'cpexId']
   },
   formats: {
     skin: {
