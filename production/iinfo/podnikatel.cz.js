@@ -238,6 +238,22 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'iInfo_Podnikatel_Leaderboard'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'podnikatel.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'podnikatel.cz',
+          p: '998x200',
+          m: 0,
+          g: 'hb'
+        }
       }],
       filter: {
         minWidth: 1000
