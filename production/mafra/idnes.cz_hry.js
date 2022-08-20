@@ -76,7 +76,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 23243063
+          placementId: 27156322
         }
       }, {
         bidder: 'r2b2',
@@ -136,7 +136,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 15772680
+          placementId: 27156307
         }
       }, {
         bidder: 'r2b2',
@@ -199,7 +199,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 15772685
+          placementId: 27156324
         }
       }, {
         bidder: 'r2b2',
@@ -261,7 +261,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 15772687
+          placementId: 27156328
         }
       }, {
         bidder: 'r2b2',
@@ -317,7 +317,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20650667
+          placementId: 27156326
         }
       }]
     }, {
@@ -365,7 +365,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20650807
+          placementId: 27156327
         }
       }]
     }, {
@@ -413,7 +413,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20650808
+          placementId: 27156325
         }
       }]
     }, {
@@ -465,7 +465,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 15772683
+          placementId: 27156329
         }
       }, {
         bidder: 'r2b2',
@@ -522,7 +522,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 15772694
+          placementId: 27156331
         }
       }],
       filter: {
@@ -571,7 +571,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21031392
+          placementId: 27156357
         }
       }],
       filter: {
@@ -620,7 +620,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21031385
+          placementId: 27156355
         }
       }],
       filter: {
@@ -645,7 +645,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148302,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256]
+          sizes: [15, 14, 256, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -654,7 +654,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148182,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256]
+          sizes: [15, 14, 256, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -677,7 +677,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16828766
+          placementId: 27156358
         }
       }, {
         bidder: 'r2b2',
@@ -739,7 +739,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 15772691
+          placementId: 27156362
         }
       }, {
         bidder: 'r2b2',
@@ -791,7 +791,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 23712814
+          placementId: 27156363
         }
       }, {
         bidder: 'r2b2',
@@ -855,7 +855,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 15772696
+          placementId: 27156370
         }
       }, {
         bidder: 'r2b2',
@@ -917,7 +917,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16040023
+          placementId: 27156373
         }
       }, {
         bidder: 'r2b2',
@@ -979,7 +979,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20848214
+          placementId: 27156376
         }
       }, {
         bidder: 'r2b2',
@@ -1035,7 +1035,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 15772682
+          placementId: 27156375
         }
       }]
     }, {
@@ -1084,7 +1084,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 22539444
+          placementId: 27156323
         }
       }]
     }],
