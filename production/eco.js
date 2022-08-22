@@ -38,7 +38,7 @@ window.cpexPublisherSettings = {
       smart: 'smart',
       teads: 'teads',
       rtbhouse: 'rtbhouse',
-      'adform_im_hb-mask': 'adform_im_hb-mask'
+      'adform_im_hb-mask': 'adform_im_hb'
     }
   },
   headerbidding: {
