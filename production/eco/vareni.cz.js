@@ -56,6 +56,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334488,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109659,
@@ -76,6 +83,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21011671
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_varenicz_leader'
         }
       }, {
         bidder: 'r2b2',
@@ -133,6 +145,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334501,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109665,
@@ -153,6 +172,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21011717
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_varenicz_megaboard'
         }
       }, {
         bidder: 'r2b2',
@@ -208,6 +232,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334496,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109660,
@@ -228,6 +259,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21011721
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_varenicz_wallpaper_1'
         }
       }, {
         bidder: 'r2b2',
@@ -283,6 +319,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334498,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109662,
@@ -303,6 +346,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21011729
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_varenicz_wallpaper_x'
         }
       }, {
         bidder: 'r2b2',
@@ -359,6 +407,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334490,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109663,
@@ -379,6 +434,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21010492
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_varenicz_halfpage_1'
         }
       }, {
         bidder: 'r2b2',
@@ -435,6 +495,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334494,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109664,
@@ -455,6 +522,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21011627
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_varenicz_halfpage_1'
         }
       }, {
         bidder: 'r2b2',
