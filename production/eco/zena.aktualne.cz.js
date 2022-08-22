@@ -106,6 +106,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334549,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 701200,
@@ -126,6 +133,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873770
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_halfpage_1'
         }
       }, {
         bidder: 'r2b2',
@@ -183,6 +195,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334561,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1499304,
@@ -203,6 +222,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873795
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_halfpage_2'
         }
       }, {
         bidder: 'r2b2',
@@ -275,6 +299,11 @@ window.cpexWebsiteSettings = {
           placementId: 21873809
         }
       }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_halfpage_3'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'zena.cz',
@@ -345,6 +374,11 @@ window.cpexWebsiteSettings = {
           placementId: 21873811
         }
       }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_halfpage_4'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'zena.cz',
@@ -399,6 +433,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334547,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 701204,
@@ -419,6 +460,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873712
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_leader'
         }
       }, {
         bidder: 'r2b2',
@@ -476,6 +522,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334573,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 701201,
@@ -496,6 +549,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873767
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_megaboard'
         }
       }, {
         bidder: 'r2b2',
@@ -551,6 +609,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334566,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 701208,
@@ -571,6 +636,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873768
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_wallpaper_1'
         }
       }, {
         bidder: 'r2b2',
@@ -626,6 +696,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334569,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1499288,
@@ -646,6 +723,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873769
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_wallpaper_2'
         }
       }, {
         bidder: 'r2b2',
