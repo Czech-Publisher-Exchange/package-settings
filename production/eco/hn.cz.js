@@ -66,6 +66,11 @@ window.cpexWebsiteSettings = {
           placementId: 23566747
         }
       }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_hncz_leader'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'ihned.cz',
@@ -133,6 +138,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23566750
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_hncz_halfpage_1'
         }
       }, {
         bidder: 'r2b2',
@@ -204,6 +214,11 @@ window.cpexWebsiteSettings = {
           placementId: 23566751
         }
       }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_hncz_halfpage_2'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'ihned.cz',
@@ -270,6 +285,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23566749
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_hncz_wallpaper'
         }
       }, {
         bidder: 'r2b2',
@@ -339,6 +359,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23566748
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_hncz_megaboard'
         }
       }, {
         bidder: 'r2b2',
