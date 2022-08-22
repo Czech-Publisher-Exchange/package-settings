@@ -57,6 +57,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334584,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1148666,
@@ -77,6 +84,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 22213120
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_centrumcz_leader'
         }
       }, {
         bidder: 'r2b2',
@@ -134,6 +146,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334588,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1148675,
@@ -154,6 +173,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 22213128
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_centrumcz_halfpage'
         }
       }, {
         bidder: 'r2b2',
@@ -210,6 +234,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334592,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1148708,
@@ -230,6 +261,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 22213123
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_centrumcz_mediumrectangle'
         }
       }, {
         bidder: 'r2b2',
@@ -300,6 +336,11 @@ window.cpexWebsiteSettings = {
           placementId: 22213136
         }
       }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_centrumcz_strip'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'centrum.cz',
@@ -328,7 +369,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142966,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44]
+          sizes: [48, 15, 14, 44, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -337,7 +378,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142968,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44]
+          sizes: [48, 15, 14, 44, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -370,6 +411,11 @@ window.cpexWebsiteSettings = {
           placementId: 22213138
         }
       }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_centrumcz_mediumrectangle_mob_pos1'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'centrum.cz',
@@ -398,7 +444,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142970,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44]
+          sizes: [48, 15, 14, 44, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -407,7 +453,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142972,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44]
+          sizes: [48, 15, 14, 44, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -438,6 +484,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 22213139
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_centrumcz_mediumrectangle_mob_pos2'
         }
       }, {
         bidder: 'r2b2',
