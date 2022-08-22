@@ -7,7 +7,8 @@ window.cpexPublisherSettings = {
   adserver: {
     adapter: 'sastracker',
     bidderTable: {
-      'omg-adform': 'omg-adform'
+      'omg-adform': 'omg-adform',
+      criteo: 'criteo'
     }
   },
   aam: {
