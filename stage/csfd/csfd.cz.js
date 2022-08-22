@@ -1961,6 +1961,8 @@ window.cpexWebsiteSettings = {
     }
   },
   general: {
-    errorLogging: true
+    errorLogging: true,
+    autorun: false,
+    runOn: 'adsObjectReady'
   }
 }
