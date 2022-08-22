@@ -54,6 +54,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334462,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 747148,
@@ -74,6 +81,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941420
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_aktualnecz_leader'
         }
       }, {
         bidder: 'r2b2',
@@ -130,6 +142,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334464,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109020,
@@ -150,6 +169,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941422
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_aktualnecz_halfpage_1'
         }
       }, {
         bidder: 'r2b2',
@@ -206,6 +230,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334466,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109049,
@@ -226,6 +257,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941427
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_aktualnecz_halfpage_2'
         }
       }, {
         bidder: 'r2b2',
@@ -281,6 +317,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334468,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109030,
@@ -301,6 +344,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941423
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_aktualnecz_wallpaper'
         }
       }, {
         bidder: 'r2b2',
@@ -357,6 +405,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334476,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109045,
@@ -377,6 +432,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941421
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_aktualnecz_megaboard'
         }
       }, {
         bidder: 'r2b2',
@@ -448,6 +508,11 @@ window.cpexWebsiteSettings = {
           placementId: 23941417
         }
       }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_aktualnecz_mediumrectangle_mob_pos1'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'aktualne.cz',
@@ -515,6 +580,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941418
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_aktualnecz_mediumrectangle_mob_pos2'
         }
       }, {
         bidder: 'r2b2',
@@ -586,6 +656,11 @@ window.cpexWebsiteSettings = {
           placementId: 23941419
         }
       }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_aktualnecz_mediumrectangle_mob_pos3'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'aktualne.cz',
@@ -652,6 +727,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941416
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_aktualnecz_strip'
         }
       }, {
         bidder: 'r2b2',
