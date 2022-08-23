@@ -67,11 +67,12 @@ These are done with a simple javascript code but they have to be wrapped in brac
 ### General
 Common package configuration, mainly handling of events and scripts.
 `general: {}`
-| Attribute      | Values                                         | Default    |
-|----------------|------------------------------------------------|------------|
-| `autorun`      | Boolean, true starts package once loaded       | true       |
-| `onload`       | Function, fired once package is fully loaded   |            |
-| `errorLogging` | Boolean, sends errors to Honeybadger.io        | false      |
+| Attribute      | Values                                          | Default   |
+|----------------|-------------------------------------------------|-----------|
+| `autoRun`      | Boolean, true starts package once loaded        | true      |
+| `customRun`    | JS function, fired when autoRun is disabled     |           |
+| `onLoad`       | JS function, fired once package is fully loaded |           |
+| `errorLogging` | Boolean, sends errors to Honeybadger.io         | false     |
 
 ### Publisher info
 `publisher: {}`
