@@ -1323,7 +1323,7 @@ window.cpexWebsiteSettings = {
       adUnit: 'm-sticky'
     },
     vignette: {
-      enabled: true,
+      enabled: false,
       adUnit: 'centerVignette'
     }
   }
