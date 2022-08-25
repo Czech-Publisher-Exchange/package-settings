@@ -72,11 +72,6 @@ window.cpexWebsiteSettings = {
           placementId: 15720422
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_leaderboard'
@@ -163,11 +158,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750295
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_skyscraper'
@@ -245,11 +235,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 20750299
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -338,11 +323,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750676
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_large_rectangle_1'
@@ -421,11 +401,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 20750714
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -508,11 +483,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750731
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_large_rectangle_3'
@@ -586,11 +556,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750732
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_large_rectangle_4'
@@ -662,11 +627,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 20750733
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -755,11 +715,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750735
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_rectangle'
@@ -834,11 +789,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750736
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_wide_rectangle_1'
@@ -911,11 +861,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 20750737
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -995,11 +940,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 20750738
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -1083,11 +1023,6 @@ window.cpexWebsiteSettings = {
           placementId: 25735470
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_halfpage_sticky_1'
@@ -1169,11 +1104,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750741
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_halfpage_sticky_2'
@@ -1242,11 +1172,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750742
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_leaderboard'
@@ -1309,11 +1234,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 20750743
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -1454,11 +1374,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750749
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_mobile_leaderboard'
@@ -1559,11 +1474,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750750
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_mobile_square_1'
@@ -1658,11 +1568,6 @@ window.cpexWebsiteSettings = {
           placementId: 25735476
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_mobile_square_2'
@@ -1743,11 +1648,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750752
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_mobile_square_3'
@@ -1819,11 +1719,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 20750753
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -1903,11 +1798,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 20750755
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -2015,11 +1905,6 @@ window.cpexWebsiteSettings = {
           placementId: 20750737
         }
       }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_wide_rectangle_2'
@@ -2076,6 +1961,6 @@ window.cpexWebsiteSettings = {
     }
   },
   general: {
-    errorLogging: true,
+    errorLogging: true
   }
 }
