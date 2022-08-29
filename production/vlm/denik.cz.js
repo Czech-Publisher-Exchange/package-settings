@@ -1299,7 +1299,7 @@ window.cpexWebsiteSettings = {
       adUnit: 'm-sticky'
     },
     vignette: {
-      enabled: false,
+      enabled: true,
       adUnit: 'centerVignette',
       css: '#cpex-vignette {\n  background-color: #000;\n  z-index: 999999;\n}\n  #cpex-vignette .button {\n    box-sizing: border-box;\n    cursor: pointer;\n    height: 40px;\n    width: 40px;\n    padding: 10px;\n    font-size: 12pt;\n    z-index: 9999999;\n  }\n  #cpex-vignette-header {\n    height: 70px;\n    background-color: #4a4a4a;\n    color: white;\n    text-transform: capitalize;\n  }\n  #cpex-vignette-close {\n    color: white;\n    position: absolute;\n    right: 20px;\n    top: 20px;\n  }',
       closeTextHTML: '✕'
