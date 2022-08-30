@@ -1272,6 +1272,32 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denikcz_m_square_gallery_9'
         }
       }]
+    }, {
+      code: 'centerVignette',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2522988,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 48, 15]
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        url: 'podripsky',
+        cookie: 'vignette'
+      }
     }]
   },
   formats: {
