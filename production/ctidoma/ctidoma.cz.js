@@ -43,7 +43,7 @@ window.cpexWebsiteSettings = {
         [120, 600],
         [300, 250]
       ],
-      path: '/22794528025/ctidoma_skyscraper2'
+      path: '/22794528025/ctidoma_skyscraper_2'
     }, {
       elementId: 'cpex-footerboard',
       sizes: [
@@ -59,7 +59,7 @@ window.cpexWebsiteSettings = {
         [300, 300],
         [300, 250]
       ],
-      path: '/22794528025/ctidoma_smr-mobil'
+      path: '/22794528025/ctidoma_smr_mobil'
     }],
     gamPrefix: 'ctidoma_',
     gamId: '22794528025'
