@@ -11,7 +11,45 @@ window.cpexWebsiteSettings = {
     }
   },
   adserver: {
-    adapter: 'googletag'
+    adapter: 'googletag',
+    defineSlots: [{
+      elementId: 'leaderboard_1',
+      sizes: [
+        [2000, 1400],
+        [970, 250],
+        [970, 210],
+        [970, 310]
+      ],
+      path: '/22794528025/impuls_leaderboard_1'
+    }, {
+      elementId: 'billboard_1',
+      sizes: [
+        [970, 250],
+        [970, 210],
+        [970, 90],
+        [970, 310]
+      ],
+      path: '/22794528025/impuls_billboard_1'
+    }, {
+      elementId: 'medium_rectangle_1',
+      sizes: [
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22794528025/impuls_medium_rectangle_1'
+    }, {
+      elementId: 'halfpage_1',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250],
+        [160, 600],
+        [120, 600]
+      ],
+      path: '/22794528025/impuls_halfpage_1'
+    }],
+    gamPrefix: 'impuls_',
+    gamId: '22794528025'
   },
   headerbidding: {
     adUnits: [{
