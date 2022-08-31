@@ -17,7 +17,7 @@ window.cpexWebsiteSettings = {
         [970, 310],
         [970, 210]
       ],
-      path: '/22794528025/ctidoma_cpex-leaderboard'
+      path: '/22794528025/ctidoma_leaderboard'
     }, {
       elementId: 'cpex-wallpaper',
       sizes: [
@@ -25,7 +25,7 @@ window.cpexWebsiteSettings = {
         [300, 300],
         [300, 250]
       ],
-      path: '/22794528025/ctidoma_cpex-wallpaper'
+      path: '/22794528025/ctidoma_wallpaper'
     }, {
       elementId: 'cpex-skyscraper',
       sizes: [
@@ -34,7 +34,7 @@ window.cpexWebsiteSettings = {
         [120, 600],
         [300, 250]
       ],
-      path: '/22794528025/ctidoma_cpex-skyscraper'
+      path: '/22794528025/ctidoma_skyscraper'
     }, {
       elementId: 'cpex-skyscraper2',
       sizes: [
@@ -43,7 +43,7 @@ window.cpexWebsiteSettings = {
         [120, 600],
         [300, 250]
       ],
-      path: '/22794528025/ctidoma_cpex-skyscraper2'
+      path: '/22794528025/ctidoma_skyscraper2'
     }, {
       elementId: 'cpex-footerboard',
       sizes: [
@@ -51,7 +51,7 @@ window.cpexWebsiteSettings = {
         [970, 310],
         [970, 210]
       ],
-      path: '/22794528025/ctidoma_cpex-footerboard'
+      path: '/22794528025/ctidoma_footerboard'
     }, {
       elementId: 'cpex-smr-mobil',
       sizes: [
@@ -59,7 +59,7 @@ window.cpexWebsiteSettings = {
         [300, 300],
         [300, 250]
       ],
-      path: '/22794528025/ctidoma_cpex-smr-mobil'
+      path: '/22794528025/ctidoma_smr-mobil'
     }],
     gamPrefix: 'ctidoma_',
     gamId: '22794528025'
