@@ -2053,7 +2053,8 @@ window.cpexWebsiteSettings = {
       contentEl: (document.getElementById('page-wrapper')),
       hide: [(document.getElementById('leaderboard-wrapper'))],
       enabled: true,
-      zIndex: 0
+      zIndex: 0,
+      contentCSS: 'position: relative;margin-top: 210px'
     },
     slideup: {
       adUnit: 'slide_up',
