@@ -9,7 +9,60 @@ window.cpexWebsiteSettings = {
   },
   adserver: {
     adapter: 'googletag',
-    loadPrerequisites: true
+    loadPrerequisites: true,
+    defineSlots: [{
+      elementId: 'cpex-leaderboard',
+      sizes: [
+        [970, 90],
+        [970, 310],
+        [970, 210]
+      ],
+      path: '/22794528025/ctidoma_leaderboard'
+    }, {
+      elementId: 'cpex-wallpaper',
+      sizes: [
+        [480, 300],
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22794528025/ctidoma_wallpaper'
+    }, {
+      elementId: 'cpex-skyscraper',
+      sizes: [
+        [300, 600],
+        [160, 600],
+        [120, 600],
+        [300, 250]
+      ],
+      path: '/22794528025/ctidoma_skyscraper'
+    }, {
+      elementId: 'cpex-skyscraper2',
+      sizes: [
+        [300, 600],
+        [160, 600],
+        [120, 600],
+        [300, 250]
+      ],
+      path: '/22794528025/ctidoma_skyscraper_2'
+    }, {
+      elementId: 'cpex-footerboard',
+      sizes: [
+        [970, 90],
+        [970, 310],
+        [970, 210]
+      ],
+      path: '/22794528025/ctidoma_footerboard'
+    }, {
+      elementId: 'cpex-smr-mobil',
+      sizes: [
+        [480, 300],
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22794528025/ctidoma_smr_mobil'
+    }],
+    gamPrefix: 'ctidoma_',
+    gamId: '22794528025'
   },
   headerbidding: {
     adUnits: [{

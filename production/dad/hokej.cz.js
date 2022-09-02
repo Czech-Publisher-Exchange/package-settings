@@ -872,5 +872,8 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  cmp: {
+    enabled: false
   }
 }
