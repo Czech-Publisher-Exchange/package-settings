@@ -66,13 +66,18 @@ These are done with a simple javascript code but they have to be wrapped in brac
 
 ### General
 Common package configuration, mainly handling of events and scripts.
+
+**Note:** JS function can be either named function (any name) or lambda (arrow) function.
+Has to have trailing comas, as line breaks may be lost. Only single quotes are allowed.
+
 `general: {}`
-| Attribute      | Values                                          | Default   |
-|----------------|-------------------------------------------------|-----------|
-| `autoRun`      | Boolean, true starts package once loaded        | true      |
-| `customRun`    | JS function, fired when autoRun is disabled     |           |
-| `onLoad`       | JS function, fired once package is fully loaded |           |
-| `errorLogging` | Boolean, sends errors to Honeybadger.io         | false     |
+| Attribute      | Values                                                   | Default    |
+|----------------|----------------------------------------------------------|------------|
+| `autoRun`      | Boolean, true starts package once loaded                 | true       |
+| `customRun`    | JS function, fired when autoRun is disabled              |            |
+| `onLoad`       | JS function, fired once package is fully loaded          |            |
+| `errorLogging` | Boolean, sends errors to Honeybadger.io                  | false      |
+| `errorApiKey`  | String, if errorLogging, add apiKey to cpexPackageConfig | '226f3869' |
 
 ### Publisher info
 `publisher: {}`
@@ -123,20 +128,22 @@ Common package configuration, mainly handling of events and scripts.
 | `settings`  | Object, mirrors `cpex_AAM_conf` in the AAM itself | inside AAM |
 
 ### Ad server
-`adserver: {}`
-| Attribute            | Values                                 | Default      |
-|----------------------|----------------------------------------|--------------|
-| `adapter`            | String, required, which adapter to use |              |
-| `enabled`            | Boolean, disabling disables HB as well | true         |
-| `loadPrerequisites`  | Boolean, loads libraries for adserver  | false        |
-| `delayCall`          | Number, timeout in milliseconds        | 0            |
-| `defineSlots`* | **Only for GAM.** Array of slot definition Objects        | |
-| `allowedSSPs` | **Only for SAS.** Object, advertiser IDs allowed for custom formats | { pubmatic: 1, index: 3, magnite: 4, xandr: 5 } |
-| `bidderTable` | **Only for SAS.** Object, bidder names in the SAS instance | stroeerCore: stroeer, appnexus: xandr_hb, pubmatic: pubmatic_hb, rubicon: magnite_hb, adform: adform, im-adform: im-adform, r2b2: r2b2, triplelift: triplelift_hb, ix: index_hb, smart: smart, teads: teads, rtbhouse: rtbhouse |
-**Note:** To properly merge between the two types of settings, SSPs should be named consistently. Please use the following strings:
-**pubmatic, index, magnite, xandr**
+**Note:** To properly merge between the two types of settings, SSPs should be named consistently. Please use the following strings: **pubmatic, index, magnite, xandr**
 
-* Slot definition object: `{ elementId: '', sizes: [], path: '' }`
+`adserver: {}`
+| Attribute            | Values                                                         | Default      |
+|----------------------|----------------------------------------------------------------|--------------|
+| `adapter`            | String, required, which adapter to use                         |              |
+| `enabled`            | Boolean, disabling disables HB as well                         | true         |
+| `loadPrerequisites`  | Boolean, loads libraries for adserver                          | false        |
+| `delayCall`          | Number, timeout in milliseconds                                | 0            |
+| `defineSlots`        | **GAM only** Array of slot definition Objects                  |              |
+| `allowedSSPs`        | **SAS only** Object, advertiser IDs allowed for custom formats |              |
+| `bidderTable`        | **SAS only** Object, bidder names in the SAS instance          |              |
+
+- defineSlots: slot definition object: `{ elementId: '', sizes: [], path: '' }`
+- allowedSSPs default: `{ pubmatic: 1, index: 3, magnite: 4, xandr: 5 }`
+- bidderTable default: `stroeerCore: stroeer, appnexus: xandr_hb, pubmatic: pubmatic_hb, rubicon: magnite_hb, adform: adform, im-adform: im-adform, r2b2: r2b2, triplelift: triplelift_hb, ix: index_hb, smart: smart, teads: teads, rtbhouse: rtbhouse`
 
 ### Header-bidding
 `headerbidding: {}`
@@ -162,6 +169,7 @@ Common package configuration, mainly handling of events and scripts.
 | `minWidth`    | Number, remove before auction if viewport is smaller than X  |
 | `url`         | String, remove before auction if url doesn't contain X       |
 | `variable`    | String, remove before auction if window.cpexAdUnitParam != X |
+| `cookie`      | String, remove before auction if page contains that cookie   |
 | `skin`        | String, remove after auction if a skin won in auction        |
 
 ### Formats
@@ -205,7 +213,7 @@ Common package configuration, mainly handling of events and scripts.
 `slideup: {}`
 | Attribute | Values                                        | Default          |
 |-----------|-----------------------------------------------|------------------|
-| `adUnit`  | String, required. adUnit where anything is considered a slideup ||
+| `adUnit`  | String, required. Where anything is a slideup |                  |
 | `css`     | String of custom CSS rules                    | default css      |
 | `emptyHeight` | Number, height in pixels used by default  | 0                |
 | `animationSpeed`| Float, number of seconds                | 0.2              |
@@ -213,10 +221,13 @@ Common package configuration, mainly handling of events and scripts.
 
 #### Vignette
 `vignette: {}`
-| Attribute | Values                                        | Default          |
-|-----------|-----------------------------------------------|------------------|
-| `adUnit`  | String, required. adUnit where anything is considered a vignette||
-| `css`     | String of custom CSS rules                    | default css      |
+| Attribute       | Values                                       | Default     |
+|-----------------|----------------------------------------------|-------------|
+| `adUnit`        | String, required. Where anything is vignette |             |
+| `css`           | String of custom CSS rules                   | default css |
+| `closeTextHTML` | String, innerHTML     | 'Zavřít&nbsp;reklamu&nbsp;&nbsp;✕' |
+| `cookieName`    | String, name of cookie to set after rendering|             |
+| `cookieDuration`| Number, seconds the cookie should last       |             |
 
 #### TestCreatives
 Explained here: [TestCreatives](./FORMATS.md#testing)
