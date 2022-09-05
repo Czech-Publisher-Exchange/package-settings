@@ -1277,7 +1277,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [480, 480],
             [300, 300],
             [300, 250]
           ]
@@ -1290,12 +1289,16 @@ window.cpexWebsiteSettings = {
           zoneId: 2522988,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 48, 15]
+          sizes: [48, 15]
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27027205
         }
       }],
       filter: {
         maxWidth: 1000,
-        url: 'podripsky',
         cookie: 'vignette'
       }
     }]
