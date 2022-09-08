@@ -1321,11 +1321,6 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [48, 15]
         }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 27027205
-        }
       }],
       filter: {
         maxWidth: 1000,
