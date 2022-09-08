@@ -642,7 +642,7 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        generic: "<article class='box-article'>\n  <header class='box-article-header'>\n    <div class='box-article-image'>\n      <a href='${link}' target='_blank'><div class='box-article-img'><img src='${img}'></div></a>\n    </div>\n    <div class='box-article-header-bottom'>\n      <div class='box-article-title'>\n        <a href='${link}' target='_blank'><h2>${title}</h2></a>\n      </div>\n    </div>\n  </header>\n  <blockquote class='box-article-excerpt'>${desc}</blockquote>\n</article>"
+        generic: "<article class='box-article'>\n  <header class='box-article-header'>\n    <div class='box-article-image'>\n      <a href='${link}' target='_blank' rel='sponsored noopener'><div class='box-article-img'><img src='${img}'></div></a>\n    </div>\n    <div class='box-article-header-bottom'>\n      <div class='box-article-title'>\n        <a href='${link}' target='_blank' rel='sponsored noopener'><h2>${title}</h2></a>\n      </div>\n    </div>\n  </header>\n  <blockquote class='box-article-excerpt'>${desc}</blockquote>\n</article>"
       }
     },
     vignette: {
