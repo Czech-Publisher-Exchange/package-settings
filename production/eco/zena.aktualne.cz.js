@@ -747,7 +747,8 @@ window.cpexWebsiteSettings = {
       offset: 64,
       offsetScroll: true,
       zIndex: 0,
-      contentCSS: 'z-index:1'
+      contentCSS: 'z-index:2',
+      hide: [(document.getElementsByClassName('leaderboard')[0])]
     },
     interscroller: {
       enabled: true
