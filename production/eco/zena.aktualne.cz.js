@@ -746,7 +746,8 @@ window.cpexWebsiteSettings = {
       backgroundEl: (document.getElementsByClassName('page')[0]),
       contentEl: (document.getElementsByClassName('page')[0]),
       offset: 64,
-      offsetScroll: true
+      offsetScroll: true,
+      zIndex: -1
     },
     interscroller: {
       enabled: true
