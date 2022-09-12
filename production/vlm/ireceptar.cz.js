@@ -544,6 +544,6 @@ window.cpexWebsiteSettings = {
     }]
   },
   general: {
-    onload: "`` => {\n      document.getElementsByClassName`'wrapper'`[0].style.position = 'inherit'\n    }"
+    onLoad: "`` => {\n      document.getElementsByClassName`'wrapper'`[0].style.position = 'inherit'\n    }"
   }
 }
