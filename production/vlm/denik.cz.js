@@ -1321,6 +1321,21 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [48, 15]
         }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2560000,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27027205
+        }
       }],
       filter: {
         maxWidth: 1000,
