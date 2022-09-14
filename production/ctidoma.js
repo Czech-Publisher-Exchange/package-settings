@@ -13,5 +13,8 @@ window.cpexPublisherSettings = {
   },
   adserver: {
     adapter: 'googletag'
+  },
+  general: {
+    errorLogging: true
   }
 }
