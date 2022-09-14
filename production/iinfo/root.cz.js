@@ -663,7 +663,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('layout-main main')[0]),
+      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       contentCSS: 'width: 1060px; margin: 200px auto;',
       offset: 25,
       offsetScroll: true
