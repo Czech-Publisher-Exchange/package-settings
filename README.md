@@ -187,15 +187,16 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 **Note:** Element DOM selectors are written in Javascript code and have to be wrapped in simple brackets, to be properly parsed in the settings editor.
 
 `skin: {}`
-| Attribute      | Values                                  | Default           |
-|----------------|-----------------------------------------|-------------------|
-| `backgroundEl` | DOM selector, background element        | document.body     |
-| `contentEl`    | DOM selector, content element           |                   |
-| `contentCSS`   | CSS style for content element | 'position: relative; margin-top: 200px' |
-| `hide`         | Array of DOM elements to hide           |                   |
-| `zIndex`       | CSS `z-index` for skin wrapper (depth)  |                   |
-| `offset`       | Number, pixels from the top of the page | 0                 |
-| `offsetScroll` | Should offset disappear with scrolling? | false             |
+| Attribute      | Values                                  | Default                                 |
+|----------------|-----------------------------------------|-----------------------------------------|
+| `backgroundEl` | DOM selector, background element        | document.body                           |
+| `contentEl`    | DOM selector, content element           |                                         |
+| `contentCSS`   | CSS style for content element           | 'position: relative; margin-top: 200px' |
+| `generalCSS`   | CSS style for the page in general       |                                         |
+| `hide`         | Array of DOM elements to hide           |                                         |
+| `zIndex`       | CSS `z-index` for skin wrapper (depth)  |                                         |
+| `offset`       | Number, pixels from the top of the page | 0                                       |
+| `offsetScroll` | Should offset disappear with scrolling? | false                                   |
 
 #### Interscroller
 `interscroller: {}`
