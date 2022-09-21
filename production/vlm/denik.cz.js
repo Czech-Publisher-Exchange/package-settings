@@ -545,6 +545,11 @@ window.cpexWebsiteSettings = {
           sizes: [60]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 22969029
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1331,11 +1336,6 @@ window.cpexWebsiteSettings = {
           sizes: [48, 15]
         },
         bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 27027205
-        }
       }],
       filter: {
         maxWidth: 1000,
