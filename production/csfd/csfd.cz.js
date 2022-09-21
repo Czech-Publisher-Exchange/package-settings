@@ -1387,6 +1387,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 22969783
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
