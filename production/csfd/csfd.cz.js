@@ -2085,7 +2085,7 @@ window.cpexWebsiteSettings = {
     errorLogging: true,
     autoRun: false,
     customRun: (() => {
-      window.adsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', cpexPackage.run())
+      window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
     })
   }
 }
