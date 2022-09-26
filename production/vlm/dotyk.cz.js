@@ -41,6 +41,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4700226'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 15783923
@@ -49,24 +55,6 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_leaderboard-top'
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
-      code: 'leaderboard-top',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [2000, 1400]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'appnexus',
-        params: {
-          placementId: 18682439
         }
       }],
       filter: {
@@ -101,6 +89,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4700203'
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -146,6 +140,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4700213'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 15783924
@@ -189,6 +189,12 @@ window.cpexWebsiteSettings = {
           sizes: [10, 15, 9]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4700211'
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -234,6 +240,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4700200'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 18980271
@@ -276,6 +288,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4700201'
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -348,6 +366,12 @@ window.cpexWebsiteSettings = {
           sizes: [83, 48, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4700212'
+        }
       }, {
         bidder: 'appnexus',
         params: {
