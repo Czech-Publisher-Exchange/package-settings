@@ -16,7 +16,8 @@ window.cpexPublisherSettings = {
       rubicon: 'magnite_hb',
       adform: 'adform_hb',
       r2b2: 'r2b2_hb',
-      ix: 'index_hb'
+      ix: 'index_hb',
+      'omg-adform': 'OMG-Adform_HB'
     },
     allowedSSPs: {
       xandr: 10001,
