@@ -1439,5 +1439,18 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }]
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementsByClassName('m-bg-4')[0])
+    },
+    interscroller: {
+      enabled: true
+    },
+    slideup: {
+      enabled: true,
+      adUnit: 'm_sticky'
+    }
   }
 }
