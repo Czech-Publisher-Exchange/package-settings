@@ -284,5 +284,8 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  general: {
+    errorLogging: true
   }
 }
