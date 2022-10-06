@@ -743,8 +743,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }],
-    currency: 'USD',
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7/prebid.js'
+    currency: 'USD'
   },
   formats: {
     skin: {
