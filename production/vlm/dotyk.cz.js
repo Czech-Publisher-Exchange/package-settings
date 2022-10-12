@@ -443,7 +443,7 @@ window.cpexWebsiteSettings = {
         bidderModuleName: 'rubicon'
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'm-commercial-article-native-detail',
@@ -473,7 +473,282 @@ window.cpexWebsiteSettings = {
           sizes: [90]
         },
         bidderModuleName: 'rubicon'
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'skyscraper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 2587714,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 2588678,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4719752'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27587624
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'skyscraper-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 2587716,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 2588680,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4719751'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27587705
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-bottom-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 2587718,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 55, 96, 57]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 2588682,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 55, 96, 57]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4719748'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27587726
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'm-square-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2587720,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2588684,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4719750'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27587733
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [480, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2587722,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 261, 83]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2588686,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 261, 83]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4719749'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27587739
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [480, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2587740,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 261, 83]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2588722,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 261, 83]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4719747'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27587745
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   website: {
