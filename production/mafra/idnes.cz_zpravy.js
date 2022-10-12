@@ -56,6 +56,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163740
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: '300x250',
@@ -101,6 +109,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163739
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -151,6 +167,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163742
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -198,6 +222,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163746
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -247,6 +279,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163744
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -294,6 +334,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163745
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -343,6 +391,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163743
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -388,6 +444,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163747
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -437,6 +501,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163748
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -494,6 +566,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163756
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_vybrali',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -550,6 +630,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163755
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -601,6 +689,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163757
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -656,6 +752,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163759
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -759,6 +863,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163761
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -807,6 +919,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163762
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare_spodni',
@@ -854,6 +974,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163764
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -910,6 +1038,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163763
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -959,6 +1095,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163741
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
@@ -1004,6 +1148,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163749
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1054,6 +1206,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163750
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_clankovy_opak_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1102,6 +1262,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163751
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_clankovy_opak_3',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1152,6 +1320,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163752
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_foto_end',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1201,6 +1377,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27163753
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1249,6 +1433,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163754
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1300,6 +1492,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27163758
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: 'interscroller_foto_scroll',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
