@@ -150,7 +150,10 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('m-bg-4')[0]),
-      offset: 0
+      offset: 0,
+      backgroundEl: (document.getElementById('main')),
+      contentCSS: ' ',
+      hide: [(document.getElementById('r-leaderboard-hp'))]
     },
     interscroller: {
       enabled: true
