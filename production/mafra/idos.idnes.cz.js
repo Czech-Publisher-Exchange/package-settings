@@ -192,7 +192,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('m-bg-4')[0])
+      contentEl: (document.getElementsByClassName('m-bg-4')[0]),
+      backgroundEl: (document.getElementById('main')),
+      hide: [(document.getElementById('r-leaderboard-hp'))]
     },
     interscroller: {
       enabled: true
