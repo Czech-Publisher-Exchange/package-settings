@@ -57,6 +57,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157218
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead',
@@ -111,6 +119,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157219
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -208,6 +224,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157221
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -256,6 +280,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157222
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -301,6 +333,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157223
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -403,6 +443,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157226
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -450,6 +498,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157227
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -540,7 +596,702 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157229
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
+        }
       }]
+    }, {
+      code: '300x250',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2598278,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 2598294,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738877'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663008
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'branding_fotogalerie',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [2000, 1400],
+            [998, 200],
+            [728, 90],
+            [970, 210]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2598280,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230, 259, 2, 96]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 2598296,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230, 259, 2, 96]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738922'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663016
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'halfpagead_fotogalerie',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2598282,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 2598298,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738878'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663017
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'halfpagead_spodni',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2598284,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738879'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663018
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'halfpagead_lazyload',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2598286,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738880'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663019
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'wallpaper',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [970, 310],
+            [728, 90],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2598288,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [94, 2, 57]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738881'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663020
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'widesquare_clankovy',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2598290,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738882'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663021
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'widesquare_spodni',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2598292,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738883'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663022
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'm_300x250_clankovy',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738884'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663023
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_300x250_clankovy_opak1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738885'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663024
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_300x250_clankovy_opak2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738886'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663025
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_clankovy_opak_2',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_300x250_clankovy_opak3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738887'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663026
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_clankovy_opak_3',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_300x250_foto_end',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738888'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663027
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_foto_end',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_300x250_foto_mid',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738889'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663028
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_300x250_foto_start',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738890'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663029
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_300x250_souvisejici',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738891'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663030
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_300x250_vybrali',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738892'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663031
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_vybrali',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_branding_foto',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4738893'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27663032
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: 'interscroller_foto_scroll',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
