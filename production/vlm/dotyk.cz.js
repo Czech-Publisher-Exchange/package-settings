@@ -299,6 +299,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 18980273
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotyk_m-square-2'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -518,6 +523,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27587624
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotykcz_Skyscraper_3_300x600'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -562,6 +572,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587705
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotykcz_skyscraper_4_300x600'
         }
       }],
       filter: {
@@ -609,6 +624,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27587726
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotykcz_Leaderboard_bottom_2_970x250'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -652,6 +672,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587733
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotykcz_m_square_3_300x300'
         }
       }],
       filter: {
@@ -699,6 +724,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27587739
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotykcz_m_square_4_480x480'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -744,6 +774,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587745
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotykcz_m_square_5_480x480'
         }
       }],
       filter: {
