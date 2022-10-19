@@ -60,6 +60,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156618
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: '300x250',
@@ -112,6 +120,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156612
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -169,6 +185,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156626
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -223,6 +247,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156633
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -279,6 +311,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156629
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -333,6 +373,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156631
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -389,6 +437,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156628
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -441,6 +497,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156635
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -498,6 +562,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156639
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -554,6 +626,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156660
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_vybrali',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -609,6 +689,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156659
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -669,6 +757,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156663
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -723,6 +819,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156668
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -826,6 +930,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156674
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -880,6 +992,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156676
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -936,6 +1056,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156679
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare_clankovy',
@@ -990,6 +1118,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156678
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -1047,6 +1183,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156622
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
@@ -1099,6 +1243,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156641
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1156,6 +1308,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156644
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_clankovy_opak_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1211,6 +1371,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156646
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_clankovy_opak_3',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1268,6 +1436,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156648
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_foto_end',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1323,6 +1499,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156649
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1380,6 +1564,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156652
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1431,10 +1623,74 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27156665
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: 'interscroller_foto_scroll',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'halfpagead_lazyload',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2592348,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 2592636,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4719791'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 891439
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27587945
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
+        }
+      }]
     }]
   },
   formats: {
