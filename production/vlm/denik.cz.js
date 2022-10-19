@@ -1382,6 +1382,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27587766
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_denikcz_m_square_gallery_10_300x600'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1426,6 +1431,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587768
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_denikcz_m_square_gallery_11_300x300'
         }
       }],
       filter: {
@@ -1472,6 +1482,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27587775
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_denikcz_m_square_gallery_12_300x300'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1516,6 +1531,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587777
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_denikcz_m_square_gallery_13_300x300'
         }
       }],
       filter: {
@@ -1562,6 +1582,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27587782
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_denikcz_m_square_gallery_14_300x300'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1606,6 +1631,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587789
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_denikcz_m_square_gallery_15_300x300'
         }
       }],
       filter: {
@@ -1652,6 +1682,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27587794
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_denikcz_m_square_gallery_16_300x300'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1696,6 +1731,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587797
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_denikcz_m_square_gallery_17_300x300'
         }
       }],
       filter: {
