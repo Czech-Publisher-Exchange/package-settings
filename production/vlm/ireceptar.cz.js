@@ -632,6 +632,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27587756
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptarcz_Skyscraper_2'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -678,6 +683,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27587758
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptarcz_m_square_3_480x480'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -723,6 +733,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587759
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_ireceptarcz_m_square_4_480x480'
         }
       }],
       filter: {
