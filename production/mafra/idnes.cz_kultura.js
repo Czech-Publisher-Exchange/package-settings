@@ -63,6 +63,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157456
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: '300x250',
@@ -115,6 +123,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157453
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -172,6 +188,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157459
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -226,6 +250,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157466
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -282,6 +314,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157463
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -336,6 +376,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157465
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -392,6 +440,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157460
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -444,6 +500,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157467
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -501,6 +565,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157468
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -557,6 +629,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157491
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_vybrali',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -612,6 +692,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157490
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -672,6 +760,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157492
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -726,6 +822,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157499
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -829,6 +933,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157505
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -883,6 +995,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157506
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -939,6 +1059,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157512
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare_clankovy',
@@ -993,6 +1121,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157507
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -1050,6 +1186,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157458
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
@@ -1102,6 +1246,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157474
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1159,6 +1311,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157481
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_clankovy_opak_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1214,6 +1374,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157484
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_clankovy_opak_3',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1271,6 +1439,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157487
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_foto_end',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1327,6 +1503,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157488
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1382,6 +1566,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157489
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1517,6 +1709,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157497
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: 'interscroller_foto_scroll',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
