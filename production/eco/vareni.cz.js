@@ -85,6 +85,11 @@ window.cpexWebsiteSettings = {
           placementId: 21011671
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_varenicz_leader'
@@ -174,6 +179,11 @@ window.cpexWebsiteSettings = {
           placementId: 21011717
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_varenicz_megaboard'
@@ -261,6 +271,11 @@ window.cpexWebsiteSettings = {
           placementId: 21011721
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_varenicz_wallpaper_1'
@@ -346,6 +361,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21011729
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -436,6 +456,11 @@ window.cpexWebsiteSettings = {
           placementId: 21010492
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_varenicz_halfpage_1'
@@ -522,6 +547,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21011627
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
