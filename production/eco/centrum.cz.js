@@ -18,8 +18,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 250],
             [970, 210],
-            [970, 100],
-            [728, 90]
+            [728, 90],
+            [2000, 1400],
+            [970, 100]
           ]
         }
       },
@@ -27,10 +28,10 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 385178,
-          zoneId: 2142926,
+          zoneId: 2614894,
           accountId: '10900',
           position: 'atf',
-          sizes: [57, 96, 95, 2]
+          sizes: [57, 96, 2, 230, 95]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -39,7 +40,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142928,
           accountId: '10900',
           position: 'atf',
-          sizes: [57, 96, 95, 2]
+          sizes: [57, 96, 2, 230, 95]
         },
         bidderModuleName: 'rubicon'
       }, {
