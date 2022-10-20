@@ -24,7 +24,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 353314,
-          zoneId: 2186666,
+          zoneId: 2613988,
           accountId: '10900',
           position: 'atf',
           sizes: [2, 95, 96, 230]
@@ -81,6 +81,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941420
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -171,6 +176,11 @@ window.cpexWebsiteSettings = {
           placementId: 23941422
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_aktualnecz_halfpage_1'
@@ -259,6 +269,11 @@ window.cpexWebsiteSettings = {
           placementId: 23941427
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_aktualnecz_halfpage_2'
@@ -344,6 +359,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941423
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -434,6 +454,11 @@ window.cpexWebsiteSettings = {
           placementId: 23941421
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_aktualnecz_megaboard'
@@ -506,6 +531,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941417
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -582,6 +612,11 @@ window.cpexWebsiteSettings = {
           placementId: 23941418
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_aktualnecz_mediumrectangle_mob_pos2'
@@ -656,6 +691,11 @@ window.cpexWebsiteSettings = {
           placementId: 23941419
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_aktualnecz_mediumrectangle_mob_pos3'
@@ -727,6 +767,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 23941416
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
