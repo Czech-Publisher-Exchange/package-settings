@@ -51,6 +51,11 @@ window.cpexWebsiteSettings = {
           placementId: 21874069
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'zena.cz',
@@ -133,6 +138,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873770
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -224,6 +234,11 @@ window.cpexWebsiteSettings = {
           placementId: 21873795
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_zenaaktualnecz_halfpage_2'
@@ -299,6 +314,11 @@ window.cpexWebsiteSettings = {
           placementId: 21873809
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_zenaaktualnecz_halfpage_3'
@@ -372,6 +392,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873811
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -460,6 +485,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873712
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -551,6 +581,11 @@ window.cpexWebsiteSettings = {
           placementId: 21873767
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_zenaaktualnecz_megaboard'
@@ -638,6 +673,11 @@ window.cpexWebsiteSettings = {
           placementId: 21873768
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_zenaaktualnecz_wallpaper_1'
@@ -723,6 +763,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21873769
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
