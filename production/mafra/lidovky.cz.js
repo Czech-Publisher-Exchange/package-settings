@@ -559,7 +559,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 692018
+          siteId: 777284
         }
       }, {
         bidder: 'appnexus',
@@ -612,7 +612,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 692019
+          siteId: 777285
         }
       }, {
         bidder: 'appnexus',
@@ -665,7 +665,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 692020
+          siteId: 777286
         }
       }, {
         bidder: 'appnexus',
@@ -877,7 +877,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 692016
+          siteId: 777287
         }
       }, {
         bidder: 'appnexus',
@@ -930,7 +930,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 692017
+          siteId: 777288
         }
       }, {
         bidder: 'appnexus',
