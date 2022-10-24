@@ -827,6 +827,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27739530
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotykcz_m_square_bottom_1_300x250'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -874,6 +879,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27739547
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotykcz_m_square_bottom_2_300x250'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -920,6 +930,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27739763
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_dotykcz_m_square_bottom_3_300x250'
         }
       }],
       filter: {
