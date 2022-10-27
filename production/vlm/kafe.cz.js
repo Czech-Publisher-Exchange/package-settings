@@ -657,5 +657,10 @@ window.cpexWebsiteSettings = {
   },
   cmp: {
     enabled: false
+  },
+  general: {
+    onLoad: (() => {
+      document.getElementsByClassName('wrapper')[0].style.position = 'inherit'
+    })
   }
 }
