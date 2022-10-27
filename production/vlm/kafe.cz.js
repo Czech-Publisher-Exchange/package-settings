@@ -3,9 +3,7 @@ window.cpexWebsiteSettings = {
     name: 'kafe.cz'
   },
   aam: {
-    settings: {
-      publisher: 'vlm'
-    }
+    enabled: false
   },
   adserver: {
     adapter: 'sastracker',
@@ -646,8 +644,18 @@ window.cpexWebsiteSettings = {
       }
     },
     vignette: {
-      enabled: true,
+      enabled: false,
       adUnit: 'm-vignette'
+    },
+    interscroller: {
+      enabled: true
+    },
+    slideup: {
+      enabled: true,
+      adUnit: 'm-sticky'
     }
+  },
+  cmp: {
+    enabled: false
   }
 }
