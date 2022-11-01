@@ -1,7 +1,7 @@
 window.cpexWebsiteSettings = {
   publisher: {
     code: 'cpex',
-    note: 'test'
+    note: 'test2'
   },
   aam: {
     settings: {
