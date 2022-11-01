@@ -1,6 +1,7 @@
-window.cpexPublisherSettings = {
+window.cpexWebsiteSettings = {
   publisher: {
-    code: 'cpex'
+    code: 'cpex',
+    note: 'test'
   },
   aam: {
     settings: {
