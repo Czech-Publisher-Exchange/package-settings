@@ -507,6 +507,11 @@ window.cpexWebsiteSettings = {
           adSlot: '4783436'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 907727
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28018616
@@ -548,6 +553,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4783434'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 907726
         }
       }, {
         bidder: 'appnexus',
