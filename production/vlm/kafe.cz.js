@@ -646,6 +646,43 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'm-sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 1077172,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 1077174,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 22969011
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
