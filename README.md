@@ -71,13 +71,12 @@ Common package configuration, mainly handling of events and scripts.
 Has to have trailing comas, as line breaks may be lost. Only single quotes are allowed.
 
 `general: {}`
-| Attribute      | Values                                                   | Default    |
-|----------------|----------------------------------------------------------|------------|
-| `autoRun`      | Boolean, true starts package once loaded                 | true       |
-| `customRun`    | JS function, fired when autoRun is disabled              |            |
-| `onLoad`       | JS function, fired once package is fully loaded          |            |
-| `errorLogging` | Boolean, sends errors to Honeybadger.io                  | false      |
-| `errorApiKey`  | String, if errorLogging, add apiKey to cpexPackageConfig | '226f3869' |
+| Attribute      | Values                                                    | Default    |
+|----------------|-----------------------------------------------------------|------------|
+| `autoRun`      | Boolean, true starts package once loaded                  | true       |
+| `customRun`    | JS function, fired when autoRun is disabled               |            |
+| `onLoad`       | JS function, fired once package is fully loaded           |            |
+| `errorApiKey`  | String, enables logging, adds apiKey to cpexPackageConfig | '226f3869' |
 
 ### Publisher info
 `publisher: {}`
@@ -147,15 +146,17 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 
 ### Header-bidding
 `headerbidding: {}`
-| Attribute       | Values                                          | Default  |
-|-----------------|-------------------------------------------------|----------|
-| `enabled`       | Boolean                                         | true     |
-| `prebidPath`    | String URL | https://cdn.cpex.cz/hb/prebid/prebid.min.js   |
-| `currency`      | String, converts CPM into this currency         | 'USD'    |
-| `prebidDebug`   | Boolean, Toggles debug logging from Prebid      | false    |
-| `adUnits`       | Array of AdUnit Objects + custom `filter`       | []       |
-| `userIDs`       | Array, names of modules to enable       | ['id5Id', 'sharedId', 'criteo'] |
-| `analytics`     | Array, names of adapters to enable      | ['id5Analytics'] |
+| Attribute          | Values                                        | Default  |
+|--------------------|-----------------------------------------------|----------|
+| `enabled`          | Boolean                                       | true     |
+| `prebidPath`       | String URL | https://cdn.cpex.cz/hb/prebid/prebid.min.js |
+| `currency`         | String, converts CPM into this currency       | 'USD'    |
+| `prebidDebug`      | Boolean, Toggles debug logging from Prebid    | false    |
+| `adUnits`          | Array of AdUnit Objects + custom `filter`     | []       |
+| `auctionTimeoutMs` | Number, sets pbjs.requestBids timeout         | 1000     |
+| `cmpLoadTimeoutMs` | Number, sets consentManagement.gdpr.timeout   | 1000     |
+| `userIDs`          | Array, names of modules to enable             | ['id5Id', 'sharedId', 'criteo'] |
+| `analytics`        | Array, names of adapters to enable            | ['id5Analytics'] |
 
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 
