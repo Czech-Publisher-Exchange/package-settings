@@ -63,6 +63,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157179
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: '300x250',
@@ -108,6 +116,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157178
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -165,6 +181,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157182
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -219,6 +243,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157187
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -275,6 +307,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157185
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -329,6 +369,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157186
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -385,6 +433,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157183
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -437,6 +493,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157188
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -494,6 +558,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157190
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -550,6 +622,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157209
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_vybrali',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -605,6 +685,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157200
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -665,6 +753,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157210
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -719,6 +815,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157212
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -822,6 +926,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157214
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -876,6 +988,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157215
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -932,6 +1052,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157217
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare_clankovy',
@@ -986,6 +1114,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157216
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -1043,6 +1179,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157180
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
@@ -1095,6 +1239,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157191
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1152,6 +1304,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157194
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_clankovy_opak_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1207,6 +1367,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157195
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_clankovy_opak_3',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1264,6 +1432,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157196
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_foto_end',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1319,6 +1495,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157197
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1376,6 +1560,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157198
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1427,6 +1619,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157211
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: 'interscroller_foto_scroll',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1477,6 +1677,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27738528
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'hobby.idnes.cz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
