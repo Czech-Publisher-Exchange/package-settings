@@ -799,6 +799,10 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true
+    },
+    slideup: {
+      adUnit: 'sas-special4',
+      enabled: true
     }
   }
 }
