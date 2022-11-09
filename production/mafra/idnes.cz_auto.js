@@ -63,6 +63,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151827
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: '300x250',
@@ -115,6 +123,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151826
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -172,6 +188,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151829
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -226,6 +250,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151836
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -282,6 +314,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151832
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -336,6 +376,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151835
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -392,6 +440,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151831
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -444,6 +500,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151837
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -501,6 +565,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151840
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -556,6 +628,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151852
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_vybrali',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -613,6 +693,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151851
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -625,7 +713,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480]
+            [480, 480],
+            [300, 600]
           ]
         }
       },
@@ -636,7 +725,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148180,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 261, 10]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -645,7 +734,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148178,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 261, 10]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -670,6 +759,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151857
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -725,6 +822,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151859
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -828,6 +933,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151862
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -882,6 +995,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151863
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -938,6 +1059,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151866
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare_clankovy',
@@ -992,6 +1121,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151865
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -1049,6 +1186,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151828
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
@@ -1101,6 +1246,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151841
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1158,6 +1311,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151842
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_clankovy_opak_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1213,6 +1374,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151843
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_clankovy_opak_3',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1270,6 +1439,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151844
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_foto_end',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1325,6 +1502,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151849
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1382,6 +1567,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151850
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1432,6 +1625,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151858
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: 'interscroller_foto_scroll',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
