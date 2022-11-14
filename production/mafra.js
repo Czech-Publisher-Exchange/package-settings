@@ -1,4 +1,4 @@
-window.cpexPublisherSettings = {
+window.cpexWebsiteSettings = {
   publisher: {
     name: 'MAFRA, a.s.',
     sellerId: '003',
@@ -18,7 +18,8 @@ window.cpexPublisherSettings = {
       r2b2: 'r2b2_hb',
       ix: 'index_hb',
       'omg-adform': 'OMG-Adform_HB',
-      'fragile-adform': 'Fragile-Adform_HB'
+      'fragile-adform': 'Fragile-Adform_HB',
+      criteo: 'Criteo_HB'
     },
     allowedSSPs: {
       xandr: 10001,
