@@ -802,7 +802,8 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       adUnit: 'sas-special4',
-      enabled: true
+      enabled: true,
+      backgroundEl: (document.getElementById('reklama-special4'))
     }
   }
 }
