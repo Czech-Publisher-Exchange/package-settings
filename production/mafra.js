@@ -2,7 +2,8 @@ window.cpexWebsiteSettings = {
   publisher: {
     name: 'MAFRA, a.s.',
     sellerId: '003',
-    code: 'mafra'
+    code: 'mafra',
+    note: '_'
   },
   cmp: {
     enabled: false
