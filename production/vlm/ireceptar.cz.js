@@ -7,7 +7,8 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       adUnit: 'm-sticky',
-      enabled: true
+      enabled: true,
+      backgroundEl: (document.getElementById('m-sticky'))
     },
     interscroller: {
       enabled: true
