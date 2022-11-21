@@ -1694,6 +1694,57 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'm_branding_foto2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2653062,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2653106,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4800020'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 919011
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28187090
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
