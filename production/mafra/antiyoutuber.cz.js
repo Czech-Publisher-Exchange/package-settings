@@ -443,7 +443,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151766
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_foto_start',
       mediaTypes: {
@@ -484,7 +487,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151767
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_souvisejici',
       mediaTypes: {
@@ -525,7 +531,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151775
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_vybrali',
       mediaTypes: {
@@ -566,7 +575,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151776
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_branding',
       mediaTypes: {
@@ -610,7 +622,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151777
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_paticka',
       mediaTypes: {
@@ -650,7 +665,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151778
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_sticky',
       mediaTypes: {
@@ -685,7 +703,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151779
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'wallpaper',
       mediaTypes: {
@@ -900,6 +921,98 @@ window.cpexWebsiteSettings = {
           placementId: 27663374
         }
       }]
+    }, {
+      code: 'm_branding_foto',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2667520,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2667522,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4800027'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28260963
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm_branding_foto2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2653072,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2653116,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4800025'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28186764
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
