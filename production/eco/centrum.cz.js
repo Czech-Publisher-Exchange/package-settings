@@ -541,6 +541,10 @@ window.cpexWebsiteSettings = {
     },
     native: {
       enabled: true
+    },
+    slideup: {
+      adUnit: 'sas-special4',
+      backgroundEl: (document.getElementById('reklama-popupmobile'))
     }
   }
 }
