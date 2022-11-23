@@ -115,6 +115,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 918986
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157322
@@ -1669,6 +1674,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4733549'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 918998
         }
       }, {
         bidder: 'appnexus',
