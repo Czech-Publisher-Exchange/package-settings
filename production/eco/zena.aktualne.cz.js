@@ -796,6 +796,11 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true
+    },
+    slideup: {
+      enabled: true,
+      adUnit: 'sas-special4',
+      backgroundEl: (document.getElementById('reklama-special4'))
     }
   }
 }
