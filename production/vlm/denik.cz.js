@@ -645,7 +645,10 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [548, 150]
+            [548, 150],
+            [480, 300],
+            [300, 300],
+            [300, 250]
           ]
         }
       },
@@ -656,7 +659,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1370782,
           accountId: '10900',
           position: 'atf',
-          sizes: [90]
+          sizes: [90, 83, 48, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -665,9 +668,20 @@ window.cpexWebsiteSettings = {
           zoneId: 1389452,
           accountId: '10900',
           position: 'atf',
-          sizes: [90]
+          sizes: [90, 83, 48, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4828427'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 15782988
+        }
       }, {
         bidder: 'triplelift',
         params: {
@@ -770,45 +784,6 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_wallpaper_2'
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
-      code: 'commercial-article-native-detail',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 300],
-            [300, 300],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 26460,
-          zoneId: 890340,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 15]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 25692,
-          zoneId: 890342,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 15782988
         }
       }],
       filter: {
@@ -1336,6 +1311,11 @@ window.cpexWebsiteSettings = {
           sizes: [48, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27027205
+        }
       }],
       filter: {
         maxWidth: 1000,
