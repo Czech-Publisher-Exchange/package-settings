@@ -15,7 +15,6 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [728, 90],
-            [970, 90],
             [970, 250],
             [2000, 1400]
           ]
@@ -28,7 +27,7 @@ window.cpexWebsiteSettings = {
           zoneId: 549816,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 55, 57, 230]
+          sizes: [2, 57, 230]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -37,7 +36,7 @@ window.cpexWebsiteSettings = {
           zoneId: 549784,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 55, 57, 230]
+          sizes: [2, 57, 230]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -56,6 +55,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15624111
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -114,6 +118,11 @@ window.cpexWebsiteSettings = {
           placementId: 15624112
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Skyscraper-2'
@@ -167,6 +176,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15624113
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -223,6 +237,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15624119
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -282,6 +301,11 @@ window.cpexWebsiteSettings = {
           placementId: 15624114
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Leaderboard-bottom'
@@ -339,6 +363,11 @@ window.cpexWebsiteSettings = {
           placementId: 15624115
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Skyscraper-1'
@@ -353,7 +382,6 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 100],
             [300, 300]
           ]
         }
@@ -365,7 +393,7 @@ window.cpexWebsiteSettings = {
           zoneId: 945064,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 19, 48]
+          sizes: [15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -374,7 +402,7 @@ window.cpexWebsiteSettings = {
           zoneId: 945060,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 19, 48]
+          sizes: [15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -393,6 +421,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15624116
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -555,6 +588,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 15783980
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -635,6 +673,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15783978
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
