@@ -457,7 +457,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       contentCSS: 'width: 1060px; margin: 200px auto; position: relative;',
-      hide: [(document.getElementByClassName('design-advert-placeholder--leaderboard')[0])]
+      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
     }
   }
 }
