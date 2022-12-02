@@ -455,8 +455,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('js-navigation-header')[0]),
-      contentCSS: 'width: 1060px; margin: 200px auto;'
+      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
+      contentCSS: 'width: 1060px; margin: 200px auto; position: relative;'
     }
   }
 }
