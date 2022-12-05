@@ -1772,6 +1772,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28368831
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }]
   },
