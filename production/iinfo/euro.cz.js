@@ -236,14 +236,6 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'ii.euro.cz',
-          p: 'branding',
-          m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'ii.euro.cz',
           p: '998x200',
           m: 0,
           g: 'hb'
