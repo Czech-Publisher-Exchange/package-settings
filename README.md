@@ -17,6 +17,16 @@ Example of setting files is in `playground/assets/settings` folder, used for the
 #### Environments
 There are multiple environment folders, for testing purposes. They use the same general scheme.
 
+#### Browser testing
+You can use URL attributes to toggle different versions. It's possible to combine them.
+
+| Attribute       | Values                                                             |
+|-----------------|--------------------------------------------------------------------|
+| `debug`         | Loads unminified library, enables debug mode (for pbjs too)        |
+| `stagePackage`  | Loads library from stage folder                                    |
+| `stageSetPub`   | Loads publisher settings from stage folder                         |
+| `stageSetWeb`   | Loads website settings from stage folder                           |
+
 #### Folder structure:
 ```
 📂 settings
@@ -157,8 +167,10 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `cmpLoadTimeoutMs` | Number, sets consentManagement.gdpr.timeout   | 1000     |
 | `userIDs`          | Array, names of modules to enable             | ['id5Id', 'sharedId', 'criteo'] |
 | `analytics`        | Array, names of adapters to enable            | ['id5Analytics'] |
+| `bidderSettings`   | Object, allows custom bidder configuration    |          |
 
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
+[Bidder Settings reference](https://docs.prebid.org/dev-docs/publisher-api-reference/bidderSettings.html)
 
 #### Filter - custom AdUnit property
 *removes the adUnit if certain runtime conditions apply*
