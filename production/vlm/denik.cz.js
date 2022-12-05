@@ -62,6 +62,11 @@ window.cpexWebsiteSettings = {
           placementId: 15784095
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_leaderboard_bottom'
@@ -111,6 +116,11 @@ window.cpexWebsiteSettings = {
           placementId: 15782985
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_square_1'
@@ -157,6 +167,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: '15624108, 18682437'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -209,6 +224,11 @@ window.cpexWebsiteSettings = {
           placementId: 15624109
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_skyscraper_1'
@@ -259,6 +279,11 @@ window.cpexWebsiteSettings = {
           placementId: 15782287
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_m_leaderboard_bottom'
@@ -306,6 +331,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15782286
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -359,6 +389,11 @@ window.cpexWebsiteSettings = {
           placementId: 15782986
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_m_square_1'
@@ -373,8 +408,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [998, 200],
-            [970, 90],
-            [970, 210]
+            [970, 90]
           ]
         }
       },
@@ -385,7 +419,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1449312,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 55, 96]
+          sizes: [259, 55]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -394,7 +428,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1449314,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 55, 96]
+          sizes: [259, 55]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -407,6 +441,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 17330112
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -459,6 +498,11 @@ window.cpexWebsiteSettings = {
           placementId: 15782989
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_m_square_3'
@@ -507,6 +551,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15782991
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -595,6 +644,11 @@ window.cpexWebsiteSettings = {
           placementId: 15624107
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_square_2'
@@ -645,7 +699,10 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [548, 150]
+            [548, 150],
+            [480, 300],
+            [300, 300],
+            [300, 250]
           ]
         }
       },
@@ -656,7 +713,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1370782,
           accountId: '10900',
           position: 'atf',
-          sizes: [90]
+          sizes: [90, 83, 48, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -665,9 +722,25 @@ window.cpexWebsiteSettings = {
           zoneId: 1389452,
           accountId: '10900',
           position: 'atf',
-          sizes: [90]
+          sizes: [90, 83, 48, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4828427'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 15782988
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }, {
         bidder: 'triplelift',
         params: {
@@ -719,6 +792,11 @@ window.cpexWebsiteSettings = {
           placementId: 17911077
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_wallpaper_1'
@@ -767,48 +845,14 @@ window.cpexWebsiteSettings = {
           placementId: 18517177
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_wallpaper_2'
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
-      code: 'commercial-article-native-detail',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 300],
-            [300, 300],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 26460,
-          zoneId: 890340,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 15]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 25692,
-          zoneId: 890342,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 15782988
         }
       }],
       filter: {
@@ -911,6 +955,11 @@ window.cpexWebsiteSettings = {
           placementId: 24714454
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_cz_m_square-gallery-1'
@@ -961,6 +1010,11 @@ window.cpexWebsiteSettings = {
           placementId: 24714462
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_cz_m_square-gallery-2'
@@ -1009,6 +1063,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 24714468
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -1062,6 +1121,11 @@ window.cpexWebsiteSettings = {
           placementId: 26629309
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denikcz_m_square_gallery_4'
@@ -1108,6 +1172,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 26629323
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -1336,6 +1405,11 @@ window.cpexWebsiteSettings = {
           sizes: [48, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27027205
+        }
       }],
       filter: {
         maxWidth: 1000,

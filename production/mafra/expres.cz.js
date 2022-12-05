@@ -310,7 +310,10 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641188'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_clankovy',
       mediaTypes: {
@@ -346,7 +349,10 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641189'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_foto_end',
       mediaTypes: {
@@ -382,7 +388,10 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641190'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_foto_mid',
       mediaTypes: {
@@ -418,7 +427,10 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641191'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_foto_start',
       mediaTypes: {
@@ -454,7 +466,10 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641192'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_branding',
       mediaTypes: {
@@ -493,7 +508,10 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641193'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_branding_foto',
       mediaTypes: {
@@ -531,7 +549,10 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641194'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_paticka',
       mediaTypes: {
@@ -566,7 +587,10 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641195'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_sticky',
       mediaTypes: {
@@ -596,7 +620,10 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15]
         },
         bidderModuleName: 'rubicon'
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'wallpaper',
       mediaTypes: {
@@ -786,6 +813,47 @@ window.cpexWebsiteSettings = {
           adSlot: '4740504'
         }
       }]
+    }, {
+      code: 'm_branding_foto2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2653040,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2653084,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4800009'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {

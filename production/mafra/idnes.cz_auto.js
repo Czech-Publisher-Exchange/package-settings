@@ -1638,6 +1638,149 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'm_branding_foto2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2653036,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2653080,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4800007'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 918999
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28185795
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'widesquare_clankovy2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2672386,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4830482'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28291622
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '480x300_clankovy_2',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'halfpagead_lazyload',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2678598,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 2678600,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4839258'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28368831
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
+        }
+      }]
     }]
   },
   formats: {

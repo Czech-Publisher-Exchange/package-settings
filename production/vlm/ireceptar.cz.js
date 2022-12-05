@@ -7,7 +7,8 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       adUnit: 'm-sticky',
-      enabled: true
+      enabled: true,
+      backgroundEl: (document.getElementById('m-sticky'))
     },
     interscroller: {
       enabled: true
@@ -81,6 +82,11 @@ window.cpexWebsiteSettings = {
           placementId: '15783966, 18682461'
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_ireceptar_leaderboard_top'
@@ -128,6 +134,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15783970
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -180,6 +191,11 @@ window.cpexWebsiteSettings = {
           placementId: 15783969
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_ireceptar_skyscraper_1'
@@ -228,6 +244,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 15783968
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -282,6 +303,11 @@ window.cpexWebsiteSettings = {
           placementId: 15783976
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_ireceptar_m_leaderboard_bottom'
@@ -333,6 +359,11 @@ window.cpexWebsiteSettings = {
           placementId: 15783971
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_ireceptar_m_square_1'
@@ -382,6 +413,11 @@ window.cpexWebsiteSettings = {
           placementId: 15783975
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_ireceptar_m_square_2'
@@ -419,6 +455,11 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 22968991
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -428,46 +469,10 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [548, 150]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 144588,
-          zoneId: 1380462,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144590,
-          zoneId: 1389632,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'VLM_ireceptar_commercial-article-native-detail'
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
-      code: 'commercial-article-native-detail',
-      mediaTypes: {
-        banner: {
-          sizes: [
             [480, 300],
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [548, 150]
           ]
         }
       },
@@ -478,7 +483,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1265852,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 15]
+          sizes: [83, 48, 15, 90]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -487,13 +492,24 @@ window.cpexWebsiteSettings = {
           zoneId: 1265854,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 15]
+          sizes: [83, 48, 15, 90]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4798519'
+        }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 15783974
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -583,6 +599,11 @@ window.cpexWebsiteSettings = {
           placementId: 26610132
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_ireceptar_wallpaper_1'
@@ -631,6 +652,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587756
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',
@@ -684,6 +710,11 @@ window.cpexWebsiteSettings = {
           placementId: 27587758
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_ireceptarcz_m_square_3_480x480'
@@ -733,6 +764,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27587759
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'triplelift',

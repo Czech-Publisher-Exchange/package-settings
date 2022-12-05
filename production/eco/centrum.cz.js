@@ -541,6 +541,11 @@ window.cpexWebsiteSettings = {
     },
     native: {
       enabled: true
+    },
+    slideup: {
+      adUnit: 'reklama-popupmobile',
+      backgroundEl: (document.getElementById('reklama-popupmobile-wrapper')),
+      enabled: true
     }
   }
 }

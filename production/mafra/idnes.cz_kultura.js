@@ -1615,6 +1615,11 @@ window.cpexWebsiteSettings = {
           adSlot: '4641312'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 918987
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157455
@@ -1656,6 +1661,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641333'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 918988
         }
       }, {
         bidder: 'appnexus',
@@ -1722,6 +1732,98 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'm_branding_foto2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2653060,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2653104,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4800019'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 919010
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28187051
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'widesquare_clankovy2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2672408,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4830493'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28291629
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '480x300_clankovy_2',
+          m: 0,
+          g: 'hb'
+        }
+      }]
     }]
   },
   formats: {

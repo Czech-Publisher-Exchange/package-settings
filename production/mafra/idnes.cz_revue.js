@@ -1768,6 +1768,98 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'm_branding_foto2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2653054,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2653098,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4800016'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 919007
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28187237
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'widesquare_clankovy2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2672402,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4830490'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28291633
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'revue.idnes.cz',
+          p: '480x300_clankovy_2',
+          m: 0,
+          g: 'hb'
+        }
+      }]
     }]
   },
   formats: {

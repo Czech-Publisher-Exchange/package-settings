@@ -45,5 +45,8 @@ window.cpexPublisherSettings = {
   headerbidding: {
     auctionTimeoutMs: 2000,
     analytics: ['id5Analytics', 'cpexAnalytics']
+  },
+  general: {
+    errorApiKey: 'hbp_DAmvPZplPFWmFYRT4W16UT3Qs47LcW1iHniv'
   }
 }

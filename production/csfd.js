@@ -19,5 +19,8 @@ window.cpexPublisherSettings = {
   },
   headerbidding: {
     analytics: ['id5Analytics', 'cpexAnalytics']
+  },
+  general: {
+    errorApiKey: 'hbp_tCjxz6JmkE7RI1QnA7qLBjDFb4ItP23y9OCs'
   }
 }

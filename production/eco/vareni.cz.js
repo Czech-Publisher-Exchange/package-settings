@@ -580,6 +580,11 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true
+    },
+    slideup: {
+      adUnit: 'sas-special',
+      enabled: true,
+      backgroundEl: (document.getElementById('sas-special-wrapper'))
     }
   }
 }

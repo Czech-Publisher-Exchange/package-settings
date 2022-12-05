@@ -12,7 +12,17 @@ window.cpexPublisherSettings = {
       magnite: 4,
       xandr: 164
     },
-    areaKey: 'pos'
+    areaKey: 'pos',
+    bidderTable: {
+      criteo: 'Criteo_HB',
+      appnexus: 'Xandr_HB',
+      pubmatic: 'Pubmatic_HB',
+      rubicon: 'Magnite_HB',
+      adform: 'Adform',
+      r2b2: 'R2B2',
+      triplelift: 'Triplelift_HB',
+      ix: 'Index_HB'
+    }
   },
   aam: {
     settings: {
