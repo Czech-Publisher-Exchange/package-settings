@@ -868,7 +868,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       backgroundEl: (document.getElementById('main')),
       contentEl: (document.getElementsByClassName('m-bg-4')[0]),
-      hide: [(document.getElementById('r-leaderboard-hp'))]
+      contentCSS: ' '
     }
   }
 }
