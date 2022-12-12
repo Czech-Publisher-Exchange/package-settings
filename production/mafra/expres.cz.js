@@ -863,6 +863,11 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnit: 'm_sticky'
+    },
+    skin: {
+      enabled: true,
+      backgroundEl: (document.getElementById('main')),
+      contentEl: (document.getElementsByClassName('m-bg-4')[0])
     }
   }
 }
