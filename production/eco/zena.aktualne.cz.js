@@ -16,7 +16,11 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [2000, 1400]
+            [2000, 1400],
+            [970, 250],
+            [970, 210],
+            [970, 100],
+            [728, 90]
           ]
         }
       },
@@ -24,10 +28,10 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 379392,
-          zoneId: 2100098,
+          zoneId: 2614892,
           accountId: '10900',
           position: 'atf',
-          sizes: [230]
+          sizes: [230, 57, 96, 95, 2]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -36,9 +40,30 @@ window.cpexWebsiteSettings = {
           zoneId: 2100074,
           accountId: '10900',
           position: 'atf',
-          sizes: [230]
+          sizes: [230, 57, 96, 95, 2]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: '4344948'
+        },
+        bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'adform_im_hb',
+        params: {
+          mid: 1334546,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'adform_im_hb-mask',
+        params: {
+          mid: 1334547,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform',
         params: {
@@ -46,14 +71,30 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 763335
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 158429,
+          pageId: 144537
+        }
+      }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21874069
+          placementId: 28537852
         }
       }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_leader'
         }
       }, {
         bidder: 'r2b2',
@@ -408,99 +449,6 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'zena.cz',
           p: '300x600_4',
-          m: 0,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'leader',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [970, 250],
-            [970, 210],
-            [970, 100],
-            [728, 90]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 379392,
-          zoneId: 2100100,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [57, 96, 95, 2]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 379386,
-          zoneId: 2100076,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [57, 96, 95, 2]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4344948'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'adform_im_hb',
-        params: {
-          mid: 1334546,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb-mask',
-        params: {
-          mid: 1334547,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 701204,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 763335
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158429,
-          pageId: 144537
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 21873712
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'ECO_zenaaktualnecz_leader'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'zena.cz',
-          p: '970x210_2',
           m: 0,
           g: 'hb'
         }
