@@ -883,7 +883,8 @@ window.cpexWebsiteSettings = {
       enabled: true,
       offset: 68,
       generalCSS: '#cpex-skin { margin-top: 60px }',
-      hide: [(document.getElementsByClassName('banner-top')[0])]
+      hide: [(document.getElementsByClassName('banner-top')[0])],
+      offsetScroll: true
     },
     slideup: {
       defaultHeight: '3'
