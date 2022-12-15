@@ -122,6 +122,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641183'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -159,6 +167,14 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641184'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -198,6 +214,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641185'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -235,6 +259,14 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641186'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -274,6 +306,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641187'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -309,6 +349,14 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641188'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -349,6 +397,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641189'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -387,6 +443,14 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641190'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x250_foto_end',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -427,6 +491,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641191'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -465,6 +537,14 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641192'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -508,6 +588,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641193'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -549,6 +637,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641194'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: 'interscroller_foto_scroll',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -586,6 +682,14 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641195'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -660,6 +764,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641196'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -697,6 +809,14 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641197'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -736,6 +856,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641198'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare_spodni',
@@ -774,6 +902,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641199'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_lazyload',
@@ -811,6 +947,14 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4740504'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
