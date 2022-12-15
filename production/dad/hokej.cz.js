@@ -880,7 +880,12 @@ window.cpexWebsiteSettings = {
     skin: {
       backgroundEl: (document.getElementById('branding-container')),
       contentEl: (document.getElementsByClassName('content-wrapper')[0]),
-      enabled: true
+      enabled: true,
+      offset: '68',
+      generalCSS: '#cpex-skin { top: 60px }'
+    },
+    slideup: {
+      defaultHeight: '3'
     }
   }
 }
