@@ -875,5 +875,11 @@ window.cpexWebsiteSettings = {
   },
   cmp: {
     enabled: false
+  },
+  formats: {
+    skin: {
+      backgroundEl: (document.getElementById('branding-container')),
+      contentEl: (document.getElementsByClassName('content-wrapper')[0])
+    }
   }
 }
