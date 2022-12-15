@@ -203,6 +203,102 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'halfpagead',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 1411816,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48, 9]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 1411818,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48, 9]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4641280'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 638858
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27157307
+        }
+      }]
+    }, {
+      code: 'halfpagead_spodni',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 1970000,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48, 9]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 1970002,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48, 9]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4641281'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 638861
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27157308
+        }
+      }]
     }]
   },
   formats: {
