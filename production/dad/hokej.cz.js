@@ -879,7 +879,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       backgroundEl: (document.getElementById('branding-container')),
-      contentEl: (document.getElementsByClassName('content-wrapper')[0])
+      contentEl: (document.getElementsByClassName('content-wrapper')[0]),
+      enabled: true
     }
   }
 }
