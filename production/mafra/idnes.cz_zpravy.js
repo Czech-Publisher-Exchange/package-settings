@@ -1998,6 +1998,31 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2697944,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2697946,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4863944'
+        }
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1603006,
@@ -2005,11 +2030,19 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28551433
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
