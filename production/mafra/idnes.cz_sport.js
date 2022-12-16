@@ -1773,6 +1773,11 @@ window.cpexWebsiteSettings = {
           adSlot: '4830488'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 927748
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28291634
