@@ -1083,6 +1083,11 @@ window.cpexWebsiteSettings = {
           placementId: 20750739
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_halfpage_sticky_1'
@@ -1189,62 +1194,6 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 96957,
           tagId: 'sas_96957'
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
-      code: 'leaderboard',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [2000, 1400],
-            [970, 210],
-            [998, 200],
-            [728, 90]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 235290,
-          zoneId: 1925074,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [230, 96, 259, 2]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 235292,
-          zoneId: 1925154,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [230, 96, 259, 2]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '3394966'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 20750742
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'CSFD_csfd_leaderboard'
         }
       }],
       filter: {
@@ -1385,6 +1334,14 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 22969783
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'pomo.csfd.cz',
+          p: '970x310',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'smart',
@@ -1658,6 +1615,11 @@ window.cpexWebsiteSettings = {
           placementId: 20750751
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'CSFD_csfd_mobile_square_2'
@@ -1925,31 +1887,6 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 96946,
           tagId: 'sas_96946'
-        }
-      }],
-      filter: {
-        maxWidth: 1000
-      }
-    }, {
-      code: 'slide_up',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [500, 200],
-            [320, 150],
-            [320, 100],
-            [320, 50],
-            [300, 100]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'r2b2',
-        params: {
-          d: 'pomo.csfd.cz',
-          p: '970x310',
-          m: 1,
-          g: 'hb'
         }
       }],
       filter: {
