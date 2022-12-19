@@ -377,56 +377,6 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
-      code: 'commercial-article-2',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 300],
-            [300, 300],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 26460,
-          zoneId: 1340958,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 15]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 25692,
-          zoneId: 1340960,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '4700212'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 16370636
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
         banner: {
@@ -1163,6 +1113,25 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'commercial-article-2-GA',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 2701320,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [90]
+        }
+      }]
     }]
   },
   website: {
