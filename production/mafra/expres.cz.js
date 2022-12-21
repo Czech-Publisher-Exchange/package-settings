@@ -45,6 +45,14 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641181'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -82,6 +90,14 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641182'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
