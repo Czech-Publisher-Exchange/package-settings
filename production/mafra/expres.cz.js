@@ -46,6 +46,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641181'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176085,
+          pageId: 161425
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -90,6 +96,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641182'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176086,
+          pageId: 161426
         }
       }, {
         bidder: 'r2b2',
@@ -139,6 +151,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641183'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176087,
+          pageId: 161427
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -183,6 +201,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641184'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176092,
+          pageId: 161432
         }
       }, {
         bidder: 'r2b2',
@@ -231,6 +255,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641185'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176093,
+          pageId: 161433
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -275,6 +305,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641186'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176094,
+          pageId: 161434
         }
       }, {
         bidder: 'r2b2',
@@ -323,6 +359,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641187'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176095,
+          pageId: 161435
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -365,6 +407,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641188'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176096,
+          pageId: 161436
         }
       }, {
         bidder: 'r2b2',
@@ -414,6 +462,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641189'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176097,
+          pageId: 161437
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -459,6 +513,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641190'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176098,
+          pageId: 161438
         }
       }, {
         bidder: 'r2b2',
@@ -508,6 +568,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641191'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176099,
+          pageId: 161439
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -553,6 +619,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641192'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176100,
+          pageId: 161440
         }
       }, {
         bidder: 'r2b2',
@@ -605,6 +677,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641193'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176101,
+          pageId: 161441
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -654,6 +732,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641194'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176102,
+          pageId: 161442
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -700,6 +784,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641195'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176103,
+          pageId: 161443
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -717,7 +807,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [320, 150],
-            [300, 250]
+            [300, 250],
+            [500, 200]
           ]
         }
       },
@@ -728,7 +819,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1149096,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 15]
+          sizes: [60, 15, 258]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -737,9 +828,15 @@ window.cpexWebsiteSettings = {
           zoneId: 1149098,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 15]
+          sizes: [60, 15, 258]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176104,
+          pageId: 161444
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -779,6 +876,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641196'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176105,
+          pageId: 161445
         }
       }, {
         bidder: 'r2b2',
@@ -827,6 +930,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641197'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176106,
+          pageId: 161446
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -871,6 +980,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641198'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176107,
+          pageId: 161447
         }
       }, {
         bidder: 'r2b2',
@@ -919,6 +1034,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641199'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176108,
+          pageId: 161448
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -965,6 +1086,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4740504'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176109,
+          pageId: 161449
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'expres.cz',
@@ -1009,6 +1136,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4800009'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 176110,
+          pageId: 161450
         }
       }],
       filter: {
