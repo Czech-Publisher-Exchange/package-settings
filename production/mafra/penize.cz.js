@@ -196,7 +196,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27158098
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_branding',
       mediaTypes: {
@@ -245,7 +248,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27158103
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'halfpagead_spodni',
       mediaTypes: {
@@ -328,7 +334,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28718829
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'wallpaper',
       mediaTypes: {
@@ -581,7 +590,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28718835
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_clankovy_opak1',
       mediaTypes: {
@@ -622,7 +634,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28718837
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_clankovy_opak2',
       mediaTypes: {
@@ -663,7 +678,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28718838
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_clankovy_opak3',
       mediaTypes: {
@@ -704,7 +722,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28718839
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
