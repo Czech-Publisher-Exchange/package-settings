@@ -33,5 +33,8 @@ window.cpexPublisherSettings = {
     settings: {
       publisher: 'mafra'
     }
+  },
+  headerbidding: {
+    cmpLoadTimeoutMs: 1000
   }
 }
