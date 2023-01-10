@@ -257,6 +257,9 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementById('page')),
       hide: [(document.getElementsByClassName('dotbox-fullpage')[0])]
+    },
+    interscroller: {
+      enabled: true
     }
   }
 }
