@@ -52,7 +52,7 @@ window.cpexWebsiteSettings = {
       sizes: [
         [480, 820]
       ],
-      path: '/22794528025/impuls_cpex-interscroller'
+      path: '/22794528025/impuls_interscroller'
     }],
     gamPrefix: 'impuls_',
     gamId: '22794528025'
