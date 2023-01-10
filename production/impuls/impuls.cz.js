@@ -47,6 +47,12 @@ window.cpexWebsiteSettings = {
         [120, 600]
       ],
       path: '/22794528025/impuls_halfpage_1'
+    }, {
+      elementId: 'cpex-interscroller',
+      sizes: [
+        [480, 820]
+      ],
+      path: '/22794528025/impuls_cpex-interscroller'
     }],
     gamPrefix: 'impuls_',
     gamId: '22794528025'
