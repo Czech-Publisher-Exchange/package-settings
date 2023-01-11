@@ -2212,12 +2212,42 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 235290,
+          zoneId: 2230176,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 48, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 235292,
+          zoneId: 2230178,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4137324'
+        }
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1611192,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 23455288
+        }
       }]
     }],
     prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7/prebid.js'
