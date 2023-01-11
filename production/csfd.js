@@ -8,7 +8,8 @@ window.cpexPublisherSettings = {
     adapter: 'sastracker',
     bidderTable: {
       'omg-adform': 'omg-adform',
-      criteo: 'criteo'
+      criteo: 'criteo',
+      'fragile-adform': 'Fragile-Adform'
     }
   },
   aam: {
