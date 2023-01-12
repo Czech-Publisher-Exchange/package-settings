@@ -3,8 +3,7 @@ window.cpexWebsiteSettings = {
     skin: {
       contentEl: (document.getElementsByClassName('page')[0]),
       enabled: true,
-      hide: [(document.getElementsByClassName('leaderboard-top')[0])],
-      contentCSS: ' '
+      hide: [(document.getElementsByClassName('leaderboard-top')[0])]
     },
     slideup: {
       adUnit: 'm-sticky',
