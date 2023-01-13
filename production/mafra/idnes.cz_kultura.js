@@ -1877,6 +1877,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28766815
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }]
   },
