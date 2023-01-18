@@ -53,6 +53,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157303
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'branding',
@@ -100,6 +105,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157305
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -150,6 +160,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157309
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -198,6 +213,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157311
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -250,6 +270,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157307
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -297,6 +322,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157308
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }]
