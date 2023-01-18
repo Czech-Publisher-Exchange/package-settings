@@ -53,6 +53,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157515
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'branding',
@@ -100,6 +105,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157516
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -150,6 +160,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157518
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -199,6 +214,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27157521
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'm_sticky',
@@ -234,6 +254,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157523
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }]
