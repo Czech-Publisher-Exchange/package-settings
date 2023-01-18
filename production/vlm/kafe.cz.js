@@ -198,7 +198,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
-            [480, 820]
+            [480, 820],
+            [480, 480]
           ]
         }
       },
@@ -209,7 +210,7 @@ window.cpexWebsiteSettings = {
           zoneId: 857042,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256]
+          sizes: [15, 48, 256, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -218,7 +219,7 @@ window.cpexWebsiteSettings = {
           zoneId: 857124,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256]
+          sizes: [15, 48, 256, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -258,9 +259,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [728, 90],
-            [970, 90],
-            [970, 250],
-            [300, 250]
+            [970, 250]
           ]
         }
       },
@@ -271,7 +270,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1008786,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 55, 57, 15]
+          sizes: [2, 57]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -280,7 +279,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1008788,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 55, 57, 15]
+          sizes: [2, 57]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -321,8 +320,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 600],
             [300, 250],
-            [160, 600],
-            [120, 600]
+            [160, 600]
           ]
         }
       },
@@ -333,7 +331,7 @@ window.cpexWebsiteSettings = {
           zoneId: 884754,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9, 8]
+          sizes: [10, 15, 9]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -342,7 +340,7 @@ window.cpexWebsiteSettings = {
           zoneId: 104782,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9, 8]
+          sizes: [10, 15, 9]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -382,7 +380,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300]
+            [320, 100]
           ]
         }
       },
@@ -393,7 +391,7 @@ window.cpexWebsiteSettings = {
           zoneId: 945064,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48]
+          sizes: [15, 117]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -402,7 +400,7 @@ window.cpexWebsiteSettings = {
           zoneId: 945060,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48]
+          sizes: [15, 117]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -474,87 +472,14 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'commercial-article-2-ga-hp',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [548, 150]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 144588,
-          zoneId: 1370784,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144590,
-          zoneId: 1389436,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'VLM_Kafe_commercial-article-native-detail'
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
-      code: 'commercial-article-2-hp',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [548, 150]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 144588,
-          zoneId: 1370784,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144590,
-          zoneId: 1389436,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'VLM_Kafe_commercial-article-native-detail'
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
       code: 'm-square-2',
       mediaTypes: {
         banner: {
           sizes: [
             [300, 300],
             [300, 250],
-            [336, 280]
+            [336, 280],
+            [480, 480]
           ]
         }
       },
@@ -565,7 +490,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1036438,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16]
+          sizes: [48, 15, 16, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -574,7 +499,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1036440,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16]
+          sizes: [48, 15, 16, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -593,42 +518,10 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }],
-      filter: {
-        maxWidth: 1000
-      }
-    }, {
-      code: 'm-commercial-article-native-detail',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [548, 150]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 144588,
-          zoneId: 1370784,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144590,
-          zoneId: 1389436,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        },
-        bidderModuleName: 'rubicon'
       }, {
         bidder: 'triplelift',
         params: {
-          inventoryCode: 'VLM_Kafe_commercial-article-native-detail'
+          inventoryCode: 'VLM_kafe_m_square_2'
         }
       }],
       filter: {
@@ -679,6 +572,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_kafe_square_1'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -715,6 +613,174 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 22969011
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2726100,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 15, 48, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2726106,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 15, 48, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4885306'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28814464
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_kafe_m_square_3'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2726102,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 15, 48, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2726108,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 15, 48, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4885307'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28814465
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_kafe_m_square_4'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2726104,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 15, 48, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2726110,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 15, 48, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4885308'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28814466
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_kafe_m_square_5'
         }
       }],
       filter: {
