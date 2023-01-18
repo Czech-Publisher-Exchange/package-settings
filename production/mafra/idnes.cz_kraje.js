@@ -64,6 +64,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157323
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -123,6 +128,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157322
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -189,6 +199,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157326
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -250,6 +265,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157332
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -315,6 +335,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157329
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -376,6 +401,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157331
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -441,6 +471,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157328
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -500,6 +535,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157334
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -566,6 +606,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157335
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -630,6 +675,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157345
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -692,6 +742,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157344
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -761,6 +816,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157346
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -824,6 +884,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157349
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -876,6 +941,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157354
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -933,6 +1003,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157358
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -999,6 +1074,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157359
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -1061,6 +1141,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157362
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -1127,6 +1212,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157360
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -1191,6 +1281,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157324
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -1250,6 +1345,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157337
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -1316,6 +1416,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157339
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -1378,6 +1483,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157340
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -1444,6 +1554,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157341
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -1506,6 +1621,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157342
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -1572,6 +1692,11 @@ window.cpexWebsiteSettings = {
           placementId: 27157343
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -1629,6 +1754,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27157348
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -1690,6 +1820,11 @@ window.cpexWebsiteSettings = {
           placementId: 27664074
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'kraje.idnes.cz',
@@ -1745,6 +1880,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28186996
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1786,6 +1926,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 28291628
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
