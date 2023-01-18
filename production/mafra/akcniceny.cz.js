@@ -55,6 +55,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151383
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'halfpagead',
@@ -104,6 +109,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151510
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -152,6 +162,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151586
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -198,6 +213,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151641
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'm_300x250_clankovy',
@@ -243,6 +263,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151642
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -293,6 +318,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151646
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'm_paticka',
@@ -338,6 +368,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151648
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'm_sticky',
@@ -373,6 +408,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151657
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -420,6 +460,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151659
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'skyscraper_spodni',
@@ -465,6 +510,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151667
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -512,6 +562,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151675
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -562,6 +617,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27151679
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'widesquare_spodni',
@@ -610,6 +670,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27151681
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }]
