@@ -19,7 +19,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 235290,
-          zoneId: 1180240,
+          zoneId: 1925074,
           accountId: '10900',
           position: 'atf',
           sizes: [230, 96, 259, 2]
@@ -28,7 +28,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 235292,
-          zoneId: 1180258,
+          zoneId: 1925154,
           accountId: '10900',
           position: 'atf',
           sizes: [230, 96, 259, 2]
@@ -38,7 +38,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '2445534'
+          adSlot: '3394966'
         }
       }, {
         bidder: 'adform',
@@ -83,7 +83,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 15720422
+          placementId: 20750742
         }
       }, {
         bidder: 'criteo',
@@ -93,7 +93,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'triplelift',
         params: {
-          inventoryCode: 'CSFD_leaderboard'
+          inventoryCode: 'CSFD_csfd_leaderboard'
         }
       }, {
         bidder: 'r2b2',
@@ -1427,6 +1427,11 @@ window.cpexWebsiteSettings = {
           placementId: 22969783
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'pomo.csfd.cz',
@@ -1996,6 +2001,11 @@ window.cpexWebsiteSettings = {
           placementId: 20750754
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'pomo.csfd.cz',
@@ -2248,7 +2258,15 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 23455288
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }],
     prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7/prebid.js'
   },
