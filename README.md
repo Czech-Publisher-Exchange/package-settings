@@ -86,7 +86,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `autoRun`      | Boolean, true starts package once loaded                  | true       |
 | `customRun`    | JS function, fired when autoRun is disabled               |            |
 | `onLoad`       | JS function, fired once package is fully loaded           |            |
-| `errorApiKey`  | String, enables logging, adds apiKey to cpexPackageConfig | '226f3869' |
+| `errorPath`    | String, enables error logging. Added to cpexPackageConfig |            |
 
 ### Publisher info
 `publisher: {}`
@@ -147,6 +147,8 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `loadPrerequisites`  | Boolean, loads libraries for adserver                          | false        |
 | `delayCall`          | Number, timeout in milliseconds                                | 0            |
 | `defineSlots`        | **GAM only** Array of slot definition Objects                  |              |
+| `gamPrefix`          | **GAM only** String, path of GAM website, used for defineSlots |              |
+| `gamId`              | **GAM only** String, id of GAM instance, used for defineSlots  |              |
 | `allowedSSPs`        | **SAS only** Object, advertiser IDs allowed for custom formats |              |
 | `bidderTable`        | **SAS only** Object, bidder names in the SAS instance          |              |
 
@@ -164,10 +166,11 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `prebidDebug`      | Boolean, Toggles debug logging from Prebid    | false    |
 | `adUnits`          | Array of AdUnit Objects + custom `filter`     | []       |
 | `auctionTimeoutMs` | Number, sets pbjs.requestBids timeout         | 1000     |
-| `cmpLoadTimeoutMs` | Number, sets consentManagement.gdpr.timeout   | 1000     |
+| `cmpLoadTimeoutMs` | Number, sets consentManagement.gdpr.timeout   | 2000     |
 | `userIDs`          | Array, names of modules to enable             | ['id5Id', 'sharedId', 'criteo'] |
 | `analytics`        | Array, names of adapters to enable            | ['id5Analytics'] |
 | `bidderSettings`   | Object, allows custom bidder configuration    |          |
+| `customBuckets`    | Array of Numbers, each is ceiling of new tier |          |
 
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 [Bidder Settings reference](https://docs.prebid.org/dev-docs/publisher-api-reference/bidderSettings.html)
@@ -202,6 +205,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 `skin: {}`
 | Attribute      | Values                                  | Default                                 |
 |----------------|-----------------------------------------|-----------------------------------------|
+| `enabled`      | Boolean                                 | false                                   |
 | `backgroundEl` | DOM selector, background element        | document.body                           |
 | `contentEl`    | DOM selector, content element           |                                         |
 | `contentCSS`   | CSS style for content element           | 'position: relative; margin-top: 200px' |
@@ -215,18 +219,21 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 `interscroller: {}`
 | Attribute      | Values                                         | Default    |
 |----------------|------------------------------------------------|------------|
+| `enabled`      | Boolean                                        | false      |
 | `height`       | String for CSS, usually in px or vh            | '75vh'     |
 
 #### Native
 `native: {}`
 | Attribute   | Values                                      | Default          |
 |-------------|---------------------------------------------|------------------|
+| `enabled`   | Boolean                                     | false            |
 | `templates` | Object with string of targeted adUnits as key, comma separated. Values contain the template, a string of HTML+CSS, with Mustache variables. If adUnit isn't found, 'generic' key is used. | built-in template |
 
 #### Slideup
 `slideup: {}`
 | Attribute | Values                                        | Default          |
 |-----------|-----------------------------------------------|------------------|
+| `enabled` | Boolean                                       | false            |
 | `adUnit`  | String, required. Where anything is a slideup |                  |
 | `css`     | String of custom CSS rules                    | default css      |
 | `emptyHeight` | Number, height in pixels used by default  | 0                |
@@ -237,6 +244,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 `vignette: {}`
 | Attribute       | Values                                       | Default     |
 |-----------------|----------------------------------------------|-------------|
+| `enabled`       | Boolean                                      | false       |
 | `adUnit`        | String, required. Where anything is vignette |             |
 | `css`           | String of custom CSS rules                   | default css |
 | `closeTextHTML` | String, innerHTML     | 'Zavřít&nbsp;reklamu&nbsp;&nbsp;✕' |
@@ -244,7 +252,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `cookieDuration`| Number, seconds the cookie should last       |             |
 
 #### TestCreatives
-Explained here: [TestCreatives](./FORMATS.md#testing)
+Explained here: [Formats: Testing](https://git.cpex.cz/frontend/cpex-package/-/blob/master/readme/Formats.md#user-content-testing)
 `adUnit: {}`
 | Attribute | Values                                                           |
 |-----------|------------------------------------------------------------------|
