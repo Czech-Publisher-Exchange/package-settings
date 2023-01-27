@@ -408,7 +408,8 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementById('brand-a')),
-      offset: 130
+      offset: 130,
+      offsetScroll: false
     }
   }
 }
