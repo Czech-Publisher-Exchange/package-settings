@@ -406,7 +406,8 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      enabled: true
+      enabled: true,
+      contentEl: (document.getElementById('brand-a'))
     }
   }
 }
