@@ -47,6 +47,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641634'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411042,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1602983,
@@ -112,6 +119,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641633'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411037,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -182,6 +196,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641636'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411966,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1602985,
@@ -249,6 +270,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641640'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411036,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -318,6 +346,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641638'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411034,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1602987,
@@ -385,6 +420,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641639'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411035,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -454,6 +496,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641637'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411033,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1602986,
@@ -519,6 +568,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641641'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411973,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -588,6 +644,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641642'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411038,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -812,6 +875,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641651'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1412121,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -1092,6 +1162,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641655'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1412029,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1603008,
@@ -1160,6 +1237,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641657'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1412030,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -1306,6 +1390,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641635'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1412119,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1602984,
@@ -1371,6 +1462,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641643'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411039,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -1441,6 +1539,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641644'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411040,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1602996,
@@ -1509,6 +1614,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641645'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411041,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -1579,6 +1691,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641646'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411980,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1602993,
@@ -1648,6 +1767,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641647'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411979,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1602998,
@@ -1716,6 +1842,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4641648'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1411978,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -1788,6 +1921,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641652'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1625549,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1603003,
@@ -1859,6 +1999,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4746264'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1625550,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1602990,
@@ -1927,6 +2074,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4800010'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1625554,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 919001
@@ -1973,6 +2127,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4830484'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1625555,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
@@ -2040,6 +2201,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '4863944'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1625564,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
