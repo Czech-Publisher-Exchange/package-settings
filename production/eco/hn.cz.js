@@ -400,5 +400,13 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  website: {
+    name: 'hn.cz'
+  },
+  formats: {
+    skin: {
+      enabled: true
+    }
   }
 }
