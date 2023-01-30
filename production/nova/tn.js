@@ -570,6 +570,12 @@ window.cpexWebsiteSettings = {
   formats: {
     interscroller: {
       enabled: true
+    },
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementsByClassName('c-content')),
+      offset: 80,
+      offsetScroll: true
     }
   }
 }
