@@ -566,5 +566,10 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  formats: {
+    interscroller: {
+      enabled: true
+    }
   }
 }
