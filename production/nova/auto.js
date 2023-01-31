@@ -548,5 +548,15 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  formats: {
+    skin: {
+      offset: 80,
+      contentEl: (document.getElementsByClassName('c-content')),
+      enabled: true
+    },
+    interscroller: {
+      enabled: true
+    }
   }
 }
