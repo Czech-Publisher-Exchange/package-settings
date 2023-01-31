@@ -2095,6 +2095,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zpravy.idnes.cz',
+          p: 'interscroller_foto_scroll_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
