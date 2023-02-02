@@ -1678,7 +1678,8 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       backgroundEl: (document.getElementById('main')),
-      contentEl: (document.getElementsByClassName('m-bg-4')[0])
+      contentEl: (document.getElementsByClassName('m-bg-4')[0]),
+      contentCSS: ' '
     }
   }
 }
