@@ -586,5 +586,8 @@ window.cpexWebsiteSettings = {
       enabled: true,
       backgroundEl: (document.getElementById('sas-special-wrapper'))
     }
+  },
+  general: {
+    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184'
   }
 }
