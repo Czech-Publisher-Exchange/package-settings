@@ -9,7 +9,15 @@ window.cpexPublisherSettings = {
     bidderTable: {
       'omg-adform': 'omg-adform',
       criteo: 'criteo',
-      'fragile-adform': 'Fragile-Adform'
+      'fragile-adform': 'Fragile-Adform',
+      rubicon: 'Magnite_HB',
+      appnexus: 'Xandr_HB',
+      pubmatic: 'Pubmatic_HB',
+      ix: 'Index_HB',
+      triplelift: 'Triplelift_HB',
+      r2b2: 'R2B2',
+      smart: 'Smart',
+      teads: 'Teads'
     }
   },
   aam: {
