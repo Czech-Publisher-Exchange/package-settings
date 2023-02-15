@@ -36,5 +36,10 @@ window.cpexPublisherSettings = {
   },
   headerbidding: {
     cmpLoadTimeoutMs: 1000
+  },
+  formats: {
+    slideup: {
+      closeTextHTML: 'zavřít reklamu'
+    }
   }
 }
