@@ -51,12 +51,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'pubmatic_hb',
+        bidder: 'pubmatic',
         params: {
           publisherId: '158732',
           adSlot: '4909533'
-        },
-        bidderModuleName: 'pubmatic'
+        }
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -152,12 +151,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'pubmatic_hb',
+        bidder: 'pubmatic',
         params: {
           publisherId: '158732',
           adSlot: 4909529
-        },
-        bidderModuleName: 'pubmatic'
+        }
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -253,12 +251,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'pubmatic_hb',
+        bidder: 'pubmatic',
         params: {
           publisherId: '158732',
           adSlot: 4909530
-        },
-        bidderModuleName: 'pubmatic'
+        }
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -354,12 +351,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'pubmatic_hb',
+        bidder: 'pubmatic',
         params: {
           publisherId: '158732',
           adSlot: 4909531
-        },
-        bidderModuleName: 'pubmatic'
+        }
       }, {
         bidder: 'adform',
         params: {
@@ -441,12 +437,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'pubmatic_hb',
+        bidder: 'pubmatic',
         params: {
           publisherId: '158732',
           adSlot: 4909532
-        },
-        bidderModuleName: 'pubmatic'
+        }
       }, {
         bidder: 'adform',
         params: {
@@ -528,12 +523,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'pubmatic_hb',
+        bidder: 'pubmatic',
         params: {
           publisherId: '158732',
           adSlot: 4909534
-        },
-        bidderModuleName: 'pubmatic'
+        }
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -627,12 +621,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'pubmatic_hb',
+        bidder: 'pubmatic',
         params: {
           publisherId: '158732',
           adSlot: 4909535
-        },
-        bidderModuleName: 'pubmatic'
+        }
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -726,12 +719,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'pubmatic_hb',
+        bidder: 'pubmatic',
         params: {
           publisherId: '158732',
           adSlot: 4909536
-        },
-        bidderModuleName: 'pubmatic'
+        }
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -806,5 +798,8 @@ window.cpexWebsiteSettings = {
       adUnit: 'sas-special4',
       backgroundEl: (document.getElementById('reklama-special4'))
     }
+  },
+  general: {
+    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184'
   }
 }

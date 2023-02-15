@@ -44,6 +44,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641435'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633871,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878602
@@ -57,6 +63,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -97,6 +111,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641436'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633875,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878603
@@ -110,6 +130,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -151,6 +179,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641437'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633872,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878604
@@ -164,6 +198,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -202,6 +244,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641438'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633873,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 844211
@@ -215,6 +263,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -259,6 +315,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641439'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633874,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 844211
@@ -272,6 +334,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -315,6 +385,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877988'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633878,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932222
@@ -328,6 +404,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -365,6 +449,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877998'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633879,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 927761
@@ -378,6 +468,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -420,6 +518,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877997'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633880,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932223
@@ -433,6 +537,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -474,6 +586,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877989'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633881,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932224
@@ -487,6 +605,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -526,6 +652,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877996'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633882,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932225
@@ -539,6 +671,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x300_1',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -578,6 +718,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877995'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633887,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932226
@@ -591,6 +737,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x300_2',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -630,6 +784,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877994'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633888,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932227
@@ -643,6 +803,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x300_3',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -681,6 +849,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877990'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633883,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932228
@@ -694,6 +868,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -735,6 +917,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877991'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633884,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932229
@@ -748,6 +936,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -789,6 +985,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877992'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633885,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932230
@@ -802,6 +1004,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x250_clankovy_opak_2',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -843,6 +1053,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4877993'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633886,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 932231
@@ -856,6 +1072,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '300x250_clankovy_opak_3',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {

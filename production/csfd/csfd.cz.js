@@ -81,6 +81,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 430303
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750742
@@ -171,6 +176,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 460877
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -263,6 +273,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676799
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750299
@@ -354,6 +369,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676800
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -453,6 +473,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676801
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750714
@@ -545,6 +570,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676802
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750731
@@ -629,6 +659,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676803
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -715,6 +750,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676804
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750733
@@ -799,6 +839,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676806
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -885,6 +930,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676807
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750736
@@ -962,6 +1012,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 931851,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676808
         }
       }, {
         bidder: 'appnexus',
@@ -1054,6 +1109,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676809
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -1148,6 +1208,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676810
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750739
@@ -1241,6 +1306,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676811
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750741
@@ -1333,6 +1403,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676812
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -1509,6 +1584,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676813
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750749
@@ -1622,6 +1702,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676814
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 133958,
@@ -1728,6 +1813,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676815
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 133959,
@@ -1826,6 +1916,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676816
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750752
@@ -1910,6 +2005,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676817
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -1996,6 +2096,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676818
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750754
@@ -2081,6 +2186,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676819
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -2174,6 +2284,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676808
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20750737
@@ -2254,6 +2369,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 676810
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 23455288
@@ -2262,6 +2382,11 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'CSFD_csfd_cz_halfpage_sticky_3'
         }
       }],
       filter: {

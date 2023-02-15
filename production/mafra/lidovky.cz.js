@@ -44,6 +44,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641342'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633999,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 911442
@@ -58,6 +64,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'branding',
@@ -67,7 +81,8 @@ window.cpexWebsiteSettings = {
             [998, 200],
             [728, 90],
             [970, 210],
-            [970, 90]
+            [970, 90],
+            [2000, 1400]
           ]
         }
       },
@@ -78,7 +93,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1147394,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 2, 96, 55]
+          sizes: [259, 2, 96, 55, 230]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -87,7 +102,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1147396,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 2, 96, 55]
+          sizes: [259, 2, 96, 55, 230]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -95,6 +110,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641343'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633987,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -118,6 +139,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -127,7 +156,8 @@ window.cpexWebsiteSettings = {
             [998, 200],
             [728, 90],
             [970, 210],
-            [970, 90]
+            [970, 90],
+            [2000, 1400]
           ]
         }
       },
@@ -138,7 +168,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2164388,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 2, 96, 55]
+          sizes: [259, 2, 96, 55, 230]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -147,7 +177,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2164386,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 2, 96, 55]
+          sizes: [259, 2, 96, 55, 230]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -155,6 +185,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641344'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633995,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -170,6 +206,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -211,6 +255,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3091754'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633979,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539555,
@@ -231,6 +281,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -271,6 +329,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641346'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633983,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539545,
@@ -291,6 +355,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -331,6 +403,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641347'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633981,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539547,
@@ -351,6 +429,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -391,6 +477,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641348'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633982,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539548,
@@ -411,6 +503,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -451,6 +551,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3091755'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633980,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539549,
@@ -471,6 +577,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -509,6 +623,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092333'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633984,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539556,
@@ -529,6 +649,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -570,6 +698,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092335'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633985,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539552,
@@ -590,6 +724,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -631,6 +773,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641352'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633989,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539559,
@@ -651,6 +799,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_clankovy_opak1',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -692,6 +848,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641353'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633990,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539560,
@@ -712,6 +874,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_clankovy_opak2',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -753,6 +923,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641354'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633991,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539561,
@@ -773,6 +949,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_clankovy_opak3',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -814,6 +998,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092341'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633986,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539553,
@@ -834,6 +1024,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_foto_end',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -875,6 +1073,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092339'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633972,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539563,
@@ -895,6 +1099,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -936,6 +1148,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092337'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633971,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539562,
@@ -956,6 +1174,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -997,6 +1223,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641358'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633992,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539564,
@@ -1017,6 +1249,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1058,6 +1298,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641359'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633993,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539565,
@@ -1078,6 +1324,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_vybrali',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1122,6 +1376,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092343'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633974,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539551,
@@ -1142,6 +1402,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1185,6 +1453,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641361'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633996,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 718741
@@ -1198,6 +1472,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: 'interscroller_foto_scroll',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1238,6 +1520,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092344'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633973,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540106,
@@ -1258,6 +1546,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1293,6 +1589,12 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15, 258]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633988,
+          rcur: 'USD'
+        }
       }, {
         bidder: 'omg-adform',
         params: {
@@ -1351,6 +1653,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641363'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633976,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539558,
@@ -1371,6 +1679,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -1412,6 +1728,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092345'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633968,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539557,
@@ -1432,6 +1754,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -1473,6 +1803,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092346'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633970,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539546,
@@ -1493,6 +1829,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -1534,6 +1878,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3092347'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633969,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539550,
@@ -1554,6 +1904,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -1594,6 +1952,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4740502'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1634002,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 907725
@@ -1607,6 +1971,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -1647,6 +2019,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4800026'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1634003,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 919016
@@ -1661,6 +2039,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: 'interscroller_foto_scroll_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1674,6 +2060,12 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnit: 'm_sticky'
+    },
+    skin: {
+      enabled: true,
+      backgroundEl: (document.getElementById('main')),
+      contentEl: (document.getElementsByClassName('m-bg-4')[0]),
+      contentCSS: ' '
     }
   }
 }
