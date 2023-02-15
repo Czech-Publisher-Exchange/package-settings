@@ -1,3 +1,4 @@
+
 # CPEx Package: Settings
 Settings are files saved into the [package-settings git repository](https://git.cpex.cz/frontend/package-settings) and then published to our cdn.cpex.cz. Paths to them are added into the page with `window.cpexPackageConfig`.
 The main package object loads the setting files and merges them into one complete internal configuration.
@@ -237,6 +238,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `adUnit`  | String, required. Where anything is a slideup |                  |
 | `css`     | String of custom CSS rules                    | default css      |
 | `emptyHeight` | Number, height in pixels used by default  | 0                |
+| `closeTextHTML` | String, innerHTML                  | 'Zavřít&nbsp;&nbsp;✕' |
 | `animationSpeed`| Float, number of seconds                | 0.2              |
 | `backgroundEl`  | DOM selector, background element        | document.body    |
 
