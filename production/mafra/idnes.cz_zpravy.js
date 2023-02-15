@@ -2443,8 +2443,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnit: 'm_sticky',
-      css: '#cpex-slideup { background-color: transparent }'
+      adUnit: 'm_sticky'
     }
   }
 }
