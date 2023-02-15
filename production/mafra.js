@@ -39,7 +39,8 @@ window.cpexPublisherSettings = {
   },
   formats: {
     slideup: {
-      closeTextHTML: 'zavřít reklamu'
+      closeTextHTML: 'zavřít reklamu',
+      css: '#cpex-slideup { background-color: transparent }'
     }
   }
 }
