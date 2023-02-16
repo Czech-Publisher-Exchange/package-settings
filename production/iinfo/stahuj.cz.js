@@ -570,5 +570,11 @@ window.cpexWebsiteSettings = {
       contentCSS: 'width: 1060px; margin: 200px auto;',
       hide: [(document.getElementsByClassName('design-advert-placeholder'))]
     }
+  },
+  general: {
+    autoRun: false,
+    customRun: (() => {
+      window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
+    })
   }
 }
