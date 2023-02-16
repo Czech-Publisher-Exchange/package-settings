@@ -1,6 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'aktualne.cz'
+    name: 'aktualne.cz',
+    note: 'integrace: FED-497'
   },
   aam: {
     settings: {
