@@ -74,6 +74,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'reality.idnes.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead',
@@ -141,6 +149,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'reality.idnes.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -205,7 +221,18 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'reality.idnes.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_paticka',
       mediaTypes: {
@@ -268,7 +295,18 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'reality.idnes.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_sticky',
       mediaTypes: {
@@ -322,7 +360,10 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'wallpaper',
       mediaTypes: {
@@ -386,6 +427,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'reality.idnes.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -453,6 +502,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'reality.idnes.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
