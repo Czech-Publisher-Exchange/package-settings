@@ -67,6 +67,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead',
@@ -127,6 +135,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -186,6 +202,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -243,7 +267,18 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_300x250_clankovy',
       mediaTypes: {
@@ -300,7 +335,18 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_branding',
       mediaTypes: {
@@ -360,7 +406,18 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_paticka',
       mediaTypes: {
@@ -416,7 +473,18 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm_sticky',
       mediaTypes: {
@@ -463,7 +531,10 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'widesquare',
       mediaTypes: {
@@ -522,6 +593,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -583,6 +662,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'wallpaper',
@@ -640,6 +727,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -700,6 +795,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare_clankovy2',
@@ -744,6 +847,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'emimino.cz',
+          p: '480x300_clankovy_2',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
