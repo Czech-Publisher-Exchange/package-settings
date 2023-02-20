@@ -575,7 +575,8 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementsByClassName('c-content')[0]),
       offset: 80,
-      offsetScroll: true
+      offsetScroll: true,
+      contentCSS: 'position: relative; margin: auto; margin-top: 200px'
     }
   }
 }
