@@ -573,9 +573,10 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('c-content')),
+      contentEl: (document.getElementsByClassName('c-content')[0]),
       offset: 80,
-      offsetScroll: true
+      offsetScroll: true,
+      contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px;'
     }
   }
 }
