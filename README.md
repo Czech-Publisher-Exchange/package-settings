@@ -159,19 +159,20 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 
 ### Header-bidding
 `headerbidding: {}`
-| Attribute          | Values                                        | Default  |
-|--------------------|-----------------------------------------------|----------|
-| `enabled`          | Boolean                                       | true     |
-| `prebidPath`       | String URL | https://cdn.cpex.cz/hb/prebid/prebid.min.js |
-| `currency`         | String, converts CPM into this currency       | 'USD'    |
-| `prebidDebug`      | Boolean, Toggles debug logging from Prebid    | false    |
-| `adUnits`          | Array of AdUnit Objects + custom `filter`     | []       |
-| `auctionTimeoutMs` | Number, sets pbjs.requestBids timeout         | 1000     |
-| `cmpLoadTimeoutMs` | Number, sets consentManagement.gdpr.timeout   | 2000     |
-| `userIDs`          | Array, names of modules to enable             | ['id5Id', 'sharedId', 'criteo'] |
-| `analytics`        | Array, names of adapters to enable            | ['id5Analytics'] |
-| `bidderSettings`   | Object, allows custom bidder configuration    |          |
-| `customBuckets`    | Array of Numbers, each is ceiling of new tier |          |
+| Attribute            | Values                                            | Default  |
+|----------------------|---------------------------------------------------|----------|
+| `enabled`            | Boolean                                           | true     |
+| `prebidPath`         | String URL     | https://cdn.cpex.cz/hb/prebid/prebid.min.js |
+| `currency`           | String, converts CPM into this currency           | 'USD'    |
+| `prebidDebug`        | Boolean, Toggles debug logging from Prebid        | false    |
+| `adUnits`            | Array of AdUnit Objects + custom `filter`         | []       |
+| `auctionTimeoutMs`   | Number, sets pbjs.requestBids timeout             | 1000     |
+| `cmpLoadTimeoutMs`   | Number, sets consentManagement.gdpr.timeout       | 2000     |
+| `cmpActionTimeoutMs` | Number, sets consentManagement.gdpr.actionTimeout | 0        |
+| `userIDs`            | Array, names of modules to enable | ['id5Id', 'sharedId', 'criteo'] |
+| `analytics`          | Array, names of adapters to enable        | ['id5Analytics'] |
+| `bidderSettings`     | Object, allows custom bidder configuration        |          |
+| `customBuckets`      | Array of Numbers, each is ceiling of new tier     |          |
 
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 [Bidder Settings reference](https://docs.prebid.org/dev-docs/publisher-api-reference/bidderSettings.html)
