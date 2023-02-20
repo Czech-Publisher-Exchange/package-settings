@@ -47,6 +47,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641573'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633694,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540007,
@@ -111,6 +117,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641572'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633719,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -182,6 +194,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641575'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633695,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540008,
@@ -248,6 +266,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641579'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633699,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -318,6 +342,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641577'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633697,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539999,
@@ -384,6 +414,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641578'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633698,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -454,6 +490,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641576'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633696,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1539998,
@@ -518,6 +560,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641580'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633701,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -589,6 +637,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641581'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633702,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540003,
@@ -658,6 +712,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641589'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633710,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540016,
@@ -725,6 +785,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641588'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633709,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -799,6 +865,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641590'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633711,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540014,
@@ -867,6 +939,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641592'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633713,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540082,
@@ -931,6 +1009,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633721,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540018,
@@ -986,6 +1070,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641593'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633715,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -1057,6 +1147,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641594'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633716,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540020,
@@ -1124,6 +1220,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641596'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633718,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -1195,6 +1297,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641595'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633717,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540022,
@@ -1264,6 +1372,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641574'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633724,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540013,
@@ -1328,6 +1442,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641582'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633703,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -1399,6 +1519,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641583'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633704,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540005,
@@ -1466,6 +1592,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641584'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633705,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -1537,6 +1669,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641585'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633706,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540012,
@@ -1606,6 +1744,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641586'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633707,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1540011,
@@ -1673,6 +1817,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641587'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633708,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -1746,6 +1896,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641591'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633722,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 714409
@@ -1810,6 +1966,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4719791'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633726,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 891439
@@ -1871,6 +2033,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4800012'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633729,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 919003
@@ -1924,6 +2092,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4830486'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1633730,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
