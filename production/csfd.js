@@ -28,7 +28,7 @@ window.cpexPublisherSettings = {
   },
   headerbidding: {
     analytics: ['id5Analytics', 'cpexAnalytics'],
-    cmpLoadTimeoutMs: 1500
+    cmpLoadTimeoutMs: 2500
   },
   general: {
     errorApiKey: 'hbp_tCjxz6JmkE7RI1QnA7qLBjDFb4ItP23y9OCs'
