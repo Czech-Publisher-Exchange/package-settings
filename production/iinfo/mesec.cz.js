@@ -670,9 +670,9 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
-      contentCSS: 'width: 1060px; position: relative;',
+      contentCSS: 'width: 1060px; margin-top: 200px; position: relative;',
       offsetScroll: true,
-      hide: [(document.getElementById('iinfo-area-leaderboard'))]
+      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
     }
   }
 }
