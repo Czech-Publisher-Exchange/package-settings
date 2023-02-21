@@ -673,7 +673,7 @@ window.cpexWebsiteSettings = {
       contentCSS: 'width: 1060px; margin: 200px auto;',
       offset: 25,
       offsetScroll: true,
-      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard design-advert-placeholder'))]
+      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
     }
   }
 }
