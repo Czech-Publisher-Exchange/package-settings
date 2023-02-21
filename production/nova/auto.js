@@ -173,7 +173,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 992
+      }
     }, {
       code: 'div-gpt-ad-rectangle-bottom',
       mediaTypes: {
