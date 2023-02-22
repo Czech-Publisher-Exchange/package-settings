@@ -431,8 +431,9 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
-      contentCSS: 'margin-top: 200px; position: relative;',
-      hide: [(document.getElementsByClassName('design-advert__content')[0])]
+      contentCSS: 'magin: auto; margin-top: 200px; position: relative; width: 1060px;',
+      hide: [(document.getElementsByClassName('design-advert__content')[0])],
+      generalCSS: 'iframe { max-width: initial }'
     }
   }
 }
