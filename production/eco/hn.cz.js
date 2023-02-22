@@ -410,6 +410,9 @@ window.cpexWebsiteSettings = {
       contentEl: (document.getElementById('brand-a')),
       offset: 130,
       offsetScroll: false
+    },
+    native: {
+      enabled: true
     }
   },
   general: {
