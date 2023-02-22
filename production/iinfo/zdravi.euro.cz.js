@@ -431,7 +431,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
-      contentCSS: 'width: 1060px; margin-top: 200px; position: relative;',
+      contentCSS: 'margin-top: 200px; position: relative;',
       hide: [(document.getElementsByClassName('design-advert__content')[0])]
     }
   }
