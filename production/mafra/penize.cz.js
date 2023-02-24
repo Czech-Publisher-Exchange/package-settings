@@ -1,7 +1,6 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'penize.cz',
-    note: 'stage'
+    name: 'penize.cz'
   },
   aam: {
     settings: {
