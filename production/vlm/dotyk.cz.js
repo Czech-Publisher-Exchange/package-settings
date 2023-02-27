@@ -344,7 +344,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [320, 150],
-            [300, 250]
+            [300, 120],
+            [500, 200]
           ]
         }
       },
@@ -355,7 +356,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077194,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 15]
+          sizes: [60, 85, 258]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -364,7 +365,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077196,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 15]
+          sizes: [60, 85, 258]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -491,7 +492,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'triplelift',
         params: {
-          inventoryCode: 'VLM_dotykcz_Skyscraper_3_300x600'
+          inventoryCode: 'VLM_dotyk_cz_Skyscraper_3'
         }
       }],
       filter: {
@@ -546,7 +547,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'triplelift',
         params: {
-          inventoryCode: 'VLM_dotykcz_skyscraper_4_300x600'
+          inventoryCode: 'VLM_dotyk_cz_skyscraper_4'
         }
       }],
       filter: {
@@ -1131,7 +1132,65 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [90]
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'skyscraper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 2756128,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 2756130,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4962703'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29162420
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'VLM_Dotyk_skyscraper-2'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   website: {
