@@ -1461,7 +1461,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'invibes_zpravy'
+          placementId: 'invibes_zpravy',
+          customEndpoint: 'https://bid5.videostep.com/Bid/VideoAdContent',
+          site: 'zpravy.cz'
         }
       }]
     }, {
