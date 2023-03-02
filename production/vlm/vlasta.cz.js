@@ -1659,5 +1659,10 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }]
+  },
+  formats: {
+    native: {
+      enabled: true
+    }
   }
 }
