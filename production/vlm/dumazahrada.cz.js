@@ -371,7 +371,7 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        'commercial-article-native-detail': "<div class='inserted-article'>\n  <a href='\${link}' class='inserted-article__item' target='_blank' id='cpexNativeLink' rel='sponsored noopener' style='text-decoration:none'>\n    <div class='inserted-article__image-wrap'>\n      <img class='inserted-article__image' src='\${img}'>\n    </div>\n    <div class='inserted-article__headline-wrap article-text'>\n      <h2 class='inserted-article__headline'>\${title}</h2>\n      <h3 class='inserted-article__title'>\${desc}</h3>\n    </div>\n  </a>\n</div>\n"
+        'commercial-article-native-detail': "<div class='inserted-article'>\n  <a href='\${link}' class='inserted-article__item' target='_blank' id='cpexNativeLink' rel='sponsored noopener' style='text-decoration:none'>\n    <div class='inserted-article__image-wrap'>\n      <img class='inserted-article__image' src='\${img}'>\n    </div>\n    <div class='inserted-article__headline-wrap article-text'>\n      <h2 class='inserted-article__headline'>\${title}</h2>\n      <p class='inserted-article__title' style='font-size:1.125rem; color:#c2272d'>\${desc}</p>\n    </div>\n  </a>\n</div>\n"
       }
     }
   }
