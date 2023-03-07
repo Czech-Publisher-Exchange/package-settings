@@ -530,6 +530,41 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'popup',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 385182,
+          zoneId: 2669034,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 385184,
+          zoneId: 2669036,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28273071
+        }
+      }]
     }],
     currency: 'USD',
     analytics: ['id5Analytics', 'cpexAnalytics']
