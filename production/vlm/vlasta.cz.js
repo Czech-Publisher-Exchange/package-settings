@@ -1674,7 +1674,9 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('page')[0]),
-      contentCSS: ' '
+      contentCSS: ' ',
+      offset: 30,
+      offsetScroll: false
     }
   }
 }
