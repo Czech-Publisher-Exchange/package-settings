@@ -1675,7 +1675,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementsByClassName('page')[0]),
       contentCSS: ' ',
-      offset: 30,
+      offset: 32,
       offsetScroll: false
     }
   }
