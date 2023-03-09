@@ -1677,6 +1677,9 @@ window.cpexWebsiteSettings = {
       contentCSS: ' ',
       offset: 32,
       offsetScroll: false
+    },
+    interscroller: {
+      enabled: true
     }
   }
 }
