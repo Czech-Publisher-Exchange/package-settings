@@ -972,14 +972,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'ekonomika.finance.idnes.cz',
-          p: 'interscroller',
-          m: 1,
-          g: 'hb'
-        }
       }],
       filter: {
         maxWidth: 1000
