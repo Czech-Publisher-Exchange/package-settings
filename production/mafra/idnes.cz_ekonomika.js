@@ -908,11 +908,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250],
-            [250, 250],
-            [480, 820],
-            [480, 480],
-            [300, 600]
+            [480, 480]
           ]
         }
       },
@@ -923,7 +919,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148198,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -932,7 +928,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148196,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2342,6 +2338,11 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnit: 'm_sticky'
+    },
+    responsive: {
+      adUnit: 'm_branding',
+      width: '480',
+      height: '480'
     }
   }
 }
