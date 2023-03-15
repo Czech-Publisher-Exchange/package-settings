@@ -930,6 +930,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 958823
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 29193933
