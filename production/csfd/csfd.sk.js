@@ -1,6 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'csfd.sk'
+    name: 'csfd.sk',
+    note: 'test'
   },
   general: {
     autoRun: false,
