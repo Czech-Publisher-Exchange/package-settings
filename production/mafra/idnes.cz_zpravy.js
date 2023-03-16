@@ -2651,8 +2651,8 @@ window.cpexWebsiteSettings = {
       adUnit: 'm_sticky'
     },
     responsive: {
-      width: '480',
-      height: '480',
+      width: 480,
+      height: 480,
       adUnit: 'm_branding'
     }
   }
