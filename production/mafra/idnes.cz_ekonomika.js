@@ -908,7 +908,11 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [480, 480]
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480],
+            [300, 600]
           ]
         }
       },
@@ -919,7 +923,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148198,
           accountId: '10900',
           position: 'atf',
-          sizes: [261]
+          sizes: [15, 14, 256, 261, 10]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -928,7 +932,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148196,
           accountId: '10900',
           position: 'atf',
-          sizes: [261]
+          sizes: [15, 14, 256, 261, 10]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -971,6 +975,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ekonomika.finance.idnes.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
