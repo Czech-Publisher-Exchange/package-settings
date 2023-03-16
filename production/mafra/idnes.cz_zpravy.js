@@ -2653,7 +2653,8 @@ window.cpexWebsiteSettings = {
     responsive: {
       width: 480,
       height: 480,
-      adUnit: 'm_branding'
+      adUnit: 'm_branding',
+      enabled: true
     }
   }
 }
