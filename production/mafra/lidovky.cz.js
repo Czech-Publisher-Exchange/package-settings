@@ -2262,6 +2262,11 @@ window.cpexWebsiteSettings = {
       backgroundEl: (document.getElementById('main')),
       contentEl: (document.getElementsByClassName('m-bg-4')[0]),
       contentCSS: ' '
+    },
+    responsive: {
+      adUnit: 'm_branding',
+      width: '480',
+      height: '480'
     }
   }
 }
