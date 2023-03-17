@@ -254,6 +254,15 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `cookieName`    | String, name of cookie to set after rendering|             |
 | `cookieDuration`| Number, seconds the cookie should last       |             |
 
+#### Responsive
+`responsive: {}`
+| Attribute       | Values                                       | Default     |
+|-----------------|----------------------------------------------|-------------|
+| `enabled`       | Boolean                                      | false       |
+| `adUnits`       | Array, required. AdUnits to be responsive    |             |
+| `width`         | String, required. What width it has to have  |             |
+| `height`        | String, required. What height it has to have |             |
+
 #### TestCreatives
 Explained here: [Formats: Testing](https://git.cpex.cz/frontend/cpex-package/-/blob/master/readme/Formats.md#user-content-testing)
 `adUnit: {}`
