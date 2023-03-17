@@ -1658,6 +1658,71 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'm-sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2716534,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2716576,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28653864
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
+  },
+  formats: {
+    native: {
+      enabled: true,
+      templates: {
+        'commercial-article-1-GA': "<div class='article-list__item article-list-item article-list-item--default'>\n  <div class='article-list-item__preview image'>\n    <a href='${link}' class='image__link'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>\n        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h2 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h2>\n    <a href='${link}' class='article-list-item__perex'>${desc}</a>\n  </div>\n</div>",
+        'commercial-article-2-GA': "<div class='article-list__item article-list-item article-list-item--default'>\n  <div class='article-list-item__preview image'>\n    <a href='${link}' class='image__link'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>\n        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h2 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h2>\n    <a href='${link}' class='article-list-item__perex'>${desc}</a>\n  </div>\n</div>",
+        'm-commercial-article-1-GA': "<div class='article-list__item article-list-item article-list-item--default'>\n  <div class='article-list-item__preview image'>\n    <a href='${link}' class='image__link'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>\n        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h2 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h2>\n    <a href='${link}' class='article-list-item__perex'>${desc}</a>\n  </div>\n</div>",
+        'm-commercial-article-2-GA': "<div class='article-list__item article-list-item article-list-item--default'>\n  <div class='article-list-item__preview image'>\n    <a href='${link}' class='image__link'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>\n        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h2 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h2>\n    <a href='${link}' class='article-list-item__perex'>${desc}</a>\n  </div>\n</div>",
+        'm-commercial-article-native-detail': "<div class='article-list-item article-list-item--related article-list-item article-list-item--small' style='text-align:left'>\n  <div class='article-list-item__preview image'>\n    <a class='image__link' href='${link}'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:100%!important;position:relative;'>\n        <img src='${img}' style='position:absolute;top:0;left:0;object-fit:cover;object-position:100% 0;width:100%;height:100%;' class='article-list-item__image'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h3 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h3>\n    <p style='font-size:.7rem'>${desc}</p>\n  </div>\n</div>"
+      }
+    },
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementsByClassName('page')[0]),
+      contentCSS: ' ',
+      offset: 32,
+      offsetScroll: false
+    },
+    interscroller: {
+      enabled: true
+    },
+    slideup: {
+      enabled: true,
+      adUnit: 'm-sticky'
+    }
   }
 }

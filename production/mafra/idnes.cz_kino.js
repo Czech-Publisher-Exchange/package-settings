@@ -47,6 +47,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641284'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1655259,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878578
@@ -98,6 +105,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641285'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1655260,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878579
@@ -112,10 +126,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }],
-      filter: {
-        maxWidth: 1000
-      }
+      }]
     }, {
       code: 'm_sticky',
       mediaTypes: {
@@ -147,6 +158,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1655261,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157317
@@ -156,10 +174,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }],
-      filter: {
-        maxWidth: 1000
-      }
+      }]
     }]
   },
   formats: {

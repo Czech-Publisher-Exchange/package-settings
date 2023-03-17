@@ -13,6 +13,7 @@ window.cpexPublisherSettings = {
     }
   },
   adserver: {
-    adapter: 'googletag'
+    adapter: 'googletag',
+    loadPrerequisites: true
   }
 }

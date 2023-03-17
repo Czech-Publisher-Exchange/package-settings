@@ -2649,6 +2649,12 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnit: 'm_sticky'
+    },
+    responsive: {
+      width: 480,
+      height: 480,
+      adUnit: 'm_branding',
+      enabled: true
     }
   }
 }
