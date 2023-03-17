@@ -70,6 +70,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781117
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978711
@@ -142,6 +147,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781118
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978714
@@ -211,6 +221,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 971561,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781107
         }
       }, {
         bidder: 'appnexus',
@@ -294,6 +309,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781111
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978709
@@ -367,6 +387,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781124
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978718
@@ -376,51 +401,6 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'ii.zdravi.euro.cz',
           p: '480x300',
-          m: 0,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'iinfo-area-interscroller',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 820],
-            [300, 300],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 364918,
-          zoneId: 1980378,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 364916,
-          zoneId: 1980386,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 971566,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'ii.zdravi.euro.cz',
-          p: 'interscroller',
           m: 0,
           g: 'hb'
         }
