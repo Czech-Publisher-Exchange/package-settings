@@ -2051,6 +2051,12 @@ window.cpexWebsiteSettings = {
       closeTextHTML: '✕',
       cookieName: 'vignette',
       cookieDuration: 3600
+    },
+    responsive: {
+      enabled: true,
+      adUnit: 'm-square-bottom-1',
+      width: 480,
+      height: 480
     }
   }
 }
