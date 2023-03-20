@@ -18,6 +18,7 @@ window.cpexPublisherSettings = {
     enabled: true
   },
   headerbidding: {
-    analytics: ['id5Analytics', 'cpexAnalytics']
+    analytics: ['id5Analytics', 'cpexAnalytics'],
+    userIDs: ['id5Id', 'sharedId', 'criteo', 'czechAdId']
   }
 }

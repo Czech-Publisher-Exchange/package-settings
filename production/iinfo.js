@@ -16,7 +16,17 @@ window.cpexPublisherSettings = {
       magnite: 4,
       xandr: 5
     },
-    areaKey: 'iinfoArea'
+    areaKey: 'iinfoArea',
+    bidderTable: {
+      appnexus: 'xandr_hb',
+      pubmatic: 'pubmatic_hb',
+      rubicon: 'magnite_hb',
+      adform: 'adform',
+      'im-adform': 'im-adform',
+      r2b2: 'r2b2',
+      ix: 'index_hb',
+      triplelift: 'triplelift_hb'
+    }
   },
   headerbidding: {
     analytics: ['id5Analytics', 'cpexAnalytics']

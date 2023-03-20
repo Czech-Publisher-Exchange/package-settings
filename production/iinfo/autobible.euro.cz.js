@@ -70,6 +70,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781057
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978669
@@ -142,6 +147,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781056
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978683
@@ -211,6 +221,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 971605,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781052
         }
       }, {
         bidder: 'appnexus',
@@ -294,6 +309,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781047
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978657
@@ -367,6 +387,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781061
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978700
@@ -376,51 +401,6 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'ii.autobible.euro.cz',
           p: '480x300',
-          m: 0,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'iinfo-area-interscroller',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 820],
-            [300, 300],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 364918,
-          zoneId: 1980376,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 364916,
-          zoneId: 1980384,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 971610,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'ii.autobible.euro.cz',
-          p: 'interscroller',
           m: 0,
           g: 'hb'
         }
