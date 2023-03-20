@@ -2299,7 +2299,7 @@ window.cpexWebsiteSettings = {
       adUnit: 'm_sticky'
     },
     responsive: {
-      adUnit: 'm_branding',
+      adUnits: ['m_branding'],
       width: 480,
       height: 480,
       enabled: true

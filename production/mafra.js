@@ -56,7 +56,7 @@ window.cpexPublisherSettings = {
     },
     responsive: {
       enabled: true,
-      adUnit: 'm_branding',
+      adUnits: ['m_branding'],
       width: 480,
       height: 480
     }

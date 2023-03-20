@@ -1748,7 +1748,7 @@ window.cpexWebsiteSettings = {
       adUnit: 'cpex_vignette'
     },
     responsive: {
-      adUnit: 'mobile_square_1',
+      adUnits: ['mobile_square_1'],
       width: '480',
       height: '480'
     }

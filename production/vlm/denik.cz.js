@@ -2054,7 +2054,7 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       enabled: true,
-      adUnit: 'm-square-bottom-1',
+      adUnits: ['m-square-bottom-1'],
       width: 480,
       height: 480
     }
