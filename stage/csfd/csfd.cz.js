@@ -2045,7 +2045,8 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
-    }]
+    }],
+    userIDs: ['', '', '', 'czaid']
   },
   formats: {
     skin: {
