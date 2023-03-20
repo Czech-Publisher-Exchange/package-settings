@@ -25,7 +25,8 @@ window.cpexPublisherSettings = {
       'im-adform': 'im-adform',
       r2b2: 'r2b2',
       ix: 'index_hb',
-      triplelift: 'triplelift_hb'
+      triplelift: 'triplelift_hb',
+      'fragile-adform': 'fragile-adform'
     }
   },
   headerbidding: {
