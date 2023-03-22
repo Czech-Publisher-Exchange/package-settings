@@ -1395,7 +1395,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rubicon-mask',
         params: {
-          siteId: 144584,
+          siteId: 92920,
           zoneId: 1395234,
           accountId: '10900',
           position: 'atf',
@@ -1473,7 +1473,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rubicon-mask',
         params: {
-          siteId: 144584,
+          siteId: 92920,
           zoneId: 1395236,
           accountId: '10900',
           position: 'atf',
