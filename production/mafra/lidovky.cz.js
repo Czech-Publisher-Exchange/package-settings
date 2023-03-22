@@ -1936,7 +1936,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rubicon-mask',
         params: {
-          siteId: 144584,
+          siteId: 92920,
           zoneId: 1395226,
           accountId: '10900',
           position: 'atf',
@@ -2018,7 +2018,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rubicon-mask',
         params: {
-          siteId: 144584,
+          siteId: 92920,
           zoneId: 1395228,
           accountId: '10900',
           position: 'atf',
