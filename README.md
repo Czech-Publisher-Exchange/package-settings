@@ -86,6 +86,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 |----------------|-----------------------------------------------------------|------------|
 | `autoRun`      | Boolean, true starts package once loaded                  | true       |
 | `customRun`    | JS function, fired when autoRun is disabled               |            |
+| `beforeLoad`   | JS function, fired before run, only settings are loaded   |            |
 | `onLoad`       | JS function, fired once package is fully loaded           |            |
 | `errorPath`    | String, enables error logging. Added to cpexPackageConfig |            |
 
