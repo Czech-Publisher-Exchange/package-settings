@@ -586,5 +586,4 @@ window.cpexWebsiteSettings = {
   },
   general: {
     errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184',
-    beforeLoad: "() => {\n  // only enable HB on following domains\n  if (['www.centrum.cz','atlas.centrum.cz','pocasi.centrum.cz','volny.centrum.cz'].find(str => window.location.href.indexOf(str) !== -1)) {\n    window.cpexPackage.settings.headerbidding.enabled = true\n  }\n}",
-    onLoad: (() => { // only enable HB on following domains  if (['www.centrum.cz','atlas.centrum.cz','pocasi.centrum.cz','volny.centrum.cz'].find(str => window.location.href.indexOf(str) !== -1)) {    window.cpexPackage.settings.headerbidding.enabled = true  }})}}
+    beforeLoad: (() => { // only enable HB on following domains  if (!!['www.centrum.cz','atlas.centrum.cz','pocasi.centrum.cz','volny.centrum.cz'].find(str => window.location.href.indexOf(str) !== -1)) {    window.cpexPackage.settings.headerbidding.enabled = true  }})}}
