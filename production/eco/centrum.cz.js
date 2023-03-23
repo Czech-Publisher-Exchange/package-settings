@@ -104,7 +104,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
+      }
     }, {
       code: 'halfpage',
       mediaTypes: {
@@ -198,7 +201,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
+      }
     }, {
       code: 'mediumrectangle',
       mediaTypes: {
@@ -291,7 +297,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
+      }
     }, {
       code: 'strip',
       mediaTypes: {
@@ -369,7 +378,10 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
+      }
     }, {
       code: 'mediumrectangle-mob-pos1',
       mediaTypes: {
@@ -449,7 +461,10 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
+      }
     }, {
       code: 'mediumrectangle-mob-pos2',
       mediaTypes: {
@@ -529,7 +544,10 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
+      }
     }, {
       code: 'popup',
       mediaTypes: {
@@ -564,7 +582,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28273071
         }
-      }]
+      }],
+      filter: {
+        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
+      }
     }],
     currency: 'USD',
     analytics: ['id5Analytics', 'cpexAnalytics']

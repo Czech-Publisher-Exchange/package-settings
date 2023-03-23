@@ -331,6 +331,75 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
+      code: 'iinfo-area-big-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 1966420,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 265182,
+          zoneId: 1966468,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '3468610'
+        }
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 1058229,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 1058230,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 971606,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 781047
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 20978657
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
       code: 'iinfo-area-rectangle',
       mediaTypes: {
         banner: {
