@@ -567,20 +567,18 @@ window.cpexWebsiteSettings = {
       }]
     }],
     currency: 'USD',
-    analytics: ['id5Analytics', 'cpexAnalytics']
+    analytics: ['id5Analytics', 'cpexAnalytics'],
+    enabled: false
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('sc-1cb3an8-0')[0])
-    },
-    native: {
-      enabled: true
+      contentEl: (document.getElementsByClassName('relative')[0]),
+      offset: 72
     },
     slideup: {
       adUnit: 'reklama-popupmobile',
-      backgroundEl: (document.getElementById('reklama-popupmobile-wrapper')),
-      enabled: true
+      backgroundEl: (document.getElementById('reklama-popupmobile-wrapper'))
     }
   }
 }
