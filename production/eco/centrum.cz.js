@@ -104,10 +104,7 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }],
-      filter: {
-        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
-      }
+      }]
     }, {
       code: 'halfpage',
       mediaTypes: {
@@ -201,10 +198,7 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }],
-      filter: {
-        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
-      }
+      }]
     }, {
       code: 'mediumrectangle',
       mediaTypes: {
@@ -297,10 +291,7 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }],
-      filter: {
-        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
-      }
+      }]
     }, {
       code: 'strip',
       mediaTypes: {
@@ -378,10 +369,7 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }],
-      filter: {
-        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
-      }
+      }]
     }, {
       code: 'mediumrectangle-mob-pos1',
       mediaTypes: {
@@ -461,10 +449,7 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }],
-      filter: {
-        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
-      }
+      }]
     }, {
       code: 'mediumrectangle-mob-pos2',
       mediaTypes: {
@@ -544,10 +529,7 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }],
-      filter: {
-        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
-      }
+      }]
     }, {
       code: 'popup',
       mediaTypes: {
@@ -582,10 +564,7 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28273071
         }
-      }],
-      filter: {
-        url: 'www.centrum.cz,atlas.centrum.cz,pocasi.centrum.cz,volny.centrum.cz'
-      }
+      }]
     }],
     currency: 'USD',
     analytics: ['id5Analytics', 'cpexAnalytics']
@@ -605,6 +584,7 @@ window.cpexWebsiteSettings = {
     }
   },
   general: {
-    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184'
+    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184',
+    beforeLoad: "() => {\n  // only enable HB on following domains\n  if (!!['www.centrum.cz','atlas.centrum.cz','pocasi.centrum.cz','volny.centrum.cz'].find(str => window.location.href.indexOf(str) !== -1)) {\n    window.cpexPackage.settings.headerbidding.enabled = true\n  }\n}"
   }
 }
