@@ -574,7 +574,8 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('relative')[0]),
-      offset: 72
+      offset: 72,
+      hide: [(document.getElementsByClassName('flex-col')[0])]
     },
     slideup: {
       adUnit: 'reklama-popupmobile',
