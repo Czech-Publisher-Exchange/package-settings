@@ -530,7 +530,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'tn.cz',
-          p: 'branding_2021',
+          p: '300x600_2',
           m: 0,
           g: 'hb'
         }
