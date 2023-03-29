@@ -28,7 +28,7 @@ window.cpexPublisherSettings = {
   },
   headerbidding: {
     analytics: ['id5Analytics', 'cpexAnalytics'],
-    cmpLoadTimeoutMs: 2000,
+    cmpLoadTimeoutMs: 1000,
     cmpActionTimeoutMs: 2000
   },
   general: {
