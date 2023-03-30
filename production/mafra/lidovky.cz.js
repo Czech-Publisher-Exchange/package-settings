@@ -168,6 +168,14 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '998x200',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
