@@ -81,6 +81,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'podcasty.idnes.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead',
@@ -155,6 +163,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'podcasty.idnes.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -226,6 +242,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'podcasty.idnes.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -302,6 +326,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'podcasty.idnes.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_paticka',
@@ -371,6 +403,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'podcasty.idnes.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -504,6 +544,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'podcasty.idnes.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
