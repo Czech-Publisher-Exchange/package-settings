@@ -93,50 +93,50 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 ### Publisher info
 `publisher: {}`
 *Only used for publisher settings*
-| Attribute     | Values                                          | Default    |
-|---------------|-------------------------------------------------|------------|
-| `code`        | Required, short standard publisher identifier   |            |
-| `name`        | String, optional, legal name of the publisher   |            |
-| `note`        | String, optional, useful note for production    |            |
-| `sellerId`    | Number, required, from cpex.cz/sellers.json     | 0          |
+| Attribute     | Values                                            | Default    |
+|---------------|---------------------------------------------------|------------|
+| `code`        | Required, short standard publisher identifier     |            |
+| `name`        | String, optional, legal name of the publisher     |            |
+| `note`        | String, optional, useful note for production      |            |
+| `sellerId`    | Number, required, from cpex.cz/sellers.json       | 0          |
 
 ### Website info
 `website: {}`
 *Only used for website settings*
-| Attribute     | Values                                          | Default    |
-|---------------|-------------------------------------------------|------------|
-| `name`        | String, optional, name of the website           |            |
-| `note`        | String, optional, useful note for production    |            |
+| Attribute     | Values                                            | Default    |
+|---------------|---------------------------------------------------|------------|
+| `name`        | String, optional, name of the website             |            |
+| `note`        | String, optional, useful note for production      |            |
 
 ### CMP
 `cmp: {}`
-| Attribute   | Values                                            | Default    |
-|-------------|---------------------------------------------------|------------|
-| `enabled`   | Boolean                                           | true       |
-| `pixelList` | Array of URL strings                              | array      |
+| Attribute   | Values                                              | Default    |
+|-------------|-----------------------------------------------------|------------|
+| `enabled`   | Boolean                                             | true       |
+| `pixelList` | Array of URL strings                                | array      |
 
 ### Analytics
 `analytics: {}`
-| Attribute   | Values                                            | Default    |
-|-------------|---------------------------------------------------|------------|
-| `enabled`   | Boolean                                           | true       |
-| `force`     | Boolean, allows to skip consent check             | false      |
+| Attribute   | Values                                              | Default    |
+|-------------|-----------------------------------------------------|------------|
+| `enabled`   | Boolean                                             | true       |
+| `force`     | Boolean, allows to skip consent check               | false      |
 
 ### AAM
 `aam: {}`
-| Attribute   | Values                                            | Default    |
-|-------------|---------------------------------------------------|------------|
-| `enabled`   | Boolean                                           | true       |
-| `path`      | Boolean                                           | true       |
-| `settings`  | Boolean                                           | true       |
+| Attribute   | Values                                              | Default    |
+|-------------|-----------------------------------------------------|------------|
+| `enabled`   | Boolean                                             | true       |
+| `path`      | Boolean                                             | true       |
+| `settings`  | Boolean                                             | true       |
 
 #### AAM settings
 `aam.settings: {}`
-| Attribute   | Values                                            | Default    |
-|-------------|---------------------------------------------------|------------|
-| `enabled`   | Boolean                                           | true       |
-| `path`      | String, URL to AAM  | 'https://cdn.cpex.cz/aam/cpex-aam-min.js'|
-| `settings`  | Object, mirrors `cpex_AAM_conf` in the AAM itself | inside AAM |
+| Attribute   | Values                                              | Default    |
+|-------------|-----------------------------------------------------|------------|
+| `enabled`   | Boolean                                             | true       |
+| `path`      | String, URL to AAM    | 'https://cdn.cpex.cz/aam/cpex-aam-min.js'|
+| `settings`  | Object, mirrors `cpex_AAM_conf` in the AAM itself   | inside AAM |
 
 ### Ad server
 **Note:** To properly merge between the two types of settings, SSPs should be named consistently. Please use the following strings: **pubmatic, index, magnite, xandr**
@@ -182,25 +182,25 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 *removes the adUnit if certain runtime conditions apply*
 
 `filter: {}`
-| Attribute     | Values                                                       |
-|---------------|--------------------------------------------------------------|
-| `maxWidth`    | Number, remove before auction if viewport is larger than X   |
-| `minWidth`    | Number, remove before auction if viewport is smaller than X  |
-| `url`         | String, remove before auction if url doesn't contain X       |
-| `variable`    | String, remove before auction if window.cpexAdUnitParam != X |
-| `cookie`      | String, remove before auction if page contains that cookie   |
-| `skin`        | String, remove after auction if a skin won in auction        |
+| Attribute     | Values                                                         |
+|---------------|----------------------------------------------------------------|
+| `maxWidth`    | Number, remove before auction if viewport is larger than X     |
+| `minWidth`    | Number, remove before auction if viewport is smaller than X    |
+| `url`         | String, remove before auction if url doesn't contain X         |
+| `variable`    | String, remove before auction if window.cpexAdUnitParam != X   |
+| `cookie`      | String, remove before auction if page contains that cookie     |
+| `skin`        | String, remove after auction if a skin won in auction          |
 
 ### Formats
 `formats: {}`
-| Attribute       | Values                                                     |
-|-----------------|------------------------------------------------------------|
-| `skin`          | Object with Skin properties, see below                     |
-| `interscroller` | Object with Interscroller properties, see below            |
-| `native`        | Object with Native properties, see below                   |
-| `slideup`       | Object with Slideup properties, see below                  |
-| `vignette`      | Object with Vignette properties, see below                 |
-| `testCreatives` | Object, key: AdUnit, valid: testCreative object, see below |
+| Attribute       | Values                                                       |
+|-----------------|--------------------------------------------------------------|
+| `skin`          | Object with Skin properties, see below                       |
+| `interscroller` | Object with Interscroller properties, see below              |
+| `native`        | Object with Native properties, see below                     |
+| `slideup`       | Object with Slideup properties, see below                    |
+| `vignette`      | Object with Vignette properties, see below                   |
+| `testCreatives` | Object, key: AdUnit, valid: testCreative object, see below   |
 
 #### Skin
 **Note:** Element DOM selectors are written in Javascript code and have to be wrapped in simple brackets, to be properly parsed in the settings editor.
@@ -220,56 +220,56 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 
 #### Interscroller
 `interscroller: {}`
-| Attribute      | Values                                         | Default    |
-|----------------|------------------------------------------------|------------|
-| `enabled`      | Boolean                                        | false      |
-| `height`       | String for CSS, usually in px or vh            | '75vh'     |
+| Attribute      | Values                                           | Default    |
+|----------------|--------------------------------------------------|------------|
+| `enabled`      | Boolean                                          | false      |
+| `height`       | String for CSS, usually in px or vh              | '75vh'     |
 
 #### Native
 `native: {}`
-| Attribute   | Values                                      | Default          |
-|-------------|---------------------------------------------|------------------|
-| `enabled`   | Boolean                                     | false            |
+| Attribute   | Values                                        | Default          |
+|-------------|-----------------------------------------------|------------------|
+| `enabled`   | Boolean                                       | false            |
 | `templates` | Object with string of targeted adUnits as key, comma separated. Values contain the template, a string of HTML+CSS, with Mustache variables. If adUnit isn't found, 'generic' key is used. | built-in template |
 
 #### Slideup
 `slideup: {}`
-| Attribute | Values                                        | Default          |
-|-----------|-----------------------------------------------|------------------|
-| `enabled` | Boolean                                       | false            |
-| `adUnit`  | String, required. Where anything is a slideup |                  |
-| `css`     | String of custom CSS rules                    | default css      |
-| `emptyHeight` | Number, height in pixels used by default  | 0                |
-| `closeTextHTML` | String, innerHTML                  | 'Zavřít&nbsp;&nbsp;✕' |
-| `animationSpeed`| Float, number of seconds                | 0.2              |
-| `backgroundEl`  | DOM selector, background element        | document.body    |
+| Attribute | Values                                          | Default          |
+|-----------|-------------------------------------------------|------------------|
+| `enabled` | Boolean                                         | false            |
+| `adUnits` | Array, required. AdUnits to catch slideup       |                  |
+| `css`     | String of custom CSS rules                      | default css      |
+| `emptyHeight` | Number, height in pixels used by default    | 0                |
+| `closeTextHTML` | String, innerHTML                    | 'Zavřít&nbsp;&nbsp;✕' |
+| `animationSpeed`| Float, number of seconds                  | 0.2              |
+| `backgroundEl`  | DOM selector, background element          | document.body    |
 
 #### Vignette
 `vignette: {}`
-| Attribute       | Values                                       | Default     |
-|-----------------|----------------------------------------------|-------------|
-| `enabled`       | Boolean                                      | false       |
-| `adUnit`        | String, required. Where anything is vignette |             |
-| `css`           | String of custom CSS rules                   | default css |
-| `closeTextHTML` | String, innerHTML     | 'Zavřít&nbsp;reklamu&nbsp;&nbsp;✕' |
-| `cookieName`    | String, name of cookie to set after rendering|             |
-| `cookieDuration`| Number, seconds the cookie should last       |             |
+| Attribute       | Values                                         | Default     |
+|-----------------|------------------------------------------------|-------------|
+| `enabled`       | Boolean                                        | false       |
+| `adUnits`       | Array, required. AdUnits to catch vignette     |             |
+| `css`           | String of custom CSS rules                     | default css |
+| `closeTextHTML` | String, innerHTML       | 'Zavřít&nbsp;reklamu&nbsp;&nbsp;✕' |
+| `cookieName`    | String, name of cookie to set after rendering  |             |
+| `cookieDuration`| Number, seconds the cookie should last         |             |
 
 #### Responsive
 `responsive: {}`
-| Attribute       | Values                                       | Default     |
-|-----------------|----------------------------------------------|-------------|
-| `enabled`       | Boolean                                      | false       |
-| `adUnits`       | Array, required. AdUnits to be responsive    |             |
-| `width`         | String, required. What width it has to have  |             |
-| `height`        | String, required. What height it has to have |             |
+| Attribute       | Values                                         | Default     |
+|-----------------|------------------------------------------------|-------------|
+| `enabled`       | Boolean                                        | false       |
+| `adUnits`       | Array, required. AdUnits to be responsive      |             |
+| `width`         | String, required. What width it has to have    |             |
+| `height`        | String, required. What height it has to have   |             |
 
 #### TestCreatives
 Explained here: [Formats: Testing](https://git.cpex.cz/frontend/cpex-package/-/blob/master/readme/Formats.md#user-content-testing)
 `adUnit: {}`
-| Attribute | Values                                                           |
-|-----------|------------------------------------------------------------------|
-| `preset`  | String: 'banner', 'interscroller', 'skin', 'native' or 'slideup' |
-| `html`    | String, Embedded HTML of the test creative                       |
-| `width`   | Number in pixels                                                 |
-| `height`  | Number in pixels                                                 |
+| Attribute | Values                                                             |
+|-----------|--------------------------------------------------------------------|
+| `preset`  | String: 'banner', 'interscroller', 'skin', 'native' or 'slideup'   |
+| `html`    | String, Embedded HTML of the test creative                         |
+| `width`   | Number in pixels                                                   |
+| `height`  | Number in pixels                                                   |

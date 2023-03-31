@@ -246,11 +246,11 @@ window.cpexWebsiteSettings = {
       height: 480
     },
     slideup: {
-      adUnit: 'slideup-1',
+      adUnits: ['slideup-1'],
       emptyHeight: 50
     },
     vignette: {
-      adUnit: 'vignette-1'
+      adUnits: ['vignette-1']
     },
     native: {
       templates: {
