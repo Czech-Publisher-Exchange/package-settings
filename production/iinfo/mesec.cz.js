@@ -64,12 +64,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727230,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480789
@@ -78,11 +72,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315576
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Mesec_Halfpagead'
         }
       }, {
         bidder: 'r2b2',
@@ -146,12 +135,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727236,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 784928
@@ -160,11 +143,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21786332
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Mesec_Vrchni_Square'
         }
       }, {
         bidder: 'r2b2',
@@ -227,18 +205,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727231,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727232,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480790
@@ -247,11 +213,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315572
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Mesec_Leaderboard'
         }
       }, {
         bidder: 'r2b2',
@@ -274,100 +235,15 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-leaderboard',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 100]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 1335522,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 1335520,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '2445487'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690514,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690613,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727231,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727232,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 480790
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 16315572
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Mesec_Leaderboard_Mobile'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'mesec.cz',
-          p: '998x200',
-          m: 0,
-          g: 'hb'
-        }
-      }],
-      filter: {
-        maxWidth: 1000
-      }
-    }, {
       code: 'iinfo-area-big-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 250],
+            [300, 300]
           ]
         }
       },
@@ -378,7 +254,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336450,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -387,7 +263,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336448,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -411,18 +287,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727228,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727229,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 430308
@@ -431,11 +295,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315577
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Mesec_Big_Rectangle'
         }
       }, {
         bidder: 'r2b2',
@@ -499,18 +358,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727228,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727229,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 430308
@@ -519,19 +366,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315577
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Mesec_Big_Rectangle_Mobile'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'mesec.cz',
-          p: '970x310',
-          m: 0,
-          g: 'hb'
         }
       }],
       filter: {
@@ -588,18 +422,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727233,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727234,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480791
@@ -610,11 +432,6 @@ window.cpexWebsiteSettings = {
           placementId: 16315573
         }
       }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'Mesec_homepage_1'
-        }
-      }, {
         bidder: 'r2b2',
         params: {
           d: 'mesec.cz',
@@ -622,7 +439,73 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 1335556,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 265182,
+          zoneId: 1335554,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '2465112'
+        }
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690515,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690614,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480791
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 16315573
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'iinfo-area-spodni-square-banner',
       mediaTypes: {
@@ -675,12 +558,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727235,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480792
@@ -689,11 +566,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315575
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Mesec_Spodni_Square'
         }
       }, {
         bidder: 'r2b2',
