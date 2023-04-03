@@ -64,20 +64,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 971518,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978778
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iINFO_financecz_halfpagehorni'
         }
       }, {
         bidder: 'r2b2',
@@ -141,20 +130,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 971529,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978779
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iINFO_financecz_halfpagespodni'
         }
       }, {
         bidder: 'r2b2',
@@ -217,20 +195,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 971514,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978752
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iINFO_financecz_leaderboard'
         }
       }, {
         bidder: 'r2b2',
@@ -303,20 +270,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 971517,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978756
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iINFO_financecz_bigrectangle'
         }
       }, {
         bidder: 'r2b2',
@@ -381,20 +337,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 971519,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 20978787
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iINFO_financecz_rectangle'
         }
       }, {
         bidder: 'r2b2',
@@ -435,12 +380,6 @@ window.cpexWebsiteSettings = {
           sizes: [256, 48, 15]
         },
         bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 971530,
-          rcur: 'USD'
-        }
       }, {
         bidder: 'r2b2',
         params: {
