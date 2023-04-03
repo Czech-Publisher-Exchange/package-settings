@@ -65,20 +65,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 149850,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315569
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Lupa_Halfpagead'
         }
       }, {
         bidder: 'r2b2',
@@ -142,20 +131,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 724394,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21786325
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Lupa_Vrchni_Square'
         }
       }, {
         bidder: 'r2b2',
@@ -218,26 +196,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 149857,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 724398,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315565
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Lupa_Leaderboard'
         }
       }, {
         bidder: 'r2b2',
@@ -308,26 +269,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 149857,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 724398,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315565
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Lupa_Leaderboard_Mobile'
         }
       }, {
         bidder: 'r2b2',
@@ -392,26 +336,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 149858,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 724399,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315570
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Lupa_Big_Rectangle'
         }
       }, {
         bidder: 'r2b2',
@@ -475,26 +402,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 149858,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 724399,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315570
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Lupa_Big_Rectangle_Mobile'
         }
       }, {
         bidder: 'r2b2',
@@ -553,26 +463,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 149836,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 724397,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315566
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'Lupa_homepage_2'
         }
       }, {
         bidder: 'r2b2',
@@ -641,20 +534,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 724396,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315568
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Lupa_Spodni_Square'
         }
       }, {
         bidder: 'r2b2',
