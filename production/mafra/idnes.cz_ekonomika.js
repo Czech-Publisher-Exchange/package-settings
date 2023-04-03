@@ -865,7 +865,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'fragile-adform',
         params: {
-          mid: 1654934,
+          mid: 1654942,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
