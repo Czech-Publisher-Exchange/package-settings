@@ -64,12 +64,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727315,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480810
@@ -141,12 +135,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727321,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 784931
@@ -216,18 +204,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727316,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727317,
-          rcur: 'USD'
-        }
       }, {
         bidder: 'ix',
         params: {
@@ -306,18 +282,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727316,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727317,
-          rcur: 'USD'
-        }
       }, {
         bidder: 'ix',
         params: {
@@ -399,18 +363,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727313,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727314,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 430310
@@ -481,18 +433,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727313,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727314,
-          rcur: 'USD'
-        }
       }, {
         bidder: 'ix',
         params: {
@@ -565,18 +505,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727318,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727319,
-          rcur: 'USD'
-        }
       }, {
         bidder: 'ix',
         params: {
