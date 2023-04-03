@@ -64,12 +64,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1035753,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21248691
@@ -135,12 +129,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1035755,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21248693
@@ -204,12 +192,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1035751,
-          rcur: 'USD'
-        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -283,12 +265,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1035752,
-          rcur: 'USD'
-        }
       }, {
         bidder: 'appnexus',
         params: {
