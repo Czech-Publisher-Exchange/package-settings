@@ -64,12 +64,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727391,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480814
@@ -78,11 +72,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315596
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'vitalia_iinfo_area_halfpagead'
         }
       }, {
         bidder: 'r2b2',
@@ -146,12 +135,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727396,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 784932
@@ -160,11 +143,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 21786359
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'Vitalia_homepage_2'
         }
       }, {
         bidder: 'r2b2',
@@ -227,18 +205,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727392,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727393,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480815
@@ -247,11 +213,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315592
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'vitalia_iinfo_area_leaderboard'
         }
       }, {
         bidder: 'r2b2',
@@ -322,18 +283,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727392,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727393,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480815
@@ -342,11 +291,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315592
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Vitalia_Leaderboard_Mobile'
         }
       }, {
         bidder: 'r2b2',
@@ -411,18 +355,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727389,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727390,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 430304
@@ -431,11 +363,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315597
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'vitalia_iinfo_area_big_rectangle'
         }
       }, {
         bidder: 'r2b2',
@@ -499,18 +426,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727389,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727390,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 430304
@@ -519,11 +434,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315597
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Vitalia_Big_Rectangle_Mobile'
         }
       }, {
         bidder: 'r2b2',
@@ -588,18 +498,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727394,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727395,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480816
@@ -608,11 +506,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315593
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'Vitalia_homepage_1'
         }
       }, {
         bidder: 'r2b2',
@@ -675,12 +568,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 727398,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 480817
@@ -689,11 +576,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315595
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'vitalia_iinfo_area_spodni_square_banner'
         }
       }, {
         bidder: 'r2b2',
