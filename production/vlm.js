@@ -48,5 +48,8 @@ window.cpexPublisherSettings = {
         })
       }
     }
+  },
+  cmp: {
+    enabled: false
   }
 }
