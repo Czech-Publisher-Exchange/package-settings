@@ -804,14 +804,14 @@ window.cpexWebsiteSettings = {
     },
     vignette: {
       enabled: false,
-      adUnit: 'm-vignette'
+      adUnits: ['m-vignette']
     },
     interscroller: {
       enabled: true
     },
     slideup: {
       enabled: true,
-      adUnit: 'm-sticky'
+      adUnits: ['m-sticky']
     }
   },
   cmp: {

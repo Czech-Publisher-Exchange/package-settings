@@ -561,7 +561,7 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     slideup: {
-      adUnit: 'iinfo-area-sticky-board'
+      adUnits: ['iinfo-area-sticky-board']
     }
   }
 }

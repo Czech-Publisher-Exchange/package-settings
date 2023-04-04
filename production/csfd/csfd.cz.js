@@ -2404,11 +2404,11 @@ window.cpexWebsiteSettings = {
       contentCSS: 'position: relative;margin-top: 210px'
     },
     slideup: {
-      adUnit: 'slide_up',
+      adUnits: ['slide_up'],
       enabled: true
     },
     vignette: {
-      adUnit: 'cpex_vignette',
+      adUnits: ['cpex_vignette'],
       enabled: true
     },
     interscroller: {

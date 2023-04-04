@@ -23,7 +23,7 @@ window.cpexWebsiteSettings = {
       hide: [(document.getElementsByClassName('flex-col')[0])]
     },
     slideup: {
-      adUnit: 'reklama-popupmobile',
+      adUnits: ['reklama-popupmobile'],
       backgroundEl: (document.getElementById('reklama-popupmobile-wrapper'))
     }
   }

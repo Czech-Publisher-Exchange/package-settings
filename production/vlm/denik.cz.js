@@ -2042,11 +2042,11 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnit: 'm-sticky'
+      adUnits: ['m-sticky']
     },
     vignette: {
       enabled: true,
-      adUnit: 'centerVignette',
+      adUnits: ['centerVignette'],
       css: '#cpex-vignette {\n  background-color: #000;\n  z-index: 2147483642;\n}\n  #cpex-vignette .button {\n    box-sizing: border-box;\n    cursor: pointer;\n    height: 56px;\n    width: 56px;\n    padding: 10px;\n    font-size: 20pt;\n    border: none;\n  }\n  #cpex-vignette-header {\n    position: absolute;\n    height: 70px;\n    width: 100%;\n    background-color: #4a4a4a;\n    color: white;\n    font-size: 18pt;\n    text-transform: capitalize;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n  #cpex-vignette-close {\n    color: white;\n    position: absolute;\n    right: 5px;\n    top: 6px;\n  }',
       closeTextHTML: '✕',
       cookieName: 'vignette',

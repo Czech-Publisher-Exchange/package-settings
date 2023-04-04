@@ -617,7 +617,7 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     slideup: {
-      adUnit: 'sas-special',
+      adUnits: ['sas-special'],
       enabled: true,
       backgroundEl: (document.getElementById('sas-special-wrapper'))
     }

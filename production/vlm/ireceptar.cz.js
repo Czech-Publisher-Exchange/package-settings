@@ -6,7 +6,7 @@ window.cpexWebsiteSettings = {
       hide: [(document.getElementsByClassName('leaderboard-top')[0])]
     },
     slideup: {
-      adUnit: 'm-sticky',
+      adUnits: ['m-sticky'],
       enabled: true,
       backgroundEl: (document.getElementById('m-sticky'))
     },
@@ -23,7 +23,7 @@ window.cpexWebsiteSettings = {
     },
     vignette: {
       enabled: true,
-      adUnit: 'm-vignette'
+      adUnits: ['m-vignette']
     }
   },
   website: {
