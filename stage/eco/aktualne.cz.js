@@ -801,7 +801,7 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     slideup: {
-      adUnit: 'size4',
+      adUnit: ['size4'],
       enabled: true
     }
   }

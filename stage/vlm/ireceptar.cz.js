@@ -5,7 +5,7 @@ window.cpexWebsiteSettings = {
       contentEl: (document.getElementsByClassName('page')[0])
     },
     slideup: {
-      adUnit: 'sticky'
+      adUnit: ['sticky']
     }
   }
 }

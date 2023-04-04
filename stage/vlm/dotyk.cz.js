@@ -411,11 +411,11 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnit: 'm-sticky'
+      adUnit: ['m-sticky']
     },
     vignette: {
       enabled: true,
-      adUnit: 'm-vignette'
+      adUnit: ['m-vignette']
     }
   }
 }

@@ -235,10 +235,10 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: document.body,
-      contentEl: document.getElementById('svelte'),
+      backgroundEl: (document.body),
+      contentEl: (document.getElementById('svelte')),
       contentCSS: 'position: relative; width: 1080px; margin: auto; margin-top: 200px',
-      hide: [document.getElementById('leaderboard-1')]
+      hide: [(document.getElementById('leaderboard-1'))]
     },
     responsive: {
       adUnits: ['responsive-1'],
