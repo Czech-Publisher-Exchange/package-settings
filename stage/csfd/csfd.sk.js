@@ -1741,11 +1741,11 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnit: ['slide_up']
+      adUnits: ['slide_up']
     },
     vignette: {
       enabled: true,
-      adUnit: ['cpex_vignette']
+      adUnits: ['cpex_vignette']
     },
     responsive: {
       adUnits: ['mobile_square_1'],

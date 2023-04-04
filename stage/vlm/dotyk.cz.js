@@ -1229,11 +1229,11 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnit: ['m-sticky']
+      adUnits: ['m-sticky']
     },
     vignette: {
       enabled: true,
-      adUnit: ['m-vignette']
+      adUnits: ['m-vignette']
     }
   },
   adserver: {

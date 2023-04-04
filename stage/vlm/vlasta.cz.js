@@ -1748,7 +1748,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnit: 'sticky'
+      adUnits: ['sticky']
     }
   }
 }
