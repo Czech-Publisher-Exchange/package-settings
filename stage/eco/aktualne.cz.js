@@ -1,6 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'aktualne.cz'
+    name: 'aktualne.cz',
+    note: 'integrace: FED-497'
   },
   aam: {
     settings: {
@@ -80,7 +81,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 23941420
+          placementId: 28537849
         }
       }, {
         bidder: 'criteo',
@@ -480,7 +481,8 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [250, 250],
-            [300, 50]
+            [300, 50],
+            [480, 820]
           ]
         }
       },
@@ -491,7 +493,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2186692,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44]
+          sizes: [48, 15, 14, 44, 256]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -500,7 +502,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2186682,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44]
+          sizes: [48, 15, 14, 44, 256]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -530,7 +532,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 23941417
+          placementId: 28672132
         }
       }, {
         bidder: 'criteo',
@@ -710,6 +712,41 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'popup',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 353316,
+          zoneId: 2632554,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 353318,
+          zoneId: 2632552,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27917907
+        }
+      }]
+    }, {
       code: 'strip',
       mediaTypes: {
         banner: {
@@ -801,8 +838,12 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     slideup: {
-      adUnit: ['size4'],
-      enabled: true
+      adUnit: ['sas-special4'],
+      enabled: true,
+      backgroundEl: (document.getElementById('reklama-special4'))
     }
+  },
+  general: {
+    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184'
   }
 }
