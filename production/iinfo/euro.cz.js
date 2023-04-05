@@ -233,7 +233,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 250],
+            [300, 300]
           ]
         }
       },
@@ -244,7 +246,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1966444,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -253,7 +255,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1966492,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -426,45 +428,6 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'ii.euro.cz',
           p: '480x300',
-          m: 0,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'iinfo-area-interscroller',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 820],
-            [300, 300],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 364918,
-          zoneId: 1980380,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 364916,
-          zoneId: 1980388,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'ii.euro.cz',
-          p: 'interscroller',
           m: 0,
           g: 'hb'
         }
