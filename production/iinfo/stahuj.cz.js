@@ -235,91 +235,15 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-leaderboard',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 100]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 1336818,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 1336816,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '3951710'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690546,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690644,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 480811
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 16315606
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'stahuj.cz',
-          p: 'branding',
-          m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'stahuj.cz',
-          p: '998x200',
-          m: 0,
-          g: 'hb'
-        }
-      }],
-      filter: {
-        maxWidth: 1000
-      }
-    }, {
       code: 'iinfo-area-big-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 250],
+            [300, 300]
           ]
         }
       },
@@ -330,7 +254,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336866,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -339,7 +263,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336868,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -523,7 +447,73 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 1336840,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 265182,
+          zoneId: 1336838,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '3951712'
+        }
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690547,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690645,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480812
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 16315607
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
