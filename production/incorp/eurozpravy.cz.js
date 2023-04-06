@@ -9,5 +9,56 @@ window.cpexWebsiteSettings = {
   },
   adserver: {
     enabled: false
+  },
+  headerbidding: {
+    adUnits: [{
+      code: 'leaderboard',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [970, 250],
+            [728, 90],
+            [970, 210],
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 363124,
+          zoneId: 2831580,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [57, 2, 96, 230]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 363126,
+          zoneId: 2831582,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [57, 2, 96, 230]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5083139'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 21054355
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 93608
+        }
+      }]
+    }]
   }
 }
