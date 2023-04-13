@@ -63,7 +63,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('main__content')[0])
+      contentEl: (document.getElementsByClassName('main__content')[0]),
+      offset: 60,
+      contentCSS: 'position: relative'
     }
   }
 }
