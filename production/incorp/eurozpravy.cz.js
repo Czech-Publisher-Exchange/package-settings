@@ -18,8 +18,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [998, 200],
             [728, 90],
-            [970, 210],
-            [2000, 1400]
+            [970, 210]
           ]
         }
       },
@@ -60,5 +59,11 @@ window.cpexWebsiteSettings = {
         }
       }]
     }]
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: (document.getElementsByClassName('main__content')[0])
+    }
   }
 }
