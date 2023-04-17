@@ -1114,6 +1114,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5101107'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 932052,
