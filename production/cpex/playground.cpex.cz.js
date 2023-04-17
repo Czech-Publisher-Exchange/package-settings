@@ -3,17 +3,23 @@ window.cpexWebsiteSettings = {
     name: 'cpex.cz'
   },
   general: {
-    onload: (() => { document.getElementById('svelte').style.position = 'inherit' })
+    onload: "() => { document.getElementById('svelte').style.position = 'inherit' }"
   },
   headerbidding: {
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7.35/prebid.js',
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7.39/prebid.js',
     prebidDebug: true,
     analytics: ['id5Analytics', 'cpexAnalytics'],
     adUnits: [{
       code: 'rectangle-1',
       mediaTypes: {
         banner: {
-          sizes: [[250, 250], [300, 250], [300, 300], [480, 480], [300, 600]]
+          sizes: [
+            [250, 250],
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [300, 600]
+          ]
         }
       },
       bids: [{
@@ -47,7 +53,13 @@ window.cpexWebsiteSettings = {
       code: 'rectangle-2',
       mediaTypes: {
         banner: {
-          sizes: [[250, 250], [300, 300], [300, 250], [480, 480], [300, 600]]
+          sizes: [
+            [250, 250],
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [300, 600]
+          ]
         }
       },
       bids: [{
@@ -75,7 +87,10 @@ window.cpexWebsiteSettings = {
       code: 'leaderboard-1',
       mediaTypes: {
         banner: {
-          sizes: [[728, 90], [2000, 1400]]
+          sizes: [
+            [728, 90],
+            [2000, 1400]
+          ]
         }
       },
       bids: [{
@@ -97,7 +112,9 @@ window.cpexWebsiteSettings = {
       code: 'native-2',
       mediaTypes: {
         banner: {
-          sizes: [[548, 150]]
+          sizes: [
+            [548, 150]
+          ]
         }
       },
       bids: [{
@@ -114,7 +131,10 @@ window.cpexWebsiteSettings = {
       code: 'interscroller-1',
       mediaTypes: {
         banner: {
-          sizes: [[480, 820], [720, 1280]]
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
         }
       },
       bids: [{
@@ -131,7 +151,11 @@ window.cpexWebsiteSettings = {
       code: 'slideup-1',
       mediaTypes: {
         banner: {
-          sizes: [[320, 150], [300, 250], [548, 150]]
+          sizes: [
+            [320, 150],
+            [300, 250],
+            [548, 150]
+          ]
         }
       },
       bids: [{
@@ -153,7 +177,10 @@ window.cpexWebsiteSettings = {
       code: 'vignette-1',
       mediaTypes: {
         banner: {
-          sizes: [[300, 250], [548, 150]]
+          sizes: [
+            [300, 250],
+            [548, 150]
+          ]
         }
       },
       bids: [{
@@ -196,35 +223,64 @@ window.cpexWebsiteSettings = {
     delayCall: 100,
     defineSlots: [{
       elementId: 'rectangle-1',
-      sizes: [[250, 250], [300, 250], [300, 300], [480, 480], [300, 600]],
+      sizes: [
+        [250, 250],
+        [300, 250],
+        [300, 300],
+        [480, 480],
+        [300, 600]
+      ],
       path: '/22794528025/playground_rectangle-1'
     }, {
       elementId: 'rectangle-2',
-      sizes: [[250, 250], [300, 300], [300, 250], [480, 480], [300, 600]],
+      sizes: [
+        [250, 250],
+        [300, 300],
+        [300, 250],
+        [480, 480],
+        [300, 600]
+      ],
       path: '/22794528025/playground_rectangle-2'
     }, {
       elementId: 'leaderboard-1',
-      sizes: [[728, 90], [2000, 1400]],
+      sizes: [
+        [728, 90],
+        [2000, 1400]
+      ],
       path: '/22794528025/playground_leaderboard-1'
     }, {
       elementId: 'native-1',
-      sizes: [[548, 150]],
+      sizes: [
+        [548, 150]
+      ],
       path: '/22794528025/playground_native-1'
     }, {
       elementId: 'native-2',
-      sizes: [[548, 150]],
+      sizes: [
+        [548, 150]
+      ],
       path: '/22794528025/playground_native-2'
     }, {
       elementId: 'interscroller-1',
-      sizes: [[480, 820], [720, 1280]],
+      sizes: [
+        [480, 820],
+        [720, 1280]
+      ],
       path: '/22794528025/playground_interscroller-1'
     }, {
       elementId: 'slideup-1',
-      sizes: [[320, 150], [300, 250], [548, 150]],
+      sizes: [
+        [320, 150],
+        [300, 250],
+        [548, 150]
+      ],
       path: '/22794528025/playground_slideup-1'
     }, {
       elementId: 'vignette-1',
-      sizes: [[300, 250], [548, 150]],
+      sizes: [
+        [300, 250],
+        [548, 150]
+      ],
       path: '/22794528025/playground_vignette-1'
     }, {
       elementId: 'video-1',
