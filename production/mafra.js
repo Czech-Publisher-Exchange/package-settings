@@ -21,12 +21,6 @@ window.cpexPublisherSettings = {
       'omg-adform': 'OMG-Adform_HB',
       'fragile-adform': 'Fragile-Adform_HB',
       criteo: 'Criteo_HB'
-    },
-    allowedSSPs: {
-      xandr: 10001,
-      magnite: 10000,
-      pubmatic: 10002,
-      index: 10003
     }
   },
   aam: {
@@ -51,7 +45,7 @@ window.cpexPublisherSettings = {
         params: {
           customEndpoint: 'https://bid5.videostep.com/Bid/VideoAdContent'
         }
-      }    
+      }
     }
   },
   formats: {
