@@ -61,7 +61,7 @@ window.cpexWebsiteSettings = {
       }]
     }],
     passbacks: {
-      leaderboard: (() => { const src = 'https://cdn.cpex.cz/temp/branding.html'; const elementId = 'main'; const type = 'skin'; const size = { width: 2000, height: 1400 }; cpexPackage.main.formats.prepareIframe`type, elementId, size.width, size.height, src`; cpexPackage.main.customAds['main'] = { type, elementId }; cpexPackage.headerbidding.prepareMetaData`elementId, { type: 'passback' }` })
+      leaderboard: (() => { const src = 'https://cdn.cpex.cz/temp/branding.html'; const elementId = 'main'; const type = 'skin'; const size = { width: 2000, height: 1400 }; cpexPackage.formats.prepareIframe({ type, elementId, width: size.width, height: size.height, src }); cpexPackage.customAds['main'] = { type, elementId }; cpexPackage.headerbidding.prepareMetaData(elementId, { type: 'passback' }) })
     }
   },
   formats: {
