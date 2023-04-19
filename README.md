@@ -166,7 +166,8 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `prebidPath`         | String URL     | https://cdn.cpex.cz/hb/prebid/prebid.min.js |
 | `currency`           | String, converts CPM into this currency           | 'USD'    |
 | `prebidDebug`        | Boolean, Toggles debug logging from Prebid        | false    |
-| `adUnits`            | Array of AdUnit Objects + custom `filter`         | []       |
+| `adUnits`            | Array of AdUnit Objects (below) + custom `filter` | []       |
+| `passbacks`          | Object of adUnit keys with function to be called  | {}       |
 | `auctionTimeoutMs`   | Number, sets pbjs.requestBids timeout             | 1000     |
 | `cmpLoadTimeoutMs`   | Number, sets consentManagement.gdpr.timeout       | 2000     |
 | `cmpActionTimeoutMs` | Number, sets consentManagement.gdpr.actionTimeout | 0        |
@@ -223,6 +224,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | Attribute      | Values                                           | Default    |
 |----------------|--------------------------------------------------|------------|
 | `enabled`      | Boolean                                          | false      |
+| `adUnits`      | Array, optional. AdUnits to catch interscroller  |            |
 | `height`       | String for CSS, usually in px or vh              | '75vh'     |
 
 #### Native
