@@ -61,7 +61,7 @@ window.cpexWebsiteSettings = {
       }]
     }],
     passbacks: {
-      leaderboard: "const src = 'https://eurozpravy.cz/passback.html'\nconst elementId = 'main'\nconst type = 'skin'\nconst size = { width: 2000, height: 1400 }\n\ncpexPackage.main.formats.prepareIframe(type, elementId, size.width, size.height, src)\ncpexPackage.main.customAds['main'] = { type, elementId }\ncpexPackage.headerbidding.prepareMetaData(elementId, { type: 'passback' })"
+      leaderboard: "const src = 'https://cdn.cpex.cz/temp/branding.html'\nconst elementId = 'main'\nconst type = 'skin'\nconst size = { width: 2000, height: 1400 }\n\ncpexPackage.main.formats.prepareIframe`type, elementId, size.width, size.height, src`\ncpexPackage.main.customAds['main'] = { type, elementId }\ncpexPackage.headerbidding.prepareMetaData`elementId, { type: 'passback' }`"
     }
   },
   formats: {
