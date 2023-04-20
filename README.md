@@ -169,8 +169,8 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `adUnits`            | Array of AdUnit Objects (below) + custom `filter` | []       |
 | `passbacks`          | Object of adUnit keys with function to be called  | {}       |
 | `auctionTimeoutMs`   | Number, sets pbjs.requestBids timeout             | 1000     |
-| `cmpLoadTimeoutMs`   | Number, sets consentManagement.gdpr.timeout       | 2000     |
-| `cmpActionTimeoutMs` | Number, sets consentManagement.gdpr.actionTimeout | 0        |
+| `cmpLoadTimeoutMs`   | Number, sets consentManagement.gdpr.timeout       | 1000     |
+| `cmpActionTimeoutMs` | Number, sets consentManagement.gdpr.actionTimeout | 2000     |
 | `userIDs`            | Array, names of modules to enable | ['id5Id', 'sharedId', 'criteo'] |
 | `analytics`          | Array, names of adapters to enable        | ['id5Analytics'] |
 | `bidderSettings`     | Object, allows custom bidder configuration        |          |
