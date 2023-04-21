@@ -350,6 +350,27 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 29844897
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        url: 'agrobaroni'
+      }
+    }, {
+      code: 'm-sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
         bidder: 'rubicon',
         params: {
           siteId: 46270,
