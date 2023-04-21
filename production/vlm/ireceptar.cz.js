@@ -22,8 +22,7 @@ window.cpexWebsiteSettings = {
       }
     },
     vignette: {
-      enabled: true,
-      adUnits: ['m-vignette']
+      enabled: 'true (publisher)'
     }
   },
   website: {
