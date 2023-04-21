@@ -803,8 +803,7 @@ window.cpexWebsiteSettings = {
       }
     },
     vignette: {
-      enabled: false,
-      adUnits: ['m-vignette']
+      enabled: false
     },
     interscroller: {
       enabled: true
