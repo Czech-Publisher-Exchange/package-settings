@@ -1232,8 +1232,7 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-sticky']
     },
     vignette: {
-      enabled: true,
-      adUnits: ['m-vignette']
+      enabled: 'true (publisher)'
     },
     responsive: {
       enabled: true,
