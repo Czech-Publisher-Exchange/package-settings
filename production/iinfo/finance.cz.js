@@ -395,7 +395,6 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
-      contentCSS: ' ',
       hide: [(document.getElementsByClassName('leaderboard-top')[0])]
     }
   }
