@@ -295,5 +295,11 @@ window.cpexWebsiteSettings = {
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       contentCSS: 'width: 1060px; margin: 200px auto;'
     }
+  },
+  general: {
+    autoRun: false,
+    customRun: (() => {
+      window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
+    })
   }
 }
