@@ -394,9 +394,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
-      hide: [(document.getElementsByClassName('leaderboard-top')[0])],
-      contentCSS: 'width: 1060px; margin: 200px auto; position: relative;'
+      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0])
     }
   }
 }
