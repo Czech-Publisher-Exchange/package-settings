@@ -151,6 +151,68 @@ window.cpexWebsiteSettings = {
         maxWidth: 991
       }
     }, {
+      code: 'div-gpt-ad-leaderboard',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [2000, 1400],
+            [970, 250],
+            [728, 90],
+            [970, 210]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416558,
+          zoneId: 2694094,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230, 57, 2, 96]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416560,
+          zoneId: 2812460,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230, 57, 2, 96]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4856220'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 690097,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 966601
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28536278
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 992
+      }
+    }, {
       code: 'div-gpt-ad-rectangle-bottom',
       mediaTypes: {
         banner: {
