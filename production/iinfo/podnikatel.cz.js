@@ -64,6 +64,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480794
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315589
@@ -130,6 +135,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 784929
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21786345
@@ -195,6 +205,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480795
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315585
@@ -220,78 +235,15 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-leaderboard',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 100]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 1336466,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 1336464,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '3951695'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690522,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690621,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 16315585
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'podnikatel.cz',
-          p: '998x200',
-          m: 0,
-          g: 'hb'
-        }
-      }],
-      filter: {
-        maxWidth: 1000
-      }
-    }, {
       code: 'iinfo-area-big-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 300],
+            [300, 250]
           ]
         }
       },
@@ -302,7 +254,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336494,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 48, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -311,7 +263,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336492,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 48, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -334,6 +286,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 430306
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -400,6 +357,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 430306
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -468,6 +430,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480796
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315586
@@ -481,12 +448,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
-    }, {
-      code: 'iinfo-area-rectangle',
-      mediaTypes: {
-        native: {}
-      },
-      bids: []
     }, {
       code: 'iinfo-area-spodni-square-banner',
       mediaTypes: {
@@ -538,6 +499,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480797
+        }
       }, {
         bidder: 'appnexus',
         params: {
