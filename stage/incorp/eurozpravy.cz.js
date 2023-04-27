@@ -61,7 +61,26 @@ window.cpexWebsiteSettings = {
       }]
     }],
     passbacks: {
-      leaderboard: (() => { const src = 'https://cdn.cpex.cz/temp/branding.html'; const elementId = 'main'; const type = 'skin'; const size = { width: 2000, height: 1400 }; cpexPackage.formats.prepareIframe(type, elementId, size.width, size.height, { src }); cpexPackage.customAds['main'] = { type, elementId }; cpexPackage.headerbidding.prepareMetaData(elementId, { type: 'passback' }) })
+      leaderboard: (() => {
+        const options = ['https://eurozpravy.cz/ads/VCXPgZDPPkw8H8XCMFK9vzJpNxmDETNM.html', 'https://eurozpravy.cz/ads/ydKZB3JXRq2x88bCtyfzwKMejzsTF4Qs.html']
+        const src = options[Math.floor(Math.random() * options.length)];
+        const elementId = 'main';
+        const type = 'skin';
+        const size = {
+          width: 2000,
+          height: 1400
+        };
+        cpexPackage.formats.prepareIframe(type, elementId, size.width, size.height, {
+          src
+        });
+        cpexPackage.customAds['main'] = {
+          type,
+          elementId
+        };
+        cpexPackage.headerbidding.prepareMetaData(elementId, {
+          type: 'passback'
+        })
+      })
     }
   },
   formats: {
