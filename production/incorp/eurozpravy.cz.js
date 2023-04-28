@@ -77,9 +77,11 @@ window.cpexWebsiteSettings = {
           type,
           elementId
         };
-        cpexPackage.headerbidding.prepareMetaData(elementId, {
-          type: 'passback'
-        })
+        if (cpexPackage.debugMode) {
+          cpexPackage.headerbidding.prepareMetaData(elementId, {
+            type: 'passback'
+          })
+        }
       })
     }
   },
