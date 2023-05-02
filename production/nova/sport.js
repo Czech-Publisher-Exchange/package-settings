@@ -703,8 +703,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('c-content')),
-      offset: 78
+      contentEl: (document.getElementsByClassName('c-content')[0]),
+      offset: 78,
+      contentCSS: 'position: relative; margin-top: 200px; background-color: #ffffff;'
     },
     interscroller: {
       enabled: true
