@@ -208,6 +208,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }],
       filter: {
         minWidth: 992
