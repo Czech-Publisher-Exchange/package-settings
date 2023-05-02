@@ -260,6 +260,12 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true
+    },
+    responsive: {
+      enabled: true,
+      adUnits: ['cpex-interscroller'],
+      width: 480,
+      height: 480
     }
   }
 }
