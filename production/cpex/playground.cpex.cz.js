@@ -261,16 +261,6 @@ window.cpexWebsiteSettings = {
       ],
       path: '/22794528025/playground_native-2'
     }, {
-      elementId: 'native-3',
-      sizes: [
-        [548, 150]
-      ]
-    }, {
-      elementId: 'native-4',
-      sizes: [
-        [548, 150]
-      ]
-    }, {
       elementId: 'interscroller-1',
       sizes: [
         [480, 820],
