@@ -67,7 +67,7 @@ window.cpexWebsiteSettings = {
     }],
     passbacks: {
       leaderboard: (() => {
-        const options = ['https://eurozpravy.cz/ads/VCXPgZDPPkw8H8XCMFK9vzJpNxmDETNM.html', 'https://eurozpravy.cz/ads/ydKZB3JXRq2x88bCtyfzwKMejzsTF4Qs.html']
+        const options = ['https://eurozpravy.cz/ads/VCXPgZDPPkw8H8XCMFK9vzJpNxmDETNM.html']
         const src = options[Math.floor(Math.random() * options.length)];
         const elementId = 'main';
         const type = 'skin';
