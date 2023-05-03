@@ -249,6 +249,57 @@ window.cpexWebsiteSettings = {
           placementId: 24860767
         }
       }]
+    }, {
+      code: 'cpex-interscroller',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [300, 300],
+            [300, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 420412,
+          zoneId: 2855970,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 48, 15, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 420414,
+          zoneId: 2855972,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 48, 15, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5135557'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 976703
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29929138
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }],
     currency: 'CZK'
   },
