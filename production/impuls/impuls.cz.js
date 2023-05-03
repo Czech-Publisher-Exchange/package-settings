@@ -108,7 +108,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 24860764
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1001
+      }
     }, {
       code: 'billboard_1',
       mediaTypes: {
@@ -156,7 +159,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 24860765
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1001
+      }
     }, {
       code: 'medium_rectangle_1',
       mediaTypes: {
@@ -202,7 +208,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 24860766
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1001
+      }
     }, {
       code: 'halfpage_1',
       mediaTypes: {
@@ -251,7 +260,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 24860767
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1001
+      }
     }, {
       code: 'cpex-interscroller',
       mediaTypes: {
