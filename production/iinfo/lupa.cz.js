@@ -1,7 +1,6 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'lupa.cz',
-    note: 'není v produkci'
+    name: 'lupa.cz'
   },
   aam: {
     settings: {
