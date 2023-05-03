@@ -707,7 +707,7 @@ window.cpexWebsiteSettings = {
       offset: 80,
       contentEl: (document.getElementsByClassName('c-content')[0]),
       enabled: true,
-      contentCSS: 'position: relative; margin: auto; margin-top: 280px; background-color: #ffffff;'
+      contentCSS: 'position: relative; margin: auto; margin-top: 280px; background-color: var`--theme-bg, white`;'
     },
     interscroller: {
       enabled: true
