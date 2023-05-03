@@ -15,5 +15,10 @@ window.cpexPublisherSettings = {
   adserver: {
     adapter: 'googletag',
     loadPrerequisites: true
+  },
+  general: {
+    onLoad: (() => {
+      document.querySelector(':root').style.setProperty('--theme-bg', window.getComputedStyle(document.body).backgroundColor)
+    })
   }
 }
