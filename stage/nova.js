@@ -14,7 +14,22 @@ window.cpexPublisherSettings = {
   },
   adserver: {
     adapter: 'sastracker',
-    loadPrerequisites: true
+    loadPrerequisites: true,
+    allowedSSPs: {
+      pubmatic: 2,
+      index: 3,
+      magnite: 5,
+      xandr: 6
+    },
+    bidderTable: {
+      appnexus: 'xandr_hb',
+      pubmatic: 'pubmatic_hb',
+      rubicon: 'magnite_hb',
+      adform: 'adform_hb',
+      ix: 'index_hb',
+      criteo: 'criteo_hb',
+      r2b2: 'r2b2_hb'
+    }
   },
   general: {
     onLoad: (() => {
