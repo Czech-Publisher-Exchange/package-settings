@@ -8,7 +8,7 @@ window.cpexWebsiteSettings = {
     }
   },
   adserver: {
-    adapter: 'sastracker'
+    adapter: 'sastracker (publisher)'
   },
   headerbidding: {
     adUnits: [{
