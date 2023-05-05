@@ -1735,6 +1735,10 @@ window.cpexWebsiteSettings = {
       backgroundEl: (document.getElementById('main')),
       contentEl: (document.getElementsByClassName('m-bg-4')[0]),
       contentCSS: ' '
+    },
+    vignette: {
+      adUnits: ['m_vignete'],
+      enabled: true
     }
   }
 }
