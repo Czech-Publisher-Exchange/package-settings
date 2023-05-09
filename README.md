@@ -187,7 +187,8 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 |---------------|----------------------------------------------------------------|
 | `maxWidth`    | Number, remove before auction if viewport is larger than X     |
 | `minWidth`    | Number, remove before auction if viewport is smaller than X    |
-| `url`         | String, remove before auction if url doesn't contain X         |
+| `hasUrl`      | String, remove before auction if url contains X                |
+| `notUrl`      | String, remove before auction if url doesn't contain X         |
 | `variable`    | String, remove before auction if window.cpexAdUnitParam != X   |
 | `cookie`      | String, remove before auction if page contains that cookie     |
 | `skin`        | String, remove after auction if a skin won in auction          |
