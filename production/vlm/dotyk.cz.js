@@ -357,7 +357,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        url: 'agrobaroni'
+        urlHas: 'agrobaroni'
       }
     }, {
       code: 'm-sticky',
