@@ -524,8 +524,6 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
-      offset: 25,
-      offsetScroll: true,
       enabled: true,
       contentCSS: ' '
     },
