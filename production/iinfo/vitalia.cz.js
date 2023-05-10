@@ -590,8 +590,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('design-navigation__content test-tt')[0]),
-      offset: 25,
-      offsetScroll: true
+      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
     },
     native: {
       enabled: true
