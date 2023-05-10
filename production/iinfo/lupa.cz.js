@@ -551,8 +551,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
-      enabled: true,
-      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
+      enabled: true
     },
     native: {
       enabled: true
