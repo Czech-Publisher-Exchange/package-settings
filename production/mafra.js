@@ -60,7 +60,7 @@ window.cpexPublisherSettings = {
       height: 480
     },
     vignette: {
-      css: '#cpex-vignette {\n    background-color: #0008;\n    z-index: 2147483642;\n}\n#cpex-vignette-close {\n    position: absolute;\n    right: 20px;\n    top: 20px;\n    box-sizing: border-box;\n    display: inline-block;\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    padding: 10px;\n    font-size: 0pt;\n    border: none;\n    background-image: url(https://trackad.cz/icon.php?icon=closer2&front=cacaca&back=000000);\n    background-size: contain;\n    border-radius: 30px;\n    box-shadow: 0 0 9px 3px #cacaca;\n}\n#cpex-vignette-header {\n    position: absolute;\n    right: 10px;\n    bottom: 20px;\n    font-size: 12px;\n    background: rgba(40, 40, 40, 0.7);\n    color: #d1d1d1;\n    padding: 1px 3px;\n    text-transform: capitalize;\n}',
+      css: '#cpex-vignette {\n    background-color: #000E;\n    z-index: 2147483642;\n}\n#cpex-vignette-close {\n    position: absolute;\n    right: 20px;\n    top: 20px;\n    box-sizing: border-box;\n    display: inline-block;\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    padding: 10px;\n    font-size: 0pt;\n    border: none;\n    background-image: url`https://trackad.cz/icon.php?icon=closer2&front=cacaca&back=000000`;\n    background-size: contain;\n    border-radius: 30px;\n    box-shadow: 0 0 9px 3px #cacaca;\n}\n#cpex-vignette-header {\n    position: absolute;\n    right: 10px;\n    bottom: 20px;\n    font-size: 12px;\n    background: rgba`40, 40, 40, 0.7`;\n    color: #d1d1d1;\n    padding: 1px 3px;\n    text-transform: capitalize;\n}',
       closeTextHTML: ' '
     }
   }
