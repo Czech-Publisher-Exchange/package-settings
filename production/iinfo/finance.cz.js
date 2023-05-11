@@ -382,7 +382,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0])
+      contentEl: (document.getElementById('bb_pageWrap'))
     }
   }
 }
