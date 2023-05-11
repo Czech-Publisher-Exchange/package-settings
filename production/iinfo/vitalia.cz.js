@@ -589,7 +589,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('design-navigation__content test-tt')[0]),
+      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
     },
     native: {
