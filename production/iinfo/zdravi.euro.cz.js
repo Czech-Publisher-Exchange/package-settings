@@ -497,8 +497,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       contentCSS: 'margin: auto; margin-top: 200px; position: relative; width: 1060px;',
-      hide: [(document.getElementsByClassName('design-advert__content')[0])],
-      generalCSS: 'iframe { max-width: initial }'
+      hide: [(document.getElementsByClassName('js-advert-position-mark-leaderboard')[0])]
     }
   }
 }
