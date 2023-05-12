@@ -552,7 +552,7 @@ window.cpexWebsiteSettings = {
     skin: {
       contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
       enabled: true,
-      hide: [(document.getElementsByClassName('js-advert-position-mark-leaderboard')[0])]
+      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard design-advert-placeholder')[0])]
     },
     native: {
       enabled: true
