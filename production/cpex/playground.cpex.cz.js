@@ -3,7 +3,7 @@ window.cpexWebsiteSettings = {
     name: 'cpex.cz'
   },
   general: {
-    onload: "() => { document.getElementById('svelte').style.position = 'inherit' }"
+    onload: "`` => { document.getElementById`'svelte'`.style.position = 'inherit' }"
   },
   headerbidding: {
     prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7.39/prebid.js',
@@ -25,11 +25,11 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
-          accountId: '10900',
           siteId: '140646',
           zoneId: '1713098',
+          accountId: '10900',
           position: 'atf',
-          sizes: ['48', '15', '14', '10', '261']
+          sizes: [14, 15, 48, 261, 10]
         }
       }, {
         bidder: 'pubmatic',
@@ -55,8 +55,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [250, 250],
-            [300, 300],
             [300, 250],
+            [300, 300],
             [480, 480],
             [300, 600]
           ]
@@ -65,11 +65,11 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
-          accountId: '10900',
           siteId: '140646',
           zoneId: '1713100',
+          accountId: '10900',
           position: 'atf',
-          sizes: ['48', '15', '14', '10', '261']
+          sizes: [14, 15, 48, 261, 10]
         }
       }, {
         bidder: 'pubmatic',
@@ -96,11 +96,11 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
-          accountId: '10900',
           siteId: '140646',
           zoneId: '1960456',
+          accountId: '10900',
           position: 'atf',
-          sizes: ['2', '230']
+          sizes: [2, 230]
         }
       }, {
         bidder: 'appnexus',
@@ -120,11 +120,33 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
-          accountId: '10900',
           siteId: '140646',
           zoneId: '2062058',
+          accountId: '10900',
           position: 'atf',
-          sizes: ['90']
+          sizes: [90]
+        }
+      }]
+    }, {
+      code: 'native-3',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: '29896310'
+        }
+      }]
+    }, {
+      code: 'native-4',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: '29878475'
         }
       }]
     }, {
@@ -140,11 +162,11 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
-          accountId: '10900',
           siteId: '140646',
           zoneId: '2044716',
+          accountId: '10900',
           position: 'atf',
-          sizes: ['256']
+          sizes: [256]
         }
       }]
     }, {
@@ -161,11 +183,11 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
-          accountId: '10900',
           siteId: '140646',
           zoneId: '2087210',
+          accountId: '10900',
           position: 'atf',
-          sizes: ['60', '15', '90']
+          sizes: [60, 15, 90]
         }
       }, {
         bidder: 'appnexus',
@@ -186,34 +208,28 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'rubicon',
         params: {
-          accountId: '10900',
           siteId: '140646',
           zoneId: '2096284',
+          accountId: '10900',
           position: 'atf',
-          sizes: ['15', '90']
+          sizes: [15, 90]
         }
       }]
     }, {
       code: 'video-1',
       mediaTypes: {
         video: {
-          mimes: ['video/mp4', 'video/x-ms-wmv'],
-          protocols: [1, 2, 3, 4, 5, 6, 7, 8],
-          linearity: 2,
-          api: [1, 2],
-          context: 'instream',
           playerSize: [640, 480]
         }
       },
       bids: [{
         bidder: 'rubicon',
         params: {
-          accountId: '10900',
           siteId: '91228',
           zoneId: '429500',
-          video: {
-            language: 'en'
-          }
+          accountId: '10900',
+          position: 'atf',
+          sizes: [221]
         }
       }]
     }]
