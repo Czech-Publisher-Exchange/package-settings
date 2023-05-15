@@ -3,7 +3,7 @@ window.cpexWebsiteSettings = {
     name: 'cpex.cz'
   },
   general: {
-    onload: "`` => { document.getElementById`'svelte'`.style.position = 'inherit' }"
+    onload: /*S*/() => { document.getElementById`'svelte'`.style.position = 'inherit' }/*E*/
   },
   headerbidding: {
     prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7.39/prebid.js',
@@ -307,10 +307,10 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: (document.body),
-      contentEl: (document.getElementById('svelte')),
-      contentCSS: 'position: relative; width: 1080px; margin: auto; margin-top: 200px',
-      hide: [(document.getElementById('leaderboard-1'))]
+      backgroundEl: /*S*/document.body/*E*/,
+      contentEl: /*S*/document.getElementById('svelte')/*E*/,
+      hide: [/*S*/document.getElementById('leaderboard-1')/*E*/],
+      contentCSS: 'position: relative; width: 1080px; margin: auto; margin-top: 200px'
     },
     responsive: {
       adUnits: ['responsive-1'],
