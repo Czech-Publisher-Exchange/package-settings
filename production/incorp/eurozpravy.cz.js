@@ -71,7 +71,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: (document.getElementsByClassName('main__content')[0]),
       offset: 60,
-      contentCSS: 'position: relative; margin-top: -26px;'
+      contentCSS: 'position: relative;'
     }
   }
 }
