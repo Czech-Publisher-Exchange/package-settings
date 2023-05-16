@@ -3,7 +3,7 @@ window.cpexWebsiteSettings = {
     name: 'cpex.cz'
   },
   general: {
-    onload: /*S*/() => { document.getElementById`'svelte'`.style.position = 'inherit' }/*E*/
+    onLoad: /*S*/() => { document.getElementById('svelte').style.position = 'inherit' }/*E*/
   },
   headerbidding: {
     prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7.39/prebid.js',
@@ -326,8 +326,8 @@ window.cpexWebsiteSettings = {
     },
     native: {
       templates: {
-        generic: "\n          <style>\n            .cpex-native a { display: flex; text-decoration: none; color: inherit }\n            .cpex-native img { width: 200px; object-fit: cover }\n            .cpex-native .text { padding-left: 20px }\n          </style>\n          <div class='cpex-native article'>\n            <a href='${link}' target='_blank' >\n              <img src='${img}'>\n              <div class='text'>\n                <h2>${title}</h2>\n                <p>${desc}</p>\n              </div>\n            </a>\n          </div>",
-        'native-1': "\n          <style>\n            .cpex-native.individual { background-color: #c9b3ff }\n            .cpex-native a { display: flex; text-decoration: none; color: inherit }\n            .cpex-native img { width: 200px; object-fit: cover }\n            .cpex-native .text { padding-left: 20px }\n          </style>\n          <div class='cpex-native article individual'>\n            <a href='${link}' target='_blank' >\n              <img src='${img}'>\n              <div class='text'>\n                <h2>${title}</h2>\n                <p>${desc}</p>\n              </div>\n            </a>\n          </div>",
+        generic: "<style>\n  .cpex-native a {\n    display: flex;\n    text-decoration: none;\n    color: inherit\n  }\n  .cpex-native img {\n    width: 200px;\n    object-fit: cover\n  }\n  .cpex-native .text {\n    padding-left: 20px\n  }\n</style>\n<div class='cpex-native article'>\n  <a href='${link}' target='_blank'>\n    <img src='${img}'>\n    <div class='text'>\n      <h2>${title}</h2>\n      <p>${desc}</p>\n    </div>\n  </a>\n</div>",
+        'native-1': "<style>\n  .cpex-native.individual {\n    background-color: #c9b3ff\n  }\n  .cpex-native a {\n    display: flex;\n    text-decoration: none;\n    color: inherit\n  }\n  .cpex-native img {\n    width: 200px;\n    object-fit: cover\n  }\n  .cpex-native .text {\n    padding-left: 20px\n  }\n</style>\n<div class='cpex-native article individual'>\n  <a href='${link}' target='_blank'>\n    <img src='${img}'>\n    <div class='text'>\n      <h2>${title}</h2>\n      <p>${desc}</p>\n    </div>\n  </a>\n</div>",
         'native-2': 'native-1'
       }
     }

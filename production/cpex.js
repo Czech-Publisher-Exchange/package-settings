@@ -10,8 +10,7 @@ window.cpexPublisherSettings = {
       pubmatic: 1,
       index: 3,
       magnite: 4,
-      xandr: 26,
-      direct: 247 // temporary, for responsive testing
+      xandr: 26
     }
   },
   headerbidding: {
@@ -19,29 +18,29 @@ window.cpexPublisherSettings = {
     userIDs: ['id5Id', 'sharedId', 'criteo', 'cpexId'],
     bidderSettings: {
       rubicon: {
-        bidCpmAdjustment: ((bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
-        })
+        }/*E*/
       },
       'rubicon-mask': {
-        bidCpmAdjustment: ((bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
-        })
+        }/*E*/
       },
       appnexus: {
-        bidCpmAdjustment: ((bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.88 : bidCpm * 0.87
-        })
+        }/*E*/
       },
       pubmatic: {
-        bidCpmAdjustment: ((bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.95 : bidCpm * 0.82
-        })
+        }/*E*/
       },
       rtbhouse: {
-        bidCpmAdjustment: (bidCpm => {
+        bidCpmAdjustment: /*S*/bidCpm => {
           return bidCpm * 0.5
-        })
+        }/*E*/
       }
     }
   },
@@ -58,9 +57,6 @@ window.cpexPublisherSettings = {
       enabled: true
     },
     native: {
-      enabled: true
-    },
-    responsive: {
       enabled: true
     },
     slideup: {
