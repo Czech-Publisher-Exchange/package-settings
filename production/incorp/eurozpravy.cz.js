@@ -64,31 +64,7 @@ window.cpexWebsiteSettings = {
           inventoryCode: 93608
         }
       }]
-    }],
-    passbacks: {
-      leaderboard: (() => {
-        const options = ['https://eurozpravy.cz/ads/VCXPgZDPPkw8H8XCMFK9vzJpNxmDETNM.html']
-        const src = options[Math.floor(Math.random() * options.length)];
-        const elementId = 'main';
-        const type = 'skin';
-        const size = {
-          width: 2000,
-          height: 1400
-        };
-        cpexPackage.formats.prepareIframe(type, elementId, size.width, size.height, {
-          src
-        });
-        cpexPackage.customAds['main'] = {
-          type,
-          elementId
-        };
-        if (cpexPackage.debugMode) {
-          cpexPackage.headerbidding.prepareMetaData(elementId, {
-            type: 'passback'
-          })
-        }
-      })
-    }
+    }]
   },
   formats: {
     skin: {
