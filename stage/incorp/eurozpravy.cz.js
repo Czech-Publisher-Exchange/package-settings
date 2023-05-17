@@ -70,7 +70,7 @@ window.cpexWebsiteSettings = {
           height: 210
         };
         cpexPackage.headerbidding.prepareIframe(elementId, {
-          element: elementId
+          element: document.getElementById(elementId)
         }, size.width, size.height, {
           src
         });
