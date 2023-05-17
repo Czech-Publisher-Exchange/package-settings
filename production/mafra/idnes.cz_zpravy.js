@@ -2611,6 +2611,102 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'm_vignete',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [720, 1280],
+            [480, 820],
+            [300, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2795918,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 10]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2800816,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 10]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5111668'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 958826
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29860453
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }]
+    }, {
+      code: 'halfpagead_rubrika_lazyload',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2866860,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5171948'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1679112,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30038045
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }]
     }]
   },
   formats: {
@@ -2633,6 +2729,10 @@ window.cpexWebsiteSettings = {
       height: 480,
       adUnits: ['m_branding'],
       enabled: true
+    },
+    vignette: {
+      enabled: true,
+      adUnits: ['m_vignete']
     }
   }
 }
