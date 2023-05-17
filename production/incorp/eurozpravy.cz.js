@@ -49,11 +49,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5083139'
         }
       }, {
-        bidder: 'ix',
-        params: {
-          siteId: 979477
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21054355
@@ -64,14 +59,37 @@ window.cpexWebsiteSettings = {
           inventoryCode: 93608
         }
       }]
-    }]
+    }],
+    passbacks: {
+      leaderboard: (() => {
+        const src = 'https://eurozpravy.cz/ads/google.html';
+        const elementId = 'leaderboard';
+        const type = 'skin';
+        const size = {
+          width: 970,
+          height: 210
+        };
+        cpexPackage.headerbidding.prepareIframe(elementId, {
+          element: document.getElementById(elementId)
+        }, size.width, size.height, {
+          src
+        });
+        cpexPackage.regularAds[elementId] = {
+          type,
+          elementId
+        };
+        cpexPackage.headerbidding.prepareMetaData(elementId, {
+          type: 'passback'
+        })
+      })
+    }
   },
   formats: {
     skin: {
       enabled: true,
       contentEl: (document.getElementsByClassName('main__content')[0]),
       offset: 60,
-      contentCSS: 'position: relative'
+      contentCSS: 'position: relative; margin-top: -26px;'
     }
   }
 }
