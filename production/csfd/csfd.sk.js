@@ -4,9 +4,9 @@ window.cpexWebsiteSettings = {
   },
   general: {
     autoRun: false,
-    customRun: (() => {
+    customRun: /*S*/() => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    }),
+    }/*E*/,
     errorLogging: true
   },
   cmp: {
@@ -1672,10 +1672,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      backgroundEl: (document.body),
-      contentEl: (document.getElementById('page-wrapper')),
+      backgroundEl: /*S*/document.body/*E*/,
+      contentEl: /*S*/document.getElementById('page-wrapper')/*E*/,
       contentCSS: 'position: relative;margin-top: 210px',
-      hide: [(document.getElementById('leaderboard-wrapper'))]
+      hide: [/*S*/document.getElementById('leaderboard-wrapper')/*E*/]
     },
     interscroller: {
       enabled: true
