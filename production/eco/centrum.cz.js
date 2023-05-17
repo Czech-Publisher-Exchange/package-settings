@@ -572,7 +572,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('sc-1cb3an8-0')[0])
+      contentEl: (document.getElementsByClassName('sc-1cb3an8-0')[0]),
+      hide: [(document.getElementById('reklama-leader'))]
     },
     native: {
       enabled: true
