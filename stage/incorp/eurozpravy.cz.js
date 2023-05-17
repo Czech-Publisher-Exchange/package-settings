@@ -64,7 +64,7 @@ window.cpexWebsiteSettings = {
       leaderboard: (() => {
         const src = 'https://cdn.cpex.cz/temp/incorp_gam_passback.html';
         const elementId = 'leaderboard';
-        const type = 'skin';
+        const type = 'banner';
         const size = {
           width: 970,
           height: 210
