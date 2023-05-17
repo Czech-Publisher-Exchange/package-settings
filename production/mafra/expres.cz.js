@@ -1720,6 +1720,45 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }]
+    }, {
+      code: 'halfpagead_rubrika_lazyload',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 2866836,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5171936'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1679077,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }]
     }]
   },
   formats: {
