@@ -63,16 +63,18 @@ window.cpexWebsiteSettings = {
     passbacks: {
       leaderboard: (() => {
         const src = 'https://cdn.cpex.cz/temp/incorp_gam_passback.html';
-        const elementId = 'main';
+        const elementId = 'leaderboard';
         const type = 'skin';
         const size = {
-          width: 2000,
-          height: 1400
+          width: 970,
+          height: 210
         };
-        cpexPackage.formats.prepareIframe(type, elementId, size.width, size.height, {
+        cpexPackage.headerbidding.prepareIframe(elementId, {
+          element: elementId
+        }, size.width, size.height, {
           src
         });
-        cpexPackage.customAds['main'] = {
+        cpexPackage.regularAds[elementId] = {
           type,
           elementId
         };
