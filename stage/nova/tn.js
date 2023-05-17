@@ -8,7 +8,7 @@ window.cpexWebsiteSettings = {
     }
   },
   adserver: {
-    adapter: 'googletag (publisher)',
+    adapter: 'sastracker',
     gamId: '27415282',
     gamPrefix: 'TN_'
   },
