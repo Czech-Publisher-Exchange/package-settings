@@ -64,7 +64,7 @@ window.cpexWebsiteSettings = {
       leaderboard: (() => {
         const src = 'https://eurozpravy.cz/ads/google.html';
         const elementId = 'leaderboard';
-        const type = 'skin';
+        const type = 'banner';
         const size = {
           width: 970,
           height: 210
@@ -78,9 +78,11 @@ window.cpexWebsiteSettings = {
           type,
           elementId
         };
-        cpexPackage.headerbidding.prepareMetaData(elementId, {
-          type: 'passback'
-        })
+        if (cpexPackage.debugMode) {
+          cpexPackage.headerbidding.prepareMetaData(elementId, {
+            type: 'passback'
+          })
+        }
       })
     }
   },
