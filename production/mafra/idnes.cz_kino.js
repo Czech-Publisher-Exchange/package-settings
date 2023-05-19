@@ -140,6 +140,12 @@ window.cpexWebsiteSettings = {
           siteId: 878579
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 144326,
+          pageId: 131425
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157315
@@ -203,6 +209,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 144326,
+          pageId: 131425
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157317
@@ -253,6 +265,12 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 958842
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 144326,
+          pageId: 131425
         }
       }, {
         bidder: 'appnexus',
