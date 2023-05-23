@@ -705,7 +705,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       offset: 80,
-      contentEl: (document.getElementsByClassName('c-content')[0]),
+      contentEl: /*S*/document.getElementsByClassName('c-content')[0]/*E*/,
       enabled: true,
       contentCSS: 'position: relative; margin: auto; margin-top: 280px; background-color: var(--theme-bg, white);'
     },

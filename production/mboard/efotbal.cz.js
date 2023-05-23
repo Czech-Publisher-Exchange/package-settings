@@ -7,7 +7,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementById('page'))
+      contentEl: /*S*/document.getElementById('page')/*E*/
     }
   },
   headerbidding: {

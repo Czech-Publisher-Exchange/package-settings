@@ -535,7 +535,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('m-bg-4')[0])
+      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/
     },
     interscroller: {
       enabled: true

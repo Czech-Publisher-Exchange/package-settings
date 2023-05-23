@@ -15,7 +15,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       offsetScroll: false,
-      contentEl: (document.getElementsByClassName('all-wrapper')[0])
+      contentEl: /*S*/document.getElementsByClassName('all-wrapper')[0]/*E*/
     },
     interscroller: {
       enabled: false

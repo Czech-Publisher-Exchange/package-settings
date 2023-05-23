@@ -382,8 +382,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementById('bb_brandingWrap')),
-      hide: [(document.getElementsByClassName('leaderboard-top')[0])]
+      contentEl: /*S*/document.getElementById('bb_brandingWrap')/*E*/,
+      hide: [/*S*/document.getElementsByClassName('leaderboard-top')[0]/*E*/]
     }
   }
 }

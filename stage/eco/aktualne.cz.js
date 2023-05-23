@@ -830,7 +830,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('page')[0]),
+      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
       offset: 64,
       offsetScroll: true
     },
@@ -840,7 +840,7 @@ window.cpexWebsiteSettings = {
     slideup: {
       adUnits: ['sas-special4'],
       enabled: true,
-      backgroundEl: (document.getElementById('reklama-special4'))
+      backgroundEl: /*S*/document.getElementById('reklama-special4')/*E*/
     }
   },
   general: {

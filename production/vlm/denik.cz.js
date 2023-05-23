@@ -1995,10 +1995,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('page')[0]),
+      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
       offset: 52,
       offsetScroll: true,
-      hide: [(document.getElementsByClassName('reklama-box-leaderboard-top')[0])]
+      hide: [/*S*/document.getElementsByClassName('reklama-box-leaderboard-top')[0]/*E*/]
     },
     interscroller: {
       enabled: true

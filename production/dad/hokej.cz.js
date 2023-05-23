@@ -878,12 +878,12 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: (document.getElementById('branding-container')),
-      contentEl: (document.getElementsByClassName('content-wrapper')[0]),
+      backgroundEl: /*S*/document.getElementById('branding-container')/*E*/,
+      contentEl: /*S*/document.getElementsByClassName('content-wrapper')[0]/*E*/,
       enabled: true,
       offset: 68,
       generalCSS: '#cpex-skin { margin-top: 60px }',
-      hide: [(document.getElementsByClassName('banner-top')[0])],
+      hide: [/*S*/document.getElementsByClassName('banner-top')[0]/*E*/],
       offsetScroll: true
     },
     slideup: {

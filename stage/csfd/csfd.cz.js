@@ -2396,9 +2396,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: (document.body),
-      contentEl: (document.getElementById('page-wrapper')),
-      hide: [(document.getElementById('leaderboard-wrapper'))],
+      backgroundEl: /*S*/document.body/*E*/,
+      contentEl: /*S*/document.getElementById('page-wrapper')/*E*/,
+      hide: [/*S*/document.getElementById('leaderboard-wrapper')/*E*/],
       enabled: true,
       zIndex: 0,
       contentCSS: 'position: relative;margin-top: 210px'
@@ -2426,8 +2426,8 @@ window.cpexWebsiteSettings = {
   general: {
     errorLogging: true,
     autoRun: false,
-    customRun: (() => {
+    customRun: /*S*/() => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    })
+    }/*E*/
   }
 }

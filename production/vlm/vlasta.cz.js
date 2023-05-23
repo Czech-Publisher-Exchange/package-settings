@@ -1712,7 +1712,7 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('page')[0]),
+      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
       contentCSS: ' ',
       offset: 32,
       offsetScroll: false

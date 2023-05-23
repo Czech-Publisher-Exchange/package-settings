@@ -18,13 +18,13 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('relative')[0]),
+      contentEl: /*S*/document.getElementsByClassName('relative')[0]/*E*/,
       offset: 72,
-      hide: [(document.getElementsByClassName('flex-col')[0])]
+      hide: [/*S*/document.getElementsByClassName('flex-col')[0]/*E*/]
     },
     slideup: {
       adUnits: ['reklama-popupmobile'],
-      backgroundEl: (document.getElementById('reklama-popupmobile-wrapper'))
+      backgroundEl: /*S*/document.getElementById('reklama-popupmobile-wrapper')/*E*/
     }
   }
 }

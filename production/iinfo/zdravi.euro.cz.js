@@ -495,9 +495,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
+      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
       contentCSS: 'margin: auto; margin-top: 200px; position: relative; width: 1060px;',
-      hide: [(document.getElementsByClassName('js-advert-position-mark-leaderboard')[0])]
+      hide: [/*S*/document.getElementsByClassName('js-advert-position-mark-leaderboard')[0]/*E*/]
     }
   }
 }

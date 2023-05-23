@@ -519,15 +519,15 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
+      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
       contentCSS: 'width: 1060px; margin-top: 200px; position: relative;',
-      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
+      hide: [/*S*/document.getElementsByClassName('design-advert-placeholder--leaderboard')[0]/*E*/]
     }
   },
   general: {
     autoRun: false,
-    customRun: (() => {
+    customRun: /*S*/() => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    })
+    }/*E*/
   }
 }

@@ -608,10 +608,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('bhWtgq')[0]),
+      contentEl: /*S*/document.getElementsByClassName('bhWtgq')[0]/*E*/,
       contentCSS: ' ',
       zIndex: null,
-      backgroundEl: (document.getElementById('brand-c'))
+      backgroundEl: /*S*/document.getElementById('brand-c')/*E*/
     },
     interscroller: {
       enabled: true
@@ -619,7 +619,7 @@ window.cpexWebsiteSettings = {
     slideup: {
       adUnits: ['sas-special'],
       enabled: true,
-      backgroundEl: (document.getElementById('sas-special-wrapper'))
+      backgroundEl: /*S*/document.getElementById('sas-special-wrapper')/*E*/
     }
   },
   general: {

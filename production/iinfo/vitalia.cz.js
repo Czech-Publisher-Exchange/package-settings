@@ -589,8 +589,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
-      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
+      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
+      hide: [/*S*/document.getElementsByClassName('design-advert-placeholder--leaderboard')[0]/*E*/]
     },
     native: {
       enabled: true
@@ -598,8 +598,8 @@ window.cpexWebsiteSettings = {
   },
   general: {
     autoRun: false,
-    customRun: (() => {
+    customRun: /*S*/() => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    })
+    }/*E*/
   }
 }

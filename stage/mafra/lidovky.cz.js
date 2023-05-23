@@ -1205,8 +1205,8 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      backgroundEl: (document.getElementById('main')),
-      contentEl: (document.getElementsByClassName('m-bg-4')[0]),
+      backgroundEl: /*S*/document.getElementById('main')/*E*/,
+      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/,
       contentCSS: ' '
     },
     responsive: {

@@ -793,7 +793,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('page')[0]),
+      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
       contentCSS: ' '
     },
     native: {
@@ -817,8 +817,8 @@ window.cpexWebsiteSettings = {
     enabled: false
   },
   general: {
-    onLoad: (() => {
+    onLoad: /*S*/() => {
       document.getElementsByClassName('wrapper')[0].style.position = 'inherit'
-    })
+    }/*E*/
   }
 }

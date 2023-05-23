@@ -33,14 +33,14 @@ window.cpexPublisherSettings = {
     cmpLoadTimeoutMs: 1000,
     bidderSettings: {
       rubicon: {
-        bidCpmAdjustment: ((bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
-        })
+        }/*E*/
       },
       'rubicon-mask': {
-        bidCpmAdjustment: ((bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
-        })
+        }/*E*/
       },
       invibes: {
         params: {

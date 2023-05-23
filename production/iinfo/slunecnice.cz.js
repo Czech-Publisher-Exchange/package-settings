@@ -16,8 +16,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
-      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])],
+      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
+      hide: [/*S*/document.getElementsByClassName('design-advert-placeholder--leaderboard')[0]/*E*/],
       offset: 0,
       contentCSS: 'width: 1060px; margin: 200px auto; position: relative;'
     }

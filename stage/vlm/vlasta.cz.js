@@ -1739,7 +1739,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('page')[0]),
+      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
       offset: 32,
       offsetScroll: false
     },

@@ -1,10 +1,10 @@
 window.cpexWebsiteSettings = {
   formats: {
     skin: {
-      backgroundEl: (document.getElementById('main')),
-      contentEl: (document.getElementsByClassName('m-bg-4')[0]),
+      backgroundEl: /*S*/document.getElementById('main')/*E*/,
+      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/,
       enabled: true,
-      hide: [(document.getElementById('r-leaderboard-hp'))],
+      hide: [/*S*/document.getElementById('r-leaderboard-hp')/*E*/],
       contentCSS: ' '
     },
     interscroller: {

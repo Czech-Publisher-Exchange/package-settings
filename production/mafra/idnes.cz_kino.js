@@ -283,11 +283,11 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('m-bg-4')[0]),
+      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/,
       offset: 0,
-      backgroundEl: (document.getElementById('main')),
+      backgroundEl: /*S*/document.getElementById('main')/*E*/,
       contentCSS: ' ',
-      hide: [(document.getElementById('r-leaderboard-hp'))]
+      hide: [/*S*/document.getElementById('r-leaderboard-hp')/*E*/]
     },
     interscroller: {
       enabled: true

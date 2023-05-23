@@ -819,11 +819,11 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('page')[0]),
+      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
       offset: 64,
       zIndex: 0,
       contentCSS: 'z-index:2; margin-top: 200px',
-      hide: [(document.getElementsByClassName('leaderboard')[0])]
+      hide: [/*S*/document.getElementsByClassName('leaderboard')[0]/*E*/]
     },
     interscroller: {
       enabled: true
@@ -831,7 +831,7 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnits: ['sas-special4'],
-      backgroundEl: (document.getElementById('reklama-special4'))
+      backgroundEl: /*S*/document.getElementById('reklama-special4')/*E*/
     }
   },
   general: {

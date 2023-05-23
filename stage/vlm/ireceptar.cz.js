@@ -1,8 +1,8 @@
 window.cpexWebsiteSettings = {
   formats: {
     skin: {
-      backgroundEl: (document.getElementById('ireceptar')),
-      contentEl: (document.getElementsByClassName('page')[0])
+      backgroundEl: /*S*/document.getElementById('ireceptar')/*E*/,
+      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/
     },
     slideup: {
       adUnits: ['sticky']

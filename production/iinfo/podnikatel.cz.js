@@ -523,9 +523,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      contentEl: (document.getElementsByClassName('parter-cpex-branding-wrapper')[0]),
+      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
       enabled: true,
-      hide: [(document.getElementsByClassName('design-advert-placeholder--leaderboard')[0])]
+      hide: [/*S*/document.getElementsByClassName('design-advert-placeholder--leaderboard')[0]/*E*/]
     },
     native: {
       enabled: true

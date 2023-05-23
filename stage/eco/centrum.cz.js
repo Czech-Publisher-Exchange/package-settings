@@ -573,23 +573,23 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('sc-1cb3an8-0')[0])
+      contentEl: /*S*/document.getElementsByClassName('sc-1cb3an8-0')[0]/*E*/
     },
     native: {
       enabled: true
     },
     slideup: {
       adUnits: ['reklama-popupmobile'],
-      backgroundEl: (document.getElementById('reklama-popupmobile-wrapper')),
+      backgroundEl: /*S*/document.getElementById('reklama-popupmobile-wrapper')/*E*/,
       enabled: true
     }
   },
   general: {
     errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184',
-    beforeLoad: (() => {
+    beforeLoad: /*S*/() => {
       if (!!['www.centrum.cz', 'atlas.centrum.cz', 'pocasi.centrum.cz', 'volny.centrum.cz'].find(str => window.location.href.indexOf(str) !== -1)) {
         window.cpexPackage.settings.headerbidding.enabled = true
       }
-    })
+    }/*E*/
   }
 }

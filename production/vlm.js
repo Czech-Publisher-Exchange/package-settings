@@ -33,19 +33,19 @@ window.cpexPublisherSettings = {
     analytics: ['id5Analytics', 'cpexAnalytics'],
     bidderSettings: {
       rubicon: {
-        bidCpmAdjustment: ((bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
-        })
+        }/*E*/
       },
       'rubicon-mask': {
-        bidCpmAdjustment: ((bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
-        })
+        }/*E*/
       },
       adform: {
-        bidCpmAdjustment: ((bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
           return bidCpm * 0.9
-        })
+        }/*E*/
       }
     }
   },

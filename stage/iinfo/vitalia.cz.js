@@ -504,7 +504,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('design-navigation__content test-tt')[0]),
+      contentEl: /*S*/document.getElementsByClassName('design-navigation__content test-tt')[0]/*E*/,
       offset: 25,
       offsetScroll: true
     },
@@ -514,8 +514,8 @@ window.cpexWebsiteSettings = {
   },
   general: {
     autoRun: false,
-    customRun: (() => {
+    customRun: /*S*/() => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    })
+    }/*E*/
   }
 }

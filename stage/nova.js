@@ -32,9 +32,9 @@ window.cpexPublisherSettings = {
     }
   },
   general: {
-    onLoad: (() => {
+    onLoad: /*S*/() => {
       const lightTheme = document.documentElement.classList.contains('-light-theme');
       document.querySelector(':root').style.setProperty('--theme-bg', lightTheme ? 'white' : window.getComputedStyle(document.body).backgroundColor)
-    })
+    }/*E*/
   }
 }

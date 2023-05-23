@@ -1,14 +1,14 @@
 window.cpexWebsiteSettings = {
   formats: {
     skin: {
-      contentEl: (document.getElementsByClassName('page')[0]),
+      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
       enabled: true,
-      hide: [(document.getElementsByClassName('leaderboard-top')[0])]
+      hide: [/*S*/document.getElementsByClassName('leaderboard-top')[0]/*E*/]
     },
     slideup: {
       adUnits: ['m-sticky'],
       enabled: true,
-      backgroundEl: (document.getElementById('m-sticky'))
+      backgroundEl: /*S*/document.getElementById('m-sticky')/*E*/
     },
     interscroller: {
       enabled: true
@@ -779,8 +779,8 @@ window.cpexWebsiteSettings = {
     }]
   },
   general: {
-    onLoad: (() => {
+    onLoad: /*S*/() => {
       document.getElementsByClassName('wrapper')[0].style.position = 'inherit'
-    })
+    }/*E*/
   }
 }

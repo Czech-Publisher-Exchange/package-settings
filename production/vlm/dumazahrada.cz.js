@@ -395,8 +395,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: (document.getElementsByClassName('page')[0]),
-      hide: [(document.getElementById('leaderboard-top-wrap'))],
+      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
+      hide: [/*S*/document.getElementById('leaderboard-top-wrap')/*E*/],
       offset: 52,
       offsetScroll: true
     },
