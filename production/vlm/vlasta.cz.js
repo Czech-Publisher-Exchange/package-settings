@@ -1689,6 +1689,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5192037'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28653864
@@ -1697,22 +1703,69 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'square-3-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 2847992,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 2847984,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5192039'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28653871
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }]
     }]
   },
   formats: {
     native: {
       enabled: true,
       templates: {
-        'commercial-article-1-GA': "<div class='article-list__item article-list-item article-list-item--default'>\n  <div class='article-list-item__preview image'>\n    <a href='${link}' class='image__link'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>\n        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h2 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h2>\n    <a href='${link}' class='article-list-item__perex'>${desc}</a>\n  </div>\n</div>",
-        'commercial-article-2-GA': "<div class='article-list__item article-list-item article-list-item--default'>\n  <div class='article-list-item__preview image'>\n    <a href='${link}' class='image__link'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>\n        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h2 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h2>\n    <a href='${link}' class='article-list-item__perex'>${desc}</a>\n  </div>\n</div>",
-        'm-commercial-article-1-GA': "<div class='article-list__item article-list-item article-list-item--default'>\n  <div class='article-list-item__preview image'>\n    <a href='${link}' class='image__link'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>\n        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h2 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h2>\n    <a href='${link}' class='article-list-item__perex'>${desc}</a>\n  </div>\n</div>",
-        'm-commercial-article-2-GA': "<div class='article-list__item article-list-item article-list-item--default'>\n  <div class='article-list-item__preview image'>\n    <a href='${link}' class='image__link'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>\n        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h2 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h2>\n    <a href='${link}' class='article-list-item__perex'>${desc}</a>\n  </div>\n</div>",
-        'm-commercial-article-native-detail': "<div class='article-list-item article-list-item--related article-list-item article-list-item--small' style='text-align:left'>\n  <div class='article-list-item__preview image'>\n    <a class='image__link' href='${link}'>\n      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:100%!important;position:relative;'>\n        <img src='${img}' style='position:absolute;top:0;left:0;object-fit:cover;object-position:100% 0;width:100%;height:100%;' class='article-list-item__image'>\n      </div>\n    </a>\n  </div>\n  <div class='article-list-item__headline'>\n    <a href='#' class='article-list-item__rubric'>Reklama</a>\n    <h3 class='article-list-item__title'>\n      <a href='${link}' class='article-list-item__title-link'>${title}</a>\n    </h3>\n    <p style='font-size:.7rem'>${desc}</p>\n  </div>\n</div>"
+        'commercial-article-1-GA': "<div class='article-list__item article-list-item article-list-item--default'>  <div class='article-list-item__preview image'>    <a href='${link}' class='image__link'>      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>      </div>    </a>  </div>  <div class='article-list-item__headline'>    <a href='#' class='article-list-item__rubric'>Reklama</a>    <h2 class='article-list-item__title'>      <a href='${link}' class='article-list-item__title-link'>${title}</a>    </h2>    <a href='${link}' class='article-list-item__perex'>${desc}</a>  </div></div>",
+        'commercial-article-2-GA': "<div class='article-list__item article-list-item article-list-item--default'>  <div class='article-list-item__preview image'>    <a href='${link}' class='image__link'>      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>      </div>    </a>  </div>  <div class='article-list-item__headline'>    <a href='#' class='article-list-item__rubric'>Reklama</a>    <h2 class='article-list-item__title'>      <a href='${link}' class='article-list-item__title-link'>${title}</a>    </h2>    <a href='${link}' class='article-list-item__perex'>${desc}</a>  </div></div>",
+        'm-commercial-article-1-GA': "<div class='article-list__item article-list-item article-list-item--default'>  <div class='article-list-item__preview image'>    <a href='${link}' class='image__link'>      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>      </div>    </a>  </div>  <div class='article-list-item__headline'>    <a href='#' class='article-list-item__rubric'>Reklama</a>    <h2 class='article-list-item__title'>      <a href='${link}' class='article-list-item__title-link'>${title}</a>    </h2>    <a href='${link}' class='article-list-item__perex'>${desc}</a>  </div></div>",
+        'm-commercial-article-2-GA': "<div class='article-list__item article-list-item article-list-item--default'>  <div class='article-list-item__preview image'>    <a href='${link}' class='image__link'>      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:75%;position:relative;'>        <img src='${img}' class='article-list-item__image' style='position:absolute; top:0; left:0; object-fit:cover; object-position:center; width:100%; height:100%;'>      </div>    </a>  </div>  <div class='article-list-item__headline'>    <a href='#' class='article-list-item__rubric'>Reklama</a>    <h2 class='article-list-item__title'>      <a href='${link}' class='article-list-item__title-link'>${title}</a>    </h2>    <a href='${link}' class='article-list-item__perex'>${desc}</a>  </div></div>",
+        'm-commercial-article-native-detail': "<div class='article-list-item article-list-item--related article-list-item article-list-item--small' style='text-align:left'>  <div class='article-list-item__preview image'>    <a class='image__link' href='${link}'>      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:100%!important;position:relative;'>        <img src='${img}' style='position:absolute;top:0;left:0;object-fit:cover;object-position:100% 0;width:100%;height:100%;' class='article-list-item__image'>      </div>    </a>  </div>  <div class='article-list-item__headline'>    <a href='#' class='article-list-item__rubric'>Reklama</a>    <h3 class='article-list-item__title'>      <a href='${link}' class='article-list-item__title-link'>${title}</a>    </h3>    <p style='font-size:.7rem'>${desc}</p>  </div></div>"
       }
     },
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
       contentCSS: ' ',
       offset: 32,
       offsetScroll: false
