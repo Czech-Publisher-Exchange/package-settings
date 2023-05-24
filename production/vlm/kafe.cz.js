@@ -612,6 +612,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5192040'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22969011
@@ -793,13 +799,13 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
       contentCSS: ' '
     },
     native: {
       enabled: true,
       templates: {
-        generic: "<article class='box-article'>\n  <header class='box-article-header'>\n    <div class='box-article-image'>\n      <a href='${link}' target='_blank' rel='sponsored noopener'><div class='box-article-img'><img src='${img}'></div></a>\n    </div>\n    <div class='box-article-header-bottom'>\n      <div class='box-article-title'>\n        <a href='${link}' target='_blank' rel='sponsored noopener'><h2>${title}</h2></a>\n      </div>\n    </div>\n  </header>\n  <blockquote class='box-article-excerpt'>${desc}</blockquote>\n</article>"
+        generic: "<article class='box-article'>  <header class='box-article-header'>    <div class='box-article-image'>      <a href='${link}' target='_blank' rel='sponsored noopener'><div class='box-article-img'><img src='${img}'></div></a>    </div>    <div class='box-article-header-bottom'>      <div class='box-article-title'>        <a href='${link}' target='_blank' rel='sponsored noopener'><h2>${title}</h2></a>      </div>    </div>  </header>  <blockquote class='box-article-excerpt'>${desc}</blockquote></article>"
       }
     },
     vignette: {
@@ -817,8 +823,8 @@ window.cpexWebsiteSettings = {
     enabled: false
   },
   general: {
-    onLoad: /*S*/() => {
+    onLoad: /*S*/ () => {
       document.getElementsByClassName('wrapper')[0].style.position = 'inherit'
-    }/*E*/
+    } /*E*/
   }
 }
