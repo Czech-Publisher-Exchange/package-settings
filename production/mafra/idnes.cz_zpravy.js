@@ -2917,7 +2917,7 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     vignette: {
-      enabled: false,
+      enabled: true,
       adUnits: ['m_vignete']
     }
   }
