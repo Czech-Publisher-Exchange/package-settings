@@ -1,6 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'eurozpravy.cz'
+    name: 'eurozpravy.cz',
+    note: 'test'
   },
   aam: {
     settings: {
@@ -61,21 +62,33 @@ window.cpexWebsiteSettings = {
       }]
     }],
     passbacks: {
-      leaderboard: /*S*/() => {
+      leaderboard: /*S*/ () => {
         const src = 'https://cdn.cpex.cz/temp/incorp_gam_passback.html';
         const elementId = 'leaderboard';
         const type = 'banner';
-        const size = { width: 970, height: 210 };
-        cpexPackage.headerbidding.prepareIframe(elementId, { element: document.getElementById(elementId) }, size.width, size.height, { src });
-        cpexPackage.regularAds[elementId] = { type, elementId };
-        cpexPackage.headerbidding.prepareMetaData(elementId, { type: 'passback' })
-      }/*E*/
+        const size = {
+          width: 970,
+          height: 210
+        };
+        cpexPackage.headerbidding.prepareIframe(elementId, {
+          element: document.getElementById(elementId)
+        }, size.width, size.height, {
+          src
+        });
+        cpexPackage.regularAds[elementId] = {
+          type,
+          elementId
+        };
+        cpexPackage.headerbidding.prepareMetaData(elementId, {
+          type: 'passback'
+        })
+      } /*E*/
     }
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('main__content')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('main__content')[0] /*E*/ ,
       offset: 60,
       contentCSS: 'position: relative; margin-top: -26px;'
     }
