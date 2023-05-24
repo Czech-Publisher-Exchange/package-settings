@@ -10,7 +10,8 @@ window.cpexWebsiteSettings = {
   adserver: {
     adapter: 'sastracker',
     gamId: '27415282',
-    gamPrefix: 'TN_'
+    gamPrefix: 'TN_',
+    areaKey: 'divId'
   },
   headerbidding: {
     adUnits: [{
