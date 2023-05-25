@@ -551,6 +551,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5194353'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22969029
@@ -1995,10 +2001,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
       offset: 52,
       offsetScroll: true,
-      hide: [/*S*/document.getElementsByClassName('reklama-box-leaderboard-top')[0]/*E*/]
+      hide: [ /*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/ ]
     },
     interscroller: {
       enabled: true
@@ -2006,11 +2012,11 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        'commercial-article-2-hp': "<article class='box-article box-article-classic'>\n  <div class='box-article-left'>\n    <a class='box-article-img' href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>\n      <img src='${img}' width='210' height='140' loading='lazy' style='object-fit: cover'>\n    </a>\n  </div>\n  <div class='box-article-right'>\n    <div class='box-article-tags'>\n      <div class='box-article-tag'>REKLAMA</div>\n    </div>\n    <a href='${link}' target='_blank' rel='sponsored noopener'>\n      <h3 class='box-article-title fs20'>${title}</h3>\n      <h4 class='box-article-perex fs16'>${desc}</h4>\n    </a>\n  </div>\n</article>",
-        'commercial-article-2-GA-hp': "<article class='box-article box-article-classic'>\n  <div class='box-article-left'>\n    <a class='box-article-img' href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>\n      <img src='${img}' width='210' height='140' loading='lazy' style='object-fit: cover'>\n    </a>\n  </div>\n  <div class='box-article-right'>\n    <div class='box-article-tags'>\n      <div class='box-article-tag'>REKLAMA</div>\n    </div>\n    <a href='${link}' target='_blank' rel='sponsored noopener'>\n      <h3 class='box-article-title fs20'>${title}</h3>\n      <h4 class='box-article-perex fs16'>${desc}</h4>\n    </a>\n  </div>\n</article>",
-        'commercial-article-native-detail': "<article class='box-article box-article-classic' style='height: 300px'>\n  <a class='box-article-left' href='${link}' target='_blank' title='${title}' tabindex='-1' style='display: flex; align-items: center' rel='sponsored noopener'>\n    <img src='${img}' width='210' height='140' class='box-article-img' loading='lazy'>\n  </a>\n  <div class='box-article-right'>\n    <div class='box-article-tags'>\n      <div class='box-article-tag'>REKLAMA</div>\n    </div>\n    <a class='box-article-perex fs16' href='${link}' target='_blank' rel='sponsored noopener'>\n      <h3 class='box-article-title fs20'>${title}</h3>\n      ${desc}\n    </a>\n  </div>\n</article>",
-        'm-commercial-article-2': "<article class='box-article box-article-classic'>\n  <a class='box-article-left' href='${link}' target='_blank' tabindex='-1' rel='sponsored noopener'>\n    <img src='${img}' width='105' height='70' class='box-article-img' loading='lazy'>\n  </a>\n  <div class='box-article-right'>\n    <div class='box-article-tags'>\n      <span class='box-article-tag blue-tag tag'>Reklama</span>\n    </div>\n    <h3 class='box-article-title fs16' title='${title}'>\n      <a href='${link}' target='_blank' rel='sponsored noopener'>\n        ${title}\n      </a>\n    </h3>\n  </div>\n</article>",
-        'commercial-article-1-hp': "<article class='box-article box-article-classic'>\n  <div class='box-article-left'>\n    <a class='box-article-img' href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>\n      <img src='${img}' width='210' height='140' loading='lazy' style='object-fit: cover'>\n    </a>\n  </div>\n  <div class='box-article-right'>\n    <div class='box-article-tags'>\n      <div class='box-article-tag'>REKLAMA</div>\n    </div>\n    <a href='${link}' target='_blank' rel='sponsored noopener'>\n      <h3 class='box-article-title fs20'>${title}</h3>\n      <h4 class='box-article-perex fs16'>${desc}</h4>\n    </a>\n  </div>\n</article>"
+        'commercial-article-2-hp': "<article class='box-article box-article-classic'>  <div class='box-article-left'>    <a class='box-article-img' href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>      <img src='${img}' width='210' height='140' loading='lazy' style='object-fit: cover'>    </a>  </div>  <div class='box-article-right'>    <div class='box-article-tags'>      <div class='box-article-tag'>REKLAMA</div>    </div>    <a href='${link}' target='_blank' rel='sponsored noopener'>      <h3 class='box-article-title fs20'>${title}</h3>      <h4 class='box-article-perex fs16'>${desc}</h4>    </a>  </div></article>",
+        'commercial-article-2-GA-hp': "<article class='box-article box-article-classic'>  <div class='box-article-left'>    <a class='box-article-img' href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>      <img src='${img}' width='210' height='140' loading='lazy' style='object-fit: cover'>    </a>  </div>  <div class='box-article-right'>    <div class='box-article-tags'>      <div class='box-article-tag'>REKLAMA</div>    </div>    <a href='${link}' target='_blank' rel='sponsored noopener'>      <h3 class='box-article-title fs20'>${title}</h3>      <h4 class='box-article-perex fs16'>${desc}</h4>    </a>  </div></article>",
+        'commercial-article-native-detail': "<article class='box-article box-article-classic' style='height: 300px'>  <a class='box-article-left' href='${link}' target='_blank' title='${title}' tabindex='-1' style='display: flex; align-items: center' rel='sponsored noopener'>    <img src='${img}' width='210' height='140' class='box-article-img' loading='lazy'>  </a>  <div class='box-article-right'>    <div class='box-article-tags'>      <div class='box-article-tag'>REKLAMA</div>    </div>    <a class='box-article-perex fs16' href='${link}' target='_blank' rel='sponsored noopener'>      <h3 class='box-article-title fs20'>${title}</h3>      ${desc}    </a>  </div></article>",
+        'm-commercial-article-2': "<article class='box-article box-article-classic'>  <a class='box-article-left' href='${link}' target='_blank' tabindex='-1' rel='sponsored noopener'>    <img src='${img}' width='105' height='70' class='box-article-img' loading='lazy'>  </a>  <div class='box-article-right'>    <div class='box-article-tags'>      <span class='box-article-tag blue-tag tag'>Reklama</span>    </div>    <h3 class='box-article-title fs16' title='${title}'>      <a href='${link}' target='_blank' rel='sponsored noopener'>        ${title}      </a>    </h3>  </div></article>",
+        'commercial-article-1-hp': "<article class='box-article box-article-classic'>  <div class='box-article-left'>    <a class='box-article-img' href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>      <img src='${img}' width='210' height='140' loading='lazy' style='object-fit: cover'>    </a>  </div>  <div class='box-article-right'>    <div class='box-article-tags'>      <div class='box-article-tag'>REKLAMA</div>    </div>    <a href='${link}' target='_blank' rel='sponsored noopener'>      <h3 class='box-article-title fs20'>${title}</h3>      <h4 class='box-article-perex fs16'>${desc}</h4>    </a>  </div></article>"
       }
     },
     slideup: {
@@ -2019,7 +2025,7 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       enabled: true,
-      adUnits: ['m-square-bottom-1'],
+      adUnits: ['m-square-bottom-1', 'm-square-1', 'm-square-2', 'm-square-3', 'm-square-bottom-2', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9'],
       width: 480,
       height: 480
     }
