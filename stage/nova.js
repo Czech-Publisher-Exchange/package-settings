@@ -14,7 +14,6 @@ window.cpexPublisherSettings = {
   },
   adserver: {
     adapter: 'sastracker',
-    loadPrerequisites: true,
     allowedSSPs: {
       pubmatic: 2,
       index: 3,
@@ -29,12 +28,13 @@ window.cpexPublisherSettings = {
       ix: 'index_hb',
       criteo: 'criteo_hb',
       r2b2: 'r2b2_hb'
-    }
+    },
+    areaKey: 'divId'
   },
   general: {
-    onLoad: /*S*/() => {
+    onLoad: /*S*/ () => {
       const lightTheme = document.documentElement.classList.contains('-light-theme');
       document.querySelector(':root').style.setProperty('--theme-bg', lightTheme ? 'white' : window.getComputedStyle(document.body).backgroundColor)
-    }/*E*/
+    } /*E*/
   }
 }
