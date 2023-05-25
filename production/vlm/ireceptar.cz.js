@@ -1,14 +1,14 @@
 window.cpexWebsiteSettings = {
   formats: {
     skin: {
-      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
       enabled: true,
-      hide: [/*S*/document.getElementsByClassName('leaderboard-top')[0]/*E*/]
+      hide: [ /*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/ ]
     },
     slideup: {
       adUnits: ['m-sticky'],
       enabled: true,
-      backgroundEl: /*S*/document.getElementById('m-sticky')/*E*/
+      backgroundEl: /*S*/ document.getElementById('m-sticky') /*E*/
     },
     interscroller: {
       enabled: true
@@ -16,10 +16,14 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        'commercial-article-native-detail': "<aside class='inserted-article' style='width: 630px'>\n\t<article class='box-article box-article-mid fl'>\n\t\t<header class='box-article-header fl'>\n\t\t\t<a href='${link}' target='_blank' rel='sponsored noopener'>\n\t\t\t\t<div class='box-article-image'>\n\t\t\t\t\t<div class='box-article-img ratio ratio4-3'>\n\t\t\t\t\t\t<img src='${img}' width='166' height='125'>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</a>\n\t\t</header>\n\t\t<div class='box-article-right fr'>\n\t\t\t<a class='box-article-title' href='${link}' target='_blank' rel='sponsored noopener'>\n\t\t\t\t<span class='text-tertiary'>REKLAMA</span>\n\t\t\t\t<h3>${title}</h3>\n\t\t\t\t<p>${desc}</p>\n\t\t\t</a>\n\t\t</div>\n\t</article>\n</aside>",
-        'm-commercial-article-native-detail': "<aside class='inserted-article' stylee='width: 630px'>\n\t<article class='box-article box-article-mid fl'>\n\t\t<header class='box-article-header fl'>\n\t\t\t<a href='${link}' target='_blank' rel='sponsored noopener'>\n\t\t\t\t<div class='box-article-image'>\n\t\t\t\t\t<div class='box-article-img ratio ratio4-3'>\n\t\t\t\t\t\t<img src='${img}' width='166' height='125'>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</a>\n\t\t</header>\n\t\t<div class='box-article-right fr'>\n\t\t\t<a class='box-article-title' href='${link}' target='_blank' style='margin-bottom: 5px' rel='sponsored noopener'>\n\t\t\t\t<span class='text-tertiary'>REKLAMA</span>\n\t\t\t\t<h3>${title}</h3>\n\t\t\t</a>\n\t\t\t<a href='${link}' target='_blank' style='font-size: 8pt'>${desc}</a>\n\t\t</div>\n\t</article>\n</aside>",
-        'commercial-article-1-GA': "<article class='cpex-native box-article box-article-mid'>\n  <div class='box-article-header'>\n    <div class='box-article-image'>\n      <a href='${link}' tabindex='-1' rel='noopener sponsored' target='_blank' rel='sponsored noopener'>\n        <div class='box-article-img ratio ratio4-3'>\n          <img height='216' alt='reklama' loading='lazy' src='${img}'>\n        </div>\n      </a>\n    </div>\n  </div>\n  <div class='box-article-right'>\n    <div class='box-article-category'>Reklama</div>\n    <a href='${link}' tabindex='-1' rel='noopener sponsored' class='box-article-text-wrap' target='_blank' rel='sponsored noopener'>\n      <h2 class='box-article-title'>${title}</h2>\n      <blockquote class='box-article-excerpt'>${desc}</blockquote>\n    </a>\n  </div>\n</article>"
+        'commercial-article-native-detail': "<aside class='inserted-article' style='width: 630px'>\t<article class='box-article box-article-mid fl'>\t\t<header class='box-article-header fl'>\t\t\t<a href='${link}' target='_blank' rel='sponsored noopener'>\t\t\t\t<div class='box-article-image'>\t\t\t\t\t<div class='box-article-img ratio ratio4-3'>\t\t\t\t\t\t<img src='${img}' width='166' height='125'>\t\t\t\t\t</div>\t\t\t\t</div>\t\t\t</a>\t\t</header>\t\t<div class='box-article-right fr'>\t\t\t<a class='box-article-title' href='${link}' target='_blank' rel='sponsored noopener'>\t\t\t\t<span class='text-tertiary'>REKLAMA</span>\t\t\t\t<h3>${title}</h3>\t\t\t\t<p>${desc}</p>\t\t\t</a>\t\t</div>\t</article></aside>",
+        'm-commercial-article-native-detail': "<aside class='inserted-article' stylee='width: 630px'>\t<article class='box-article box-article-mid fl'>\t\t<header class='box-article-header fl'>\t\t\t<a href='${link}' target='_blank' rel='sponsored noopener'>\t\t\t\t<div class='box-article-image'>\t\t\t\t\t<div class='box-article-img ratio ratio4-3'>\t\t\t\t\t\t<img src='${img}' width='166' height='125'>\t\t\t\t\t</div>\t\t\t\t</div>\t\t\t</a>\t\t</header>\t\t<div class='box-article-right fr'>\t\t\t<a class='box-article-title' href='${link}' target='_blank' style='margin-bottom: 5px' rel='sponsored noopener'>\t\t\t\t<span class='text-tertiary'>REKLAMA</span>\t\t\t\t<h3>${title}</h3>\t\t\t</a>\t\t\t<a href='${link}' target='_blank' style='font-size: 8pt'>${desc}</a>\t\t</div>\t</article></aside>",
+        'commercial-article-1-GA': "<article class='cpex-native box-article box-article-mid'>  <div class='box-article-header'>    <div class='box-article-image'>      <a href='${link}' tabindex='-1' rel='noopener sponsored' target='_blank' rel='sponsored noopener'>        <div class='box-article-img ratio ratio4-3'>          <img height='216' alt='reklama' loading='lazy' src='${img}'>        </div>      </a>    </div>  </div>  <div class='box-article-right'>    <div class='box-article-category'>Reklama</div>    <a href='${link}' tabindex='-1' rel='noopener sponsored' class='box-article-text-wrap' target='_blank' rel='sponsored noopener'>      <h2 class='box-article-title'>${title}</h2>      <blockquote class='box-article-excerpt'>${desc}</blockquote>    </a>  </div></article>"
       }
+    },
+    responsive: {
+      enabled: true,
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4']
     }
   },
   website: {
@@ -453,6 +457,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5194354'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22968991
@@ -779,8 +789,8 @@ window.cpexWebsiteSettings = {
     }]
   },
   general: {
-    onLoad: /*S*/() => {
+    onLoad: /*S*/ () => {
       document.getElementsByClassName('wrapper')[0].style.position = 'inherit'
-    }/*E*/
+    } /*E*/
   }
 }
