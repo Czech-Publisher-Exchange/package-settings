@@ -377,13 +377,51 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'iinfo-area-spodni-square-banner',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [250, 250],
+            [200, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 2866934,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14, 13]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5204175'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480793
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30024629
+        }
+      }]
     }]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementById('bb_brandingWrap')/*E*/,
-      hide: [/*S*/document.getElementsByClassName('leaderboard-top')[0]/*E*/]
+      contentEl: /*S*/ document.getElementById('bb_brandingWrap') /*E*/ ,
+      hide: [ /*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/ ]
     }
   }
 }
