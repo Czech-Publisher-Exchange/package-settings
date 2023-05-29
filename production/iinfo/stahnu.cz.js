@@ -25,25 +25,6 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 2016698,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 9, 8, 15, 48]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 2016762,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 9, 8, 15, 48]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -91,25 +72,6 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 2016700,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 9, 8, 15, 48]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 2016764,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 9, 8, 15, 48]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -156,25 +118,6 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 2016694,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [2, 96, 259, 230]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 2016758,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [2, 96, 259, 230]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -228,25 +171,6 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 2016696,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [94, 96, 57]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 2016760,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [94, 96, 57]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -292,25 +216,6 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 364918,
-          zoneId: 2016702,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 364916,
-          zoneId: 2016766,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'r2b2',
         params: {
           d: 'ii.stahnu.cz',
@@ -332,25 +237,6 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 2016704,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14, 13]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 2016768,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14, 13]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -375,7 +261,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
       contentCSS: 'width: 1060px; margin: 200px auto;',
       offset: null,
       offsetScroll: true
