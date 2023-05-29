@@ -27,7 +27,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [728, 90],
             [970, 210],
-            [2000, 1400]
+            [2000, 1400],
+            [970, 250]
           ]
         }
       },
@@ -38,7 +39,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1156614,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96, 230]
+          sizes: [2, 96, 230, 57]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -47,7 +48,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1156616,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96, 230]
+          sizes: [2, 96, 230, 57]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -77,7 +78,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
-            [250, 250]
+            [336, 280]
           ]
         }
       },
@@ -88,7 +89,7 @@ window.cpexWebsiteSettings = {
           zoneId: 389830,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 14]
+          sizes: [15, 48, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -97,7 +98,7 @@ window.cpexWebsiteSettings = {
           zoneId: 389886,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 14]
+          sizes: [15, 48, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -127,7 +128,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 600],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [300, 300]
           ]
         }
       },
@@ -138,7 +140,7 @@ window.cpexWebsiteSettings = {
           zoneId: 388620,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9]
+          sizes: [10, 15, 9, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -147,7 +149,7 @@ window.cpexWebsiteSettings = {
           zoneId: 389888,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9]
+          sizes: [10, 15, 9, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -176,7 +178,9 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [480, 300],
-            [300, 300]
+            [300, 300],
+            [300, 250],
+            [336, 280]
           ]
         }
       },
@@ -187,7 +191,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2153982,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48]
+          sizes: [83, 48, 15, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -196,7 +200,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2153986,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48]
+          sizes: [83, 48, 15, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -226,7 +230,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [336, 280],
             [300, 250],
-            [300, 300]
+            [300, 300],
+            [480, 480]
           ]
         }
       },
@@ -237,7 +242,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2153984,
           accountId: '10900',
           position: 'atf',
-          sizes: [16, 15, 48]
+          sizes: [16, 15, 48, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -246,7 +251,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2153988,
           accountId: '10900',
           position: 'atf',
-          sizes: [16, 15, 48]
+          sizes: [16, 15, 48, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -276,7 +281,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [336, 280],
             [300, 250],
-            [300, 300]
+            [300, 300],
+            [480, 480]
           ]
         }
       },
@@ -287,7 +293,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2158444,
           accountId: '10900',
           position: 'atf',
-          sizes: [16, 15, 48]
+          sizes: [16, 15, 48, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -296,7 +302,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2158446,
           accountId: '10900',
           position: 'atf',
-          sizes: [16, 15, 48]
+          sizes: [16, 15, 48, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -382,6 +388,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5204066'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 29473314
@@ -395,8 +407,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
-      hide: [/*S*/document.getElementById('leaderboard-top-wrap')/*E*/],
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
+      hide: [ /*S*/ document.getElementById('leaderboard-top-wrap') /*E*/ ],
       offset: 52,
       offsetScroll: true
     },
@@ -410,8 +422,14 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        'commercial-article-native-detail': "<div class='inserted-article'>\n  <a href='${link}' class='inserted-article__item' target='_blank' id='cpexNativeLink' rel='sponsored noopener' style='text-decoration:none'>\n    <div class='inserted-article__image-wrap'>\n      <img class='inserted-article__image' src='${img}'>\n    </div>\n    <div class='inserted-article__headline-wrap article-text'>\n      <h2 class='inserted-article__headline'>${title}</h2>\n      <p class='inserted-article__title' style='font-size:1.125rem; color:#c2272d'>${desc}</p>\n    </div>\n  </a>\n</div>\n"
+        'commercial-article-native-detail': "<div class='inserted-article'>  <a href='${link}' class='inserted-article__item' target='_blank' id='cpexNativeLink' rel='sponsored noopener' style='text-decoration:none'>    <div class='inserted-article__image-wrap'>      <img class='inserted-article__image' src='${img}'>    </div>    <div class='inserted-article__headline-wrap article-text'>      <h2 class='inserted-article__headline'>${title}</h2>      <p class='inserted-article__title' style='font-size:1.125rem; color:#c2272d'>${desc}</p>    </div>  </a></div>"
       }
+    },
+    responsive: {
+      adUnits: ['m-square-1', 'm-square-2'],
+      width: 480,
+      height: 480,
+      enabled: true
     }
   }
 }
