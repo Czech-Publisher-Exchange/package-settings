@@ -379,6 +379,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5204074'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 29473319
