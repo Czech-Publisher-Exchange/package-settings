@@ -21,7 +21,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300]
+            [300, 300],
+            [336, 280]
           ]
         }
       },
@@ -32,7 +33,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1750678,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48]
+          sizes: [15, 48, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -41,7 +42,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1750680,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48]
+          sizes: [15, 48, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -76,7 +77,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 600],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [300, 300]
           ]
         }
       },
@@ -87,7 +89,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1750674,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9]
+          sizes: [10, 15, 9, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -96,7 +98,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1750676,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9]
+          sizes: [10, 15, 9, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -131,7 +133,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [480, 300],
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [336, 280]
           ]
         }
       },
@@ -142,7 +145,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2527936,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 15]
+          sizes: [83, 48, 15, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -151,7 +154,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2527938,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 15]
+          sizes: [83, 48, 15, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -186,7 +189,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [480, 300],
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [336, 280]
           ]
         }
       },
@@ -197,7 +201,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2528106,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 15]
+          sizes: [83, 48, 15, 16]
         }
       }, {
         bidder: 'pubmatic',
@@ -229,7 +233,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [336, 280],
             [300, 250],
             [300, 300]
           ]
@@ -242,7 +245,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2528110,
           accountId: '10900',
           position: 'atf',
-          sizes: [16, 15, 48]
+          sizes: [15, 48]
         }
       }, {
         bidder: 'pubmatic',
@@ -275,9 +278,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300],
-            [480, 480],
-            [480, 820]
+            [300, 300]
           ]
         }
       },
@@ -288,7 +289,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1759194,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 261, 256]
+          sizes: [15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -297,7 +298,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1759196,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 261, 256]
+          sizes: [15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -559,6 +560,12 @@ window.cpexWebsiteSettings = {
           sizes: [60, 85, 258]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5204072'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -583,10 +590,9 @@ window.cpexWebsiteSettings = {
       enabled: false
     },
     responsive: {
-      enabled: true,
       width: 480,
       height: 480,
-      adUnits: ['m-square-1']
+      adUnits: ['']
     }
   }
 }
