@@ -1141,7 +1141,7 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/ ,
       offset: 80,
       offsetScroll: true,
-      contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px; background-color: var`--theme-bg, white`;'
+      contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px; background-color: var(--theme-bg, white);'
     }
   }
 }
