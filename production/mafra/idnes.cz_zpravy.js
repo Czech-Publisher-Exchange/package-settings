@@ -2912,8 +2912,7 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       width: 480,
-      height: 480,
-      adUnits: ['m_branding']
+      height: 480
     },
     vignette: {
       enabled: true,
