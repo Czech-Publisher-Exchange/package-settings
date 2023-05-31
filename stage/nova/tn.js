@@ -234,7 +234,90 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 992
+        minWidth: 992,
+        urlIs: 'tn2.nova.staging.sk/'
+      }
+    }, {
+      code: 'div-ad-leaderboard',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416558,
+          zoneId: 2694090,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416560,
+          zoneId: 2811856,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4856218'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 649764,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 691162,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 966583
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28536158
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: 'branding_2021',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: '1000x250',
+          m: 0,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        minWidth: 992,
+        urlIsNot: 'tn2.nova.staging.sk/'
       }
     }, {
       code: 'div-ad-rectangle-bottom',
