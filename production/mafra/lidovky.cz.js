@@ -2518,15 +2518,13 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      backgroundEl: /*S*/document.getElementById('main')/*E*/,
-      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
       contentCSS: ' '
     },
     responsive: {
-      adUnits: ['m_branding'],
       width: 480,
-      height: 480,
-      enabled: true
+      height: 480
     },
     vignette: {
       enabled: true,
