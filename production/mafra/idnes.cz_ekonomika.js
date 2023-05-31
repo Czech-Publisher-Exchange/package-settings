@@ -2652,10 +2652,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/,
-      backgroundEl: /*S*/document.getElementById('main')/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
       contentCSS: ' ',
-      hide: [/*S*/document.getElementById('r-leaderboard-hp')/*E*/]
+      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ]
     },
     interscroller: {
       enabled: true
@@ -2665,10 +2665,8 @@ window.cpexWebsiteSettings = {
       adUnits: ['m_sticky']
     },
     responsive: {
-      adUnits: ['m_branding'],
       width: 480,
-      height: 480,
-      enabled: true
+      height: 480
     },
     vignette: {
       enabled: true,
