@@ -2581,15 +2581,166 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }]
+    }, {
+      code: 'm_300x250_foto_mid2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2877592,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5191804'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1691339,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30130180
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_foto_mid2',
+          m: 1,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'm_300x250_foto_mid3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2877594,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5191805'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1691340,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30130182
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_foto_mid3',
+          m: 1,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'm_300x250_foto_mid4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2877596,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5191806'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1691338,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30130185
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'auto.idnes.cz',
+          p: '300x250_foto_mid4',
+          m: 1,
+          g: 'hb'
+        }
+      }]
     }]
   },
   formats: {
     skin: {
       enabled: true,
-      backgroundEl: /*S*/document.getElementById('main')/*E*/,
-      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
       contentCSS: ' ',
-      hide: [/*S*/document.getElementById('r-leaderboard-hp')/*E*/]
+      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ]
     },
     interscroller: {
       enabled: true
