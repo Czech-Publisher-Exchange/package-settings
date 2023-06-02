@@ -55,7 +55,7 @@ window.cpexPublisherSettings = {
       css: '#cpex-slideup {  background-color: transparent;  z-index: 9999;}#cpex-slideup-close {  box-sizing: border-box;  display: inline-block;  cursor: pointer;  position: absolute;  top: -32px;  right: 0px;  height: 32px;  padding: 7px 9px;  font-family: Arial, sans-serif;  background-color: #454545;  font-size: 14px;  color: #fff;}#cpex-slideup-close:hover {  background-color: #000;}'
     },
     responsive: {
-      enabled: false,
+      enabled: true,
       adUnits: ['m_branding', 'm_branding_foto', 'm_branding_foto2', 'm_300x250', 'm_300x250_clankovy', 'm_300x250_clankovy_opak1', 'm_300x250_clankovy_opak2', 'm_300x250_foto_end', 'm_300x250_foto_mid', 'm_300x250_foto_mid2', 'm_300x250_foto_start', 'm_300x250_infinite'],
       width: 480,
       height: 480
