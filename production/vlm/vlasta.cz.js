@@ -1797,7 +1797,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000,
-        urlHasNot: '/galerie-barveni-vlasu-doma-manual'
+        urlIsNot: 'http://www.vlasta.cz/galerie-barveni-vlasu-doma-manual/'
       }
     }]
   },
