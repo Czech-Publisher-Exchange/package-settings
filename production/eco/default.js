@@ -4,9 +4,7 @@ window.cpexWebsiteSettings = {
     note: 'defaultni nastaveni bez prebidu'
   },
   aam: {
-    settings: {
-      publisher: 'eco'
-    }
+    enabled: false
   },
   headerbidding: {
     enabled: false
