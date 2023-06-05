@@ -1796,7 +1796,8 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHasNot: '/galerie-barveni-vlasu-doma-manual'
       }
     }]
   },
