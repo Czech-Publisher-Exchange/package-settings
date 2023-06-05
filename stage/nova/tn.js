@@ -235,7 +235,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 992,
-        urlIs: 'tn2.nova.staging.sk/'
+        urlIs: 'tn.nova.cz/'
       }
     }, {
       code: 'div-ad-leaderboard',
@@ -317,7 +317,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 992,
-        urlIsNot: 'tn2.nova.staging.sk/'
+        urlIsNot: 'tn.nova.cz/'
       }
     }, {
       code: 'div-ad-rectangle-bottom',
