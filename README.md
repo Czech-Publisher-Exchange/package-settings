@@ -268,6 +268,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `adUnits`       | Array, required. AdUnits to be responsive      |             |
 | `width`         | String, required. What width it has to have    |             |
 | `height`        | String, required. What height it has to have   |             |
+| `containerEl`   | DOM selector, container element                |             |
 
 #### TestCreatives
 Explained here: [Formats: Testing](https://git.cpex.cz/frontend/cpex-package/-/blob/master/readme/Formats.md#user-content-testing)
