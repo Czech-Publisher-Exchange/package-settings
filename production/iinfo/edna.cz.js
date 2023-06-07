@@ -176,7 +176,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21248635
+          placementId: 30169011
         }
       }, {
         bidder: 'r2b2',
@@ -205,7 +205,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 300],
+            [300, 250]
           ]
         }
       },
@@ -216,7 +218,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2016642,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 48, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -225,7 +227,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2016708,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 48, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
