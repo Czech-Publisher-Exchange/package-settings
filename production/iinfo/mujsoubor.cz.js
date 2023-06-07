@@ -197,7 +197,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21248657
+          placementId: 30169012
         }
       }, {
         bidder: 'r2b2',
@@ -215,7 +215,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'iinfo-area-big-rectangle',
       mediaTypes: {
@@ -223,7 +226,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250], 300, [300, 250]
           ]
         }
       },
@@ -234,7 +237,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2016670,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -243,7 +246,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2016736,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -276,45 +279,6 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'ii.mujsoubor.cz',
           p: '970x310',
-          m: 0,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'iinfo-area-interscroller',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 820],
-            [300, 300],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 364918,
-          zoneId: 2016676,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 364916,
-          zoneId: 2016742,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'ii.mujsoubor.cz',
-          p: 'interscroller',
           m: 0,
           g: 'hb'
         }
@@ -389,7 +353,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
       contentCSS: 'width: 1060px; margin: 200px auto;'
     }
   }
