@@ -137,7 +137,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 24001670
+          placementId: 30169014
         }
       }, {
         bidder: 'r2b2',
@@ -166,7 +166,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 300],
+            [300, 250]
           ]
         }
       },
@@ -177,7 +179,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2317566,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 48, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -186,7 +188,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2317588,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 48, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -292,14 +294,14 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
       contentCSS: 'width: 1060px; margin: 200px auto;'
     }
   },
   general: {
     autoRun: false,
-    customRun: /*S*/() => {
+    customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    }/*E*/
+    } /*E*/
   }
 }
