@@ -149,53 +149,7 @@ window.cpexWebsiteSettings = {
       {
         code: "native-3",
         mediaTypes: {
-          native: {
-            sendTargetingKeys: false,
-            adTemplate: `<div class="sponsored-post">
-              <div class="thumbnail" style="background-image: url(##hb_native_asset_id_1##);"></div>
-              <div class="content">
-                <h1>
-                  <a href="%%CLICK_URL_UNESC%%##hb_native_linkurl##" target="_blank" class="pb-click" hb_native_asset_id="2">##hb_native_asset_id_2##</a>
-                </h1>
-                <p>##hb_native_asset_id_4##</p>
-                <div class="attribution">##hb_native_asset_id_3##</div>
-              </div>
-            </div>`,
-            ortb: {
-              assets: [
-                {
-                  id: 1,
-                  required: 1,
-                  img: {
-                    type: 3,
-                    w: 989,
-                    h: 742,
-                  },
-                },
-                {
-                  id: 2,
-                  required: 1,
-                  title: {
-                    len: 800,
-                  },
-                },
-                {
-                  id: 3,
-                  required: true,
-                  data: {
-                    type: 1,
-                  },
-                },
-                {
-                  id: 4,
-                  required: true,
-                  data: {
-                    type: 2,
-                  },
-                },
-              ],
-            }
-          },
+          native: {},
         },
         bids: [
           {
@@ -209,53 +163,7 @@ window.cpexWebsiteSettings = {
       {
         code: "native-4",
         mediaTypes: {
-          native: {
-            sendTargetingKeys: false,
-            adTemplate: `<div class="sponsored-post">
-              <div class="thumbnail" style="background-image: url(##hb_native_asset_id_1##);"></div>
-              <div class="content">
-                <h1>
-                  <a href="%%CLICK_URL_UNESC%%##hb_native_linkurl##" target="_blank" class="pb-click" hb_native_asset_id="2">##hb_native_asset_id_2##</a>
-                </h1>
-                <p>##hb_native_asset_id_4##</p>
-                <div class="attribution">##hb_native_asset_id_3##</div>
-              </div>
-            </div>`,
-            ortb: {
-              assets: [
-                {
-                  id: 1,
-                  required: 1,
-                  img: {
-                    type: 3,
-                    w: 989,
-                    h: 742,
-                  },
-                },
-                {
-                  id: 2,
-                  required: 1,
-                  title: {
-                    len: 800,
-                  },
-                },
-                {
-                  id: 3,
-                  required: true,
-                  data: {
-                    type: 1,
-                  },
-                },
-                {
-                  id: 4,
-                  required: true,
-                  data: {
-                    type: 2,
-                  },
-                },
-              ],
-            },
-          },
+          native: {},
         },
         bids: [
           {
