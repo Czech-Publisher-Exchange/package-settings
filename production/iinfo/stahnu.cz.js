@@ -140,7 +140,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21248672
+          placementId: 30169013
         }
       }, {
         bidder: 'r2b2',
@@ -166,7 +166,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 300],
+            [300, 250]
           ]
         }
       },
@@ -200,26 +202,6 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'ii.stahnu.cz',
           p: '970x310',
-          m: 0,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'iinfo-area-interscroller',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 820],
-            [300, 300],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'r2b2',
-        params: {
-          d: 'ii.stahnu.cz',
-          p: 'interscroller',
           m: 0,
           g: 'hb'
         }
