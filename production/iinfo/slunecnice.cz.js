@@ -16,8 +16,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
-      hide: [/*S*/document.getElementsByClassName('design-advert-placeholder--leaderboard')[0]/*E*/],
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
+      hide: [ /*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/ ],
       offset: 0,
       contentCSS: 'width: 1060px; margin: 200px auto; position: relative;'
     }
@@ -224,7 +224,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16315599
+          placementId: 30169004
         }
       }, {
         bidder: 'r2b2',
@@ -302,7 +302,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16315599
+          placementId: 30169004
         }
       }, {
         bidder: 'r2b2',
