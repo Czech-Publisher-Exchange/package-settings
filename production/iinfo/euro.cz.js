@@ -212,7 +212,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20978730
+          placementId: 30169009
         }
       }, {
         bidder: 'r2b2',
@@ -437,9 +437,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
       contentCSS: 'width: 1060px; margin: 200px auto; position: relative;',
-      hide: [/*S*/document.getElementsByClassName('js-advert-position-mark-leaderboard js-advert')[0]/*E*/]
+      hide: [ /*S*/ document.getElementsByClassName('js-advert-position-mark-leaderboard js-advert')[0] /*E*/ ]
     }
   }
 }
