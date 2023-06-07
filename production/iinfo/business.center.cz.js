@@ -181,7 +181,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16508678
+          placementId: 30169006
         }
       }],
       filter: {
@@ -238,7 +238,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16508678
+          placementId: 30169006
         }
       }],
       filter: {
@@ -252,7 +252,9 @@ window.cpexWebsiteSettings = {
             [970, 310],
             [970, 210],
             [970, 250],
-            [970, 90]
+            [970, 90],
+            [300, 250],
+            [300, 300]
           ]
         }
       },
@@ -263,7 +265,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1360896,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57, 55]
+          sizes: [94, 96, 57, 55, 15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -272,7 +274,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1360894,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57, 55]
+          sizes: [94, 96, 57, 55, 15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -419,21 +421,6 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'iinfo-area-rectangle',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 1497422,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        }
-      }]
-    }, {
       code: 'iinfo-area-spodni-square-banner',
       mediaTypes: {
         banner: {
@@ -495,7 +482,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
       contentCSS: ' ',
       offset: 25,
       offsetScroll: true
