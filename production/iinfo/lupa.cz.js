@@ -197,7 +197,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16315565
+          placementId: 30168998
         }
       }, {
         bidder: 'r2b2',
@@ -270,7 +270,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16315565
+          placementId: 30168998
         }
       }, {
         bidder: 'r2b2',
@@ -291,7 +291,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 250],
+            [300, 300]
           ]
         }
       },
@@ -302,7 +304,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1518770,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -311,7 +313,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1518764,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -476,12 +478,6 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'iinfo-area-rectangle',
-      mediaTypes: {
-        native: {}
-      },
-      bids: []
-    }, {
       code: 'iinfo-area-spodni-square-banner',
       mediaTypes: {
         banner: {
@@ -550,9 +546,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
       enabled: true,
-      hide: [/*S*/document.getElementsByClassName('design-advert-placeholder--leaderboard design-advert-placeholder')[0]/*E*/]
+      hide: [ /*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard design-advert-placeholder')[0] /*E*/ ]
     },
     native: {
       enabled: true
