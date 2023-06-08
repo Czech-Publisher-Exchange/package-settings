@@ -2573,6 +2573,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992710
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 144326,
@@ -2620,6 +2625,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1691382,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992758
         }
       }, {
         bidder: 'appnexus',
@@ -2672,6 +2682,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992759
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30131736
@@ -2720,6 +2735,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1691381,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992760
         }
       }, {
         bidder: 'appnexus',
