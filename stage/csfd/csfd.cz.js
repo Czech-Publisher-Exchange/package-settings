@@ -887,90 +887,6 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'wide_rectangle_1',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 300],
-            [336, 280],
-            [300, 300],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 235290,
-          zoneId: 1925064,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 16, 48, 15]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 235292,
-          zoneId: 1925144,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 16, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '3394961'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 931836,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 676807
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 20750736
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'CSFD_csfd_wide_rectangle_1'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'pomo.csfd.cz',
-          p: '480x300_1',
-          m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 280501,
-          pageId: 1041480,
-          formatId: 96954,
-          tagId: 'sas_96954'
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
       code: 'wide_rectangle_2',
       mediaTypes: {
         banner: {
@@ -1477,6 +1393,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5101106'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 669415,
@@ -1496,6 +1418,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 975116
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -2396,9 +2323,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/document.body/*E*/,
-      contentEl: /*S*/document.getElementById('page-wrapper')/*E*/,
-      hide: [/*S*/document.getElementById('leaderboard-wrapper')/*E*/],
+      backgroundEl: /*S*/ document.body /*E*/ ,
+      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/ ,
+      hide: [ /*S*/ document.getElementById('leaderboard-wrapper') /*E*/ ],
       enabled: true,
       zIndex: 0,
       contentCSS: 'position: relative;margin-top: 210px'
@@ -2413,6 +2340,11 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true
+    },
+    native: {
+      templates: {
+        generic: "<style>\n  .cpex-native a {\n    display: flex;\n    text-decoration: none;\n    color: inherit\n  }\n  .cpex-native img {\n    width: 200px;\n    object-fit: cover\n  }\n  .cpex-native .text {\n    padding-left: 20px\n  }\n</style>\n<div id='native'>\n  <a href='${link}'>\n    <div class='native-content'>\n      <div class='native-content-img'>\n        <img src='${img}' alt=''>\n      </div>\n      <div class='native-content-desc'>\n        <div class='native-content-desc-text'>\n          <p>${title}</p>\n          <p id='nativeText'>${desc}</p>\n        </div>\n        <div class='native-info'>\n          <span class='info'>reklama</span>\n        </div>\n      </div>\n    </div>\n  </a>\n</div>"
+      }
     }
   },
   cmp: {
@@ -2426,8 +2358,8 @@ window.cpexWebsiteSettings = {
   general: {
     errorLogging: true,
     autoRun: false,
-    customRun: /*S*/() => {
+    customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    }/*E*/
+    } /*E*/
   }
 }
