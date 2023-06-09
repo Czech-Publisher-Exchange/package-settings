@@ -8,11 +8,11 @@ window.cpexWebsiteSettings = {
     }
   },
   adserver: {
-    adapter: 'googletag'
+    adapter: 'sastracker'
   },
   headerbidding: {
     adUnits: [{
-      code: 'div-gpt-ad-board',
+      code: 'div-ad-board',
       mediaTypes: {
         banner: {
           sizes: [
@@ -82,7 +82,7 @@ window.cpexWebsiteSettings = {
         minWidth: 992
       }
     }, {
-      code: 'div-gpt-ad-board',
+      code: 'div-ad-board',
       mediaTypes: {
         banner: {
           sizes: [
@@ -151,7 +151,7 @@ window.cpexWebsiteSettings = {
         maxWidth: 991
       }
     }, {
-      code: 'div-gpt-ad-leaderboard',
+      code: 'div-ad-leaderboard',
       mediaTypes: {
         banner: {
           sizes: [
@@ -194,6 +194,12 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 691161,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 966601
@@ -216,12 +222,20 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '1000x250',
+          m: 0,
+          g: 'hb'
+        }
       }],
       filter: {
         minWidth: 992
       }
     }, {
-      code: 'div-gpt-ad-rectangle-bottom',
+      code: 'div-ad-rectangle-bottom',
       mediaTypes: {
         banner: {
           sizes: [
@@ -288,14 +302,14 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'div-gpt-ad-rectangle-mobile1',
+      code: 'div-ad-rectangle-mobile1',
       mediaTypes: {
         banner: {
           sizes: [
             [300, 250],
             [300, 300],
-            [336, 280],
-            [480, 820]
+            [480, 820],
+            [720, 1280]
           ]
         }
       },
@@ -306,7 +320,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2694106,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 256]
+          sizes: [15, 48, 256]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -315,7 +329,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2814912,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 256]
+          sizes: [15, 48, 256]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -328,6 +342,12 @@ window.cpexWebsiteSettings = {
         bidder: 'adform',
         params: {
           mid: 691182,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 914821,
           rcur: 'USD'
         }
       }, {
@@ -349,7 +369,15 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'sport.tn.nova.cz',
-          p: '300x300_3',
+          p: '300x300_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: 'interscroller_1',
           m: 1,
           g: 'hb'
         }
@@ -358,14 +386,14 @@ window.cpexWebsiteSettings = {
         maxWidth: 991
       }
     }, {
-      code: 'div-gpt-ad-rectangle-mobile2',
+      code: 'div-ad-rectangle-mobile2',
       mediaTypes: {
         banner: {
           sizes: [
             [300, 250],
             [300, 300],
-            [336, 280],
-            [480, 820]
+            [480, 820],
+            [720, 1280]
           ]
         }
       },
@@ -376,7 +404,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2694114,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 256]
+          sizes: [15, 48, 256]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -385,7 +413,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2814914,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 256]
+          sizes: [15, 48, 256]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -398,6 +426,12 @@ window.cpexWebsiteSettings = {
         bidder: 'adform',
         params: {
           mid: 1097084,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 914825,
           rcur: 'USD'
         }
       }, {
@@ -423,19 +457,27 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: 'interscroller_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 991
       }
     }, {
-      code: 'div-gpt-ad-rectangle-mobile3',
+      code: 'div-ad-rectangle-mobile3',
       mediaTypes: {
         banner: {
           sizes: [
             [300, 250],
             [300, 300],
-            [336, 280],
-            [480, 820]
+            [480, 820],
+            [720, 1280]
           ]
         }
       },
@@ -446,7 +488,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2694120,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 256]
+          sizes: [15, 48, 256]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -455,7 +497,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2814916,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 256]
+          sizes: [15, 48, 256]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -468,6 +510,12 @@ window.cpexWebsiteSettings = {
         bidder: 'adform',
         params: {
           mid: 691187,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1100905,
           rcur: 'USD'
         }
       }, {
@@ -489,7 +537,15 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'sport.tn.nova.cz',
-          p: '300x300_2',
+          p: '300x300_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: 'interscroller_3',
           m: 1,
           g: 'hb'
         }
@@ -498,7 +554,7 @@ window.cpexWebsiteSettings = {
         maxWidth: 991
       }
     }, {
-      code: 'div-gpt-ad-rectangle-right1',
+      code: 'div-ad-rectangle-right1',
       mediaTypes: {
         banner: {
           sizes: [
@@ -565,7 +621,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'div-gpt-ad-rectangle-right2',
+      code: 'div-ad-rectangle-right2',
       mediaTypes: {
         banner: {
           sizes: [
@@ -632,7 +688,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'div-gpt-ad-rectangle-top',
+      code: 'div-ad-rectangle-top',
       mediaTypes: {
         banner: {
           sizes: [
@@ -698,12 +754,416 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'div-ad-gallery-mobile1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416562,
+          zoneId: 2858972,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416564,
+          zoneId: 2859000,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5149353'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1100894,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992686
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29963291
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '300x300_1',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 991
+      }
+    }, {
+      code: 'div-ad-gallery-mobile2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416562,
+          zoneId: 2858972,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416564,
+          zoneId: 2859000,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5149353'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1100895,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992686
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29963291
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '300x300_2',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 991
+      }
+    }, {
+      code: 'div-ad-gallery-mobile3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416562,
+          zoneId: 2858972,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416564,
+          zoneId: 2859000,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5149353'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1100896,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992686
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29963291
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '300x300_3',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 991
+      }
+    }, {
+      code: 'div-ad-gallery-mobile4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416562,
+          zoneId: 2858972,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416564,
+          zoneId: 2859000,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5149353'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1100897,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992686
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29963291
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 991
+      }
+    }, {
+      code: 'div-ad-gallery-mobile5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416562,
+          zoneId: 2858972,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416564,
+          zoneId: 2859000,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5149353'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1100898,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992686
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29963291
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 991
+      }
+    }, {
+      code: 'div-ad-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [160, 600],
+            [300, 300],
+            [300, 250],
+            [300, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416558,
+          zoneId: 2858974,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [9, 48, 15, 10]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416560,
+          zoneId: 2859002,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [9, 48, 15, 10]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5149354'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1100871,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 992687
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29963292
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        minWidth: 992
+      }
     }]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('c-content')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/ ,
       offset: 78,
       contentCSS: 'position: relative; margin: auto; margin-top: 280px; background-color: var(--theme-bg, white);'
     },
