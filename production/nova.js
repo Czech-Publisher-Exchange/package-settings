@@ -13,13 +13,28 @@ window.cpexPublisherSettings = {
     }
   },
   adserver: {
-    adapter: 'googletag',
-    loadPrerequisites: true
+    adapter: 'sastracker',
+    allowedSSPs: {
+      pubmatic: 2,
+      index: 3,
+      magnite: 5,
+      xandr: 6
+    },
+    bidderTable: {
+      appnexus: 'xandr_hb',
+      pubmatic: 'pubmatic_hb',
+      rubicon: 'magnite_hb',
+      adform: 'adform_hb',
+      ix: 'index_hb',
+      criteo: 'criteo_hb',
+      r2b2: 'r2b2_hb'
+    },
+    areaKey: 'divId'
   },
   general: {
-    onLoad: /*S*/() => {
+    onLoad: /*S*/ () => {
       const lightTheme = document.documentElement.classList.contains('-light-theme');
       document.querySelector(':root').style.setProperty('--theme-bg', lightTheme ? 'white' : window.getComputedStyle(document.body).backgroundColor)
-    }/*E*/
+    } /*E*/
   }
 }
