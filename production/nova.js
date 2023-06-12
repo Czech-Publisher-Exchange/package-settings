@@ -14,6 +14,7 @@ window.cpexPublisherSettings = {
   },
   adserver: {
     adapter: 'sastracker',
+    addConsent: false,
     allowedSSPs: {
       pubmatic: 2,
       index: 3,
