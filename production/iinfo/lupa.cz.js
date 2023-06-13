@@ -64,6 +64,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480784
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315569
@@ -130,6 +135,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 784923
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21786325
@@ -194,6 +204,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480785
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -268,6 +283,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480785
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30168998
@@ -337,6 +357,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 430307
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315570
@@ -403,6 +428,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 430307
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315570
@@ -463,6 +493,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480786
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -528,6 +563,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480787
+        }
       }, {
         bidder: 'appnexus',
         params: {
