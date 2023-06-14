@@ -2319,13 +2319,51 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'native_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [1, 1]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1655517,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30219902
+        }
+      }]
+    }, {
+      code: 'native_2',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1711999,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30219907
+        }
+      }]
     }]
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/document.body/*E*/,
-      contentEl: /*S*/document.getElementById('page-wrapper')/*E*/,
-      hide: [/*S*/document.getElementById('leaderboard-wrapper')/*E*/],
+      backgroundEl: /*S*/ document.body /*E*/ ,
+      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/ ,
+      hide: [ /*S*/ document.getElementById('leaderboard-wrapper') /*E*/ ],
       enabled: true,
       zIndex: 0,
       contentCSS: 'position: relative;margin-top: 210px'
@@ -2353,8 +2391,8 @@ window.cpexWebsiteSettings = {
   general: {
     errorLogging: true,
     autoRun: false,
-    customRun: /*S*/() => {
+    customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    }/*E*/
+    } /*E*/
   }
 }
