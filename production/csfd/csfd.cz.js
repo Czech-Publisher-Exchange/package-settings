@@ -2322,11 +2322,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'native_1',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'adform',
