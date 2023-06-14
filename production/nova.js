@@ -19,7 +19,8 @@ window.cpexPublisherSettings = {
       pubmatic: 2,
       index: 3,
       magnite: 5,
-      xandr: 6
+      xandr: 6,
+      magnite_2: 4
     },
     bidderTable: {
       appnexus: 'xandr_hb',
