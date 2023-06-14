@@ -2374,6 +2374,9 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true
+    },
+    native: {
+      enabled: true
     }
   },
   cmp: {
