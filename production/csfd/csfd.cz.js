@@ -2341,7 +2341,11 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'native_2',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [1, 1]
+          ]
+        }
       },
       bids: [{
         bidder: 'adform',
@@ -2375,7 +2379,11 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'mobile_native_2',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [1, 1]
+          ]
+        }
       },
       bids: [{
         bidder: 'adform',
@@ -2390,7 +2398,11 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'mobile_native_3',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [1, 1]
+          ]
+        }
       },
       bids: [{
         bidder: 'adform',
@@ -2405,7 +2417,11 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'mobile_native_4',
       mediaTypes: {
-        native: {}
+        banner: {
+          sizes: [
+            [1, 1]
+          ]
+        }
       },
       bids: [{
         bidder: 'adform',
