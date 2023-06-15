@@ -4,9 +4,9 @@ window.cpexWebsiteSettings = {
   },
   general: {
     autoRun: false,
-    customRun: /*S*/() => {
+    customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    }/*E*/,
+    } /*E*/ ,
     errorLogging: true
   },
   cmp: {
@@ -1667,15 +1667,105 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'native_1',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1696621,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'native_2',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1712001,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'mobile_native_1',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1712009,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'mobile_native_2',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1712010,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'mobile_native_3',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1712011,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'mobile_native_4',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1712012,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
     skin: {
       enabled: true,
-      backgroundEl: /*S*/document.body/*E*/,
-      contentEl: /*S*/document.getElementById('page-wrapper')/*E*/,
+      backgroundEl: /*S*/ document.body /*E*/ ,
+      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/ ,
       contentCSS: 'position: relative;margin-top: 210px',
-      hide: [/*S*/document.getElementById('leaderboard-wrapper')/*E*/]
+      hide: [ /*S*/ document.getElementById('leaderboard-wrapper') /*E*/ ]
     },
     interscroller: {
       enabled: true
