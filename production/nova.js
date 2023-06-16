@@ -16,11 +16,10 @@ window.cpexPublisherSettings = {
     adapter: 'sastracker',
     addConsent: false,
     allowedSSPs: {
-      pubmatic: 2,
-      index: 3,
-      magnite: 5,
-      xandr: 6,
-      magnite_2: 4
+      pubmatic: 1,
+      index: 2,
+      magnite: 4,
+      xandr: 5
     },
     bidderTable: {
       appnexus: 'xandr_hb',
