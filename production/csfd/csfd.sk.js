@@ -1678,9 +1678,15 @@ window.cpexWebsiteSettings = {
           mid: 1696621,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 30226621
+        }
       }],
       filter: {
-        minWidth: 1000
+        minWidth: 1000,
+        urlHasNot: 'debug'
       }
     }, {
       code: 'native_2',
@@ -1693,9 +1699,15 @@ window.cpexWebsiteSettings = {
           mid: 1712001,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 30226622
+        }
       }],
       filter: {
-        minWidth: 1000
+        minWidth: 1000,
+        urlHasNot: 'debug'
       }
     }, {
       code: 'mobile_native_1',
@@ -1708,9 +1720,15 @@ window.cpexWebsiteSettings = {
           mid: 1712009,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 30226623
+        }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHasNot: 'debug'
       }
     }, {
       code: 'mobile_native_2',
@@ -1723,9 +1741,15 @@ window.cpexWebsiteSettings = {
           mid: 1712010,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 30226625
+        }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHasNot: 'debug'
       }
     }, {
       code: 'mobile_native_3',
@@ -1738,9 +1762,15 @@ window.cpexWebsiteSettings = {
           mid: 1712011,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 30226626
+        }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHasNot: 'debug'
       }
     }, {
       code: 'mobile_native_4',
@@ -1753,9 +1783,15 @@ window.cpexWebsiteSettings = {
           mid: 1712012,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 30226627
+        }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHasNot: 'debug'
       }
     }]
   },
