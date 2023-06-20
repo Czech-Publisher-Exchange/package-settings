@@ -67,9 +67,10 @@ window.cpexPublisherSettings = {
     },
     native: {
       templates: {
-        nativ: "<div class='art ads-mockup'>\n  <a href='${link}' target='_blank' class='art-link'>\n    <h3>${title}</h3>\n    <div class='art-img w230'>\n      <img src='${img}'>\n      <span></span>\n    </div>\n  </a>\n  <p class='perex'>${desc}</p>\n</div>",
-        m_nativ: "<div class='art ads-mockup'>\n  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>\n    <img title='' alt='' src='${img}' class='art-img sp5 ' width='100' height='75'>\n    <h3>${title}</h3>\n  </a>\n</div>"
-      }
+        nativ: "<div class='art ads-mockup'>  <a href='${link}' target='_blank' class='art-link'>    <h3>${title}</h3>    <div class='art-img w230'>      <img src='${img}'>      <span></span>    </div>  </a>  <p class='perex'>${desc}</p></div>",
+        m_nativ: "<div class='art ads-mockup'>  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>    <img title='' alt='' src='${img}' class='art-img sp5 ' width='100' height='75'>    <h3>${title}</h3>  </a></div>"
+      },
+      enabled: true
     }
   }
 }
