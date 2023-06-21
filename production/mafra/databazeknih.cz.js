@@ -58,6 +58,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'databazeknih.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'branding',
@@ -110,6 +118,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'databazeknih.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -165,6 +181,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'databazeknih.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -216,6 +240,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'databazeknih.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -272,6 +304,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'databazeknih.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_paticka',
@@ -322,6 +362,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'databazeknih.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_sticky',
@@ -353,6 +401,17 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15, 258]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5244349'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 843300
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -415,6 +474,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'databazeknih.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -468,6 +535,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'databazeknih.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
