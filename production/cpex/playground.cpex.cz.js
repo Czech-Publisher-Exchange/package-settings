@@ -52,7 +52,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        urlHas: 'debug'
+        urlHasNot: 'debug'
       }
     }, {
       code: 'rectangle-2',
