@@ -52,7 +52,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        urlIsNot: 'https://playground.cpex.cz/combination'
+        urlIsNot: 'playground.cpex.cz/combination'
       }
     }, {
       code: 'rectangle-2',
