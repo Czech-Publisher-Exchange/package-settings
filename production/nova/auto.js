@@ -1167,7 +1167,8 @@ window.cpexWebsiteSettings = {
       offset: 80,
       contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/ ,
       enabled: true,
-      contentCSS: 'position: relative; margin: auto; margin-top: 280px; background-color: var(--theme-bg, white);'
+      contentCSS: 'position: relative; margin: auto; margin-top: 280px; background-color: var(--theme-bg, white);',
+      hide: [ /*S*/ document.getElementsByClassName('c-leaderboard')[0] /*E*/ ]
     },
     interscroller: {
       enabled: true
