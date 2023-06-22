@@ -209,7 +209,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 28536158
+          placementId: 30273926
         }
       }, {
         bidder: 'criteo',
@@ -291,7 +291,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 28536158
+          placementId: 30273926
         }
       }, {
         bidder: 'criteo',
