@@ -1255,7 +1255,7 @@ window.cpexWebsiteSettings = {
       offset: 80,
       offsetScroll: true,
       contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px; background-color: var(--theme-bg, white);',
-      generalCSS: '#div-ad-leaderboard {\n  min-height:0;\n}'
+      hide: [ /*S*/ document.getElementsByClassName('c-leaderboard')[0] /*E*/ ]
     }
   }
 }
