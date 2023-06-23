@@ -235,6 +235,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1693298,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334495,
@@ -326,6 +333,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4344942'
         },
         bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1693299,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -420,6 +434,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1693300,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334489,
@@ -512,6 +533,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4344938'
         },
         bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1693301,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -608,10 +636,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('bhWtgq')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('bhWtgq')[0] /*E*/ ,
       contentCSS: ' ',
       zIndex: null,
-      backgroundEl: /*S*/document.getElementById('brand-c')/*E*/
+      backgroundEl: /*S*/ document.getElementById('brand-c') /*E*/
     },
     interscroller: {
       enabled: true
@@ -619,7 +647,7 @@ window.cpexWebsiteSettings = {
     slideup: {
       adUnits: ['sas-special'],
       enabled: true,
-      backgroundEl: /*S*/document.getElementById('sas-special-wrapper')/*E*/
+      backgroundEl: /*S*/ document.getElementById('sas-special-wrapper') /*E*/
     }
   },
   general: {
