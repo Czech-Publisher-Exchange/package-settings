@@ -39,7 +39,8 @@ window.cpexPublisherSettings = {
       teads: 'teads',
       rtbhouse: 'rtbhouse',
       'adform_im_hb-mask': 'adform_im_hb',
-      criteo: 'criteo'
+      criteo: 'criteo',
+      adform_knwl_hb: 'adform_knwl_hb'
     }
   },
   headerbidding: {
