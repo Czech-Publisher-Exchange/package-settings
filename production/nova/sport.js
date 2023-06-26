@@ -1167,7 +1167,7 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/ ,
       offset: 78,
       contentCSS: 'position: relative; margin: auto; margin-top: 280px; background-color: var(--theme-bg, white);',
-      generalCSS: ' .c-branding .c-leaderboard {\n   height: 0px;\n   min-height: 0px\n }'
+      generalCSS: '.c-branding .c-leaderboard {\n   height: 0px;\n   min-height: 0px\n }\n\nbody .c-leaderboard #div-ad-leaderboard {\n   width: 1920px;\n    height: 0;\n    min-height: 0;\n    position: fixed;\n    left: 50%;\n    top: 83px;\n    transform: translateX(-50%);\n}\nbody .c-leaderboard #div-ad-leaderboard .banner-highlight {\n    height: 1400px;\n}'
     },
     interscroller: {
       enabled: true
