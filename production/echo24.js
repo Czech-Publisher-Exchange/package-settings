@@ -12,6 +12,12 @@ window.cpexPublisherSettings = {
       appnexus: 'Xandr_HB',
       pubmatic: 'Pubmatic_HB',
       ix: 'Index_HB'
+    },
+    allowedSSPs: {
+      pubmatic: 1,
+      index: 2,
+      magnite: 4,
+      xandr: 5
     }
   },
   aam: {
