@@ -2,7 +2,7 @@ window.cpexPublisherSettings = {
   publisher: {
     name: 'Echo Media a.s.',
     sellerId: '029',
-    code: 'echo24'
+    code: 'echo'
   },
   adserver: {
     adapter: 'sastracker',
