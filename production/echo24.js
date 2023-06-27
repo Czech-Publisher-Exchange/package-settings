@@ -19,7 +19,8 @@ window.cpexPublisherSettings = {
       magnite: 4,
       xandr: 5
     },
-    areaKey: 'divId'
+    areaKey: 'divId',
+    enabled: false
   },
   aam: {
     settings: {
