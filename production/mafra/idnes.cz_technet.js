@@ -1536,6 +1536,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/technet',
+          site: 'invibes_technet'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -2472,6 +2478,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/technet',
+          site: 'invibes_technet2'
+        }
       }]
     }, {
       code: 'm_vignete',
@@ -2752,6 +2764,26 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'nativ',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [1, 1]
+          ]
+        }
+      },
+      bids: []
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [1, 1]
+          ]
+        }
+      },
+      bids: []
     }]
   },
   formats: {
