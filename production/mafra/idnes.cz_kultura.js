@@ -1536,6 +1536,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/kultura',
+          site: 'invibes_kultura'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -2523,6 +2529,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/kultura',
+          site: 'invibes_kultura2'
+        }
       }]
     }, {
       code: 'halfpagead_lazyload',
@@ -2722,6 +2734,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '300x600_rubrika_lazyload',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
