@@ -1536,6 +1536,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/onadne',
+          site: 'invibes_onadne'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -2457,6 +2463,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/onadne',
+          site: 'invibes_onadne2'
+        }
       }]
     }, {
       code: 'm_vignete',
@@ -2569,6 +2581,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ona.idnes.cz',
+          p: '300x600_rubrika_lazyload',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
