@@ -2585,6 +2585,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zdravi.idnes.cz',
+          p: '300x600_rubrika_lazyload',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_foto_mid2',
