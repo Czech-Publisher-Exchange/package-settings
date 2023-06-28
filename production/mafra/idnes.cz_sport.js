@@ -1536,6 +1536,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/sport',
+          site: 'invibes_sport'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -2472,6 +2478,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/sport',
+          site: 'invibes_sport2'
+        }
       }]
     }, {
       code: 'm_vignete',
@@ -2584,6 +2596,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.idnes.cz',
+          p: '300x600_rubrika_lazyload',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
