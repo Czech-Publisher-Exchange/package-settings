@@ -1533,6 +1533,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/cestovani',
+          site: 'invibes_cestovani'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -2469,6 +2475,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'invibes',
+        params: {
+          placementId: 'idnes.cz/cestovani',
+          site: 'invibes_cestovani2'
+        }
       }]
     }, {
       code: 'm_vignete',
@@ -2581,6 +2593,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'cestovani.idnes.cz',
+          p: '300x600_rubrika_lazyload',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
