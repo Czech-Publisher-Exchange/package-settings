@@ -1539,8 +1539,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/technet',
-          site: 'invibes_technet'
+          placementId: 'invibes_technet',
+          site: 'idnes.cz/technet'
         }
       }]
     }, {
@@ -2764,26 +2764,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
-    }, {
-      code: 'nativ',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
-      },
-      bids: []
-    }, {
-      code: 'm_nativ',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
-      },
-      bids: []
     }]
   },
   formats: {
