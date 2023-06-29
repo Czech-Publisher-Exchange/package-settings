@@ -1539,8 +1539,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/sport',
-          site: 'invibes_sport'
+          placementId: 'invibes_sport',
+          site: 'idnes.cz/sport'
         }
       }]
     }, {
