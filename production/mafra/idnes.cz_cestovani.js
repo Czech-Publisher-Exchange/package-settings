@@ -1536,8 +1536,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/cestovani',
-          site: 'invibes_cestovani'
+          placementId: 'invibes_cestovani',
+          site: 'idnes.cz/cestovani'
         }
       }]
     }, {
