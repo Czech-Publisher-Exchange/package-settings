@@ -2,7 +2,7 @@ window.cpexPublisherSettings = {
   publisher: {
     name: 'Echo Media a.s.',
     sellerId: '029',
-    code: 'echo24'
+    code: 'echo'
   },
   adserver: {
     adapter: 'sastracker',
@@ -20,11 +20,11 @@ window.cpexPublisherSettings = {
       xandr: 5
     },
     areaKey: 'divId',
-    enabled: false
+    enabled: true
   },
   aam: {
     settings: {
-      publisher: 'echo24'
+      publisher: 'echo'
     },
     enabled: true
   },
