@@ -1539,8 +1539,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/recepty',
-          site: 'invibes_recepty'
+          placementId: 'invibes_recepty',
+          site: 'idnes.cz/recepty'
         }
       }]
     }, {
