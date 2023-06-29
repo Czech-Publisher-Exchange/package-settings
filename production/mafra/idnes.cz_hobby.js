@@ -1539,8 +1539,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/hobby',
-          site: 'invibes_hobby'
+          placementId: 'invibes_hobby',
+          site: 'idnes.cz/hobby'
         }
       }]
     }, {
