@@ -1815,7 +1815,6 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
       contentCSS: ' ',
-      offset: 32,
       offsetScroll: false
     },
     interscroller: {
