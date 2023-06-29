@@ -1539,8 +1539,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/onadne',
-          site: 'invibes_onadne'
+          placementId: 'invibes_onadne',
+          site: 'idnes.cz/onadne'
         }
       }]
     }, {
