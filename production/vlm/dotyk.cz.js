@@ -1206,9 +1206,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
-      hide: [ /*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/ ],
-      offset: 32,
-      offsetScroll: true
+      hide: [ /*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/ ]
     },
     interscroller: {
       enabled: true
