@@ -1914,9 +1914,6 @@ window.cpexWebsiteSettings = {
     vignette: {
       adUnits: ['m_vignete'],
       enabled: true
-    },
-    responsive: {
-      containerEl: /*S*/ document.getElementById('wrapper') /*E*/
     }
   }
 }

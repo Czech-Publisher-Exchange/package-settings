@@ -151,6 +151,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `defineSlots`        | **GAM only** Array of slot definition Objects                  |              |
 | `gamPrefix`          | **GAM only** String, path of GAM website, used for defineSlots |              |
 | `gamId`              | **GAM only** String, id of GAM instance, used for defineSlots  |              |
+| `adsObjectEvent`     | **SAS only** String, name of custom event to wait for          |              |
 | `allowedSSPs`        | **SAS only** Object, advertiser IDs allowed for custom formats |              |
 | `bidderTable`        | **SAS only** Object, bidder names in the SAS instance          |              |
 

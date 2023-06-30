@@ -310,9 +310,6 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnits: ['m_sticky']
-    },
-    responsive: {
-      containerEl: /*S*/ document.getElementById('wrapper') /*E*/
     }
   }
 }
