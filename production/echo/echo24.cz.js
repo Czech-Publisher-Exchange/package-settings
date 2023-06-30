@@ -4,7 +4,7 @@ window.cpexWebsiteSettings = {
   },
   aam: {
     settings: {
-      publisher: 'echo24'
+      publisher: 'echo'
     }
   },
   headerbidding: {
@@ -1707,5 +1707,11 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }]
+  },
+  general: {
+    autoRun: false,
+    customRun: /*S*/ () => {
+      window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
+    } /*E*/
   }
 }
