@@ -25,6 +25,25 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 1336704,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 8, 15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 265182,
+          zoneId: 1336702,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 8, 15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
