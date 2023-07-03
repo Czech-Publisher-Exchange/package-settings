@@ -2481,8 +2481,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/kraje',
-          site: 'invibes_kraje'
+          placementId: 'invibes_kraje',
+          site: 'idnes.cz/kraje'
         }
       }]
     }, {
