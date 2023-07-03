@@ -2481,8 +2481,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/xman',
-          site: 'invibes_xman2'
+          placementId: 'invibes_xman',
+          site: 'idnes.cz/xman'
         }
       }]
     }, {
