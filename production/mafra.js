@@ -21,7 +21,8 @@ window.cpexPublisherSettings = {
       'omg-adform': 'OMG-Adform_HB',
       'fragile-adform': 'Fragile-Adform_HB',
       criteo: 'Criteo_HB',
-      teads: 'Teads_HB'
+      teads: 'Teads_HB',
+      invibes: 'Invibes_HB'
     }
   },
   aam: {
