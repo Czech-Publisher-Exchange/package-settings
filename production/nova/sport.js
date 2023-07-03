@@ -303,6 +303,142 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'div-ad-rectangle-mobile2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 820],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416562,
+          zoneId: 2694114,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416564,
+          zoneId: 2814914,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4856229'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1097084,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 914825,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 966604
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28536284
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 991
+      }
+    }, {
+      code: 'div-ad-rectangle-mobile3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 820],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416562,
+          zoneId: 2694120,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416564,
+          zoneId: 2814916,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4856232'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 691187,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1100905,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 966605
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28536285
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 991
+      }
+    }, {
       code: 'div-ad-rectangle-right1',
       mediaTypes: {
         banner: {
