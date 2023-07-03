@@ -2480,8 +2480,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/ekonomika',
-          site: 'invibes_ekonomika2'
+          placementId: 'invibes_ekonomika',
+          site: 'idnes.cz/ekonomika'
         }
       }]
     }, {
