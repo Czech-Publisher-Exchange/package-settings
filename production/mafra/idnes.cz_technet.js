@@ -2481,8 +2481,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/technet',
-          site: 'invibes_technet2'
+          placementId: 'invibes_technet',
+          site: 'idnes.cz/technet'
         }
       }]
     }, {
