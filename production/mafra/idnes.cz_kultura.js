@@ -2532,8 +2532,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'invibes',
         params: {
-          placementId: 'idnes.cz/kultura',
-          site: 'invibes_kultura2'
+          placementId: 'invibes_kultura',
+          site: 'idnes.cz/kultura'
         }
       }]
     }, {
