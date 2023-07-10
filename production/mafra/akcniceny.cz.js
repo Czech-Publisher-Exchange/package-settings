@@ -60,6 +60,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead',
@@ -114,6 +122,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -167,6 +183,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -219,6 +243,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_clankovy',
@@ -270,6 +302,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -326,6 +366,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_paticka',
@@ -376,6 +424,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_sticky',
@@ -407,6 +463,17 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15, 258]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5244347'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 843282
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -468,6 +535,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '160x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'skyscraper_spodni',
@@ -518,6 +593,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '160x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -570,6 +653,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -625,6 +716,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare_spodni',
@@ -678,6 +777,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'akcniceny.cz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
