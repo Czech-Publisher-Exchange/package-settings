@@ -434,22 +434,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'sport.tn.nova.cz',
-          p: '300x300_2',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'sport.tn.nova.cz',
-          p: 'interscroller_2',
-          m: 1,
-          g: 'hb'
-        }
       }],
       filter: {
         maxWidth: 991
@@ -517,22 +501,6 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'sport.tn.nova.cz',
-          p: '300x300_3',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'sport.tn.nova.cz',
-          p: 'interscroller_3',
-          m: 1,
-          g: 'hb'
         }
       }],
       filter: {
