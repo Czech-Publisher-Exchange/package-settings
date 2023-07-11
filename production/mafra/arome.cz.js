@@ -200,6 +200,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1006344
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27151821
