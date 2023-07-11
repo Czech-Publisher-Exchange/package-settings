@@ -303,6 +303,74 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'div-ad-rectangle-mobile1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 820],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 416562,
+          zoneId: 2694106,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 416564,
+          zoneId: 2814912,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 256, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4856226'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 691182,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 914821,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 966603
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28536282
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 991
+      }
+    }, {
       code: 'div-ad-rectangle-mobile2',
       mediaTypes: {
         banner: {
@@ -365,6 +433,22 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '300x300_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: 'interscroller_2',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -433,6 +517,22 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '300x300_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: 'interscroller_3',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
