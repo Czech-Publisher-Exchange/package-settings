@@ -307,8 +307,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250],
-            [480, 480]
+            [250, 250]
           ]
         }
       },
@@ -319,7 +318,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1259446,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -328,7 +327,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1259444,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -356,7 +355,6 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480],
             [300, 600],
             [768, 1230]
           ]
@@ -369,7 +367,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1407890,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -378,7 +376,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1407888,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -488,10 +486,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/,
-      backgroundEl: /*S*/document.getElementById('main')/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
       contentCSS: ' ',
-      hide: [/*S*/document.getElementById('r-leaderboard-hp')/*E*/]
+      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ]
     },
     interscroller: {
       enabled: true
