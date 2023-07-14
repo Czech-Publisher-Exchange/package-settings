@@ -616,8 +616,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250],
-            [250, 250],
             [480, 480]
           ]
         }
@@ -629,7 +627,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1145542,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -638,7 +636,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1145612,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -780,8 +778,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250],
-            [250, 250],
             [480, 480]
           ]
         }
@@ -793,7 +789,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1152570,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -802,7 +798,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1152572,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1114,12 +1110,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250],
-            [250, 250],
-            [480, 820],
-            [480, 480],
-            [300, 600],
-            [768, 1230]
+            [480, 480]
           ]
         }
       },
@@ -1130,7 +1121,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148190,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1139,7 +1130,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148188,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1861,8 +1852,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250],
-            [250, 250],
             [480, 480]
           ]
         }
@@ -1874,7 +1863,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977106,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1883,7 +1872,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977934,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2025,8 +2014,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250],
-            [250, 250],
             [480, 480]
           ]
         }
@@ -2038,7 +2025,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977108,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2047,7 +2034,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977936,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [261]
         },
         bidderModuleName: 'rubicon'
       }, {
