@@ -18,29 +18,29 @@ window.cpexPublisherSettings = {
     userIDs: ['id5Id', 'sharedId', 'criteo', 'cpexId'],
     bidderSettings: {
       rubicon: {
-        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
-        }/*E*/
+        } /*E*/
       },
       'rubicon-mask': {
-        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
-        }/*E*/
+        } /*E*/
       },
       appnexus: {
-        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.88 : bidCpm * 0.87
-        }/*E*/
+        } /*E*/
       },
       pubmatic: {
-        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
+        bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.95 : bidCpm * 0.82
-        }/*E*/
+        } /*E*/
       },
       rtbhouse: {
-        bidCpmAdjustment: /*S*/bidCpm => {
+        bidCpmAdjustment: /*S*/ bidCpm => {
           return bidCpm * 0.5
-        }/*E*/
+        } /*E*/
       }
     }
   },
@@ -63,6 +63,9 @@ window.cpexPublisherSettings = {
       enabled: true
     },
     vignette: {
+      enabled: true
+    },
+    responsive: {
       enabled: true
     }
   }
