@@ -10,7 +10,8 @@ window.cpexPublisherSettings = {
       pubmatic: 1,
       index: 3,
       magnite: 4,
-      xandr: 26
+      xandr: 26,
+      cpex: 247
     }
   },
   headerbidding: {
