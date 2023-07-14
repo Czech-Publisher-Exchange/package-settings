@@ -682,6 +682,87 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }],
+      filter: {
+        urlHasNot: 'krby'
+      }
+    }, {
+      code: 'm_300x250',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 1145542,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 1145612,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4641097'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1634401,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1539664,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1654815,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 650227
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 144326,
+          pageId: 131425
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27156574
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }, {
         bidder: 'r2b2',
         params: {
@@ -692,7 +773,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        urlHasNot: 'krby'
+        urlHas: 'krby'
       }
     }, {
       code: 'm_300x250_clankovy',
@@ -765,6 +846,87 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }],
+      filter: {
+        urlHasNot: 'krby'
+      }
+    }, {
+      code: 'm_300x250_clankovy',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 1152570,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 1152572,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4641098'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1634402,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1539658,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1654816,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 650243
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 185860,
+          pageId: 170969
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27156576
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }, {
         bidder: 'r2b2',
         params: {
@@ -775,7 +937,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        urlHasNot: 'krby'
+        urlHas: 'krby'
       }
     }, {
       code: 'm_300x250_vybrali',
@@ -1021,6 +1183,90 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }],
+      filter: {
+        urlHasNot: 'krby'
+      }
+    }, {
+      code: 'm_branding',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [480, 480],
+            [300, 600],
+            [768, 1230]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 1148190,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261, 10]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 1148188,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 261, 10]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4641107'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1634411,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1539657,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1654825,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 650238
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 185860,
+          pageId: 170969
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27156588
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }, {
         bidder: 'r2b2',
         params: {
@@ -1031,7 +1277,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        urlHasNot: 'krby'
+        urlHas: 'krby'
       }
     }, {
       code: 'm_paticka',
@@ -1681,6 +1927,87 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }],
+      filter: {
+        urlHasNot: 'krby'
+      }
+    }, {
+      code: 'm_300x250_clankovy_opak1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 1977106,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 1977934,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4641099'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1634403,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1539666,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1654818,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 650236
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 185860,
+          pageId: 170969
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27156577
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }, {
         bidder: 'r2b2',
         params: {
@@ -1691,7 +2018,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        urlHasNot: 'krby'
+        urlHas: 'krby'
       }
     }, {
       code: 'm_300x250_clankovy_opak2',
@@ -1764,6 +2091,87 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }],
+      filter: {
+        urlHasNot: 'krby'
+      }
+    }, {
+      code: 'm_300x250_clankovy_opak2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 1977108,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 1977936,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4641100'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1634404,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1539667,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1654820,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 650235
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 185860,
+          pageId: 170969
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 27156578
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }, {
         bidder: 'r2b2',
         params: {
@@ -1774,7 +2182,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        urlHasNot: 'krby'
+        urlHas: 'krby'
       }
     }, {
       code: 'm_300x250_clankovy_opak3',
