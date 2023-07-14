@@ -673,12 +673,6 @@ window.cpexWebsiteSettings = {
           siteId: 650227
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 144326,
-          pageId: 131425
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27156574
@@ -760,12 +754,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 650243
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 185860,
-          pageId: 170969
         }
       }, {
         bidder: 'appnexus',
@@ -1022,12 +1010,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 650238
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 185860,
-          pageId: 170969
         }
       }, {
         bidder: 'appnexus',
@@ -1690,12 +1672,6 @@ window.cpexWebsiteSettings = {
           siteId: 650236
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 185860,
-          pageId: 170969
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27156577
@@ -1777,12 +1753,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 650235
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 185860,
-          pageId: 170969
         }
       }, {
         bidder: 'appnexus',
