@@ -184,8 +184,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250],
-            [480, 480]
+            [250, 250]
           ]
         }
       },
@@ -196,7 +195,7 @@ window.cpexWebsiteSettings = {
           zoneId: 871106,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -205,7 +204,7 @@ window.cpexWebsiteSettings = {
           zoneId: 871202,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -620,6 +619,19 @@ window.cpexWebsiteSettings = {
           adSlot: '5111686'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1716552,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1727347,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 958844
@@ -646,7 +658,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/
     },
     interscroller: {
       enabled: true
