@@ -271,8 +271,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250],
-            [480, 480]
+            [250, 250]
           ]
         }
       },
@@ -283,7 +282,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1145524,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -292,7 +291,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1145522,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -357,8 +356,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250],
-            [480, 480]
+            [250, 250]
           ]
         }
       },
@@ -369,7 +367,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1405424,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -378,7 +376,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1405422,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -445,7 +443,6 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480],
             [300, 600],
             [768, 1230]
           ]
@@ -458,7 +455,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148154,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -467,7 +464,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148296,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1128,6 +1125,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1726650,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1014827
         }
       }, {
         bidder: 'appnexus',
