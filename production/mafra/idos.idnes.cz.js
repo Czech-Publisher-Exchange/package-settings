@@ -309,7 +309,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 918985
+          siteId: 1017327
         }
       }, {
         bidder: 'appnexus',
