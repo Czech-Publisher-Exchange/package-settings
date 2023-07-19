@@ -49,6 +49,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5083139'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 979477
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21054355
@@ -58,26 +63,41 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 93608
         }
-      }]
+      }],
+      filter: {
+        minWidth: 750
+      }
     }],
     passbacks: {
-      leaderboard: /*S*/() => {
+      leaderboard: /*S*/ () => {
         const src = 'https://eurozpravy.cz/ads/google.html';
         const elementId = 'leaderboard';
         const type = 'banner';
-        const size = { width: 970, height: 210 };
-        cpexPackage.headerbidding.prepareIframe(elementId, { element: document.getElementById(elementId) }, size.width, size.height, { src });
-        cpexPackage.regularAds[elementId] = { type, elementId };
+        const size = {
+          width: 970,
+          height: 210
+        };
+        cpexPackage.headerbidding.prepareIframe(elementId, {
+          element: document.getElementById(elementId)
+        }, size.width, size.height, {
+          src
+        });
+        cpexPackage.regularAds[elementId] = {
+          type,
+          elementId
+        };
         if (cpexPackage.debugMode) {
-          cpexPackage.headerbidding.prepareMetaData(elementId, { type: 'passback' })
+          cpexPackage.headerbidding.prepareMetaData(elementId, {
+            type: 'passback'
+          })
         }
-      }/*E*/
+      } /*E*/
     }
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('main__content')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('main__content')[0] /*E*/ ,
       offset: 60,
       contentCSS: 'position: relative; margin-top: -26px;'
     }
