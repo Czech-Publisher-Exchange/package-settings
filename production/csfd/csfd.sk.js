@@ -1817,7 +1817,8 @@ window.cpexWebsiteSettings = {
     responsive: {
       adUnits: ['mobile_square_1'],
       width: '480',
-      height: '480'
+      height: '480',
+      enabled: true
     }
   }
 }
