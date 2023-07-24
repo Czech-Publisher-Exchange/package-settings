@@ -1819,6 +1819,9 @@ window.cpexWebsiteSettings = {
       width: 480,
       height: 480,
       enabled: true
+    },
+    native: {
+      enabled: true
     }
   }
 }
