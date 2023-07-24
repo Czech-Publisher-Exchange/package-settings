@@ -818,6 +818,9 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnits: ['m-sticky']
+    },
+    responsive: {
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5']
     }
   },
   cmp: {
