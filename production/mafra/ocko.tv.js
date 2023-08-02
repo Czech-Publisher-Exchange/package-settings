@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'ocko.tv'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: '300x250',

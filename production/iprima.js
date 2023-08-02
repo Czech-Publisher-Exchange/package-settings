@@ -5,12 +5,6 @@ window.cpexPublisherSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    settings: {
-      publisher: 'iprima'
-    },
-    enabled: true
-  },
   headerbidding: {
     enabled: false
   }

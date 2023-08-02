@@ -1,9 +1,4 @@
 window.cpexWebsiteSettings = {
-  aam: {
-    settings: {
-      publisher: 'dad'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'da_leaderboard_top',

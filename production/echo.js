@@ -22,12 +22,6 @@ window.cpexPublisherSettings = {
     areaKey: 'divId',
     enabled: true
   },
-  aam: {
-    settings: {
-      publisher: 'echo'
-    },
-    enabled: true
-  },
   headerbidding: {
     analytics: ['id5Analytics', 'cpexAnalytics']
   },

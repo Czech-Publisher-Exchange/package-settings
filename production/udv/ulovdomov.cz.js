@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'ulovdomov.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'udv'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'div-gpt-ad-1641549911045-0',

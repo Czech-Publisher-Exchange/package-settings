@@ -5,11 +5,6 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    settings: {
-      publisher: 'eco'
-    }
-  },
   headerbidding: {
     currency: 'USD',
     analytics: ['id5Analytics', 'cpexAnalytics'],

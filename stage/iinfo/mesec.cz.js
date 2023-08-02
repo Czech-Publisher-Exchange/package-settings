@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'mesec.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'iinfo'
-    }
-  },
   adserver: {
     adapter: 'sastracker'
   },

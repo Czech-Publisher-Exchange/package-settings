@@ -5,11 +5,6 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    settings: {
-      publisher: 'impuls'
-    }
-  },
   adserver: {
     adapter: 'googletag',
     defineSlots: [{

@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'zdravi.euro.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'iinfo'
-    }
-  },
   adserver: {
     adapter: 'sastracker'
   },

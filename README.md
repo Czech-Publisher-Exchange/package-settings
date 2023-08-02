@@ -122,22 +122,6 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `enabled`   | Boolean                                             | true       |
 | `force`     | Boolean, allows to skip consent check               | false      |
 
-### AAM
-`aam: {}`
-| Attribute   | Values                                              | Default    |
-|-------------|-----------------------------------------------------|------------|
-| `enabled`   | Boolean                                             | true       |
-| `path`      | Boolean                                             | true       |
-| `settings`  | Boolean                                             | true       |
-
-#### AAM settings
-`aam.settings: {}`
-| Attribute   | Values                                              | Default    |
-|-------------|-----------------------------------------------------|------------|
-| `enabled`   | Boolean                                             | true       |
-| `path`      | String, URL to AAM    | 'https://cdn.cpex.cz/aam/cpex-aam-min.js'|
-| `settings`  | Object, mirrors `cpex_AAM_conf` in the AAM itself   | inside AAM |
-
 ### Ad server
 **Note:** To properly merge between the two types of settings, SSPs should be named consistently. Please use the following strings: **pubmatic, index, magnite, xandr**
 

@@ -5,9 +5,6 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    enabled: false
-  },
   headerbidding: {
     adUnits: [{
       code: 'square-1',

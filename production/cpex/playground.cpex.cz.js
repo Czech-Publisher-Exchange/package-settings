@@ -337,10 +337,5 @@ window.cpexWebsiteSettings = {
         'native-2': 'native-1'
       }
     }
-  },
-  aam: {
-    settings: {
-      publisher: 'cpex'
-    }
   }
 }

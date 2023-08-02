@@ -20,12 +20,6 @@ window.cpexPublisherSettings = {
       teads: 'Teads'
     }
   },
-  aam: {
-    settings: {
-      publisher: 'csfd'
-    },
-    enabled: true
-  },
   headerbidding: {
     analytics: ['id5Analytics', 'cpexAnalytics']
   },

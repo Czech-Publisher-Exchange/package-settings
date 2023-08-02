@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'zlacnene.sk'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'branding',

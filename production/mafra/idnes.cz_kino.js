@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'idnes.cz_kino'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'branding',

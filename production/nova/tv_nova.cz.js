@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'tv.nova.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'nova'
-    }
-  },
   adserver: {
     adapter: 'sastracker',
     gamId: '27415282',

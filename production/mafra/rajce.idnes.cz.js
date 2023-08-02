@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'rajce.idnes.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'branding_fotogalerie',

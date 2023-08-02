@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'skodahome.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: '300x250',

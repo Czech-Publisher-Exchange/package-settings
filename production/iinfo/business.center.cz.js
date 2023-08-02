@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'business.center.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'iinfo'
-    }
-  },
   adserver: {
     adapter: 'sastracker'
   },

@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'mujsoubor.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'iinfo'
-    }
-  },
   adserver: {
     adapter: 'sastracker'
   },

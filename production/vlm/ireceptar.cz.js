@@ -32,9 +32,6 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    enabled: false
-  },
   adserver: {
     adapter: 'sastracker'
   },

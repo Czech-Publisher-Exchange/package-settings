@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'heroine.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'halfpagead',

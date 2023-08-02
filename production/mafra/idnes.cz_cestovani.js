@@ -1,9 +1,4 @@
 window.cpexWebsiteSettings = {
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'branding',

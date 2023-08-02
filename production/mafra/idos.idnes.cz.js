@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'idos.idnes.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: '750x100',
