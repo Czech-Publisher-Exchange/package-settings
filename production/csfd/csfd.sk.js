@@ -1816,7 +1816,10 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     native: {
-      enabled: true
+      enabled: true,
+      templates: {
+        native_short_1: "<div id='native'>\n  <a href='${link}'>\n    <div class='native-content'>\n      <div class='native-content-img'>\n        <img src='${img}' alt=''>\n      </div>\n      <div class='native-content-desc'>\n        <div class='native-content-desc-text'>\n          <p>${title}</p>\n          <p id='nativeText'>${desc}</p>\n        </div>\n        <div class='native-info'>\n          <span class='info'>reklama</span>\n        </div>\n      </div>\n    </div>\n  </a>\n</div>"
+      }
     }
   }
 }
