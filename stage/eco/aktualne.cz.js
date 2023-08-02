@@ -3,11 +3,6 @@ window.cpexWebsiteSettings = {
     name: 'aktualne.cz',
     note: 'integrace: FED-497'
   },
-  aam: {
-    settings: {
-      publisher: 'eco'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'leader',

@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'akcniceny.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'branding',

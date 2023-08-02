@@ -5,9 +5,6 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    enabled: false
-  },
   adserver: {
     bidderTable: {
       criteo: 'Criteo_HB',

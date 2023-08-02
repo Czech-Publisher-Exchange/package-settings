@@ -1,9 +1,4 @@
 window.cpexWebsiteSettings = {
-  aam: {
-    settings: {
-      publisher: 'iinfo'
-    }
-  },
   adserver: {
     adapter: 'sastracker',
     allowedSSPs: {

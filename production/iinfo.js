@@ -3,11 +3,6 @@ window.cpexPublisherSettings = {
     code: 'iinfo',
     sellerId: '012'
   },
-  aam: {
-    settings: {
-      publisher: 'iinfo'
-    }
-  },
   adserver: {
     adapter: 'sastracker',
     allowedSSPs: {

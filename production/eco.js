@@ -7,15 +7,6 @@ window.cpexPublisherSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    settings: {
-      publisher: 'eco',
-      behavior: {
-        trackLinks: true
-      },
-      namespace: '1'
-    }
-  },
   adserver: {
     adapter: 'sasic',
     allowedSSPs: {

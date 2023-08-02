@@ -22,11 +22,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'idnes.cz_hry'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'branding',

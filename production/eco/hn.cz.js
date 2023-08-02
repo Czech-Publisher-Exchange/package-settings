@@ -1,9 +1,4 @@
 window.cpexWebsiteSettings = {
-  aam: {
-    settings: {
-      publisher: 'eco'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'leader',

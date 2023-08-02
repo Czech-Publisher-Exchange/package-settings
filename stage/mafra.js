@@ -24,11 +24,6 @@ window.cpexPublisherSettings = {
       teads: 'Teads_HB'
     }
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     cmpLoadTimeoutMs: 1000,
     bidderSettings: {

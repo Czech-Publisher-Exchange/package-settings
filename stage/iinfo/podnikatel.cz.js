@@ -3,11 +3,6 @@ window.cpexWebsiteSettings = {
     name: 'podnikatel.cz',
     note: 'stage'
   },
-  aam: {
-    settings: {
-      publisher: 'iinfo'
-    }
-  },
   adserver: {
     adapter: 'sastracker'
   },

@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'hokej.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'dad'
-    }
-  },
   adserver: {
     adapter: 'googletag'
   },

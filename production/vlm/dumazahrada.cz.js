@@ -1,12 +1,8 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'dumazahrada.cz',
-    note: 'aam voláme z GTM'
+    name: 'dumazahrada.cz'
   },
   cmp: {
-    enabled: false
-  },
-  aam: {
     enabled: false
   },
   adserver: {

@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'expres.cz_jenpromuze'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'branding',

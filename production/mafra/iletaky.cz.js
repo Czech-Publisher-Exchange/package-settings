@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'iletaky.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'branding',

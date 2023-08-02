@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    settings: {
-      publisher: 'iinfo'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'iinfo-area-halfpagead-horni',

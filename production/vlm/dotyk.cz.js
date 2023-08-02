@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    settings: {
-      publisher: 'vlm'
-    }
-  },
   headerbidding: {
     enabled: true,
     adUnits: [{

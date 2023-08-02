@@ -45,11 +45,6 @@ window.cpexPublisherSettings = {
       }
     }
   },
-  aam: {
-    settings: {
-      publisher: 'cpex'
-    }
-  },
   formats: {
     skin: {
       enabled: true

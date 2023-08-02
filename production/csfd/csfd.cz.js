@@ -2462,11 +2462,6 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    settings: {
-      publisher: 'csfd'
-    }
-  },
   general: {
     errorLogging: true,
     autoRun: false,

@@ -6,10 +6,5 @@ window.cpexPublisherSettings = {
   },
   cmp: {
     enabled: false
-  },
-  aam: {
-    settings: {
-      publisher: 'incorp'
-    }
   }
 }

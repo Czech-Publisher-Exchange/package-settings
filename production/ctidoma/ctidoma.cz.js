@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'ctidoma.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'ctidoma'
-    }
-  },
   adserver: {
     adapter: 'googletag',
     loadPrerequisites: true,

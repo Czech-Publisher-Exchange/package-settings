@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'ekonom.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'eco'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'leader',

@@ -6,11 +6,6 @@ window.cpexPublisherSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    settings: {
-      publisher: 'ctidoma'
-    }
-  },
   adserver: {
     adapter: 'googletag'
   }

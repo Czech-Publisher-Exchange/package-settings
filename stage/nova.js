@@ -7,11 +7,6 @@ window.cpexPublisherSettings = {
   cmp: {
     enabled: false
   },
-  aam: {
-    settings: {
-      publisher: 'nova'
-    }
-  },
   adserver: {
     adapter: 'sastracker',
     allowedSSPs: {

@@ -25,11 +25,6 @@ window.cpexPublisherSettings = {
       invibes: 'Invibes_HB'
     }
   },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
-  },
   headerbidding: {
     cmpLoadTimeoutMs: 1000,
     bidderSettings: {

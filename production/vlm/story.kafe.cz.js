@@ -2,9 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'story.kafe.cz'
   },
-  aam: {
-    enabled: false
-  },
   adserver: {
     adapter: 'sastracker'
   },

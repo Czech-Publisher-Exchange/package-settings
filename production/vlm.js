@@ -24,11 +24,6 @@ window.cpexPublisherSettings = {
       ix: 'Index_HB'
     }
   },
-  aam: {
-    settings: {
-      publisher: 'vlm'
-    }
-  },
   headerbidding: {
     analytics: ['id5Analytics', 'cpexAnalytics'],
     bidderSettings: {

@@ -2,11 +2,6 @@ window.cpexWebsiteSettings = {
   website: {
     name: 'finance.cz'
   },
-  aam: {
-    settings: {
-      publisher: 'iinfo'
-    }
-  },
   adserver: {
     adapter: 'sastracker'
   },
