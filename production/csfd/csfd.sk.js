@@ -1668,7 +1668,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'native_1',
+      code: 'native_short_1',
       mediaTypes: {
         native: {}
       },

@@ -1200,7 +1200,8 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     interscroller: {
-      enabled: true
+      enabled: true,
+      height: '300px'
     },
     skin: {
       enabled: true,

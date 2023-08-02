@@ -1172,7 +1172,8 @@ window.cpexWebsiteSettings = {
       generalCSS: '.c-branding .c-leaderboard {   height: 0px;   min-height: 0px }body .c-leaderboard #div-ad-leaderboard {   width: 1920px;    height: 0;    min-height: 0;    position: fixed;    left: 50%;    top: 83px;    transform: translateX(-50%);}body .c-leaderboard #div-ad-leaderboard .banner-highlight {    height: 1400px;}'
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      height: '300px'
     }
   }
 }
