@@ -2676,6 +2676,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ekonomika.finance.idnes.cz',
+          p: '300x250_foto_mid2',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_foto_mid3',
@@ -2738,6 +2746,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ekonomika.finance.idnes.cz',
+          p: '300x250_foto_mid3',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -2802,6 +2818,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ekonomika.finance.idnes.cz',
+          p: '300x250_foto_mid4',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }]
   },
@@ -2827,6 +2851,11 @@ window.cpexWebsiteSettings = {
     vignette: {
       enabled: true,
       adUnits: ['m_vignete']
+    }
+  },
+  aam: {
+    settings: {
+      publisher: 'mafra'
     }
   }
 }
