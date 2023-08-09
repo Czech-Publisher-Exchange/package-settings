@@ -8,11 +8,34 @@ window.cpexPublisherSettings = {
     adapter: 'sastracker',
     bidderTable: {
       'omg-adform': 'omg-adform',
-      criteo: 'criteo'
+      criteo: 'criteo',
+      'fragile-adform': 'Fragile-Adform',
+      rubicon: 'Magnite_HB',
+      appnexus: 'Xandr_HB',
+      pubmatic: 'Pubmatic_HB',
+      ix: 'Index_HB',
+      triplelift: 'Triplelift_HB',
+      r2b2: 'R2B2',
+      smart: 'Smart',
+      teads: 'Teads'
     }
   },
   headerbidding: {
-    analytics: ['id5Analytics', 'cpexAnalytics'],
-    userIDs: ['id5Id', 'sharedId', 'criteo']
+    analytics: ['id5Analytics', 'cpexAnalytics']
+  },
+  general: {
+    errorApiKey: 'hbp_tCjxz6JmkE7RI1QnA7qLBjDFb4ItP23y9OCs',
+    onLoad: /*S*/ () => {
+      window.__tcfapi('addEventListener', 2, (data, success) => {
+        if (success === false) {
+          return
+        }
+        if (data.vendor.consents[570] && Didomi.getUserConsentStatusForVendor('c:pomomedia-HZQX3YWL')) {
+          window.dataLayer = {
+            seg: window.cpexPackage.getCookie('exc')
+          }
+        }
+      })
+    } /*E*/
   }
 }
