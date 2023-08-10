@@ -36,9 +36,13 @@ window.cpexPublisherSettings = {
   },
   headerbidding: {
     auctionTimeoutMs: 2000,
-    analytics: ['id5Analytics', 'cpexAnalytics']
+    analytics: ['id5Analytics', 'cpexAnalytics'],
+    userIDs: ['id5Id', 'shareId', 'criteo', 'czechAdId']
   },
   general: {
     errorApiKey: 'hbp_DAmvPZplPFWmFYRT4W16UT3Qs47LcW1iHniv'
+  },
+  aam: {
+    enabled: false
   }
 }
