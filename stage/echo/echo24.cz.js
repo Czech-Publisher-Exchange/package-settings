@@ -1711,7 +1711,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      enabled: true
+      enabled: true,
+      hide: [ /*S*/ document.getElementsByClassName('adcontainer-header')[0] /*E*/ ],
+      contentEl: /*S*/ document.getElementById('st-container') /*E*/
     },
     interscroller: {
       enabled: true
