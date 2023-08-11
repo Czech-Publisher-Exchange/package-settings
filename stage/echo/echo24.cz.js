@@ -1708,5 +1708,13 @@ window.cpexWebsiteSettings = {
     customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
     } /*E*/
+  },
+  formats: {
+    skin: {
+      enabled: true
+    },
+    interscroller: {
+      enabled: true
+    }
   }
 }
