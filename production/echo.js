@@ -1,4 +1,4 @@
-window.cpexPublisherSettings = {
+window.cpexWebsiteSettings = {
   publisher: {
     name: 'Echo Media a.s.',
     sellerId: '029',
