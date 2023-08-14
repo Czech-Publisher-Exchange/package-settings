@@ -334,7 +334,7 @@ window.cpexWebsiteSettings = {
       backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
       contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
       contentCSS: ' ',
-      generalCSS: '.r-leaderboardhp {\n  height: 200px\n}'
+      generalCSS: '#r-leaderboardhp {\n  height: 200px\n}'
     }
   }
 }
