@@ -1,4 +1,4 @@
-window.cpexWebsiteSettings = {
+window.cpexPublisherSettings = {
   publisher: {
     name: 'Echo Media a.s.',
     sellerId: '029',
@@ -32,8 +32,6 @@ window.cpexWebsiteSettings = {
     enabled: false
   },
   aam: {
-    settings: {
-      publisher: 'echo'
-    }
+    enabled: false
   }
 }
