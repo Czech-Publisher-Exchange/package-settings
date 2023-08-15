@@ -1722,6 +1722,12 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnits: ['SASSlideUp']
+    },
+    responsive: {
+      adUnits: ['adMobileFlow11'],
+      width: 480,
+      height: 480,
+      enabled: true
     }
   }
 }
