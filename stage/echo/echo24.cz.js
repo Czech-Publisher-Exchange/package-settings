@@ -1718,6 +1718,10 @@ window.cpexWebsiteSettings = {
     interscroller: {
       enabled: true,
       adUnits: ['adMobileFlow1']
+    },
+    slideup: {
+      enabled: true,
+      adUnits: ['SASSlideUp']
     }
   }
 }
