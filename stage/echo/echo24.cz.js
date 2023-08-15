@@ -1716,7 +1716,8 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ document.getElementById('st-container') /*E*/
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['adMobileFlow1']
     }
   }
 }
