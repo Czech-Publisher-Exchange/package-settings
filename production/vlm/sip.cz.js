@@ -1,6 +1,6 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'sip.cz'
+    name: 'sip.denik.cz'
   },
   cmp: {
     enabled: false
