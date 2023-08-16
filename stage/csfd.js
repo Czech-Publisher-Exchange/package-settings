@@ -28,12 +28,11 @@ window.cpexPublisherSettings = {
     onLoad: /*S*/ () => {
       window.__tcfapi('addEventListener', 2, (data, success) => {
         if (success === false) {
-          return
-        }
+          return;
+        };
         if (data.vendor.consents[570] && Didomi.getUserConsentStatusForVendor('c:pomomedia-HZQX3YWL')) {
-          window.dataLayer = {
-            seg: window.cpexPackage.getCookie('exc')
-          }
+          window.dataLayer = window.dataLayer || {};
+          window.dataLayer.seg = window.cpexPackage.getCookie('exc');
         }
       })
     } /*E*/
