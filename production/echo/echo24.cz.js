@@ -1711,5 +1711,16 @@ window.cpexWebsiteSettings = {
   },
   adserver: {
     adapter: 'sastracker'
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      hide: [ /*S*/ document.getElementsByClassName('adcontainer-header')[0] /*E*/ ],
+      contentEl: /*S*/ document.getElementById('st-container') /*E*/
+    },
+    slideup: {
+      enabled: true,
+      adUnits: ['SASSlideUp']
+    }
   }
 }
