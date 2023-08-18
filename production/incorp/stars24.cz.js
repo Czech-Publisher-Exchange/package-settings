@@ -4,7 +4,8 @@ window.cpexWebsiteSettings = {
   },
   adserver: {
     enabled: true,
-    adapter: 'googletag'
+    adapter: 'googletag',
+    loadPrerequisites: true
   },
   headerbidding: {
     adUnits: [{
