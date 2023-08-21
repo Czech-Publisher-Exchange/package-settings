@@ -5,7 +5,226 @@ window.cpexWebsiteSettings = {
   adserver: {
     enabled: true,
     adapter: 'googletag',
-    loadPrerequisites: true
+    loadPrerequisites: true,
+    defineSlots: [{
+      elementId: 'dhp-1-2000x1400',
+      sizes: [
+        [998, 200],
+        [970, 250],
+        [970, 210]
+      ],
+      path: '/22874140038/stars24.cz_hp_branding'
+    }, {
+      elementId: 'dhp-1-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250],
+        [160, 600],
+        [120, 600]
+      ],
+      path: '/22874140038/stars24.cz_hp_skyscraper_1'
+    }, {
+      elementId: 'dhp-2-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250],
+        [160, 600],
+        [120, 600]
+      ],
+      path: '/22874140038/stars24.cz_hp_skyscraper_2'
+    }, {
+      elementId: 'dhp-3-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250],
+        [160, 600],
+        [120, 600]
+      ],
+      path: '/22874140038/stars24.cz_hp_skyscraper_3'
+    }, {
+      elementId: 'dhp-4-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250],
+        [160, 600],
+        [120, 600]
+      ],
+      path: '/22874140038/stars24.cz_hp_skyscraper_4'
+    }, {
+      elementId: 'dhp-1-300x250',
+      sizes: [
+        [300, 250]
+      ],
+      path: '/22874140038/stars24.cz_hp_square_1'
+    }, {
+      elementId: 'dsa-1-2000x1400',
+      sizes: [
+        [998, 200],
+        [970, 250],
+        [970, 210]
+      ],
+      path: '/22874140038/stars24.cz_sa_branding'
+    }, {
+      elementId: 'dsa-1-480x300',
+      sizes: [
+        [480, 300],
+        [336, 280],
+        [300, 300]
+      ],
+      path: '/22874140038/stars24.cz_sa_rectangle_1'
+    }, {
+      elementId: 'dsa-1-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250],
+        [160, 600],
+        [120, 600]
+      ],
+      path: '/22874140038/stars24.cz_sa_skyscraper_1'
+    }, {
+      elementId: 'dsa-in1-480x300',
+      sizes: [
+        [480, 300],
+        [336, 280],
+        [300, 300]
+      ],
+      path: '/22874140038/stars24.cz_sa_rectangle_in-article_1'
+    }, {
+      elementId: 'dsa-in2-480x300',
+      sizes: [
+        [480, 300],
+        [336, 280],
+        [300, 300]
+      ],
+      path: '/22874140038/stars24.cz_sa_rectangle_in-article_2'
+    }, {
+      elementId: 'dsa-in3-480x300',
+      sizes: [
+        [480, 300],
+        [336, 280],
+        [300, 300]
+      ],
+      path: '/22874140038/stars24.cz_sa_rectangle_in-article_3'
+    }, {
+      elementId: 'dsa-in4-480x300',
+      sizes: [
+        [480, 300],
+        [336, 280],
+        [300, 300]
+      ],
+      path: '/22874140038/stars24.cz_sa_rectangle_in-article_4'
+    }, {
+      elementId: 'dsa-in5-480x300',
+      sizes: [
+        [480, 300],
+        [336, 280],
+        [300, 300]
+      ],
+      path: '/22874140038/stars24.cz_sa_rectangle_in-article_5'
+    }, {
+      elementId: 'dsa-2-480x300',
+      sizes: [
+        [480, 300],
+        [336, 280],
+        [300, 300]
+      ],
+      path: '/22874140038/stars24.cz_sa_rectangle_2'
+    }, {
+      elementId: 'dsa-2-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250],
+        [160, 600],
+        [120, 600]
+      ],
+      path: '/22874140038/stars24.cz_sa_skyscraper_7'
+    }, {
+      elementId: 'mhp-1-1x1',
+      sizes: [
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22874140038/stars24.cz_hp_mobile_branding'
+    }, {
+      elementId: 'mac-1-vignette',
+      sizes: [
+        [300, 600]
+      ],
+      path: '/22874140038/stars24.cz_x-acrossing_1'
+    }, {
+      elementId: 'ma-1-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_1'
+    }, {
+      elementId: 'ma-1a-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_1a'
+    }, {
+      elementId: 'ma-1b-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_1b'
+    }, {
+      elementId: 'ma-1c-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_1c'
+    }, {
+      elementId: 'ma-1d-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_1d'
+    }, {
+      elementId: 'ma-1e-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_1e'
+    }, {
+      elementId: 'ma-2-300x600',
+      sizes: [
+        [300, 600],
+        [300, 300],
+        [300, 250]
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_2'
+    }, {
+      elementId: 'ma-1-sticky',
+      sizes: [
+        [320, 150],
+        [300, 300],
+        [300, 250],
+        [320, 50]
+      ],
+      path: '/22874140038/stars24.cz_a_pop-up_sticky'
+    }],
+    gamId: '22874140038',
+    gamPrefix: 'stars24.cz_'
   },
   headerbidding: {
     adUnits: [{
