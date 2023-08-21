@@ -32,11 +32,13 @@ window.cpexPublisherSettings = {
           window.addEventListener('message', (event) => {
             if (event.origin !== 'https://cdn.cpex.cz') return;
             if (event.data.type === 'cpexRead') {
-              window.dataLayer = window.dataLayer || {};
-              window.dataLayer.seg = event.data.value
+              window.dataLayer = window.dataLayer || [];
+              dataLayer.push({
+                seg: event.data.value
+              })
             }
           }, false);
-          window.cpexPackage.utils.addElement('iframe', document.body, {
+          cpexPackage.utils.addElement('iframe', document.body, {
             src: 'https://cdn.cpex.cz/cookies/read.html?name=exc',
             width: 0,
             height: 0
