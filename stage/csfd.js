@@ -36,8 +36,8 @@ window.cpexPublisherSettings = {
               window.dataLayer.seg = event.data.value
             }
           }, false);
-          cpexPackage.utils.addElement('iframe', document.body, {
-            src: 'https://cdn.cpex.cz/cookies/read.html?name=exc&time=1209600&data=' + encodeURIComponent(segments.toString()),
+          window.cpexPackage.utils.addElement('iframe', document.body, {
+            src: 'https://cdn.cpex.cz/cookies/read.html?name=exc',
             width: 0,
             height: 0
           })
