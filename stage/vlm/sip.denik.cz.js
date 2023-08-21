@@ -393,7 +393,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
+      contentCSS: ' '
     },
     interscroller: {
       enabled: true
