@@ -38,6 +38,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1030286
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30523811
@@ -89,6 +94,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1671256,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1030287
         }
       }, {
         bidder: 'appnexus',
@@ -143,6 +153,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1030288
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30523814
@@ -195,6 +210,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1030289
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30523815
@@ -243,6 +263,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1671247,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1030290
         }
       }, {
         bidder: 'appnexus',
@@ -297,6 +322,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1030291
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30523817
@@ -338,6 +368,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1671250,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1030292
         }
       }, {
         bidder: 'appnexus',
@@ -387,6 +422,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1671251,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1030293
         }
       }, {
         bidder: 'appnexus',
@@ -441,6 +481,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1740440,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1030294
         }
       }, {
         bidder: 'appnexus',
