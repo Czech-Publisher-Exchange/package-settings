@@ -524,7 +524,8 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('kosilka_cely_web')[0] /*E*/ ,
-      hide: [ /*S*/ document.getElementById('leaderboard-top') /*E*/ ]
+      hide: [ /*S*/ document.getElementById('leaderboard-top') /*E*/ ],
+      contentCSS: ' '
     },
     interscroller: {
       enabled: true
