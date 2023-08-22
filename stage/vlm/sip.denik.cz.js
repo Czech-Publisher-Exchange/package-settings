@@ -394,7 +394,8 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
-      contentCSS: ' '
+      contentCSS: ' ',
+      generalCSS: '#leaderboard-top { width: 1000px }'
     },
     interscroller: {
       enabled: true
