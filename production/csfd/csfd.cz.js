@@ -2320,7 +2320,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'native_1',
+      code: 'native_short_1',
       mediaTypes: {
         banner: {
           sizes: [
@@ -2339,7 +2339,26 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'native_2',
+      code: 'native_long_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [1, 1]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1655517,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'native_long_2',
       mediaTypes: {
         banner: {
           sizes: [
