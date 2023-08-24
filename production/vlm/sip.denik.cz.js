@@ -395,7 +395,6 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
-      contentCSS: ' ',
       generalCSS: '#leaderboard-top { width: 1000px }',
       hide: [ /*S*/ document.getElementById('js-leaderboard-top-wrap') /*E*/ ]
     },
