@@ -944,7 +944,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('homepage__container')[0] /*E*/ ,
-      generalCSS: '#leaderboard-top {  width: 1000px}',
+      generalCSS: '#leaderboard-top {\n  width: 1000px\n}\n.main {\n  position: initial;\n}',
       offset: 60,
       contentCSS: ' ',
       offsetScroll: true
