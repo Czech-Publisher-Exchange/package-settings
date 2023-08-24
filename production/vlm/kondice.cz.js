@@ -943,7 +943,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('homepage__container')[0] /*E*/
+      contentEl: /*S*/ document.getElementsByClassName('homepage__container')[0] /*E*/ ,
+      generalCSS: '#leaderboard-top {\n  width: 1000px\n}',
+      offset: 60,
+      contentCSS: ' '
     },
     interscroller: {
       enabled: true
