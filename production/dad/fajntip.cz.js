@@ -46,10 +46,5 @@ window.cpexWebsiteSettings = {
     slideup: {
       defaultHeight: '3'
     }
-  },
-  aam: {
-    settings: {
-      publisher: 'dad'
-    }
   }
 }

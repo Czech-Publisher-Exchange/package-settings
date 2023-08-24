@@ -41,8 +41,5 @@ window.cpexPublisherSettings = {
   },
   general: {
     errorApiKey: 'hbp_DAmvPZplPFWmFYRT4W16UT3Qs47LcW1iHniv'
-  },
-  aam: {
-    enabled: false
   }
 }

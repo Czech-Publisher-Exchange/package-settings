@@ -2848,10 +2848,5 @@ window.cpexWebsiteSettings = {
     vignette: {
       enabled: true
     }
-  },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
   }
 }

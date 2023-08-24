@@ -30,8 +30,5 @@ window.cpexPublisherSettings = {
   },
   cmp: {
     enabled: false
-  },
-  aam: {
-    enabled: false
   }
 }

@@ -416,8 +416,5 @@ window.cpexWebsiteSettings = {
       height: 480,
       adUnits: ['m-square-1']
     }
-  },
-  aam: {
-    enabled: false
   }
 }

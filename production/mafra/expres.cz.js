@@ -1931,10 +1931,5 @@ window.cpexWebsiteSettings = {
       adUnits: ['m_vignete'],
       enabled: true
     }
-  },
-  aam: {
-    settings: {
-      publisher: 'mafra'
-    }
   }
 }
