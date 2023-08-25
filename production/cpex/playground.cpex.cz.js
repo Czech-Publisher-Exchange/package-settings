@@ -51,10 +51,7 @@ window.cpexWebsiteSettings = {
           publisherId: 'w6O8SDnYNMT7Cb6AHGZf',
           region: 'prebid-eu'
         }
-      }],
-      filter: {
-        urlHasNot: 'debug'
-      }
+      }]
     }, {
       code: 'rectangle-2',
       mediaTypes: {
@@ -139,6 +136,15 @@ window.cpexWebsiteSettings = {
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: '140646',
+          zoneId: '3017262',
+          accountId: '10900',
+          position: 'atf',
+          sizes: [221]
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: '29896310'
