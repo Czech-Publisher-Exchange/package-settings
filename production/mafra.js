@@ -59,6 +59,12 @@ window.cpexPublisherSettings = {
     vignette: {
       css: "#cpex-vignette {    background-color: #000E;    z-index: 2147483642;}#cpex-vignette-close {    position: absolute;    z-index: 999;    right: 20px;    top: 10px;    box-sizing: border-box;    display: inline-block;    cursor: pointer;    width: 30px;    height: 30px;    padding: 10px;    font-size: 0pt;    border: none;    background-image: url('https://trackad.cz/icon.php?icon=closer2&front=cacaca&back=000000');    background-size: contain;    border-radius: 30px;    box-shadow: 0 0 9px 3px #cacaca;}#cpex-vignette-header {    position: absolute;    right: 10px;    bottom: 20px;    font-size: 12px;    background: rgba`40, 40, 40, 0.7`;    color: #d1d1d1;    padding: 1px 3px;    text-transform: capitalize;}",
       closeTextHTML: ' '
+    },
+    native: {
+      templates: {
+        nativ: "<div class='art'>\n  <a href='${link}' target='_blank' class='art-link'>\n    <h3>${title}</h3>\n    <div class='art-img w230'>\n      <img src='${img}'>\n      <span></span>\n    </div>\n    <p class='perex'>${desc}</p>\n  </a>\n</div>",
+        m_nativ: "<div class='art'>\n  <a rel='sponsored' href='${link}' class='art-link' target='_blank'> <img title='' alt='' src='${img}' class='art-img sp5 ' width='100' height='75'>\n    <h3>${title}</h3>\n  </a>\n</div>"
+      }
     }
   }
 }
