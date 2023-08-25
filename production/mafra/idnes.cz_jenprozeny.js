@@ -41,6 +41,25 @@ window.cpexWebsiteSettings = {
           adSlot: '4641269'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735791,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731559,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199317,
+          pageId: 184245
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157288
@@ -49,6 +68,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'IDNES.CZ/JENPROZENY',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -90,6 +117,25 @@ window.cpexWebsiteSettings = {
           adSlot: '4641270'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735792,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731560,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199317,
+          pageId: 184245
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157290
@@ -98,6 +144,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'IDNES.CZ/JENPROZENY',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -139,6 +193,25 @@ window.cpexWebsiteSettings = {
           adSlot: '4641271'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735793,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731563,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199317,
+          pageId: 184245
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157292
@@ -147,6 +220,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'IDNES.CZ/JENPROZENY',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -188,6 +269,25 @@ window.cpexWebsiteSettings = {
           adSlot: '4641272'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735794,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731564,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199317,
+          pageId: 184245
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157293
@@ -196,6 +296,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'IDNES.CZ/JENPROZENY',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -237,6 +345,25 @@ window.cpexWebsiteSettings = {
           adSlot: '4641273'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735795,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731565,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199317,
+          pageId: 184245
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157294
@@ -245,6 +372,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'IDNES.CZ/JENPROZENY',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -286,6 +421,25 @@ window.cpexWebsiteSettings = {
           adSlot: '4641274'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735796,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731566,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199317,
+          pageId: 184245
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157295
@@ -294,6 +448,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'IDNES.CZ/JENPROZENY',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -333,6 +495,25 @@ window.cpexWebsiteSettings = {
           adSlot: '4641275'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735797,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731567,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199317,
+          pageId: 184245
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157297
@@ -341,6 +522,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'IDNES.CZ/JENPROZENY',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -383,6 +572,25 @@ window.cpexWebsiteSettings = {
           adSlot: '4641276'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735801,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731568,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199316,
+          pageId: 184244
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157298
@@ -391,6 +599,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'IDNES.CZ/JENPROZENY',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -428,6 +644,25 @@ window.cpexWebsiteSettings = {
           adSlot: '4641277'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735803,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731561,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199317,
+          pageId: 184245
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157299
@@ -436,6 +671,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'IDNES.CZ/JENPROZENY',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -467,6 +710,25 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1735806,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1731562,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 199317,
+          pageId: 184245
+        }
       }, {
         bidder: 'appnexus',
         params: {
