@@ -68,7 +68,8 @@ window.cpexWebsiteSettings = {
             [728, 90],
             [970, 210],
             [970, 250],
-            [998, 200]
+            [998, 200],
+            [2000, 1400]
           ]
         }
       },
@@ -79,7 +80,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2852880,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96, 57, 259]
+          sizes: [2, 96, 57, 259, 230]
         }
       }, {
         bidder: 'pubmatic',
@@ -944,7 +945,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('homepage__container')[0] /*E*/ ,
-      generalCSS: '#leaderboard-top {\n  width: 1000px\n}\n.main {\n  position: initial;\n}',
+      generalCSS: '#leaderboard-top {  width: 1000px}.main {  position: initial;}',
       offset: 60,
       contentCSS: ' ',
       offsetScroll: true
