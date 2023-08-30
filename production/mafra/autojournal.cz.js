@@ -82,6 +82,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'autojournal.cz',
           p: '300x250',
           m: 0,
           g: 'hb'
@@ -168,6 +169,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'autojournal.cz',
           p: 'branding',
           m: 0,
           g: 'hb'
@@ -255,6 +257,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'autojournal.cz',
           p: '300x600',
           m: 0,
           g: 'hb'
@@ -340,6 +343,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'autojournal.cz',
           p: '300x250',
           m: 1,
           g: 'hb'
@@ -353,9 +357,9 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480],
             [300, 600],
-            [768, 1230]
+            [768, 1230],
+            [480, 480]
           ]
         }
       },
@@ -366,7 +370,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1181246,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -375,7 +379,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1141056,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -428,6 +432,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'autojournal.cz',
           p: 'interscroller',
           m: 1,
           g: 'hb'
@@ -591,6 +596,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'autojournal.cz',
           p: '970x310',
           m: 0,
           g: 'hb'
@@ -678,6 +684,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'autojournal.cz',
           p: '480x300',
           m: 0,
           g: 'hb'
