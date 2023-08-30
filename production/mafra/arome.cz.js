@@ -76,6 +76,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'arome.cz',
           p: '300x250',
           m: 0,
           g: 'hb'
@@ -156,6 +157,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'arome.cz',
           p: 'branding',
           m: 0,
           g: 'hb'
@@ -237,6 +239,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'arome.cz',
           p: '300x600',
           m: 0,
           g: 'hb'
@@ -388,6 +391,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'arome.cz',
           p: '970x310',
           m: 0,
           g: 'hb'
@@ -469,6 +473,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'arome.cz',
           p: '480x300',
           m: 0,
           g: 'hb'
@@ -550,6 +555,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'arome.cz',
           p: '480x300_spodni',
           m: 0,
           g: 'hb'
