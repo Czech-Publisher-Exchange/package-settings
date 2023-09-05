@@ -231,17 +231,23 @@ window.cpexWebsiteSettings = {
       code: 'video-1',
       mediaTypes: {
         video: {
+          context: 'instream',
           playerSize: [640, 480]
         }
       },
       bids: [{
         bidder: 'rubicon',
         params: {
-          siteId: '91228',
-          zoneId: '429500',
+          siteId: '140646',
+          zoneId: '3036336',
           accountId: '10900',
           position: 'atf',
           sizes: [221]
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '30841066'
         }
       }]
     }]
