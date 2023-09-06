@@ -1280,7 +1280,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('main__content')[0] /*E*/
+      contentEl: /*S*/ document.getElementsByClassName('main__content')[0] /*E*/ ,
+      offset: 60
     },
     interscroller: {
       enabled: true
