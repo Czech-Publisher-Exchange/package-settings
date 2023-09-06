@@ -405,6 +405,9 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true
+    },
+    skin: {
+      enabled: true
     }
   }
 }
