@@ -407,7 +407,8 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     skin: {
-      enabled: true
+      enabled: true,
+      generalCSS: '#r-leaderboardhp {\n  height:200px\n  }'
     }
   }
 }
