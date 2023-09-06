@@ -228,10 +228,9 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'video-1',
+      code: 'preroll-1',
       mediaTypes: {
         video: {
-          context: 'instream',
           playerSize: [640, 480]
         }
       },
