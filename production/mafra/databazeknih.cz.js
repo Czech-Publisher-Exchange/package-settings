@@ -785,7 +785,8 @@ window.cpexWebsiteSettings = {
       adUnits: ['m_sticky']
     },
     skin: {
-      enabled: true
+      enabled: true,
+      generalCSS: '#r-leaderboardhp {\n  height: 200px;\n}\n#wrapper {\n  margin-top:0px; \n}'
     }
   }
 }
