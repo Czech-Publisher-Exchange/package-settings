@@ -1276,5 +1276,14 @@ window.cpexWebsiteSettings = {
         maxWidth: 767
       }
     }]
+  },
+  formats: {
+    skin: {
+      enabled: true,
+      contentEl: /*S*/ document.getElementsByClassName('main__content')[0] /*E*/
+    },
+    interscroller: {
+      enabled: true
+    }
   }
 }
