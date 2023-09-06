@@ -786,7 +786,9 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementById('wrapper') /*E*/
+      contentEl: /*S*/ document.getElementById('wrapper') /*E*/ ,
+      contentCSS: 'position:relative; margin-top:0px;',
+      generalCSS: '#r-leaderboardhp {\n  height:200px;\n  }'
     }
   }
 }
