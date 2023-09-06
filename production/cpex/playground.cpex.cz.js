@@ -231,7 +231,9 @@ window.cpexWebsiteSettings = {
       code: 'preroll-1',
       mediaTypes: {
         video: {
-          playerSize: [640, 480]
+          playerSize: [
+            [640, 480]
+          ]
         }
       },
       bids: [{
@@ -241,7 +243,7 @@ window.cpexWebsiteSettings = {
           zoneId: '3036336',
           accountId: '10900',
           position: 'atf',
-          sizes: [221]
+          size_id: 201
         }
       }, {
         bidder: 'appnexus',
