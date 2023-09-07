@@ -93,6 +93,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [2000, 1400],
             [998, 200],
             [728, 90],
             [970, 210],
@@ -107,7 +108,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1649652,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 2, 96, 55]
+          sizes: [230, 259, 2, 96, 55]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -116,7 +117,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1649672,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 2, 96, 55]
+          sizes: [230, 259, 2, 96, 55]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -357,9 +358,9 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480],
             [300, 600],
-            [768, 1230]
+            [768, 1230],
+            [480, 480]
           ]
         }
       },
@@ -370,7 +371,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1649666,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -379,7 +380,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1649686,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -786,7 +787,7 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      generalCSS: '#r-leaderboardhp {\n  height: 200px;\n}\n#wrapper {\n  margin-top:0px; \n}'
+      generalCSS: '#r-leaderboardhp {  height: 200px;}#wrapper {  margin-top:0px; }'
     }
   }
 }
