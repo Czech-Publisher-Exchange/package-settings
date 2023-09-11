@@ -2771,11 +2771,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'nativ',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'rubicon',
@@ -2795,11 +2791,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'm_nativ',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'rubicon',
