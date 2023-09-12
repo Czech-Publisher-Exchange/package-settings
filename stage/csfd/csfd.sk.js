@@ -4,9 +4,9 @@ window.cpexWebsiteSettings = {
   },
   general: {
     autoRun: false,
-    customRun: /*S*/() => {
+    customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    }/*E*/,
+    } /*E*/ ,
     errorLogging: true
   },
   cmp: {
@@ -1662,15 +1662,16 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
-    }]
+    }],
+    prebidPath: 'https://cdn.cpex.cz/hb/prebid/v8/prebid.js'
   },
   formats: {
     skin: {
       enabled: true,
-      backgroundEl: /*S*/document.body/*E*/,
-      contentEl: /*S*/document.getElementById('page-wrapper')/*E*/,
+      backgroundEl: /*S*/ document.body /*E*/ ,
+      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/ ,
       contentCSS: 'position: relative;margin-top: 210px',
-      hide: [/*S*/document.getElementById('leaderboard-wrapper')/*E*/]
+      hide: [ /*S*/ document.getElementById('leaderboard-wrapper') /*E*/ ]
     },
     interscroller: {
       enabled: true
