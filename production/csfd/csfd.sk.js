@@ -1662,133 +1662,8 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
-    }, {
-      code: 'native_short_1',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1696621,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30226621
-        }
-      }],
-      filter: {
-        minWidth: 1000,
-        urlHasNot: 'debug'
-      }
-    }, {
-      code: 'native_2',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1712001,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30226622
-        }
-      }],
-      filter: {
-        minWidth: 1000,
-        urlHasNot: 'debug'
-      }
-    }, {
-      code: 'mobile_native_1',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1712009,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30226623
-        }
-      }],
-      filter: {
-        maxWidth: 1000,
-        urlHasNot: 'debug'
-      }
-    }, {
-      code: 'mobile_native_2',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1712010,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30226625
-        }
-      }],
-      filter: {
-        maxWidth: 1000,
-        urlHasNot: 'debug'
-      }
-    }, {
-      code: 'mobile_native_3',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1712011,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30226626
-        }
-      }],
-      filter: {
-        maxWidth: 1000,
-        urlHasNot: 'debug'
-      }
-    }, {
-      code: 'mobile_native_4',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1712012,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30226627
-        }
-      }],
-      filter: {
-        maxWidth: 1000,
-        urlHasNot: 'debug'
-      }
-    }]
+    }],
+    prebidPath: 'https://cdn.cpex.cz/hb/prebid/v8/prebid.js'
   },
   formats: {
     skin: {
@@ -1811,15 +1686,8 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       adUnits: ['mobile_square_1'],
-      width: 480,
-      height: 480,
-      enabled: true
-    },
-    native: {
-      enabled: true,
-      templates: {
-        native_short_1: "<div id='native'>\n  <a href='${link}'>\n    <div class='native-content'>\n      <div class='native-content-img'>\n        <img src='${img}' alt=''>\n      </div>\n      <div class='native-content-desc'>\n        <div class='native-content-desc-text'>\n          <p>${title}</p>\n          <p id='nativeText'>${desc}</p>\n        </div>\n        <div class='native-info'>\n          <span class='info'>reklama</span>\n        </div>\n      </div>\n    </div>\n  </a>\n</div>"
-      }
+      width: '480',
+      height: '480'
     }
   }
 }
