@@ -17,7 +17,8 @@ window.cpexPublisherSettings = {
       triplelift: 'Triplelift_HB',
       r2b2: 'R2B2',
       smart: 'Smart',
-      teads: 'Teads'
+      teads: 'Teads',
+      adform: 'Adform_HB'
     }
   },
   headerbidding: {
