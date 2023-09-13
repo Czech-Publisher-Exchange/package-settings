@@ -9,7 +9,7 @@ window.cpexWebsiteSettings = {
     } /*E*/
   },
   headerbidding: {
-    prebidPath: 'https://cdn.cpex.cz/hb/prebid/v8/prebid.js',
+    prebidPath: 'https://cdn.cpex.cz/hb/prebid/prebid.js',
     prebidDebug: true,
     analytics: ['id5Analytics', 'cpexAnalytics'],
     adUnits: [{
