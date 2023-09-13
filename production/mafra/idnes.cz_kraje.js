@@ -2828,6 +2828,28 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 30878669
+        }
+      }]
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 30878670
+        }
+      }]
     }]
   },
   formats: {
@@ -2846,6 +2868,9 @@ window.cpexWebsiteSettings = {
       adUnits: ['m_sticky']
     },
     vignette: {
+      enabled: true
+    },
+    native: {
       enabled: true
     }
   }
