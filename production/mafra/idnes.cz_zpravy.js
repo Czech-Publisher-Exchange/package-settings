@@ -2944,6 +2944,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5321129'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1023442
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30570120
@@ -2960,6 +2965,28 @@ window.cpexWebsiteSettings = {
           p: '480x300_bottom_clankovy_3',
           m: 0,
           g: 'hb'
+        }
+      }]
+    }, {
+      code: 'nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 30878856
+        }
+      }]
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 30878858
         }
       }]
     }]
@@ -2986,6 +3013,9 @@ window.cpexWebsiteSettings = {
     vignette: {
       enabled: true,
       adUnits: ['m_vignete']
+    },
+    native: {
+      enabled: true
     }
   }
 }
