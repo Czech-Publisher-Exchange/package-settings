@@ -298,7 +298,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [998, 200],
             [970, 250],
-            [970, 210]
+            [970, 210],
+            [2000, 1400]
           ]
         }
       },
@@ -309,7 +310,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002726,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 57, 96]
+          sizes: [259, 57, 96, 230]
         }
       }, {
         bidder: 'pubmatic',
@@ -544,7 +545,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [998, 200],
             [970, 250],
-            [970, 210]
+            [970, 210],
+            [2000, 1400]
           ]
         }
       },
@@ -555,7 +557,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002726,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 57, 96]
+          sizes: [259, 57, 96, 230]
         }
       }, {
         bidder: 'pubmatic',
@@ -946,6 +948,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [480, 820],
             [300, 300],
             [300, 250]
           ]
@@ -958,7 +961,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002750,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15]
+          sizes: [256, 48, 15]
         }
       }, {
         bidder: 'pubmatic',
@@ -985,6 +988,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [480, 820],
             [300, 600]
           ]
         }
@@ -996,7 +1000,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002752,
           accountId: '10900',
           position: 'atf',
-          sizes: [10]
+          sizes: [256, 10]
         }
       }, {
         bidder: 'pubmatic',
@@ -1063,7 +1067,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 600],
             [300, 300],
             [300, 250]
           ]
@@ -1076,7 +1079,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002756,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15]
+          sizes: [48, 15]
         }
       }, {
         bidder: 'pubmatic',
@@ -1103,7 +1106,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 600],
             [300, 300],
             [300, 250]
           ]
@@ -1116,7 +1118,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002758,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15]
+          sizes: [48, 15]
         }
       }, {
         bidder: 'pubmatic',
@@ -1143,7 +1145,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 600],
             [300, 300],
             [300, 250]
           ]
@@ -1156,7 +1157,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002760,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15]
+          sizes: [48, 15]
         }
       }, {
         bidder: 'pubmatic',
@@ -1183,7 +1184,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 600],
             [300, 300],
             [300, 250]
           ]
@@ -1196,7 +1196,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002762,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15]
+          sizes: [48, 15]
         }
       }, {
         bidder: 'pubmatic',
@@ -1223,7 +1223,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 600],
             [300, 300],
             [300, 250]
           ]
@@ -1236,7 +1235,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002764,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15]
+          sizes: [48, 15]
         }
       }, {
         bidder: 'pubmatic',
@@ -1263,7 +1262,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 600],
             [300, 300],
             [300, 250]
           ]
@@ -1276,7 +1274,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3002766,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15]
+          sizes: [48, 15]
         }
       }, {
         bidder: 'pubmatic',
