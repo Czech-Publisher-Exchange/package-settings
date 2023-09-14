@@ -222,6 +222,70 @@ window.cpexWebsiteSettings = {
         [320, 50]
       ],
       path: '/22874140038/stars24.cz_a_pop-up_sticky'
+    }, {
+      elementId: 'mhp-1-respox600',
+      sizes: [
+        ['300', '250'],
+        ['300', '300'],
+        ['300', '600']
+      ],
+      path: '/22874140038/stars24.cz_hp_responsive_1'
+    }, {
+      elementId: 'mhp-2-respox600',
+      sizes: [
+        ['300', '600'],
+        ['300', '300'],
+        ['300', '250']
+      ],
+      path: '/22874140038/stars24.cz_hp_responsive_2'
+    }, {
+      elementId: 'mhp-3-respox600',
+      sizes: [
+        ['300', '600'],
+        ['300', '300'],
+        ['300', '250']
+      ],
+      path: '/22874140038/stars24.cz_hp_responsive_3'
+    }, {
+      elementId: 'mhp-4-respox600',
+      sizes: [
+        ['300', '600'],
+        ['300', '300'],
+        ['300', '250']
+      ],
+      path: '/22874140038/stars24.cz_hp_responsive_4'
+    }, {
+      elementId: 'mhp-5-respox600',
+      sizes: [
+        ['300', '600'],
+        ['300', '300'],
+        ['300', '250']
+      ],
+      path: '/22874140038/stars24.cz_hp_responsive_5'
+    }, {
+      elementId: 'ma-3-300x600',
+      sizes: [
+        ['300', '600'],
+        ['300', '300'],
+        ['300', '250']
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_3'
+    }, {
+      elementId: 'ma-4-300x600',
+      sizes: [
+        ['300', '600'],
+        ['300', '300'],
+        ['300', '250']
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_4'
+    }, {
+      elementId: 'ma-5-300x600',
+      sizes: [
+        ['300', '600'],
+        ['300', '300'],
+        ['300', '250']
+      ],
+      path: '/22874140038/stars24.cz_a_responsive_5'
     }],
     gamId: '22874140038',
     gamPrefix: 'stars24.cz_'
