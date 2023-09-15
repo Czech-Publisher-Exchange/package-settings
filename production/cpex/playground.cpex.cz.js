@@ -251,7 +251,8 @@ window.cpexWebsiteSettings = {
           placementId: '30841066'
         }
       }]
-    }]
+    }],
+    auctionTimeoutMs: 5000
   },
   adserver: {
     loadPrerequisites: true,
