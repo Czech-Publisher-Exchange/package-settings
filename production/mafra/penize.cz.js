@@ -773,6 +773,28 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'widesquare_clankovy2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'r2b2',
+        params: {
+          d: 'penize.cz',
+          p: '480x300_clankovy_2',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
       code: '300x300_1',
       mediaTypes: {
         banner: {
