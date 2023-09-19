@@ -2815,7 +2815,8 @@ window.cpexWebsiteSettings = {
           placementId: 30293506
         }
       }]
-    }]
+    }],
+    prebidPath: 'https://cdn.cpex.cz/hb/prebid/v8/prebid.js'
   },
   formats: {
     skin: {
