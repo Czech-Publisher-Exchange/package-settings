@@ -1672,6 +1672,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: 'interscroller_foto_scroll_2',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_vignete',
@@ -1908,6 +1916,25 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250_foto_mid4',
           m: 1,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: '300x250',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'r2b2',
+        params: {
+          d: 'expres.cz',
+          p: '300x250',
+          m: 0,
           g: 'hb'
         }
       }]
