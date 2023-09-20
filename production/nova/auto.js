@@ -3,9 +3,7 @@ window.cpexWebsiteSettings = {
     name: 'tn.nova.cz/auto'
   },
   adserver: {
-    adapter: 'sastracker',
-    gamId: '27415282',
-    gamPrefix: 'TN_'
+    adapter: 'sastracker'
   },
   headerbidding: {
     adUnits: [{
