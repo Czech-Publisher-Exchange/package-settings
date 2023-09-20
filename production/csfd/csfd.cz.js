@@ -1186,16 +1186,6 @@ window.cpexWebsiteSettings = {
           sizes: [10, 9, 48, 15]
         }
       }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 235292,
-          zoneId: 1925152,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 9, 48, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
