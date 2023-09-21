@@ -2812,6 +2812,12 @@ window.cpexWebsiteSettings = {
           sizes: [83, 48, 14, 15, 261]
         }
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5409066'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1038403
