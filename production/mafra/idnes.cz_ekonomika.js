@@ -2849,6 +2849,50 @@ window.cpexWebsiteSettings = {
           placementId: 30878664
         }
       }]
+    }, {
+      code: 'widesquare_clankovy3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3038990,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5409065'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1038402
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30850643
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }]
     }]
   },
   formats: {
