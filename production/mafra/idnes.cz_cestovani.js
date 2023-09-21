@@ -364,16 +364,6 @@ window.cpexWebsiteSettings = {
           sizes: [10, 48, 15, 9]
         }
       }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144584,
-          zoneId: 1906756,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -2797,6 +2787,44 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 30878656
+        }
+      }]
+    }, {
+      code: 'widesquare_clankovy3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3038992,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1038403
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30850645
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }]
