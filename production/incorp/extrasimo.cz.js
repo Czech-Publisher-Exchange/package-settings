@@ -33,8 +33,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [998, 200],
-            [970, 210],
-            [2000, 1400]
+            [970, 210]
           ]
         }
       },
@@ -67,8 +66,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [998, 200],
-            [970, 210],
-            [2000, 1400]
+            [970, 210]
           ]
         }
       },
