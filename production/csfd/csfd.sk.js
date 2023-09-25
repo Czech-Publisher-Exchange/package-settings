@@ -1662,8 +1662,7 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
-    }],
-    prebidPath: 'https://cdn.cpex.cz/hb/prebid/v8/prebid.js'
+    }]
   },
   formats: {
     skin: {
