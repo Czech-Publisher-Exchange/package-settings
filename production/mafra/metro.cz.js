@@ -555,7 +555,6 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
       backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
       contentCSS: ' ',
