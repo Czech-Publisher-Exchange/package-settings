@@ -6,7 +6,7 @@ window.cpexWebsiteSettings = {
     adapter: 'sastracker'
   },
   headerbidding: {
-    enabled: true,
+    enabled: false,
     adUnits: [{
       code: 'div-ad-board',
       mediaTypes: {
