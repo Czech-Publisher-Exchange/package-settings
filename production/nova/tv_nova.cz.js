@@ -1378,7 +1378,7 @@ window.cpexWebsiteSettings = {
       offset: 80,
       offsetScroll: true,
       contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px; background-color: var(--theme-bg, white);',
-      generalCSS: '.c-branding .c-leaderboard {\n  height: 0px;\n  min-height: 0px\n}\n\nbody .c-leaderboard #div-ad-leaderboard {\n  width: 1920px;\n  height: 0;\n  min-height: 0;\n  position: fixed;\n  left: 50%;\n  top: 83px;\n  transform: translateX(-50%);\n}\n\nbody .c-leaderboard #div-ad-leaderboard .banner-highlight {\n  height: 1400px;\n}'
+      generalCSS: '.c-branding .c-leaderboard {  height: 0px;  min-height: 0px}body .c-leaderboard #div-ad-leaderboard {  width: 1920px;  height: 0;  min-height: 0;  position: fixed;  left: 50%;  top: 83px;  transform: translateX(-50%);}body .c-leaderboard #div-ad-leaderboard .banner-highlight {  height: 1400px;}'
     }
   }
 }
