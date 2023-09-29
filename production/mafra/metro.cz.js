@@ -558,7 +558,8 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
       backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
       contentCSS: ' ',
-      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ]
+      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ],
+      enabled: true
     },
     slideup: {
       adUnits: ['m_sticky']
