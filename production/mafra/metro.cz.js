@@ -555,11 +555,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
       contentCSS: ' ',
-      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ],
-      enabled: true
+      enabled: true,
+      generalCSS: '#r-leaderboardhp {\n  height: 200px\n}'
     },
     slideup: {
       adUnits: ['m_sticky']
