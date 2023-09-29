@@ -557,7 +557,7 @@ window.cpexWebsiteSettings = {
     skin: {
       contentCSS: ' ',
       enabled: true,
-      generalCSS: '#r-leaderboardhp {\n  height: 200px\n}'
+      generalCSS: '#r-leaderboardhp {  height: 200px}'
     },
     slideup: {
       adUnits: ['m_sticky']
@@ -568,6 +568,9 @@ window.cpexWebsiteSettings = {
     },
     vignette: {
       adUnits: ['m_vignete']
+    },
+    interscroller: {
+      enabled: true
     }
   }
 }
