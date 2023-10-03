@@ -35,6 +35,26 @@ window.cpexWebsiteSettings = {
           sizes: [230, 259, 2, 96, 55]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743408,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -57,6 +77,26 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [230, 259, 2, 96, 55]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743414,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -91,6 +131,26 @@ window.cpexWebsiteSettings = {
           sizes: [10, 48, 15, 9, 14]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743397,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -112,6 +172,26 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743398,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -135,6 +215,26 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [10, 48, 15, 9]
         }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743399,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -156,6 +256,26 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743400,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -189,6 +309,26 @@ window.cpexWebsiteSettings = {
           sizes: [10, 48, 15, 9]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743401,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_clankovy',
@@ -209,6 +349,26 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [15, 14, 261]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743409,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -231,6 +391,26 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [15, 14, 261]
         }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743410,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_clankovy_opak2',
@@ -252,6 +432,26 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [15, 14, 261]
         }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743411,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x250_clankovy_opak_2',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_clankovy_opak3',
@@ -271,6 +471,26 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [15, 14]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743412,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x250_clankovy_opak_3',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -293,6 +513,26 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [15, 14, 261]
         }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743402,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x250_foto_end',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_foto_mid',
@@ -314,6 +554,26 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [15, 14, 261]
         }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743403,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_foto_start',
@@ -334,6 +594,26 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [15, 14, 261]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743404,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -369,6 +649,26 @@ window.cpexWebsiteSettings = {
           sizes: [15, 14, 256, 10, 261]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743405,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_branding_foto',
@@ -391,6 +691,26 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [15, 14, 256, 261]
         }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743413,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: 'interscroller_foto_scroll',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_branding_foto2',
@@ -412,6 +732,26 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [15, 14, 256, 261]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743415,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: 'interscroller_foto_scroll_2',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -444,6 +784,12 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15, 258]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
       }]
     }, {
       code: 'm_sticky_foto',
@@ -465,6 +811,12 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [60, 15, 258]
         }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
       }]
     }, {
       code: 'm_vignete',
@@ -485,6 +837,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [256, 10]
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
         }
       }]
     }, {
@@ -517,6 +875,26 @@ window.cpexWebsiteSettings = {
           sizes: [94, 2, 57]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743406,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200478,
+          pageId: 185386
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -550,6 +928,26 @@ window.cpexWebsiteSettings = {
           sizes: [83, 48, 14, 15, 261]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743407,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 200477,
+          pageId: 185385
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metro.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }]
   },
