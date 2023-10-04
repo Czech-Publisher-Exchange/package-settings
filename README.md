@@ -93,34 +93,59 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 ### Publisher info
 `publisher: {}`
 *Only used for publisher settings*
-| Attribute     | Values                                            | Default    |
-|---------------|---------------------------------------------------|------------|
-| `code`        | Required, short standard publisher identifier     |            |
-| `name`        | String, optional, legal name of the publisher     |            |
-| `note`        | String, optional, useful note for production      |            |
-| `sellerId`    | Number, required, from cpex.cz/sellers.json       | 0          |
+| Attribute      | Values                                            | Default    |
+|----------------|---------------------------------------------------|------------|
+| `code`         | Required, short standard publisher identifier     |            |
+| `name`         | String, optional, legal name of the publisher     |            |
+| `note`         | String, optional, useful note for production      |            |
+| `sellerId`     | Number, required, from cpex.cz/sellers.json       | 0          |
 
 ### Website info
 `website: {}`
 *Only used for website settings*
-| Attribute     | Values                                            | Default    |
-|---------------|---------------------------------------------------|------------|
-| `name`        | String, optional, name of the website             |            |
-| `note`        | String, optional, useful note for production      |            |
+| Attribute      | Values                                            | Default    |
+|----------------|---------------------------------------------------|------------|
+| `name`         | String, optional, name of the website             |            |
+| `note`         | String, optional, useful note for production      |            |
+
+### AB
+`ab: {}`
+*To test multiple settings against each other*
+| Attribute          | Values                                                      | Default    |
+|--------------------|-------------------------------------------------------------|------------|
+| `enabled`          | Boolean                                                     | false      |
+| `groupList`        | Object of Group Objects (test groups), names are keys       |            |
+| `group`            | String, result of group selection or manual override        |            |
+| `selectGroup`      | Function, custom selection method, should return group name |            |
+| `sasKey`           | String, SAS key to use for sending the group name           |            |
+
+**Group object**
+| Attribute          | Values                                           | Default    |
+|--------------------|--------------------------------------------------|------------|
+| `websiteSettings`  | String, URL to override website settings         |            |
+| `probability`      | Float, range of 0 to 1, all has to add up to 1   | 0          |
+
+**Example**
+```js
+ab.groupList: {
+  a: { websiteSettings: 'https://cdn.cpex.cz/settings/cpex/playground.js', probability: 0.5 },
+  b: { websiteSettings: 'https://cdn.cpex.cz/settings/cpex/playgroundB.js', probability: 0.5 },
+}
+```
 
 ### CMP
 `cmp: {}`
-| Attribute   | Values                                              | Default    |
-|-------------|-----------------------------------------------------|------------|
-| `enabled`   | Boolean                                             | true       |
-| `pixelList` | Array of URL strings                                | array      |
+| Attribute      | Values                                           | Default    |
+|----------------|--------------------------------------------------|------------|
+| `enabled`      | Boolean                                          | true       |
+| `pixelList`    | Array of URL strings                             | array      |
 
 ### Analytics
 `analytics: {}`
-| Attribute   | Values                                              | Default    |
-|-------------|-----------------------------------------------------|------------|
-| `enabled`   | Boolean                                             | true       |
-| `force`     | Boolean, allows to skip consent check               | false      |
+| Attribute      | Values                                           | Default    |
+|----------------|--------------------------------------------------|------------|
+| `enabled`      | Boolean                                          | true       |
+| `force`        | Boolean, allows to skip consent check            | false      |
 
 ### Ad server
 **Note:** To properly merge between the two types of settings, SSPs should be named consistently. Please use the following strings: **pubmatic, index, magnite, xandr**
