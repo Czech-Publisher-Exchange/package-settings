@@ -2979,6 +2979,12 @@ window.cpexWebsiteSettings = {
         native: {}
       },
       bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1763464,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30878856
@@ -2990,6 +2996,12 @@ window.cpexWebsiteSettings = {
         native: {}
       },
       bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1763463,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30878858

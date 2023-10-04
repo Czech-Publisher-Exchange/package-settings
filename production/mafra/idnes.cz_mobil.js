@@ -2859,8 +2859,7 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }]
-    }],
-    prebidPath: 'https://cdn.cpex.cz/hb/prebid/v8/prebid.js'
+    }]
   },
   formats: {
     skin: {

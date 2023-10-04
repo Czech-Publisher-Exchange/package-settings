@@ -65,14 +65,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '970x250_3',
-          m: 0,
-          g: 'hb'
-        }
       }],
       filter: {
         minWidth: 992
@@ -134,14 +126,6 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '320x100_3',
-          m: 1,
-          g: 'hb'
         }
       }],
       filter: {
@@ -211,22 +195,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '970x250_1',
-          m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: 'branding',
-          m: 0,
-          g: 'hb'
-        }
       }],
       filter: {
         minWidth: 992,
@@ -286,14 +254,6 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: 'branding',
-          m: 0,
-          g: 'hb'
         }
       }],
       filter: {
@@ -358,14 +318,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '970x250_2',
-          m: 0,
-          g: 'hb'
-        }
       }],
       filter: {
         minWidth: 992
@@ -426,14 +378,6 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '320x100_2',
-          m: 1,
-          g: 'hb'
         }
       }],
       filter: {
@@ -496,14 +440,6 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '480x300_2',
-          m: 0,
-          g: 'hb'
         }
       }]
     }, {
@@ -569,22 +505,6 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x300_1',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: 'interscroller_1',
-          m: 1,
-          g: 'hb'
         }
       }],
       filter: {
@@ -654,22 +574,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x300_2',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: 'interscroller_2',
-          m: 1,
-          g: 'hb'
-        }
       }],
       filter: {
         maxWidth: 991
@@ -732,14 +636,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x600_1',
-          m: 0,
-          g: 'hb'
-        }
       }]
     }, {
       code: 'div-ad-rectangle-right2',
@@ -799,14 +695,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x600_2',
-          m: 0,
-          g: 'hb'
-        }
       }]
     }, {
       code: 'div-ad-rectangle-top',
@@ -865,14 +753,6 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '480x300_1',
-          m: 0,
-          g: 'hb'
         }
       }]
     }, {
@@ -938,22 +818,6 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x300_1',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: 'interscroller_1',
-          m: 1,
-          g: 'hb'
         }
       }],
       filter: {
@@ -1023,22 +887,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x300_2',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: 'interscroller_2',
-          m: 1,
-          g: 'hb'
-        }
       }],
       filter: {
         maxWidth: 991
@@ -1106,22 +954,6 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x300_3',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: 'interscroller_3',
-          m: 1,
-          g: 'hb'
         }
       }],
       filter: {
@@ -1191,22 +1023,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x300_4',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: 'interscroller_4',
-          m: 1,
-          g: 'hb'
-        }
       }],
       filter: {
         maxWidth: 991
@@ -1275,22 +1091,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x300_5',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: 'interscroller_5',
-          m: 1,
-          g: 'hb'
-        }
       }],
       filter: {
         maxWidth: 991
@@ -1353,14 +1153,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x600_1',
-          m: 0,
-          g: 'hb'
-        }
       }],
       filter: {
         minWidth: 992
@@ -1377,8 +1169,8 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/ ,
       offset: 80,
       offsetScroll: true,
-      contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px; background-color: var(--theme-bg, white);',
-      generalCSS: '.c-branding .c-leaderboard {\n  height: 0px;\n  min-height: 0px\n}\n\nbody .c-leaderboard #div-ad-leaderboard {\n  width: 1920px;\n  height: 0;\n  min-height: 0;\n  position: fixed;\n  left: 50%;\n  top: 83px;\n  transform: translateX(-50%);\n}\n\nbody .c-leaderboard #div-ad-leaderboard .banner-highlight {\n  height: 1400px;\n}'
+      contentCSS: 'position: relative;margin: auto;margin-top: 280px;padding-top: 0px;background-color: white;',
+      generalCSS: '.c-branding .c-leaderboard {  height: 0px;  min-height: 0px}body .c-leaderboard #div-ad-leaderboard {  width: 1920px;  height: 0;  min-height: 0;  position: fixed;  left: 50%;  top: 83px;  transform: translateX(-50%);}body .c-leaderboard #div-ad-leaderboard .banner-highlight {  height: 1400px;}'
     }
   }
 }
