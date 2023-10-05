@@ -2810,6 +2810,12 @@ window.cpexWebsiteSettings = {
           sizes: [221]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1782792,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30878651
@@ -2828,6 +2834,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [221]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1782791,
+          rcur: 'USD'
         }
       }, {
         bidder: 'appnexus',
