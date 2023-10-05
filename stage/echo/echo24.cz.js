@@ -12,7 +12,8 @@ window.cpexWebsiteSettings = {
             [970, 210],
             [970, 250],
             [728, 90],
-            [970, 310]
+            [970, 310],
+            [2000, 1400]
           ]
         }
       },
@@ -23,7 +24,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2748916,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 96, 57, 2, 94]
+          sizes: [259, 96, 57, 2, 94, 230]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -32,7 +33,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2749426,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 96, 57, 2, 94]
+          sizes: [259, 96, 57, 2, 94, 230]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1709,25 +1710,19 @@ window.cpexWebsiteSettings = {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
     } /*E*/
   },
+  adserver: {
+    adapter: 'sastracker'
+  },
   formats: {
     skin: {
       enabled: true,
       hide: [ /*S*/ document.getElementsByClassName('adcontainer-header')[0] /*E*/ ],
-      contentEl: /*S*/ document.getElementById('st-container') /*E*/
-    },
-    interscroller: {
-      enabled: true,
-      adUnits: ['adMobileFlow1']
+      contentEl: /*S*/ document.getElementById('st-container') /*E*/ ,
+      backgroundEl: /*S*/ document.getElementById('main__content') /*E*/
     },
     slideup: {
       enabled: true,
       adUnits: ['SASSlideUp']
-    },
-    responsive: {
-      adUnits: ['adMobileFlow1'],
-      width: 480,
-      height: 480,
-      enabled: true
     }
   }
 }
