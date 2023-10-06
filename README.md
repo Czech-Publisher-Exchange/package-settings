@@ -111,27 +111,26 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 ### AB
 `ab: {}`
 *To test multiple settings against each other*
-| Attribute          | Values                                                      | Default    |
-|--------------------|-------------------------------------------------------------|------------|
-| `enabled`          | Boolean                                                     | false      |
-| `groupList`        | Object of Group Objects (test groups), names are keys       |            |
-| `group`            | String, result of group selection or manual override        |            |
-| `selectGroup`      | Function, custom selection method, should return group name |            |
-| `sasKey`           | String, SAS key to use for sending the group name           |            |
+| Attribute          | Values                                                        | Default    |
+|--------------------|---------------------------------------------------------------|------------|
+| `enabled`          | Boolean                                                       | false      |
+| `groupList`        | Object of `Group Objects`*, keys are names of the test groups |            |
+| `selectGroup`      | Function, custom selection method, should return group name   |            |
+| `sasKey`           | String, SAS key to use for sending the group name             |            |
 
-**Group object**
-| Attribute          | Values                                           | Default    |
-|--------------------|--------------------------------------------------|------------|
-| `websiteSettings`  | String, URL to override website settings         |            |
-| `probability`      | Float, range of 0 to 1, all has to add up to 1   | 0          |
+  #### * Group object
+  | Attribute          | Values                                           | Default    |
+  |--------------------|--------------------------------------------------|------------|
+  | `websiteSettings`  | String, URL to override website settings         |            |
+  | `probability`      | Float, range of 0 to 1, all has to add up to 1   | 0          |
 
-**Example**
-```js
-ab.groupList: {
-  a: { websiteSettings: 'https://cdn.cpex.cz/settings/cpex/playground.js', probability: 0.5 },
-  b: { websiteSettings: 'https://cdn.cpex.cz/settings/cpex/playgroundB.js', probability: 0.5 },
-}
-```
+  #### Example
+  ```js
+  ab.groupList: {
+    a: { websiteSettings: 'https://cdn.cpex.cz/settings/cpex/playground.js', probability: 0.5 },
+    b: { websiteSettings: 'https://cdn.cpex.cz/settings/cpex/playgroundB.js', probability: 0.5 },
+  }
+  ```
 
 ### CMP
 `cmp: {}`
@@ -164,9 +163,9 @@ ab.groupList: {
 | `allowedSSPs`        | **SAS only** Object, advertiser IDs allowed for custom formats |              |
 | `bidderTable`        | **SAS only** Object, bidder names in the SAS instance          |              |
 
-- defineSlots: slot definition object: `{ elementId: '', sizes: [], path: '' }`
-- allowedSSPs default: `{ pubmatic: 1, index: 3, magnite: 4, xandr: 5 }`
-- bidderTable default: `stroeerCore: stroeer, appnexus: xandr_hb, pubmatic: pubmatic_hb, rubicon: magnite_hb, adform: adform, im-adform: im-adform, r2b2: r2b2, triplelift: triplelift_hb, ix: index_hb, smart: smart, teads: teads, rtbhouse: rtbhouse`
+  - defineSlots: slot definition object: `{ elementId: '', sizes: [], path: '' }`
+  - allowedSSPs default: `{ pubmatic: 1, index: 3, magnite: 4, xandr: 5 }`
+  - bidderTable default: `stroeerCore: stroeer, appnexus: xandr_hb, pubmatic: pubmatic_hb, rubicon: magnite_hb, adform: adform, im-adform: im-adform, r2b2: r2b2, triplelift: triplelift_hb, ix: index_hb, smart: smart, teads: teads, rtbhouse: rtbhouse`
 
 ### Header-bidding
 `headerbidding: {}`
@@ -189,21 +188,21 @@ ab.groupList: {
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 [Bidder Settings reference](https://docs.prebid.org/dev-docs/publisher-api-reference/bidderSettings.html)
 
-#### Filter - custom AdUnit property
-*removes the adUnit if certain runtime conditions apply*
+  #### Filter - custom AdUnit property
+  *removes the adUnit if certain runtime conditions apply*
 
-`filter: {}`
-| Attribute     | Values                                                         |
-|---------------|----------------------------------------------------------------|
-| `maxWidth`    | Number, remove before auction if viewport is larger than X     |
-| `minWidth`    | Number, remove before auction if viewport is smaller than X    |
-| `urlIs`       | String, remove before auction if URL is X                      |
-| `urlIsNot`    | String, remove before auction if URL isn't X                   |
-| `urlHas`      | String, remove before auction if URL contains X                |
-| `urlHasNot`   | String, remove before auction if URL doesn't contain X         |
-| `variable`    | String, remove before auction if window.cpexAdUnitParam != X   |
-| `cookie`      | String, remove before auction if page contains that cookie     |
-| `skin`        | String, remove after auction if a skin won in auction          |
+  `filter: {}`
+  | Attribute     | Values                                                         |
+  |---------------|----------------------------------------------------------------|
+  | `maxWidth`    | Number, remove before auction if viewport is larger than X     |
+  | `minWidth`    | Number, remove before auction if viewport is smaller than X    |
+  | `urlIs`       | String, remove before auction if URL is X                      |
+  | `urlIsNot`    | String, remove before auction if URL isn't X                   |
+  | `urlHas`      | String, remove before auction if URL contains X                |
+  | `urlHasNot`   | String, remove before auction if URL doesn't contain X         |
+  | `variable`    | String, remove before auction if window.cpexAdUnitParam != X   |
+  | `cookie`      | String, remove before auction if page contains that cookie     |
+  | `skin`        | String, remove after auction if a skin won in auction          |
 
 ### Formats
 `formats: {}`
