@@ -394,7 +394,8 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
-    }]
+    }],
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v8.12/prebid.min.js'
   },
   website: {
     name: 'hn.cz'
@@ -402,7 +403,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementById('brand-a')/*E*/,
+      contentEl: /*S*/ document.getElementById('brand-a') /*E*/ ,
       offset: 130,
       offsetScroll: false
     },
