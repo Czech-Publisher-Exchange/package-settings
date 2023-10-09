@@ -2876,6 +2876,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5409058'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1781480,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1038395
