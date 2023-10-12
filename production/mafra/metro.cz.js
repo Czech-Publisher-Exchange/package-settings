@@ -48,6 +48,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 878584
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200478,
@@ -100,6 +105,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743414,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042058
         }
       }, {
         bidder: 'teads',
@@ -166,6 +176,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 878585
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200478,
@@ -217,6 +232,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743398,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042059
         }
       }, {
         bidder: 'teads',
@@ -272,6 +292,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042060
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200478,
@@ -323,6 +348,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743400,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042061
         }
       }, {
         bidder: 'teads',
@@ -388,6 +418,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 878586
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200478,
@@ -438,6 +473,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743409,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042062
         }
       }, {
         bidder: 'teads',
@@ -492,6 +532,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042063
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200477,
@@ -544,6 +589,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042064
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200477,
@@ -593,6 +643,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743412,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042065
         }
       }, {
         bidder: 'teads',
@@ -647,6 +702,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042066
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200477,
@@ -699,6 +759,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042067
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200477,
@@ -749,6 +814,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743404,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042068
         }
       }, {
         bidder: 'teads',
@@ -816,6 +886,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 844208
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200477,
@@ -869,6 +944,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042069
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200477,
@@ -920,6 +1000,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743415,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042070
         }
       }, {
         bidder: 'teads',
@@ -978,6 +1063,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5429203'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042073
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200478,
@@ -1016,6 +1106,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5429201'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042071
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 200478,
@@ -1052,6 +1147,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5429202'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1042072
         }
       }, {
         bidder: 'teads',
@@ -1106,6 +1206,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743406,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 878587
         }
       }, {
         bidder: 'teads',
@@ -1170,6 +1275,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743407,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 878588
         }
       }, {
         bidder: 'teads',
