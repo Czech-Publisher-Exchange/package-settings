@@ -507,7 +507,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
-      contentCSS: 'width: 1060px;\nmargin: 200px auto;\nbackground-color: #fff;',
+      contentCSS: 'width: 1060px;\nmargin: 200px auto;\nposition: relative;',
       hide: [ /*S*/ document.getElementsByClassName('js-advert-position-mark-leaderboard')[0] /*E*/ ]
     }
   }
