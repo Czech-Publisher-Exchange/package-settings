@@ -72,7 +72,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'IDNES.CZ/JENPROZENY',
+          d: 'mafra.jenprozeny.cz',
           p: 'branding',
           m: 0,
           g: 'hb'
@@ -148,7 +148,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'IDNES.CZ/JENPROZENY',
+          d: 'mafra.jenprozeny.cz',
           p: '300x600',
           m: 0,
           g: 'hb'
@@ -224,7 +224,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'IDNES.CZ/JENPROZENY',
+          d: 'mafra.jenprozeny.cz',
           p: '300x600_fotogalerie',
           m: 0,
           g: 'hb'
@@ -300,7 +300,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'IDNES.CZ/JENPROZENY',
+          d: 'mafra.jenprozeny.cz',
           p: '300x600_rubrika',
           m: 0,
           g: 'hb'
@@ -376,7 +376,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'IDNES.CZ/JENPROZENY',
+          d: 'mafra.jenprozeny.cz',
           p: '300x600_rubrika_spodni',
           m: 0,
           g: 'hb'
@@ -452,7 +452,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'IDNES.CZ/JENPROZENY',
+          d: 'mafra.jenprozeny.cz',
           p: '300x600_spodni',
           m: 0,
           g: 'hb'
@@ -526,7 +526,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'IDNES.CZ/JENPROZENY',
+          d: 'mafra.jenprozeny.cz',
           p: '300x250',
           m: 1,
           g: 'hb'
@@ -603,7 +603,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'IDNES.CZ/JENPROZENY',
+          d: 'mafra.jenprozeny.cz',
           p: 'interscroller',
           m: 1,
           g: 'hb'
@@ -675,7 +675,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'IDNES.CZ/JENPROZENY',
+          d: 'mafra.jenprozeny.cz',
           p: '300x250_paticka',
           m: 1,
           g: 'hb'
