@@ -17,7 +17,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       templates: {
         'commercial-article-native-detail': "<aside class='inserted-article' style='width: 630px'>\t<article class='box-article box-article-mid fl'>\t\t<header class='box-article-header fl'>\t\t\t<a href='${link}' target='_blank' rel='sponsored noopener'>\t\t\t\t<div class='box-article-image'>\t\t\t\t\t<div class='box-article-img ratio ratio4-3'>\t\t\t\t\t\t<img src='${img}' width='166' height='125'>\t\t\t\t\t</div>\t\t\t\t</div>\t\t\t</a>\t\t</header>\t\t<div class='box-article-right fr'>\t\t\t<a class='box-article-title' href='${link}' target='_blank' rel='sponsored noopener'>\t\t\t\t<span class='text-tertiary'>REKLAMA</span>\t\t\t\t<h3>${title}</h3>\t\t\t\t<p>${desc}</p>\t\t\t</a>\t\t</div>\t</article></aside>",
-        'm-commercial-article-native-detail': "<aside class='inserted-article' stylee='width: 630px'>\t<article class='box-article box-article-mid fl'>\t\t<header class='box-article-header fl'>\t\t\t<a href='${link}' target='_blank' rel='sponsored noopener'>\t\t\t\t<div class='box-article-image'>\t\t\t\t\t<div class='box-article-img ratio ratio4-3'>\t\t\t\t\t\t<img src='${img}' width='166' height='125'>\t\t\t\t\t</div>\t\t\t\t</div>\t\t\t</a>\t\t</header>\t\t<div class='box-article-right fr'>\t\t\t<a class='box-article-title' href='${link}' target='_blank' style='margin-bottom: 5px' rel='sponsored noopener'>\t\t\t\t<span class='text-tertiary'>REKLAMA</span>\t\t\t\t<h3>${title}</h3>\t\t\t</a>\t\t\t<a href='${link}' target='_blank' style='font-size: 8pt'>${desc}</a>\t\t</div>\t</article></aside>",
+        'm-commercial-article-native-detail': "<aside class='inserted-article' style='width: 630px'>\t<article class='box-article box-article-mid fl'>\t\t<header class='box-article-header fl'>\t\t\t<a href='${link}' target='_blank' rel='sponsored noopener'>\t\t\t\t<div class='box-article-image'>\t\t\t\t\t<div class='box-article-img ratio ratio4-3'>\t\t\t\t\t\t<img src='${img}' width='166' height='125'>\t\t\t\t\t</div>\t\t\t\t</div>\t\t\t</a>\t\t</header>\t\t<div class='box-article-right fr'>\t\t\t<a class='box-article-title' href='${link}' target='_blank' style='margin-bottom: 5px' rel='sponsored noopener'>\t\t\t\t<span class='text-tertiary'>REKLAMA</span>\t\t\t\t<h3>${title}</h3>\t\t\t</a>\t\t\t<a href='${link}' target='_blank' style='font-size: 8pt'>${desc}</a>\t\t</div>\t</article></aside>",
         'commercial-article-1-GA': "<article class='cpex-native box-article box-article-mid'>  <div class='box-article-header'>    <div class='box-article-image'>      <a href='${link}' tabindex='-1' rel='noopener sponsored' target='_blank' rel='sponsored noopener'>        <div class='box-article-img ratio ratio4-3'>          <img height='216' alt='reklama' loading='lazy' src='${img}'>        </div>      </a>    </div>  </div>  <div class='box-article-right'>    <div class='box-article-category'>Reklama</div>    <a href='${link}' tabindex='-1' rel='noopener sponsored' class='box-article-text-wrap' target='_blank' rel='sponsored noopener'>      <h2 class='box-article-title'>${title}</h2>      <blockquote class='box-article-excerpt'>${desc}</blockquote>    </a>  </div></article>"
       }
     },
@@ -788,7 +788,7 @@ window.cpexWebsiteSettings = {
   },
   general: {
     onLoad: /*S*/ () => {
-      document.getElementsByClassName('wrapper')[0].style.position = 'inherit'
+      document.getElementsByClassName('wrapper')[0]?.style.position = 'inherit'
     } /*E*/
   }
 }
