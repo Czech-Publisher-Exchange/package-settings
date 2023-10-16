@@ -797,8 +797,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
-      contentCSS: ' ',
+      contentEl: /*S*/ document.getElementsByClassName('wrapper')[0] /*E*/ ,
+      contentCSS: 'margin-top: 200px; position: initial;',
       hide: [ /*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/ ]
     },
     native: {
