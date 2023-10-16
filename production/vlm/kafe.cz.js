@@ -798,7 +798,8 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
-      contentCSS: ' '
+      contentCSS: ' ',
+      hide: [ /*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/ ]
     },
     native: {
       enabled: true,
@@ -822,6 +823,5 @@ window.cpexWebsiteSettings = {
   },
   cmp: {
     enabled: false
-  },
-  general: {}
+  }
 }
