@@ -2863,6 +2863,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'xman.idnes.cz',
+          p: '300x250_foto_mid4',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }]
   },
