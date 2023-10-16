@@ -823,9 +823,5 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  general: {
-    onLoad: /*S*/ () => {
-      document.getElementsByClassName('wrapper')[0]?.style.position = 'inherit'
-    } /*E*/
-  }
+  general: {}
 }
