@@ -1,7 +1,6 @@
 window.cpexWebsiteSettings = {
   formats: {
     skin: {
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
       enabled: true,
       hide: [ /*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/ ]
     },
@@ -785,6 +784,5 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }]
-  },
-  general: {}
+  }
 }
