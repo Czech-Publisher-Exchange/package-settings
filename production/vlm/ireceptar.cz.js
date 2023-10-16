@@ -2,7 +2,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      hide: [ /*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/ ]
+      hide: [ /*S*/ document.getElementById('leaderboard-top') /*E*/ ]
     },
     slideup: {
       adUnits: ['m-sticky'],
