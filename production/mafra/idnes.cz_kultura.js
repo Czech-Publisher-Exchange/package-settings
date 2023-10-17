@@ -3001,6 +3001,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kultura.idnes.cz',
+          p: '480x300_clankovy_3',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }]
   },
