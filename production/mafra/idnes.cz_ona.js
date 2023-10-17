@@ -2896,6 +2896,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ona.idnes.cz',
+          p: '480x300_clankovy_3',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }]
   },
