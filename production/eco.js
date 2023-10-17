@@ -36,7 +36,6 @@ window.cpexPublisherSettings = {
   },
   headerbidding: {
     auctionTimeoutMs: 2000,
-    analytics: ['id5Analytics', 'cpexAnalytics'],
     userIDs: ['id5Id', 'shareId', 'criteo', 'czechAdId']
   },
   general: {

@@ -11,7 +11,6 @@ window.cpexWebsiteSettings = {
   headerbidding: {
     prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v8.17-video-fix/prebid.js',
     prebidDebug: true,
-    analytics: ['id5Analytics', 'cpexAnalytics'],
     adUnits: [{
       code: 'rectangle-1',
       mediaTypes: {

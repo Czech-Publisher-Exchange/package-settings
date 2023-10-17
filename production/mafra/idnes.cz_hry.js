@@ -2897,7 +2897,6 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }]
-    }],
-    analytics: ['cpexAnalytics', 'id5Analytics']
+    }]
   }
 }

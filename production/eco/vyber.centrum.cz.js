@@ -7,7 +7,6 @@ window.cpexWebsiteSettings = {
   },
   headerbidding: {
     currency: 'USD',
-    analytics: ['id5Analytics', 'cpexAnalytics'],
     enabled: false
   },
   formats: {

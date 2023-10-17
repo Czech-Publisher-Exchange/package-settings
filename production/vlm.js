@@ -25,7 +25,6 @@ window.cpexPublisherSettings = {
     }
   },
   headerbidding: {
-    analytics: ['id5Analytics', 'cpexAnalytics'],
     bidderSettings: {
       rubicon: {
         bidCpmAdjustment: /*S*/ (bidCpm, bid) => {

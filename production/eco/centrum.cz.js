@@ -562,7 +562,6 @@ window.cpexWebsiteSettings = {
       }]
     }],
     currency: 'USD',
-    analytics: ['id5Analytics', 'cpexAnalytics']
   },
   formats: {
     skin: {

@@ -24,9 +24,6 @@ window.cpexPublisherSettings = {
       'fragile-adform': 'fragile-adform'
     }
   },
-  headerbidding: {
-    analytics: ['id5Analytics', 'cpexAnalytics']
-  },
   general: {
     errorApiKey: 'hbp_lNk4ta9q55knF3cxCNbFUHJbOeI3gL0GVl1h'
   },
