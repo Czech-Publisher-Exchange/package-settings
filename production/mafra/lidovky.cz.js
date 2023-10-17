@@ -2518,6 +2518,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '300x600_rubrika_lazyload',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_foto_mid2',
@@ -2683,6 +2691,50 @@ window.cpexWebsiteSettings = {
           p: '300x250_foto_mid4',
           m: 1,
           g: 'hb'
+        }
+      }]
+    }, {
+      code: 'widesquare_clankovy3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3038980,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5409060'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1038397
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30850631
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }]
