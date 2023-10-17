@@ -786,6 +786,26 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3083808,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5458638'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31174660
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'penize.cz',
