@@ -305,7 +305,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 820],
-            [336, 280]
+            [336, 280],
+            [720, 1280]
           ]
         }
       },
@@ -361,6 +362,22 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '300x300_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: 'interscroller_1',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 991
@@ -373,7 +390,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 820],
-            [336, 280]
+            [336, 280],
+            [720, 1280]
           ]
         }
       },
@@ -429,6 +447,22 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '300x300_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: 'interscroller_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 991
@@ -441,7 +475,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 820],
-            [336, 280]
+            [336, 280],
+            [720, 1280]
           ]
         }
       },
@@ -496,6 +531,22 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: '300x300_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'sport.tn.nova.cz',
+          p: 'interscroller_3',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -710,7 +761,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 820],
-            [336, 280]
+            [336, 280],
+            [720, 1280]
           ]
         }
       },
@@ -780,7 +832,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 820],
-            [336, 280]
+            [336, 280],
+            [720, 1280]
           ]
         }
       },
@@ -850,7 +903,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 820],
-            [336, 280]
+            [336, 280],
+            [720, 1280]
           ]
         }
       },
@@ -920,7 +974,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 820],
-            [336, 280]
+            [336, 280],
+            [720, 1280]
           ]
         }
       },
@@ -982,7 +1037,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 820],
-            [336, 280]
+            [336, 280],
+            [720, 1280]
           ]
         }
       },
