@@ -2452,7 +2452,8 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
-    }]
+    }],
+    analytics: ['cpexAnalytics', 'id5Analytics']
   },
   formats: {
     skin: {
