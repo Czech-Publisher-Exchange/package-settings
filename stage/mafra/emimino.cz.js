@@ -1221,7 +1221,7 @@ window.cpexWebsiteSettings = {
         probability: 0.5
       },
       b: {
-        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/emiminos.cz.js',
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/emimino.cz.js',
         probability: 0.5
       }
     }
