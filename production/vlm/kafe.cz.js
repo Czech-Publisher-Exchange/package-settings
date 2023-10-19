@@ -823,5 +823,18 @@ window.cpexWebsiteSettings = {
   },
   cmp: {
     enabled: false
+  },
+  ab: {
+    enabled: true,
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/kafe.cz.js',
+        probability: 0.25
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/kafe.cz.js',
+        probability: 0.75
+      }
+    }
   }
 }
