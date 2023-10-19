@@ -1217,11 +1217,11 @@ window.cpexWebsiteSettings = {
     enabled: true,
     groupList: {
       a: {
-        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/emimino.cz.js',
+        websiteSettings: 'https://cdn.cpex.cz/settings/stage/mafra/emimino.cz.js',
         probability: 0.5
       },
       b: {
-        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/emimino.cz.js',
+        websiteSettings: 'https://cdn.cpex.cz/settings/stage/mafra/emimino.cz.js',
         probability: 0.5
       }
     }
