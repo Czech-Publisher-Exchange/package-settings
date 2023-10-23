@@ -1213,7 +1213,10 @@ window.cpexWebsiteSettings = {
       adUnits: ['m_vignete']
     },
     native: {
-      enabled: true
+      enabled: true,
+      templates: {
+        nativ: "<div class='advert-topic ads-mockup'>\n    <div class='advert-topic'>\n        <div class='advert-topic__content'>\n            <a rel='sponsored' href='${link}' target='_blank' class='color--default'>\n                <span>${title}</span>\n            </a>\n        </div>\n        <div class='advert-topic__image'>\n            <a rel='sponsored' href='${link}' target='_blank'>\n                <picture class='ratio ratio--169'>\n                    <img class='image-response' src='${img}'>\n                </picture>\n            </a>\n        </div>\n    </div>\n</div>"
+      }
     }
   }
 }
