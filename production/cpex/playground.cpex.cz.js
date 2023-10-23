@@ -127,9 +127,20 @@ window.cpexWebsiteSettings = {
           sizes: [221]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1743205,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: '29896310'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -147,6 +158,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: '29878475'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -210,9 +226,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         video: {
           playerSize: [
-            [
-              [640, 480]
-            ]
+            [640, 480]
           ]
         }
       },
