@@ -1148,50 +1148,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
-    }, {
-      code: 'widesquare_clankovy3',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 300],
-            [300, 300],
-            [250, 250],
-            [300, 250],
-            [480, 480]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 144582,
-          zoneId: 3038988,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
-        }
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5409064'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 1038401
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30850641
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }]
     }]
   },
   formats: {
@@ -1215,7 +1171,7 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        nativ: "<div class='advert-topic ads-mockup'>\n    <div class='advert-topic'>\n        <div class='advert-topic__content'>\n            <a rel='sponsored' href='${link}' target='_blank' class='color--default'>\n                <span>${title}</span>\n            </a>\n        </div>\n        <div class='advert-topic__image'>\n            <a rel='sponsored' href='${link}' target='_blank'>\n                <picture class='ratio ratio--169'>\n                    <img class='image-response' src='${img}'>\n                </picture>\n            </a>\n        </div>\n    </div>\n</div>"
+        nativ: "<div class='advert-topic ads-mockup'>    <div class='advert-topic'>        <div class='advert-topic__content'>            <a rel='sponsored' href='${link}' target='_blank' class='color--default'>                <span>${title}</span>            </a>        </div>        <div class='advert-topic__image'>            <a rel='sponsored' href='${link}' target='_blank'>                <picture class='ratio ratio--169'>                    <img class='image-response' src='${img}'>                </picture>            </a>        </div>    </div></div>"
       }
     }
   }
