@@ -1868,7 +1868,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'widesquare_clankovy_2',
+      code: 'widesquare_clankovy2',
       mediaTypes: {
         banner: {
           sizes: [
