@@ -63,7 +63,7 @@ window.cpexPublisherSettings = {
     native: {
       templates: {
         nativ: "<div class='art'> <a href='${link}' target='_blank' class='art-link'>\n    <h3>${title}</h3>\n    <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>\n    <p class='perex'>${desc}</p>\n  </a></div>",
-        m_nativ: "<div class='art'>\n  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>\n  <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>\n    <h3>${title}</h3>\n  </a>\n</div>"
+        m_nativ: "<div class='art'>\n  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>\n    <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>\n    <h3 style='text-align:left'>${title}</h3>\n  </a>\n</div>"
       }
     }
   }
