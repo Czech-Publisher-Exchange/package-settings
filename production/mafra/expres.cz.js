@@ -2019,6 +2019,11 @@ window.cpexWebsiteSettings = {
     vignette: {
       adUnits: ['m_vignete'],
       enabled: true
+    },
+    native: {
+      templates: {
+        nativ: "<div style='height:129px; margin-bottom: 20px; position: relative;'>\n    <a class='art-link' href='${link}' target='_blank'>\n        <h3 style='position: absolute; height:129px; left:250px; width: 400px; color:#000; font-size: 24px'>${title}</h3>\n        <div class='art-img w230'>\n            <img src='${img}' width='230' height='129' style='width:230px; height:129px; object-fit:cover' >\n            <span></span>\n        </div>\n    </a>\n</div>"
+      }
     }
   }
 }
