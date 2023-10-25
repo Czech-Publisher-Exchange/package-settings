@@ -2768,6 +2768,11 @@ window.cpexWebsiteSettings = {
     vignette: {
       enabled: true,
       adUnits: ['m_vignete']
+    },
+    native: {
+      templates: {
+        nativ: "<div class='art'>\n    <a href='${link}' target='_blank' class='art-link'>\n        <h3>${title}</h3>\n        <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>\n    </a>\n</div>"
+      }
     }
   }
 }
