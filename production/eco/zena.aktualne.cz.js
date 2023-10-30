@@ -159,6 +159,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1799488,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb-mask',
         params: {
           mid: 1334549,
@@ -775,6 +782,99 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'mediumrectangle-mob-pos1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [250, 250],
+            [300, 50],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 379394,
+          zoneId: 2100124,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14, 44, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 379396,
+          zoneId: 2119036,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14, 44, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: '4344951'
+        },
+        bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: 4909537
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1799489,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 701205,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 763337
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 150234,
+          pageId: 136854
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 21873836
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'ECO_zenaaktualnecz_mediumrectangle_mob_pos_1'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'zena.cz',
+          p: '300x250_pos1',
+          m: 1,
+          g: 'hb'
+        }
+      }]
+    }, {
       code: 'popup',
       mediaTypes: {
         banner: {
@@ -814,11 +914,11 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
       offset: 64,
       zIndex: 0,
       contentCSS: 'z-index:2; margin-top: 200px',
-      hide: [/*S*/document.getElementsByClassName('leaderboard')[0]/*E*/]
+      hide: [ /*S*/ document.getElementsByClassName('leaderboard')[0] /*E*/ ]
     },
     interscroller: {
       enabled: true
@@ -826,7 +926,7 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnits: ['sas-special4'],
-      backgroundEl: /*S*/document.getElementById('reklama-special4')/*E*/
+      backgroundEl: /*S*/ document.getElementById('reklama-special4') /*E*/
     }
   },
   general: {
