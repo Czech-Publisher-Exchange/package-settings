@@ -2756,6 +2756,11 @@ window.cpexWebsiteSettings = {
           mid: 1782822,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31269805
+        }
       }]
     }, {
       code: 'm_nativ',
@@ -2767,6 +2772,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1782821,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31269806
         }
       }]
     }]
