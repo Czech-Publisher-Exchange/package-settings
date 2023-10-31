@@ -2000,6 +2000,30 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1782812,
+          rcur: 'USD'
+        }
+      }]
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1782811,
+          rcur: 'USD'
+        }
+      }]
     }]
   },
   formats: {
@@ -2022,7 +2046,7 @@ window.cpexWebsiteSettings = {
     },
     native: {
       templates: {
-        nativ: "<div style='height:129px; margin-bottom: 20px; position: relative;'>\n    <a class='art-link' href='${link}' target='_blank'>\n        <h3 style='position: absolute; height:129px; left:250px; width: 400px; color:#000; font-size: 24px'>${title}</h3>\n        <div class='art-img w230'>\n            <img src='${img}' width='230' height='129' style='width:230px; height:129px; object-fit:cover' >\n            <span></span>\n        </div>\n    </a>\n</div>"
+        nativ: "<div style='height:129px; margin-bottom: 20px; position: relative;'>    <a class='art-link' href='${link}' target='_blank'>        <h3 style='position: absolute; height:129px; left:250px; width: 400px; color:#000; font-size: 24px'>${title}</h3>        <div class='art-img w230'>            <img src='${img}' width='230' height='129' style='width:230px; height:129px; object-fit:cover' >            <span></span>        </div>    </a></div>"
       }
     }
   }
