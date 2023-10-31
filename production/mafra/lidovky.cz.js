@@ -2745,6 +2745,30 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1782822,
+          rcur: 'USD'
+        }
+      }]
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1782821,
+          rcur: 'USD'
+        }
+      }]
     }]
   },
   formats: {
@@ -2771,7 +2795,7 @@ window.cpexWebsiteSettings = {
     },
     native: {
       templates: {
-        nativ: "<div class='art'>\n    <a href='${link}' target='_blank' class='art-link'>\n        <h3>${title}</h3>\n        <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>\n    </a>\n</div>"
+        nativ: "<div class='art'>    <a href='${link}' target='_blank' class='art-link'>        <h3>${title}</h3>        <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>    </a></div>"
       }
     }
   }
