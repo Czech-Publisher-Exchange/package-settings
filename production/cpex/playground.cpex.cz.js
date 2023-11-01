@@ -210,9 +210,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         video: {
           playerSize: [
-            [
-              [640, 480]
-            ]
+            [640, 480]
           ]
         }
       },
