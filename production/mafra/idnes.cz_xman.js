@@ -2867,7 +2867,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'xman.idnes.cz',
-          p: '300x250_foto_mid4',
+          p: '480x300_clankovy_3',
           m: 0,
           g: 'hb'
         }

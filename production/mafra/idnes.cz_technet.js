@@ -2794,7 +2794,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 30293509
+          placementId: 31269819
         }
       }]
     }, {
@@ -2862,6 +2862,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'technet.idnes.cz',
+          p: '480x300_clankovy_3',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]

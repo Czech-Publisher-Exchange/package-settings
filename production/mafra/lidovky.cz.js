@@ -2694,7 +2694,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'widesquare_clankovy3',
+      code: 'widesquare_clankovy2',
       mediaTypes: {
         banner: {
           sizes: [
@@ -2710,7 +2710,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 144582,
-          zoneId: 3038980,
+          zoneId: 2749604,
           accountId: '10900',
           position: 'atf',
           sizes: [83, 48, 14, 15, 261]
@@ -2719,22 +2719,64 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '5409060'
+          adSlot: '5458640'
         }
       }, {
         bidder: 'ix',
         params: {
-          siteId: 1038397
+          siteId: 1047581
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 30850631
+          placementId: 29026276
         }
       }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '480x300_clankovy_2',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1782822,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31269805
+        }
+      }]
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1782821,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31269806
         }
       }]
     }]
@@ -2760,6 +2802,11 @@ window.cpexWebsiteSettings = {
     vignette: {
       enabled: true,
       adUnits: ['m_vignete']
+    },
+    native: {
+      templates: {
+        nativ: "<div class='art'>    <a href='${link}' target='_blank' class='art-link'>        <h3>${title}</h3>        <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>    </a></div>"
+      }
     }
   }
 }

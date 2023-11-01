@@ -1149,47 +1149,20 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'widesquare_clankovy3',
+      code: 'nativ',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 300],
-            [300, 300],
-            [250, 250],
-            [300, 250],
-            [480, 480]
-          ]
-        }
+        native: {}
       },
       bids: [{
-        bidder: 'rubicon',
+        bidder: 'adform',
         params: {
-          siteId: 144582,
-          zoneId: 3038988,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
-        }
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5409064'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 1038401
+          mid: 1782810,
+          rcur: 'USD'
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 30850641
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
+          placementId: 31269807
         }
       }]
     }]
@@ -1211,6 +1184,11 @@ window.cpexWebsiteSettings = {
     vignette: {
       enabled: true,
       adUnits: ['m_vignete']
+    },
+    native: {
+      templates: {
+        nativ: "<div class='advert-topic'>  <div class='advert-topic'>    <div class='advert-topic__content'> <a rel='sponsored' href='${link}' target='_blank' class='color--default'> <span>${title} - ${desc}</span> </a> </div>    <div class='advert-topic__image'> <a rel='sponsored' href='${link}' target='_blank'>        <picture><img class='image-response' src='${img}'></picture>      </a> </div>  </div></div>"
+      }
     }
   }
 }

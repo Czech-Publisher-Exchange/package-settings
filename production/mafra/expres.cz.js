@@ -2001,37 +2001,27 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'widesquare_clankovy3',
+      code: 'nativ',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 300],
-            [300, 300],
-            [250, 250],
-            [300, 250],
-            [480, 480]
-          ]
-        }
+        native: {}
       },
       bids: [{
-        bidder: 'rubicon',
+        bidder: 'adform',
         params: {
-          siteId: 144582,
-          zoneId: 3039002,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
+          mid: 1782812,
+          rcur: 'USD'
         }
-      }, {
-        bidder: 'pubmatic',
+      }]
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
         params: {
-          publisherId: '158732',
-          adSlot: '5409071'
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
+          mid: 1782811,
+          rcur: 'USD'
         }
       }]
     }]
@@ -2053,6 +2043,11 @@ window.cpexWebsiteSettings = {
     vignette: {
       adUnits: ['m_vignete'],
       enabled: true
+    },
+    native: {
+      templates: {
+        nativ: "<div style='height:129px; margin-bottom: 20px; position: relative;'>    <a class='art-link' href='${link}' target='_blank'>        <h3 style='position: absolute; height:129px; left:250px; width: 400px; color:#000; font-size: 24px'>${title}</h3>        <div class='art-img w230'>            <img src='${img}' width='230' height='129' style='width:230px; height:129px; object-fit:cover' >            <span></span>        </div>    </a></div>"
+      }
     }
   }
 }

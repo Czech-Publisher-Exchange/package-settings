@@ -1740,7 +1740,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 5222855
+          adSlot: '5222855'
         }
       }, {
         bidder: 'teads',
@@ -1790,7 +1790,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 5222856
+          adSlot: '5222856'
         }
       }, {
         bidder: 'teads',
@@ -1840,7 +1840,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: 5222857
+          adSlot: '5222857'
         }
       }, {
         bidder: 'teads',
@@ -1868,7 +1868,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'widesquare_clankovy_2',
+      code: 'widesquare_clankovy2',
       mediaTypes: {
         banner: {
           sizes: [
