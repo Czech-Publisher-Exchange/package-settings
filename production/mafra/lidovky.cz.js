@@ -2806,7 +2806,8 @@ window.cpexWebsiteSettings = {
     native: {
       templates: {
         nativ: "<div class='art'>    <a href='${link}' target='_blank' class='art-link'>        <h3>${title}</h3>        <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>    </a></div>"
-      }
+      },
+      enabled: true
     }
   }
 }
