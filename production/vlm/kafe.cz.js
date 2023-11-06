@@ -825,7 +825,6 @@ window.cpexWebsiteSettings = {
     enabled: false
   },
   ab: {
-    enabled: true,
     groupList: {
       a: {
         websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/kafe.cz.js',
