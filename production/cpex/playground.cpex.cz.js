@@ -15,7 +15,13 @@ window.cpexWebsiteSettings = {
       code: 'rectangle-1',
       mediaTypes: {
         banner: {
-          sizes: '250x250,300x250,300x300,480x480,300x600'
+          sizes: [
+            [250, 250],
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [300, 600]
+          ]
         }
       },
       bids: [{
@@ -49,7 +55,13 @@ window.cpexWebsiteSettings = {
       code: 'rectangle-2',
       mediaTypes: {
         banner: {
-          sizes: '250x250,300x250,300x300,480x480,300x600'
+          sizes: [
+            [250, 250],
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [300, 600]
+          ]
         }
       },
       bids: [{
@@ -77,7 +89,10 @@ window.cpexWebsiteSettings = {
       code: 'leaderboard-1',
       mediaTypes: {
         banner: {
-          sizes: '728x90,2000x1400'
+          sizes: [
+            [728, 90],
+            [2000, 1400]
+          ]
         }
       },
       bids: [{
@@ -99,7 +114,9 @@ window.cpexWebsiteSettings = {
       code: 'native-2',
       mediaTypes: {
         banner: {
-          sizes: '548x150'
+          sizes: [
+            [548, 150]
+          ]
         }
       },
       bids: [{
@@ -169,7 +186,10 @@ window.cpexWebsiteSettings = {
       code: 'interscroller-1',
       mediaTypes: {
         banner: {
-          sizes: '480x820,720x1280'
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
         }
       },
       bids: [{
@@ -186,7 +206,11 @@ window.cpexWebsiteSettings = {
       code: 'slideup-1',
       mediaTypes: {
         banner: {
-          sizes: '320x150,300x250,548x150'
+          sizes: [
+            [320, 150],
+            [300, 250],
+            [548, 150]
+          ]
         }
       },
       bids: [{
@@ -208,7 +232,10 @@ window.cpexWebsiteSettings = {
       code: 'vignette-1',
       mediaTypes: {
         banner: {
-          sizes: '300x250,548x150'
+          sizes: [
+            [300, 250],
+            [548, 150]
+          ]
         }
       },
       bids: [{
