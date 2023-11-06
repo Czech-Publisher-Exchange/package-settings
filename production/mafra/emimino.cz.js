@@ -1188,7 +1188,8 @@ window.cpexWebsiteSettings = {
     native: {
       templates: {
         nativ: "<div class='advert-topic'>  <div class='advert-topic'>    <div class='advert-topic__content'> <a rel='sponsored' href='${link}' target='_blank' class='color--default'> <span>${title} - ${desc}</span> </a> </div>    <div class='advert-topic__image'> <a rel='sponsored' href='${link}' target='_blank'>        <picture><img class='image-response' src='${img}'></picture>      </a> </div>  </div></div>"
-      }
+      },
+      enabled: true
     }
   }
 }
