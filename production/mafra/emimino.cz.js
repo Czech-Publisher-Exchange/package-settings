@@ -1187,8 +1187,8 @@ window.cpexWebsiteSettings = {
     },
     native: {
       templates: {
-        nativ: "<div class='advert-topic'>  <div class='advert-topic'>    <div class='advert-topic__content'> <a rel='sponsored' href='${link}' target='_blank' class='color--default'> <span>${title} - ${desc}</span> </a> </div>    <div class='advert-topic__image'> <a rel='sponsored' href='${link}' target='_blank'>        <picture><img class='image-response' src='${img}'></picture>      </a> </div>  </div></div>",
-        m_nativ: 'nativ'
+        nativ: "<div class='advert-topic'>\n  <div class='advert-topic'>\n    <div class='advert-topic__content'>\n      <a rel='sponsored' href='${link}' target='_blank' class='color--default'><span>${title} - ${desc}</span></a>\n    </div>\n    <div class='advert-topic__image'>\n      <a rel='sponsored' href='${link}' target='_blank'>\n        <picture><img class='image-response' src='${img}'></picture>\n      </a>\n    </div>\n  </div>\n</div>",
+        m_nativ: "<div class='advert-topic'>\n  <div class='advert-topic'>\n    <div class='advert-topic__content'>\n      <a rel='sponsored' href='${link}' target='_blank' class='color--default'><span>${title}</span></a>\n    </div>\n    <div class='advert-topic__image' style='width:50%'>\n      <a rel='sponsored' href='${link}' target='_blank'>\n        <picture><img class='image-response' src='${img}'></picture>\n      </a>\n    </div>\n  </div>\n</div>"
       },
       enabled: true
     }
