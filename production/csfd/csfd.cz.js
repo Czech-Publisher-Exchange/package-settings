@@ -2453,7 +2453,7 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }],
-    analytics: ['cpexAnalytics', 'id5Analytics']
+    analytics: ['cpexAnalytics']
   },
   formats: {
     skin: {
