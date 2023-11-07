@@ -1983,7 +1983,9 @@ window.cpexWebsiteSettings = {
       adUnits: ['m_sticky']
     },
     skin: {
-      enabled: true
+      enabled: true,
+      generalCSS: '#r-leaderboardhp {\n  height: 200px;\n  margin-bottom: 0px;\n}\n#page {\n  z-index:1;\n}',
+      zIndex: 1
     }
   }
 }
