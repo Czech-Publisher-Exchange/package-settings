@@ -1981,6 +1981,9 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnits: ['m_sticky']
+    },
+    skin: {
+      enabled: true
     }
   }
 }
