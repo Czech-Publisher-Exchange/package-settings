@@ -1984,7 +1984,7 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      generalCSS: '#r-leaderboardhp {\n  height: 200px;\n  margin-bottom: 0px;\n}\n#page {\n  z-index:1;\n}',
+      generalCSS: '#r-leaderboardhp {  height: 200px;  margin-bottom: 0px;}#page {  z-index:1;}',
       zIndex: 1
     }
   }
