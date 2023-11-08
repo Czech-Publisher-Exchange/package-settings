@@ -834,6 +834,7 @@ window.cpexWebsiteSettings = {
         websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/kafe.cz.js',
         probability: 0.75
       }
-    }
+    },
+    enabled: true
   }
 }
