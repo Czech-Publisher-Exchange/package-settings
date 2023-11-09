@@ -133,7 +133,7 @@ window.cpexWebsiteSettings = {
           zoneId: '2062058',
           accountId: '10900',
           position: 'atf',
-          sizes: [221]
+          sizes: []
         }
       }, {
         bidder: 'appnexus',
@@ -153,7 +153,7 @@ window.cpexWebsiteSettings = {
           zoneId: '3017262',
           accountId: '10900',
           position: 'atf',
-          sizes: [221]
+          sizes: []
         }
       }, {
         bidder: 'adform',
@@ -385,6 +385,24 @@ window.cpexWebsiteSettings = {
         generic: "          <style>            .cpex-native a { display: flex; text-decoration: none; color: inherit }            .cpex-native img { width: 200px; object-fit: cover }            .cpex-native .text { padding-left: 20px }          </style>          <div class='cpex-native article'>            <a href='${link}' target='_blank' >              <img src='${img}'>              <div class='text'>                <h2>${title}</h2>                <p>${desc}</p>              </div>            </a>          </div>",
         'native-1': "          <style>            .cpex-native.individual { background-color: #c9b3ff }            .cpex-native a { display: flex; text-decoration: none; color: inherit }            .cpex-native img { width: 200px; object-fit: cover }            .cpex-native .text { padding-left: 20px }          </style>          <div class='cpex-native article individual'>            <a href='${link}' target='_blank' >              <img src='${img}'>              <div class='text'>                <h2>${title}</h2>                <p>${desc}</p>              </div>            </a>          </div>",
         'native-2': 'native-1'
+      },
+      adUnitConfig: {
+        'native-1': {
+          titleLength: 35,
+          descLength: 90
+        },
+        'native-2': {
+          titleLength: 15,
+          descLength: 90
+        },
+        'native-3': {
+          titleLength: 20,
+          descLength: 90
+        },
+        'native-4': {
+          titleLength: 30,
+          descLength: 90
+        }
       }
     }
   }
