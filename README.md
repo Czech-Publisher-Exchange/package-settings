@@ -241,14 +241,20 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 
 #### Native
 `native: {}`
-| Attribute     | Values                                                            | Default           |
-|---------------|-------------------------------------------------------------------|-------------------|
-| `enabled`     | Boolean                                                           | false             |
-| `templates`   | Object with string of targeted adUnits as key, comma separated.*  | built-in template |
-| `titleLength` | Integer, length after which it crops the rest with "..."          | 45                |
-| `descLength`  | Integer, length after which it crops the rest with "..."          | 90                |
+| Attribute      | Values                                                              | Default           |
+|----------------|---------------------------------------------------------------------|-------------------|
+| `enabled`      | Boolean                                                             | false             |
+| `templates`    | Object with string of targeted adUnits as key, comma separated *    | built-in template |
+| `adUnitConfig` | Object, keys for adUnit names, value is custom configuration object |                   |
 
 * Values contain the template, a string of HTML+CSS, with Mustache variables. If adUnit isn't found, key 'generic' is used.
+
+  ##### Native - custom configuration
+  `adUnitConfig: {}`
+  | Attribute     | Values                                                            | Default           |
+  |---------------|-------------------------------------------------------------------|-------------------|
+  | `titleLength` | Integer, length after which it crops the rest with "..."          | 45                |
+  | `descLength`  | Integer, length after which it crops the rest with "..."          | 90                |
 
 #### Slideup
 `slideup: {}`
