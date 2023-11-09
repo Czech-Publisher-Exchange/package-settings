@@ -111,13 +111,20 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'native-1',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: '21719131'
+        }
+      }]
+    }, {
       code: 'native-2',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [548, 150]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'rubicon',
@@ -126,7 +133,12 @@ window.cpexWebsiteSettings = {
           zoneId: '2062058',
           accountId: '10900',
           position: 'atf',
-          sizes: [90]
+          sizes: [221]
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '21719133'
         }
       }]
     }, {
