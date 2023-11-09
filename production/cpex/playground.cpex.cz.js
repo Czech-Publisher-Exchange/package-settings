@@ -388,20 +388,20 @@ window.cpexWebsiteSettings = {
       },
       adUnitConfig: {
         'native-1': {
-          titleLength: 35,
-          descLength: 90
+          titleLength: 10,
+          descLength: 10
         },
         'native-2': {
-          titleLength: 15,
-          descLength: 90
+          titleLength: 10,
+          descLength: 10
         },
         'native-3': {
-          titleLength: 20,
-          descLength: 90
+          titleLength: 10,
+          descLength: 10
         },
         'native-4': {
-          titleLength: 30,
-          descLength: 90
+          titleLength: 10,
+          descLength: 10
         }
       }
     }
