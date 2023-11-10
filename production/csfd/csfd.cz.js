@@ -2328,11 +2328,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'native_short_1',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'adform',
@@ -2347,11 +2343,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'native_long_1',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'adform',
@@ -2366,11 +2358,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'native_long_2',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'adform',
@@ -2385,11 +2373,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'mobile_native_1',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'adform',
@@ -2404,11 +2388,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'mobile_native_2',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'adform',
@@ -2423,11 +2403,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'mobile_native_3',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'adform',
@@ -2442,11 +2418,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'mobile_native_4',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'adform',
@@ -2482,7 +2454,30 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     native: {
-      enabled: true
+      enabled: true,
+      adUnitConfig: {
+        native_short_1: {
+          titleLength: [1, 1]
+        },
+        native_long_1: {
+          titleLength: [1, 1]
+        },
+        native_long_2: {
+          titleLength: [1, 1]
+        },
+        mobile_native_1: {
+          titleLength: [1, 1]
+        },
+        mobile_native_2: {
+          titleLength: [1, 1]
+        },
+        mobile_native_3: {
+          titleLength: [1, 1]
+        },
+        mobile_native_4: {
+          titleLength: [1, 1]
+        }
+      }
     }
   },
   cmp: {
