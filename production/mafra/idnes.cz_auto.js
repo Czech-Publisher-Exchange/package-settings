@@ -2884,5 +2884,18 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true
     }
+  },
+  ab: {
+    enabled: true,
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/idnes.cz_auto.js',
+        probability: 0.5
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/idnes.cz_auto.js',
+        probability: 0.5
+      }
+    }
   }
 }
