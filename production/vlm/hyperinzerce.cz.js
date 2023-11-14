@@ -358,7 +358,7 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     vignette: {
-      enabled: false
+      enabled: true
     },
     responsive: {
       enabled: true,
@@ -371,7 +371,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m-square-1']
+      adUnits: ['m-sticky', 'sticky']
     }
   },
   cmp: {
