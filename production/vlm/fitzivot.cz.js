@@ -1085,8 +1085,7 @@ window.cpexWebsiteSettings = {
       }
     },
     skin: {
-      enabled: false,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
+      enabled: true,
       contentCSS: ' ',
       offsetScroll: false
     },
