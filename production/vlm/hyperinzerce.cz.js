@@ -458,6 +458,10 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnits: ['m-sticky', 'sticky']
+    },
+    skin: {
+      contentEl: /*S*/ document.getElementsByClassName('c-main')[0] /*E*/ ,
+      enabled: true
     }
   },
   cmp: {
