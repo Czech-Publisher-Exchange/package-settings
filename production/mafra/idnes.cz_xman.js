@@ -2896,5 +2896,19 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true
     }
+  },
+  ab: {
+    enabled: true,
+    selectGroup: /*S*/ () => Unidata.verze.toLowerCase() /*E*/ ,
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/idnes.cz_xman.js',
+        probability: 0.5
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/idnes.cz_xman.js',
+        probability: 0.5
+      }
+    }
   }
 }
