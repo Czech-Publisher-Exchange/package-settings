@@ -231,7 +231,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
-            [480, 820]
+            [480, 820],
+            [480, 480],
+            [720, 1280]
           ]
         }
       },
@@ -242,7 +244,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1650472,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256]
+          sizes: [15, 48, 256, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -251,7 +253,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1650468,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256]
+          sizes: [15, 48, 256, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -285,7 +287,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300]
+            [300, 300],
+            [480, 480]
           ]
         }
       },
@@ -296,7 +299,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1650474,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48]
+          sizes: [15, 48, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -305,7 +308,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1650470,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48]
+          sizes: [15, 48, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -340,7 +343,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [320, 150],
             [300, 120],
-            [500, 200]
+            [500, 200],
+            [300, 250]
           ]
         }
       },
@@ -351,7 +355,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077194,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [60, 85, 258, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -360,7 +364,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077196,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [60, 85, 258, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -616,7 +620,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [480, 480]
           ]
         }
       },
@@ -627,7 +632,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2587720,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15]
+          sizes: [48, 15, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -636,7 +641,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2588684,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15]
+          sizes: [48, 15, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -955,7 +960,8 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [336, 280],
-            [480, 820]
+            [480, 820],
+            [480, 480]
           ]
         }
       },
@@ -966,7 +972,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2681990,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 256]
+          sizes: [48, 15, 16, 256, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -975,7 +981,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2681996,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 256]
+          sizes: [48, 15, 16, 256, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1200,10 +1206,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
-      hide: [/*S*/document.getElementsByClassName('reklama-box-leaderboard-top')[0]/*E*/],
-      offset: 32,
-      offsetScroll: true
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
+      hide: [ /*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/ ]
     },
     interscroller: {
       enabled: true
@@ -1211,14 +1215,14 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        'commercial-article-native-detail': "<div class='clanek-item' style='padding-left: 2%; width: 100%'>\n  <a class='dom-image-wrap' href='${link}' target='_blank' rel='sponsored noopener'>\n    <img width='200' height='113' loading='lazy' alt='Reklama' class='dom-image' src='${img}' style='height: 113px; object-fit: cover'>\n  </a>\n  <div class='text-wrapper' style='height: 100px'>\n    <a class='rubrika-title-flex'>\n      <h3 class='text-doporucene tema rubrika-title'>\n        <span>Reklama</span>\n      </h3>\n    </a>\n    <a href='${link}' target='_blank' class='clanek-title-flex' rel='sponsored noopener'>\n      <h3 class='text-doporucene title clanek-title' style='margin-top: 10px'>\n        <span>${title}</span>\n      </h3>\n    </a>\n    <a href='${link}' class='clanek-popis-flex' title='${desc}'>\n      <h3 class='text-doporucene clanek-popis'>\n        <span>${desc}</span>\n      </h3>\n    </a>\n  </div>\n</div>",
-        'commercial-article-1-hp': "<div class='article-box-a'>\n  <a class='article-box-a__img' target='_blank' tabindex='-1' href='${link}' rel='sponsored noopener'>\n    <img src='${img}' width='220' height='220' alt='Reklama' title='${title}' loading='lazy' style='object-fit: cover'>\n  </a>\n  <div class='article-box-a__inner'>\n    <div class='article-box-a__tag'>\n      <a class='article-box-a__tag-item'>Reklama</a>\n    </div>\n    <a class='ac-clanek' href='${link}' target='_blank' rel='sponsored noopener'>\n      <h2 class='article-box-a__title'>${title}</h2>\n      <p class='article-box-a__description'>${desc}</p>\n    </a>\n  </div>\n</div>",
-        'commercial-article-2-hp': "<div class='article-box-a'>\n  <a class='article-box-a__img' target='_blank' tabindex='-1' href='${link}' target='_blank' rel='sponsored noopener'>\n    <img src='${img}' width='220' height='220' alt='Reklama' title='${title}' loading='lazy' style='object-fit: cover'>\n  </a>\n  <div class='article-box-a__inner'>\n    <div class='article-box-a__tag'>\n      <a class='article-box-a__tag-item'>Reklama</a>\n    </div>\n    <a class='ac-clanek' href='${link}' target='_blank' rel='sponsored noopener'>\n      <h2 class='article-box-a__title'>${title}</h2>\n      <p class='article-box-a__description'>${desc}</p>\n    </a>\n  </div>\n</div>",
-        'm-commercial-article-1': "<div class='article-box-a'>\n  <div class='article-box-a__tag'>\n    <span class='article-box-a__tag-item'>REKLAMA</span>\n  </div>\n  <a href='${link}' title='${title}' tabindex='-1' target='_blank' rel='sponsored noopener'>\n    <img src='${img}' width='400' height='225' class='article-box-a__img' sizes='100vw' loading='lazy'>\n  </a>\n  <div class='article-box-a__inner'>\n    <a href='${link}' target='_blank' rel='sponsored noopener'><h2 class='article-box-a__title'>${title}</h2></a>\n    <div class='article-box-a__date-box'>${desc}</div>\n  </div>\n</div>",
-        'm-commercial-article-2': "<div class='article-box-a'>\n  <div class='article-box-a__tag'>\n    <span class='article-box-a__tag-item'>REKLAMA</span>\n  </div>\n  <a href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>\n    <img src='${img}' width='400' height='225' class='article-box-a__img' sizes='100vw' loading='lazy'>\n  </a>\n  <div class='article-box-a__inner'>\n    <a href='${link}' target='_blank' rel='sponsored noopener'><h2 class='article-box-a__title'>${title}</h2></a>\n    <div class='article-box-a__date-box'>${desc}</div>\n  </div>\n</div>",
-        'm-commercial-article-native-detail': "<div class='container'>\n  <div class='clanek-item'>\n    <a href='${link}' target='_blank' rel='sponsored noopener'>\n      <img loading='lazy' alt='Reklama' width='130' height='73' src='${img}' class='dom-image'>\n      <div class='text-wrapper'>\n        <h3 class='text-doporucene title clanek-title'>\n          <span>${title} ${desc}</span>\n        </h3>\n      </div>\n    </a>\n  </div>\n</div>",
-        'commercial-article-2-GA-hp': "<style>\n  .cpex-native a { height: 300px; display: flex; text-decoration: none; color: inherit; align-items: center }\n  .cpex-native img { width: 300px; object-fit: cover }\n  .cpex-native .text { padding-left: 20px }\n  .cpex-native .text h2 { font-size: 20pt }\n</style>\n<div class='cpex-native'>\n  <a href='${link}' target='_blank' rel='sponsored noopener'>\n    <img src='${img}'>\n    <div class='text'>\n      <div class='article-box-a__tag' style='height: 10px'>\n        <span class='article-box-a__tag-item'>Reklama</span>\n      </div>\n      <h2>${title}</h2>\n      <p>${desc}</p>\n    </div>\n  </a>\n</div>",
-        'commercial-article-1-GA': "<style>  .cpex-native a { display: flex; text-decoration: none; color: inherit }  .cpex-native img { object-fit: cover; min-width: 16rem }</style><div class='cpex-native'>  <a href='${link}' target='_blank' rel='sponsored noopener' class='article-list__item article-list-item article-list-item--default'>    <img src='${img}'>    <div class='article-list-item__headline'>      <div class='article-box-a__tag'>        <span class='article-list-item__rubric'>Reklama</span>      </div>      <h2 class='article-list-item__title'>${title}</h2>      <div class='article-list-item__perex'>${desc}</div>    </div>  </a></div>",
+        'commercial-article-native-detail': "<div class='clanek-item' style='padding-left: 2%; width: 100%'>  <a class='dom-image-wrap' href='${link}' target='_blank' rel='sponsored noopener'>    <img width='200' height='113' loading='lazy' alt='Reklama' class='dom-image' src='${img}' style='height: 113px; object-fit: cover'>  </a>  <div class='text-wrapper' style='height: 100px'>    <a class='rubrika-title-flex'>      <h3 class='text-doporucene tema rubrika-title'>        <span>Reklama</span>      </h3>    </a>    <a href='${link}' target='_blank' class='clanek-title-flex' rel='sponsored noopener'>      <h3 class='text-doporucene title clanek-title' style='margin-top: 10px'>        <span>${title}</span>      </h3>    </a>    <a href='${link}' class='clanek-popis-flex' title='${desc}'>      <h3 class='text-doporucene clanek-popis'>        <span>${desc}</span>      </h3>    </a>  </div></div>",
+        'commercial-article-1-hp': "<div class='article-box-a'>  <a class='article-box-a__img' target='_blank' tabindex='-1' href='${link}' rel='sponsored noopener'>    <img src='${img}' width='220' height='220' alt='Reklama' title='${title}' loading='lazy' style='object-fit: cover'>  </a>  <div class='article-box-a__inner'>    <div class='article-box-a__tag'>      <a class='article-box-a__tag-item'>Reklama</a>    </div>    <a class='ac-clanek' href='${link}' target='_blank' rel='sponsored noopener'>      <h2 class='article-box-a__title'>${title}</h2>      <p class='article-box-a__description'>${desc}</p>    </a>  </div></div>",
+        'commercial-article-2-hp': "<div class='article-box-a'>  <a class='article-box-a__img' target='_blank' tabindex='-1' href='${link}' target='_blank' rel='sponsored noopener'>    <img src='${img}' width='220' height='220' alt='Reklama' title='${title}' loading='lazy' style='object-fit: cover'>  </a>  <div class='article-box-a__inner'>    <div class='article-box-a__tag'>      <a class='article-box-a__tag-item'>Reklama</a>    </div>    <a class='ac-clanek' href='${link}' target='_blank' rel='sponsored noopener'>      <h2 class='article-box-a__title'>${title}</h2>      <p class='article-box-a__description'>${desc}</p>    </a>  </div></div>",
+        'm-commercial-article-1': "<div class='article-box-a'>  <div class='article-box-a__tag'>    <span class='article-box-a__tag-item'>REKLAMA</span>  </div>  <a href='${link}' title='${title}' tabindex='-1' target='_blank' rel='sponsored noopener'>    <img src='${img}' width='400' height='225' class='article-box-a__img' sizes='100vw' loading='lazy'>  </a>  <div class='article-box-a__inner'>    <a href='${link}' target='_blank' rel='sponsored noopener'><h2 class='article-box-a__title'>${title}</h2></a>    <div class='article-box-a__date-box'>${desc}</div>  </div></div>",
+        'm-commercial-article-2': "<div class='article-box-a'>  <div class='article-box-a__tag'>    <span class='article-box-a__tag-item'>REKLAMA</span>  </div>  <a href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>    <img src='${img}' width='400' height='225' class='article-box-a__img' sizes='100vw' loading='lazy'>  </a>  <div class='article-box-a__inner'>    <a href='${link}' target='_blank' rel='sponsored noopener'><h2 class='article-box-a__title'>${title}</h2></a>    <div class='article-box-a__date-box'>${desc}</div>  </div></div>",
+        'm-commercial-article-native-detail': "<div class='container'>  <div class='clanek-item'>    <a href='${link}' target='_blank' rel='sponsored noopener'>      <img loading='lazy' alt='Reklama' width='130' height='73' src='${img}' class='dom-image'>      <div class='text-wrapper'>        <h3 class='text-doporucene title clanek-title'>          <span>${title} ${desc}</span>        </h3>      </div>    </a>  </div></div>",
+        'commercial-article-2-GA-hp': "<style>  .cpex-native a { height: 300px; display: flex; text-decoration: none; color: inherit; align-items: center }  .cpex-native img { width: 300px; object-fit: cover }  .cpex-native .text { padding-left: 20px }  .cpex-native .text h2 { font-size: 20pt }</style><div class='cpex-native'>  <a href='${link}' target='_blank' rel='sponsored noopener'>    <img src='${img}'>    <div class='text'>      <div class='article-box-a__tag' style='height: 10px'>        <span class='article-box-a__tag-item'>Reklama</span>      </div>      <h2>${title}</h2>      <p>${desc}</p>    </div>  </a></div>",
+        'commercial-article-1-GA': "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>\n    <div class=' js-article-image w-full'>\n      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>\n        <picture class='shrink-0'> <img src='${link}' alt='${title}'> </picture>\n        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>\n      </div>\n    </div>\n  </a>\n  <div class=' flex flex-col items-start gap-2'>\n    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> {sponsor}</a> </div>\n    <h2 class='m-0 !leading-normal text-xl'> <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '> ${title} </a> </h2>\n    <div> ${desc} </div>\n  </div>\n</article>",
         'commercial-article-2-GA': 'commercial-article-1-GA'
       }
     },
@@ -1226,9 +1230,11 @@ window.cpexWebsiteSettings = {
       enabled: true,
       adUnits: ['m-sticky']
     },
-    vignette: {
+    responsive: {
       enabled: true,
-      adUnits: ['m-vignette']
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-bottom-1', 'm-square-bottom-2', 'm-square-bottom-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3'],
+      width: 480,
+      height: 480
     }
   },
   adserver: {
