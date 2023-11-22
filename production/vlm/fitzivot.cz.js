@@ -36,6 +36,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537029'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -75,6 +81,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537026'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -113,6 +125,12 @@ window.cpexWebsiteSettings = {
           sizes: [10, 15, 48]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537027'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -154,6 +172,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537028'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -193,6 +217,12 @@ window.cpexWebsiteSettings = {
           sizes: [2, 57, 96, 55]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537017'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -235,6 +265,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537019'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -276,6 +312,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537021'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -315,6 +357,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 16, 83]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537030'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -356,6 +404,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537032'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -395,6 +449,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537033'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -436,6 +496,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537034'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -476,6 +542,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537035'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -513,6 +585,12 @@ window.cpexWebsiteSettings = {
           sizes: [48, 16]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537020'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -553,6 +631,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537022'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -592,6 +676,12 @@ window.cpexWebsiteSettings = {
           sizes: [48, 15, 16, 83]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537016'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -634,6 +724,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537018'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -675,6 +771,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537023'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -714,6 +816,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537036'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -755,6 +863,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537037'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -794,6 +908,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537038'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -835,6 +955,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537039'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -874,6 +1000,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537040'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -915,6 +1047,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537041'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -954,6 +1092,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537042'
+        }
       }, {
         bidder: 'criteo',
         params: {
@@ -995,6 +1139,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537043'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -1034,6 +1184,12 @@ window.cpexWebsiteSettings = {
           sizes: [60, 85, 258, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537024'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1069,6 +1225,12 @@ window.cpexWebsiteSettings = {
           sizes: [60, 85, 258, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537025'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1104,6 +1266,12 @@ window.cpexWebsiteSettings = {
           sizes: [48, 15, 10, 16]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537031'
+        }
       }],
       filter: {
         maxWidth: 1000
