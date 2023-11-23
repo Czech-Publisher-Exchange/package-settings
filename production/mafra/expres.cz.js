@@ -1677,7 +1677,7 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'expres.cz',
           p: 'interscroller_foto_scroll_2',
-          m: 1,
+          m: 0,
           g: 'hb'
         }
       }]
@@ -2046,10 +2046,18 @@ window.cpexWebsiteSettings = {
     },
     native: {
       templates: {
-        nativ: "<div style='height:129px; margin-bottom: 20px; position: relative;'>\n  <a class='art-link' href='${link}' target='_blank'>\n    <h3 style='position: absolute; height:129px; left:250px; width: 400px; color:#000; font-size: 24px'>${title}</h3>\n    <div class='art-img w230'> <img src='${img}' width='230' height='129' style='width:230px; height:129px; object-fit:cover'> <span></span> </div>\n  </a>\n</div>",
-        m_nativ: "<div class='art'>\n  <a rel='sponsored' href='${link}' class='art-link' target='_blank'> <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>\n    <h3 style='text-align:left'>${title}</h3>\n  </a>\n</div>"
+        nativ: "<div style='height:129px; margin-bottom: 20px; position: relative;'>  <a class='art-link' href='${link}' target='_blank'>    <h3 style='position: absolute; height:129px; left:250px; width: 400px; color:#000; font-size: 24px'>${title}</h3>    <div class='art-img w230'> <img src='${img}' width='230' height='129' style='width:230px; height:129px; object-fit:cover'> <span></span> </div>  </a></div>",
+        m_nativ: "<div class='art'>  <a rel='sponsored' href='${link}' class='art-link' target='_blank'> <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>    <h3 style='text-align:left'>${title}</h3>  </a></div>"
       },
-      enabled: true
+      enabled: true,
+      adUnitConfig: {
+        nativ: {
+          titleLength: [1, 1]
+        },
+        m_nativ: {
+          titleLength: [1, 1]
+        }
+      }
     }
   }
 }
