@@ -53,7 +53,13 @@ window.cpexPublisherSettings = {
       enabled: true
     },
     native: {
-      enabled: true
+      enabled: true,
+      adUnitConfig: {
+        'native-1': {
+          titleLength: '66',
+          descriptionLength: '99'
+        }
+      }
     },
     slideup: {
       enabled: true
