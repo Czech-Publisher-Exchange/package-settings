@@ -72,6 +72,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113863,
+          networkId: 393
+        }
       }],
       filter: {
         minWidth: 992
@@ -141,6 +147,12 @@ window.cpexWebsiteSettings = {
           p: '320x50_2',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113863,
+          networkId: 393
         }
       }],
       filter: {
@@ -226,6 +238,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113864,
+          networkId: 393
+        }
       }],
       filter: {
         minWidth: 992
@@ -295,6 +313,12 @@ window.cpexWebsiteSettings = {
           p: '480x300_2',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113865,
+          networkId: 393
         }
       }]
     }, {
@@ -377,6 +401,12 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_1',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113866,
+          networkId: 393
         }
       }],
       filter: {
@@ -463,6 +493,12 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113867,
+          networkId: 393
+        }
       }],
       filter: {
         maxWidth: 991
@@ -548,6 +584,12 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113868,
+          networkId: 393
+        }
       }],
       filter: {
         maxWidth: 991
@@ -618,6 +660,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113869,
+          networkId: 393
+        }
       }]
     }, {
       code: 'div-ad-rectangle-right2',
@@ -684,6 +732,12 @@ window.cpexWebsiteSettings = {
           p: '300x600_2',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113870,
+          networkId: 393
         }
       }]
     }, {
@@ -752,6 +806,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113871,
+          networkId: 393
+        }
       }]
     }, {
       code: 'div-ad-gallery-mobile1',
@@ -819,6 +879,12 @@ window.cpexWebsiteSettings = {
           p: '300x300_1',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113872,
+          networkId: 393
         }
       }],
       filter: {
@@ -891,6 +957,12 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113873,
+          networkId: 393
+        }
       }],
       filter: {
         maxWidth: 991
@@ -962,6 +1034,12 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113874,
+          networkId: 393
+        }
       }],
       filter: {
         maxWidth: 991
@@ -1025,6 +1103,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113875,
+          networkId: 393
+        }
       }],
       filter: {
         maxWidth: 991
@@ -1087,6 +1171,12 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113876,
+          networkId: 393
         }
       }],
       filter: {
@@ -1157,6 +1247,12 @@ window.cpexWebsiteSettings = {
           p: '300x600',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3113877,
+          networkId: 393
         }
       }],
       filter: {
