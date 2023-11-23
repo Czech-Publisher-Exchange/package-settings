@@ -2746,6 +2746,64 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'widesquare_clankovy3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3038980,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5409060'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1815469,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1038397
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30850631
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lidovky.cz',
+          p: '480x300_clankovy_3',
+          m: 0,
+          g: 'hb'
+        }
+      }]
+    }, {
       code: 'nativ',
       mediaTypes: {
         native: {}
@@ -2805,10 +2863,18 @@ window.cpexWebsiteSettings = {
     },
     native: {
       templates: {
-        nativ: "<div class='art'>\n  <a href='${link}' target='_blank' class='art-link'>\n    <h3>${title}</h3>\n    <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>\n  </a>\n</div>",
-        m_nativ: "<div class='art'> <a rel='sponsored' href='${link}' class='art-link' target='_blank'> <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>\n  <h3 style='text-align:left'>${title}</h3>\n</a></div>"
+        nativ: "<div class='art'>  <a href='${link}' target='_blank' class='art-link'>    <h3>${title}</h3>    <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>  </a></div>",
+        m_nativ: "<div class='art'> <a rel='sponsored' href='${link}' class='art-link' target='_blank'> <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>  <h3 style='text-align:left'>${title}</h3></a></div>"
       },
-      enabled: true
+      enabled: true,
+      adUnitConfig: {
+        nativ: {
+          titleLength: [1, 1]
+        },
+        m_nativ: {
+          titleLength: [1, 1]
+        }
+      }
     }
   }
 }
