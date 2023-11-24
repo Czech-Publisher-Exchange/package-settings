@@ -646,6 +646,9 @@ window.cpexWebsiteSettings = {
     }
   },
   general: {
-    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184'
+    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184',
+    onLoad: /*S*/ () => {
+      window.cpexPackage.settings.formats.skin.offset = window._ecohec ? (window._ecohec.desktopNavigationHeight || 0) : 0
+    } /*E*/
   }
 }
