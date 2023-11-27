@@ -5,15 +5,6 @@ window.cpexWebsiteSettings = {
   cmp: {
     enabled: false
   },
-  adserver: {
-    bidderTable: {
-      criteo: 'Criteo_HB',
-      appnexus: 'Xandr_HB',
-      pubmatic: 'Pubmatic_HB',
-      rubicon: 'Magnite_HB',
-      triplelift: 'Triplelift_HB'
-    }
-  },
   headerbidding: {
     adUnits: [{
       code: 'square-1',
@@ -21,8 +12,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300],
-            [336, 280]
+            [300, 300]
           ]
         }
       },
@@ -33,7 +23,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1893338,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16]
+          sizes: [15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -42,7 +32,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2752438,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16]
+          sizes: [15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1671,7 +1661,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [320, 150],
             [300, 120],
-            [500, 200]
+            [500, 200],
+            [300, 250]
           ]
         }
       },
@@ -1682,7 +1673,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2716534,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [60, 85, 258, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1691,9 +1682,15 @@ window.cpexWebsiteSettings = {
           zoneId: 2716576,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [60, 85, 258, 15]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5192037'
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -1704,12 +1701,13 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
-      code: 'sticky',
+      code: 'square-3-gallery',
       mediaTypes: {
         banner: {
           sizes: [
-            [728, 90],
-            [970, 210]
+            [300, 300],
+            [300, 250],
+            [250, 250]
           ]
         }
       },
@@ -1717,27 +1715,149 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 26460,
-          zoneId: 2716500,
+          zoneId: 2847992,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96]
+          sizes: [48, 15, 14]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 2847984,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5192039'
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 29571088
+          placementId: 28653871
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2716574,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2716612,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5204075'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 28653902
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'centerVignette',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [300, 600],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3131446,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 10, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3131454,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 10, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5543345'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31409285
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
+    native: {
+      enabled: true,
+      templates: {
+        'commercial-article-1-GA': "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>\n    <div class=' js-article-image w-full'>\n      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>\n        <picture class='shrink-0'> <img src='${img}' alt='${title}'> </picture>\n        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>\n      </div>\n    </div>\n  </a>\n  <div class=' flex flex-col items-start gap-2'>\n    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> ${sponsor}</a> </div>\n    <h2 class='m-0 !leading-normal text-xl'> <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '> ${title} </a> </h2>\n    <div> ${desc} </div>\n  </div>\n</article>",
+        'commercial-article-2-GA': 'commercial-article-1-GA',
+        'm-commercial-article-1-GA': 'commercial-article-1-GA',
+        'm-commercial-article-2-GA': 'commercial-article-1-GA',
+        'm-commercial-article-native-detail': "<div class='article-list-item article-list-item--related article-list-item article-list-item--small' style='text-align:left'>  <div class='article-list-item__preview image'>    <a class='image__link' href='${link}'>      <div class='article-list-item__image-wrap' style='width:100%;height:0;padding-top:100%!important;position:relative;'>        <img src='${img}' style='position:absolute;top:0;left:0;object-fit:cover;object-position:100% 0;width:100%;height:100%;' class='article-list-item__image'>      </div>    </a>  </div>  <div class='article-list-item__headline'>    <a href='#' class='article-list-item__rubric'>Reklama</a>    <h3 class='article-list-item__title'>      <a href='${link}' class='article-list-item__title-link'>${title}</a>    </h3>    <p style='font-size:.7rem'>${desc}</p>  </div></div>"
+      }
+    },
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
-      offset: 32,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
+      contentCSS: ' ',
       offsetScroll: false
     },
     interscroller: {
@@ -1745,7 +1865,11 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['sticky']
+      adUnits: ['m-sticky', 'm-sticky-gallery']
+    },
+    responsive: {
+      enabled: true,
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-bottom-1', 'm-square-bottom-2', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9']
     }
   }
 }
