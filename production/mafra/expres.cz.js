@@ -1677,7 +1677,7 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'expres.cz',
           p: 'interscroller_foto_scroll_2',
-          m: 0,
+          m: 1,
           g: 'hb'
         }
       }]
@@ -1998,30 +1998,6 @@ window.cpexWebsiteSettings = {
           p: '480x300_clankovy_2',
           m: 0,
           g: 'hb'
-        }
-      }]
-    }, {
-      code: 'nativ',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1782812,
-          rcur: 'USD'
-        }
-      }]
-    }, {
-      code: 'm_nativ',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1782811,
-          rcur: 'USD'
         }
       }]
     }]
