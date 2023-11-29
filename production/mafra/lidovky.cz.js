@@ -2869,10 +2869,12 @@ window.cpexWebsiteSettings = {
       enabled: true,
       adUnitConfig: {
         nativ: {
-          titleLength: [1, 1]
+          titleLength: 56,
+          descLength: 133
         },
         m_nativ: {
-          titleLength: [1, 1]
+          titleLength: 56,
+          descLength: 133
         }
       }
     }
