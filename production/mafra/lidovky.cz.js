@@ -2878,5 +2878,19 @@ window.cpexWebsiteSettings = {
         }
       }
     }
+  },
+  ab: {
+    enabled: true,
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/lidovky.cz.js',
+        probability: 0.5
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/lidovky.cz_b.js',
+        probability: 0.5
+      }
+    },
+    selectGroup: /*S*/ () => Unidata.verze.toLowerCase() /*E*/
   }
 }
