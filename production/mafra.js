@@ -48,7 +48,7 @@ window.cpexPublisherSettings = {
   formats: {
     slideup: {
       closeTextHTML: 'zavřít reklamu',
-      css: '#cpex-slideup {  background-color: transparent;  z-index: 9999;}#cpex-slideup-close {  box-sizing: border-box;  display: inline-block;  cursor: pointer;  position: absolute;  top: -32px;  right: 0px;  height: 32px;  padding: 7px 9px;  font-family: Arial, sans-serif;  background-color: #454545;  font-size: 14px;  color: #fff;}#cpex-slideup-close:hover {  background-color: #000;}'
+      css: '#cpex-slideup {\n  background-color: transparent;\n  z-index: 999;\n}\n\n#cpex-slideup-close {\n  box-sizing: border-box;\n  display: inline-block;\n  cursor: pointer;\n  position: absolute;\n  top: -32px;\n  right: 0px;\n  height: 32px;\n  padding: 7px 9px;\n  font-family: Arial, sans-serif;\n  background-color: #454545;\n  font-size: 14px;\n  color: #fff;\n}\n\n#cpex-slideup-close:hover {\n  background-color: #000;\n}'
     },
     responsive: {
       enabled: true,
@@ -62,8 +62,8 @@ window.cpexPublisherSettings = {
     },
     native: {
       templates: {
-        nativ: "<div class='art'> <a href='${link}' target='_blank' class='art-link'>\n    <h3>${title}</h3>\n    <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>\n    <p class='perex'>${desc}</p>\n  </a></div>",
-        m_nativ: "<div class='art'>\n  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>\n    <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>\n    <h3 style='text-align:left'>${title}</h3>\n  </a>\n</div>"
+        nativ: "<div class='art'> <a href='${link}' target='_blank' class='art-link'>    <h3>${title}</h3>    <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>    <p class='perex'>${desc}</p>  </a></div>",
+        m_nativ: "<div class='art'>  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>    <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>    <h3 style='text-align:left'>${title}</h3>  </a></div>"
       }
     }
   }
