@@ -69,7 +69,7 @@ window.cpexPublisherSettings = {
             clearTimeout(window.cpexSlideupRefreshTimeout);
             window.cpexSlideupRefreshTimeout = setTimeout(() => {
               window.cpexPackage.adserver.refresh(['m-sticky'])
-            }, 5000);
+            }, 30000);
           };
           setRefreshTimeout();
           window.addEventListener('cpexSlideupClosed', setRefreshTimeout)
