@@ -1,0 +1,184 @@
+window.cpexWebsiteSettings = {
+  website: {
+    name: 'filmbooster.de'
+  },
+  headerbidding: {
+    adUnits: [{
+      code: 'halfpage',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 235290,
+          zoneId: 3140062,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9]
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'halfpage_sticky_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [160, 600],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 235290,
+          zoneId: 3140064,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 48, 15]
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'halfpage_sticky_2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [160, 600],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 235290,
+          zoneId: 3140066,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 48, 15]
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'mobile_square_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 238982,
+          zoneId: 3140070,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 256]
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'mobile_square_2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 238982,
+          zoneId: 3140072,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14]
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }],
+    analytics: ['cpexAnalytics']
+  },
+  formats: {
+    skin: {
+      backgroundEl: /*S*/ document.body /*E*/ ,
+      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/ ,
+      hide: [ /*S*/ document.getElementById('leaderboard-wrapper') /*E*/ ],
+      zIndex: 0,
+      contentCSS: 'position: relative;margin-top: 210px'
+    },
+    slideup: {
+      adUnits: ['slide_up']
+    },
+    vignette: {
+      adUnits: ['cpex_vignette']
+    },
+    interscroller: {
+      enabled: true
+    },
+    native: {
+      adUnitConfig: {
+        native_short_1: {
+          titleLength: [1, 1]
+        },
+        native_long_1: {
+          titleLength: [1, 1]
+        },
+        native_long_2: {
+          titleLength: [1, 1]
+        },
+        mobile_native_1: {
+          titleLength: [1, 1]
+        },
+        mobile_native_2: {
+          titleLength: [1, 1]
+        },
+        mobile_native_3: {
+          titleLength: [1, 1]
+        },
+        mobile_native_4: {
+          titleLength: [1, 1]
+        }
+      }
+    }
+  },
+  cmp: {
+    enabled: false
+  },
+  general: {
+    errorLogging: true,
+    autoRun: false,
+    customRun: /*S*/ () => {
+      window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
+    } /*E*/
+  }
+}
