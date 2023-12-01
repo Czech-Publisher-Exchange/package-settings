@@ -134,13 +134,16 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/ ,
       hide: [ /*S*/ document.getElementById('leaderboard-wrapper') /*E*/ ],
       zIndex: 0,
-      contentCSS: 'position: relative;margin-top: 210px'
+      contentCSS: 'position: relative;margin-top: 210px',
+      enabled: false
     },
     slideup: {
-      adUnits: ['slide_up']
+      adUnits: ['slide_up'],
+      enabled: false
     },
     vignette: {
-      adUnits: ['cpex_vignette']
+      adUnits: ['cpex_vignette'],
+      enabled: false
     },
     interscroller: {
       enabled: true
@@ -168,7 +171,8 @@ window.cpexWebsiteSettings = {
         mobile_native_4: {
           titleLength: [1, 1]
         }
-      }
+      },
+      enabled: false
     }
   },
   cmp: {
