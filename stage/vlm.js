@@ -62,17 +62,19 @@ window.cpexPublisherSettings = {
     }
   },
   general: {
-    onLoad: /*S*/ window.addEventListener('cpexCustomFormatAdded', (e) => {
-      if (e.detail.type === 'slideup') {
-        function setRefreshTimeout() {
-          clearTimeout(window.cpexSlideupRefreshTimeout);
-          window.cpexSlideupRefreshTimeout = setTimeout(() => {
-            window.cpexPackage.adserver.refresh(['m-sticky'])
-          }, 5000);
-        };
-        setRefreshTimeout();
-        window.addEventListener('cpexSlideupClosed', setRefreshTimeout)
-      }
-    }) /*E*/
+    onLoad: /*S*/ () => {
+      window.addEventListener('cpexCustomFormatAdded', (e) => {
+        if (e.detail.type === 'slideup') {
+          function setRefreshTimeout() {
+            clearTimeout(window.cpexSlideupRefreshTimeout);
+            window.cpexSlideupRefreshTimeout = setTimeout(() => {
+              window.cpexPackage.adserver.refresh(['m-sticky'])
+            }, 5000);
+          };
+          setRefreshTimeout();
+          window.addEventListener('cpexSlideupClosed', setRefreshTimeout)
+        }
+      })
+    } /*E*/
   }
 }
