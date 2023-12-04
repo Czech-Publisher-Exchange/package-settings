@@ -71,12 +71,6 @@ window.cpexWebsiteSettings = {
           siteId: 759674
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158416,
-          pageId: 144524
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213120
@@ -163,12 +157,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759673
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 153776,
-          pageId: 140099
         }
       }, {
         bidder: 'appnexus',
@@ -258,12 +246,6 @@ window.cpexWebsiteSettings = {
           siteId: 759675
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158417,
-          pageId: 144525
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213123
@@ -334,12 +316,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 809614
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 165641,
-          pageId: 151406
         }
       }, {
         bidder: 'appnexus',
@@ -416,12 +392,6 @@ window.cpexWebsiteSettings = {
           siteId: 809612
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 150211,
-          pageId: 136835
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213138
@@ -496,12 +466,6 @@ window.cpexWebsiteSettings = {
           siteId: 809613
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 165642,
-          pageId: 151407
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213139
@@ -561,20 +525,20 @@ window.cpexWebsiteSettings = {
         }
       }]
     }],
-    currency: 'USD',
+    currency: 'USD'
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('sc-1cb3an8-0')[0]/*E*/,
-      hide: [/*S*/document.getElementById('reklama-leader')/*E*/]
+      contentEl: /*S*/ document.getElementsByClassName('sc-1cb3an8-0')[0] /*E*/ ,
+      hide: [ /*S*/ document.getElementById('reklama-leader') /*E*/ ]
     },
     native: {
       enabled: true
     },
     slideup: {
       adUnits: ['reklama-popupmobile'],
-      backgroundEl: /*S*/document.getElementById('reklama-popupmobile-wrapper')/*E*/,
+      backgroundEl: /*S*/ document.getElementById('reklama-popupmobile-wrapper') /*E*/ ,
       enabled: true
     }
   },
