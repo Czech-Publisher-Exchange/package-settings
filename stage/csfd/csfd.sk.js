@@ -15,19 +15,21 @@ window.cpexWebsiteSettings = {
           window.addEventListener('message', (event) => {
             if (event.origin !== 'https://cdn.cpex.cz') return;
             if (event.data.type === 'cpexRead') {
-              fetch('https://cpex-dmp.servicebus.windows.net/dmp-hub-1/messages', {
-                method: 'POST',
-                headers: {
-                  'Authorization': 'SharedAccessSignature sr=https%3A%2F%2Fcpex-dmp.servicebus.windows.net&sig=n5bID5YdZcEq%2F6HIYl9DsBOJxSDCCBdD%2BoakXgF5e3I%3D&se=1919695728&skn=write',
-                  'Content-Type': 'application/atom+xml;type=entry;charset=utf-8'
-                },
-                body: JSON.stringify({
-                  id: event.data.value,
-                  url: window.location.href
+              if (event.data.value) {
+                fetch('https://cpex-dmp.servicebus.windows.net/dmp-hub-1/messages', {
+                  method: 'POST',
+                  headers: {
+                    'Authorization': 'SharedAccessSignature sr=https%3A%2F%2Fcpex-dmp.servicebus.windows.net&sig=n5bID5YdZcEq%2F6HIYl9DsBOJxSDCCBdD%2BoakXgF5e3I%3D&se=1919695728&skn=write',
+                    'Content-Type': 'application/atom+xml;type=entry;charset=utf-8'
+                  },
+                  body: JSON.stringify({
+                    id: event.data.value,
+                    url: window.location.href
+                  })
+                }).catch(function(error) {
+                  console.error('DMP Sync Error: ', error)
                 })
-              }).catch(function(error) {
-                console.error('DMP Sync Error: ', error)
-              })
+              }
             }
           }, false);
           cpexPackage.utils.addElement('iframe', document.body, {
