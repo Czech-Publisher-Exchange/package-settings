@@ -7,7 +7,37 @@ window.cpexWebsiteSettings = {
     customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
     } /*E*/ ,
-    errorLogging: true
+    errorLogging: true,
+    onLoad: /*S*/ () => {
+      window.__tcfapi('addEventListener', 2, (data, success) => {
+        if (success === false) return;
+        if (data.vendor.consents[570] && Didomi.getUserConsentStatusForVendor('c:pomomedia-HZQX3YWL')) {
+          window.addEventListener('message', (event) => {
+            if (event.origin !== 'https://cdn.cpex.cz') return;
+            if (event.data.type === 'cpexRead') {
+              fetch('https://cpex-dmp.servicebus.windows.net/dmp-hub-1/messages', {
+                method: 'POST',
+                headers: {
+                  'Authorization': 'SharedAccessSignature sr=https%3A%2F%2Fcpex-dmp.servicebus.windows.net&sig=n5bID5YdZcEq%2F6HIYl9DsBOJxSDCCBdD%2BoakXgF5e3I%3D&se=1919695728&skn=write',
+                  'Content-Type': 'application/atom+xml;type=entry;charset=utf-8'
+                },
+                body: JSON.stringify({
+                  id: event.data.value,
+                  url: window.location.href
+                })
+              }).catch(function(error) {
+                console.error('DMP Sync Error: ', error)
+              })
+            }
+          }, false);
+          cpexPackage.utils.addElement('iframe', document.body, {
+            src: 'https://cdn.cpex.cz/cookies/read.html?name=excp',
+            width: 0,
+            height: 0
+          })
+        }
+      })
+    } /*E*/
   },
   cmp: {
     enabled: false
