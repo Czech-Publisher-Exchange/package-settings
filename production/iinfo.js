@@ -29,7 +29,7 @@ window.cpexPublisherSettings = {
   },
   formats: {
     skin: {
-      generalCSS: "#cpex-skin:after {\n    position: absolute;\n    top: 0;\n    left: 0;\n    font-weight: 700;\n    text-shadow: 0.5px 0.866px 1px #0001;\n    pointer-events: none;\n    content: 'reklama';\n    display: block;\n    color: #fff;\n    line-height: 1.5rem;\n    font-size: 0.6875rem;\n    font-family: inherit;\n    width: 100%;\n    text-align: center;\n}"
+      generalCSS: "#cpex-skin::after {\n    position: absolute;\n    top: 0;\n    left: 0;\n    font-weight: 700;\n    text-shadow: 0.5px 0.866px 1px #0001;\n    pointer-events: none;\n    content: 'reklama';\n    display: block;\n    color: #fff;\n    line-height: 1.5rem;\n    font-size: 0.6875rem;\n    font-family: inherit;\n    width: 100%;\n    text-align: center;\n}"
     }
   }
 }
