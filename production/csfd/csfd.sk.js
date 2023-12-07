@@ -1683,7 +1683,24 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'native_2',
+      code: 'native_long_1',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1696624,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 30226622
+        }
+      }]
+    }, {
+      code: 'native_long_2',
       mediaTypes: {
         native: {}
       },
@@ -1810,9 +1827,39 @@ window.cpexWebsiteSettings = {
     },
     native: {
       templates: {
-        generic: "<style>\n  .cpex-native a {\n    display: flex;\n    text-decoration: none;\n    color: inherit\n  }\n\n  .cpex-native img {\n    width: 200px;\n    object-fit: cover\n  }\n\n  .cpex-native .text {\n    padding-left: 20px\n  }\n</style>\n<div id='native'> <a href='${link}' target='_blank'>\n    <div class='native-content'>\n      <div class='native-content-img'> <img src='${img}' alt=''> </div>\n      <div class='native-content-desc'>\n        <div class='native-content-desc-text'>\n          <p class='native-title'>${title}</p>\n          <p id='nativeText'>${desc}</p>\n        </div>\n        <div class='native-info'> <span class='info'>reklama</span> </div>\n      </div>\n    </div>\n  </a></div>"
+        generic: "<style>  .cpex-native a {    display: flex;    text-decoration: none;    color: inherit  }  .cpex-native img {    width: 200px;    object-fit: cover  }  .cpex-native .text {    padding-left: 20px  }</style><div id='native'> <a href='${link}' target='_blank'>    <div class='native-content'>      <div class='native-content-img'> <img src='${img}' alt=''> </div>      <div class='native-content-desc'>        <div class='native-content-desc-text'>          <p class='native-title'>${title}</p>          <p id='nativeText'>${desc}</p>        </div>        <div class='native-info'> <span class='info'>reklama</span> </div>      </div>    </div>  </a></div>"
       },
-      enabled: true
+      enabled: true,
+      adUnitConfig: {
+        native_short_1: {
+          titleLength: 50,
+          descLength: 90
+        },
+        native_long_1: {
+          titleLength: 90,
+          descLength: 90
+        },
+        native_long_2: {
+          titleLength: 90,
+          descLength: 90
+        },
+        mobile_native_1: {
+          titleLength: 50,
+          descLength: 90
+        },
+        mobile_native_2: {
+          titleLength: 50,
+          descLength: 90
+        },
+        mobile_native_3: {
+          titleLength: 50,
+          descLength: 90
+        },
+        mobile_native_4: {
+          titleLength: 50,
+          descLength: 90
+        }
+      }
     }
   }
 }
