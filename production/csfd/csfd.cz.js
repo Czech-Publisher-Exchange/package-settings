@@ -2336,6 +2336,11 @@ window.cpexWebsiteSettings = {
           mid: 1696620,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31494358
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2350,6 +2355,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1655517,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31494359
         }
       }],
       filter: {
@@ -2366,6 +2376,11 @@ window.cpexWebsiteSettings = {
           mid: 1711996,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31494361
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2380,6 +2395,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1712005,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31494362
         }
       }],
       filter: {
@@ -2396,6 +2416,11 @@ window.cpexWebsiteSettings = {
           mid: 1712006,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31494363
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2411,6 +2436,11 @@ window.cpexWebsiteSettings = {
           mid: 1712007,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31494364
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2425,6 +2455,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1712008,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31494365
         }
       }],
       filter: {
@@ -2457,25 +2492,32 @@ window.cpexWebsiteSettings = {
       enabled: true,
       adUnitConfig: {
         native_short_1: {
-          titleLength: [1, 1]
+          titleLength: 50,
+          descLength: 90
         },
         native_long_1: {
-          titleLength: [1, 1]
+          titleLength: 90,
+          descLength: 90
         },
         native_long_2: {
-          titleLength: [1, 1]
+          titleLength: 90,
+          descLength: 90
         },
         mobile_native_1: {
-          titleLength: [1, 1]
+          titleLength: 50,
+          descLength: 90
         },
         mobile_native_2: {
-          titleLength: [1, 1]
+          titleLength: 50,
+          descLength: 90
         },
         mobile_native_3: {
-          titleLength: [1, 1]
+          titleLength: 50,
+          descLength: 90
         },
         mobile_native_4: {
-          titleLength: [1, 1]
+          titleLength: 50,
+          descLength: 90
         }
       }
     }
