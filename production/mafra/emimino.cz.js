@@ -656,6 +656,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 843309
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 185867,
@@ -1207,7 +1212,17 @@ window.cpexWebsiteSettings = {
         nativ: "<div class='advert-topic'>  <div class='advert-topic'>    <div class='advert-topic__content'>      <a rel='sponsored' href='${link}' target='_blank' class='color--default'><span>${title} - ${desc}</span></a>    </div>    <div class='advert-topic__image'>      <a rel='sponsored' href='${link}' target='_blank'>        <picture><img class='image-response' src='${img}'></picture>      </a>    </div>  </div></div>",
         m_nativ: "<div class='advert-topic'>  <div class='advert-topic'>    <div class='advert-topic__content'>      <a rel='sponsored' href='${link}' target='_blank' class='color--default'><span>${title}</span></a>    </div>    <div class='advert-topic__image' style='width:50%'>      <a rel='sponsored' href='${link}' target='_blank'>        <picture><img class='image-response' src='${img}'></picture>      </a>    </div>  </div></div>"
       },
-      enabled: true
+      enabled: true,
+      adUnitConfig: {
+        nativ: {
+          titleLength: 56,
+          descLength: 133
+        },
+        m_nativ: {
+          titleLength: 56,
+          descLength: 133
+        }
+      }
     }
   }
 }
