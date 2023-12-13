@@ -1744,6 +1744,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5222855'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1820911,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 199314,
@@ -1794,6 +1800,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5222856'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1820912,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 199314,
@@ -1842,6 +1854,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5222857'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1820913,
+          rcur: 'USD'
         }
       }, {
         bidder: 'teads',
