@@ -1152,6 +1152,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5604810'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1634071,
@@ -1171,6 +1177,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1064297
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -2941,7 +2952,17 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     native: {
-      enabled: true
+      enabled: true,
+      adUnitConfig: {
+        nativ: {
+          titleLength: 56,
+          descLength: 133
+        },
+        m_nativ: {
+          titleLength: 56,
+          descLength: 133
+        }
+      }
     }
   }
 }
