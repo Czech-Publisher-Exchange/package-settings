@@ -2882,7 +2882,17 @@ window.cpexWebsiteSettings = {
       adUnits: ['m_vignete']
     },
     native: {
-      enabled: true
+      enabled: true,
+      adUnitConfig: {
+        nativ: {
+          titleLength: 56,
+          descLength: 133
+        },
+        m_nativ: {
+          titleLength: 56,
+          descLength: 133
+        }
+      }
     }
   }
 }
