@@ -85,6 +85,17 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5604806'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1064307
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27158554
@@ -100,7 +111,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/
     },
     interscroller: {
       enabled: true
