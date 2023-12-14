@@ -1186,6 +1186,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5604799'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1634304,
@@ -2000,6 +2006,30 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1782812,
+          rcur: 'USD'
+        }
+      }]
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1782811,
+          rcur: 'USD'
+        }
+      }]
     }]
   },
   formats: {
@@ -2028,10 +2058,12 @@ window.cpexWebsiteSettings = {
       enabled: true,
       adUnitConfig: {
         nativ: {
-          titleLength: [1, 1]
+          titleLength: 56,
+          descLength: 133
         },
         m_nativ: {
-          titleLength: [1, 1]
+          titleLength: 56,
+          descLength: 133
         }
       }
     }
