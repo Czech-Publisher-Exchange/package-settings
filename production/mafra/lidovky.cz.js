@@ -2901,7 +2901,6 @@ window.cpexWebsiteSettings = {
         probability: 0.5
       }
     },
-    selectGroup: /*S*/ () => Unidata.verze.toLowerCase() /*E*/ ,
-    enabled: true
+    selectGroup: /*S*/ () => Unidata.verze.toLowerCase() /*E*/
   }
 }
