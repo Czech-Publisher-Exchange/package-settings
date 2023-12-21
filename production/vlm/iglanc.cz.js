@@ -1077,6 +1077,10 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true
+    },
+    skin: {
+      enabled: true,
+      contentCSS: ' '
     }
   },
   cmp: {
