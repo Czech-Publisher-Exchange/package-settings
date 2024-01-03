@@ -64,8 +64,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176085,
-          pageId: 161425
+          placementId: 211388,
+          pageId: 195853
         }
       }, {
         bidder: 'criteo',
@@ -142,8 +142,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176086,
-          pageId: 161426
+          placementId: 211387,
+          pageId: 195852
         }
       }, {
         bidder: 'criteo',
@@ -220,8 +220,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176087,
-          pageId: 161427
+          placementId: 211386,
+          pageId: 195851
         }
       }, {
         bidder: 'criteo',
@@ -297,8 +297,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176092,
-          pageId: 161432
+          placementId: 211385,
+          pageId: 195850
         }
       }, {
         bidder: 'criteo',
@@ -374,8 +374,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176093,
-          pageId: 161433
+          placementId: 211384,
+          pageId: 195849
         }
       }, {
         bidder: 'criteo',
@@ -451,8 +451,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176094,
-          pageId: 161434
+          placementId: 211383,
+          pageId: 195848
         }
       }, {
         bidder: 'criteo',
@@ -528,8 +528,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176095,
-          pageId: 161435
+          placementId: 211382,
+          pageId: 195847
         }
       }, {
         bidder: 'criteo',
@@ -604,8 +604,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176096,
-          pageId: 161436
+          placementId: 211381,
+          pageId: 195846
         }
       }, {
         bidder: 'criteo',
@@ -680,8 +680,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176097,
-          pageId: 161437
+          placementId: 211380,
+          pageId: 195845
         }
       }, {
         bidder: 'criteo',
@@ -756,8 +756,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176098,
-          pageId: 161438
+          placementId: 211379,
+          pageId: 195844
         }
       }, {
         bidder: 'criteo',
@@ -832,8 +832,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176099,
-          pageId: 161439
+          placementId: 211378,
+          pageId: 195843
         }
       }, {
         bidder: 'criteo',
@@ -908,8 +908,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176100,
-          pageId: 161440
+          placementId: 211377,
+          pageId: 195842
         }
       }, {
         bidder: 'criteo',
@@ -987,8 +987,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176101,
-          pageId: 161441
+          placementId: 211376,
+          pageId: 195841
         }
       }, {
         bidder: 'criteo',
@@ -1064,8 +1064,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176102,
-          pageId: 161442
+          placementId: 211375,
+          pageId: 195840
         }
       }, {
         bidder: 'criteo',
@@ -1138,8 +1138,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176103,
-          pageId: 161443
+          placementId: 211374,
+          pageId: 195839
         }
       }, {
         bidder: 'criteo',
@@ -1214,8 +1214,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176104,
-          pageId: 161444
+          placementId: 211373,
+          pageId: 195838
         }
       }, {
         bidder: 'criteo',
@@ -1282,8 +1282,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176105,
-          pageId: 161445
+          placementId: 211372,
+          pageId: 195837
         }
       }, {
         bidder: 'criteo',
@@ -1360,8 +1360,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176106,
-          pageId: 161446
+          placementId: 211371,
+          pageId: 195836
         }
       }, {
         bidder: 'criteo',
@@ -1438,8 +1438,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176107,
-          pageId: 161447
+          placementId: 211370,
+          pageId: 195835
         }
       }, {
         bidder: 'criteo',
@@ -1516,8 +1516,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176108,
-          pageId: 161448
+          placementId: 211369,
+          pageId: 195834
         }
       }, {
         bidder: 'criteo',
@@ -1593,8 +1593,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176109,
-          pageId: 161449
+          placementId: 211368,
+          pageId: 195833
         }
       }, {
         bidder: 'criteo',
@@ -1670,8 +1670,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 176110,
-          pageId: 161450
+          placementId: 211367,
+          pageId: 195832
         }
       }, {
         bidder: 'criteo',
