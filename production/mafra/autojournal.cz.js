@@ -66,8 +66,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 189285,
-          pageId: 174337
+          placementId: 211328,
+          pageId: 195794
         }
       }, {
         bidder: 'appnexus',
@@ -154,8 +154,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 189285,
-          pageId: 174337
+          placementId: 211328,
+          pageId: 195794
         }
       }, {
         bidder: 'appnexus',
@@ -242,8 +242,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 189285,
-          pageId: 174337
+          placementId: 211328,
+          pageId: 195794
         }
       }, {
         bidder: 'appnexus',
@@ -328,8 +328,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 189285,
-          pageId: 174337
+          placementId: 211328,
+          pageId: 195794
         }
       }, {
         bidder: 'appnexus',
@@ -417,8 +417,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 189284,
-          pageId: 174336
+          placementId: 211329,
+          pageId: 195795
         }
       }, {
         bidder: 'appnexus',
@@ -503,8 +503,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 189285,
-          pageId: 174337
+          placementId: 211328,
+          pageId: 195794
         }
       }, {
         bidder: 'appnexus',
@@ -581,8 +581,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 189285,
-          pageId: 174337
+          placementId: 211328,
+          pageId: 195794
         }
       }, {
         bidder: 'appnexus',
@@ -669,8 +669,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 189285,
-          pageId: 174337
+          placementId: 211328,
+          pageId: 195794
         }
       }, {
         bidder: 'appnexus',
