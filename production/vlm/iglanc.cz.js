@@ -85,7 +85,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158733',
+          publisherId: '158732',
           adSlot: '5621129'
         }
       }, {
@@ -135,7 +135,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158734',
+          publisherId: '158732',
           adSlot: '5621130'
         }
       }, {
@@ -186,7 +186,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158735',
+          publisherId: '158732',
           adSlot: '5621131'
         }
       }, {
@@ -238,7 +238,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158736',
+          publisherId: '158732',
           adSlot: '5621132'
         }
       }, {
@@ -290,7 +290,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158737',
+          publisherId: '158732',
           adSlot: '5621133'
         }
       }, {
@@ -341,7 +341,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158738',
+          publisherId: '158732',
           adSlot: '5621138'
         }
       }, {
@@ -392,7 +392,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158739',
+          publisherId: '158732',
           adSlot: '5621134'
         }
       }, {
@@ -443,7 +443,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158740',
+          publisherId: '158732',
           adSlot: '5621135'
         }
       }, {
@@ -494,7 +494,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158741',
+          publisherId: '158732',
           adSlot: '5621136'
         }
       }, {
@@ -545,7 +545,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158742',
+          publisherId: '158732',
           adSlot: '5621137'
         }
       }, {
@@ -594,7 +594,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158743',
+          publisherId: '158732',
           adSlot: '5621139'
         }
       }, {
@@ -644,7 +644,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158744',
+          publisherId: '158732',
           adSlot: '5621140'
         }
       }, {
@@ -695,7 +695,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158745',
+          publisherId: '158732',
           adSlot: '5621141'
         }
       }, {
@@ -746,7 +746,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158746',
+          publisherId: '158732',
           adSlot: '5621158'
         }
       }, {
@@ -798,7 +798,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158747',
+          publisherId: '158732',
           adSlot: '5621142'
         }
       }, {
@@ -849,7 +849,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158748',
+          publisherId: '158732',
           adSlot: '5621143'
         }
       }, {
@@ -900,7 +900,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158749',
+          publisherId: '158732',
           adSlot: '5621144'
         }
       }, {
@@ -951,7 +951,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158750',
+          publisherId: '158732',
           adSlot: '5621145'
         }
       }, {
@@ -1002,7 +1002,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158751',
+          publisherId: '158732',
           adSlot: '5621146'
         }
       }, {
@@ -1053,7 +1053,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'pubmatic',
         params: {
-          publisherId: '158752',
+          publisherId: '158732',
           adSlot: '5543344'
         }
       }, {
