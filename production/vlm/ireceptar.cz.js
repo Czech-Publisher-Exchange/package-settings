@@ -22,7 +22,7 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       enabled: true,
-      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4']
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-seznam-feed']
     }
   },
   website: {
@@ -782,6 +782,108 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-seznam-feed',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3177320,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3177364,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5650648'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31687725
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'seznam-feed',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3177342,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 83, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3177386,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 83, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5650659'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31687728
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
       }
     }]
   }
