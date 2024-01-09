@@ -925,6 +925,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3035444,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -938,6 +947,108 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-seznam-feed',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3177324,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3177368,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5650647'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31687735
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'seznam-feed',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3177346,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 83, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3177390,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 83, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5650658'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31687736
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
       }
     }]
   },
@@ -967,7 +1078,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       width: 480,
       height: 480,
-      adUnits: ['m-square-1', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-2', 'm-square-bottom-1', 'm-square-3', 'm-square-4', 'm-square-5']
+      adUnits: ['m-square-1', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-2', 'm-square-bottom-1', 'm-square-3', 'm-square-4', 'm-square-5', 'm-seznam-feed']
     }
   }
 }
