@@ -1402,6 +1402,70 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'm_sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 250],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3178130,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 15, 258]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5652824'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31700115
+        }
+      }]
+    }, {
+      code: 'm_vignete',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [720, 1280],
+            [480, 820],
+            [300, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3178132,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 10]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5652825'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31700110
+        }
+      }]
     }]
   },
   formats: {
