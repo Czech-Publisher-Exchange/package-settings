@@ -1198,6 +1198,108 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'm-seznam-feed',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3177314,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3177358,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5650644'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31687718
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'seznam-feed',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3177336,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 83, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3177380,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 83, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5650655'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31687719
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   website: {
@@ -1222,7 +1324,7 @@ window.cpexWebsiteSettings = {
         'm-commercial-article-2': "<div class='article-box-a'>  <div class='article-box-a__tag'>    <span class='article-box-a__tag-item'>REKLAMA</span>  </div>  <a href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>    <img src='${img}' width='400' height='225' class='article-box-a__img' sizes='100vw' loading='lazy'>  </a>  <div class='article-box-a__inner'>    <a href='${link}' target='_blank' rel='sponsored noopener'><h2 class='article-box-a__title'>${title}</h2></a>    <div class='article-box-a__date-box'>${desc}</div>  </div></div>",
         'm-commercial-article-native-detail': "<div class='container'>  <div class='clanek-item'>    <a href='${link}' target='_blank' rel='sponsored noopener'>      <img loading='lazy' alt='Reklama' width='130' height='73' src='${img}' class='dom-image'>      <div class='text-wrapper'>        <h3 class='text-doporucene title clanek-title'>          <span>${title} ${desc}</span>        </h3>      </div>    </a>  </div></div>",
         'commercial-article-2-GA-hp': "<style>  .cpex-native a { height: 300px; display: flex; text-decoration: none; color: inherit; align-items: center }  .cpex-native img { width: 300px; object-fit: cover }  .cpex-native .text { padding-left: 20px }  .cpex-native .text h2 { font-size: 20pt }</style><div class='cpex-native'>  <a href='${link}' target='_blank' rel='sponsored noopener'>    <img src='${img}'>    <div class='text'>      <div class='article-box-a__tag' style='height: 10px'>        <span class='article-box-a__tag-item'>Reklama</span>      </div>      <h2>${title}</h2>      <p>${desc}</p>    </div>  </a></div>",
-        'commercial-article-1-GA': "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'>\n  <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>\n    <div class=' js-article-image w-full'>\n      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>\n        <picture class='shrink-0'>\n          <img src='${link}' alt='${title}'>\n        </picture>\n        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>\n      </div>\n    </div>\n  </a>\n  <div class=' flex flex-col items-start gap-2'>\n    <div class='flex flex-wrap gap-2'>\n      <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> Reklama</a>\n    </div>\n    <h2 class='m-0 !leading-normal text-xl'>\n      <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '>\n        ${title}\n      </a>\n    </h2>\n    <div>\n      ${desc}\n    </div>\n  </div>\n</article>",
+        'commercial-article-1-GA': "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'>  <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>    <div class=' js-article-image w-full'>      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>        <picture class='shrink-0'>          <img src='${link}' alt='${title}'>        </picture>        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>      </div>    </div>  </a>  <div class=' flex flex-col items-start gap-2'>    <div class='flex flex-wrap gap-2'>      <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> Reklama</a>    </div>    <h2 class='m-0 !leading-normal text-xl'>      <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '>        ${title}      </a>    </h2>    <div>      ${desc}    </div>  </div></article>",
         'commercial-article-2-GA': 'commercial-article-1-GA'
       }
     },
@@ -1232,7 +1334,7 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       enabled: true,
-      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-bottom-1', 'm-square-bottom-2', 'm-square-bottom-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3'],
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-bottom-1', 'm-square-bottom-2', 'm-square-bottom-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-seznam-feed'],
       width: 480,
       height: 480
     }
