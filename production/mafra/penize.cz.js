@@ -1450,6 +1450,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 31700115
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'm_vignete',
@@ -1498,6 +1503,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 31700110
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }]
