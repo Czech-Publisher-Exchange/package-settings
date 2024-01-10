@@ -25,6 +25,12 @@ window.cpexWebsiteSettings = {
           sizes: [259, 2, 96, 55]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1835437,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31700239
