@@ -15,7 +15,34 @@ window.cpexWebsiteSettings = {
           ]
         }
       },
-      bids: []
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3178134,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [259, 2, 96, 55]
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31700239
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.armadnizpravodaj.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }]
     }]
   }
 }
