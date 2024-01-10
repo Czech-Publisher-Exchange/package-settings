@@ -492,7 +492,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
       contentCSS: 'margin: auto; margin-top: 200px; position: relative; width: 1060px;',
-      hide: [ /*S*/ document.getElementsByClassName('js-advert-position-mark-leaderboard')[0] /*E*/ ]
+      hide: [ /*S*/ document.getElementsByClassName('js-advert-position-mark-leaderboard')[0] /*E*/ , /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/ ]
     }
   }
 }

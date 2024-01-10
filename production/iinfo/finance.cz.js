@@ -479,7 +479,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementById('bb_brandingWrap') /*E*/ ,
-      hide: [ /*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/ ]
+      hide: [ /*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/ ]
     }
   }
 }
