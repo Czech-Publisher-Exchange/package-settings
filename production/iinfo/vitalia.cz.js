@@ -585,7 +585,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
-      hide: [ /*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/ ]
+      hide: [ /*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/ , /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/ ]
     },
     native: {
       enabled: true
