@@ -10,8 +10,8 @@ If there is a different value for the same attribute, the rule is that the more 
 Example of setting files is in `playground/assets/settings` folder, used for the actual testing page.
 
 #### Two types
-- Publisher settings ― in root folder
-- Website settings ― in subfolders named after publisher tags
+  - Publisher settings ― in root folder
+  - Website settings ― in subfolders named after publisher tags
 
 *Note: Use new website settings for subdomains. Set them the same way as a new website.*
 
@@ -219,17 +219,17 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 **Note:** Element DOM selectors are written in Javascript code and have to be wrapped in simple brackets, to be properly parsed in the settings editor.
 
 `skin: {}`
-| Attribute      | Values                                  | Default                                 |
-|----------------|-----------------------------------------|-----------------------------------------|
-| `enabled`      | Boolean                                 | false                                   |
-| `backgroundEl` | DOM selector, background element        | document.body                           |
-| `contentEl`    | DOM selector, content element           |                                         |
+| Attribute      | Values                                                     | Default              |
+|----------------|------------------------------------------------------------|----------------------|
+| `enabled`      | Boolean                                                    | false                |
+| `backgroundEl` | DOM selector, background element                           | document.body        |
+| `contentEl`    | DOM selector, content element                              |                      |
 | `contentCSS`   | CSS style for content element           | 'position: relative; margin-top: 200px' |
-| `generalCSS`   | CSS style for the page in general       |                                         |
-| `hide`         | Array of DOM elements to hide           |                                         |
-| `zIndex`       | CSS `z-index` for skin wrapper (depth)  |                                         |
-| `offset`       | Number, pixels from the top of the page | 0                                       |
-| `offsetScroll` | Should offset disappear with scrolling? | false                                   |
+| `generalCSS`   | CSS style for the page in general                          |                      |
+| `hide`         | Array of DOM elements to hide                              |                      |
+| `zIndex`       | CSS `z-index` for skin wrapper (depth)                     |                      |
+| `offset`       | Function, returns pixels from the top, fallback to integer | 0                    |
+| `offsetScroll` | Should offset disappear with scrolling?                    | false                |
 
 #### Interscroller
 `interscroller: {}`
