@@ -31,7 +31,8 @@ window.cpexPublisherSettings = {
       rtbhouse: 'rtbhouse',
       'adform_im_hb-mask': 'adform_im_hb',
       criteo: 'criteo',
-      adform_knwl_hb: 'adform_knwl_hb'
+      adform_knwl_hb: 'adform_knwl_hb',
+      'omg-adform': 'adform_omg_hb'
     }
   },
   headerbidding: {
