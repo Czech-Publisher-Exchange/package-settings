@@ -146,6 +146,13 @@ window.cpexWebsiteSettings = {
           adSlot: 4909529
         }
       }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1840846,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334548,
@@ -247,6 +254,13 @@ window.cpexWebsiteSettings = {
           adSlot: 4909530
         }
       }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1840847,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334551,
@@ -341,6 +355,13 @@ window.cpexWebsiteSettings = {
           adSlot: 4909531
         }
       }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1840846,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1499306,
@@ -421,6 +442,13 @@ window.cpexWebsiteSettings = {
           adSlot: 4909532
         }
       }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1840847,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1499307,
@@ -500,6 +528,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: 4909534
         }
+      }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1840849,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -593,6 +628,13 @@ window.cpexWebsiteSettings = {
           adSlot: 4909535
         }
       }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1840848,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334565,
@@ -684,6 +726,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: 4909536
         }
+      }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1840850,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform_im_hb',
         params: {
@@ -779,6 +828,13 @@ window.cpexWebsiteSettings = {
           adSlot: 4909537
         }
       }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1840852,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1799489,
@@ -850,6 +906,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'adform_knwl_hb',
+        params: {
+          mid: 1840853,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28273061
@@ -861,7 +924,9 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
-      offset: 64,
+      offset: /*S*/ () => {
+        return 64
+      } /*E*/ ,
       zIndex: 0,
       contentCSS: 'z-index:2; margin-top: 200px',
       hide: [ /*S*/ document.getElementsByClassName('leaderboard')[0] /*E*/ ]
