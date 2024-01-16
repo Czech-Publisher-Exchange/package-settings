@@ -146,7 +146,7 @@ window.cpexWebsiteSettings = {
           adSlot: 4909529
         }
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840846,
           rcur: 'USD'
@@ -254,7 +254,7 @@ window.cpexWebsiteSettings = {
           adSlot: 4909530
         }
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840847,
           rcur: 'USD'
@@ -355,7 +355,7 @@ window.cpexWebsiteSettings = {
           adSlot: 4909531
         }
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840846,
           rcur: 'USD'
@@ -442,7 +442,7 @@ window.cpexWebsiteSettings = {
           adSlot: 4909532
         }
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840847,
           rcur: 'USD'
@@ -529,7 +529,7 @@ window.cpexWebsiteSettings = {
           adSlot: 4909534
         }
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840849,
           rcur: 'USD'
@@ -628,7 +628,7 @@ window.cpexWebsiteSettings = {
           adSlot: 4909535
         }
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840848,
           rcur: 'USD'
@@ -727,7 +727,7 @@ window.cpexWebsiteSettings = {
           adSlot: 4909536
         }
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840850,
           rcur: 'USD'
@@ -828,7 +828,7 @@ window.cpexWebsiteSettings = {
           adSlot: 4909537
         }
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840852,
           rcur: 'USD'
@@ -906,7 +906,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840853,
           rcur: 'USD'
