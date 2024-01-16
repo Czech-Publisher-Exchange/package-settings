@@ -112,7 +112,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840860,
           rcur: 'USD'
@@ -192,7 +192,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840861,
           rcur: 'USD'
@@ -271,7 +271,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840862,
           rcur: 'USD'
@@ -351,7 +351,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
-        bidder: 'adform_knwl_hb',
+        bidder: 'knowlimits-adform',
         params: {
           mid: 1840863,
           rcur: 'USD'
