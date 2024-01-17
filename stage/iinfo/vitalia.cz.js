@@ -59,20 +59,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727391,
-          rcur: 'USD'
+          siteId: 480814
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315596
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'vitalia_iinfo_area_halfpagead'
         }
       }, {
         bidder: 'r2b2',
@@ -136,20 +130,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727396,
-          rcur: 'USD'
+          siteId: 784932
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 21786359
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'Vitalia_homepage_2'
         }
       }, {
         bidder: 'r2b2',
@@ -212,26 +200,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727392,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727393,
-          rcur: 'USD'
+          siteId: 480815
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16315592
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'vitalia_iinfo_area_leaderboard'
+          placementId: 30169003
         }
       }, {
         bidder: 'r2b2',
@@ -260,7 +236,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 250],
+            [300, 300]
           ]
         }
       },
@@ -271,7 +249,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336716,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -280,7 +258,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336714,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -304,26 +282,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727389,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727390,
-          rcur: 'USD'
+          siteId: 430304
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315597
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'vitalia_iinfo_area_big_rectangle'
         }
       }, {
         bidder: 'r2b2',
@@ -336,6 +302,77 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-big-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 1336716,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 265182,
+          zoneId: 1336714,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '2445413'
+        }
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690535,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690657,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 430304
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 16315597
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vitalia.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
       }
     }, {
       code: 'iinfo-area-rectangle',
@@ -388,26 +425,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727394,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727395,
-          rcur: 'USD'
+          siteId: 480816
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315593
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'Vitalia_homepage_1'
         }
       }, {
         bidder: 'r2b2',
@@ -417,7 +442,73 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 1336708,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 265182,
+          zoneId: 1336706,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '2445406'
+        }
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 1057832,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 1057877,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480816
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 16315593
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'iinfo-area-spodni-square-banner',
       mediaTypes: {
@@ -470,20 +561,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727398,
-          rcur: 'USD'
+          siteId: 480817
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315595
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'vitalia_iinfo_area_spodni_square_banner'
         }
       }, {
         bidder: 'r2b2',
@@ -499,9 +584,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('design-navigation__content test-tt')[0]/*E*/,
-      offset: 25,
-      offsetScroll: true
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
+      hide: [ /*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/ , /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/ ],
+      offset: /*S*/ () => document.getElementsByClassName('js_o-header-bar')[0]?.offsetHeight ?? 0 /*E*/
     },
     native: {
       enabled: true
@@ -509,8 +594,8 @@ window.cpexWebsiteSettings = {
   },
   general: {
     autoRun: false,
-    customRun: /*S*/() => {
+    customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    }/*E*/
+    } /*E*/
   }
 }
