@@ -56,6 +56,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'rajce.net',
+          p: 'branding_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead',
@@ -110,6 +118,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'rajce.net',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -133,16 +149,6 @@ window.cpexWebsiteSettings = {
           sizes: [10, 48, 15, 9]
         }
       }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144584,
-          zoneId: 1858728,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -162,6 +168,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'rajce.net',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -186,16 +200,6 @@ window.cpexWebsiteSettings = {
           sizes: [10, 48, 15, 9]
         }
       }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144584,
-          zoneId: 1550390,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -215,6 +219,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'rajce.net',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -268,6 +280,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'rajce.net',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250_foto_mid',
@@ -320,6 +340,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'rajce.net',
+          p: '300x250_foto_mid',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_branding',
@@ -329,9 +357,9 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480],
             [300, 600],
-            [768, 1230]
+            [768, 1230],
+            [480, 480]
           ]
         }
       },
@@ -342,7 +370,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1848762,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -351,7 +379,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1848756,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -375,46 +403,13 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
-    }, {
-      code: 'm_sticky',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 150],
-            [300, 250],
-            [500, 200]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 157330,
-          zoneId: 1149138,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15, 258]
-        }
       }, {
-        bidder: 'rubicon-mask',
+        bidder: 'r2b2',
         params: {
-          siteId: 157332,
-          zoneId: 1149136,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15, 258]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 27158134
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
+          d: 'rajce.net',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -470,6 +465,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'rajce.net',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare_spodni',
@@ -494,16 +497,6 @@ window.cpexWebsiteSettings = {
           sizes: [83, 48, 14, 15, 261]
         }
       }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144584,
-          zoneId: 1530036,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -524,13 +517,21 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'rajce.net',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('m-bg-4')[0]/*E*/
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/
     },
     interscroller: {
       enabled: true
