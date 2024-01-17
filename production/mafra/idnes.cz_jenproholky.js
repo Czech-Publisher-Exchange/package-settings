@@ -50,6 +50,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.jenproholky.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead',
@@ -98,6 +106,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.jenproholky.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -148,6 +164,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.jenproholky.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika',
@@ -196,6 +220,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.jenproholky.cz',
+          p: '300x600_rubrika',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -246,6 +278,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.jenproholky.cz',
+          p: '300x600_rubrika_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -295,6 +335,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.jenproholky.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -341,6 +389,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.jenproholky.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -392,6 +448,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.jenproholky.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_paticka',
@@ -437,45 +501,13 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
-    }, {
-      code: 'm_sticky',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 150],
-            [300, 250]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 157330,
-          zoneId: 2236572,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15]
-        }
       }, {
-        bidder: 'rubicon-mask',
+        bidder: 'r2b2',
         params: {
-          siteId: 157332,
-          zoneId: 2236570,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 27157263
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
+          d: 'mafra.jenproholky.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }]
     }]
