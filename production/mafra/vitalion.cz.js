@@ -53,6 +53,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vitalion.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'branding',
@@ -105,6 +113,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vitalion.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -160,46 +176,13 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
-    }, {
-      code: 'm_sticky',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 150],
-            [300, 250],
-            [500, 200]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 157330,
-          zoneId: 2236598,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15, 258]
-        }
       }, {
-        bidder: 'rubicon-mask',
+        bidder: 'r2b2',
         params: {
-          siteId: 157332,
-          zoneId: 2236596,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15, 258]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 27158563
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
+          d: 'vitalion.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -251,6 +234,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vitalion.cz',
+          p: '160x600',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
