@@ -19,21 +19,11 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 144582,
-          zoneId: 2003362,
+          zoneId: 3185474,
           accountId: '10900',
           position: 'atf',
           sizes: [10, 48, 15, 9]
         }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144584,
-          zoneId: 2003368,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9]
-        },
-        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
@@ -55,6 +45,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.heroine.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -72,21 +70,11 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 144582,
-          zoneId: 2003364,
+          zoneId: 3185476,
           accountId: '10900',
           position: 'atf',
           sizes: [10, 48, 15, 9]
         }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144584,
-          zoneId: 2003370,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9]
-        },
-        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
@@ -108,6 +96,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.heroine.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_branding',
@@ -127,21 +123,11 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 157330,
-          zoneId: 2003592,
+          zoneId: 3185478,
           accountId: '10900',
           position: 'atf',
           sizes: [15, 14, 256, 10, 261]
         }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 157332,
-          zoneId: 2003596,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 14, 256, 10, 261]
-        },
-        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
@@ -163,6 +149,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.heroine.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'wallpaper',
@@ -179,21 +173,11 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 144582,
-          zoneId: 1275096,
+          zoneId: 3185480,
           accountId: '10900',
           position: 'atf',
           sizes: [94, 2, 57]
         }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144584,
-          zoneId: 1275094,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [94, 2, 57]
-        },
-        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
@@ -215,6 +199,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.heroine.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -233,21 +225,11 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 144582,
-          zoneId: 1604146,
+          zoneId: 3185482,
           accountId: '10900',
           position: 'atf',
           sizes: [83, 48, 14, 15, 261]
         }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144584,
-          zoneId: 1604140,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
-        },
-        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
@@ -268,6 +250,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.heroine.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }]
     }]
