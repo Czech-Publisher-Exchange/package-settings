@@ -23,16 +23,6 @@ window.cpexWebsiteSettings = {
           sizes: [15, 14]
         }
       }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144584,
-          zoneId: 731548,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 14]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -52,6 +42,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'modnipeklo.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -105,6 +103,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'modnipeklo.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -160,6 +166,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'modnipeklo.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -213,6 +227,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'modnipeklo.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -265,6 +287,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'modnipeklo.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'm_branding',
@@ -274,9 +304,9 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480],
             [300, 600],
-            [768, 1230]
+            [768, 1230],
+            [480, 480]
           ]
         }
       },
@@ -287,7 +317,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148158,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -296,7 +326,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148156,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261, 10]
+          sizes: [15, 14, 256, 10, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -320,46 +350,13 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
-    }, {
-      code: 'm_sticky',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 150],
-            [300, 250],
-            [500, 200]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 157330,
-          zoneId: 1149074,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15, 258]
-        }
       }, {
-        bidder: 'rubicon-mask',
+        bidder: 'r2b2',
         params: {
-          siteId: 157332,
-          zoneId: 1149072,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15, 258]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 27157836
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
+          d: 'modnipeklo.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }]
     }]
