@@ -479,7 +479,6 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
       contentCSS: ' ',
-      offset: 25,
       offsetScroll: true
     }
   }
