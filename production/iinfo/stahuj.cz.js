@@ -515,8 +515,9 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
-      contentCSS: 'width: 1060px; margin-top: 200px; position: relative;',
-      hide: [ /*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/ ]
+      contentCSS: 'width: 1060px;\nposition: relative;',
+      hide: [ /*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/ , /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/ ],
+      generalCSS: '.design-body { padding-top: 200px }'
     }
   },
   general: {
