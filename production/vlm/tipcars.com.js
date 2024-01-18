@@ -518,6 +518,57 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'skyscraper-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3188216,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48, 9]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3188218,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48, 9]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5682063'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31795949
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }],
     enabled: true
   },
