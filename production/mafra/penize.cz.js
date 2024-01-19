@@ -1463,6 +1463,67 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }]
+    }, {
+      code: 'm_vignete',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [720, 1280],
+            [480, 820],
+            [300, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3178132,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 10]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5652825'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1840626,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1841878,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1067348
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211330,
+          pageId: 195796
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31700110
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }]
     }]
   },
   formats: {
