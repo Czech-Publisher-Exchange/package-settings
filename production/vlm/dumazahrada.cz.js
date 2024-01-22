@@ -323,31 +323,13 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [548, 150]
-          ]
-        }
+        native: {}
       },
       bids: [{
-        bidder: 'rubicon',
+        bidder: 'appnexus',
         params: {
-          siteId: 144588,
-          zoneId: 1370790,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
+          placementId: 31808414
         }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144590,
-          zoneId: 1389440,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        },
-        bidderModuleName: 'rubicon'
       }],
       filter: {
         minWidth: 1000
@@ -567,6 +549,12 @@ window.cpexWebsiteSettings = {
       enabled: true,
       templates: {
         'commercial-article-native-detail': "<div class='inserted-article'>  <a href='${link}' class='inserted-article__item' target='_blank' id='cpexNativeLink' rel='sponsored noopener' style='text-decoration:none'>    <div class='inserted-article__image-wrap'>      <img class='inserted-article__image' src='${img}'>    </div>    <div class='inserted-article__headline-wrap article-text'>      <h2 class='inserted-article__headline'>${title}</h2>      <p class='inserted-article__title' style='font-size:1.125rem; color:#c2272d'>${desc}</p>    </div>  </a></div>"
+      },
+      adUnitConfig: {
+        'commercial-article-native-detail': {
+          titleLength: 45,
+          descLength: 90
+        }
       }
     },
     responsive: {
