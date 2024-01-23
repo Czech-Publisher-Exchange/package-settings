@@ -2529,6 +2529,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1841859,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'teads',
         params: {
           placementId: 211358,
