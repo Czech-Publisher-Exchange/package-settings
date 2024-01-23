@@ -1434,7 +1434,8 @@ window.cpexWebsiteSettings = {
       height: 480
     },
     vignette: {
-      adUnits: ['m_vignete']
+      adUnits: ['m_vignete'],
+      enabled: true
     },
     interscroller: {
       enabled: true
