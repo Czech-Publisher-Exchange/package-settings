@@ -264,6 +264,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1841856,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 958842
