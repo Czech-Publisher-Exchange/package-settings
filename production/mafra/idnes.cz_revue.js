@@ -84,7 +84,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        urlHas: 'eva-samkova-snowboardcross-rozhovor-dieta-olympiada-pepin-vrchlabi-polakova-impuls'
+      }
     }, {
       code: '300x250',
       mediaTypes: {
@@ -257,7 +260,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        urlHas: 'eva-samkova-snowboardcross-rozhovor-dieta-olympiada-pepin-vrchlabi-polakova-impuls'
+      }
     }, {
       code: 'halfpagead_spodni',
       mediaTypes: {
@@ -344,7 +350,10 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        urlHas: 'eva-samkova-snowboardcross-rozhovor-dieta-olympiada-pepin-vrchlabi-polakova-impuls'
+      }
     }, {
       code: 'halfpagead_rubrika',
       mediaTypes: {
