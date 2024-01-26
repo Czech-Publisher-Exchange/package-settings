@@ -1115,8 +1115,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [320, 150],
-            [300, 250],
             [500, 200]
           ]
         }
