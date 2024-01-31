@@ -25,6 +25,12 @@ window.cpexWebsiteSettings = {
           sizes: [259, 2, 96, 55]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851970,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -59,6 +65,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [10, 48, 15, 9, 14]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851971,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -96,6 +108,12 @@ window.cpexWebsiteSettings = {
           sizes: [10, 48, 15, 9]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851974,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -129,6 +147,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851972,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -165,6 +189,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 14, 261]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851967,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -197,6 +227,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [15, 14, 261]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851968,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -236,6 +272,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 14, 256, 10, 261]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851969,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -266,6 +308,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [15]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851978,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -302,6 +350,12 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15, 258]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851976,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -326,6 +380,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [94, 2, 57]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851977,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -364,6 +424,12 @@ window.cpexWebsiteSettings = {
           sizes: [83, 48, 14, 15, 261]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851975,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -397,6 +463,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [10, 48, 15, 9]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1851973,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
