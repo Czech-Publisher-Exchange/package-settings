@@ -952,7 +952,7 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        generic: "<article class='box-article'>  <header class='box-article-header'>    <div class='box-article-image'>      <a href='${link}' target='_blank' rel='sponsored noopener'><div class='box-article-img'><img src='${img}'></div></a>    </div>    <div class='box-article-header-bottom'>      <div class='box-article-title'>        <a href='${link}' target='_blank' rel='sponsored noopener'><h2>${title}</h2></a>      </div>    </div>  </header>  <blockquote class='box-article-excerpt'>${desc}</blockquote></article>"
+        generic: "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'>\n  <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>\n    <div class=' js-article-image w-full'>\n      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>\n        <picture class='shrink-0'> <img src='${img}' alt='${title}'> </picture>\n        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>\n      </div>\n    </div>\n  </a>\n  <div class=' flex flex-col items-start gap-2'>\n    <div class='flex flex-wrap gap-2'>\n      <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> Reklama</a>\n    </div>\n    <h2 class='m-0 !leading-normal text-xl'>\n      <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '> ${title} </a>\n    </h2>\n    <div style='text-align:left'> ${desc} </div>\n  </div>\n</article>"
       }
     },
     vignette: {
