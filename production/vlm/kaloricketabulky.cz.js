@@ -204,6 +204,58 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [720, 1280],
+            [480, 480],
+            [336, 280],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3214408,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 16, 48, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3214410,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 16, 48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5734285'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31909171
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }],
     enabled: true
   },
@@ -212,7 +264,7 @@ window.cpexWebsiteSettings = {
       enabled: false
     },
     interscroller: {
-      enabled: false
+      enabled: true
     },
     native: {
       enabled: false
@@ -223,6 +275,9 @@ window.cpexWebsiteSettings = {
     },
     vignette: {
       enabled: false
+    },
+    responsive: {
+      adUnits: ['m-square-1']
     }
   }
 }
