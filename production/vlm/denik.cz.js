@@ -619,35 +619,12 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-2-GA-hp',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [548, 150]
-          ]
-        }
+        native: {}
       },
       bids: [{
-        bidder: 'rubicon',
+        bidder: 'appnexus',
         params: {
-          siteId: 144588,
-          zoneId: 1370776,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144590,
-          zoneId: 1389448,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'VLM_denik_commercial-article-2-GA-hp'
+          placementId: 27493617
         }
       }],
       filter: {
@@ -2179,6 +2156,10 @@ window.cpexWebsiteSettings = {
       },
       adUnitConfig: {
         'm-commercial-article-2': {
+          titleLength: 45,
+          descLength: 90
+        },
+        'commercial-article-2-GA-hp': {
           titleLength: 45,
           descLength: 90
         }
