@@ -385,20 +385,12 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [548, 150]
-          ]
-        }
+        native: {}
       },
       bids: [{
-        bidder: 'rubicon',
+        bidder: 'appnexus',
         params: {
-          siteId: 144588,
-          zoneId: 1370788,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
+          placementId: 31808344
         }
       }],
       filter: {
@@ -429,20 +421,12 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'm-commercial-article-native-detail',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [548, 150]
-          ]
-        }
+        native: {}
       },
       bids: [{
-        bidder: 'rubicon',
+        bidder: 'appnexus',
         params: {
-          siteId: 46270,
-          zoneId: 2642278,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
+          placementId: 31924697
         }
       }],
       filter: {
@@ -1321,6 +1305,14 @@ window.cpexWebsiteSettings = {
       },
       adUnitConfig: {
         'commercial-article-2-GA': {
+          titleLength: 45,
+          descLength: 90
+        },
+        'commercial-article-native-detail': {
+          titleLength: 45,
+          descLength: 90
+        },
+        'm-commercial-article-native-detail': {
           titleLength: 45,
           descLength: 90
         }
