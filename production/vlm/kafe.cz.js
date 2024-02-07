@@ -196,7 +196,8 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 820],
-            [480, 480]
+            [480, 480],
+            [480, 320]
           ]
         }
       },
@@ -207,7 +208,7 @@ window.cpexWebsiteSettings = {
           zoneId: 857042,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 261]
+          sizes: [15, 48, 256, 261, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -216,7 +217,7 @@ window.cpexWebsiteSettings = {
           zoneId: 857124,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 261]
+          sizes: [15, 48, 256, 261, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -317,7 +318,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 600],
             [300, 250],
-            [160, 600]
+            [300, 300]
           ]
         }
       },
@@ -328,7 +329,7 @@ window.cpexWebsiteSettings = {
           zoneId: 884754,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9]
+          sizes: [10, 15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -337,7 +338,7 @@ window.cpexWebsiteSettings = {
           zoneId: 104782,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9]
+          sizes: [10, 15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -434,35 +435,12 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [548, 150]
-          ]
-        }
+        native: {}
       },
       bids: [{
-        bidder: 'rubicon',
+        bidder: 'appnexus',
         params: {
-          siteId: 144588,
-          zoneId: 1370784,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 144590,
-          zoneId: 1389436,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [90]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'VLM_Kafe_commercial-article-native-detail'
+          placementId: 31924732
         }
       }],
       filter: {
@@ -476,7 +454,8 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [336, 280],
-            [480, 480]
+            [480, 480],
+            [480, 320]
           ]
         }
       },
@@ -487,7 +466,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1036438,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 261]
+          sizes: [48, 15, 16, 261, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -496,7 +475,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1036440,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 261]
+          sizes: [48, 15, 16, 261, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -632,7 +611,8 @@ window.cpexWebsiteSettings = {
             [480, 480],
             [300, 250],
             [300, 300],
-            [336, 280]
+            [336, 280],
+            [480, 320]
           ]
         }
       },
@@ -643,7 +623,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726100,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -652,7 +632,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726106,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -688,7 +668,8 @@ window.cpexWebsiteSettings = {
             [480, 480],
             [300, 250],
             [300, 300],
-            [336, 280]
+            [336, 280],
+            [480, 320]
           ]
         }
       },
@@ -699,7 +680,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726102,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -708,7 +689,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726108,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -744,7 +725,8 @@ window.cpexWebsiteSettings = {
             [480, 480],
             [300, 250],
             [300, 300],
-            [336, 280]
+            [336, 280],
+            [480, 320]
           ]
         }
       },
@@ -755,7 +737,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726104,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -764,7 +746,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726110,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -800,7 +782,8 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [480, 480],
-            [336, 280]
+            [336, 280],
+            [480, 320]
           ]
         }
       },
@@ -811,7 +794,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3177322,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 261, 16]
+          sizes: [48, 15, 261, 16, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -820,7 +803,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3177366,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 261, 16]
+          sizes: [48, 15, 261, 16, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -952,7 +935,13 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        generic: "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'>\n  <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>\n    <div class=' js-article-image w-full'>\n      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>\n        <picture class='shrink-0'> <img src='${img}' alt='${title}'> </picture>\n        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>\n      </div>\n    </div>\n  </a>\n  <div class=' flex flex-col items-start gap-2'>\n    <div class='flex flex-wrap gap-2'>\n      <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> Reklama</a>\n    </div>\n    <h2 class='m-0 !leading-normal text-xl'>\n      <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '> ${title} </a>\n    </h2>\n    <div style='text-align:left'> ${desc} </div>\n  </div>\n</article>"
+        generic: "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'>  <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>    <div class=' js-article-image w-full'>      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>        <picture class='shrink-0'> <img src='${img}' alt='${title}'> </picture>        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>      </div>    </div>  </a>  <div class=' flex flex-col items-start gap-2'>    <div class='flex flex-wrap gap-2'>      <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> Reklama</a>    </div>    <h2 class='m-0 !leading-normal text-xl'>      <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '> ${title} </a>    </h2>    <div style='text-align:left'> ${desc} </div>  </div></article>"
+      },
+      adUnitConfig: {
+        'commercial-article-native-detail': {
+          titleLength: 45,
+          descLength: 90
+        }
       }
     },
     vignette: {
