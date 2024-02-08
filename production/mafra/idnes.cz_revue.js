@@ -2573,7 +2573,10 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
-      }]
+      }],
+      filter: {
+        urlHas: 'eva-samkova-snowboardcross-rozhovor-dieta-olympiada-pepin-vrchlabi-polakova-impuls'
+      }
     }, {
       code: 'halfpagead_rubrika_lazyload',
       mediaTypes: {
