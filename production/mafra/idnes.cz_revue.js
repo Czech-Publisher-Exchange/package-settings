@@ -2497,6 +2497,87 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'm_vignete',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [720, 1280],
+            [480, 820],
+            [300, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 2795930,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 10]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 2800860,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 10]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5111674'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1716542,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1727301,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1841870,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 958832
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211358,
+          pageId: 195824
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29860416
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        urlHas: 'eva-samkova-snowboardcross-rozhovor-dieta-olympiada-pepin-vrchlabi-polakova-impuls'
+      }
+    }, {
       code: 'halfpagead_rubrika_lazyload',
       mediaTypes: {
         banner: {
