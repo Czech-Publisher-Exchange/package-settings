@@ -39,6 +39,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5739432'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24001672
@@ -85,6 +91,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5739433'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24001674
@@ -129,6 +141,12 @@ window.cpexWebsiteSettings = {
           sizes: [2, 96, 259, 230]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5739431'
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -187,6 +205,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5739434'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24001671
@@ -210,7 +234,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [480, 300],
             [300, 250],
-            [300, 300]
+            [300, 300],
+            [336, 280]
           ]
         }
       },
@@ -221,7 +246,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2317574,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 15, 48]
+          sizes: [83, 15, 48, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -230,9 +255,15 @@ window.cpexWebsiteSettings = {
           zoneId: 2317596,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 15, 48]
+          sizes: [83, 15, 48, 16]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5739435'
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -248,42 +279,93 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'iinfo-area-spodni-square-banner',
+      code: 'iinfo-area-interscroller',
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
-            [300, 250],
-            [250, 250],
-            [200, 200]
+            [480, 820]
           ]
         }
       },
       bids: [{
         bidder: 'rubicon',
         params: {
-          siteId: 265202,
-          zoneId: 2317572,
+          siteId: 364918,
+          zoneId: 3223106,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 13]
+          sizes: [256]
         }
       }, {
         bidder: 'rubicon-mask',
         params: {
-          siteId: 265182,
-          zoneId: 2317594,
+          siteId: 364916,
+          zoneId: 3223110,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 13]
+          sizes: [256]
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5739436'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
-          placementId: 24353121
+          placementId: 31924738
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-mobilni-branding',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100],
+            [320, 150],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 364918,
+          zoneId: 3223108,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [117, 60, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 364916,
+          zoneId: 3223112,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [117, 60, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5739437'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31924739
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }],
     customBuckets: [15, 18, 20, 22, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 125, 150]
   },
