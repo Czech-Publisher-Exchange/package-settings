@@ -3040,7 +3040,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m_sticky']
+      adUnits: ['m_sticky', 'm_sticky_foto']
     },
     responsive: {
       width: 480,
