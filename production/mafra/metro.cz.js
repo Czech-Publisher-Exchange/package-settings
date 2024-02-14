@@ -1196,6 +1196,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5429201'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1849419,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1042071
@@ -1427,7 +1433,7 @@ window.cpexWebsiteSettings = {
       generalCSS: '#r-leaderboardhp {  height: 200px}'
     },
     slideup: {
-      adUnits: ['m_sticky']
+      adUnits: ['m_sticky', 'm_sticky_foto']
     },
     responsive: {
       width: 480,
