@@ -3028,6 +3028,60 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
+    }, {
+      code: 'm_sticky_foto',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 250],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3210352,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 15, 258]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5697984'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1848896,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1072431
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211358,
+          pageId: 195824
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31818891
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }]
     }]
   },
   formats: {
@@ -3043,7 +3097,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m_sticky']
+      adUnits: ['m_sticky', 'm_sticky_foto']
     },
     vignette: {
       enabled: true,
