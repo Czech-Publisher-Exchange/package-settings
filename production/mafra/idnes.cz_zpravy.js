@@ -2524,7 +2524,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 1633105,
+          mid: 1848914,
           rcur: 'USD'
         }
       }, {
@@ -2545,6 +2545,12 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 927760
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211358,
+          pageId: 195824
         }
       }, {
         bidder: 'appnexus',
