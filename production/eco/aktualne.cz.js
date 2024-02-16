@@ -748,6 +748,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 27917907
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'strip',
