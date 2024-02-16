@@ -602,6 +602,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 28273058
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }],
     currency: 'USD'
