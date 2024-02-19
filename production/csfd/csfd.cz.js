@@ -2466,7 +2466,8 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }],
-    analytics: ['cpexAnalytics']
+    analytics: ['cpexAnalytics'],
+    prebidPath: 'https://cdn.cpex.cz/hb/prebid/v8/prebid.min.js'
   },
   formats: {
     skin: {
