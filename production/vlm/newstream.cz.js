@@ -61,7 +61,6 @@ window.cpexWebsiteSettings = {
           sizes: [
             [728, 90],
             [970, 210],
-            [2000, 1400],
             [970, 250],
             [998, 200]
           ]
@@ -74,7 +73,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2831982,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96, 230, 57, 259]
+          sizes: [2, 96, 57, 259]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -83,7 +82,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2832014,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96, 230, 57, 259]
+          sizes: [2, 96, 57, 259]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -278,7 +277,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [548, 150],
             [300, 300],
             [300, 250],
             [336, 280]
@@ -292,7 +290,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2831996,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 48, 15, 16]
+          sizes: [48, 15, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -301,7 +299,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2832032,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 48, 15, 16]
+          sizes: [48, 15, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -542,7 +540,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [548, 150],
             [300, 100]
           ]
         }
@@ -554,7 +551,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2831984,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 19]
+          sizes: [19]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -563,7 +560,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2832016,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 19]
+          sizes: [19]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -585,7 +582,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [548, 150],
             [300, 100]
           ]
         }
@@ -597,7 +593,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2831986,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 19]
+          sizes: [19]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -606,7 +602,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2832018,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 19]
+          sizes: [19]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -668,6 +664,52 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'centerVignette',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [300, 600],
+            [336, 280],
+            [320, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3254078,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 10, 16, 67]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3254076,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 10, 16, 67]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32092573
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
@@ -683,9 +725,6 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnits: ['m-sticky']
-    },
-    vignette: {
-      enabled: false
     },
     responsive: {
       enabled: true,
