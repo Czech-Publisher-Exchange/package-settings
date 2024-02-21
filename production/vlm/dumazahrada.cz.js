@@ -325,12 +325,50 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        },
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144588,
+          zoneId: 1370790,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 15, 16, 600]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3257074,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 15, 16, 600]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5749736'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31808414
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
