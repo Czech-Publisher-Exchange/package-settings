@@ -2793,13 +2793,18 @@ window.cpexWebsiteSettings = {
           zoneId: 3002100,
           accountId: '10900',
           position: 'atf',
-          sizes: []
+          sizes: [600]
         }
       }, {
         bidder: 'adform',
         params: {
           mid: 1743205,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1077213
         }
       }, {
         bidder: 'appnexus',
@@ -2819,13 +2824,18 @@ window.cpexWebsiteSettings = {
           zoneId: 3002104,
           accountId: '10900',
           position: 'atf',
-          sizes: []
+          sizes: [600]
         }
       }, {
         bidder: 'adform',
         params: {
           mid: 1743207,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1077214
         }
       }, {
         bidder: 'appnexus',
