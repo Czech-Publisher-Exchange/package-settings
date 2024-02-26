@@ -240,7 +240,10 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [480, 820]
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [336, 280]
           ]
         }
       },
@@ -251,7 +254,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2831988,
           accountId: '10900',
           position: 'atf',
-          sizes: [256]
+          sizes: [15, 48, 261, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -260,13 +263,18 @@ window.cpexWebsiteSettings = {
           zoneId: 2832020,
           accountId: '10900',
           position: 'atf',
-          sizes: [256]
+          sizes: [15, 48, 261, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 29686511
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -730,7 +738,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       width: 480,
       height: 480,
-      adUnits: ['m-square-1', 'm-square-bottom-1', 'm-square-3', 'm-square-bottom-2']
+      adUnits: ['m-square-1', 'm-square-bottom-1', 'm-square-3', 'm-square-bottom-2', 'm-square-2']
     }
   }
 }
