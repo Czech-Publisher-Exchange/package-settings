@@ -151,6 +151,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869676,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109020,
@@ -245,6 +252,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869689,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109049,
@@ -334,6 +348,13 @@ window.cpexWebsiteSettings = {
         bidder: 'adform_im_hb-mask',
         params: {
           mid: 1334468,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869702,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
@@ -432,6 +453,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869759,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109045,
@@ -509,6 +537,13 @@ window.cpexWebsiteSettings = {
         bidder: 'knowlimits-adform',
         params: {
           mid: 1840842,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869772,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
@@ -593,6 +628,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869775,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109065,
@@ -673,6 +715,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869777,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109071,
@@ -740,6 +789,13 @@ window.cpexWebsiteSettings = {
         bidder: 'knowlimits-adform',
         params: {
           mid: 1840845,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869781,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
