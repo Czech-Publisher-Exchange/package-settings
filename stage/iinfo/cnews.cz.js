@@ -7,7 +7,7 @@ window.cpexWebsiteSettings = {
   },
   headerbidding: {
     adUnits: [{
-      code: 'iinfo-area-halfpagead-horni',
+      code: 'iinfo-area-halfpagead_horni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -59,7 +59,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'iinfo-area-halfpagead-spodni',
+      code: 'iinfo-area-halfpagead_spodni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -322,7 +322,7 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
-      code: 'iinfo-area-mobilni-branding',
+      code: 'iinfo-area-mobilni_branding',
       mediaTypes: {
         banner: {
           sizes: [
