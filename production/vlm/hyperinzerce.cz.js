@@ -40,6 +40,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5444519'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1043330
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31073173
@@ -89,6 +94,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5444520'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1043329
         }
       }, {
         bidder: 'appnexus',
@@ -143,6 +153,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5444546'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1043333
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31073259
@@ -192,6 +207,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5444547'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1043334
         }
       }, {
         bidder: 'appnexus',
@@ -245,6 +265,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5444551'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1043331
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31073186
@@ -295,6 +320,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5444553'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1043332
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31073195
@@ -316,7 +346,8 @@ window.cpexWebsiteSettings = {
             [320, 150],
             [300, 120],
             [500, 200],
-            [300, 250]
+            [300, 250],
+            [300, 300]
           ]
         }
       },
@@ -327,7 +358,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3075334,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15]
+          sizes: [60, 85, 258, 15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -336,7 +367,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3075350,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15]
+          sizes: [60, 85, 258, 15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -390,6 +421,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5527851'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1071035
         }
       }, {
         bidder: 'appnexus',
