@@ -11,8 +11,7 @@ window.cpexPublisherSettings = {
       rubicon: 'Magnite_HB',
       appnexus: 'Xandr_HB',
       pubmatic: 'Pubmatic_HB',
-      ix: 'Index_HB',
-      connectad: 'ConnectAd_HB'
+      ix: 'Index_HB'
     },
     allowedSSPs: {
       pubmatic: 1,
