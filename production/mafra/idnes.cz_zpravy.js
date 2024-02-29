@@ -2816,7 +2816,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2795918,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 10]
+          sizes: [484, 256, 10]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2825,7 +2825,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2800816,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 10]
+          sizes: [484, 256, 10]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3013,6 +3013,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 30878856
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'm_nativ',
@@ -3029,6 +3034,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 30878858
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }]
