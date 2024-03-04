@@ -29,6 +29,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260572,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [55, 96, 230, 57]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -54,6 +63,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260574,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -80,6 +98,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260576,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -107,6 +134,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260578,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 15, 16]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -136,6 +172,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260580,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [16, 15, 48, 261, 256, 101]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -164,6 +209,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260582,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [16, 15, 48, 261, 101]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -192,6 +246,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260584,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258, 15, 48]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -220,6 +283,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260586,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 10, 16, 67]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -248,6 +320,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260588,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 16, 101]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -275,6 +356,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260590,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 83, 16]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -303,6 +393,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260592,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 256, 16]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -330,6 +429,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260594,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -357,6 +465,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260596,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -384,6 +501,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260598,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -411,6 +537,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260600,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -438,6 +573,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260602,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -465,6 +609,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260604,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -492,6 +645,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260606,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -519,6 +681,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260608,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -545,6 +716,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260610,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 16, 48]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -573,6 +753,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260612,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261, 101]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -601,6 +790,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260614,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261, 101]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -629,6 +827,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260616,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261, 101]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -657,6 +864,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260618,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258, 15, 48]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -683,6 +899,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260620,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -709,6 +934,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260622,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -736,6 +970,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260624,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -763,6 +1006,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260626,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -790,6 +1042,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260628,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 96, 57, 230]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -816,6 +1077,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260630,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -843,6 +1113,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260634,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 55, 96, 57]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -870,6 +1149,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260636,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 101]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -897,6 +1185,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260638,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 101]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -924,6 +1221,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260640,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 101]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -951,6 +1257,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260642,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -978,6 +1293,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260644,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -1005,6 +1329,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260646,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -1032,6 +1365,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3260648,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 55, 96, 57]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -1058,6 +1400,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260650,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 16, 48]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
