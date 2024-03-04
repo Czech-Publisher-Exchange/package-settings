@@ -2427,7 +2427,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2795958,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 10]
+          sizes: [484, 256, 10]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2436,7 +2436,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2800890,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 10]
+          sizes: [484, 256, 10]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2853,6 +2853,60 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 31269806
+        }
+      }]
+    }, {
+      code: 'm_sticky_foto',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 250],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3210354,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 15, 258]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5697985'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1848916,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1072432
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211401,
+          pageId: 195866
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31818892
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }]
