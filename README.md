@@ -139,6 +139,14 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `enabled`      | Boolean                                          | true       |
 | `pixelList`    | Array of URL strings                             | array      |
 
+### DSA
+(Digital Services Act) EU requirement to show information about advertisers and profiling
+`dsa: {}`
+| Attribute      | Values                                           | Default    |
+|----------------|--------------------------------------------------|------------|
+| `enabled`      | Boolean                                          | true       |
+| `pixelList`    | Array of URL strings                             | array      |
+
 ### Analytics
 `analytics: {}`
 | Attribute      | Values                                           | Default    |
