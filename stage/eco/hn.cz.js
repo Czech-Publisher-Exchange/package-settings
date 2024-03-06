@@ -439,18 +439,14 @@ window.cpexWebsiteSettings = {
   },
   general: {
     errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184',
-    onLoad: /*S*/ (function() {
-      var gdprCmpStub = document.createElement('script');
+    onLoad: /*S*/ () => {
+      const gdprCmpStub = document.createElement('script');
       gdprCmpStub.src = 'resources/gdpr_cmp_stub.js';
-      gdprCmpStub.type = 'text/javascript';
       document.head.appendChild(gdprCmpStub);
-      var cxScript = document.createElement('script');
+      const cxScript = document.createElement('script');
       cxScript.src = '//cdn.cxense.com/cx.js';
-      cxScript.type = 'text/javascript';
       document.head.appendChild(cxScript);
-      cxScript.onload = function() {
-        cX.sync('rub');
-      };
-    })(); /*E*/
+      cxScript.onload = () => cX.sync('rub');
+    } /*E*/
   }
 }
