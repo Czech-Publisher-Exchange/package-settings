@@ -168,6 +168,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: '1087399'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: '29896310'
@@ -188,6 +193,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1743205,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: '1087400'
         }
       }, {
         bidder: 'appnexus',
@@ -217,7 +227,7 @@ window.cpexWebsiteSettings = {
           zoneId: '2044716',
           accountId: '10900',
           position: 'atf',
-          sizes: [256]
+          sizes: [256, 484]
         }
       }]
     }, {
