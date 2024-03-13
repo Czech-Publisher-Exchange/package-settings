@@ -498,6 +498,12 @@ window.cpexWebsiteSettings = {
     skin: {
       contentEl: /*S*/ document.getElementsByClassName('c-main')[0] /*E*/ ,
       enabled: true
+    },
+    native: {
+      enabled: true,
+      templates: {
+        'commercial-article-1': "<div class='c-ad-list__item js-ad-list-link'>\n  <div class='c-ad-list__item-image-container'>\n    <img class='c-ad-list__item-image' src='${img}'>\n  </div>\n  <div class='c-ad-list__item-content'>\n    <div class='c-ad-list__item-header'>\n      <a href='${link}' class='c-ad-list__item-name'>\n        ${title}\n      </a>\n    </div>\n    <div class='c-ad-list__item-description'>\n      ${desc}\n    </div>\n    <div class='c-ad-list__item-footer'>\n      Reklama\n    </div>\n  </div>\n</div>"
+      }
     }
   },
   cmp: {
