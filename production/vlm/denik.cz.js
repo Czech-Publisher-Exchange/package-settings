@@ -2263,7 +2263,8 @@ window.cpexWebsiteSettings = {
         'm-commercial-article-2': 'commercial-article-1-hp',
         'commercial-article-2-hp': "<article class='box-article box-article-classic'>  <div class='box-article-left'>    <a class='box-article-img' href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>      <img src='${img}' width='210' height='140' loading='lazy' style='object-fit: cover'>    </a>  </div>  <div class='box-article-right'>    <div class='box-article-tags'>      <div class='box-article-tag'>REKLAMA</div>    </div>    <a href='${link}' target='_blank' rel='sponsored noopener'>      <h3 class='box-article-title fs20'>${title}</h3>      <h4 class='box-article-perex fs16'>${desc}</h4>    </a>  </div></article>",
         'commercial-article-native-detail': "<article class='box-article box-article-classic' style='height: 130px'> <a class='box-article-left' href='${link}' target='_blank' title='${title}' tabindex='-1' style='display: flex; align-items: center' rel='sponsored noopener'> <img src='${img}' width='210' height='140' class='box-article-img' loading='lazy'> </a>  <div class='box-article-right'>    <div class='box-article-tags'>      <div class='box-article-tag'>REKLAMA</div>    </div> <a class='box-article-perex fs16' href='${link}' target='_blank' rel='sponsored noopener'>      <h3 class='box-article-title fs20'>${title}</h3> ${desc}    </a>  </div></article>",
-        'commercial-article-2': 'commercial-article-native-detail'
+        'commercial-article-2': 'commercial-article-native-detail',
+        'm-commercial-article-native-detail': 'commercial-article-1-hp'
       },
       adUnitConfig: {
         'm-commercial-article-2': {
