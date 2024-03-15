@@ -263,8 +263,7 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [336, 280],
-            [480, 480],
-            [480, 820]
+            [480, 480]
           ]
         }
       },
@@ -275,7 +274,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2818216,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 261, 256]
+          sizes: [15, 48, 16, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -284,7 +283,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2818282,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 261, 256]
+          sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1276,6 +1275,45 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3312612,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5819732'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32355525
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
@@ -1300,7 +1338,7 @@ window.cpexWebsiteSettings = {
     },
     native: {
       templates: {
-        'm-commercial-article-native-detail': "<article class='flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a href='${link}' class='w-full h-auto shrink-0 sm:w-72 sm:h-48'> <img src='${img}' class='object-center mx-auto max-h-screen bg-grey-1 object-cover aspect-3x2 w-full'> </a>\n  <div class='flex flex-col items-start gap-2'>\n    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'>Reklama</a> </div>\n    <h2 class='m-0 text-xl sm:text-2xl' style='text-align: left'> <a href='${link}' class='no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky'> ${title} </a> </h2>\n  </div>\n</article>",
+        'm-commercial-article-native-detail': "<article class='flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a href='${link}' class='w-full h-auto shrink-0 sm:w-72 sm:h-48'> <img src='${img}' class='object-center mx-auto max-h-screen bg-grey-1 object-cover aspect-3x2 w-full'> </a>  <div class='flex flex-col items-start gap-2'>    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'>Reklama</a> </div>    <h2 class='m-0 text-xl sm:text-2xl' style='text-align: left'> <a href='${link}' class='no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky'> ${title} </a> </h2>  </div></article>",
         'commercial-article-native-detail': 'm-commercial-article-native-detail'
       },
       enabled: true
