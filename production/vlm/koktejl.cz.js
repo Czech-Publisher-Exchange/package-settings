@@ -166,7 +166,6 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 480],
-            [480, 820],
             [480, 320]
           ]
         }
@@ -178,7 +177,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3260580,
           accountId: '10900',
           position: 'atf',
-          sizes: [16, 15, 48, 261, 256, 101]
+          sizes: [16, 15, 48, 261, 101]
         }
       }, {
         bidder: 'pubmatic',
@@ -1423,6 +1422,40 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3312606,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5820140'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
@@ -1443,7 +1476,7 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: false,
       templates: {
-        'commercial-article-native-detail': "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a href='${link}' class='w-full h-auto shrink-0 no-underline relative sm:w-72'>\n    <div class='js-article-image w-full'>\n      <div class='js-lightbox-wrap lightbox__wrap relative w-auto -mx-4 sm:mx-0'>\n        <picture class='shrink-0'> <img src='${img}' alt='${title}' style='width:100%' /> </picture>\n        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>\n      </div>\n    </div>\n  </a>\n  <div class='flex flex-col items-start gap-2' style='text-align: left'>\n    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'>Reklama</a> </div>\n    <h2 class='m-0 !leading-normal text-xl'> <a href='${link}' class='block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky'> ${title} </a> </h2>\n    <div>${desc}</div>\n  </div>\n</article>",
+        'commercial-article-native-detail': "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a href='${link}' class='w-full h-auto shrink-0 no-underline relative sm:w-72'>    <div class='js-article-image w-full'>      <div class='js-lightbox-wrap lightbox__wrap relative w-auto -mx-4 sm:mx-0'>        <picture class='shrink-0'> <img src='${img}' alt='${title}' style='width:100%' /> </picture>        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>      </div>    </div>  </a>  <div class='flex flex-col items-start gap-2' style='text-align: left'>    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'>Reklama</a> </div>    <h2 class='m-0 !leading-normal text-xl'> <a href='${link}' class='block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky'> ${title} </a> </h2>    <div>${desc}</div>  </div></article>",
         'm-commercial-article-native-detail': 'commercial-article-native-detail'
       },
       adUnitConfig: {
