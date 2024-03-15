@@ -287,8 +287,7 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [336, 280],
-            [480, 480],
-            [480, 820]
+            [480, 480]
           ]
         }
       },
@@ -299,7 +298,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3108044,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 261, 256]
+          sizes: [15, 48, 16, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -308,7 +307,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3108098,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 261, 256]
+          sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1190,6 +1189,11 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '5537024'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1231,6 +1235,11 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '5537025'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1271,6 +1280,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5537031'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -1367,6 +1381,40 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3312614,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5819736'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
       }
     }]
   },
