@@ -26,10 +26,10 @@ window.cpexPublisherSettings = {
       dsarequired: 1,
       pubrender: 0,
       datatopub: 1,
-      transparency: {
+      transparency: [{
         domain: 'csfd.cz',
         dsaparams: [1,2]
-      }
+      }]
     }
   },
   general: {
