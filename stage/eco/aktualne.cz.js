@@ -68,12 +68,6 @@ window.cpexWebsiteSettings = {
           siteId: 759650
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158414,
-          pageId: 144522
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28537849
@@ -136,6 +130,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840838,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334463,
@@ -150,6 +151,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869676,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109020,
@@ -159,12 +167,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759648
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 153683,
-          pageId: 140019
         }
       }, {
         bidder: 'appnexus',
@@ -229,6 +231,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840839,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334465,
@@ -243,6 +252,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869689,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109049,
@@ -252,12 +268,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759649
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158413,
-          pageId: 144521
         }
       }, {
         bidder: 'appnexus',
@@ -321,6 +331,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840840,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334467,
@@ -335,6 +352,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869702,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109030,
@@ -344,12 +368,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759656
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 150228,
-          pageId: 136848
         }
       }, {
         bidder: 'appnexus',
@@ -414,6 +432,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840841,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334469,
@@ -428,6 +453,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869759,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109045,
@@ -437,12 +469,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759654
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158411,
-          pageId: 144519
         }
       }, {
         bidder: 'appnexus',
@@ -508,6 +534,20 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840842,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869772,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109053,
@@ -517,12 +557,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759651
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 153926,
-          pageId: 140240
         }
       }, {
         bidder: 'appnexus',
@@ -587,6 +621,20 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840843,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869775,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109065,
@@ -596,12 +644,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759652
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158415,
-          pageId: 144523
         }
       }, {
         bidder: 'appnexus',
@@ -666,6 +708,20 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840844,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869777,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1109071,
@@ -675,12 +731,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759653
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158412,
-          pageId: 144520
         }
       }, {
         bidder: 'appnexus',
@@ -736,9 +786,28 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840845,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869781,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27917907
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -790,12 +859,6 @@ window.cpexWebsiteSettings = {
           siteId: 759651
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 153927,
-          pageId: 153927
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 23941416
@@ -825,7 +888,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('page')[0]/*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
       offset: 64,
       offsetScroll: true
     },
@@ -835,10 +898,17 @@ window.cpexWebsiteSettings = {
     slideup: {
       adUnits: ['sas-special4'],
       enabled: true,
-      backgroundEl: /*S*/document.getElementById('reklama-special4')/*E*/
+      backgroundEl: /*S*/ document.getElementById('reklama-special4') /*E*/
     }
   },
   general: {
-    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184'
+    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184',
+    onLoad: /*S*/ () => {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'event': 'customEvent',
+        'customData': 'TEST package'
+      });
+    }; /*E*/
   }
 }
