@@ -251,9 +251,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
-            [480, 820],
-            [480, 480],
-            [720, 1280]
+            [480, 480]
           ]
         }
       },
@@ -264,7 +262,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1650472,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 261, 484]
+          sizes: [15, 48, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -273,7 +271,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1650468,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 261, 484]
+          sizes: [15, 48, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1285,6 +1283,55 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3312636,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3312638,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5819727'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32355483
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   website: {
@@ -1311,7 +1358,7 @@ window.cpexWebsiteSettings = {
         'commercial-article-2-GA-hp': "<style>  .cpex-native a { height: 300px; display: flex; text-decoration: none; color: inherit; align-items: center }  .cpex-native img { width: 300px; object-fit: cover }  .cpex-native .text { padding-left: 20px }  .cpex-native .text h2 { font-size: 20pt }</style><div class='cpex-native'>  <a href='${link}' target='_blank' rel='sponsored noopener'>    <img src='${img}'>    <div class='text'>      <div class='article-box-a__tag' style='height: 10px'>        <span class='article-box-a__tag-item'>Reklama</span>      </div>      <h2>${title}</h2>      <p>${desc}</p>    </div>  </a></div>",
         'commercial-article-1-GA': "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>    <div class=' js-article-image w-full'>      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>        <picture class='shrink-0'> <img src='${img}' alt='${title}'> </picture>        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>      </div>    </div>  </a>  <div class=' flex flex-col items-start gap-2'>    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> Reklama</a> </div>    <h2 class='m-0 !leading-normal text-xl'> <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '> ${title} </a> </h2>    <div style='text-align:left'> ${desc} </div>  </div></article>",
         'commercial-article-2-GA': 'commercial-article-1-GA',
-        generic: "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row' style='margin-bottom: 20px'> <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>\n    <div class=' js-article-image w-full'>\n      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>\n        <picture class='shrink-0'> <img src='${img}' alt='${title}' style='width:100%'> </picture>\n        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>\n      </div>\n    </div>\n  </a>\n  <div class=' flex flex-col items-start gap-2'>\n    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> Reklama</a> </div>\n    <h2 class='m-0 !leading-normal text-xl'> <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '> ${title} </a> </h2>\n    <div style='text-align:left'> ${desc} </div>\n  </div>\n</article>"
+        generic: "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row' style='margin-bottom: 20px'> <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>    <div class=' js-article-image w-full'>      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>        <picture class='shrink-0'> <img src='${img}' alt='${title}' style='width:100%'> </picture>        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>      </div>    </div>  </a>  <div class=' flex flex-col items-start gap-2'>    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> Reklama</a> </div>    <h2 class='m-0 !leading-normal text-xl'> <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '> ${title} </a> </h2>    <div style='text-align:left'> ${desc} </div>  </div></article>"
       },
       adUnitConfig: {
         'commercial-article-2-GA': {
