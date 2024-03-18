@@ -1209,7 +1209,7 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
-      code: 'VAST_preroll_1',
+      code: 'aqua_video_031e2cff-d9c0-4749-b4ce-664ac4855abd_html5_api',
       mediaTypes: {
         video: {
           playerSize: [
