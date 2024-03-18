@@ -905,10 +905,28 @@ window.cpexWebsiteSettings = {
     errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184',
     onLoad: /*S*/ () => {
       window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        'event': 'customEvent',
-        'customData': 'TEST package'
-      })
+
+      function addToDataLayer() {
+        window.dataLayer.push({
+          'event': 'customEvent',
+          'customData': 'yourData'
+        });
+        console.log('Data added to dataLayer:', window.dataLayer);
+      }
+
+      function checkDataLayer() {
+        if (window.dataLayer && Array.isArray(window.dataLayer)) {
+          console.log('dataLayer is available');
+          addToDataLayer();
+        } else {
+          console.log('dataLayer is not available');
+        }
+      }
+      if (document.readyState === 'complete') {
+        checkDataLayer();
+      } else {
+        window.addEventListener('load', checkDataLayer);
+      }
     } /*E*/
   }
 }
