@@ -476,6 +476,62 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'commercial-article-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150]
+          ]
+        },
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3318246,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [90, 600]
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32366692
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'commercial-article-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150]
+          ]
+        },
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3318248,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [90, 600]
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32366694
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   formats: {
