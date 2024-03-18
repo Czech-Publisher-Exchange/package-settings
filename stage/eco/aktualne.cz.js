@@ -908,7 +908,7 @@ window.cpexWebsiteSettings = {
       window.dataLayer.push({
         'event': 'customEvent',
         'customData': 'TEST package'
-      });
-    }; /*E*/
+      })
+    } /*E*/
   }
 }
