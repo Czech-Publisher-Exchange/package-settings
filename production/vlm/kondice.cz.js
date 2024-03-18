@@ -110,8 +110,7 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [480, 480],
-            [336, 280],
-            [480, 820]
+            [336, 280]
           ]
         }
       },
@@ -122,7 +121,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2850140,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 261, 16, 256]
+          sizes: [15, 48, 261, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -131,7 +130,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2850184,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 261, 16, 256]
+          sizes: [15, 48, 261, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1160,6 +1159,55 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3312624,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3312626,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5819733'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32355508
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
@@ -1177,7 +1225,7 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        'commercial-article-native-detail': "<article class='flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a class='w-full h-auto shrink-0 sm:w-72 sm:h-48' href='${link}'>\n    <div class='-mx-4 sm:mx-0'> <img src='${img}' class='object-center mx-auto max-h-screen bg-grey-1 object-cover aspect-3x2 w-full'> </div>\n  </a>\n  <div class='flex flex-col items-start gap-2'>\n    <div class='flex flex-wrap gap-2'> <a class='badge badge--link dark:bg-dark-grey-1 no-underline' href='#'>Reklama</a> </div>\n    <h2 class='m-0 text-xl sm:text-2xl' style='text-align:left'> <a class='no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky' id='cXLinkIdltsoa93nn8eopce5' href='https://www.koktejl.cz/tipy-a-rady/tajemstvi-aerolinek-o-kterych-nemaji-pasazeri-ani-poneti/'> ${title} </a> </h2>\n  </div>\n</article>",
+        'commercial-article-native-detail': "<article class='flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a class='w-full h-auto shrink-0 sm:w-72 sm:h-48' href='${link}'>    <div class='-mx-4 sm:mx-0'> <img src='${img}' class='object-center mx-auto max-h-screen bg-grey-1 object-cover aspect-3x2 w-full'> </div>  </a>  <div class='flex flex-col items-start gap-2'>    <div class='flex flex-wrap gap-2'> <a class='badge badge--link dark:bg-dark-grey-1 no-underline' href='#'>Reklama</a> </div>    <h2 class='m-0 text-xl sm:text-2xl' style='text-align:left'> <a class='no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky' id='cXLinkIdltsoa93nn8eopce5' href='https://www.koktejl.cz/tipy-a-rady/tajemstvi-aerolinek-o-kterych-nemaji-pasazeri-ani-poneti/'> ${title} </a> </h2>  </div></article>",
         'm-commercial-article-native-detail': 'commercial-article-native-detail'
       }
     },
