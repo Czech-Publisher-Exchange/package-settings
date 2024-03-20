@@ -1405,7 +1405,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '5819736'
+          adSlot: '5830640'
         }
       }, {
         bidder: 'criteo',

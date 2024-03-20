@@ -808,6 +808,12 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [256]
         }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5830639'
+        }
       }],
       filter: {
         maxWidth: 1000

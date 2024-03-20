@@ -1,6 +1,6 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'videokucharka.cz'
+    name: 'alkoholmetr.cz'
   },
   cmp: {
     enabled: false
@@ -12,11 +12,15 @@ window.cpexWebsiteSettings = {
     enabled: false
   },
   formats: {
-    slideup: {
-      adUnits: ['m-sticky'],
+    interscroller: {
       enabled: true
     },
+    slideup: {
+      enabled: true,
+      adUnits: ['m-sticky']
+    },
     responsive: {
+      enabled: true,
       adUnits: ['m-square-1'],
       width: 480,
       height: 480
