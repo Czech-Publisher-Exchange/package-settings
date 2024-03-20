@@ -145,6 +145,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | Attribute      | Values                                           | Default    |
 |----------------|--------------------------------------------------|------------|
 | `enabled`      | Boolean                                          | true       |
+| `render`       | Boolean, enables rendering of ad info            | true       |
 | `pixelList`    | Array of URL strings                             | array      |
 
 ### Analytics
