@@ -22,7 +22,8 @@ window.cpexPublisherSettings = {
       'fragile-adform': 'Fragile-Adform_HB',
       criteo: 'Criteo_HB',
       teads: 'Teads_HB',
-      invibes: 'Invibes_HB'
+      invibes: 'Invibes_HB',
+      sspBC: 'WP_HB'
     }
   },
   headerbidding: {
@@ -48,7 +49,7 @@ window.cpexPublisherSettings = {
   formats: {
     slideup: {
       closeTextHTML: 'zavřít reklamu',
-      css: '#cpex-slideup {\n  background-color: transparent;\n  z-index: 999;\n}\n\n#cpex-slideup-close {\n  box-sizing: border-box;\n  display: inline-block;\n  cursor: pointer;\n  position: absolute;\n  top: -32px;\n  right: 0px;\n  height: 32px;\n  padding: 7px 9px;\n  font-family: Arial, sans-serif;\n  background-color: #454545;\n  font-size: 14px;\n  color: #fff;\n}\n\n#cpex-slideup-close:hover {\n  background-color: #000;\n}'
+      css: '#cpex-slideup {  background-color: transparent;  z-index: 999;}#cpex-slideup-close {  box-sizing: border-box;  display: inline-block;  cursor: pointer;  position: absolute;  top: -32px;  right: 0px;  height: 32px;  padding: 7px 9px;  font-family: Arial, sans-serif;  background-color: #454545;  font-size: 14px;  color: #fff;}#cpex-slideup-close:hover {  background-color: #000;}'
     },
     responsive: {
       enabled: true,
