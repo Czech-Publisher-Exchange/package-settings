@@ -1010,7 +1010,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '5819728'
+          adSlot: '5830632'
         }
       }, {
         bidder: 'appnexus',
