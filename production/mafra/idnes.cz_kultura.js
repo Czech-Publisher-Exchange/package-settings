@@ -257,6 +257,9 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC',
+        params: {}
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -777,6 +780,9 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC',
+        params: {}
       }]
     }, {
       code: 'm_300x250_vybrali',
