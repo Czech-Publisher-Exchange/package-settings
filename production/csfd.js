@@ -28,7 +28,7 @@ window.cpexPublisherSettings = {
       datatopub: 1,
       transparency: [{
         domain: 'csfd.cz',
-        dsaparams: [1,2]
+        dsaparams: [1, 2]
       }]
     }
   },
@@ -60,7 +60,21 @@ window.cpexPublisherSettings = {
     native: {
       enabled: true,
       templates: {
-        generic: "<style>\n  .cpex-native a {\n    display: flex;\n    text-decoration: none;\n    color: inherit\n  }\n\n  .cpex-native img {\n    width: 200px;\n    object-fit: cover\n  }\n\n  .cpex-native .text {\n    padding-left: 20px\n  }\n</style>\n<div id='native'> <a href='${link}' target='_blank'>\n    <div class='native-content'>\n      <div class='native-content-img'> <img src='${img}' alt=''> </div>\n      <div class='native-content-desc'>\n        <div class='native-content-desc-text'>\n          <p class='native-title'>${title}</p>\n          <p id='nativeText'>${desc}</p>\n        </div>\n        <div class='native-info'> <span class='info'>reklama</span> </div>\n      </div>\n    </div>\n  </a></div>"
+        generic: "<style>  .cpex-native a {    display: flex;    text-decoration: none;    color: inherit  }  .cpex-native img {    width: 200px;    object-fit: cover  }  .cpex-native .text {    padding-left: 20px  }</style><div id='native'> <a href='${link}' target='_blank'>    <div class='native-content'>      <div class='native-content-img'> <img src='${img}' alt=''> </div>      <div class='native-content-desc'>        <div class='native-content-desc-text'>          <p class='native-title'>${title}</p>          <p id='nativeText'>${desc}</p>        </div>        <div class='native-info'> <span class='info'>reklama</span> </div>      </div>    </div>  </a></div>"
+      }
+    }
+  },
+  headerbidding: {
+    bidderSettings: {
+      rubicon: {
+        bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
+          return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
+        } /*E*/
+      },
+      'rubicon-mask': {
+        bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
+          return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
+        } /*E*/
       }
     }
   }
