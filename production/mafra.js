@@ -67,5 +67,8 @@ window.cpexPublisherSettings = {
         m_nativ: "<div class='art'>  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>    <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>    <h3 style='text-align:left'>${title}</h3>  </a></div>"
       }
     }
+  },
+  dsa: {
+    render: false
   }
 }
