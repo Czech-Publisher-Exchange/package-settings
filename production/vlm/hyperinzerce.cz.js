@@ -381,6 +381,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 31073233
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -431,6 +436,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 31356264
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -532,6 +542,34 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'm-commercial-article-1',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 32397098
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-commercial-article-2',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 32397099
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
@@ -560,7 +598,7 @@ window.cpexWebsiteSettings = {
       templates: {
         'commercial-article-1': "<div class='c-ad-list__item js-ad-list-link'>  <div class='c-ad-list__item-image-container'>    <img class='c-ad-list__item-image' src='${img}'>  </div>  <div class='c-ad-list__item-content'>    <div class='c-ad-list__item-header'>      <a href='${link}' class='c-ad-list__item-name'>        ${title}      </a>    </div>    <div class='c-ad-list__item-description'>      ${desc}    </div>    <div class='c-ad-list__item-footer'>      Reklama    </div>  </div></div>",
         'commercial-article-2': 'commercial-article-1',
-        generic: "<div class='c-ad-list__item js-ad-list-link'>\n  <div class='c-ad-list__item-image-container'> <img class='c-ad-list__item-image' src='${img}'> </div>\n  <div class='c-ad-list__item-content'>\n    <div class='c-ad-list__item-header'> <a href='${link}' class='c-ad-list__item-name'> ${title} </a> </div>\n    <div class='c-ad-list__item-description'> ${desc} </div>\n    <div class='c-ad-list__item-footer'> Reklama </div>\n  </div>\n</div>"
+        generic: "<div class='c-ad-list__item js-ad-list-link'>  <div class='c-ad-list__item-image-container'> <img class='c-ad-list__item-image' src='${img}'> </div>  <div class='c-ad-list__item-content'>    <div class='c-ad-list__item-header'> <a href='${link}' class='c-ad-list__item-name'> ${title} </a> </div>    <div class='c-ad-list__item-description'> ${desc} </div>    <div class='c-ad-list__item-footer'> Reklama </div>  </div></div>"
       }
     }
   },
