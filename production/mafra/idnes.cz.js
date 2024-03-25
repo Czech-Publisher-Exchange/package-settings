@@ -85,6 +85,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_infinite',
@@ -152,6 +154,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika',
@@ -239,6 +243,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -326,6 +332,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -412,6 +420,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_infinite',
@@ -478,6 +488,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -567,6 +579,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_paticka',
@@ -651,6 +665,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -729,6 +745,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -817,6 +835,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_vignete',
@@ -836,7 +856,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2795948,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 10]
+          sizes: [484, 256, 10]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -845,7 +865,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2800880,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 10]
+          sizes: [484, 256, 10]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -895,6 +915,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'nativ',
@@ -912,6 +934,8 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 30878667
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_nativ',
@@ -929,6 +953,8 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 30878668
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky_foto',
@@ -983,6 +1009,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
