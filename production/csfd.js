@@ -50,7 +50,8 @@ window.cpexPublisherSettings = {
           cpexPackage.utils.addElement('iframe', document.body, {
             src: 'https://cdn.cpex.cz/cookies/read.html?name=exc',
             width: 0,
-            height: 0
+            height: 0,
+            style: 'border: none; display: block'
           })
         }
       })
