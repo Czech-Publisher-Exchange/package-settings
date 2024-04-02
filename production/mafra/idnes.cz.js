@@ -934,8 +934,6 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 30878667
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_nativ',
@@ -953,8 +951,6 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 30878668
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky_foto',
