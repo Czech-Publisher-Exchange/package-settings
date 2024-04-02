@@ -1422,9 +1422,7 @@ window.cpexWebsiteSettings = {
       adUnits: ['m_sticky']
     },
     skin: {
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
-      contentCSS: ' '
+      enabled: true
     },
     responsive: {
       width: 480,
