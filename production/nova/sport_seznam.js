@@ -35,6 +35,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5851856'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094844
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32431419
@@ -71,6 +76,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5851863'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094851
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32431417
@@ -103,6 +113,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5851858'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094846
         }
       }, {
         bidder: 'appnexus',
@@ -142,6 +157,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5851859'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094847
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32431413
@@ -177,6 +197,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5851860'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094848
         }
       }, {
         bidder: 'appnexus',
@@ -215,6 +240,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5851861'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094849
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32431415
@@ -246,6 +276,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5851862'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094850
         }
       }, {
         bidder: 'appnexus',
@@ -281,6 +316,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5851864'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094852
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32431418
@@ -313,6 +353,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5851857'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094845
         }
       }, {
         bidder: 'appnexus',
@@ -352,6 +397,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5851857'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094845
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32431411
@@ -387,6 +437,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5851857'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094845
         }
       }, {
         bidder: 'appnexus',
@@ -426,6 +481,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5851857'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094845
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32431411
@@ -461,6 +521,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5851857'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1094845
         }
       }, {
         bidder: 'appnexus',
