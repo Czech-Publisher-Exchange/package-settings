@@ -57,6 +57,12 @@ window.cpexWebsiteSettings = {
           placementId: 32431419
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'tn.cz',
@@ -124,6 +130,12 @@ window.cpexWebsiteSettings = {
           placementId: 32431419
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'tn.cz',
@@ -188,6 +200,12 @@ window.cpexWebsiteSettings = {
           placementId: 32431417
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'tn.cz',
@@ -245,6 +263,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431412
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -317,6 +341,12 @@ window.cpexWebsiteSettings = {
           placementId: 32431413
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'tn.cz',
@@ -387,6 +417,12 @@ window.cpexWebsiteSettings = {
           placementId: 32431414
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'tn.cz',
@@ -450,6 +486,12 @@ window.cpexWebsiteSettings = {
           placementId: 32431415
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'tn.cz',
@@ -500,6 +542,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431416
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -554,6 +602,12 @@ window.cpexWebsiteSettings = {
           placementId: 32431418
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'tn.cz',
@@ -600,6 +654,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32431411
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
       }],
       filter: {
         maxWidth: 991
@@ -641,6 +701,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431411
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
         }
       }],
       filter: {
@@ -684,6 +750,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32431411
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
       }],
       filter: {
         maxWidth: 991
@@ -726,6 +798,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32431411
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
       }],
       filter: {
         maxWidth: 991
@@ -767,6 +845,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431411
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
         }
       }],
       filter: {
