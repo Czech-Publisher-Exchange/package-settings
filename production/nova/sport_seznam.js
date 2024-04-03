@@ -35,6 +35,18 @@ window.cpexWebsiteSettings = {
           adSlot: '5851856'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878670,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1881000,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1094844
@@ -43,6 +55,28 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431419
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: 'branding_seznamHP',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: '1000x250_seznamHP',
+          m: 0,
+          g: 'hb'
         }
       }],
       filter: {
@@ -76,6 +110,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5851863'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878363,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1094851
@@ -84,6 +124,20 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431417
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: '480x300_2_SeznamHP',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -115,6 +169,18 @@ window.cpexWebsiteSettings = {
           adSlot: '5851858'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878674,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878734,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1094846
@@ -123,6 +189,28 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431412
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: '300x300_1_seznamHP',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: 'interscroller_1_seznamHP',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -157,6 +245,18 @@ window.cpexWebsiteSettings = {
           adSlot: '5851859'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878675,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878736,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1094847
@@ -165,6 +265,28 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431413
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: '300x300_2_seznamHP',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: 'interscroller_2_seznamHP',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -199,6 +321,18 @@ window.cpexWebsiteSettings = {
           adSlot: '5851860'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878676,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878739,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1094848
@@ -207,6 +341,28 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431414
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: '300x300_3_seznamHP',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: 'interscroller_3_seznamHP',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -240,6 +396,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5851861'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878367,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1094849
@@ -248,6 +410,20 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431415
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: '300x600_SeznamHP',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -278,6 +454,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5851862'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878368,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1094850
@@ -286,6 +468,20 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431416
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: '300x600_2_SeznamHP',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -316,6 +512,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5851864'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1878364,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1094852
@@ -324,6 +526,20 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431418
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'tn.cz',
+          p: '480x300_SeznamHP',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -363,6 +579,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431411
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
         }
       }],
       filter: {
@@ -406,6 +628,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32431411
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
       }],
       filter: {
         maxWidth: 991
@@ -447,6 +675,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431411
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
         }
       }],
       filter: {
@@ -490,6 +724,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32431411
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
+        }
       }],
       filter: {
         maxWidth: 991
@@ -531,6 +771,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32431411
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          publisherSubID: 'nova_sz'
         }
       }],
       filter: {
