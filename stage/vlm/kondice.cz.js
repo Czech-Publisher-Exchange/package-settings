@@ -515,12 +515,14 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [548, 150],
             [300, 300],
             [300, 250],
             [336, 280],
             [480, 300]
           ]
-        }
+        },
+        native: {}
       },
       bids: [{
         bidder: 'rubicon',
@@ -529,7 +531,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2850152,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 83]
+          sizes: [90, 48, 15, 16, 83, 600]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -538,7 +540,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2850196,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 83]
+          sizes: [90, 48, 15, 16, 83, 600]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -617,11 +619,13 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [548, 150],
             [300, 300],
             [300, 250],
             [336, 280]
           ]
-        }
+        },
+        native: {}
       },
       bids: [{
         bidder: 'rubicon',
@@ -630,7 +634,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2850158,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16]
+          sizes: [90, 48, 15, 16, 600]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -639,7 +643,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2850202,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16]
+          sizes: [90, 48, 15, 16, 600]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1192,7 +1196,7 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '5819733'
+          adSlot: '5830637'
         }
       }, {
         bidder: 'appnexus',
@@ -1209,7 +1213,7 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
-      code: 'aqua_video_031e2cff-d9c0-4749-b4ce-664ac4855abd_html5_api',
+      code: 'VAST_preroll_1',
       mediaTypes: {
         video: {
           playerSize: [
