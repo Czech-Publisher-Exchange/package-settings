@@ -64,5 +64,11 @@ window.cpexPublisherSettings = {
     responsive: {
       enabled: true
     }
+  },
+  general: {
+    onLoad: /*S*/ () => {
+      /* blokový komentář */
+      console.log('preserving new lines')
+    } /*E*/
   }
 }
