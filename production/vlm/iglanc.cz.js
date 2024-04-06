@@ -1376,7 +1376,7 @@ window.cpexWebsiteSettings = {
             const pianoId = window.cX.getCxenseUserId();
             if (pianoId) {
               window.cpexPackage.utils.addElement('img', document.body, {
-                src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&cxckp=' + pianoId,
+                src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&&cxsite=4732541702467398367&cxckp=' + pianoId,
                 width: 0,
                 height: 0,
                 style: 'display: block',
