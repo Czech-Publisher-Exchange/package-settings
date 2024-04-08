@@ -78,7 +78,9 @@ window.cpexPublisherSettings = {
       window.cX.callQueue = window.cX.callQueue || [];
       window.cX.callQueue.push(['invoke', () => {
         window.__tcfapi('addEventListener', 2, (data, success) => {
-          if (success === false) { return };
+          if (success === false) {
+            return
+          };
           if (data.vendor.consents[570] && window.Didomi.getUserConsentStatusForVendor('c:pomomedia-HZQX3YWL')) {
             const segments = window.cX.getUserSegmentIds({
               persistedQueryId: '51ff14b454af0cf4aedc891fee56b86c1aa69a31'
