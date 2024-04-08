@@ -55,8 +55,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [970, 210],
-            [998, 200],
-            [2000, 1400]
+            [998, 200]
           ]
         }
       },
@@ -67,7 +66,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3261676,
           accountId: '10900',
           position: 'atf',
-          sizes: [96, 259, 230]
+          sizes: [96, 259]
         }
       }, {
         bidder: 'ix',
