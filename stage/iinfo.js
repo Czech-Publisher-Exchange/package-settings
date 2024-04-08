@@ -4,13 +4,10 @@ window.cpexPublisherSettings = {
     sellerId: '012'
   },
   adserver: {
-    adapter: 'sastracker',
-    allowedSSPs: {
-      pubmatic: 1,
-      index: 3,
-      magnite: 4,
-      xandr: 5
-    },
+    adapter: 'googletag',
     areaKey: 'iinfoArea'
+  },
+  headerbidding: {
+    customBuckets: [15, 18, 20, 22, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 125, 150]
   }
 }
