@@ -29,7 +29,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 25692,
-          zoneId: 553014,
+          zoneId: 3337112,
           accountId: '10900',
           position: 'atf',
           sizes: [2, 96, 230, 57]
