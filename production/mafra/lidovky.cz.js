@@ -186,6 +186,8 @@ window.cpexWebsiteSettings = {
           formatId: 108619,
           tagId: 'sas_108619'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -277,6 +279,8 @@ window.cpexWebsiteSettings = {
           formatId: 108757,
           tagId: 'sas_108757'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -374,6 +378,8 @@ window.cpexWebsiteSettings = {
           formatId: 108618,
           tagId: 'sas_108618'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -470,6 +476,8 @@ window.cpexWebsiteSettings = {
           formatId: 108742,
           tagId: 'sas_108742'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika',
@@ -566,6 +574,8 @@ window.cpexWebsiteSettings = {
           formatId: 108740,
           tagId: 'sas_108740'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -662,6 +672,8 @@ window.cpexWebsiteSettings = {
           formatId: 108741,
           tagId: 'sas_108741'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -758,6 +770,8 @@ window.cpexWebsiteSettings = {
           formatId: 108739,
           tagId: 'sas_108739'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -853,6 +867,8 @@ window.cpexWebsiteSettings = {
           formatId: 108759,
           tagId: 'sas_108759'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy',
@@ -948,6 +964,8 @@ window.cpexWebsiteSettings = {
           formatId: 108764,
           tagId: 'sas_108764'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
@@ -1731,6 +1749,8 @@ window.cpexWebsiteSettings = {
           formatId: 108767,
           tagId: 'sas_108764'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding_foto',
