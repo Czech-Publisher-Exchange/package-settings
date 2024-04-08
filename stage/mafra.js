@@ -22,7 +22,8 @@ window.cpexPublisherSettings = {
       'fragile-adform': 'Fragile-Adform_HB',
       criteo: 'Criteo_HB',
       teads: 'Teads_HB',
-      invibes: 'Invibes_HB'
+      sspBC: 'WP_HB',
+      smart: 'Smart_HB'
     }
   },
   headerbidding: {
@@ -48,7 +49,7 @@ window.cpexPublisherSettings = {
   formats: {
     slideup: {
       closeTextHTML: 'zavřít reklamu',
-      css: '#cpex-slideup {\n  background-color: transparent;\n  z-index: 999;\n}\n\n#cpex-slideup-close {\n  box-sizing: border-box;\n  display: inline-block;\n  cursor: pointer;\n  position: absolute;\n  top: -32px;\n  right: 0px;\n  height: 32px;\n  padding: 7px 9px;\n  font-family: Arial, sans-serif;\n  background-color: #454545;\n  font-size: 14px;\n  color: #fff;\n}\n\n#cpex-slideup-close:hover {\n  background-color: #000;\n}'
+      css: '#cpex-slideup {  background-color: transparent;  z-index: 999;}#cpex-slideup-close {  box-sizing: border-box;  display: inline-block;  cursor: pointer;  position: absolute;  top: -32px;  right: 0px;  height: 32px;  padding: 7px 9px;  font-family: Arial, sans-serif;  background-color: #454545;  font-size: 14px;  color: #fff;}#cpex-slideup-close:hover {  background-color: #000;}'
     },
     responsive: {
       enabled: true,
@@ -66,5 +67,42 @@ window.cpexPublisherSettings = {
         m_nativ: "<div class='art'>  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>    <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>    <h3 style='text-align:left'>${title}</h3>  </a></div>"
       }
     }
+  },
+  dsa: {
+    render: false
+  },
+  general: {
+    onLoad: /*S*/ () => {
+      /* piano segment export */
+      window.cX = window.cX || {}
+      window.cX.callQueue = window.cX.callQueue || [] window.cX.callQueue.push(['invoke', () => {
+        window.__tcfapi('addEventListener', 2, (data, success) => {
+          if (success === false) {
+            return
+          }
+          if (data.vendor.consents[570]) {
+            const segments = window.cX.getUserSegmentIds({
+              persistedQueryId: '51ff14b454af0cf4aedc891fee56b86c1aa69a31'
+            }) if (Array.isArray(segments) && segments.length) {
+              /* use html from cdn.cpex.cz to save it as a 3rd party cookie, for 14 days */
+              window.cpexPackage.utils.addElement('iframe', document.body, {
+                src: 'https://cdn.cpex.cz/cookies/save.html?name=exc&time=1209600&data=' + encodeURIComponent(segments.toString()),
+                width: 0,
+                height: 0,
+                style: 'border: none; display: block'
+              })
+            }
+            const pianoId = window.cX.getCxenseUserId() if (pianoId) {
+              window.cpexPackage.utils.addElement('img', document.body, {
+                src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&cxckp=' + pianoId,
+                width: 0,
+                height: 0,
+                style: 'display: block'
+              })
+            }
+          }
+        })
+      }])
+    } /*E*/
   }
 }
