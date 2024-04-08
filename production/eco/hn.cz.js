@@ -420,8 +420,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
-    }],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v8.12/prebid.min.js'
+    }]
   },
   website: {
     name: 'hn.cz'
