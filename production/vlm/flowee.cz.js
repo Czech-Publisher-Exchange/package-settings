@@ -801,7 +801,10 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/document.getElementById('wrapper')/*E*/,
-      contentCSS: 'position: relative; margin-top: 200px; z-index: 1;'
+      contentCSS: 'margin-top: 200px;
+position: relative;
+z-index: 1;',
+      hide: [/*S*/document.getElementsByClassName('leaderboard')[0]/*E*/]
     },
     interscroller: {
       enabled: true
