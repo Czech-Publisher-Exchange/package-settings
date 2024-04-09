@@ -60,7 +60,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -133,7 +133,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -203,7 +203,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -268,7 +268,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -344,7 +344,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -420,7 +420,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -489,7 +489,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -547,7 +547,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -605,7 +605,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }, {
         bidder: 'r2b2',
@@ -658,7 +658,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }],
       filter: {
@@ -706,7 +706,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }],
       filter: {
@@ -754,7 +754,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }],
       filter: {
@@ -802,7 +802,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }],
       filter: {
@@ -850,7 +850,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubID: 'nova_sz'
+          publisherSubId: 'nova_sz'
         }
       }],
       filter: {
@@ -865,7 +865,7 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/,
       offset: 80,
       offsetScroll: true,
       contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px; background-color: var(--theme-bg, white);',
