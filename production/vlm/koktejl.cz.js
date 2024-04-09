@@ -1460,11 +1460,7 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      enabled: false,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
-      hide: [ /*S*/ document.getElementById('leaderboard-top-wrap') /*E*/ ],
-      offset: 52,
-      offsetScroll: true
+      enabled: true
     },
     interscroller: {
       enabled: true
