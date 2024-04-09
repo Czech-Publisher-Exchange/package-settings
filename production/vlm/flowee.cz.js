@@ -799,7 +799,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      enabled: false
+      enabled: true,
+      contentEl: /*S*/document.getElementById('wrapper')/*E*/,
+      contentCSS: 'position: relative; margin-top: 200px; z-index: 1;'
     },
     interscroller: {
       enabled: true
