@@ -130,6 +130,25 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
+      code: 'leaderboard',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 130350,
+          tagId: 'sas_130350'
+        }
+      }]
+    }, {
       code: 'skyscraper',
       mediaTypes: {
         banner: {
@@ -1691,6 +1710,26 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
+      code: 'mobile_square_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 130351,
+          tagId: 'sas_130351'
+        }
+      }]
+    }, {
       code: 'mobile_square_2',
       mediaTypes: {
         banner: {
@@ -2322,6 +2361,15 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'CSFD_csfd_cz_halfpage_sticky_3'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 130349,
+          tagId: 'sas_130349'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2471,9 +2519,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/ document.body /*E*/ ,
-      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/ ,
-      hide: [ /*S*/ document.getElementById('leaderboard-wrapper') /*E*/ ],
+      backgroundEl: /*S*/ document.body /*E*/,
+      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/,
+      hide: [/*S*/ document.getElementById('leaderboard-wrapper') /*E*/],
       enabled: true,
       zIndex: 0,
       contentCSS: 'position: relative;margin-top: 210px'
@@ -2531,7 +2579,7 @@ window.cpexWebsiteSettings = {
     autoRun: false,
     customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
-    } /*E*/ ,
+    } /*E*/,
     onLoad: /*S*/ () => {
       window.__tcfapi('addEventListener', 2, (data, success) => {
         if (success === false) return;
