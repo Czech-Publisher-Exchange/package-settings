@@ -461,6 +461,7 @@ window.cpexWebsiteSettings = {
             // one segment is IAB, potentially
             const iabSegment = iabSegments.find((segment) => iabMap[segment])
             console.log('Before pushing to _sasic_queue:', _sasic_queue)
+            console.log('iabSegment:', iabSegment)
             if (iabSegment) { _sasic_queue.push(['page', { options: { targets: { iab_cont: iabSegment }}}]) }
             console.log('After pushing to _sasic_queue:', _sasic_queue)
             // create SDA object for prebid
