@@ -447,6 +447,7 @@ window.cpexWebsiteSettings = {
     window.__tcfapi('addEventListener', 2, (data, success) => {
       if (success === false) { return }
       const pianoId = window.cX.getCxenseUserId()
+      console.log('Piano ID:', pianoId)
       if (data.vendor.consents[570] && pianoId) {
         window.cX.getSegments(pianoId, (segments) => {
           const audienceSegments = []
