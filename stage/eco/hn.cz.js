@@ -457,7 +457,7 @@ window.cpexWebsiteSettings = {
           }
           if (Array.isArray(contextSegments) && contextSegments.length) {
             // one segment is IAB, potentially
-            const iabSegment = iabSegments.find((segment) => iabMap[segment])
+            const iabSegment = contextSegments.find((segment) => iabMap[segment])
             if (iabSegment) { _sasic_queue.push(['page', { options: { targets: { iab_cont: iabSegment }}}]) }
             // create SDA object for prebid
             window.sellerDefinedAudiences = {
