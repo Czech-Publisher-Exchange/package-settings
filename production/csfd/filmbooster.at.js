@@ -9,7 +9,10 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 600],
-            [160, 600]
+            [160, 600],
+            [120, 600],
+            [300, 300],
+            [300, 250]
           ]
         }
       },
@@ -20,7 +23,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3140074,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 9]
+          sizes: [10, 9, 8, 48, 15]
         }
       }],
       filter: {
@@ -34,7 +37,8 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [160, 600],
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [120, 600]
           ]
         }
       },
@@ -45,7 +49,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3140076,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 9, 48, 15]
+          sizes: [10, 9, 48, 15, 8]
         }
       }],
       filter: {
@@ -59,7 +63,8 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [160, 600],
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [120, 600]
           ]
         }
       },
@@ -70,7 +75,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3140078,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 9, 48, 15]
+          sizes: [10, 9, 48, 15, 8]
         }
       }],
       filter: {
@@ -84,7 +89,10 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [480, 820],
-            [720, 1280]
+            [720, 1280],
+            [250, 250],
+            [200, 200],
+            [300, 100]
           ]
         }
       },
@@ -95,7 +103,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3140080,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 256]
+          sizes: [48, 15, 256, 484, 14, 13, 19]
         }
       }],
       filter: {
@@ -108,7 +116,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 300],
             [300, 250],
-            [250, 250]
+            [250, 250],
+            [200, 200],
+            [300, 100]
           ]
         }
       },
@@ -119,7 +129,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3140082,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14]
+          sizes: [48, 15, 14, 13, 19]
         }
       }],
       filter: {
@@ -130,9 +140,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/ document.body /*E*/ ,
-      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/ ,
-      hide: [ /*S*/ document.getElementById('leaderboard-wrapper') /*E*/ ],
+      backgroundEl: /*S*/ document.body /*E*/,
+      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/,
+      hide: [/*S*/ document.getElementById('leaderboard-wrapper') /*E*/],
       zIndex: 0,
       contentCSS: 'position: relative;margin-top: 210px',
       enabled: false
