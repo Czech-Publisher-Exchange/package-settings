@@ -2272,15 +2272,6 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 31494359
         }
-      }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 280501,
-          pageId: 1041480,
-          formatId: 130452,
-          tagId: 'sas_130452'
-        }
       }],
       filter: {
         minWidth: 1000
