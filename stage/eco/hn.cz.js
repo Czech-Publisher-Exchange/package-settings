@@ -446,10 +446,8 @@ window.cpexWebsiteSettings = {
   window.cX.callQueue.push(['invoke', () => {
     window.__tcfapi('addEventListener', 2, (data, success) => {
       if (success === false) { return }
-      const pianoId = window.cX.getCxenseUserId()
-      console.log('Piano ID:', pianoId)
-      if (data.vendor.consents[570] && pianoId) {
-        window.cX.getSegments(pianoId, (segments) => {
+      if (data.vendor.consents[570]) {
+        window.cX.getSegments('c3e81ef055fd5f282b24071afbab6170a6456459', (segments) => {
           const audienceSegments = []
           const contextSegments = []
           cX.Array.forEach(segments, (cxTypedSegment) => { cxTypedSegment.type === 'contextual' ? contextSegments.push(cxTypedSegment.id) : audienceSegments.push(cxTypedSegment.id) })
@@ -460,10 +458,7 @@ window.cpexWebsiteSettings = {
           if (Array.isArray(contextSegments) && contextSegments.length) {
             // one segment is IAB, potentially
             const iabSegment = iabSegments.find((segment) => iabMap[segment])
-            console.log('Before pushing to _sasic_queue:', _sasic_queue)
-            console.log('iabSegment:', iabSegment)
             if (iabSegment) { _sasic_queue.push(['page', { options: { targets: { iab_cont: iabSegment }}}]) }
-            console.log('After pushing to _sasic_queue:', _sasic_queue)
             // create SDA object for prebid
             window.sellerDefinedAudiences = {
               site: { content: { data: [{ name: window.location.hostname, ext: { segtax: 5 }, segment: iabSegment }] } }
