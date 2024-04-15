@@ -3,11 +3,6 @@ window.cpexWebsiteSettings = {
     name: 'cpex.cz',
     note: 'test'
   },
-  general: {
-    onLoad: /*S*/ () => {
-      document.getElementById('svelte').style.position = 'inherit'
-    } /*E*/
-  },
   headerbidding: {
     prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7.39/prebid.js',
     prebidDebug: true,
