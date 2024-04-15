@@ -314,7 +314,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       backgroundEl: /*S*/ document.body /*E*/ ,
-      contentEl: /*S*/ document.getElementById('svelte') /*E*/ ,
+      contentEl: /*S*/ document.getElementById('routify-app') /*E*/ ,
       hide: [ /*S*/ document.getElementById('leaderboard-1') /*E*/ ],
       contentCSS: 'position: relative; width: 1080px; margin: auto; margin-top: 200px'
     },
