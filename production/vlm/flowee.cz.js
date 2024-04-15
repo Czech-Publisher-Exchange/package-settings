@@ -55,7 +55,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [970, 210],
-            [998, 200]
+            [998, 200],
+            [2000, 1400]
           ]
         }
       },
@@ -66,7 +67,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3261676,
           accountId: '10900',
           position: 'atf',
-          sizes: [96, 259]
+          sizes: [96, 259, 230]
         }
       }, {
         bidder: 'ix',
@@ -85,7 +86,8 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000
+        minWidth: 1000,
+        urlHas: 'miro.flowee.cz'
       }
     }, {
       code: 'm-square-1',
@@ -801,9 +803,9 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/document.getElementById('wrapper')/*E*/,
-      contentCSS: `margin-top: 200px;
+      contentCSS: 'margin-top: 200px;
         position: relative;
-        z-index: 1;`,
+        z-index: 1;',
       hide: [/*S*/document.getElementsByClassName('leaderboard')[0]/*E*/]
     },
     interscroller: {
