@@ -63,8 +63,8 @@ window.cpexPublisherSettings = {
     },
     native: {
       templates: {
-        nativ: "<div class='art'> <a href='${link}' target='_blank' class='art-link'>    <h3>${title}</h3>    <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>    <p class='perex'>${desc}</p>  </a></div>",
-        m_nativ: "<div class='art'>  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>    <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>    <h3 style='text-align:left'>${title}</h3>  </a></div>"
+        nativ: "<!--idnes native desktop--> <div class='art ads-mockup'>   <a rel='sponsored' href='${link}' class='art-link' target='_blank'>     <h3><span>${title}</span></h3>     <div class='art-img sp5'>       <img src='${img}' width='230' height='129' style='object-fit:cover'>       <span></span>     </div>   </a>   <p class='perex'><span>${desc}</span></p> </div>",
+        m_nativ: "<!--idnes m_nativ--> <div class='art ads-mockup'>   <a rel='sponsored' href='${link}' class='art-link' target='_blank'>     <img src='${img}' class='art-img sp5 ' width='100' height='75'>     <h3>${title}</h3>   </a> </div>"
       }
     }
   },
@@ -74,16 +74,18 @@ window.cpexPublisherSettings = {
   general: {
     onLoad: /*S*/ () => {
       /* piano segment export */
-      window.cX = window.cX || {}
-      window.cX.callQueue = window.cX.callQueue || [] window.cX.callQueue.push(['invoke', () => {
+      window.cX = window.cX || {};
+      window.cX.callQueue = window.cX.callQueue || [];
+      window.cX.callQueue.push(['invoke', () => {
         window.__tcfapi('addEventListener', 2, (data, success) => {
           if (success === false) {
             return
-          }
+          };
           if (data.vendor.consents[570] && window.Didomi.getUserConsentStatusForVendor('c:pomomedia-HZQX3YWL')) {
             const segments = window.cX.getUserSegmentIds({
               persistedQueryId: '51ff14b454af0cf4aedc891fee56b86c1aa69a31'
-            }) if (Array.isArray(segments) && segments.length) {
+            });
+            if (Array.isArray(segments) && segments.length) {
               /* use html from cdn.cpex.cz to save it as a 3rd party cookie, for 14 days */
               window.cpexPackage.utils.addElement('iframe', document.body, {
                 src: 'https://cdn.cpex.cz/cookies/save.html?name=exc&time=1209600&data=' + encodeURIComponent(segments.toString()),
