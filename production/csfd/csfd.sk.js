@@ -696,6 +696,12 @@ window.cpexWebsiteSettings = {
           formatId: 73614,
           tagId: 'sas_73614'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127221,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -775,6 +781,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96956,
           tagId: 'sas_96956'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127222,
+          networkId: 419
         }
       }],
       filter: {
@@ -1050,6 +1062,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 82380,
           tagId: 'sas_82380'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127220,
+          networkId: 419
         }
       }],
       filter: {
