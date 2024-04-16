@@ -4,7 +4,7 @@ window.cpexWebsiteSettings = {
     note: 'test'
   },
   headerbidding: {
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/v7.39/prebid.js',
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/8.41.0/prebid.js',
     prebidDebug: true,
     analytics: ['id5Analytics', 'cpexAnalytics'],
     adUnits: [{
