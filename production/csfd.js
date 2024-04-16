@@ -18,7 +18,8 @@ window.cpexPublisherSettings = {
       r2b2: 'R2B2',
       smart: 'Smart',
       teads: 'Teads',
-      adform: 'Adform_HB'
+      adform: 'Adform_HB',
+      connectad: 'ConnectAd'
     }
   },
   dsa: {
