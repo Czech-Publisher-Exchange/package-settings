@@ -8,13 +8,11 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [2000, 1400],
             [970, 210],
             [998, 200],
             [728, 90],
             [930, 180],
-            [750, 100],
-            [1800, 1000]
+            [750, 100]
           ]
         }
       },
@@ -25,7 +23,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1925074,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 96, 259, 2, 38, 39, 68]
+          sizes: [96, 259, 2, 38, 39]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -34,7 +32,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1925154,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 96, 259, 2, 38, 39, 68]
+          sizes: [96, 259, 2, 38, 39]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -50,12 +48,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 669409,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1425873,
@@ -63,23 +55,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 1425874,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1611199,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'fragile-adform',
-        params: {
-          mid: 1611170,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
@@ -107,14 +85,6 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'pomo.csfd.cz',
-          p: 'branding',
-          m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'pomo.csfd.cz',
           p: '1000x210',
           m: 0,
           g: 'hb'
@@ -137,11 +107,80 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [2000, 1400]
+            [2000, 1400],
+            [1800, 1000]
           ]
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 235290,
+          zoneId: 1925074,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230, 68]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 235292,
+          zoneId: 1925154,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230, 68]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '3394966'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 669409,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1425874,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1611170,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 430303
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32550775
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'pomo.csfd.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
@@ -150,7 +189,10 @@ window.cpexWebsiteSettings = {
           formatId: 130350,
           tagId: 'sas_130350'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'wide_skyscraper_sticky',
       mediaTypes: {
@@ -1430,8 +1472,6 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 300],
             [300, 250],
-            [480, 820],
-            [720, 1280],
             [250, 250],
             [200, 200],
             [300, 100]
@@ -1445,7 +1485,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1925090,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 256, 484, 14, 13, 19]
+          sizes: [48, 15, 14, 13, 19]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1454,7 +1494,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1925166,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 256, 484, 14, 13, 19]
+          sizes: [48, 15, 14, 13, 19]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1470,12 +1510,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1068833,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1425889,
@@ -1483,23 +1517,9 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 1427236,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1611202,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'fragile-adform',
-        params: {
-          mid: 1611193,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
@@ -1533,14 +1553,6 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'pomo.csfd.cz',
-          p: 'interscroller',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'pomo.csfd.cz',
           p: '300x300_1',
           m: 1,
           g: 'hb'
@@ -1563,11 +1575,80 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [720, 1280]
+            [720, 1280],
+            [480, 820]
           ]
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 238982,
+          zoneId: 1925090,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [484, 256]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 238984,
+          zoneId: 1925166,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [484, 256]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '3394969'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1068833,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1427236,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1611193,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 20750750
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'triplelift',
+        params: {
+          inventoryCode: 'CSFD_csfd_mobile_square_1'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'pomo.csfd.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
@@ -1576,7 +1657,10 @@ window.cpexWebsiteSettings = {
           formatId: 130351,
           tagId: 'sas_130351'
         }
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'mobile_square_2',
       mediaTypes: {
