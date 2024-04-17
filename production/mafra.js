@@ -58,8 +58,8 @@ window.cpexPublisherSettings = {
     },
     native: {
       templates: {
-        nativ: "<div class='art'> <a href='${link}' target='_blank' class='art-link'>    <h3>${title}</h3>    <div class='art-img w230'><img src='${img}' style='object-fit:cover'><span></span></div>    <p class='perex'>${desc}</p>  </a></div>",
-        m_nativ: "<div class='art'>  <a rel='sponsored' href='${link}' class='art-link' target='_blank'>    <img title='' alt='' src='${img}' class='art-img sp5 ' style='object-fit:cover' width='100' height='75'>    <h3 style='text-align:left'>${title}</h3>  </a></div>"
+        nativ: "<!--idnes native desktop--> <div class='art'> <a rel='sponsored' href='${link}' class='art-link' target='_blank'>     <h3><span>${title}</span></h3>     <div class='art-img sp5'> <img src='${img}' width='230' height='129' style='object-fit:cover'> <span></span> </div>   </a>   <p class='perex'><span>${desc}</span></p> </div>",
+        m_nativ: "<!--idnes m_nativ--> <div class='art'> <a rel='sponsored' href='${link}' class='art-link' target='_blank'> <img src='${img}' class='art-img sp5 ' width='100' height='75'>     <h3>${title}</h3>   </a> </div>"
       }
     }
   },
