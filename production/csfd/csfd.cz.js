@@ -1405,12 +1405,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1768487,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1425876,
