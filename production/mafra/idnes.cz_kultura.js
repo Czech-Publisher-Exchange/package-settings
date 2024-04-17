@@ -1577,12 +1577,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'invibes',
-        params: {
-          placementId: 'invibes_kultura',
-          site: 'idnes.cz/kultura'
-        }
-      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -2592,12 +2586,6 @@ window.cpexWebsiteSettings = {
           p: '480x300_clankovy_2',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'invibes',
-        params: {
-          placementId: 'invibes_kultura',
-          site: 'idnes.cz/kultura'
         }
       }, {
         bidder: 'sspBC'

@@ -1529,11 +1529,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'invibes',
-        params: {
-          placementId: 'invibes_ekonomika'
-        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -2465,12 +2460,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'invibes',
-        params: {
-          placementId: 'invibes_ekonomika',
-          site: 'idnes.cz/ekonomika'
-        }
       }]
     }, {
       code: 'm_vignete',
@@ -2960,15 +2949,17 @@ window.cpexWebsiteSettings = {
     onLoad: /*S*/ () => {
       /* piano segment export */
       window.cX = window.cX || {}
-      window.cX.callQueue = window.cX.callQueue || [] window.cX.callQueue.push(['invoke', () => {
+      window.cX.callQueue = window.cX.callQueue || [];
+      window.cX.callQueue.push(['invoke', () => {
         window.__tcfapi('addEventListener', 2, (data, success) => {
           if (success === false) {
             return
-          }
+          };
           if (data.vendor.consents[570]) {
             const segments = window.cX.getUserSegmentIds({
               persistedQueryId: '51ff14b454af0cf4aedc891fee56b86c1aa69a31'
-            }) if (Array.isArray(segments) && segments.length) {
+            });
+            if (Array.isArray(segments) && segments.length) {
               /* use html from cdn.cpex.cz to save it as a 3rd party cookie, for 14 days */
               window.cpexPackage.utils.addElement('iframe', document.body, {
                 src: 'https://cdn.cpex.cz/cookies/save.html?name=exc&time=1209600&data=' + encodeURIComponent(segments.toString()),
@@ -2976,8 +2967,9 @@ window.cpexWebsiteSettings = {
                 height: 0,
                 style: 'border: none; display: block'
               })
-            }
-            const pianoId = window.cX.getCxenseUserId() if (pianoId) {
+            };
+            const pianoId = window.cX.getCxenseUserId();
+            if (pianoId) {
               window.cpexPackage.utils.addElement('img', document.body, {
                 src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&cxckp=' + pianoId,
                 width: 0,

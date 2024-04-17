@@ -1574,12 +1574,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'invibes',
-        params: {
-          placementId: 'invibes_cestovani',
-          site: 'idnes.cz/cestovani'
-        }
-      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -2536,12 +2530,6 @@ window.cpexWebsiteSettings = {
           p: '480x300_clankovy_2',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'invibes',
-        params: {
-          placementId: 'invibes_cestovani',
-          site: 'idnes.cz/cestovani'
         }
       }, {
         bidder: 'sspBC'

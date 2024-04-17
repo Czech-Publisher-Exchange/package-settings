@@ -1577,12 +1577,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'invibes',
-        params: {
-          placementId: 'invibes_zpravy',
-          site: 'zpravy.cz'
-        }
-      }, {
         bidder: 'sspBC'
       }]
     }, {

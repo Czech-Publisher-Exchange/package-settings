@@ -1531,12 +1531,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'invibes',
-        params: {
-          placementId: 'invibes_zpravy',
-          site: 'zpravy.cz'
-        }
       }]
     }, {
       code: 'branding_fotogalerie',

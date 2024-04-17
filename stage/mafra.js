@@ -38,11 +38,6 @@ window.cpexPublisherSettings = {
         bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
         } /*E*/
-      },
-      invibes: {
-        params: {
-          customEndpoint: 'https://bid5.videostep.com/Bid/VideoAdContent'
-        }
       }
     }
   },
