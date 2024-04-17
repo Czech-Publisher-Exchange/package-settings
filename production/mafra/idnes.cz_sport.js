@@ -3076,10 +3076,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
       contentCSS: ' ',
-      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ]
+      hide: [/*S*/ document.getElementById('r-leaderboard-hp') /*E*/]
     },
     interscroller: {
       enabled: true
@@ -3105,5 +3105,8 @@ window.cpexWebsiteSettings = {
         }
       }
     }
+  },
+  general: {
+    onLoad: /*S*/() => { window.pbjs.setConfig({ enableTIDs: true }) }/*E*/
   }
 }
