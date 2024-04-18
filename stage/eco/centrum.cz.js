@@ -593,6 +593,9 @@ window.cpexWebsiteSettings = {
       adUnits: ['reklama-popupmobile'],
       backgroundEl: /*S*/ document.getElementById('reklama-popupmobile-wrapper') /*E*/,
       enabled: true
+    },
+    interscroller: {
+      enabled: true
     }
   },
   general: {
