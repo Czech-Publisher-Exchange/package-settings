@@ -732,13 +732,16 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
       offsetScroll: true
     },
-    interscroller: {
-      enabled: true
-    },
     slideup: {
       adUnits: ['sas-special4'],
       enabled: true,
       backgroundEl: /*S*/ document.getElementById('reklama-special4') /*E*/
+    },
+    responsive: {
+      enabled: true,
+      width: 480,
+      height: 480,
+      adUnits: ['sas-injected-1', 'sas-injected-2']
     }
   },
   general: {
