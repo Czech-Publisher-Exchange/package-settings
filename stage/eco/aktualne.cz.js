@@ -499,9 +499,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
-            [300, 250],
-            [250, 250],
             [480, 480],
             [480, 820]
           ]
@@ -514,7 +511,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2186692,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 261, 256]
+          sizes: [261, 256]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -523,7 +520,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2186682,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 261, 256]
+          sizes: [261, 256]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -573,23 +570,12 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'ECO_aktualnecz_mediumrectangle_mob_pos1'
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'aktualne.cz',
-          p: '300x250_pos1',
-          m: 1,
-          g: 'hb'
-        }
       }]
     }, {
       code: 'mediumrectangle-mob-pos2',
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
-            [300, 250],
-            [250, 250],
             [480, 480]
           ]
         }
@@ -601,7 +587,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2186694,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 261]
+          sizes: [261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -610,7 +596,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2186684,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 261]
+          sizes: [261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -660,23 +646,12 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'ECO_aktualnecz_mediumrectangle_mob_pos2'
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'aktualne.cz',
-          p: '300x250_pos2',
-          m: 1,
-          g: 'hb'
-        }
       }]
     }, {
       code: 'mediumrectangle-mob-pos3',
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
-            [300, 250],
-            [250, 250],
             [480, 480]
           ]
         }
@@ -688,7 +663,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2186696,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 261]
+          sizes: [261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -697,7 +672,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2186686,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 261]
+          sizes: [261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -746,140 +721,6 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_aktualnecz_mediumrectangle_mob_pos3'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'aktualne.cz',
-          p: '300x250_pos3',
-          m: 1,
-          g: 'hb'
-        }
-      }]
-    }, {
-      code: 'popup',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [300, 250],
-            [500, 200]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 353316,
-          zoneId: 2632554,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 258]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 353318,
-          zoneId: 2632552,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 258]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'knowlimits-adform',
-        params: {
-          mid: 1840845,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 1869781,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 27917907
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }]
-    }, {
-      code: 'strip',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [728, 90],
-            [320, 50],
-            [300, 50]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 353316,
-          zoneId: 2186688,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [2, 43, 44]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 353318,
-          zoneId: 2186678,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [2, 43, 44]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4344930'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1109051,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 759651
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 23941416
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'ECO_aktualnecz_strip'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'aktualne.cz',
-          p: '320x50',
-          m: 1,
-          g: 'hb'
         }
       }]
     }],
