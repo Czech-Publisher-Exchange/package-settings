@@ -71,12 +71,6 @@ window.cpexWebsiteSettings = {
           siteId: 759674
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158416,
-          pageId: 144524
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213120
@@ -140,6 +134,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840854,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334586,
@@ -154,6 +155,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869811,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1148675,
@@ -163,12 +171,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759673
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 153776,
-          pageId: 140099
         }
       }, {
         bidder: 'appnexus',
@@ -233,6 +235,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840855,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334589,
@@ -247,6 +256,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869816,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1148708,
@@ -256,12 +272,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759675
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 158417,
-          pageId: 144525
         }
       }, {
         bidder: 'appnexus',
@@ -336,12 +346,6 @@ window.cpexWebsiteSettings = {
           siteId: 809614
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 165641,
-          pageId: 151406
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213136
@@ -370,10 +374,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
-            [300, 250],
-            [250, 250],
-            [300, 50],
+            [480, 820],
             [480, 480]
           ]
         }
@@ -385,7 +386,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142966,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44, 261]
+          sizes: [256, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -394,7 +395,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142968,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44, 261]
+          sizes: [256, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -405,6 +406,20 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840857,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869808,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1421069,
@@ -414,12 +429,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 809612
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 150211,
-          pageId: 136835
         }
       }, {
         bidder: 'appnexus',
@@ -436,24 +445,13 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'ECO_centrumcz_mediumrectangle_mob_pos1'
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'centrum.cz',
-          p: '300x250_1',
-          m: 1,
-          g: 'hb'
-        }
       }]
     }, {
       code: 'mediumrectangle-mob-pos2',
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
-            [300, 250],
-            [250, 250],
-            [300, 50],
+            [480, 820],
             [480, 480]
           ]
         }
@@ -465,7 +463,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142970,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44, 261]
+          sizes: [256, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -474,7 +472,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142972,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44, 261]
+          sizes: [256, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -485,6 +483,20 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840858,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869807,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform',
         params: {
           mid: 1421071,
@@ -494,12 +506,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 809613
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 165642,
-          pageId: 151407
         }
       }, {
         bidder: 'appnexus',
@@ -515,14 +521,6 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_centrumcz_mediumrectangle_mob_pos2'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'centrum.cz',
-          p: '300x250_2',
-          m: 1,
-          g: 'hb'
         }
       }]
     }, {
@@ -555,36 +553,49 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1840859,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1869804,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28273071
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }],
-    currency: 'USD',
-    analytics: ['id5Analytics', 'cpexAnalytics'],
-    enabled: false
+    currency: 'USD'
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('sc-1cb3an8-0')[0]/*E*/
+      contentEl: /*S*/ document.getElementsByClassName('sc-1cb3an8-0')[0] /*E*/,
+      hide: [/*S*/ document.getElementById('reklama-leader') /*E*/]
     },
     native: {
       enabled: true
     },
     slideup: {
       adUnits: ['reklama-popupmobile'],
-      backgroundEl: /*S*/document.getElementById('reklama-popupmobile-wrapper')/*E*/,
+      backgroundEl: /*S*/ document.getElementById('reklama-popupmobile-wrapper') /*E*/,
       enabled: true
     }
   },
   general: {
-    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184',
-    beforeLoad: /*S*/() => {
-      if (!!['www.centrum.cz', 'atlas.centrum.cz', 'pocasi.centrum.cz', 'volny.centrum.cz'].find(str => window.location.href.indexOf(str) !== -1)) {
-        window.cpexPackage.settings.headerbidding.enabled = true
-      }
-    }/*E*/
+    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184'
   }
 }
