@@ -50,6 +50,12 @@ window.cpexWebsiteSettings = {
           siteId: 765419
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211409,
+          pageId: 195874
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 23566747
@@ -135,6 +141,12 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 763333
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211413,
+          pageId: 195878
         }
       }, {
         bidder: 'appnexus',
@@ -224,6 +236,12 @@ window.cpexWebsiteSettings = {
           siteId: 765418
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211410,
+          pageId: 195875
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 23566751
@@ -308,6 +326,12 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 765425
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211414,
+          pageId: 195879
         }
       }, {
         bidder: 'appnexus',
@@ -397,6 +421,12 @@ window.cpexWebsiteSettings = {
           siteId: 765423
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211408,
+          pageId: 195873
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 23566748
@@ -428,7 +458,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementById('brand-a') /*E*/ ,
+      contentEl: /*S*/ document.getElementById('brand-a') /*E*/,
       offset: 130,
       offsetScroll: false
     },
