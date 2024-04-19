@@ -69,6 +69,12 @@ window.cpexWebsiteSettings = {
           siteId: 759661
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211430,
+          pageId: 195895
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21011671
@@ -171,6 +177,12 @@ window.cpexWebsiteSettings = {
           siteId: 759665
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211429,
+          pageId: 195894
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21011717
@@ -271,6 +283,12 @@ window.cpexWebsiteSettings = {
           siteId: 759667
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211434,
+          pageId: 195899
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21011721
@@ -362,6 +380,12 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 759668
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211425,
+          pageId: 195890
         }
       }, {
         bidder: 'appnexus',
@@ -465,6 +489,12 @@ window.cpexWebsiteSettings = {
           siteId: 759659
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211433,
+          pageId: 195898
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21010492
@@ -566,6 +596,12 @@ window.cpexWebsiteSettings = {
           siteId: 759660
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211427,
+          pageId: 195892
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 21011627
@@ -649,7 +685,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('bhWtgq')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('bhWtgq')[0] /*E*/,
       contentCSS: ' ',
       zIndex: null,
       backgroundEl: /*S*/ document.getElementById('brand-c') /*E*/
