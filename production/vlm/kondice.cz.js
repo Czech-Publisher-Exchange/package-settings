@@ -1844,9 +1844,8 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('homepage__container')[0] /*E*/,
       generalCSS: '#leaderboard-top {  width: 1000px}.main {  position: initial;}',
-      offset: 60,
-      contentCSS: ' ',
-      offsetScroll: true
+      offset: /*S*/0/*E*/,
+      contentCSS: ' '
     },
     interscroller: {
       enabled: true
