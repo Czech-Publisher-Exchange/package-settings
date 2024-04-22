@@ -2044,6 +2044,11 @@ window.cpexWebsiteSettings = {
           mid: 1782812,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099259
+        }
       }]
     }, {
       code: 'm_sticky_foto',
@@ -2105,6 +2110,11 @@ window.cpexWebsiteSettings = {
           mid: 1782811,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099272
+        }
       }]
     }]
   },
@@ -2118,8 +2128,8 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
       contentCSS: ' '
     },
     vignette: {
