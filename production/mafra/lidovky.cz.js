@@ -2963,9 +2963,19 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099258
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31269805
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -2980,9 +2990,19 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099271
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31269806
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
@@ -3051,8 +3071,8 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
       contentCSS: ' '
     },
     responsive: {
