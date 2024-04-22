@@ -2945,6 +2945,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 30878846
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'm_nativ',
@@ -2966,6 +2971,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 30878847
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
