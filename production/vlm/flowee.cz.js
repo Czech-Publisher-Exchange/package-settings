@@ -86,8 +86,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        urlHas: 'miro.flowee.cz'
+        minWidth: 1000
       }
     }, {
       code: 'm-square-1',
