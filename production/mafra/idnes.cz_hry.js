@@ -1,10 +1,10 @@
 window.cpexWebsiteSettings = {
   formats: {
     skin: {
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
       enabled: true,
-      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ],
+      hide: [/*S*/ document.getElementById('r-leaderboard-hp') /*E*/],
       contentCSS: ' '
     },
     interscroller: {
@@ -2924,6 +2924,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099263
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30878651
@@ -2948,6 +2953,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1782791,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099276
         }
       }, {
         bidder: 'appnexus',
