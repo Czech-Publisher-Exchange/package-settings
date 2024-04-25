@@ -1,6 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'denik.cz'
+    name: 'denik.cz',
+    note: 'test'
   },
   cmp: {
     enabled: false
@@ -2163,10 +2164,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
       offset: 52,
       offsetScroll: true,
-      hide: [ /*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/ ]
+      hide: [/*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/]
     },
     interscroller: {
       enabled: true
