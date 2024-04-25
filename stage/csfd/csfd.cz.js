@@ -2339,7 +2339,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [1, 1]
+            [0, 0]
           ]
         }
       },
