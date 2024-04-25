@@ -54,6 +54,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3245549'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903443,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 684613
@@ -113,6 +119,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3325255'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903448,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 489345
@@ -143,7 +155,6 @@ window.cpexWebsiteSettings = {
           sizes: [
             [728, 90],
             [970, 210],
-            [2000, 1400],
             [970, 250]
           ]
         }
@@ -155,7 +166,7 @@ window.cpexWebsiteSettings = {
           zoneId: 534508,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96, 230, 57]
+          sizes: [2, 96, 57]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -164,7 +175,7 @@ window.cpexWebsiteSettings = {
           zoneId: 534548,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96, 230, 57]
+          sizes: [2, 96, 57]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -174,6 +185,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3245544'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903445,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 489344
@@ -181,7 +198,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: '15624108, 18682437'
+          placementId: 15624108
         }
       }, {
         bidder: 'criteo',
@@ -192,6 +209,60 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_leaderboard_top'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-top',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 534508,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 534548,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '3245544'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1901128,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 18682437
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -233,6 +304,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '3245562'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1901122,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -295,6 +372,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '3245547'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903471,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -596,6 +679,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3245560'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903449,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 15624107
@@ -682,6 +771,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4828427'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903442,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 976691
@@ -741,6 +836,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '3245563'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903450,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -804,6 +905,12 @@ window.cpexWebsiteSettings = {
           adSlot: '3245564'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903451,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 684622
@@ -854,6 +961,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5808621'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903468,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -2420,6 +2533,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5808535'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903444,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1088920
@@ -2586,6 +2705,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5808538'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903452,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1088927
@@ -2604,15 +2729,97 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'wallpaper-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3365118,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 15, 16]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5906169'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32592651
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3365140,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 15, 16]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5906180'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32592693
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
       offset: 52,
       offsetScroll: true,
-      hide: [ /*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/ ]
+      hide: [/*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/]
     },
     interscroller: {
       enabled: true
