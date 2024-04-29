@@ -378,5 +378,8 @@ window.cpexWebsiteSettings = {
   },
   general: {
     autoRun: true
+  },
+  cmp: {
+    enabled: false
   }
 }
