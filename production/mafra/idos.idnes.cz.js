@@ -58,6 +58,12 @@ window.cpexWebsiteSettings = {
           siteId: 638860
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222054,
+          pageId: 205798
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157303
@@ -75,6 +81,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'branding',
@@ -157,6 +165,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -225,8 +235,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211349,
-          pageId: 195815
+          placementId: 222056,
+          pageId: 205800
         }
       }, {
         bidder: 'appnexus',
@@ -246,6 +256,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_leader',
@@ -308,6 +320,12 @@ window.cpexWebsiteSettings = {
           siteId: 1017327
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222057,
+          pageId: 205801
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30478704
@@ -325,6 +343,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -391,8 +411,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 222058,
+          pageId: 205802
         }
       }, {
         bidder: 'appnexus',
@@ -412,6 +432,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -438,7 +460,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 144584,
-          zoneId: 1970002,
+          zoneId: 3274938,
           accountId: '10900',
           position: 'atf',
           sizes: [10, 15, 48, 9]
@@ -478,8 +500,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 222059,
+          pageId: 205803
         }
       }, {
         bidder: 'appnexus',
@@ -499,6 +521,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_vignete',
@@ -518,7 +542,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2795956,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 10]
+          sizes: [484, 256, 10]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -527,7 +551,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2800888,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 10]
+          sizes: [484, 256, 10]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -564,8 +588,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 222060,
+          pageId: 205804
         }
       }, {
         bidder: 'appnexus',
@@ -577,15 +601,17 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
-      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ]
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
+      hide: [/*S*/ document.getElementById('r-leaderboard-hp') /*E*/]
     },
     interscroller: {
       enabled: true
