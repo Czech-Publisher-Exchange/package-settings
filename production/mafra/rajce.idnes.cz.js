@@ -64,6 +64,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -109,6 +111,12 @@ window.cpexWebsiteSettings = {
           siteId: 650503
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221049,
+          pageId: 204796
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27158126
@@ -126,6 +134,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -160,6 +170,12 @@ window.cpexWebsiteSettings = {
           siteId: 918995
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221050,
+          pageId: 204797
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27158127
@@ -177,6 +193,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -211,6 +229,12 @@ window.cpexWebsiteSettings = {
           siteId: 650506
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221062,
+          pageId: 204809
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27158129
@@ -228,6 +252,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -271,6 +297,12 @@ window.cpexWebsiteSettings = {
           siteId: 650507
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221063,
+          pageId: 204810
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27158130
@@ -288,6 +320,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid',
@@ -331,6 +365,12 @@ window.cpexWebsiteSettings = {
           siteId: 650510
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221064,
+          pageId: 204811
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27158132
@@ -348,6 +388,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -394,6 +436,12 @@ window.cpexWebsiteSettings = {
           siteId: 918996
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221065,
+          pageId: 204812
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27158133
@@ -411,6 +459,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -421,7 +471,8 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [250, 250],
             [300, 250],
-            [480, 480]
+            [480, 480],
+            [336, 280]
           ]
         }
       },
@@ -432,7 +483,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1139208,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
+          sizes: [83, 48, 14, 15, 261, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -441,7 +492,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1139206,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
+          sizes: [83, 48, 14, 15, 261, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -454,6 +505,12 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 650499
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221067,
+          pageId: 204814
         }
       }, {
         bidder: 'appnexus',
@@ -473,6 +530,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_spodni',
@@ -483,7 +542,8 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [250, 250],
             [300, 250],
-            [480, 480]
+            [480, 480],
+            [336, 280]
           ]
         }
       },
@@ -494,7 +554,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1530038,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
+          sizes: [83, 48, 14, 15, 261, 16]
         }
       }, {
         bidder: 'pubmatic',
@@ -506,6 +566,12 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 918997
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221068,
+          pageId: 204815
         }
       }, {
         bidder: 'appnexus',
@@ -525,6 +591,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
