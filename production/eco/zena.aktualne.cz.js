@@ -52,6 +52,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4909533'
         }
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1901538,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334546,
