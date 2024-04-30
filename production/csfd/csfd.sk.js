@@ -129,6 +129,12 @@ window.cpexWebsiteSettings = {
           formatId: 96947,
           tagId: 'sas_96947'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127233,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -214,6 +220,12 @@ window.cpexWebsiteSettings = {
           formatId: 96949,
           tagId: 'sas_96949'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127225,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -292,6 +304,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96950,
           tagId: 'sas_96950'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127226,
+          networkId: 419
         }
       }],
       filter: {
@@ -372,6 +390,12 @@ window.cpexWebsiteSettings = {
           formatId: 96951,
           tagId: 'sas_96951'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127227,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -451,6 +475,12 @@ window.cpexWebsiteSettings = {
           formatId: 96952,
           tagId: 'sas_96952'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127228,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -471,21 +501,11 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 235290,
-          zoneId: 1924130,
+          zoneId: 3381064,
           accountId: '10900',
           position: 'atf',
           sizes: [16, 48, 15, 117]
         }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 235292,
-          zoneId: 1924972,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [16, 48, 15, 117]
-        },
-        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
@@ -529,6 +549,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96953,
           tagId: 'sas_96953'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127229,
+          networkId: 419
         }
       }],
       filter: {
@@ -615,6 +641,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96948,
           tagId: 'sas_96948'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127231,
+          networkId: 419
         }
       }],
       filter: {
@@ -868,6 +900,12 @@ window.cpexWebsiteSettings = {
           formatId: 96957,
           tagId: 'sas_96957'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127223,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -948,6 +986,12 @@ window.cpexWebsiteSettings = {
           formatId: 73997,
           tagId: 'sas_73997'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127230,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1024,6 +1068,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 130350,
           tagId: 'sas_130350'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127230,
+          networkId: 419
         }
       }],
       filter: {
@@ -1175,7 +1225,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20750845
+          placementId: 22969806
         }
       }, {
         bidder: 'criteo',
@@ -1190,6 +1240,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 74014,
           tagId: 'sas_74014'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127241,
+          networkId: 419
         }
       }],
       filter: {
@@ -1254,7 +1310,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20750846
+          placementId: 20750845
         }
       }, {
         bidder: 'criteo',
@@ -1277,6 +1333,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96940,
           tagId: 'sas_96940'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127235,
+          networkId: 419
         }
       }],
       filter: {
@@ -1347,7 +1409,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20750847
+          placementId: 20750846
         }
       }, {
         bidder: 'criteo',
@@ -1370,6 +1432,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96941,
           tagId: 'sas_96941'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127236,
+          networkId: 419
         }
       }],
       filter: {
@@ -1413,7 +1481,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20750847
+          placementId: 20750846
         }
       }, {
         bidder: 'criteo',
@@ -1428,6 +1496,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 130351,
           tagId: 'sas_130351'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127236,
+          networkId: 419
         }
       }],
       filter: {
@@ -1498,7 +1572,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20750848
+          placementId: 20750847
         }
       }, {
         bidder: 'criteo',
@@ -1521,6 +1595,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96942,
           tagId: 'sas_96942'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127237,
+          networkId: 419
         }
       }],
       filter: {
@@ -1585,7 +1665,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20750850
+          placementId: 20750848
         }
       }, {
         bidder: 'criteo',
@@ -1608,6 +1688,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96943,
           tagId: 'sas_96943'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127238,
+          networkId: 419
         }
       }],
       filter: {
@@ -1665,7 +1751,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20750852
+          placementId: 20750850
         }
       }, {
         bidder: 'criteo',
@@ -1689,6 +1775,12 @@ window.cpexWebsiteSettings = {
           formatId: 96944,
           tagId: 'sas_96944'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127239,
+          networkId: 419
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1707,6 +1799,46 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 238982,
+          zoneId: 1924784,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14, 13, 19]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 238984,
+          zoneId: 1925034,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14, 13, 19]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '3394996'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 924131
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 20750851
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
@@ -1715,7 +1847,16 @@ window.cpexWebsiteSettings = {
           formatId: 96945,
           tagId: 'sas_96945'
         }
-      }]
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127240,
+          networkId: 419
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'mobile_billboard',
       mediaTypes: {
@@ -1775,7 +1916,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 20750819
+          placementId: 20750852
         }
       }, {
         bidder: 'criteo',
@@ -1798,6 +1939,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96946,
           tagId: 'sas_96946'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127234,
+          networkId: 419
         }
       }],
       filter: {
@@ -1855,7 +2002,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 23455304
+          placementId: 20750819
         }
       }, {
         bidder: 'criteo',
@@ -1878,6 +2025,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 96955,
           tagId: 'sas_96955'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127232,
+          networkId: 419
         }
       }],
       filter: {
@@ -1933,6 +2086,11 @@ window.cpexWebsiteSettings = {
           siteId: 924122
         }
       }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 23455304
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -1945,6 +2103,12 @@ window.cpexWebsiteSettings = {
           pageId: 1278200,
           formatId: 130349,
           tagId: 'sas_130349'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127224,
+          networkId: 419
         }
       }],
       filter: {
@@ -1986,7 +2150,10 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 30226622
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'native_long_2',
       mediaTypes: {
