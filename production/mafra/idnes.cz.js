@@ -145,6 +145,12 @@ window.cpexWebsiteSettings = {
           siteId: 644674
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221410,
+          pageId: 205153
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157220
@@ -222,8 +228,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 221411,
+          pageId: 205154
         }
       }, {
         bidder: 'appnexus',
@@ -311,8 +317,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 221412,
+          pageId: 205155
         }
       }, {
         bidder: 'appnexus',
@@ -399,8 +405,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 221413,
+          pageId: 205156
         }
       }, {
         bidder: 'appnexus',
@@ -477,6 +483,12 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 644666
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221414,
+          pageId: 205157
         }
       }, {
         bidder: 'appnexus',
@@ -558,8 +570,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211349,
-          pageId: 195815
+          placementId: 221415,
+          pageId: 205158
         }
       }, {
         bidder: 'appnexus',
@@ -644,8 +656,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 221416,
+          pageId: 205159
         }
       }, {
         bidder: 'appnexus',
@@ -732,8 +744,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 221417,
+          pageId: 205160
         }
       }, {
         bidder: 'appnexus',
@@ -757,7 +769,8 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [250, 250],
             [300, 250],
-            [480, 480]
+            [480, 480],
+            [336, 280]
           ]
         }
       },
@@ -768,7 +781,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1142452,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
+          sizes: [83, 48, 14, 15, 261, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -777,7 +790,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1142454,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
+          sizes: [83, 48, 14, 15, 261, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -814,8 +827,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 221418,
+          pageId: 205161
         }
       }, {
         bidder: 'appnexus',
@@ -902,8 +915,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211358,
-          pageId: 195824
+          placementId: 221419,
+          pageId: 205162
         }
       }, {
         bidder: 'appnexus',
@@ -939,6 +952,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 30878667
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }]
     }, {
       code: 'm_nativ',
@@ -960,6 +978,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 30878668
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }]
     }, {
