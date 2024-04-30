@@ -44,6 +44,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1693297,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334484,
