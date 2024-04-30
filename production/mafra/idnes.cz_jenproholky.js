@@ -58,6 +58,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -98,6 +100,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641251'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221997,
+          pageId: 205740
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157252
@@ -115,6 +123,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -155,6 +165,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641252'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221998,
+          pageId: 205741
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157253
@@ -172,6 +188,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika',
@@ -212,6 +230,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641253'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 221999,
+          pageId: 205742
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157255
@@ -229,6 +253,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -269,6 +295,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641254'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222000,
+          pageId: 205743
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157256
@@ -286,6 +318,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -326,6 +360,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641255'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222001,
+          pageId: 205744
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157257
@@ -343,6 +383,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -381,6 +423,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641256'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222002,
+          pageId: 205745
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157259
@@ -398,6 +446,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -439,6 +489,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641257'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222003,
+          pageId: 205746
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157260
@@ -456,6 +512,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_paticka',
@@ -492,6 +550,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641258'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222004,
+          pageId: 205747
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27157262
@@ -509,6 +573,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky_foto',
@@ -541,16 +607,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 31818895
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
       contentCSS: ' ',
-      hide: [ /*S*/ document.getElementById('r-leaderboard-hp') /*E*/ ]
+      hide: [/*S*/ document.getElementById('r-leaderboard-hp') /*E*/]
     },
     interscroller: {
       enabled: true
