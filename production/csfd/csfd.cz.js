@@ -98,6 +98,12 @@ window.cpexWebsiteSettings = {
           formatId: 73997,
           tagId: 'sas_73997'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127208,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -188,6 +194,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 130350,
           tagId: 'sas_130350'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127208,
+          networkId: 419
         }
       }],
       filter: {
@@ -284,6 +296,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 96947,
           tagId: 'sas_96947'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127211,
+          networkId: 419
         }
       }],
       filter: {
@@ -389,6 +407,12 @@ window.cpexWebsiteSettings = {
           formatId: 96949,
           tagId: 'sas_96949'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127203,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -486,6 +510,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 96950,
           tagId: 'sas_96950'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127204,
+          networkId: 419
         }
       }],
       filter: {
@@ -585,6 +615,12 @@ window.cpexWebsiteSettings = {
           formatId: 96951,
           tagId: 'sas_96951'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127205,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -676,6 +712,12 @@ window.cpexWebsiteSettings = {
           formatId: 96952,
           tagId: 'sas_96952'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127206,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -766,6 +808,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 96953,
           tagId: 'sas_96953'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127207,
+          networkId: 419
         }
       }],
       filter: {
@@ -864,6 +912,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 96948,
           tagId: 'sas_96948'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127209,
+          networkId: 419
         }
       }],
       filter: {
@@ -964,6 +1018,12 @@ window.cpexWebsiteSettings = {
           formatId: 73614,
           tagId: 'sas_73614'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127199,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1062,6 +1122,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 96956,
           tagId: 'sas_96956'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127200,
+          networkId: 419
         }
       }],
       filter: {
@@ -1162,6 +1228,12 @@ window.cpexWebsiteSettings = {
           formatId: 96957,
           tagId: 'sas_96957'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127201,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1261,6 +1333,12 @@ window.cpexWebsiteSettings = {
           formatId: 82380,
           tagId: 'sas_82380'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127198,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1355,6 +1433,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 74014,
           tagId: 'sas_74014'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127219,
+          networkId: 419
         }
       }],
       filter: {
@@ -1454,6 +1538,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 96940,
           tagId: 'sas_96940'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127213,
+          networkId: 419
         }
       }],
       filter: {
@@ -1560,6 +1650,12 @@ window.cpexWebsiteSettings = {
           formatId: 96941,
           tagId: 'sas_96941'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127214,
+          networkId: 419
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1650,6 +1746,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 130351,
           tagId: 'sas_130351'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127214,
+          networkId: 419
         }
       }],
       filter: {
@@ -1756,6 +1858,12 @@ window.cpexWebsiteSettings = {
           formatId: 96942,
           tagId: 'sas_96942'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127215,
+          networkId: 419
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1855,6 +1963,12 @@ window.cpexWebsiteSettings = {
           formatId: 96943,
           tagId: 'sas_96943'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127216,
+          networkId: 419
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1947,6 +2061,12 @@ window.cpexWebsiteSettings = {
           formatId: 96944,
           tagId: 'sas_96944'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127217,
+          networkId: 419
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2033,6 +2153,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 96945,
           tagId: 'sas_96945'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127218,
+          networkId: 419
         }
       }],
       filter: {
@@ -2133,6 +2259,12 @@ window.cpexWebsiteSettings = {
           formatId: 96946,
           tagId: 'sas_96946'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127212,
+          networkId: 419
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2232,6 +2364,12 @@ window.cpexWebsiteSettings = {
           formatId: 96955,
           tagId: 'sas_96955'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127210,
+          networkId: 419
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2309,6 +2447,12 @@ window.cpexWebsiteSettings = {
           pageId: 1041480,
           formatId: 130349,
           tagId: 'sas_130349'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3127202,
+          networkId: 419
         }
       }],
       filter: {
