@@ -956,6 +956,12 @@ window.cpexWebsiteSettings = {
       adUnits: ['sas-special4'],
       enabled: true,
       backgroundEl: /*S*/ document.getElementById('reklama-special4') /*E*/
+    },
+    responsive: {
+      width: 480,
+      height: 480,
+      adUnits: ['sas-injected-1', 'sas-injected-2', 'sas-injected-3'],
+      enabled: true
     }
   },
   general: {
