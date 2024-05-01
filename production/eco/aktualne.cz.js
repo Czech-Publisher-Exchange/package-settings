@@ -961,7 +961,7 @@ window.cpexWebsiteSettings = {
       width: 480,
       height: 480,
       adUnits: ['mediumrectangle-mob-pos1', 'mediumrectangle-mob-pos2', 'mediumrectangle-mob-pos3'],
-      enabled: true
+      enabled: false
     }
   },
   general: {
