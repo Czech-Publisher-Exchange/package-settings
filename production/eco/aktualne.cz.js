@@ -960,7 +960,7 @@ window.cpexWebsiteSettings = {
     responsive: {
       width: 480,
       height: 480,
-      adUnits: ['sas-injected-1', 'sas-injected-2', 'sas-injected-3'],
+      adUnits: ['mediumrectangle-mob-pos1', 'mediumrectangle-mob-pos2', 'mediumrectangle-mob-pos3'],
       enabled: true
     }
   },
