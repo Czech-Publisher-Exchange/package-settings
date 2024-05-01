@@ -741,7 +741,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       width: 480,
       height: 480,
-      adUnits: ['sas-injected-1', 'sas-injected-2']
+      adUnits: ['sas-injected-1', 'sas-injected-2', 'sas-injected-3']
     }
   },
   general: {
