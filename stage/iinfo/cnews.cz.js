@@ -45,6 +45,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5739432'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099706
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24001672
@@ -97,6 +102,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5739433'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099707
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24001674
@@ -146,6 +156,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5739431'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099708
         }
       }, {
         bidder: 'appnexus',
@@ -211,6 +226,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5739434'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099709
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24001671
@@ -265,6 +285,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5739435'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099710
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24353125
@@ -313,6 +338,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5739436'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099711
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31924738
@@ -358,6 +388,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5739437'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099712
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31924739
@@ -372,11 +407,14 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/,
       contentCSS: 'width: 1060px;'
     }
   },
   general: {
     autoRun: true
+  },
+  cmp: {
+    enabled: false
   }
 }
