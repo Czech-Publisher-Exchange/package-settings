@@ -1,10 +1,9 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'podnikatel.cz',
-    note: 'stage'
+    name: 'podnikatel.cz'
   },
   adserver: {
-    adapter: 'sastracker'
+    adapter: 'googletag'
   },
   headerbidding: {
     adUnits: [{
@@ -60,20 +59,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727250,
-          rcur: 'USD'
+          siteId: 480794
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315589
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Podnikatel_Halfpagead'
         }
       }, {
         bidder: 'r2b2',
@@ -137,20 +130,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727257,
-          rcur: 'USD'
+          siteId: 784929
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 21786345
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Podnikatel_Vrchni_Square'
         }
       }, {
         bidder: 'r2b2',
@@ -174,42 +161,13 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
-        bidder: 'r2b2',
-        params: {
-          d: 'podnikatel.cz',
-          p: 'branding',
-          m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'podnikatel.cz',
-          p: '998x200',
-          m: 0,
-          g: 'hb'
-        }
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
-      code: 'iinfo-area-leaderboard',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 100]
-          ]
-        }
-      },
-      bids: [{
         bidder: 'rubicon',
         params: {
           siteId: 265202,
           zoneId: 1336466,
           accountId: '10900',
           position: 'atf',
-          sizes: [117]
+          sizes: [2, 96, 259, 230]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -218,7 +176,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336464,
           accountId: '10900',
           position: 'atf',
-          sizes: [117]
+          sizes: [2, 96, 259, 230]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -242,26 +200,22 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727251,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727252,
-          rcur: 'USD'
+          siteId: 480795
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16315585
+          placementId: 30169001
         }
       }, {
-        bidder: 'triplelift',
+        bidder: 'r2b2',
         params: {
-          inventoryCode: 'iInfo_Podnikatel_Leaderboard_Mobile'
+          d: 'podnikatel.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'r2b2',
@@ -273,7 +227,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'iinfo-area-big-rectangle',
@@ -282,7 +236,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [300, 300],
+            [300, 250]
           ]
         }
       },
@@ -293,7 +249,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336494,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 48, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -302,7 +258,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336492,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 96, 57]
+          sizes: [94, 96, 57, 48, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -326,26 +282,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727248,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727246,
-          rcur: 'USD'
+          siteId: 430306
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315590
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Podnikatel_Big_Rectangle'
         }
       }, {
         bidder: 'r2b2',
@@ -409,26 +353,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727248,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727246,
-          rcur: 'USD'
+          siteId: 430306
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315590
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Podnikatel_Big_Rectangle_Mobile'
         }
       }, {
         bidder: 'r2b2',
@@ -493,26 +425,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727253,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 727255,
-          rcur: 'USD'
+          siteId: 480796
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315586
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'Podnikatel_homepage_2'
         }
       }, {
         bidder: 'r2b2',
@@ -523,12 +443,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
-    }, {
-      code: 'iinfo-area-rectangle',
-      mediaTypes: {
-        native: {}
-      },
-      bids: []
     }, {
       code: 'iinfo-area-spodni-square-banner',
       mediaTypes: {
@@ -581,20 +495,14 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform',
+        bidder: 'ix',
         params: {
-          mid: 727256,
-          rcur: 'USD'
+          siteId: 480797
         }
       }, {
         bidder: 'appnexus',
         params: {
           placementId: 16315588
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'iInfo_Podnikatel_Spodni_Square'
         }
       }, {
         bidder: 'r2b2',
@@ -605,18 +513,21 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }]
-    }]
+    }],
+    userIDs: ['id5Id', 'sharedId', 'criteo', 'cpexId'],
+    customBuckets: [15, 18, 20, 22, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 125, 150]
   },
   formats: {
     skin: {
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/,
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('parter-cpex-branding-wrapper')[0]/*E*/,
-      contentCSS: ' ',
-      offset: 25,
-      offsetScroll: true
+      hide: [/*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/]
     },
-    interscroller: {
+    native: {
       enabled: true
     }
+  },
+  cmp: {
+    enabled: false
   }
 }
