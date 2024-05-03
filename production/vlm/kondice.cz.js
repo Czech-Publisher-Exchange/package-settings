@@ -1224,6 +1224,37 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
+      code: 'VAST_preroll_1',
+      mediaTypes: {
+        video: {
+          playerSize: [
+            [640, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 232960,
+          zoneId: 3342714,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [201]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5823274'
+        }
+      }],
+      filter: {
+        urlHasNot: 'vydrz-v-pozici-v-up-v-up-hold-20191120'
+      },
+      video: {
+        divId: 'aqua_video_b09c1791-042f-4753-9f59-cdcbe79b7a27_html5_api'
+      }
+    }, {
       code: 'm-square-gallery-5',
       mediaTypes: {
         banner: {
