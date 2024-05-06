@@ -1259,7 +1259,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'bonusweb.idnes.cz',
-          p: 'fixed',
+          p: 'sticky',
           m: 1,
           g: 'hb'
         }
