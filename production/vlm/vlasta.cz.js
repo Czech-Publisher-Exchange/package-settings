@@ -884,9 +884,19 @@ window.cpexWebsiteSettings = {
           sizes: [90, 600]
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104282
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31808441
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -912,9 +922,19 @@ window.cpexWebsiteSettings = {
           sizes: [90, 600]
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104283
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32576781
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -1001,9 +1021,19 @@ window.cpexWebsiteSettings = {
           sizes: [90, 600]
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104284
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32590784
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -1029,9 +1059,19 @@ window.cpexWebsiteSettings = {
           sizes: [90, 600]
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104285
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32590777
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -2363,6 +2403,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5906178'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104266
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32592873
@@ -2402,6 +2447,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5906189'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104273
         }
       }, {
         bidder: 'appnexus',
