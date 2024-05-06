@@ -1001,9 +1001,19 @@ window.cpexWebsiteSettings = {
         native: {}
       },
       bids: [{
+        bidder: 'ix',
+        params: {
+          siteId: 1104280
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31924779
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -1912,6 +1922,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5906175'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104262
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32592777
@@ -1951,6 +1966,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5906186'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104269
         }
       }, {
         bidder: 'appnexus',
