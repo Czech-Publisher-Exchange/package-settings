@@ -60,8 +60,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211363,
-          pageId: 195828
+          placementId: 221925,
+          pageId: 205668
         }
       }, {
         bidder: 'appnexus',
@@ -81,6 +81,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'branding',
@@ -163,6 +165,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -224,8 +228,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211363,
-          pageId: 195828
+          placementId: 221927,
+          pageId: 205670
         }
       }, {
         bidder: 'appnexus',
@@ -245,6 +249,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -304,8 +310,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211363,
-          pageId: 195828
+          placementId: 221928,
+          pageId: 205671
         }
       }, {
         bidder: 'appnexus',
@@ -317,6 +323,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper',
@@ -376,8 +384,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211363,
-          pageId: 195828
+          placementId: 221929,
+          pageId: 205672
         }
       }, {
         bidder: 'appnexus',
@@ -397,6 +405,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_clankovy3',
@@ -435,6 +445,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
