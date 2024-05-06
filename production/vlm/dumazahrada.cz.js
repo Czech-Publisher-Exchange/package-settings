@@ -2467,6 +2467,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104263
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32592775
@@ -2512,6 +2517,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1906469,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104270
         }
       }, {
         bidder: 'appnexus',
