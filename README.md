@@ -134,10 +134,32 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 
 ### CMP
 `cmp: {}`
-| Attribute      | Values                                           | Default    |
-|----------------|--------------------------------------------------|------------|
-| `enabled`      | Boolean                                          | true       |
-| `pixelList`    | Array of URL strings                             | array      |
+| Attribute        | Values                                           | Default    |
+|------------------|--------------------------------------------------|------------|
+| `enabled`        | Boolean                                          | true       |
+| `payEnabled`     | Boolean                                          | false      |
+| `payConfig`      | Object, configuration for 'pay' type. See below. |            |
+| `didomiTemplate` | String, custom didomi template to load           |            |
+| `pixelList`      | Array of URL strings                             | array      |
+
+#### CMP: payConfig ("Pay or Okay" variant)
+| Attribute          | Type       | Required | Values                                                       | Default              |
+|--------------------|------------|----------|--------------------------------------------------------------|----------------------|
+| `cmpTemplate`      | String     | No       | Custom didomi template to load                               |                      |
+| `texts`            | Function   | No       | Custom texts, returns object with subset of keys of texts.js | in texts.js          |
+| `generalCSS`       | Function   | No       | Return string of all CSS, if you want to start from scratch  | in styles.js         |
+| `overrideCSS`      | Function   | No       | Return string of some CSS, if you want minor changes         |                      |
+| `links`            | Array      | No       | Objects with HTML attributes for links shown in footer       | in texts.js          |
+| `veil`             | Boolean    | No       | Whether to cover the underlying website                      |                      |
+| `purposeList`      | Boolean    | No       | Whether to show purpose list in footer                       |                      |
+| `primaryLogoURL`   | String     | No       | URL to the website logo                                      |                      |
+| `secondaryLogoURL` | String     | No       | URL to the publisher logo                                    |                      |
+| `registerURL`      | String     | Yes      | URL or `javascript:` to registration                         |                      |
+| `loginURL`         | String     | Yes      | URL or `javascript:` to login                                |                      |
+| `required`         | Array      | Yes      | List of mandatory consent purposes (*), shouldn't be empty   | ['cookies']          |
+| `consentDateLimit` | String     | No       | ISO date (`new Date().toISOString()`) for resetting consent  |                      |
+| `pixels`           | Array      | No       | Array of URLs that will be fired as pixel images             |                      |
+
 
 ### DSA
 (Digital Services Act) EU requirement to show information about advertisers and profiling
