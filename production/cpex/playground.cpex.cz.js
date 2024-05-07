@@ -3,6 +3,27 @@ window.cpexWebsiteSettings = {
     name: 'cpex.cz',
     note: 'test'
   },
+  cmp: {
+    enabled: true,
+    payEnabled: true,
+    didomiTemplate: 'tPBKgBkc',
+    payConfig: {
+      primaryLogoURL: 'https://cdn.cpex.cz/logos/cpex.png',
+      secondaryLogoURL: 'https://cdn.cpex.cz/logos/cpex.png',
+      registerURL: "javascript:localStorage.setItem('isSubscribed', 1); location.reload()",
+      loginURL: 'javascript:window.alert("login")',
+      texts: ({ partnerNum }) => {
+        return {
+          mainHeadline: 'Chcete dál náš obsah jako obvykle? Vyberte si jednu z možností níže.'
+        }
+      },
+      links: [
+        { innerHTML: 'Privacy policy', href: 'privacyPolicy', target: '_blank' }
+      ],
+      required: ['cookies', 'select_basic_ads', 'create_ads_profile', 'select_personalized_ads', 'measure_ad_performance'],
+      isSubscribed: () => { return !!localStorage.getItem('isSubscribed') }
+    }
+  },
   headerbidding: {
     prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/8.41.0/prebid.js',
     prebidDebug: true,
