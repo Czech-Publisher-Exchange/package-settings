@@ -42,6 +42,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5537029'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910022,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -85,6 +91,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5537026'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910016,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -132,6 +144,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5537027'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910017,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -175,6 +193,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5537028'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910034,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -221,6 +245,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5537017'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910029,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -270,6 +300,18 @@ window.cpexWebsiteSettings = {
           adSlot: '5537019'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910030,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910018,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -314,6 +356,18 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5537021'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910019,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910031,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -362,6 +416,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5537030'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910020,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -406,6 +466,18 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5537032'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910032,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910021,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -454,6 +526,18 @@ window.cpexWebsiteSettings = {
           adSlot: '5537033'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910033,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910025,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -498,6 +582,18 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5537034'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910041,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910038,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -546,6 +642,18 @@ window.cpexWebsiteSettings = {
           adSlot: '5537035'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910040,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910039,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -591,6 +699,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5537020'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910024,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -634,6 +748,18 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5537022'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910070,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910069,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -682,6 +808,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5537016'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910026,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -726,6 +858,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5537018'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910028,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -1663,6 +1801,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5808562'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910023,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -1697,6 +1841,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5808563'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910027,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
@@ -1735,6 +1885,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5906174'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910035,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
@@ -1769,6 +1925,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5906185'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1910036,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
