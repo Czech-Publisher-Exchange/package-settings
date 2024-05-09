@@ -26,6 +26,16 @@ window.cpexWebsiteSettings = {
           sizes: [259, 2, 96, 55, 230]
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3275080,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [259, 2, 96, 55, 230]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -55,6 +65,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -79,6 +91,16 @@ window.cpexWebsiteSettings = {
           sizes: [83, 48, 14, 15, 261]
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3275060,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -89,6 +111,12 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1671256,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222062,
+          pageId: 205806
         }
       }, {
         bidder: 'appnexus',
@@ -108,6 +136,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -131,6 +161,16 @@ window.cpexWebsiteSettings = {
           sizes: [10, 15, 48, 9]
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3275076,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48, 9]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -141,6 +181,12 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1671249,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222063,
+          pageId: 205807
         }
       }, {
         bidder: 'appnexus',
@@ -160,6 +206,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper',
@@ -183,6 +231,16 @@ window.cpexWebsiteSettings = {
           sizes: [94, 2, 57, 96]
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3275088,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [94, 2, 57, 96]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -193,6 +251,12 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1671255,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222064,
+          pageId: 205808
         }
       }, {
         bidder: 'appnexus',
@@ -212,6 +276,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: '300x250',
@@ -245,6 +311,12 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222065,
+          pageId: 205809
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30523816
@@ -262,6 +334,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -285,6 +359,16 @@ window.cpexWebsiteSettings = {
           sizes: [60, 15, 258, 48]
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3275084,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 15, 258, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -302,6 +386,12 @@ window.cpexWebsiteSettings = {
           siteId: 1064310
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222066,
+          pageId: 205810
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30523817
@@ -311,6 +401,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -333,6 +425,16 @@ window.cpexWebsiteSettings = {
           sizes: [15, 14, 261]
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3275056,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -343,6 +445,12 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1671250,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222067,
+          pageId: 205811
         }
       }, {
         bidder: 'appnexus',
@@ -362,6 +470,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_paticka',
@@ -382,6 +492,16 @@ window.cpexWebsiteSettings = {
           sizes: [15]
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3275082,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -392,6 +512,12 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1671251,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222068,
+          pageId: 205812
         }
       }, {
         bidder: 'appnexus',
@@ -411,6 +537,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -436,6 +564,16 @@ window.cpexWebsiteSettings = {
           sizes: [15, 14, 256, 10, 261]
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3275078,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -446,6 +584,12 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1740440,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222069,
+          pageId: 205813
         }
       }, {
         bidder: 'appnexus',
@@ -465,6 +609,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
@@ -478,8 +624,8 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
       contentCSS: ' ',
       generalCSS: '#r-leaderboardhp {  height: 200px}'
     }
