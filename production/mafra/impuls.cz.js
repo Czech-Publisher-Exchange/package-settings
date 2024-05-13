@@ -253,12 +253,6 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 222064,
-          pageId: 205808
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30523815
@@ -384,12 +378,6 @@ window.cpexWebsiteSettings = {
         bidder: 'ix',
         params: {
           siteId: 1064310
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 222066,
-          pageId: 205810
         }
       }, {
         bidder: 'appnexus',
