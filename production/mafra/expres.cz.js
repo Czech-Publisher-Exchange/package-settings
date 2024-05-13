@@ -1788,12 +1788,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 221966,
-          pageId: 205709
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172
