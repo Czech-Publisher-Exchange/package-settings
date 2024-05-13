@@ -526,8 +526,5 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true
     }
-  },
-  cmp: {
-    enabled: false
   }
 }
