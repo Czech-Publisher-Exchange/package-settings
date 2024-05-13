@@ -537,8 +537,5 @@ window.cpexWebsiteSettings = {
     slideup: {
       adUnits: ['iinfo-area-sticky-board']
     }
-  },
-  cmp: {
-    enabled: false
   }
 }
