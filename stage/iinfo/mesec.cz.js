@@ -590,8 +590,5 @@ window.cpexWebsiteSettings = {
       offsetScroll: true,
       hide: [/*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/]
     }
-  },
-  cmp: {
-    enabled: false
   }
 }
