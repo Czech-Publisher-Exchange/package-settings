@@ -608,8 +608,5 @@ window.cpexWebsiteSettings = {
     customRun: /*S*/ () => {
       window.AdsObject?.ball ? cpexPackage.run() : window.addEventListener('adsObjectReady', () => cpexPackage.run())
     } /*E*/
-  },
-  cmp: {
-    enabled: false
   }
 }
