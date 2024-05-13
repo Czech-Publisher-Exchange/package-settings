@@ -66,8 +66,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211330,
-          pageId: 195796
+          placementId: 222110,
+          pageId: 205854
         }
       }, {
         bidder: 'appnexus',
@@ -87,6 +87,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'branding',
@@ -169,6 +171,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -236,8 +240,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211330,
-          pageId: 195796
+          placementId: 222112,
+          pageId: 205856
         }
       }, {
         bidder: 'appnexus',
@@ -257,6 +261,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -322,8 +328,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211330,
-          pageId: 195796
+          placementId: 222113,
+          pageId: 205857
         }
       }, {
         bidder: 'appnexus',
@@ -343,6 +349,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -411,8 +419,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211331,
-          pageId: 195797
+          placementId: 222114,
+          pageId: 205858
         }
       }, {
         bidder: 'appnexus',
@@ -432,6 +440,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -498,8 +508,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211330,
-          pageId: 195796
+          placementId: 222115,
+          pageId: 205859
         }
       }, {
         bidder: 'appnexus',
@@ -519,6 +529,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_paticka',
@@ -582,8 +594,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211330,
-          pageId: 195796
+          placementId: 222116,
+          pageId: 205860
         }
       }, {
         bidder: 'appnexus',
@@ -603,6 +615,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper',
@@ -683,6 +697,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_clankovy',
@@ -750,8 +766,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211330,
-          pageId: 195796
+          placementId: 222118,
+          pageId: 205862
         }
       }, {
         bidder: 'appnexus',
@@ -771,6 +787,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_clankovy2',
@@ -816,9 +834,20 @@ window.cpexWebsiteSettings = {
           siteId: 1046961
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222119,
+          pageId: 205863
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31174660
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }, {
         bidder: 'r2b2',
@@ -828,6 +857,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: '300x300_1',
@@ -891,6 +922,12 @@ window.cpexWebsiteSettings = {
           siteId: 932225
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222120,
+          pageId: 205864
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28718832
@@ -908,6 +945,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: '300x300_2',
@@ -971,6 +1010,12 @@ window.cpexWebsiteSettings = {
           siteId: 932226
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222121,
+          pageId: 205865
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28718833
@@ -988,6 +1033,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: '300x300_3',
@@ -1051,6 +1098,12 @@ window.cpexWebsiteSettings = {
           siteId: 932227
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 222122,
+          pageId: 205866
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28718834
@@ -1068,6 +1121,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy',
@@ -1133,8 +1188,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211331,
-          pageId: 195797
+          placementId: 222123,
+          pageId: 205867
         }
       }, {
         bidder: 'appnexus',
@@ -1154,6 +1209,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
@@ -1219,8 +1276,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211331,
-          pageId: 195797
+          placementId: 222124,
+          pageId: 205868
         }
       }, {
         bidder: 'appnexus',
@@ -1240,6 +1297,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak2',
@@ -1305,8 +1364,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211331,
-          pageId: 195797
+          placementId: 222125,
+          pageId: 205869
         }
       }, {
         bidder: 'appnexus',
@@ -1326,6 +1385,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak3',
@@ -1390,8 +1451,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'teads',
         params: {
-          placementId: 211331,
-          pageId: 195797
+          placementId: 222126,
+          pageId: 205870
         }
       }, {
         bidder: 'appnexus',
@@ -1411,6 +1472,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -1482,6 +1545,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_vignete',
@@ -1543,6 +1608,8 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
@@ -1556,8 +1623,8 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/ ,
+      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
       contentCSS: ' '
     },
     vignette: {
