@@ -532,8 +532,5 @@ window.cpexWebsiteSettings = {
   },
   website: {
     name: 'slunecnice.cz'
-  },
-  cmp: {
-    enabled: false
   }
 }
