@@ -517,8 +517,5 @@ window.cpexWebsiteSettings = {
       hide: [/*S*/ document.getElementsByClassName('js-advert-position-mark-leaderboard js-advert')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/],
       offset: /*S*/ () => document.getElementsByClassName('js_o-header-bar')[0]?.offsetHeight ?? 0 /*E*/
     }
-  },
-  cmp: {
-    enabled: false
   }
 }
