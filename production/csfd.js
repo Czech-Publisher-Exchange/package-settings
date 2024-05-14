@@ -75,6 +75,11 @@ window.cpexPublisherSettings = {
         bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
         } /*E*/
+      },
+      projectagora: {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
+  return bidCpm * 0.80
+}/*E*/
       }
     }
   }
