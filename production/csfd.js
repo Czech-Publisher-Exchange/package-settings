@@ -19,7 +19,8 @@ window.cpexPublisherSettings = {
       smart: 'Smart',
       teads: 'Teads',
       adform: 'Adform_HB',
-      connectad: 'ConnectAd'
+      connectad: 'ConnectAd',
+      projectagora: 'ProjectAgora'
     }
   },
   dsa: {
