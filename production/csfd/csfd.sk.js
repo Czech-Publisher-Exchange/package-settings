@@ -734,6 +734,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127221,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32592484
+        }
       }],
       filter: {
         minWidth: 1000
@@ -819,6 +824,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127222,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32592485
         }
       }],
       filter: {
@@ -1160,6 +1170,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127220,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32592483
         }
       }],
       filter: {
