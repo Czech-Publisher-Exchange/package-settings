@@ -2669,7 +2669,8 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/8.41.0/prebid.min.js'
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/8.41.0/prebid.min.js',
+    analytics: ['cpexAnalytics', 'pubmatic']
   },
   website: {
     name: 'dotyk.cz'
