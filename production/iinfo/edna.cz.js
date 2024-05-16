@@ -364,8 +364,11 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementById('bb_brandingWrap') /*E*/ ,
+      contentEl: /*S*/ document.getElementById('bb_brandingWrap') /*E*/,
       contentCSS: 'position: relative; margin: auto 200px; width: 1100px'
     }
+  },
+  adserver: {
+    adapter: 'googletag'
   }
 }
