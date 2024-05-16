@@ -3036,8 +3036,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
-      offset: 52,
-      offsetScroll: true,
+      offsetScroll: false,
       hide: [/*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/]
     },
     interscroller: {
