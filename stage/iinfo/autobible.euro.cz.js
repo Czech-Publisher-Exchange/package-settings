@@ -593,6 +593,6 @@ window.cpexWebsiteSettings = {
     }
   },
   cmp: {
-    enabled: false
+    enabled: true
   }
 }
