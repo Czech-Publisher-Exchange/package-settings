@@ -369,6 +369,6 @@ window.cpexWebsiteSettings = {
     }
   },
   adserver: {
-    adapter: 'googletag'
+    adapter: 'sastracker'
   }
 }
