@@ -6,7 +6,8 @@ window.cpexPublisherSettings = {
     note: '_'
   },
   cmp: {
-    enabled: false
+    enabled: false,
+    payEnabled: true
   },
   adserver: {
     enabled: true,
