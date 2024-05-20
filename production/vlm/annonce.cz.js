@@ -40,6 +40,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5384550'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1885662,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 15782276
@@ -87,6 +93,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5384551'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1911801,
+          rcur: 'USD'
         }
       }, {
         bidder: 'appnexus',
@@ -138,6 +150,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5384552'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1911807,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 15782931
@@ -185,6 +203,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5384553'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1911805,
+          rcur: 'USD'
         }
       }, {
         bidder: 'appnexus',
@@ -251,6 +275,53 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-bottom',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 250],
+            [970, 210],
+            [970, 90]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3412128,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 57, 96, 55]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5975141'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1911797,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32801245
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
       }
     }]
   },
