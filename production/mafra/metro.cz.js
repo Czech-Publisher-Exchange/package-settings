@@ -1951,6 +1951,38 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3405614,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1107144
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32775332
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
     }]
   },
   formats: {
