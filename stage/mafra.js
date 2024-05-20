@@ -16,10 +16,10 @@ window.cpexPublisherSettings = {
         return {
           mainHeadline: `Portál iDNES.cz je tady pro vás. Stačí si vybrat, jakou formou vám máme zobrazovat obsah.`,
           subHeadline: 'Chci čtení bez reklam',
-          subBody: `Využijte služby iDNES Premium bez reklam a můžete neomezeně číst <a href='https://www.idnes.cz' target='_blank'>iDNES.cz</a>, <a href='https://www.lidovky.cz' target='_blank'>Lidovky.cz</a> a <a href='https://www.expres.cz' target='_blank'>Expres.cz</a>. K tomu dostanete také noviny a časopisy v elektronické podobě. To vše bez reklam.¹`,
+          subBody: `Využijte služby iDNES Premium bez reklam a můžete neomezeně číst iDNES.cz, Lidovky.cz a Expres.cz. K tomu dostanete také noviny a časopisy v elektronické podobě. To vše bez reklam.¹`,
           cmpHeadline: 'Chci iDNES.cz dál zdarma',
           cmpBody: `Obsah pro všechny je pro nás na prvním místě. Zachováme vám dál vše zdarma a reklamu přizpůsobíme vašim zájmům. Bez omezení si můžete dál číst, přehrávat videa, soutěžit či přispívat do všech diskusí.²`,
-          butRegister: 'Předplatit za 149 Kč / měsíc',
+          butRegister: 'Předplatím si za 149 Kč / měsíc',
           linkLogin: 'Přihlásit',
           butConsent: 'Souhlasím a pokračovat',
           bottomText: `<h3>iDNES a reklama</h3>
