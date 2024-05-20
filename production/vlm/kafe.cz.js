@@ -75,6 +75,14 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_Kafe_Leaderboard-top'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -140,6 +148,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Skyscraper-2'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
         }
       }],
       filter: {
@@ -214,6 +230,22 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Square-1_Mobile'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_1',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -347,6 +379,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Skyscraper-1'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
         }
       }],
       filter: {
@@ -486,6 +526,22 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_kafe_m_square_2'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_2',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -551,6 +607,14 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_kafe_square_1'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300',
+          m: 0,
+          g: 'hb'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -607,6 +671,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -682,6 +754,22 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_kafe_m_square_3'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_3',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -756,6 +844,22 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_kafe_m_square_4'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_4',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -829,6 +933,22 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_kafe_m_square_5'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_5',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_5',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1062,6 +1182,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1123,6 +1251,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_3',
+          m: 0,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1296,6 +1432,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1926,6 +2070,22 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_gallery_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_gallery_3',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1993,6 +2153,22 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_gallery_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_gallery_2',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -2064,6 +2240,30 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_gallery_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'interscroller_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_gallery_1',
+          m: 1,
+          g: 'hb'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2075,7 +2275,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [336, 280],
-            [300, 300]
+            [300, 300],
+            [480, 480]
           ]
         }
       },
@@ -2086,7 +2287,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3205102,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 16, 48]
+          sizes: [15, 16, 48, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2095,7 +2296,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3205146,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 16, 48]
+          sizes: [15, 16, 48, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2130,6 +2331,22 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_bottom_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_bottom_1',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -2255,6 +2472,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_1',
+          m: 0,
+          g: 'hb'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2293,6 +2518,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -2409,6 +2642,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_4',
+          m: 0,
+          g: 'hb'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2461,6 +2702,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_5',
+          m: 0,
+          g: 'hb'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2497,7 +2746,7 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-sticky', 'm-sticky-gallery']
     },
     responsive: {
-      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-seznam-feed', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9']
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-seznam-feed', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-bottom-1']
     }
   },
   cmp: {
