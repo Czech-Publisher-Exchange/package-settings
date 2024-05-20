@@ -4,9 +4,8 @@ window.cpexWebsiteSettings = {
     note: 'Homepage'
   },
   cmp: {
-    payConfig: {
-      cmpTemplate: 'G2CLdMkM'
-    }
+    enabled: true,
+    payEnabled: true
   },
   headerbidding: {
     adUnits: [{
