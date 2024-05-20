@@ -40,6 +40,11 @@ window.cpexPublisherSettings = {
         bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
           return bidCpm * 0.9
         } /*E*/
+      },
+      r2b2: {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
+          return bidCpm * 0.8
+        } /*E*/
       }
     }
   },
