@@ -40,6 +40,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5444519'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1913251,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1043330
@@ -94,6 +100,18 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5444520'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1913226,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1913253,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -265,6 +283,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5444551'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1913258,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1043331
@@ -318,6 +342,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5444553'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1913259,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -510,6 +540,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32366692
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }],
       filter: {
         minWidth: 1000
@@ -538,6 +573,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32366694
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }],
       filter: {
         minWidth: 1000
@@ -552,6 +592,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32397098
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -565,6 +610,11 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32397099
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
@@ -590,7 +640,7 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-sticky', 'sticky']
     },
     skin: {
-      contentEl: /*S*/ document.getElementsByClassName('c-main')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('c-main')[0] /*E*/,
       enabled: true
     },
     native: {
