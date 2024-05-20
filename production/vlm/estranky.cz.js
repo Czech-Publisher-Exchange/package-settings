@@ -35,6 +35,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914496,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 15783938
@@ -78,6 +84,12 @@ window.cpexWebsiteSettings = {
           sizes: [2, 96, 57]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914493,
+          rcur: 'USD'
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -162,6 +174,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914492,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 15783939
@@ -174,6 +192,47 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3412140,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 261, 16]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914502,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32801320
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        maxWidth: 1000
       }
     }]
   },
@@ -195,7 +254,7 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-sticky']
     },
     skin: {
-      contentEl: /*S*/ document.getElementsByClassName('c-main')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('c-main')[0] /*E*/,
       enabled: false
     }
   },
