@@ -31,6 +31,12 @@ window.cpexWebsiteSettings = {
           sizes: [2, 57, 96]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1911947,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1091672
@@ -68,6 +74,18 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [96, 259, 230]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1911945,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1911948,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -110,6 +128,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 261, 16]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914466,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1091687
@@ -147,6 +171,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [10, 15, 48]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1911950,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -187,6 +217,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [83, 48, 15, 16]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914433,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -269,6 +305,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 261, 16]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914467,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1091688
@@ -347,6 +389,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 16]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914482,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1091686
@@ -385,6 +433,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [15, 48, 261, 16]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914469,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -427,6 +481,12 @@ window.cpexWebsiteSettings = {
           sizes: [15, 48, 261, 16]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914470,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1091690
@@ -465,6 +525,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [15, 48, 261, 16]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914472,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -547,6 +613,12 @@ window.cpexWebsiteSettings = {
           sizes: [10, 15, 48]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1911949,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1091674
@@ -584,6 +656,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [10, 15, 48]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914464,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -656,6 +734,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [15, 48, 16]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914432,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -738,6 +822,12 @@ window.cpexWebsiteSettings = {
           sizes: [83, 48, 15, 16]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914434,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1091682
@@ -778,6 +868,12 @@ window.cpexWebsiteSettings = {
           sizes: [83, 48, 15, 16]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914435,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1091683
@@ -786,6 +882,88 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32132091
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3412162,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 15, 16]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914436,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32801506
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3412164,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 15, 16]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914463,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32801509
         }
       }, {
         bidder: 'criteo',
