@@ -46,6 +46,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5142052'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1913265,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 18293158
@@ -94,6 +100,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5142053'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1879724,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -235,7 +247,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3214408,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 16, 48, 15]
+          sizes: [484, 261, 16, 48, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -244,7 +256,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3214410,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 16, 48, 15]
+          sizes: [484, 261, 16, 48, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -252,6 +264,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5734285'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1914276,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
