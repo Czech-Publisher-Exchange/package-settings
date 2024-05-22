@@ -1182,6 +1182,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5429203'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1849418,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1042073
@@ -1286,6 +1292,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5429202'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1849420,
+          rcur: 'USD'
         }
       }, {
         bidder: 'fragile-adform',
@@ -1496,6 +1508,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5965052'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903898,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107134
@@ -1541,6 +1559,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5965053'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903899,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -1590,6 +1614,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5965054'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903900,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32775263
@@ -1630,6 +1660,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5965055'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903907,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -1676,6 +1712,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5965056'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903959,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107138
@@ -1719,6 +1761,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5965057'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903963,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107139
@@ -1760,6 +1808,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5965058'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903962,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -1806,6 +1860,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5965059'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903965,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107141
@@ -1847,6 +1907,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5965060'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903966,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -1892,6 +1958,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5965061'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903964,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107143
@@ -1934,6 +2006,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5965062'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1903968,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107146
@@ -1964,6 +2042,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [600]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1918427,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
