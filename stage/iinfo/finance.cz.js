@@ -523,8 +523,5 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ document.getElementById('bb_brandingWrap') /*E*/,
       hide: [/*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/]
     }
-  },
-  cmp: {
-    enabled: false
   }
 }
