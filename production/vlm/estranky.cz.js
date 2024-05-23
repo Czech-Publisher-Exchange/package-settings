@@ -234,39 +234,6 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
-    }, {
-      code: 'm-square-1',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [480, 820],
-            [720, 1280]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 46270,
-          zoneId: 3415718,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [256, 484]
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 32813408
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }],
-      filter: {
-        maxWidth: 1000
-      }
     }]
   },
   formats: {
@@ -280,7 +247,7 @@ window.cpexWebsiteSettings = {
       height: 480
     },
     interscroller: {
-      enabled: true
+      enabled: false
     },
     slideup: {
       enabled: true,
