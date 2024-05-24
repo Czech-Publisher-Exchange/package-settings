@@ -12,16 +12,14 @@ window.cpexWebsiteSettings = {
       secondaryLogoURL: 'https://cdn.cpex.cz/logos/cpex.png',
       registerURL: "javascript:localStorage.setItem('isSubscribed', 1); location.reload()",
       loginURL: 'javascript:window.alert("login")',
-      texts: ({ partnerNum }) => {
-        return {
-          mainHeadline: 'Chcete dál náš obsah jako obvykle? Vyberte si jednu z možností níže.'
-        }
-      },
+      texts: /*S*/ ({ partnerNum }) => {
+        return { mainHeadline: 'Chcete dál náš obsah jako obvykle? Vyberte si jednu z možností níže.' }
+      } /*E*/,
       links: [
         { innerHTML: 'Privacy policy', href: 'privacyPolicy', target: '_blank' }
       ],
       required: ['cookies', 'select_basic_ads', 'create_ads_profile', 'select_personalized_ads', 'measure_ad_performance'],
-      isSubscribed: () => { return !!localStorage.getItem('isSubscribed') }
+      isSubscribed: /*S*/ () => { return !!localStorage.getItem('isSubscribed') } /*E*/
     }
   },
   headerbidding: {
@@ -322,6 +320,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       video: {
+        type: 'instream',
         divId: 'preroll-1-player'
       }
     }],
