@@ -1238,6 +1238,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       video: {
+        type: 'instream',
         divId: 'aqua_video_b09c1791-042f-4753-9f59-cdcbe79b7a27_html5_api'
       }
     }]

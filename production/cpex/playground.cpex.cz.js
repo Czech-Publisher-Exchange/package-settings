@@ -320,6 +320,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       video: {
+        type: 'instream',
         divId: 'preroll-1-player'
       }
     }],
