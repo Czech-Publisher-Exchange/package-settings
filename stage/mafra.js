@@ -38,7 +38,7 @@ window.cpexPublisherSettings = {
       purposeList: false,
       required: ['cookies', 'select_basic_ads', 'create_ads_profile', 'select_personalized_ads', 'measure_ad_performance',],
       isSubscribed:  /*S*/ () => { return !!localStorage.getItem('isSubscribed') } /*E*/,
-      overrideCSS: () => {
+      overrideCSS: /*S*/ () => {
         return `
           #cpexSubs_veil {
             background-color: #ECEFF1;
@@ -212,7 +212,7 @@ window.cpexPublisherSettings = {
             max-height: initial;
           }
         }`
-      }    
+      } /*E*/
     }
   },
   adserver: {
