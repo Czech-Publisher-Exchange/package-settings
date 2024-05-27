@@ -1,7 +1,6 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'cpex.cz',
-    note: 'test'
+    name: 'cpex.cz'
   },
   cmp: {
     enabled: true,
@@ -15,9 +14,11 @@ window.cpexWebsiteSettings = {
       texts: /*S*/ ({ partnerNum }) => {
         return { mainHeadline: 'Chcete dál náš obsah jako obvykle? Vyberte si jednu z možností níže.' }
       } /*E*/,
-      links: [
-        { innerHTML: 'Privacy policy', href: 'privacyPolicy', target: '_blank' }
-      ],
+      links: [{
+        innerHTML: 'Privacy policy',
+        href: 'privacyPolicy',
+        target: '_blank'
+      }],
       required: ['cookies', 'select_basic_ads', 'create_ads_profile', 'select_personalized_ads', 'measure_ad_performance'],
       isSubscribed: /*S*/ () => { return !!localStorage.getItem('isSubscribed') } /*E*/
     }
@@ -399,9 +400,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/ document.body /*E*/ ,
-      contentEl: /*S*/ document.getElementById('routify-app') /*E*/ ,
-      hide: [ /*S*/ document.getElementById('leaderboard-1') /*E*/ ],
+      backgroundEl: /*S*/ document.body /*E*/,
+      contentEl: /*S*/ document.getElementById('routify-app') /*E*/,
+      hide: [/*S*/ document.getElementById('leaderboard-1') /*E*/],
       contentCSS: 'position: relative; width: 1080px; margin: auto; margin-top: 200px'
     },
     responsive: {
