@@ -14,25 +14,25 @@ window.cpexPublisherSettings = {
       loginURL: 'https://ucet.idnes.cz/',
       texts: /*S*/ ({ partnerNum }) => {
         return {
-          mainHeadline: `Portál iDNES.cz je tady pro vás. Stačí si vybrat, jakou formou vám máme zobrazovat obsah.`,
+          mainHeadline: 'Portál iDNES.cz je tady pro vás. Stačí si vybrat, jakou formou vám máme zobrazovat obsah.',
           subHeadline: 'Chci čtení bez reklam',
-          subBody: `Využijte služby iDNES Premium bez reklam a můžete neomezeně číst iDNES.cz, Lidovky.cz a Expres.cz. K tomu dostanete také noviny a časopisy v elektronické podobě. To vše bez reklam.¹`,
+          subBody: 'Využijte služby iDNES Premium bez reklam a můžete neomezeně číst iDNES.cz, Lidovky.cz a Expres.cz. K tomu dostanete také noviny a časopisy v elektronické podobě. To vše bez reklam.¹',
           cmpHeadline: 'Chci iDNES.cz dál zdarma',
-          cmpBody: `Obsah pro všechny je pro nás na prvním místě. Zachováme vám dál vše zdarma a reklamu přizpůsobíme vašim zájmům. Bez omezení si můžete dál číst, přehrávat videa, soutěžit či přispívat do všech diskusí.²`,
+          cmpBody: 'Obsah pro všechny je pro nás na prvním místě. Zachováme vám dál vše zdarma a reklamu přizpůsobíme vašim zájmům. Bez omezení si můžete dál číst, přehrávat videa, soutěžit či přispívat do všech diskusí.²',
           butRegister: 'Předplatím si za 149 Kč / měsíc',
           linkLogin: 'Přihlásit',
           butConsent: 'Souhlasím a pokračovat',
-          bottomText: `<h3>iDNES a reklama</h3>
-            <p>Pokud využijete místo platby udělení souhlasu s reklamou (tj. souhlas s využitím cookies a dalších síťových identifikátorů pro účely cílené reklamy), budou Vám zobrazovány v rámci našich webů iDNES.cz, Lidovky.cz a Expres.cz<sup>2</sup> reklamy a to cílené i necílené. Cílení reklam probíhá na základě profilování Vašich zvyků a zájmů z údajů získaných o Vašich akcích na internetu tak, aby Vám byly zobrazovány reklamy, které Vás budou zajímat. Toto cílení bude provádět jak MAFRA, a.s., tak reklamní partneři (jichž je celkem ${partnerNum}), jejichž seznam a další informace naleznete <a href="javascript:Didomi.preferences.show('vendors')">zde</a>.</p>
-            <p>Váš souhlas s cílením reklamy můžete kdykoliv odvolat, pokud jej však odvoláte, budete vyzváni k přechodu na iDNES Premium bez reklam. Souhlas pro jiné účely, než je cílení reklam (např. zobrazování obsahu podle Vašich zájmů apod.), můžete změnit či odvolat, aniž byste museli přecházet na iDNES Premium bez reklam.</p>
-            <p>Některé údaje (nikoliv však pro cílení reklamy) zpracováváme na základě tzv. oprávněného zájmu. Vznést námitku proti zpracování na základě oprávněného zájmu a provést další nastavení soukromí můžete v sekci <a href="javascript:Didomi.preferences.show()">Podrobné nastavení</a>. Vámi zde provedené nastavení se použije pro webové stránky: iDNES.cz, Lidovky.cz a Expres.cz.</p>
-            <p>My a naši partneři zpracováváme údaje následujícím způsobem: <strong>Použití omezených údajů k výběru reklam</strong>, Používání profilů pro výběr personalizovaného obsahu, Vytváření profilů pro personalizovaný obsah, <strong>Měření výkonu reklam</strong>, Porozumění publiku prostřednictvím statistik nebo kombinací údajů z různých zdrojů, <strong>Používání profilů k výběru personalizované reklamy</strong>, Rozvoj a zlepšování služeb, <strong>Vytváření profilů pro personalizovanou reklamu</strong>, Měření výkonu obsahu, Technický provoz stránek</p>
-            <p>Pokud se rozhodnete pro iDNES bez platby a udělíte nám souhlas s cílenou reklamou, <strong>bude souhlas vždy udělen pro účely uvedené výše tučně</strong>.</p>
-            <hr>
-            <ul>
-              <li><sup>1</sup>&nbsp;Vyjma několika zvláštních reklamních formátů, kde je složité tyto formáty z obsahu odstranit, jakou jsou např. tzv. komerční sdělení či selfpromo naší společnosti a jejích dceřiných společností. Podrobnosti naleznete v našich <a href='https://www.idnes.cz/ucet/podminky-pouzivani' target='_blank'>obchodních podmínkách</a>.</li>
-              <li><sup>2</sup>&nbsp;Pro ostatní webové stránky naší společnosti si můžete zvolit nastavení zvlášť. Pokud však na nich udělíte souhlas s cílenou reklamou, budeme vycházet z toho, že jste jej udělili i pro stránky iDNES.cz, Lidovky.cz a Expres.cz</li>
-            </ul>`
+          bottomText: '<h3>iDNES a reklama</h3>' +
+            '<p>Pokud využijete místo platby udělení souhlasu s reklamou (tj. souhlas s využitím cookies a dalších síťových identifikátorů pro účely cílené reklamy), budou Vám zobrazovány v rámci našich webů iDNES.cz, Lidovky.cz a Expres.cz<sup>2</sup> reklamy a to cílené i necílené. Cílení reklam probíhá na základě profilování Vašich zvyků a zájmů z údajů získaných o Vašich akcích na internetu tak, aby Vám byly zobrazovány reklamy, které Vás budou zajímat. Toto cílení bude provádět jak MAFRA, a.s., tak reklamní partneři (jichž je celkem ' + partnerNum + "), jejichž seznam a další informace naleznete <a href=" + "javascript:Didomi.preferences.show('vendors')" + ">zde</a>.</p>" +
+            '<p>Váš souhlas s cílením reklamy můžete kdykoliv odvolat, pokud jej však odvoláte, budete vyzváni k přechodu na iDNES Premium bez reklam. Souhlas pro jiné účely, než je cílení reklam (např. zobrazování obsahu podle Vašich zájmů apod.), můžete změnit či odvolat, aniž byste museli přecházet na iDNES Premium bez reklam.</p>' +
+            '<p>Některé údaje (nikoliv však pro cílení reklamy) zpracováváme na základě tzv. oprávněného zájmu. Vznést námitku proti zpracování na základě oprávněného zájmu a provést další nastavení soukromí můžete v sekci <a href="javascript:Didomi.preferences.show()">Podrobné nastavení</a>. Vámi zde provedené nastavení se použije pro webové stránky: iDNES.cz, Lidovky.cz a Expres.cz.</p>' +
+            '<p>My a naši partneři zpracováváme údaje následujícím způsobem: <strong>Použití omezených údajů k výběru reklam</strong>, Používání profilů pro výběr personalizovaného obsahu, Vytváření profilů pro personalizovaný obsah, <strong>Měření výkonu reklam</strong>, Porozumění publiku prostřednictvím statistik nebo kombinací údajů z různých zdrojů, <strong>Používání profilů k výběru personalizované reklamy</strong>, Rozvoj a zlepšování služeb, <strong>Vytváření profilů pro personalizovanou reklamu</strong>, Měření výkonu obsahu, Technický provoz stránek</p>' +
+            '<p>Pokud se rozhodnete pro iDNES bez platby a udělíte nám souhlas s cílenou reklamou, <strong>bude souhlas vždy udělen pro účely uvedené výše tučně</strong>.</p>' +
+            '<hr>' +
+            '<ul>' +
+            "  <li><sup>1</sup>&nbsp;Vyjma několika zvláštních reklamních formátů, kde je složité tyto formáty z obsahu odstranit, jakou jsou např. tzv. komerční sdělení či selfpromo naší společnosti a jejích dceřiných společností. Podrobnosti naleznete v našich <a href='https://www.idnes.cz/ucet/podminky-pouzivani' target='_blank'>obchodních podmínkách</a>.</li>" +
+            "  <li><sup>2</sup>&nbsp;Pro ostatní webové stránky naší společnosti si můžete zvolit nastavení zvlášť. Pokud však na nich udělíte souhlas s cílenou reklamou, budeme vycházet z toho, že jste jej udělili i pro stránky iDNES.cz, Lidovky.cz a Expres.cz</li>" +
+            '</ul>'
         };
       } /*E*/,
       purposeList: false,
