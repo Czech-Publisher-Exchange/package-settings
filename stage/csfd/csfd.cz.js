@@ -1,6 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'csfd.cz'
+    name: 'csfd.cz',
+    note: 'test uložení'
   },
   headerbidding: {
     adUnits: [{
