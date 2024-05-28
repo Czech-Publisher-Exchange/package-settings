@@ -11,7 +11,7 @@ window.cpexPublisherSettings = {
       primaryLogoURL: 'https://1gr.cz/u/loga-n4/idnes.svg',
       registerURL: 'https://www.idnes.cz/premium/cenik?br=1',
       loginURL: 'https://ucet.idnes.cz/',
-      texts: /*S*/ `({ partnerNum }) => {
+      texts: /*S*/ ({ partnerNum }) => {
         return {
           mainHeadline: 'Portál iDNES.cz je tady pro vás. Stačí si vybrat, jakou formou vám máme zobrazovat obsah.',
           subHeadline: 'Chci čtení bez reklam',
@@ -33,7 +33,7 @@ window.cpexPublisherSettings = {
             "  <li><sup>2</sup>&nbsp;Pro ostatní webové stránky naší společnosti si můžete zvolit nastavení zvlášť. Pokud však na nich udělíte souhlas s cílenou reklamou, budeme vycházet z toho, že jste jej udělili i pro stránky iDNES.cz, Lidovky.cz a Expres.cz</li>" +
             '</ul>'
         }
-      }` /*E*/,
+      } /*E*/,
       purposeList: false,
       required: ['cookies', 'select_basic_ads', 'create_ads_profile', 'select_personalized_ads', 'measure_ad_performance'],
       isSubscribed: /*S*/ () => { return !!localStorage.getItem('isSubscribed') } /*E*/,
