@@ -145,7 +145,6 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 #### CMP: payConfig ("Pay or Okay" variant)
 | Attribute          | Type       | Required | Values                                                       | Default              |
 |--------------------|------------|----------|--------------------------------------------------------------|----------------------|
-| `cmpTemplate`      | String     | No       | Custom didomi template to load                               |                      |
 | `texts`            | Function   | No       | Custom texts, returns object with subset of keys of texts.js | in texts.js          |
 | `generalCSS`       | Function   | No       | Return string of all CSS, if you want to start from scratch  | in styles.js         |
 | `overrideCSS`      | Function   | No       | Return string of some CSS, if you want minor changes         |                      |
