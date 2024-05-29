@@ -76,6 +76,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3129799,
+          networkId: 393
+        }
       }]
     }, {
       code: 'iinfo-area-halfpagead_spodni',
@@ -146,6 +152,12 @@ window.cpexWebsiteSettings = {
           p: '300x300_1',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3129800,
+          networkId: 393
         }
       }]
     }, {
@@ -225,6 +237,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3129801,
+          networkId: 393
+        }
       }],
       filter: {
         minWidth: 1000
@@ -299,6 +317,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3129802,
+          networkId: 393
+        }
       }],
       filter: {
         minWidth: 1000
@@ -369,6 +393,12 @@ window.cpexWebsiteSettings = {
           p: '970x310',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3129803,
+          networkId: 393
         }
       }],
       filter: {
@@ -443,6 +473,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3129804,
+          networkId: 393
+        }
       }]
     }, {
       code: 'iinfo-area-interscroller',
@@ -477,6 +513,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32643559
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3129805,
+          networkId: 393
         }
       }],
       filter: {
@@ -517,6 +559,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32643573
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3129806,
+          networkId: 393
         }
       }],
       filter: {
