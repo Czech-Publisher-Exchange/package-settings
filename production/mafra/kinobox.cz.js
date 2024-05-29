@@ -1196,7 +1196,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'widesquare_clankovy_2',
+      code: 'widesquare_clankovy2',
       mediaTypes: {
         banner: {
           sizes: [
@@ -1268,7 +1268,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'widesquare_clankovy_3',
+      code: 'widesquare_clankovy3',
       mediaTypes: {
         banner: {
           sizes: [
