@@ -1529,6 +1529,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '300x600_lazyload',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -1582,6 +1590,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '480x300_clankovy_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -1628,6 +1644,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '480x300_clankovy_3',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -1683,6 +1707,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '480x300_spodni',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -1731,6 +1763,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -1782,6 +1822,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '300x250_vybrali',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -1829,6 +1877,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -1881,6 +1937,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '300x250_foto_mid2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -1928,6 +1992,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '300x250_foto_mid3',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -1979,6 +2051,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '300x250_foto_mid4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -2025,6 +2105,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'metrocz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
