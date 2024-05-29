@@ -234,6 +234,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32592484
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '25607'
+        }
       }],
       filter: {
         minWidth: 1000
