@@ -3135,6 +3135,35 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
+    }, {
+      code: 'outstream',
+      mediaTypes: {
+        video: {
+          playerSize: [
+            [600, 400]
+          ],
+          type: 'outstream'
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 354590,
+          zoneId: 3415332,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [203]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1917486,
+          rcur: 'USD'
+        }
+      }],
+      video: {
+        divId: 'outstream'
+      }
     }]
   }
 }
