@@ -23,7 +23,8 @@ window.cpexPublisherSettings = {
       criteo: 'Criteo_HB',
       teads: 'Teads_HB',
       sspBC: 'WP_HB',
-      smart: 'Smart_HB'
+      smart: 'Smart_HB',
+      connectad: 'Connectad_HB'
     }
   },
   headerbidding: {
