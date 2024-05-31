@@ -39,6 +39,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641404'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1924142,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878594
@@ -106,6 +112,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641405'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1924148,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878595
@@ -166,6 +178,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641406'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1924143,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -232,6 +250,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641407'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1924144,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -301,6 +325,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641408'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1924145,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -426,6 +456,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641410'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1924146,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878599
@@ -490,6 +526,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641411'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1924147,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
