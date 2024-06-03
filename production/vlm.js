@@ -21,7 +21,8 @@ window.cpexPublisherSettings = {
       adform: 'Adform',
       r2b2: 'R2B2',
       triplelift: 'Triplelift_HB',
-      ix: 'Index_HB'
+      ix: 'Index_HB',
+      sspBC: 'WP_HB'
     }
   },
   headerbidding: {
