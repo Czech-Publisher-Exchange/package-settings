@@ -377,7 +377,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'iinfo-area-rectangle',
@@ -448,7 +448,82 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 1336794,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 265182,
+          zoneId: 1336792,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '3951708'
+        }
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690539,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690637,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480807
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 16315600
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'slunecnice.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'iinfo-area-interscroller',
       mediaTypes: {
