@@ -1109,7 +1109,7 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      enabled: false,
+      enabled: true,
       hide: [/*S*/document.getElementsByClassName('adWrap__top')[0]/*E*/],
       contentEl: /*S*/document.getElementsByClassName('body')[0]/*E*/
     },
