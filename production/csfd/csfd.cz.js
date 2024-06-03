@@ -104,6 +104,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127198,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32824708
+        }
       }],
       filter: {
         minWidth: 1000
@@ -208,6 +213,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127199,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862155
         }
       }],
       filter: {
@@ -314,6 +324,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127200,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862156
+        }
       }],
       filter: {
         minWidth: 1000
@@ -419,6 +434,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127201,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862158
+        }
       }],
       filter: {
         minWidth: 1000
@@ -508,6 +528,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127202,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862159
         }
       }],
       filter: {
@@ -619,6 +644,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127203,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862160
+        }
       }],
       filter: {
         minWidth: 1000
@@ -722,6 +752,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127204,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862161
         }
       }],
       filter: {
@@ -827,6 +862,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127205,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862162
+        }
       }],
       filter: {
         minWidth: 1000
@@ -924,6 +964,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127206,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862164
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1020,6 +1065,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127207,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862165
         }
       }],
       filter: {
@@ -1125,6 +1175,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127208,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862166
         }
       }],
       filter: {
@@ -1328,6 +1383,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127212,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862171
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1432,6 +1492,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127213,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862172
         }
       }],
       filter: {
@@ -1623,6 +1688,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127214,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862173
         }
       }],
       filter: {
@@ -1832,6 +1902,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127215,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862174
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1937,6 +2012,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127216,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862175
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2035,6 +2115,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127217,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862177
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2127,6 +2212,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127218,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862178
         }
       }],
       filter: {
@@ -2292,6 +2382,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127209,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862167
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2392,6 +2487,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127219,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862179
         }
       }],
       filter: {
@@ -2498,6 +2598,11 @@ window.cpexWebsiteSettings = {
           siteId: 3127210,
           networkId: 419
         }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862168
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2599,6 +2704,11 @@ window.cpexWebsiteSettings = {
         params: {
           siteId: 3127211,
           networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 32862170
         }
       }],
       filter: {
