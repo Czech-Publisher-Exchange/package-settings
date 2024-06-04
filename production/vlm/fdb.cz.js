@@ -152,7 +152,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [728, 90],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [2000, 1400]
           ]
         }
       },
@@ -163,7 +164,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3261620,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96, 57]
+          sizes: [2, 96, 57, 230]
         }
       }, {
         bidder: 'pubmatic',
