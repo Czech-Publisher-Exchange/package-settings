@@ -45,6 +45,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5739432'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099706
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24001672
@@ -95,6 +100,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5739433'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099707
         }
       }, {
         bidder: 'appnexus',
@@ -148,6 +158,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5739431'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099708
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30169014
@@ -173,7 +188,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-big-rectangle',
+      code: 'iinfo-area-big_rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -209,6 +224,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5739434'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099709
         }
       }, {
         bidder: 'appnexus',
@@ -265,6 +285,11 @@ window.cpexWebsiteSettings = {
           adSlot: '5739435'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099710
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24353125
@@ -277,7 +302,68 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 2317574,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 265182,
+          zoneId: 2317596,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5739435'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099710
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 24353125
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ii.cnews.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'iinfo-area-interscroller',
       mediaTypes: {
@@ -311,6 +397,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5739436'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099711
         }
       }, {
         bidder: 'appnexus',
@@ -356,6 +447,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5739437'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099712
         }
       }, {
         bidder: 'appnexus',
