@@ -3162,8 +3162,9 @@ window.cpexWebsiteSettings = {
         }
       }],
       video: {
-        divId: 'r-outstream'
+        divId: 'outstream'
       }
-    }]
+    }],
+    auctionTimeoutMs: 3000
   }
 }
