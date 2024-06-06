@@ -515,6 +515,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'CSFD_csfd_cz_halfpage_sticky_3'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'pomo.csfd.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
