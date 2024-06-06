@@ -230,7 +230,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-big-rectangle',
+      code: 'iinfo-area-big_rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -304,7 +304,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-big-rectangle',
+      code: 'iinfo-area-big_rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -443,7 +443,82 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 1518752,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 265182,
+          zoneId: 1518750,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5913151'
+        }
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690498,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'im-adform',
+        params: {
+          mid: 690606,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 480786
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 16315566
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'lupa.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'iinfo-area-interscroller',
       mediaTypes: {
