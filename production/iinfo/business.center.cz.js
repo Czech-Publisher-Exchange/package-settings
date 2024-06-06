@@ -499,8 +499,5 @@ window.cpexWebsiteSettings = {
       contentCSS: ' ',
       offsetScroll: true
     }
-  },
-  cmp: {
-    enabled: false
   }
 }
