@@ -335,6 +335,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32592485
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '26000'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -495,6 +500,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'csfd.sk',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
@@ -513,6 +526,11 @@ window.cpexWebsiteSettings = {
         bidder: 'projectagora',
         params: {
           placementId: 32824682
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '25952'
         }
       }],
       filter: {
@@ -704,6 +722,11 @@ window.cpexWebsiteSettings = {
         bidder: 'projectagora',
         params: {
           placementId: 32824684
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '25934'
         }
       }],
       filter: {
@@ -1615,6 +1638,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'csfd.sk',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
@@ -2262,6 +2293,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'csfd.sk',
+          p: '970x310',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'smart',
