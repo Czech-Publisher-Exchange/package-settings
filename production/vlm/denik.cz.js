@@ -759,6 +759,12 @@ window.cpexWebsiteSettings = {
           sizes: [90, 600]
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1918725,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1104277
@@ -990,8 +996,7 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [336, 280]
           ]
-        },
-        native: {}
+        }
       },
       bids: [{
         bidder: 'rubicon',
@@ -1000,7 +1005,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2683414,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 48, 15, 16, 600]
+          sizes: [90, 48, 15, 16]
         }
       }, {
         bidder: 'pubmatic',
@@ -1033,6 +1038,36 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_m-commercial-article-native-detail'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-commercial-article-native-detail',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1918722,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1088928
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29869475
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
         }
       }],
       filter: {
