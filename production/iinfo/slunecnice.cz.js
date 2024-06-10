@@ -1,24 +1,18 @@
 window.cpexWebsiteSettings = {
   adserver: {
-    adapter: 'sastracker',
-    allowedSSPs: {
-      pubmatic: 1,
-      index: 3,
-      magnite: 4,
-      xandr: 5
-    }
+    adapter: 'googletag'
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
-      hide: [ /*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/ , /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/ ],
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/,
+      hide: [/*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/],
       contentCSS: 'width: 1060px; margin: auto; position: relative; padding-top: 200px;'
     }
   },
   headerbidding: {
     adUnits: [{
-      code: 'iinfo-area-halfpagead-horni',
+      code: 'iinfo-area-halfpagead_horni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -89,7 +83,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'iinfo-area-halfpagead-spodni',
+      code: 'iinfo-area-halfpagead_spodni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -241,77 +235,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-leaderboard',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 100]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 265202,
-          zoneId: 1336774,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 1336772,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '3951705'
-        }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690538,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 690636,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 480806
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30169004
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'slunecnice.cz',
-          p: '998x200',
-          m: 0,
-          g: 'hb'
-        }
-      }],
-      filter: {
-        maxWidth: 1000
-      }
-    }, {
-      code: 'iinfo-area-big-rectangle',
+      code: 'iinfo-area-big_rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -385,7 +309,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-big-rectangle',
+      code: 'iinfo-area-big_rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -453,7 +377,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'iinfo-area-rectangle',
@@ -462,7 +386,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [480, 300],
             [300, 250],
-            [300, 300]
+            [300, 300],
+            [336, 280]
           ]
         }
       },
@@ -473,7 +398,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336794,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 15, 48]
+          sizes: [83, 15, 48, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -482,7 +407,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1336792,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 15, 48]
+          sizes: [83, 15, 48, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -523,16 +448,18 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
-      code: 'iinfo-area-spodni-square-banner',
+      code: 'iinfo-area-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
             [300, 250],
-            [250, 250],
-            [200, 200]
+            [300, 300],
+            [336, 280]
           ]
         }
       },
@@ -540,61 +467,143 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 265202,
-          zoneId: 1336782,
+          zoneId: 1336794,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 13]
+          sizes: [15, 48, 16]
         }
       }, {
         bidder: 'rubicon-mask',
         params: {
           siteId: 265182,
-          zoneId: 1336780,
+          zoneId: 1336792,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 13]
+          sizes: [15, 48, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '3951709'
+          adSlot: '3951708'
         }
       }, {
         bidder: 'im-adform',
         params: {
-          mid: 690541,
+          mid: 690539,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
       }, {
         bidder: 'im-adform',
         params: {
-          mid: 690639,
+          mid: 690637,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
-          siteId: 480808
+          siteId: 480807
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 16315602
+          placementId: 16315600
         }
       }, {
         bidder: 'r2b2',
         params: {
           d: 'slunecnice.cz',
-          p: '300x300_2',
+          p: '480x300',
           m: 0,
           g: 'hb'
         }
-      }]
-    }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-interscroller',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 364918,
+          zoneId: 3361136,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5913104'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099704
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643558
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-mobilni_branding',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100],
+            [320, 150],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 364918,
+          zoneId: 3361138,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [117, 60, 258]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5913105'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099705
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643565
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }],
+    customBuckets: [15, 18, 20, 22, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 125, 150]
   },
   website: {
     name: 'slunecnice.cz'
