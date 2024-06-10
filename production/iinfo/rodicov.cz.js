@@ -3,11 +3,11 @@ window.cpexWebsiteSettings = {
     name: 'rodicov.cz'
   },
   adserver: {
-    adapter: 'sastracker'
+    adapter: 'googletag'
   },
   headerbidding: {
     adUnits: [{
-      code: 'iinfo-area-halfpagead-horni',
+      code: 'iinfo-area-halfpagead_horni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -45,6 +45,11 @@ window.cpexWebsiteSettings = {
           adSlot: '4264901'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099741
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24001683
@@ -59,7 +64,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'iinfo-area-halfpagead-spodni',
+      code: 'iinfo-area-halfpagead_spodni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -95,6 +100,11 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4264902'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099742
         }
       }, {
         bidder: 'appnexus',
@@ -148,6 +158,11 @@ window.cpexWebsiteSettings = {
           adSlot: '4264899'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099743
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 30169015
@@ -173,7 +188,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-big-rectangle',
+      code: 'iinfo-area-big_rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -209,6 +224,11 @@ window.cpexWebsiteSettings = {
           adSlot: '4264900'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099744
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 24001677
@@ -226,14 +246,14 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-spodni-square-banner',
+      code: 'iinfo-area-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
+            [480, 300],
             [300, 250],
-            [250, 250],
-            [200, 200]
+            [300, 300],
+            [336, 280]
           ]
         }
       },
@@ -241,49 +261,161 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 265202,
-          zoneId: 2317584,
+          zoneId: 3361224,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 13]
+          sizes: [83, 15, 48, 16]
         }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 2317606,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14, 13]
-        },
-        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '4305025'
+          adSlot: '5913148'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099745
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 24353382
+          placementId: 32643696
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 3361224,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
         }
       }, {
-        bidder: 'r2b2',
+        bidder: 'pubmatic',
         params: {
-          d: 'ii.rodicov.cz',
-          p: '480x300',
-          m: 0,
-          g: 'hb'
+          publisherId: '158732',
+          adSlot: '5913148'
         }
-      }]
-    }]
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099745
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643696
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-interscroller',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 364918,
+          zoneId: 3361226,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5913149'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099746
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643682
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-mobilni_branding',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100],
+            [320, 150],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 364918,
+          zoneId: 3361228,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [117, 60, 258]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5913150'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1099747
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643687
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }],
+    customBuckets: [15, 18, 20, 22, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 125, 150]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/,
       contentCSS: 'width: 1060px; margin: 200px auto;',
       offsetScroll: false
     }
+  },
+  cmp: {
+    enabled: false
   }
 }
