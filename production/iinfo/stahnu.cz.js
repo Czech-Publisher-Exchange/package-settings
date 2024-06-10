@@ -3,11 +3,11 @@ window.cpexWebsiteSettings = {
     name: 'stahnu.cz'
   },
   adserver: {
-    adapter: 'sastracker'
+    adapter: 'googletag'
   },
   headerbidding: {
     adUnits: [{
-      code: 'iinfo-area-halfpagead-horni',
+      code: 'iinfo-area-halfpagead_horni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -20,6 +20,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 3361190,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 8, 15, 48]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -54,7 +63,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'iinfo-area-halfpagead-spodni',
+      code: 'iinfo-area-halfpagead_spodni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -67,6 +76,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 3361192,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 8, 15, 48]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -113,6 +131,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 3361194,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 96, 259, 230]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -153,9 +180,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
-      code: 'iinfo-area-big-rectangle',
+      code: 'iinfo-area-big_rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -168,6 +198,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 3361198,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [94, 96, 57, 48, 15]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -200,47 +239,161 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
-      code: 'iinfo-area-spodni-square-banner',
+      code: 'iinfo-area-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
+            [480, 300],
             [300, 250],
-            [250, 250],
-            [200, 200]
+            [300, 300],
+            [336, 280]
           ]
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 3361200,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 15, 48, 16]
+        }
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '3533391'
+          adSlot: '5913136'
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21248688
+          placementId: 32643688
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 3361200,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
         }
       }, {
-        bidder: 'r2b2',
+        bidder: 'pubmatic',
         params: {
-          d: 'ii.stahnu.cz',
-          p: '300x300',
-          m: 0,
-          g: 'hb'
+          publisherId: '158732',
+          adSlot: '5913136'
         }
-      }]
-    }]
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643688
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-interscroller',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 364918,
+          zoneId: 3361202,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5913137'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643684
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-mobilni_branding',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100],
+            [320, 150],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 364918,
+          zoneId: 3361204,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [117, 60, 258]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5913138'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643676
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }],
+    customBuckets: [15, 18, 20, 22, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 125, 150]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/,
       contentCSS: 'width: 1060px; margin: 200px auto;',
       offsetScroll: true
     }
+  },
+  cmp: {
+    enabled: false
   }
 }
