@@ -63,7 +63,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -134,7 +135,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -212,7 +214,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -295,7 +298,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -375,7 +379,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -450,7 +455,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -536,7 +542,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -622,7 +629,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -701,7 +709,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -769,7 +778,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -837,7 +847,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -906,7 +917,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -978,7 +990,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -1050,7 +1063,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -1122,7 +1136,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }],
       filter: {
@@ -1186,7 +1201,8 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          publisherSubId: 'nova'
+          publisherSubId: 'nova',
+          uid: 'nova_banner_default'
         }
       }],
       filter: {
