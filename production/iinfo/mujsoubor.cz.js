@@ -3,11 +3,11 @@ window.cpexWebsiteSettings = {
     name: 'mujsoubor.cz'
   },
   adserver: {
-    adapter: 'sastracker'
+    adapter: 'googletag'
   },
   headerbidding: {
     adUnits: [{
-      code: 'iinfo-area-halfpagead-horni',
+      code: 'iinfo-area-halfpagead_horni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -73,7 +73,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'iinfo-area-halfpagead-spodni',
+      code: 'iinfo-area-halfpagead_spodni',
       mediaTypes: {
         banner: {
           sizes: [
@@ -215,7 +215,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'iinfo-area-big-rectangle',
+      code: 'iinfo-area-big_rectangle',
       mediaTypes: {
         banner: {
           sizes: [
@@ -277,16 +277,19 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
-      code: 'iinfo-area-spodni-square-banner',
+      code: 'iinfo-area-rectangle',
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 300],
+            [480, 300],
             [300, 250],
-            [250, 250],
-            [200, 200]
+            [300, 300],
+            [336, 280]
           ]
         }
       },
@@ -294,62 +297,140 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 265202,
-          zoneId: 2016678,
+          zoneId: 3361206,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 13]
+          sizes: [83, 15, 48, 16]
         }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 265182,
-          zoneId: 2016744,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14, 13]
-        },
-        bidderModuleName: 'rubicon'
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '3533386'
+          adSlot: '5913139'
         }
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 556628,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'im-adform',
-        params: {
-          mid: 556703,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21248668
+          placementId: 32643674
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-rectangle',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 265202,
+          zoneId: 3361206,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16]
         }
       }, {
-        bidder: 'r2b2',
+        bidder: 'pubmatic',
         params: {
-          d: 'ii.mujsoubor.cz',
-          p: '300x300',
-          m: 0,
-          g: 'hb'
+          publisherId: '158732',
+          adSlot: '5913139'
         }
-      }]
-    }]
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643674
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-interscroller',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 364918,
+          zoneId: 3361208,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5913140'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643675
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'iinfo-area-mobilni_branding',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100],
+            [320, 150],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 364918,
+          zoneId: 3361210,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [117, 60, 258]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5913141'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32643689
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }],
+    customBuckets: [15, 18, 20, 22, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 125, 150]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/,
       contentCSS: 'width: 1060px; margin: 200px auto;'
     }
+  },
+  cmp: {
+    enabled: false
   }
 }
