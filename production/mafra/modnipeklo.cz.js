@@ -9,7 +9,11 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250]
+            [250, 250],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -20,7 +24,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1140930,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -53,7 +57,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'mafra_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -71,10 +76,13 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [2000, 1400],
             [998, 200],
             [728, 90],
             [970, 210],
-            [970, 90]
+            [970, 90],
+            [2000, 1200],
+            [1920, 1080]
           ]
         }
       },
@@ -85,7 +93,7 @@ window.cpexWebsiteSettings = {
           zoneId: 731446,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 2, 96, 55]
+          sizes: [230, 259, 2, 96, 55, 265]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -94,7 +102,7 @@ window.cpexWebsiteSettings = {
           zoneId: 731560,
           accountId: '10900',
           position: 'atf',
-          sizes: [259, 2, 96, 55]
+          sizes: [230, 259, 2, 96, 55, 265]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -122,7 +130,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'mafra_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -144,7 +153,10 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [160, 600],
-            [250, 250]
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -155,7 +167,7 @@ window.cpexWebsiteSettings = {
           zoneId: 731426,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9, 14]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -164,7 +176,7 @@ window.cpexWebsiteSettings = {
           zoneId: 731556,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9, 14]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -198,7 +210,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'mafra_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -219,7 +232,11 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [300, 300],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -230,7 +247,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1139988,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -239,7 +256,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1139986,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -273,7 +290,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'mafra_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -293,7 +311,11 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [250, 250],
-            [480, 480]
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -304,7 +326,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1145528,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -313,7 +335,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1145526,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -347,7 +369,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'mafra_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -424,7 +447,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'mafra_banner_default'
         }
       }, {
         bidder: 'r2b2',
