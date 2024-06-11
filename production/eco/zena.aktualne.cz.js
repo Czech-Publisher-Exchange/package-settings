@@ -97,7 +97,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -180,11 +181,6 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform_omg_hb',
-        params: {
-          mid: 1869799
-        }
-      }, {
         bidder: 'adform_im_hb-mask',
         params: {
           mid: 1334549,
@@ -216,7 +212,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -323,7 +320,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -416,7 +414,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -509,7 +508,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -585,10 +585,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform_omg_hb',
+        bidder: 'omg-adform',
         params: {
-          mid: 1869801
-        }
+          mid: 1869801,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform_im_hb-mask',
         params: {
@@ -621,7 +623,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -695,10 +698,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform_omg_hb',
+        bidder: 'omg-adform',
         params: {
-          mid: 1869800
-        }
+          mid: 1869800,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform_im_hb-mask',
         params: {
@@ -731,7 +736,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -805,10 +811,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform_omg_hb',
+        bidder: 'omg-adform',
         params: {
-          mid: 1869802
-        }
+          mid: 1869802,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'adform_im_hb-mask',
         params: {
@@ -841,7 +849,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -941,7 +950,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -994,10 +1004,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'adform_omg_hb',
+        bidder: 'omg-adform',
         params: {
-          mid: 1869797
-        }
+          mid: 1869797,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'appnexus',
         params: {
@@ -1006,7 +1018,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'eco_banner_low'
         }
       }]
     }]
