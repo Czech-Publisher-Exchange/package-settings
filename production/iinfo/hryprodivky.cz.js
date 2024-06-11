@@ -64,6 +64,12 @@ window.cpexWebsiteSettings = {
           placementId: 21248691
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           p: '300x600_1',
@@ -129,6 +135,12 @@ window.cpexWebsiteSettings = {
           placementId: 21248693
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           p: '300x600_2',
@@ -191,6 +203,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 30169274
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -266,6 +284,12 @@ window.cpexWebsiteSettings = {
           placementId: 21248690
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           p: '970x310',
@@ -308,6 +332,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32643678
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -343,6 +373,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 32643678
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -375,6 +411,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32643686
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
         }
       }],
       filter: {
@@ -410,6 +452,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32643677
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
         }
       }],
       filter: {
