@@ -69,6 +69,12 @@ window.cpexWebsiteSettings = {
           placementId: 16315589
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'podnikatel.cz',
@@ -146,6 +152,12 @@ window.cpexWebsiteSettings = {
           placementId: 21786345
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'podnikatel.cz',
@@ -220,6 +232,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 30169001
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -310,6 +328,12 @@ window.cpexWebsiteSettings = {
           placementId: 16315590
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'podnikatel.cz',
@@ -385,6 +409,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 16315590
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
         }
       }, {
         bidder: 'r2b2',
@@ -466,6 +496,12 @@ window.cpexWebsiteSettings = {
           placementId: 16315586
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'podnikatel.cz',
@@ -544,6 +580,12 @@ window.cpexWebsiteSettings = {
           placementId: 16315586
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'podnikatel.cz',
@@ -596,6 +638,12 @@ window.cpexWebsiteSettings = {
           placementId: 32643559
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3129805,
@@ -640,6 +688,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 32643573
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'iinfo_banner_default'
         }
       }, {
         bidder: 'connectad',
