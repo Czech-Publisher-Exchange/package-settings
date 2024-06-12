@@ -11,7 +11,11 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [300, 300],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -22,7 +26,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3185474,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'pubmatic',
@@ -63,7 +67,11 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [300, 300],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -74,7 +82,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3185476,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'pubmatic',
@@ -168,7 +176,13 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [728, 90],
-            [970, 250]
+            [970, 250],
+            [970, 210],
+            [500, 200],
+            [300, 300],
+            [480, 300],
+            [336, 280],
+            [750, 200]
           ]
         }
       },
@@ -179,7 +193,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3185480,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 2, 57]
+          sizes: [94, 2, 57, 96, 258, 48, 83, 16, 40]
         }
       }, {
         bidder: 'pubmatic',
@@ -221,7 +235,10 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [250, 250],
             [300, 250],
-            [480, 480]
+            [480, 480],
+            [336, 280],
+            [200, 200],
+            [320, 50]
           ]
         }
       },
@@ -232,7 +249,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3185482,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'pubmatic',
