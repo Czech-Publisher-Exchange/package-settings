@@ -56,7 +56,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -117,7 +118,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -177,7 +179,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -239,7 +242,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -299,7 +303,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -360,7 +365,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -420,7 +426,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -513,7 +520,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -567,7 +575,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -585,7 +594,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [320, 150],
             [300, 120],
-            [500, 200]
+            [500, 200],
+            [300, 250]
           ]
         }
       },
@@ -596,7 +606,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077172,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [60, 85, 258, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -605,7 +615,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077174,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [60, 85, 258, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -668,7 +678,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -724,7 +735,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -780,7 +792,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
@@ -796,7 +809,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
       contentCSS: ' '
     },
     native: {
