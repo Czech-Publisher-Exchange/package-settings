@@ -89,6 +89,12 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131951,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -167,6 +173,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131952,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -263,6 +275,12 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131953,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -355,6 +373,12 @@ window.cpexWebsiteSettings = {
           p: '300x600_rubrika_spodni',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131954,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -450,6 +474,12 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131955,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -527,6 +557,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131956,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -621,6 +657,12 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131957,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -712,6 +754,12 @@ window.cpexWebsiteSettings = {
           p: '300x250_paticka',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131958,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -810,6 +858,12 @@ window.cpexWebsiteSettings = {
           uid: 'mafra_banner_default'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131959,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -904,6 +958,12 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131960,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -990,6 +1050,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131961,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
