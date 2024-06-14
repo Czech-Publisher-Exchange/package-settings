@@ -32,7 +32,8 @@ window.cpexPublisherSettings = {
       'adform_im_hb-mask': 'adform_im_hb',
       criteo: 'criteo',
       'omg-adform': 'adform_omg_hb',
-      'knowlimits-adform': 'adform_knwl_hb'
+      'knowlimits-adform': 'adform_knwl_hb',
+      connectad: 'connectad_hb'
     }
   },
   headerbidding: {
