@@ -107,6 +107,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131502,
+          networkId: 393
+        }
       }]
     }, {
       code: 'halfpage',
@@ -216,6 +222,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131504,
+          networkId: 393
+        }
       }]
     }, {
       code: 'mediumrectangle',
@@ -324,6 +336,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131503,
+          networkId: 393
+        }
       }]
     }, {
       code: 'strip',
@@ -402,6 +420,12 @@ window.cpexWebsiteSettings = {
           p: '320x50',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131505,
+          networkId: 393
         }
       }]
     }, {
@@ -498,6 +522,12 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131506,
+          networkId: 393
+        }
       }]
     }, {
       code: 'mediumrectangle-mob-pos2',
@@ -593,6 +623,12 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131507,
+          networkId: 393
+        }
       }]
     }, {
       code: 'popup',
@@ -647,6 +683,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131508,
+          networkId: 393
         }
       }]
     }],
