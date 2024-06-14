@@ -24,7 +24,6 @@ window.cpexWebsiteSettings = {
     }
   },
   headerbidding: {
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/8.41.0/prebid.js',
     prebidDebug: true,
     adUnits: [{
       code: 'rectangle-1',
