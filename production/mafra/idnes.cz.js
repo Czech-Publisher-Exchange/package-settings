@@ -89,6 +89,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108619,
+          tagId: 'sas_108619'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3131951,
@@ -173,6 +182,15 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 132834,
+          tagId: 'sas_132834'
         }
       }, {
         bidder: 'connectad',
@@ -275,6 +293,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108740,
+          tagId: 'sas_108740'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3131953,
@@ -373,6 +400,15 @@ window.cpexWebsiteSettings = {
           p: '300x600_rubrika_spodni',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108741,
+          tagId: 'sas_108741'
         }
       }, {
         bidder: 'connectad',
@@ -474,6 +510,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108759,
+          tagId: 'sas_108759'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3131955,
@@ -557,6 +602,15 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108773,
+          tagId: 'sas_108773'
         }
       }, {
         bidder: 'connectad',
@@ -657,6 +711,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108767,
+          tagId: 'sas_108767'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3131957,
@@ -754,6 +817,15 @@ window.cpexWebsiteSettings = {
           p: '300x250_paticka',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108768,
+          tagId: 'sas_108768'
         }
       }, {
         bidder: 'connectad',
@@ -858,6 +930,15 @@ window.cpexWebsiteSettings = {
           uid: 'mafra_banner_default'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108761,
+          tagId: 'sas_108761'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3131959,
@@ -958,6 +1039,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108753,
+          tagId: 'sas_108753'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3131960,
@@ -1050,6 +1140,15 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108774,
+          tagId: 'sas_108774'
         }
       }, {
         bidder: 'connectad',
@@ -1185,6 +1284,15 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108782,
+          tagId: 'sas_108782'
         }
       }, {
         bidder: 'sspBC'
