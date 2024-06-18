@@ -1297,6 +1297,55 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
+    }, {
+      code: 'wallpaper',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [970, 310],
+            [728, 90],
+            [970, 250],
+            [970, 210],
+            [500, 200],
+            [300, 300],
+            [480, 300],
+            [336, 280],
+            [750, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3423190,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [94, 2, 57, 96, 258, 48, 83, 16, 40]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6028238'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 144582
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33038174
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }]
     }]
   },
   formats: {
