@@ -1,7 +1,7 @@
 window.cpexPublisherSettings = {
   publisher: {
     name: 'UlovDomov',
-    sellerId: '23',
+    sellerId: '023',
     code: 'udv'
   },
   cmp: {
