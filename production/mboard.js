@@ -1,7 +1,7 @@
 window.cpexPublisherSettings = {
   publisher: {
     code: 'mboard',
-    sellerId: '23'
+    sellerId: '023'
   },
   adserver: {
     adapter: 'googletag'
