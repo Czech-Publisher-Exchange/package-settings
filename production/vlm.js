@@ -22,7 +22,9 @@ window.cpexPublisherSettings = {
       r2b2: 'R2B2',
       triplelift: 'Triplelift_HB',
       ix: 'Index_HB',
-      sspBC: 'WP_HB'
+      sspBC: 'WP_HB',
+      performax: 'Performax',
+      'omg-adform': 'OMG-Adform'
     }
   },
   headerbidding: {
