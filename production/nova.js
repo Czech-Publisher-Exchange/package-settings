@@ -2,7 +2,7 @@ window.cpexPublisherSettings = {
   publisher: {
     code: 'nova',
     name: 'TV Nova s.r.o.',
-    sellerId: '25'
+    sellerId: '025'
   },
   cmp: {
     enabled: false
