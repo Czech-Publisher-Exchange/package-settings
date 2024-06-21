@@ -93,6 +93,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931082,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 684623
@@ -230,6 +237,13 @@ window.cpexWebsiteSettings = {
           mid: 1901139,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931084,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -378,6 +392,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931079,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 684628
@@ -518,6 +539,18 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5194354'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931861,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931860,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -770,6 +803,13 @@ window.cpexWebsiteSettings = {
           mid: 1901140,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931083,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -1178,6 +1218,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5674716'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931803,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1071038
@@ -1259,6 +1305,19 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '5830632'
         }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931791,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931085,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'appnexus',
         params: {
