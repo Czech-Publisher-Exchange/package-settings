@@ -61,7 +61,9 @@ window.cpexPublisherSettings = {
       templates: {
         nativ: "<!--idnes native desktop--> <div class='art'>   <a rel='sponsored' href='${link}' class='art-link' target='_blank'>     <h3>${title}</h3>     <div class='art-img'>       <img src='${img}' width='230' height='129' style='object-fit:cover'>       <span></span>     </div>   </a>   <p class='perex'>     <span>${desc}</span>   </p> </div>",
         m_nativ: "<!--idnes m_nativ--> <div class='art'>   <a rel='sponsored' href='${link}' class='art-link' target='_blank'>     <img src='${img}' class='art-img' width='100' height='75'>     <h3>${title}</h3>   </a> </div>",
-        nativ_clankovy: 'nativ'
+        nativ_clankovy: 'nativ',
+        m_nativ_clankovy: 'm_nativ',
+        m_nativ_clankovy_spodni: 'm_nativ'
       }
     }
   },
