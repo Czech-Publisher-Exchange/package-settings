@@ -63,7 +63,8 @@ window.cpexPublisherSettings = {
         m_nativ: "<!--idnes m_nativ--> <div class='art'>   <a rel='sponsored' href='${link}' class='art-link' target='_blank'>     <img src='${img}' class='art-img' width='100' height='75'>     <h3>${title}</h3>   </a> </div>",
         nativ_clankovy: 'nativ',
         m_nativ_clankovy: 'm_nativ',
-        m_nativ_clankovy_spodni: 'm_nativ'
+        m_nativ_clankovy_spodni: 'm_nativ',
+        m_nativ_clankovy_horni: "<!--idnes m_nativ_clankovy_horni--> <table class='complete'>   <tbody>     <tr>       <td>         <a href='${link}' rel='sponsored' class='aside' target='_blank'>           <div class='aside-tit r-aside'>             <div class='r-head'><span></span></div>             <h3>${title}</h3>           </div>           <div class='aside-img'>             <img src='${img}' width='100' height='56'>           </div>         </a>       </td>     </tr>   </tbody> </table>"
       }
     }
   },
