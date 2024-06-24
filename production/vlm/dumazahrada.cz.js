@@ -23,7 +23,6 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 90],
             [970, 210],
-            [2000, 1400],
             [970, 250]
           ]
         }
@@ -35,7 +34,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1156614,
           accountId: '10900',
           position: 'atf',
-          sizes: [55, 96, 230, 57]
+          sizes: [55, 96, 57]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -44,7 +43,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1156616,
           accountId: '10900',
           position: 'atf',
-          sizes: [55, 96, 230, 57]
+          sizes: [55, 96, 57]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -56,22 +55,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 1901149,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
           mid: 1906372,
           rcur: 'USD'
         }
-      }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 1931075,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -87,6 +73,78 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26526
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-top',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 1156614,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 1156616,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [230]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '4042575'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1901149,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931075,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 15783928
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26559
         }
       }],
       filter: {
@@ -148,6 +206,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26550
         }
       }],
       filter: {
@@ -219,6 +282,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26517
+        }
       }],
       filter: {
         minWidth: 1000
@@ -288,6 +356,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26583
         }
       }],
       filter: {
@@ -366,6 +439,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26553
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -436,6 +514,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26592
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -500,6 +583,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26568
         }
       }],
       filter: {
@@ -571,6 +659,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_high'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26520
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -634,6 +727,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26532
         }
       }],
       filter: {
@@ -821,6 +919,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26541
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -890,6 +993,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26589
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -958,6 +1066,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26544
         }
       }],
       filter: {
@@ -1370,6 +1483,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26547
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1439,6 +1557,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26529
         }
       }],
       filter: {
@@ -1510,6 +1633,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26556
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1579,6 +1707,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26571
         }
       }],
       filter: {
@@ -1700,6 +1833,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26523
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1761,6 +1899,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26562
         }
       }],
       filter: {
@@ -1825,6 +1968,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26565
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1888,6 +2036,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26580
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1950,6 +2103,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26511
         }
       }],
       filter: {
@@ -2015,6 +2173,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26586
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2077,6 +2240,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26535
         }
       }],
       filter: {
@@ -2529,6 +2697,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26574
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2582,6 +2755,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26514
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2634,6 +2812,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26577
         }
       }],
       filter: {
