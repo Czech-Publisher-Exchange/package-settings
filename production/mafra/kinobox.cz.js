@@ -1057,7 +1057,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'mafra.kinobox.cz',
-          p: '300x250_clankovy_opak_1',
+          p: '300x250_clankovy_opak1',
           m: 1,
           g: 'hb'
         }
@@ -1132,7 +1132,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'mafra.kinobox.cz',
-          p: '300x250_clankovy_opak_2',
+          p: '300x250_clankovy_opak2',
           m: 1,
           g: 'hb'
         }
@@ -1207,7 +1207,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'mafra.kinobox.cz',
-          p: '300x250_clankovy_opak_3',
+          p: '300x250_clankovy_opak3',
           m: 1,
           g: 'hb'
         }
