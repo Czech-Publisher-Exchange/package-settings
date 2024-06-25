@@ -897,6 +897,48 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'm-sticky-tipcars',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 100],
+            [320, 100],
+            [320, 150],
+            [300, 120]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3456798,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [19, 117, 60, 85]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6039475'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33093659
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }],
     enabled: true
   },
@@ -915,7 +957,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m-sticky', 'm-sticky-square']
+      adUnits: ['m-sticky', 'm-sticky-square', 'm-sticky-tipcars']
     },
     vignette: {
       enabled: false
