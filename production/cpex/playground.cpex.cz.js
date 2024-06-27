@@ -4,8 +4,6 @@ window.cpexWebsiteSettings = {
   },
   cmp: {
     enabled: true,
-    payEnabled: true,
-    didomiTemplate: 'tPBKgBkc',
     payConfig: {
       primaryLogoURL: 'https://cdn.cpex.cz/logos/cpex.png',
       secondaryLogoURL: 'https://cdn.cpex.cz/logos/cpex.png',
