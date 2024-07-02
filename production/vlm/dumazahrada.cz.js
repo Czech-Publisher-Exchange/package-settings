@@ -1756,6 +1756,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5749421'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1938476,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1076728
@@ -1770,6 +1776,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27114
         }
       }],
       filter: {
