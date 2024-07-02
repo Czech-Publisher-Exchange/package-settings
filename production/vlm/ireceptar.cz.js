@@ -570,6 +570,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27030
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2102,6 +2107,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5808587'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940200,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1088971
@@ -2119,6 +2130,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27099
+        }
       }],
       filter: {
         maxWidth: 1000
