@@ -1466,6 +1466,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_high'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27015
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1509,6 +1514,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5787529'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940195,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 29649812
@@ -1518,6 +1529,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27096
         }
       }],
       filter: {
