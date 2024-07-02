@@ -788,6 +788,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_high'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26961
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1820,6 +1825,34 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200],
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1938467,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27093
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
@@ -1840,7 +1873,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m-sticky']
+      adUnits: ['m-sticky', 'm-sticky-gallery']
     },
     vignette: {
       enabled: true
