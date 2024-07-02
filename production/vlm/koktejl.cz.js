@@ -365,6 +365,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_high'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26985
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1086,10 +1091,21 @@ window.cpexWebsiteSettings = {
           adSlot: '5752001'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1938463,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
           uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27108
         }
       }],
       filter: {
