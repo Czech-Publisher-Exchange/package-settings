@@ -268,6 +268,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `enabled`      | Boolean                                          | false      |
 | `adUnits`      | Array, optional. AdUnits to catch interscroller  |            |
 | `height`       | String for CSS, usually in px or vh              | '75vh'     |
+| `offset`       | Number, pixels from the top                      | 0          |
 
 #### Native
 `native: {}`
