@@ -1319,9 +1319,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [320, 150],
-            [300, 120],
-            [500, 200],
             [300, 250],
             [300, 300]
           ]
@@ -1334,7 +1331,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3108074,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15, 48]
+          sizes: [15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1343,7 +1340,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3108128,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15, 48]
+          sizes: [15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1357,6 +1354,57 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1931857,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27033
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [500, 200],
+            [320, 150],
+            [300, 120]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3108074,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [258, 60, 85]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3108128,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [258, 60, 85]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537024'
         }
       }, {
         bidder: 'adform',
@@ -1384,9 +1432,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [320, 150],
-            [300, 120],
-            [500, 200],
             [300, 250],
             [300, 300]
           ]
@@ -1399,7 +1444,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3108076,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15, 48]
+          sizes: [15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1408,7 +1453,64 @@ window.cpexWebsiteSettings = {
           zoneId: 3108130,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15, 48]
+          sizes: [15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5537025'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940165,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27036
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3108076,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3108130,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
         },
         bidderModuleName: 'rubicon'
       }, {
