@@ -1165,6 +1165,15 @@ window.cpexWebsiteSettings = {
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3470156,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1782816,
@@ -1193,6 +1202,15 @@ window.cpexWebsiteSettings = {
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3470158,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1782815,
@@ -1345,6 +1363,17 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'mafra_banner_default'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1993058,
+          formatId: 108752,
+          tagId: 'sas_108752'
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
