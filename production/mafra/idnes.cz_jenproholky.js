@@ -727,6 +727,136 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
+    }, {
+      code: 'nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3468772,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }]
+    }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3468774,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }]
+    }, {
+      code: 'm_nativ_clankovy',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450180,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118692
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055150
+        }
+      }]
+    }, {
+      code: 'm_nativ_clankovy_horni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450218,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118711
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055147
+        }
+      }]
+    }, {
+      code: 'm_nativ_clankovy_spodni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450258,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118731
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055143
+        }
+      }]
+    }, {
+      code: 'nativ_clankovy',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3450296,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118749
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055141
+        }
+      }]
     }]
   },
   formats: {
