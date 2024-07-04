@@ -2758,12 +2758,6 @@ window.cpexWebsiteSettings = {
           siteId: 958839
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 221174,
-          pageId: 204921
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 29858819
@@ -3302,6 +3296,94 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_nativ_clankovy',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'ix',
+        params: {
+          siteId: 1118690
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055057
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
+      }]
+    }, {
+      code: 'm_nativ_clankovy_horni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'ix',
+        params: {
+          siteId: 1118709
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055062
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
+      }]
+    }, {
+      code: 'm_nativ_clankovy_spodni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'ix',
+        params: {
+          siteId: 1118729
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055054
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
+      }]
+    }, {
+      code: 'nativ_clankovy',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'ix',
+        params: {
+          siteId: 1118747
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055059
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
       }]
     }]
   },
