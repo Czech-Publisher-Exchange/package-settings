@@ -69,6 +69,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_square_1'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26673
@@ -149,6 +151,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_skyscraper_1'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26667
@@ -222,6 +226,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_leaderboard_bottom'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26676
@@ -294,6 +300,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_leaderboard_top'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26598
@@ -365,6 +373,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_leaderboard_top'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -453,6 +463,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_1'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26619
@@ -533,6 +545,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_wallpaper_1'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26640
@@ -605,6 +619,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_skyscraper_2'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -686,6 +702,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_2'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26664
@@ -765,6 +783,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_3'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -846,6 +866,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_4'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26622
@@ -925,6 +947,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_5'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1079,6 +1103,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_bottom_1'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26613
@@ -1145,6 +1171,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_bottom_2'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1291,6 +1319,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_leaderboard_gallery'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1451,6 +1481,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_gallery_1'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26616
@@ -1529,6 +1561,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_gallery_2'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1609,6 +1643,8 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_gallery_3'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26610
@@ -1675,6 +1711,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_gallery_4'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1737,6 +1775,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_gallery_5'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1799,6 +1839,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_gallery_6'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1861,6 +1903,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_gallery_7'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1923,6 +1967,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_gallery_8'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1985,6 +2031,8 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_vlasta_m_square_gallery_9'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2056,6 +2104,8 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26595
@@ -2124,6 +2174,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_high'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -2194,6 +2246,8 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26604
@@ -2256,6 +2310,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2313,6 +2369,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -2377,6 +2435,8 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26634
@@ -2428,6 +2488,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2475,6 +2537,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2522,6 +2586,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2576,6 +2642,8 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26625
@@ -2627,6 +2695,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -2674,6 +2744,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -2721,6 +2793,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -2774,6 +2848,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -2833,6 +2909,8 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26649
@@ -2890,6 +2968,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -2949,6 +3029,8 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26646
@@ -3001,6 +3083,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
