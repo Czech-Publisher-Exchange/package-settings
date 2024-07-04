@@ -2748,12 +2748,6 @@ window.cpexWebsiteSettings = {
           siteId: 958828
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 221788,
-          pageId: 205531
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 29860442
@@ -3240,6 +3234,130 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_nativ_clankovy',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450200,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118702
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055234
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
+      }]
+    }, {
+      code: 'm_nativ_clankovy_horni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450240,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118722
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055232
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
+      }]
+    }, {
+      code: 'm_nativ_clankovy_spodni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450276,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118740
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055242
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
+      }]
+    }, {
+      code: 'nativ_clankovy',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3450316,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118759
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055245
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
       }]
     }]
   },
