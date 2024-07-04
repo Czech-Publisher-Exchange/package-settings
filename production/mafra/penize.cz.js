@@ -1685,12 +1685,6 @@ window.cpexWebsiteSettings = {
           siteId: 1067348
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 211330,
-          pageId: 195796
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31700110
