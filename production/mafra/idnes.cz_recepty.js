@@ -2754,12 +2754,6 @@ window.cpexWebsiteSettings = {
           siteId: 958837
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 221622,
-          pageId: 205365
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 27158356
@@ -2981,52 +2975,6 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }]
     }, {
-      code: 'nativ',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1782856,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30878843
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172,
-          uid: 'mafra_native'
-        }
-      }]
-    }, {
-      code: 'm_nativ',
-      mediaTypes: {
-        native: {}
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 1782855,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30878844
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172,
-          uid: 'mafra_native'
-        }
-      }]
-    }, {
       code: 'widesquare_clankovy3',
       mediaTypes: {
         banner: {
@@ -3166,6 +3114,37 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_nativ_clankovy_horni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450232,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118718
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055193
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
       }]
     }]
   },
