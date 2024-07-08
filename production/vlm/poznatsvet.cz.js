@@ -727,9 +727,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [320, 150],
-            [300, 120],
-            [500, 200],
             [300, 250],
             [300, 300]
           ]
@@ -742,7 +739,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2805948,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15, 48]
+          sizes: [15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -751,7 +748,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2806670,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15, 48]
+          sizes: [15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -765,6 +762,67 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1931874,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1088983
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29473318
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26982
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 2805948,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 2806670,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5204072'
         }
       }, {
         bidder: 'adform',
@@ -1830,11 +1888,34 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [320, 150],
-            [300, 120],
-            [500, 200],
             [300, 250],
             [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1938468,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27045
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
           ]
         }
       },
