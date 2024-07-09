@@ -87,8 +87,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }],
       filter: {
         urlHas: 'eva-samkova-snowboardcross-rozhovor-dieta-olympiada-pepin-vrchlabi-polakova-impuls'
@@ -1777,8 +1775,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
