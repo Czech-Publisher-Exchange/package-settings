@@ -102,8 +102,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131501,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: '300x250',
@@ -2045,8 +2043,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131483,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
