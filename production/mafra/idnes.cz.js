@@ -103,8 +103,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131951,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_infinite',
