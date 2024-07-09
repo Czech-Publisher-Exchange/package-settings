@@ -208,8 +208,6 @@ window.cpexWebsiteSettings = {
           siteId: 3135535,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -310,8 +308,6 @@ window.cpexWebsiteSettings = {
           siteId: 3135552,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
