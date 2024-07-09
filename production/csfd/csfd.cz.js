@@ -1664,6 +1664,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 31494362
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'csfd_banner_default'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1683,6 +1689,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 31494363
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'csfd_banner_default'
         }
       }],
       filter: {
@@ -1704,6 +1716,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 31494364
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'csfd_banner_default'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1723,6 +1741,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 31494365
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'csfd_banner_default'
         }
       }],
       filter: {
@@ -2438,6 +2462,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 31494359
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'csfd_banner_default'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2458,6 +2488,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 31494361
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'csfd_banner_default'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2477,6 +2513,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 31494358
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'csfd_banner_default'
         }
       }],
       filter: {
