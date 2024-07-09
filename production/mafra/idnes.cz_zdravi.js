@@ -87,8 +87,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: '300x250',
@@ -1749,8 +1747,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
