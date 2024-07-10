@@ -665,6 +665,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -673,7 +681,8 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky',
@@ -734,6 +743,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -742,7 +759,8 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'centerVignette',
@@ -1883,6 +1901,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -1891,7 +1917,8 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky-gallery',
@@ -1952,6 +1979,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -1960,7 +1995,8 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'skyscraper-2',
@@ -3040,6 +3076,162 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'm-sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3209428,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3209460,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065977'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1938442,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1088951
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31741170
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'sticky_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27153
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3241682,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3241722,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065978'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1938443,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1076729
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32077337
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'sticky_gallery_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27123
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }]
   },
