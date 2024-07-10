@@ -357,13 +357,22 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: 27021
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky',
@@ -404,13 +413,22 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26985
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'centerVignette',
@@ -1138,13 +1156,22 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: 27054
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky-gallery',
@@ -1185,13 +1212,22 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: 27108
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'skyscraper-2',
@@ -1962,6 +1998,118 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'm-sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260652,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065987'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940211,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: 'sticky_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27147
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3260654,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065988'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940212,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: 'sticky_gallery_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27141
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }]
   },
