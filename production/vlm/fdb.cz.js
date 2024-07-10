@@ -153,9 +153,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [728, 90],
-            [970, 210],
-            [970, 250],
             [2000, 1400]
           ]
         }
@@ -167,18 +164,13 @@ window.cpexWebsiteSettings = {
           zoneId: 3261620,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 96, 57, 230]
+          sizes: [230]
         }
       }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
           adSlot: '5772886'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 1091695
         }
       }, {
         bidder: 'appnexus',
