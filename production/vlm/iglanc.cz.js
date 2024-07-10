@@ -1500,6 +1500,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -1563,6 +1571,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -1629,6 +1645,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -1637,7 +1661,8 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky-gallery',
@@ -1693,6 +1718,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -1701,7 +1734,8 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-1',
@@ -2624,6 +2658,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065981'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1938454,
@@ -2641,9 +2681,92 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: 'sticky_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: 27165
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3275842,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3275846,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065982'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1938455,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32261049
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: 'sticky_gallery_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27120
         }
       }],
       filter: {
