@@ -780,13 +780,22 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26982
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky',
@@ -847,13 +856,22 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_high'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: 26961
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-3',
@@ -1900,13 +1918,22 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: 27045
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky-gallery',
@@ -1926,13 +1953,145 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: 27093
         }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3209806,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3209804,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065991'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940217,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1088984
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32077033
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: 'sticky_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27162
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065992'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940218,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: 'sticky_gallery_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27126
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }]
   },
