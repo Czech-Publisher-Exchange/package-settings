@@ -68,8 +68,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -741,6 +739,12 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [600]
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
       }]
     }, {
       code: 'm_nativ',
@@ -755,6 +759,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [600]
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
         }
       }]
     }, {
@@ -781,6 +791,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 33055150
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
       }]
     }, {
       code: 'm_nativ_clankovy_horni',
@@ -805,6 +821,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 33055147
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
         }
       }]
     }, {
@@ -831,6 +853,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 33055143
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
       }]
     }, {
       code: 'nativ_clankovy',
@@ -855,6 +883,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 33055141
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
         }
       }]
     }]
