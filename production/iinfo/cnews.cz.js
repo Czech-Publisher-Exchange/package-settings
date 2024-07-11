@@ -68,6 +68,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135440,
+          networkId: 393
+        }
       }]
     }, {
       code: 'iinfo-area-halfpagead_spodni',
@@ -130,6 +136,12 @@ window.cpexWebsiteSettings = {
           p: '300x600_2',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135441,
+          networkId: 393
         }
       }]
     }, {
@@ -201,6 +213,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135442,
+          networkId: 393
+        }
       }],
       filter: {
         minWidth: 1000
@@ -267,6 +285,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135443,
+          networkId: 393
+        }
       }],
       filter: {
         minWidth: 1000
@@ -332,6 +356,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135444,
+          networkId: 393
+        }
       }],
       filter: {
         minWidth: 1000
@@ -396,6 +426,12 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135445,
+          networkId: 393
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -449,6 +485,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'iinfo_banner_default'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135446,
+          networkId: 393
         }
       }],
       filter: {
@@ -505,6 +547,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'iinfo_banner_default'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135447,
+          networkId: 393
         }
       }],
       filter: {
