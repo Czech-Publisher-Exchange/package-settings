@@ -3645,7 +3645,8 @@ window.cpexWebsiteSettings = {
           uid: 'mafra_native'
         }
       }]
-    }]
+    }],
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/8.49.0/mafraAB/prebid.min.js'
   },
   formats: {
     interscroller: {
