@@ -3576,6 +3576,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 33055183
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
       }]
     }, {
       code: 'm_nativ_clankovy_horni',
@@ -3601,6 +3607,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 33055187
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
+        }
       }]
     }, {
       code: 'nativ_clankovy',
@@ -3625,6 +3637,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 33055180
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_native'
         }
       }]
     }]
