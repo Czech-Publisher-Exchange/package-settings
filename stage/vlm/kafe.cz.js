@@ -11,7 +11,8 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [728, 90],
+            [970, 90],
+            [970, 210],
             [970, 250],
             [2000, 1400]
           ]
@@ -24,7 +25,7 @@ window.cpexWebsiteSettings = {
           zoneId: 549816,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 57, 230]
+          sizes: [55, 96, 57, 230]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -33,7 +34,7 @@ window.cpexWebsiteSettings = {
           zoneId: 549784,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 57, 230]
+          sizes: [55, 96, 57, 230]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -45,8 +46,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 569568,
+          mid: 1908002,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907989,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931061,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938199
         }
       }, {
         bidder: 'appnexus',
@@ -56,13 +75,24 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Leaderboard-top'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -72,7 +102,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [480, 300],
+            [300, 300],
             [300, 600],
             [300, 250]
           ]
@@ -85,7 +115,7 @@ window.cpexWebsiteSettings = {
           zoneId: 389840,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 10, 15]
+          sizes: [48, 10, 15]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -94,7 +124,7 @@ window.cpexWebsiteSettings = {
           zoneId: 389892,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 10, 15]
+          sizes: [48, 10, 15]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -106,8 +136,13 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 569576,
+          mid: 1907992,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938200
         }
       }, {
         bidder: 'appnexus',
@@ -117,86 +152,38 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Skyscraper-2'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
-      }
-    }, {
-      code: 'm-leaderboard-top',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [320, 100],
-            [300, 100]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 46270,
-          zoneId: 651274,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117, 19]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 46272,
-          zoneId: 643722,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [117, 19]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '3245627'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 569572,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 15624113
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'VLM_Kafe_Leaderboard-top_Mobile'
-        }
-      }],
-      filter: {
-        maxWidth: 1000
       }
     }, {
       code: 'm-square-1',
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250],
             [300, 300],
-            [480, 820],
-            [480, 480]
+            [300, 250],
+            [480, 480],
+            [336, 280],
+            [480, 320]
           ]
         }
       },
@@ -207,7 +194,7 @@ window.cpexWebsiteSettings = {
           zoneId: 857042,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 261]
+          sizes: [48, 15, 261, 16, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -216,7 +203,7 @@ window.cpexWebsiteSettings = {
           zoneId: 857124,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 261]
+          sizes: [48, 15, 261, 16, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -228,8 +215,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 581832,
+          mid: 1908003,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907993,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931058,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938202
         }
       }, {
         bidder: 'appnexus',
@@ -239,13 +244,32 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Square-1_Mobile'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -256,6 +280,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [728, 90],
+            [970, 90],
+            [970, 210],
             [970, 250]
           ]
         }
@@ -267,7 +293,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1008786,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 57]
+          sizes: [2, 55, 96, 57]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -276,7 +302,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1008788,
           accountId: '10900',
           position: 'atf',
-          sizes: [2, 57]
+          sizes: [2, 55, 96, 57]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -288,8 +314,13 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 569570,
+          mid: 1907991,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938203
         }
       }, {
         bidder: 'appnexus',
@@ -299,13 +330,16 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Leaderboard-bottom'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -317,7 +351,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 600],
             [300, 250],
-            [160, 600]
+            [300, 300]
           ]
         }
       },
@@ -328,7 +362,7 @@ window.cpexWebsiteSettings = {
           zoneId: 884754,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9]
+          sizes: [10, 15, 48]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -337,7 +371,7 @@ window.cpexWebsiteSettings = {
           zoneId: 104782,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 15, 9]
+          sizes: [10, 15, 48]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -349,8 +383,20 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 569569,
+          mid: 1907990,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931063,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938204
         }
       }, {
         bidder: 'appnexus',
@@ -360,109 +406,88 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Kafe_Skyscraper-1'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
-      }
-    }, {
-      code: 'm-leaderboard-bottom',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [300, 250],
-            [320, 100]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 46270,
-          zoneId: 945064,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 117]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 46272,
-          zoneId: 945060,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 117]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '3245638'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 581830,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 15624116
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'VLM_Kafe_Leaderboard-bottom_Mobile'
-        }
-      }],
-      filter: {
-        maxWidth: 1000
       }
     }, {
       code: 'commercial-article-native-detail',
       mediaTypes: {
         banner: {
           sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280],
             [548, 150]
           ]
-        }
+        },
+        native: {}
       },
       bids: [{
         bidder: 'rubicon',
         params: {
-          siteId: 144588,
-          zoneId: 1370784,
+          siteId: 26460,
+          zoneId: 3266588,
           accountId: '10900',
           position: 'atf',
-          sizes: [90]
+          sizes: [83, 48, 15, 16, 90, 600]
         }
       }, {
         bidder: 'rubicon-mask',
         params: {
-          siteId: 144590,
-          zoneId: 1389436,
+          siteId: 25692,
+          zoneId: 3266590,
           accountId: '10900',
           position: 'atf',
-          sizes: [90]
+          sizes: [83, 48, 15, 16, 90, 600]
         },
         bidderModuleName: 'rubicon'
       }, {
-        bidder: 'triplelift',
+        bidder: 'pubmatic',
         params: {
-          inventoryCode: 'VLM_Kafe_commercial-article-native-detail'
+          publisherId: '158732',
+          adSlot: '5774635'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907999,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1088978
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31924732
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }],
       filter: {
@@ -476,7 +501,8 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [336, 280],
-            [480, 480]
+            [480, 480],
+            [480, 320]
           ]
         }
       },
@@ -487,7 +513,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1036438,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 261]
+          sizes: [48, 15, 16, 261, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -496,7 +522,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1036440,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 261]
+          sizes: [48, 15, 16, 261, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -506,6 +532,23 @@ window.cpexWebsiteSettings = {
           adSlot: '4055811'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908017,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907995,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938206
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 15783980
@@ -513,13 +556,32 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_kafe_m_square_2'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -560,6 +622,17 @@ window.cpexWebsiteSettings = {
           adSlot: '4080492'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907994,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938207
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 15783978
@@ -567,13 +640,24 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_kafe_square_1'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -583,10 +667,11 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [300, 250],
+            [300, 300],
             [320, 150],
             [300, 120],
-            [500, 200],
-            [300, 250]
+            [500, 200]
           ]
         }
       },
@@ -597,7 +682,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077172,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15]
+          sizes: [15, 48, 60, 85, 258]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -606,7 +691,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077174,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258, 15]
+          sizes: [15, 48, 60, 85, 258]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -616,13 +701,52 @@ window.cpexWebsiteSettings = {
           adSlot: '5192040'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931866,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931865,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073960
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22969011
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '27024, 26931'
+        }
       }],
       filter: {
-        maxWidth: 1000
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-3',
@@ -632,7 +756,8 @@ window.cpexWebsiteSettings = {
             [480, 480],
             [300, 250],
             [300, 300],
-            [336, 280]
+            [336, 280],
+            [480, 320]
           ]
         }
       },
@@ -643,7 +768,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726100,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -652,7 +777,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726106,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -662,6 +787,23 @@ window.cpexWebsiteSettings = {
           adSlot: '4885306'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908018,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908010,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938208
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28814464
@@ -669,13 +811,32 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_kafe_m_square_3'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -688,7 +849,8 @@ window.cpexWebsiteSettings = {
             [480, 480],
             [300, 250],
             [300, 300],
-            [336, 280]
+            [336, 280],
+            [480, 320]
           ]
         }
       },
@@ -699,7 +861,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726102,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -708,7 +870,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726108,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -718,6 +880,23 @@ window.cpexWebsiteSettings = {
           adSlot: '4885307'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908019,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908011,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938209
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28814465
@@ -725,13 +904,32 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_kafe_m_square_4'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -744,7 +942,8 @@ window.cpexWebsiteSettings = {
             [480, 480],
             [300, 250],
             [300, 300],
-            [336, 280]
+            [336, 280],
+            [480, 320]
           ]
         }
       },
@@ -755,7 +954,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726104,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -764,7 +963,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2726110,
           accountId: '10900',
           position: 'atf',
-          sizes: [261, 15, 48, 16]
+          sizes: [261, 15, 48, 16, 101]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -774,6 +973,23 @@ window.cpexWebsiteSettings = {
           adSlot: '4885308'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908016,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908012,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 938210
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 28814466
@@ -781,25 +997,2163 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 'vlm_banner_low'
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_kafe_m_square_5'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_5',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_5',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-seznam-feed',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3177322,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 16, 101]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3177366,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 16, 101]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5650650'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1067528
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31687716
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'seznam-feed',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3177344,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 83, 16]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3177388,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 83, 16]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5650661'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1067535
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31687717
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'centerVignette',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [320, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3185676,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48, 16, 67]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3185680,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 48, 16, 67]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5674718'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931804,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1071033
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 24674041
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3205058,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3205108,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714561'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907997,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1088981
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863744
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3205060,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3205112,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714562'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908001,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073940
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863793
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'square-quiz-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3205062,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3205114,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714563'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073941
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863812
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'square-quiz-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3205064,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3205114,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714564'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073942
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863821
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'skyscraper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [300, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3205066,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 10]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3205118,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 10]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714565'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908004,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073943
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863833
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205070,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205120,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714566'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1938462,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073944
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863859
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27057
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205070,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205120,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714566'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940207,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073944
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863859
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'sticky_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27111
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-quiz-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205072,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 101]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205122,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 101]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714567'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073945
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863876
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-quiz-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205074,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 101]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205124,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 101]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714568'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073946
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863885
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-quiz',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205076,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 101]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205126,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 101]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714569'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073947
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863895
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-9',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205078,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205128,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714570'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073948
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863918
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-8',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205080,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205130,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714571'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073949
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863926
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-7',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205082,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205132,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714572'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073950
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863958
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-6',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205084,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205134,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714573'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073951
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863967
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205086,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205136,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714574'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073952
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863976
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205088,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205138,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714575'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073953
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863984
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205090,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205140,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714576'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908023,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908013,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073954
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31863994
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_gallery_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_gallery_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205096,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205142,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 16, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714577'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908022,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908014,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073955
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31864004
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_gallery_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_gallery_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [480, 820],
+            [336, 280],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205098,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 256, 16, 484]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205144,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 261, 256, 16, 484]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714578'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908021,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908015,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073956
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31864017
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_gallery_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'interscroller_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_gallery_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-bottom-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [336, 280],
+            [300, 300],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3205102,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 16, 48, 261]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3205146,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 16, 48, 261]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714579'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908020,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908009,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073957
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31864034
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x480_bottom_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '300x300_bottom_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 210],
+            [970, 250],
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3205106,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 96, 57, 230]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 3205150,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 96, 57, 230]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714580'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908000,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1073958
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31864070
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 2850168,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 25692,
+          zoneId: 2850212,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5714581'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907996,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931062,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 976693
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 29853392
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3312618,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5830635'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931792,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 1931064,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32355500
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-commercial-article-native-detail',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        },
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3266576,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [90, 48, 15, 16, 600]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3266578,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [90, 48, 15, 16, 600]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5891111'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907998,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104281
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32553500
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3365132,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5906176'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908005,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104264
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32592718
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_4',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3365154,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 48, 16, 15]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '5906187'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908006,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1104271
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32592720
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_5',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'm-sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3209424,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3209456,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065985'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1938461,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1088979
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31741231
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'sticky_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27156
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-sticky-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3209454,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3209486,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [60, 85, 258]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6065986'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940208,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1088980
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 31885557
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_high'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'sticky_gallery_seznamhp',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27117
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }]
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('wrapper')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('wrapper')[0] /*E*/,
       contentCSS: 'margin-top: 200px; position: initial;',
-      hide: [ /*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/ ]
+      hide: [/*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/]
     },
     native: {
       enabled: true,
@@ -815,7 +3169,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m-sticky']
+      adUnits: ['m-sticky', 'm-sticky-gallery']
     },
     responsive: {
       adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5']
