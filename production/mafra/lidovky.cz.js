@@ -3692,14 +3692,13 @@ window.cpexWebsiteSettings = {
     groupList: {
       a: {
         websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/lidovky.cz.js',
-        probability: 0.5
+        probability: 0.9
       },
       b: {
         websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/lidovky.cz.js',
-        probability: 0.5
+        probability: 0.1
       }
     },
-    selectGroup: /*S*/ () => Unidata.verze.toLowerCase() /*E*/,
     enabled: true
   }
 }
