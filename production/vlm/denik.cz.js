@@ -658,75 +658,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 46270,
-          zoneId: 1077164,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 46272,
-          zoneId: 1077166,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5194353'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1931848,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 1088923
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 22969029
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172,
-          uid: 'vlm_banner_high'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'denik.cz',
-          p: 'sticky',
-          m: 1,
-          g: 'hb'
-        }
-      }],
-      filter: {
-        maxWidth: 1000,
-        urlHas: 'seznam-hp=1'
-      }
-    }, {
-      code: 'm-sticky',
-      mediaTypes: {
-        banner: {
-          sizes: [
+            [300, 300],
             [320, 150],
             [300, 120],
             [500, 200]
@@ -740,7 +672,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077164,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -749,7 +681,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077166,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -757,6 +689,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5194353'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931848,
+          rcur: 'USD'
         }
       }, {
         bidder: 'adform',
@@ -2575,70 +2513,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 46270,
-          zoneId: 2932202,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 46272,
-          zoneId: 2932204,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5204069'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1940158,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30227954
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172,
-          uid: 'vlm_banner_high'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'denik.cz',
-          p: 'sticky_gallery',
-          m: 1,
-          g: 'hb'
-        }
-      }],
-      filter: {
-        maxWidth: 1000,
-        urlHas: 'seznam-hp=1'
-      }
-    }, {
-      code: 'm-sticky-gallery',
-      mediaTypes: {
-        banner: {
-          sizes: [
+            [300, 300],
             [320, 150],
             [300, 120],
             [500, 200]
@@ -2652,7 +2527,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2932202,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2661,7 +2536,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2932204,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2669,6 +2544,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5204069'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940158,
+          rcur: 'USD'
         }
       }, {
         bidder: 'adform',
