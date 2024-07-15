@@ -613,82 +613,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 46270,
-          zoneId: 1077180,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 46272,
-          zoneId: 1077182,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5204066'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1931855,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 1088950
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 29473314
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172,
-          uid: 'vlm_banner_high'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'dumazahrada.cz',
-          p: 'sticky',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: 26520
-        }
-      }],
-      filter: {
-        maxWidth: 1000,
-        urlHas: 'seznam-hp=1'
-      }
-    }, {
-      code: 'm-sticky',
-      mediaTypes: {
-        banner: {
-          sizes: [
+            [300, 300],
             [320, 150],
             [300, 120],
             [500, 200]
@@ -702,7 +627,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077180,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -711,7 +636,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1077182,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -719,6 +644,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5204066'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1931855,
+          rcur: 'USD'
         }
       }, {
         bidder: 'adform',
@@ -752,6 +683,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 26520
+        }
       }, {
         bidder: 'performax',
         params: {
@@ -1849,82 +1785,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 46270,
-          zoneId: 3241680,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 46272,
-          zoneId: 3241720,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5749421'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1940164,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 1076728
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 32077336
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172,
-          uid: 'vlm_banner_high'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'dumazahrada.cz',
-          p: 'sticky_gallery',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: 27051
-        }
-      }],
-      filter: {
-        maxWidth: 1000,
-        urlHas: 'seznam-hp=1'
-      }
-    }, {
-      code: 'm-sticky-gallery',
-      mediaTypes: {
-        banner: {
-          sizes: [
+            [300, 300],
             [320, 150],
             [300, 120],
             [500, 200]
@@ -1938,7 +1799,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3241680,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1947,7 +1808,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3241720,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1955,6 +1816,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5749421'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1940164,
+          rcur: 'USD'
         }
       }, {
         bidder: 'adform',
@@ -1988,6 +1855,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: 27051
+        }
       }, {
         bidder: 'performax',
         params: {
