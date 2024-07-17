@@ -92,8 +92,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'branding',
@@ -185,8 +183,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -279,8 +275,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -372,8 +366,6 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -464,8 +456,6 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -560,8 +550,6 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'mafra_banner_default'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper',
@@ -655,8 +643,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -749,8 +735,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }]
   },
