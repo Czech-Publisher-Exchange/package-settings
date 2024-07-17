@@ -73,8 +73,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -153,8 +151,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -223,8 +219,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -293,8 +287,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -372,8 +364,6 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid',
@@ -451,8 +441,6 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -529,8 +517,6 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -609,8 +595,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_spodni',
@@ -679,8 +663,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }]
   },
