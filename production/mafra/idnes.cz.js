@@ -196,8 +196,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131952,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika',
@@ -305,8 +303,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131953,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -414,8 +410,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131954,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -522,8 +516,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131955,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_infinite',
@@ -616,8 +608,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131956,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -723,8 +713,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131957,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_paticka',
@@ -831,8 +819,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131958,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -942,8 +928,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131959,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -1051,8 +1035,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131960,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'm_vignete',
@@ -1148,8 +1130,6 @@ window.cpexWebsiteSettings = {
           siteId: 3131961,
           networkId: 131
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'nativ',
@@ -1304,8 +1284,6 @@ window.cpexWebsiteSettings = {
           formatId: 108782,
           tagId: 'sas_108782'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper',
@@ -1364,8 +1342,6 @@ window.cpexWebsiteSettings = {
           formatId: 108752,
           tagId: 'sas_108752'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }]
   },
