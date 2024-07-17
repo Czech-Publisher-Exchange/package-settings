@@ -78,8 +78,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'branding',
@@ -151,8 +149,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -231,8 +227,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }, {
       code: 'skyscraper',
@@ -299,8 +293,6 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
-      }, {
-        bidder: 'sspBC'
       }]
     }]
   },
