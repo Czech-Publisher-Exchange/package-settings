@@ -3632,6 +3632,6 @@ window.cpexWebsiteSettings = {
       }
     },
     enabled: true,
-    selectGroup: /*S*/() => window.Unidata.verze/*E*/
+    selectGroup: /*S*/ () => Unidata.verze.toLowerCase() /*E*/
   }
 }
