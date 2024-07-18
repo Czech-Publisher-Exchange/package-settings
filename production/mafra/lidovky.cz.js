@@ -3631,6 +3631,7 @@ window.cpexWebsiteSettings = {
         probability: 0.1
       }
     },
-    enabled: true
+    enabled: true,
+    selectGroup: /*S*/() => window.Unidata.verze/*E*/
   }
 }
