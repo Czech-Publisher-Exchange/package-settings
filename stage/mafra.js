@@ -102,7 +102,9 @@ window.cpexPublisherSettings = {
   /* disable hb when no consent for purpose 1 or 2 */
   const consent = Didomi.getCurrentUserStatus();
   if (!consent.purposes.cookies.enabled || !consent.purposes.select_basic_ads.enabled) {
+    cpexPackage.utils.cpexWarn('No consent for purpose 1 or 2, disabling HB');
     cpexPackage.settings.headerbidding.enabled = false;
+    
   }
 }/*E*/
   }
