@@ -146,6 +146,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4641232'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1955741,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1625314,
@@ -556,6 +562,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4641236'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1955740,
+          rcur: 'USD'
         }
       }, {
         bidder: 'omg-adform',
@@ -1316,6 +1328,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '6028238'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1955798,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
