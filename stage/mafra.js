@@ -98,6 +98,12 @@ window.cpexPublisherSettings = {
         })
       }])
     } /*E*/,
-    beforeLoad: /*S*/() => { /* disable hb when no consent for purpose 1 or 2 */ }/*E*/
+    beforeLoad: /*S*/() => {
+  /* disable hb when no consent for purpose 1 or 2 */
+  const consent = Didomi.getCurrentUserStatus();
+  if (!consent.purposes.cookies.enabled || !consent.purposes.select_basic_ads.enabled) {
+    cpexPackage.settings.headerbidding.enabled = false;
+  }
+}/*E*/
   }
 }
