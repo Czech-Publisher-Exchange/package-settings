@@ -868,7 +868,8 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/document.getElementsByClassName('body')[0]/*E*/
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1']
     },
     native: {
       enabled: false
