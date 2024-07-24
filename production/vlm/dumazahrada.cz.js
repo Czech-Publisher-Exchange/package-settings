@@ -3114,7 +3114,8 @@ window.cpexWebsiteSettings = {
       hide: [/*S*/ document.getElementById('leaderboard-top-wrap') /*E*/]
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1', 'm-square-gallery-1']
     },
     slideup: {
       enabled: true,
