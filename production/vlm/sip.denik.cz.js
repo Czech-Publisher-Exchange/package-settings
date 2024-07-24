@@ -516,7 +516,8 @@ window.cpexWebsiteSettings = {
       hide: [/*S*/ document.getElementById('js-leaderboard-top-wrap') /*E*/]
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1']
     },
     native: {
       enabled: false
