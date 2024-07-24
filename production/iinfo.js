@@ -31,6 +31,10 @@ window.cpexPublisherSettings = {
   formats: {
     skin: {
       generalCSS: "#cpex-skin::after {     position: absolute;     top: 0;     left: 0;     font-weight: 700;     text-shadow: 0.5px 0.866px 1px #0001;     pointer-events: none;     content: 'reklama';     display: block;     color: #fff;     line-height: 1.5rem;     font-size: 0.6875rem;     font-family: inherit;     width: 100%;     text-align: center; }"
+    },
+    interscroller: {
+      enabled: true,
+      adUnits: ['iinfo-area-interscroller']
     }
   }
 }
