@@ -3292,7 +3292,8 @@ window.cpexWebsiteSettings = {
       offsetScroll: false
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1', 'm-square-gallery-1']
     },
     slideup: {
       enabled: true,
