@@ -705,7 +705,8 @@ window.cpexWebsiteSettings = {
       backgroundEl: /*S*/ document.getElementById('brand-c') /*E*/
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['reklama-medium-rectangle-1']
     },
     slideup: {
       adUnits: ['sas-special'],
