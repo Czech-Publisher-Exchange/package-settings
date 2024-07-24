@@ -2026,7 +2026,8 @@ window.cpexWebsiteSettings = {
       generalCSS: '#leaderboard-top {  width: 1000px}'
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1', 'm-square-gallery-1']
     },
     native: {
       enabled: true,
