@@ -477,6 +477,10 @@ window.cpexWebsiteSettings = {
     },
     native: {
       enabled: true
+    },
+    interscroller: {
+      enabled: true,
+      adUnits: ['a-mediumrectangle-1']
     }
   },
   general: {
