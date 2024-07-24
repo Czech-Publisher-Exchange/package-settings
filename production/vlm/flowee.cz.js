@@ -1006,7 +1006,8 @@ window.cpexWebsiteSettings = {
       hide: [/*S*/document.getElementsByClassName('leaderboard')[0]/*E*/]
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1']
     },
     native: {
       enabled: false
