@@ -657,7 +657,8 @@ window.cpexWebsiteSettings = {
       height: 480
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1']
     },
     slideup: {
       enabled: true,
