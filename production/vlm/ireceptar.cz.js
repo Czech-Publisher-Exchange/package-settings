@@ -10,7 +10,8 @@ window.cpexWebsiteSettings = {
       backgroundEl: /*S*/ document.getElementById('m-sticky') /*E*/
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1', 'm-square-gallery-1']
     },
     native: {
       enabled: true,
