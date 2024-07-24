@@ -2209,7 +2209,7 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true,
-      adUnits: ['m-square-gallery-1']
+      adUnits: ['m-square-gallery-1', 'm-square-1']
     },
     slideup: {
       enabled: true,
