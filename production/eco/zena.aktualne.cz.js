@@ -1034,7 +1034,8 @@ window.cpexWebsiteSettings = {
       hide: [/*S*/ document.getElementsByClassName('leaderboard')[0] /*E*/]
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['sas-rectangle-1']
     },
     slideup: {
       enabled: true,
