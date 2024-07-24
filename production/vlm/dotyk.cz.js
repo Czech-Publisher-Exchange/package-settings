@@ -3352,7 +3352,6 @@ window.cpexWebsiteSettings = {
         urlHasNot: 'seznam-hp=1'
       }
     }],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/8.41.0/prebid.min.js',
     analytics: ['cpexAnalytics', 'pubmatic']
   },
   website: {
