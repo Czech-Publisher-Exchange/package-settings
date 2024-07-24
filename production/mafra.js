@@ -66,6 +66,10 @@ window.cpexPublisherSettings = {
         m_nativ_clankovy_spodni: 'm_nativ',
         m_nativ_clankovy_horni: "<!--idnes m_nativ_clankovy_horni--> <table class='complete'>   <tbody>     <tr>       <td>         <a href='${link}' rel='sponsored' class='aside' target='_blank'>           <div class='aside-tit r-aside'>             <div class='r-head'><span></span></div>             <h3>${title}</h3>           </div>           <div class='aside-img'>             <img src='${img}' width='100' height='56'>           </div>         </a>       </td>     </tr>   </tbody> </table>"
       }
+    },
+    interscroller: {
+      adUnits: ['m_branding', 'm_branding_foto', 'm_branding_foto2'],
+      enabled: true
     }
   },
   dsa: {
