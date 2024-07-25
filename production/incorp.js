@@ -6,5 +6,10 @@ window.cpexPublisherSettings = {
   },
   cmp: {
     enabled: false
+  },
+  formats: {
+    interscroller: {
+      adUnits: ['mhp-1-1x1']
+    }
   }
 }
