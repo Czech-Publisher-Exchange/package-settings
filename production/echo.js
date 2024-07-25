@@ -27,5 +27,10 @@ window.cpexPublisherSettings = {
   },
   cmp: {
     enabled: false
+  },
+  formats: {
+    interscroller: {
+      adUnits: ['adMobileFlow1', 'adMobileFlow2', 'adMobileFlow3', 'adMobileFlow4', 'adMobileFlow5', 'adMobileFlow6', 'adMobileFlow7', 'adMobileFlow8', 'adMobileFlow9', 'adMobileFlow10']
+    }
   }
 }
