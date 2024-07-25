@@ -2695,25 +2695,5 @@ window.cpexWebsiteSettings = {
         }
       }
     }
-  },
-  general: {
-    beforeLoad: /*S*/async () => {
-  return new Promise((resolve) => {
-    /* once didomi loads, disable hb if no consent found for purpose 1 or 2 */
-    window.didomiOnReady = window.didomiOnReady || [];
-    window.didomiOnReady.push(function (Didomi) {
-      const consent = Didomi.getCurrentUserStatus();
-      if (!consent.purposes.cookies.enabled || !consent.purposes.select_basic_ads.enabled) {
-        cpexPackage.utils.cpexWarn('No consent for purpose 1 or 2, disabling HB');
-        cpexPackage.settings.headerbidding.enabled = false;
-      }
-      resolve();
-    });
-    setTimeout(() => { /* fallback */
-      cpexPackage.settings.headerbidding.enabled = false;
-      resolve()
-    }, 1000);
-  });
-}/*E*/
   }
 }
