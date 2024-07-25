@@ -83,6 +83,15 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108619,
+          tagId: 'sas_108619'
+        }
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -163,6 +172,15 @@ window.cpexWebsiteSettings = {
           p: 'branding_fotogalerie',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108757,
+          tagId: 'sas_108757'
         }
       }]
     }, {
@@ -246,6 +264,15 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108618,
+          tagId: 'sas_108618'
+        }
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -327,6 +354,15 @@ window.cpexWebsiteSettings = {
           p: '300x600_fotogalerie',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108742,
+          tagId: 'sas_108742'
         }
       }]
     }, {
@@ -410,6 +446,15 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108740,
+          tagId: 'sas_108740'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -491,6 +536,15 @@ window.cpexWebsiteSettings = {
           p: '300x600_rubrika_spodni',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108741,
+          tagId: 'sas_108741'
         }
       }]
     }, {
@@ -574,6 +628,15 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108739,
+          tagId: 'sas_108739'
+        }
       }]
     }, {
       code: 'm_300x250',
@@ -654,6 +717,15 @@ window.cpexWebsiteSettings = {
           p: '300x250',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108759,
+          tagId: 'sas_108759'
         }
       }]
     }, {
@@ -736,6 +808,15 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108764,
+          tagId: 'sas_108764'
+        }
       }]
     }, {
       code: 'm_300x250_foto_end',
@@ -816,6 +897,15 @@ window.cpexWebsiteSettings = {
           p: '300x250_foto_end',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108765,
+          tagId: 'sas_108765'
         }
       }]
     }, {
@@ -898,6 +988,15 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108766,
+          tagId: 'sas_108766'
+        }
       }]
     }, {
       code: 'm_300x250_foto_start',
@@ -979,6 +1078,15 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108760,
+          tagId: 'sas_108760'
+        }
       }]
     }, {
       code: 'm_branding',
@@ -1059,6 +1167,15 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108767,
+          tagId: 'sas_108767'
+        }
       }]
     }, {
       code: 'm_branding_foto',
@@ -1136,6 +1253,15 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_foto_scroll',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108783,
+          tagId: 'sas_108783'
         }
       }]
     }, {
@@ -1217,6 +1343,15 @@ window.cpexWebsiteSettings = {
           p: '300x250_paticka',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108768,
+          tagId: 'sas_108768'
         }
       }]
     }, {
@@ -1302,6 +1437,15 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'mafra_banner_default'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108761,
+          tagId: 'sas_108761'
+        }
       }]
     }, {
       code: 'wallpaper',
@@ -1385,6 +1529,15 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108752,
+          tagId: 'sas_108752'
+        }
       }]
     }, {
       code: 'widesquare',
@@ -1466,6 +1619,15 @@ window.cpexWebsiteSettings = {
           p: '480x300',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108753,
+          tagId: 'sas_108753'
         }
       }]
     }, {
@@ -1549,6 +1711,15 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108758,
+          tagId: 'sas_108758'
+        }
       }]
     }, {
       code: 'widesquare_spodni',
@@ -1630,6 +1801,15 @@ window.cpexWebsiteSettings = {
           p: '480x300_spodni',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108754,
+          tagId: 'sas_108754'
         }
       }]
     }, {
@@ -1713,6 +1893,15 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 131199,
+          tagId: 'sas_131199'
+        }
       }]
     }, {
       code: 'm_branding_foto2',
@@ -1791,6 +1980,15 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108784,
+          tagId: 'sas_108784'
+        }
       }]
     }, {
       code: 'm_vignete',
@@ -1861,6 +2059,15 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'mafra_banner_default'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108774,
+          tagId: 'sas_108774'
+        }
       }]
     }, {
       code: 'halfpagead_rubrika_lazyload',
@@ -1929,6 +2136,15 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 131200,
+          tagId: 'sas_131200'
+        }
       }]
     }, {
       code: 'm_300x250_foto_mid2',
@@ -1996,6 +2212,15 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 131201,
+          tagId: 'sas_131201'
+        }
       }]
     }, {
       code: 'm_300x250_foto_mid3',
@@ -2052,6 +2277,15 @@ window.cpexWebsiteSettings = {
           p: '300x250_foto_mid3',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 131202,
+          tagId: 'sas_131202'
         }
       }]
     }, {
@@ -2110,6 +2344,15 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 131203,
+          tagId: 'sas_131203'
+        }
       }]
     }, {
       code: '300x250',
@@ -2159,6 +2402,15 @@ window.cpexWebsiteSettings = {
           p: '300x250',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108743,
+          tagId: 'sas_108743'
         }
       }]
     }, {
@@ -2211,6 +2463,15 @@ window.cpexWebsiteSettings = {
           p: '480x300_clankovy_2',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 131197,
+          tagId: 'sas_131197'
         }
       }]
     }, {
@@ -2312,6 +2573,15 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108782,
+          tagId: 'sas_108782'
         }
       }]
     }, {
