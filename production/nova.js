@@ -32,5 +32,10 @@ window.cpexPublisherSettings = {
       const lightTheme = document.documentElement.classList.contains('-light-theme');
       document.querySelector(':root').style.setProperty('--theme-bg', lightTheme ? 'white' : window.getComputedStyle(document.body).backgroundColor)
     } /*E*/
+  },
+  formats: {
+    interscroller: {
+      adUnits: ['div-ad-rectangle-mobile1', 'div-ad-rectangle-mobile2', 'div-ad-rectangle-mobile3', 'div-ad-gallery-mobile1', 'div-ad-gallery-mobile2', 'div-ad-gallery-mobile3', 'div-ad-gallery-mobile4', 'div-ad-gallery-mobile5']
+    }
   }
 }
