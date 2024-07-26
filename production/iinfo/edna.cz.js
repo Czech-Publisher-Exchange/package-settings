@@ -1,7 +1,4 @@
 window.cpexWebsiteSettings = {
-  cmp: {
-    enabled: false
-  },
   headerbidding: {
     adUnits: [{
       code: 'iinfo-area-halfpagead_horni',
