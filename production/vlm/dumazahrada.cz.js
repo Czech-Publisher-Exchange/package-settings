@@ -79,7 +79,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26526
+          tagid: '26526'
         }
       }],
       filter: {
@@ -148,7 +148,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26559
+          tagid: '26559'
         }
       }],
       filter: {
@@ -216,7 +216,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26550
+          tagid: '26550'
         }
       }],
       filter: {
@@ -260,12 +260,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4042576'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1901145,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1931077,
@@ -293,7 +287,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26517
+          tagid: '26517'
         }
       }],
       filter: {
@@ -337,12 +331,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4042578'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1901146,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1931076,
@@ -370,7 +358,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26583
+          tagid: '26583'
         }
       }],
       filter: {
@@ -415,18 +403,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4042579'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906380,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906383,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1931072,
@@ -454,7 +430,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26553
+          tagid: '26553'
         }
       }],
       filter: {
@@ -531,7 +507,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26592
+          tagid: '26592'
         }
       }],
       filter: {
@@ -601,7 +577,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26568
+          tagid: '26568'
         }
       }],
       filter: {
@@ -686,12 +662,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26520
+          tagid: '26520'
         }
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26970
+          tagid: '26970'
         }
       }],
       filter: {
@@ -763,7 +739,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26532
+          tagid: '26532'
         }
       }],
       filter: {
@@ -806,6 +782,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5650645'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950971,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -865,6 +847,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5650656'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950970,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -960,7 +948,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26541
+          tagid: '26541'
         }
       }],
       filter: {
@@ -1036,7 +1024,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26589
+          tagid: '26589'
         }
       }],
       filter: {
@@ -1112,7 +1100,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26544
+          tagid: '26544'
         }
       }],
       filter: {
@@ -1542,7 +1530,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26547
+          tagid: '26547'
         }
       }],
       filter: {
@@ -1619,7 +1607,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26529
+          tagid: '26529'
         }
       }],
       filter: {
@@ -1696,7 +1684,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26556
+          tagid: '26556'
         }
       }],
       filter: {
@@ -1773,7 +1761,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26571
+          tagid: '26571'
         }
       }],
       filter: {
@@ -1858,12 +1846,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27051
+          tagid: '27051'
         }
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27114
+          tagid: '27114'
         }
       }],
       filter: {
@@ -1933,7 +1921,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26523
+          tagid: '26523'
         }
       }],
       filter: {
@@ -2002,7 +1990,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26562
+          tagid: '26562'
         }
       }],
       filter: {
@@ -2072,7 +2060,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26565
+          tagid: '26565'
         }
       }],
       filter: {
@@ -2142,7 +2130,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26580
+          tagid: '26580'
         }
       }],
       filter: {
@@ -2212,7 +2200,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26511
+          tagid: '26511'
         }
       }],
       filter: {
@@ -2281,7 +2269,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26586
+          tagid: '26586'
         }
       }],
       filter: {
@@ -2351,7 +2339,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26535
+          tagid: '26535'
         }
       }],
       filter: {
@@ -2795,12 +2783,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5830634'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1931788,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1931078,
@@ -2823,7 +2805,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26574
+          tagid: '26574'
         }
       }],
       filter: {
@@ -2883,7 +2865,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26514
+          tagid: '26514'
         }
       }],
       filter: {
@@ -2943,7 +2925,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26577
+          tagid: '26577'
         }
       }],
       filter: {
@@ -3020,7 +3002,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27153
+          tagid: '27153'
         }
       }],
       filter: {
@@ -3098,7 +3080,201 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27123
+          tagid: '27123'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1901146,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950840,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'skyscraper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1901145,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'skyscraper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300],
+            [160, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950839,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [336, 280],
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906380,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1906383,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [336, 280],
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950854,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950851,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1931788,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950888,
+          rcur: 'USD'
         }
       }],
       filter: {
