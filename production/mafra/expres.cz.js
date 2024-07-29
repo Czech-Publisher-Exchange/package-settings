@@ -273,6 +273,8 @@ window.cpexWebsiteSettings = {
           formatId: 108618,
           tagId: 'sas_108618'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -364,6 +366,8 @@ window.cpexWebsiteSettings = {
           formatId: 108742,
           tagId: 'sas_108742'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika',
@@ -455,6 +459,8 @@ window.cpexWebsiteSettings = {
           formatId: 108740,
           tagId: 'sas_108740'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -546,6 +552,8 @@ window.cpexWebsiteSettings = {
           formatId: 108741,
           tagId: 'sas_108741'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -637,6 +645,8 @@ window.cpexWebsiteSettings = {
           formatId: 108739,
           tagId: 'sas_108739'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -727,6 +737,8 @@ window.cpexWebsiteSettings = {
           formatId: 108759,
           tagId: 'sas_108759'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy',
@@ -817,6 +829,8 @@ window.cpexWebsiteSettings = {
           formatId: 108764,
           tagId: 'sas_108764'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_end',
@@ -907,6 +921,8 @@ window.cpexWebsiteSettings = {
           formatId: 108765,
           tagId: 'sas_108765'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid',
@@ -997,6 +1013,8 @@ window.cpexWebsiteSettings = {
           formatId: 108766,
           tagId: 'sas_108766'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_start',
@@ -1087,6 +1105,8 @@ window.cpexWebsiteSettings = {
           formatId: 108760,
           tagId: 'sas_108760'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -1176,6 +1196,8 @@ window.cpexWebsiteSettings = {
           formatId: 108767,
           tagId: 'sas_108767'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding_foto',
@@ -1263,6 +1285,8 @@ window.cpexWebsiteSettings = {
           formatId: 108783,
           tagId: 'sas_108783'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_paticka',
@@ -1353,6 +1377,8 @@ window.cpexWebsiteSettings = {
           formatId: 108768,
           tagId: 'sas_108768'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -1446,6 +1472,8 @@ window.cpexWebsiteSettings = {
           formatId: 108761,
           tagId: 'sas_108761'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper',
@@ -1538,6 +1566,8 @@ window.cpexWebsiteSettings = {
           formatId: 108752,
           tagId: 'sas_108752'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -1629,6 +1659,8 @@ window.cpexWebsiteSettings = {
           formatId: 108753,
           tagId: 'sas_108753'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_clankovy',
@@ -1720,6 +1752,8 @@ window.cpexWebsiteSettings = {
           formatId: 108758,
           tagId: 'sas_108758'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_spodni',
@@ -1811,6 +1845,8 @@ window.cpexWebsiteSettings = {
           formatId: 108754,
           tagId: 'sas_108754'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_lazyload',
@@ -1902,6 +1938,8 @@ window.cpexWebsiteSettings = {
           formatId: 131199,
           tagId: 'sas_131199'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding_foto2',
@@ -1989,6 +2027,8 @@ window.cpexWebsiteSettings = {
           formatId: 108784,
           tagId: 'sas_108784'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_vignete',
@@ -2068,6 +2108,8 @@ window.cpexWebsiteSettings = {
           formatId: 108774,
           tagId: 'sas_108774'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_lazyload',
@@ -2117,6 +2159,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954982,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221967,
@@ -2145,6 +2194,8 @@ window.cpexWebsiteSettings = {
           formatId: 131200,
           tagId: 'sas_131200'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid2',
@@ -2193,6 +2244,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954987,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221968,
@@ -2221,6 +2279,8 @@ window.cpexWebsiteSettings = {
           formatId: 131201,
           tagId: 'sas_131201'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid3',
@@ -2259,6 +2319,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954989,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221969,
@@ -2287,6 +2354,8 @@ window.cpexWebsiteSettings = {
           formatId: 131202,
           tagId: 'sas_131202'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid4',
@@ -2325,6 +2394,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954988,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221970,
@@ -2353,6 +2429,8 @@ window.cpexWebsiteSettings = {
           formatId: 131203,
           tagId: 'sas_131203'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: '300x250',
@@ -2412,6 +2490,8 @@ window.cpexWebsiteSettings = {
           formatId: 108743,
           tagId: 'sas_108743'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_clankovy2',
@@ -2473,6 +2553,8 @@ window.cpexWebsiteSettings = {
           formatId: 131197,
           tagId: 'sas_131197'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'nativ',
@@ -2494,6 +2576,13 @@ window.cpexWebsiteSettings = {
           mid: 1782812,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954993,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -2563,6 +2652,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954985,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'teads',
         params: {
           placementId: 211368,
@@ -2605,6 +2701,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954990,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1099272
@@ -2631,6 +2734,13 @@ window.cpexWebsiteSettings = {
           sizes: [600]
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954983,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -2651,6 +2761,13 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [600]
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954992,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'criteo',
         params: {
