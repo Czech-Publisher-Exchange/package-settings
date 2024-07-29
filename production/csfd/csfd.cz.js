@@ -113,7 +113,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26178
+          tagid: '26178'
         }
       }],
       filter: {
@@ -235,7 +235,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26214
+          tagid: '26214'
         }
       }],
       filter: {
@@ -357,7 +357,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26175
+          tagid: '26175'
         }
       }],
       filter: {
@@ -479,7 +479,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26184
+          tagid: '26184'
         }
       }],
       filter: {
@@ -594,7 +594,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26211
+          tagid: '26211'
         }
       }],
       filter: {
@@ -715,7 +715,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26163
+          tagid: '26163'
         }
       }],
       filter: {
@@ -836,7 +836,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26220
+          tagid: '26220'
         }
       }],
       filter: {
@@ -957,7 +957,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26187
+          tagid: '26187'
         }
       }],
       filter: {
@@ -1071,7 +1071,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26199
+          tagid: '26199'
         }
       }],
       filter: {
@@ -1185,7 +1185,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26160
+          tagid: '26160'
         }
       }],
       filter: {
@@ -1288,12 +1288,6 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_73997'
         }
       }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3127208,
-          networkId: 419
-        }
-      }, {
         bidder: 'projectagora',
         params: {
           placementId: 32862166
@@ -1301,7 +1295,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26223
+          tagid: '26223'
         }
       }],
       filter: {
@@ -1396,20 +1390,31 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_130350'
         }
       }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3127208,
-          networkId: 419
-        }
-      }, {
         bidder: 'performax',
         params: {
-          tagid: 26166
+          tagid: '26166'
         }
       }],
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'leaderboard',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [1800, 1000]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'connectad',
+        params: {
+          siteId: 3127208,
+          networkId: 419
+        }
+      }]
     }, {
       code: 'mobile_billboard',
       mediaTypes: {
@@ -1526,7 +1531,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26181
+          tagid: '26181'
         }
       }],
       filter: {
@@ -1642,7 +1647,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26193
+          tagid: '26193'
         }
       }],
       filter: {
@@ -1868,7 +1873,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26169
+          tagid: '26169'
         }
       }],
       filter: {
@@ -1971,7 +1976,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26205
+          tagid: '26205'
         }
       }],
       filter: {
@@ -2093,7 +2098,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26229
+          tagid: '26229'
         }
       }],
       filter: {
@@ -2215,7 +2220,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26202
+          tagid: '26202'
         }
       }],
       filter: {
@@ -2330,7 +2335,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26190
+          tagid: '26190'
         }
       }],
       filter: {
@@ -2440,7 +2445,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26172
+          tagid: '26172'
         }
       }],
       filter: {
@@ -2633,7 +2638,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26217
+          tagid: '26217'
         }
       }],
       filter: {
@@ -2745,7 +2750,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26208
+          tagid: '26208'
         }
       }],
       filter: {
@@ -2867,7 +2872,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26196
+          tagid: '26196'
         }
       }],
       filter: {
@@ -2980,7 +2985,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26226
+          tagid: '26226'
         }
       }],
       filter: {
