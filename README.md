@@ -159,7 +159,6 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `consentDateLimit` | String     | No       | ISO date (`new Date().toISOString()`) for resetting consent  |                      |
 | `pixels`           | Array      | No       | Array of URLs that will be fired as pixel images             |                      |
 
-
 ### DSA
 (Digital Services Act) EU requirement to show information about advertisers and profiling
 `dsa: {}`
@@ -249,17 +248,18 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 **Note:** Element DOM selectors are written in Javascript code and have to be wrapped in simple brackets, to be properly parsed in the settings editor.
 
 `skin: {}`
-| Attribute      | Values                                                     | Default              |
-|----------------|------------------------------------------------------------|----------------------|
-| `enabled`      | Boolean                                                    | false                |
-| `backgroundEl` | DOM selector, background element                           | document.body        |
-| `contentEl`    | DOM selector, content element                              |                      |
-| `contentCSS`   | CSS style for content element           | 'position: relative; margin-top: 200px' |
-| `generalCSS`   | CSS style for the page in general                          |                      |
-| `hide`         | Array of DOM elements to hide                              |                      |
-| `zIndex`       | CSS `z-index` for skin wrapper (depth)                     |                      |
-| `offset`       | Function, returns pixels from the top, fallback to integer | 0                    |
-| `offsetScroll` | Should offset disappear with scrolling?                    | false                |
+| Attribute       | Values                                                     | Default              |
+|-----------------|------------------------------------------------------------|----------------------|
+| `enabled`       | Boolean                                                    | false                |
+| `adUnitsForced` | Array of adUnits where everything is considered a skin     |                      |
+| `backgroundEl`  | DOM selector, background element                           | document.body        |
+| `contentEl`     | DOM selector, content element                              |                      |
+| `contentCSS`    | CSS style for content element           | 'position: relative; margin-top: 200px' |
+| `generalCSS`    | CSS style for the page in general                          |                      |
+| `hide`          | Array of DOM elements to hide                              |                      |
+| `zIndex`        | CSS `z-index` for skin wrapper (depth)                     |                      |
+| `offset`        | Function, returns pixels from the top, fallback to integer | 0                    |
+| `offsetScroll`  | Should offset disappear with scrolling?                    | false                |
 
 #### Interscroller
 `interscroller: {}`
