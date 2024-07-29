@@ -1143,12 +1143,6 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_73997'
         }
       }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3127230,
-          networkId: 419
-        }
-      }, {
         bidder: 'projectagora',
         params: {
           placementId: 32824690
@@ -1237,12 +1231,6 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_130350'
         }
       }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3127230,
-          networkId: 419
-        }
-      }, {
         bidder: 'performax',
         params: {
           tagid: '25994'
@@ -1251,6 +1239,23 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'leaderboard',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [1800, 1000]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'connectad',
+        params: {
+          siteId: 3127230,
+          networkId: 419
+        }
+      }]
     }, {
       code: 'mobile_billboard',
       mediaTypes: {
