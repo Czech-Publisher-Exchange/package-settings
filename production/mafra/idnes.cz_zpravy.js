@@ -207,6 +207,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131466,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -314,6 +316,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131467,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_spodni',
@@ -421,6 +425,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131468,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika',
@@ -528,6 +534,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131469,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -635,6 +643,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131470,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_fotogalerie',
@@ -742,6 +752,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131471,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -848,6 +860,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131472,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy',
@@ -954,6 +968,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131473,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_vybrali',
@@ -1060,6 +1076,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131474,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_souvisejici',
@@ -1166,6 +1184,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131475,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -1271,6 +1291,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131476,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_paticka',
@@ -1377,6 +1399,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131477,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -1486,6 +1510,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131478,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper',
@@ -1588,6 +1614,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131479,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -1695,6 +1723,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131480,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_spodni',
@@ -1802,6 +1832,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131481,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_clankovy',
@@ -1909,6 +1941,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131482,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -2009,6 +2043,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131483,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak1',
@@ -2115,6 +2151,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131484,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak2',
@@ -2221,6 +2259,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131485,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_clankovy_opak3',
@@ -2327,6 +2367,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131486,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_end',
@@ -2433,6 +2475,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131487,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid',
@@ -2539,6 +2583,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131488,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_start',
@@ -2645,6 +2691,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131489,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding_foto',
@@ -2748,6 +2796,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131490,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_lazyload',
@@ -2855,6 +2905,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131491,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding_foto2',
@@ -2958,6 +3010,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131492,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_clankovy2',
@@ -3065,6 +3119,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131493,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky_foto',
@@ -3167,6 +3223,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131494,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid2',
@@ -3266,6 +3324,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131495,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid3',
@@ -3365,6 +3425,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131496,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_foto_mid4',
@@ -3464,6 +3526,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131497,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_vignete',
@@ -3559,6 +3623,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131498,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_lazyload',
@@ -3608,6 +3674,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954953,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 992715
@@ -3652,6 +3725,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131499,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare_clankovy3',
@@ -3701,6 +3776,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954956,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1023442
@@ -3745,6 +3827,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131500,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'nativ',
@@ -3766,6 +3850,13 @@ window.cpexWebsiteSettings = {
           mid: 1763464,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954960,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -3804,6 +3895,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954957,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1099278
@@ -3834,6 +3932,13 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [600]
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954954,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -3866,6 +3971,13 @@ window.cpexWebsiteSettings = {
           sizes: [600]
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954958,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1118724
@@ -3897,6 +4009,13 @@ window.cpexWebsiteSettings = {
           sizes: [600]
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954955,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1118742
@@ -3927,6 +4046,13 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [600]
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954959,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
