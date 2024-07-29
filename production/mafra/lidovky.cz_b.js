@@ -3623,7 +3623,7 @@ window.cpexWebsiteSettings = {
   ab: {
     groupList: {
       a: {
-        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/lidovky.cz.js',
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/mafra/lidovky.cz_b.js',
         probability: 0.5
       },
       b: {
@@ -3631,7 +3631,8 @@ window.cpexWebsiteSettings = {
         probability: 0.5
       }
     },
-    selectGroup: /*S*/ () => Unidata.verze.toLowerCase() /*E*/
+    selectGroup: /*S*/ () => Unidata.verze.toLowerCase() /*E*/,
+    enabled: true
   },
   adserver: {
     adapter: 'googletag'
