@@ -40,6 +40,12 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 33360784
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'hyp_banner_default'
+        }
       }]
     }, {
       code: 'div-gpt-ad-13-0',
@@ -76,6 +82,12 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 33645351
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'hyp_banner_default'
         }
       }]
     }]
