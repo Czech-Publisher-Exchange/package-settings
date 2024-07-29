@@ -23,7 +23,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 90],
             [970, 210],
-            [970, 250]
+            [970, 250],
+            [2000, 1400]
           ]
         }
       },
@@ -34,7 +35,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1156614,
           accountId: '10900',
           position: 'atf',
-          sizes: [55, 96, 57]
+          sizes: [55, 96, 57, 230]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -43,7 +44,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1156616,
           accountId: '10900',
           position: 'atf',
-          sizes: [55, 96, 57]
+          sizes: [55, 96, 57, 230]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -53,11 +54,12 @@ window.cpexWebsiteSettings = {
           adSlot: '4042575'
         }
       }, {
-        bidder: 'adform',
+        bidder: 'omg-adform',
         params: {
-          mid: 1906372,
+          mid: 1931075,
           rcur: 'USD'
-        }
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -81,6 +83,11 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26526'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '26559'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -90,34 +97,18 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [970, 90],
+            [970, 210],
+            [970, 250],
             [2000, 1400]
           ]
         }
       },
       bids: [{
-        bidder: 'rubicon',
+        bidder: 'adform',
         params: {
-          siteId: 26460,
-          zoneId: 1156614,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [230]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 25692,
-          zoneId: 1156616,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [230]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '4042575'
+          mid: 1906372,
+          rcur: 'USD'
         }
       }, {
         bidder: 'adform',
@@ -125,34 +116,39 @@ window.cpexWebsiteSettings = {
           mid: 1901149,
           rcur: 'USD'
         }
-      }, {
-        bidder: 'omg-adform',
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'leaderboard-top',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [970, 90],
+            [970, 210],
+            [970, 250],
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
         params: {
-          mid: 1931075,
+          mid: 1950845,
           rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 15783928
         }
       }, {
-        bidder: 'criteo',
+        bidder: 'adform',
         params: {
-          networkId: 11172,
-          uid: 'vlm_banner_low'
-        }
-      }, {
-        bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '26559'
+          mid: 1950841,
+          rcur: 'USD'
         }
       }],
       filter: {
-        minWidth: 1000
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'square-1',
@@ -190,12 +186,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4042577'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906374,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 938194
@@ -221,6 +211,48 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906374,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950847,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'skyscraper-1',
@@ -475,18 +507,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4042580'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906384,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906381,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 938198
@@ -512,6 +532,66 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [336, 280],
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906384,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1906381,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [336, 280],
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950855,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950852,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'commercial-article-native-detail',
@@ -553,12 +633,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749736'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906369,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1088949
@@ -582,6 +656,61 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'commercial-article-native-detail',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150],
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906369,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'commercial-article-native-detail',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150],
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        },
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950842,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950880,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky',
@@ -916,18 +1045,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749430'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906390,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906397,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076715
@@ -953,6 +1070,64 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906390,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1906397,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950865,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950860,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-gallery-2',
@@ -992,18 +1167,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749429'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906392,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906398,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076716
@@ -1029,6 +1192,64 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906392,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1906398,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-gallery-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950866,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950861,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-gallery-3',
@@ -1068,18 +1289,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749428'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906391,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906399,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076717
@@ -1105,6 +1314,64 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950890,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950867,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-gallery-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906391,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1906399,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-gallery-4',
@@ -1498,18 +1765,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749431'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906396,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906386,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076724
@@ -1535,6 +1790,64 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-bottom-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [336, 280],
+            [300, 300],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906396,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1906386,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-bottom-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [336, 280],
+            [300, 300],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950864,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950857,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-3',
@@ -1575,18 +1888,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749433'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906385,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906382,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076725
@@ -1612,6 +1913,66 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906385,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1906382,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950853,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950856,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-4',
@@ -1652,18 +2013,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749434'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906395,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906388,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076726
@@ -1689,6 +2038,66 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906395,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1906388,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950858,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950863,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-5',
@@ -1729,18 +2138,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749435'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906393,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906389,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076727
@@ -1766,6 +2163,66 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906393,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1906389,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950862,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950859,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky-gallery',
@@ -1895,12 +2352,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749436'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1901145,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076730
@@ -1926,6 +2377,50 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'skyscraper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1901145,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'skyscraper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950846,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'skyscraper-3',
@@ -1964,12 +2459,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749437'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906465,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076731
@@ -1995,6 +2484,50 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'skyscraper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906465,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'skyscraper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950868,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'wallpaper-2',
@@ -2034,12 +2567,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749419'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906375,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076732
@@ -2065,6 +2592,52 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906375,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950848,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'wallpaper-3',
@@ -2104,12 +2677,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749420'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906376,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076733
@@ -2135,6 +2702,52 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906376,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950849,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'leaderboard-gallery',
@@ -2174,12 +2787,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749432'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906371,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1076734
@@ -2205,6 +2812,50 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906371,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'leaderboard-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950844,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-commercial-article-native-detail',
@@ -2243,12 +2894,6 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5878083'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906377,
-          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -2313,12 +2958,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5749728'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906370,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 976694
@@ -2344,6 +2983,52 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-bottom',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906370,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'leaderboard-bottom',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950843,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-quiz',
@@ -2839,12 +3524,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5906173'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906467,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1104263
@@ -2870,6 +3549,52 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906467,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950869,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'wallpaper-5',
@@ -2899,12 +3624,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5906184'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1906469,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1104270
@@ -2930,6 +3649,52 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906469,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950870,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky',
@@ -3280,6 +4045,60 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000,
         urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-commercial-article-native-detail',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150],
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        },
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950850,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950875,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-commercial-article-native-detail',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150],
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        },
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1906377,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
       }
     }]
   },
