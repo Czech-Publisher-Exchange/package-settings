@@ -188,6 +188,14 @@ window.cpexWebsiteSettings = {
           uid: 'mafra_banner_default'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x600_infinite',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
@@ -202,6 +210,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131952,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika',
@@ -309,6 +319,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131953,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -416,6 +428,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131954,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -522,6 +536,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131955,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_infinite',
@@ -606,6 +622,14 @@ window.cpexWebsiteSettings = {
           uid: 'mafra_banner_default'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_infinite',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
@@ -620,6 +644,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131956,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -725,6 +751,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131957,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_paticka',
@@ -831,6 +859,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131958,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -940,6 +970,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131959,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -1047,6 +1079,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131960,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_vignete',
@@ -1142,6 +1176,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131961,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'nativ',
@@ -1163,6 +1199,13 @@ window.cpexWebsiteSettings = {
           mid: 1782816,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954801,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -1200,6 +1243,13 @@ window.cpexWebsiteSettings = {
           mid: 1782815,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954800,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -1266,6 +1316,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954798,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1072429
@@ -1296,6 +1353,8 @@ window.cpexWebsiteSettings = {
           formatId: 108782,
           tagId: 'sas_108782'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper',
@@ -1336,6 +1395,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954799,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 144582
@@ -1360,6 +1426,8 @@ window.cpexWebsiteSettings = {
           formatId: 108752,
           tagId: 'sas_108752'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
