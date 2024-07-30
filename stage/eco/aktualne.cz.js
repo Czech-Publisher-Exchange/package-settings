@@ -99,7 +99,8 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true,
-      adUnits: ['sas-injected-1']
+      adUnits: ['sas-injected-1'],
+      offset: 54
     },
     slideup: {
       adUnits: ['sas-special4'],
