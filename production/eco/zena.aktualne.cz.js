@@ -1035,7 +1035,8 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true,
-      adUnits: ['sas-rectangle-1']
+      adUnits: ['sas-rectangle-1'],
+      offset: 54
     },
     slideup: {
       enabled: true,
