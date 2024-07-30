@@ -968,7 +968,7 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true,
-      adUnits: ['mediumrectangle-mob-pos1']
+      adUnits: ['sas-injected-1']
     },
     slideup: {
       adUnits: ['sas-special4'],
