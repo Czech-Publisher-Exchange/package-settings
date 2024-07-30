@@ -87,14 +87,6 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'ECO_aktualnecz_mediumrectangle_mob_pos1'
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'aktualne.cz',
-          p: '300x250_pos1',
-          m: 1,
-          g: 'hb'
-        }
       }]
     }],
     currency: 'USD'
