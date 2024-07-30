@@ -751,7 +751,8 @@ window.cpexWebsiteSettings = {
       backgroundEl: /*S*/document.getElementById('branding-wrapper')/*E*/
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      offset: 44
     },
     slideup: {
       enabled: true,
