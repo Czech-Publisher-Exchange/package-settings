@@ -1014,7 +1014,8 @@ window.cpexWebsiteSettings = {
       hide: [/*S*/ document.getElementById('r-leaderboard-hp') /*E*/]
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      offset: 44
     },
     slideup: {
       enabled: true,
