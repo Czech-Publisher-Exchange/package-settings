@@ -8,7 +8,8 @@ window.cpexWebsiteSettings = {
       contentCSS: ' '
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      offset: 44
     },
     slideup: {
       enabled: true,
