@@ -480,7 +480,8 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true,
-      adUnits: ['a-mediumrectangle-1']
+      adUnits: ['a-mediumrectangle-1'],
+      offset: 68
     }
   },
   general: {
