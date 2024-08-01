@@ -4125,9 +4125,9 @@ window.cpexWebsiteSettings = {
         'm-commercial-article-detail-bottom-2': 'm-commercial-article-native-detail',
         'commercial-article-detail-bottom-1': 'commercial-article-native-detail',
         'commercial-article-detail-bottom-2': 'commercial-article-native-detail',
-        'm-commercial-article-1-ga': 'm-commercial-article-native-detail',
         'm-commercial-article-2': 'm-commercial-article-native-detail',
-        'm-commercial-article-3': 'm-commercial-article-native-detail'
+        'm-commercial-article-3': 'm-commercial-article-native-detail',
+        'm-commercial-article-1-GA': 'm-commercial-article-native-detail'
       },
       adUnitConfig: {
         'commercial-article-native-detail': {
