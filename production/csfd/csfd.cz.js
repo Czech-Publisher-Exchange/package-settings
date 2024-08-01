@@ -1885,7 +1885,8 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [720, 1280],
-            [480, 820]
+            [480, 820],
+            [300, 600]
           ]
         }
       },
@@ -1896,7 +1897,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1925090,
           accountId: '10900',
           position: 'atf',
-          sizes: [484, 256]
+          sizes: [484, 256, 10]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1905,7 +1906,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1925166,
           accountId: '10900',
           position: 'atf',
-          sizes: [484, 256]
+          sizes: [484, 256, 10]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1968,15 +1969,28 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_130351'
         }
       }, {
+        bidder: 'performax',
+        params: {
+          tagid: '26205'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'mobile_square_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600]
+          ]
+        }
+      },
+      bids: [{
         bidder: 'connectad',
         params: {
           siteId: 3127214,
           networkId: 419
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '26205'
         }
       }],
       filter: {
