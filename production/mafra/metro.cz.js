@@ -50,6 +50,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1958219,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878584
@@ -116,6 +123,13 @@ window.cpexWebsiteSettings = {
           mid: 1743414,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1958221,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -195,6 +209,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1958220,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878585
@@ -262,6 +283,13 @@ window.cpexWebsiteSettings = {
           mid: 1743398,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1958222,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -331,6 +359,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1958224,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1042060
@@ -398,6 +433,13 @@ window.cpexWebsiteSettings = {
           mid: 1743400,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1958223,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -477,6 +519,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955067,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878586
@@ -543,6 +592,13 @@ window.cpexWebsiteSettings = {
           mid: 1743409,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955069,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -611,6 +667,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955071,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1042063
@@ -677,6 +740,13 @@ window.cpexWebsiteSettings = {
           mid: 1743411,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955073,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -745,6 +815,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955072,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1042065
@@ -811,6 +888,13 @@ window.cpexWebsiteSettings = {
           mid: 1743402,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955070,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -879,6 +963,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955074,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1042067
@@ -945,6 +1036,13 @@ window.cpexWebsiteSettings = {
           mid: 1743404,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955075,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -1022,6 +1120,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955078,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 844208
@@ -1086,6 +1191,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955079,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1042069
@@ -1149,6 +1261,13 @@ window.cpexWebsiteSettings = {
           mid: 1743415,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955085,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -1238,6 +1357,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955081,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1042073
@@ -1306,6 +1432,13 @@ window.cpexWebsiteSettings = {
           mid: 1849419,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955087,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -1441,6 +1574,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955082,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878587
@@ -1519,6 +1659,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955083,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878588
@@ -1587,6 +1734,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955086,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107134
@@ -1648,6 +1802,13 @@ window.cpexWebsiteSettings = {
           mid: 1903899,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1958225,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -1711,6 +1872,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955088,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1113531
@@ -1773,6 +1941,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955066,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107136
@@ -1833,6 +2008,13 @@ window.cpexWebsiteSettings = {
           mid: 1903959,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955068,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -1895,6 +2077,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955077,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107139
@@ -1955,6 +2144,13 @@ window.cpexWebsiteSettings = {
           mid: 1903962,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955076,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -2017,6 +2213,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955089,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107141
@@ -2077,6 +2280,13 @@ window.cpexWebsiteSettings = {
           mid: 1903966,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955091,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -2139,6 +2349,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955090,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107143
@@ -2200,6 +2417,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955080,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107146
@@ -2245,6 +2469,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955092,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1107144
@@ -2267,6 +2498,13 @@ window.cpexWebsiteSettings = {
         native: {}
       },
       bids: [{
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955093,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 32775254
