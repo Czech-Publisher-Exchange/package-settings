@@ -2462,6 +2462,13 @@ window.cpexWebsiteSettings = {
           adSlot: '5458637'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1958213,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221971,
@@ -2524,6 +2531,13 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '5458639'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1958214,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'teads',
         params: {
@@ -2679,6 +2693,8 @@ window.cpexWebsiteSettings = {
           formatId: 108782,
           tagId: 'sas_108782'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_nativ',
