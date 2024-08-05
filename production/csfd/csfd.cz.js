@@ -1288,6 +1288,12 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_73997'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3137570,
+          networkId: 419
+        }
+      }, {
         bidder: 'projectagora',
         params: {
           placementId: 32862166
@@ -1403,7 +1409,6 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [728, 90],
             [1800, 1000]
           ]
         }
@@ -1989,7 +1994,7 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'connectad',
         params: {
-          siteId: 3127214,
+          siteId: 3137530,
           networkId: 419
         }
       }],
