@@ -49,7 +49,7 @@ window.cpexPublisherSettings = {
     },
     responsive: {
       enabled: true,
-      adUnits: ['m_branding', 'm_branding_foto', 'm_branding_foto2', 'm_300x250', 'm_300x250_clankovy', 'm_300x250_clankovy_opak1', 'm_300x250_clankovy_opak2', 'm_300x250_foto_end', 'm_300x250_foto_mid', 'm_300x250_foto_mid2', 'm_300x250_foto_start', 'm_300x250_infinite', 'm_300x250_vybrali', 'm_300x250_souvisejici', 'm_300x250_foto_mid3', 'm_300x250_foto_mid4', 'm_300x250_clankovy_opak3'],
+      adUnits: ['m_branding', 'm_branding_foto', 'm_branding_foto2', 'm_300x250', 'm_300x250_clankovy', 'm_300x250_clankovy_opak1', 'm_300x250_clankovy_opak2', 'm_300x250_foto_end', 'm_300x250_foto_mid', 'm_300x250_foto_mid2', 'm_300x250_foto_start', 'm_300x250_infinite', 'm_300x250_vybrali', 'm_300x250_souvisejici', 'm_300x250_foto_mid3', 'm_300x250_foto_mid4', 'm_300x250_clankovy_opak3', 'm_paticka'],
       width: 480,
       height: 480
     },
