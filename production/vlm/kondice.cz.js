@@ -2668,7 +2668,6 @@ window.cpexWebsiteSettings = {
     }
   },
   ab: {
-    enabled: true,
     groupList: {
       a: {
         websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/kondice.cz.js',
