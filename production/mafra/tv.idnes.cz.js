@@ -43,6 +43,13 @@ window.cpexWebsiteSettings = {
           adSlot: '4641567'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955143,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 878617
@@ -64,6 +71,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'mafra_banner_default'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -117,6 +126,13 @@ window.cpexWebsiteSettings = {
           adSlot: '5604806'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1955144,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1064307
@@ -132,6 +148,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'mafra_banner_default'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
