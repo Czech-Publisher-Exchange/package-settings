@@ -87,6 +87,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -471,8 +473,13 @@ window.cpexWebsiteSettings = {
             [250, 250],
             [480, 820],
             [300, 600],
+            [720, 1280],
             [768, 1230],
-            [480, 480]
+            [480, 480],
+            [300, 300],
+            [160, 600],
+            [120, 600],
+            [338, 280]
           ]
         }
       },
@@ -483,7 +490,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148154,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 10, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -492,7 +499,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148296,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 10, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
