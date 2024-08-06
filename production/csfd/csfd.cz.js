@@ -2517,7 +2517,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        urlIsNot: 'prehled'
+        urlHasNot: 'prehled'
       }
     }, {
       code: 'native_long_2',
