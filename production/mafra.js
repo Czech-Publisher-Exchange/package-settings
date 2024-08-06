@@ -70,6 +70,9 @@ window.cpexPublisherSettings = {
     interscroller: {
       adUnits: ['m_branding', 'm_branding_foto', 'm_branding_foto2'],
       enabled: true
+    },
+    skin: {
+      adUnitsForced: ['branding', 'branding_fotogalerie']
     }
   },
   dsa: {
