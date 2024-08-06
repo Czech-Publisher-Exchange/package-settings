@@ -208,6 +208,8 @@ window.cpexWebsiteSettings = {
           siteId: 3135535,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'branding_fotogalerie',
@@ -308,6 +310,8 @@ window.cpexWebsiteSettings = {
           siteId: 3135552,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -1871,8 +1875,13 @@ window.cpexWebsiteSettings = {
             [250, 250],
             [480, 820],
             [300, 600],
+            [720, 1280],
             [768, 1230],
-            [480, 480]
+            [480, 480],
+            [300, 300],
+            [160, 600],
+            [120, 600],
+            [338, 280]
           ]
         }
       },
@@ -1883,7 +1892,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148222,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 10, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1892,7 +1901,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148220,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 10, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1977,7 +1986,14 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480]
+            [300, 600],
+            [720, 1280],
+            [768, 1230],
+            [480, 480],
+            [300, 300],
+            [160, 600],
+            [120, 600],
+            [338, 280]
           ]
         }
       },
@@ -1988,7 +2004,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2164380,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1997,7 +2013,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2164378,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2769,7 +2785,14 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480]
+            [300, 600],
+            [720, 1280],
+            [768, 1230],
+            [480, 480],
+            [300, 300],
+            [160, 600],
+            [120, 600],
+            [338, 280]
           ]
         }
       },
@@ -2780,7 +2803,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2653074,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2789,7 +2812,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2653118,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3612,6 +3635,8 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'mafra_banner_default'
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_nativ_clankovy',
