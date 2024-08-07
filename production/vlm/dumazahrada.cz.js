@@ -4100,6 +4100,32 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000,
         urlHas: 'seznam-hp=1'
       }
+    }, {
+      code: 'sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 250],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'performax',
+        params: {
+          tagid: '30227'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30221'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   formats: {
@@ -4114,7 +4140,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m-sticky', 'm-sticky-gallery']
+      adUnits: ['m-sticky', 'm-sticky-gallery', 'sticky']
     },
     native: {
       enabled: true,
