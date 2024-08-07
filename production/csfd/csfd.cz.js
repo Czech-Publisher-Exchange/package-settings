@@ -2502,29 +2502,6 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'native_long_1',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 280501,
-          pageId: 1041480,
-          formatId: 130452,
-          tagId: 'sas_130452'
-        }
-      }],
-      filter: {
-        minWidth: 1000,
-        urlHasNot: 'prehled'
-      }
-    }, {
       code: 'native_long_2',
       mediaTypes: {
         native: {}
