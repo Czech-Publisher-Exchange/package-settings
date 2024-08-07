@@ -8,7 +8,7 @@ window.cpexWebsiteSettings = {
   formats: {
     interscroller: {
       enabled: true,
-      adUnits: ['m-square-1']
+      adUnits: ['m-square-1', 'm-square-category-1', 'm-square-category-2', 'm-square-gallery-1']
     },
     slideup: {
       enabled: true,
