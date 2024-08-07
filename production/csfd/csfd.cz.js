@@ -1974,6 +1974,11 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_130351'
         }
       }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 33862385
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '26205'
