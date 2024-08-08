@@ -72,6 +72,11 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_poznatsvetcz_square_1'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29070'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -146,6 +151,19 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_poznatsvetcz_skyscraper_1'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29121'
         }
       }],
       filter: {
@@ -222,6 +240,19 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_poznatsvetcz_wallpaper_1'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x300_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29094'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -291,6 +322,11 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_poznatsvetcz_commercial_article_native_detail'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29067'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -358,6 +394,11 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_poznatsvetcz_m_commercial_article_native_detail'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29103'
         }
       }],
       filter: {
@@ -441,6 +482,19 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_poznatsvetcz_m_square_1'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x480_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29109'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -516,6 +570,19 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'VLM_poznatsvetcz_m_square_2'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x480_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29136'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -579,6 +646,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29118'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -641,6 +713,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29106'
         }
       }],
       filter: {
@@ -717,6 +794,16 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29115'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29079'
         }
       }],
       filter: {
@@ -877,6 +964,19 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x480_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29100'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -946,6 +1046,19 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x480_4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29073'
         }
       }],
       filter: {
@@ -1017,6 +1130,19 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x480_5',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29091'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1080,6 +1206,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29142'
         }
       }],
       filter: {
@@ -1249,6 +1380,19 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29097'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1307,6 +1451,19 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29130'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1360,6 +1517,19 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29085'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1412,6 +1582,19 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29082'
         }
       }],
       filter: {
@@ -1513,6 +1696,19 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29133'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1565,6 +1761,19 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x300_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29076'
         }
       }],
       filter: {
@@ -1619,6 +1828,19 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x300_4',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29139'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1671,6 +1893,19 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '480x300_5',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29127'
         }
       }],
       filter: {
@@ -1728,6 +1963,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29112'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1782,6 +2022,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29088'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1835,6 +2080,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29124'
         }
       }],
       filter: {
