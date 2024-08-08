@@ -315,6 +315,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -384,6 +392,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x300_1',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -458,6 +474,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x480_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -521,6 +545,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x480_2',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -1781,6 +1813,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -1902,6 +1942,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x480_3',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -2029,6 +2077,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x480_4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -2152,6 +2208,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x480_5',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -2368,6 +2432,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -2473,6 +2545,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -2583,6 +2663,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -2691,6 +2779,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x300_3',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -3486,6 +3582,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -3538,6 +3642,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x300_4',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -3638,6 +3750,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x300_5',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
