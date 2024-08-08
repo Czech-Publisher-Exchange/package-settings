@@ -305,6 +305,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_dotyk_skyscraper-1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28257'
@@ -391,14 +399,17 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_dotyk_m-square-1'
         }
       }, {
-        bidder: 'performax',
+        bidder: 'r2b2',
         params: {
-          tagid: '28248'
+          d: 'dotyk.cz',
+          p: '480x480_1',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
         params: {
-          tagid: '28251'
+          tagid: '28248'
         }
       }],
       filter: {
@@ -473,6 +484,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_m-square-2'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_2',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
@@ -940,6 +959,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_dotykcz_m_square_3_300x300'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28221'
@@ -1017,6 +1044,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotykcz_m_square_4_480x480'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_4',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
@@ -1098,6 +1133,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_dotykcz_m_square_5_480x480'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_5',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28299'
@@ -1177,6 +1220,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_dotykcz_m_square_bottom_1_300x250'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28215'
@@ -1193,9 +1244,7 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [336, 280],
-            [480, 820],
-            [480, 480],
-            [720, 1280]
+            [480, 480]
           ]
         }
       },
@@ -1206,7 +1255,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2681990,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 256, 261, 484]
+          sizes: [48, 15, 16, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1215,7 +1264,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2681996,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 256, 261, 484]
+          sizes: [48, 15, 16, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1261,6 +1310,64 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '28218'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [720, 1280],
+            [480, 820]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3505194,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [484, 256]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3505198,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [484, 256]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6142364'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33866483
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -1828,6 +1935,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28281'
@@ -1894,6 +2009,19 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28251'
         }
       }],
       filter: {
@@ -2917,6 +3045,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28242'
@@ -2973,6 +3109,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_3',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
@@ -3033,6 +3177,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_4',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28224'
@@ -3089,6 +3241,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_5',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
