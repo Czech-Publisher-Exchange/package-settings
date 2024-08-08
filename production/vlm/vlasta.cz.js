@@ -73,7 +73,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26673
+          tagid: '26673'
         }
       }],
       filter: {
@@ -151,11 +151,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_skyscraper_1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26667
+          tagid: '26667'
         }
       }],
       filter: {
@@ -230,7 +238,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26676
+          tagid: '26676'
         }
       }],
       filter: {
@@ -304,7 +312,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26598
+          tagid: '26598'
         }
       }],
       filter: {
@@ -378,7 +386,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26628
+          tagid: '26628'
         }
       }],
       filter: {
@@ -463,11 +471,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x480_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26619
+          tagid: '26619'
         }
       }],
       filter: {
@@ -545,11 +561,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_wallpaper_1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x300_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26640
+          tagid: '26640'
         }
       }],
       filter: {
@@ -620,11 +644,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_skyscraper_2'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26670
+          tagid: '26670'
         }
       }],
       filter: {
@@ -702,11 +734,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_2'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x480_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26664
+          tagid: '26664'
         }
       }],
       filter: {
@@ -784,11 +824,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_3'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x480_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26601
+          tagid: '26601'
         }
       }],
       filter: {
@@ -866,11 +914,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_4'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x480_4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26622
+          tagid: '26622'
         }
       }],
       filter: {
@@ -948,11 +1004,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_5'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x480_5',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26643
+          tagid: '26643'
         }
       }],
       filter: {
@@ -1026,7 +1090,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26652
+          tagid: '26652'
         }
       }],
       filter: {
@@ -1103,11 +1167,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_bottom_1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26613
+          tagid: '26613'
         }
       }],
       filter: {
@@ -1324,7 +1396,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26658
+          tagid: '26658'
         }
       }],
       filter: {
@@ -1481,11 +1553,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_vlasta_m_square_gallery_1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x480_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26616
+          tagid: '26616'
         }
       }],
       filter: {
@@ -1566,7 +1646,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26655
+          tagid: '26655'
         }
       }],
       filter: {
@@ -1647,7 +1727,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26610
+          tagid: '26610'
         }
       }],
       filter: {
@@ -2116,12 +2196,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26595
+          tagid: '26595'
         }
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26595
+          tagid: '26595'
         }
       }],
       filter: {
@@ -2207,12 +2287,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27060
+          tagid: '27060'
         }
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27090
+          tagid: '27090'
         }
       }],
       filter: {
@@ -2284,7 +2364,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26604
+          tagid: '26604'
         }
       }],
       filter: {
@@ -2469,11 +2549,19 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26634
+          tagid: '26634'
         }
       }],
       filter: {
@@ -2676,11 +2764,19 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26625
+          tagid: '26625'
         }
       }],
       filter: {
@@ -2883,11 +2979,19 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26631
+          tagid: '26631'
         }
       }],
       filter: {
@@ -2943,11 +3047,19 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x300_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26649
+          tagid: '26649'
         }
       }],
       filter: {
@@ -3003,11 +3115,19 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x300_4',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26661
+          tagid: '26661'
         }
       }],
       filter: {
@@ -3063,11 +3183,19 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '480x300_5',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26646
+          tagid: '26646'
         }
       }],
       filter: {
@@ -3122,7 +3250,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26637
+          tagid: '26637'
         }
       }],
       filter: {
@@ -3199,7 +3327,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27144
+          tagid: '27144'
         }
       }],
       filter: {
@@ -3269,7 +3397,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27135
+          tagid: '27135'
         }
       }],
       filter: {
