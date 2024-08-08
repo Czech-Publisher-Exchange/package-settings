@@ -282,6 +282,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_ireceptar_skyscraper_1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -459,11 +467,6 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '28806'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28821'
         }
       }],
       filter: {
@@ -1000,6 +1003,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_ireceptarcz_Skyscraper_2'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -1474,6 +1485,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28821'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2377,6 +2393,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
