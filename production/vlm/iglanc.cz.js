@@ -57,6 +57,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29034'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -123,7 +128,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29007'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -182,7 +200,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28971'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -243,6 +274,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29004'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -317,6 +353,16 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29001'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28965'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -389,7 +435,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x480_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28995'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -456,7 +515,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x300_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28986'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -522,7 +594,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x480_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29022'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -588,7 +673,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x480_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28980'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -654,7 +752,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x480_4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29037'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -720,7 +831,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x480_5',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28977'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -779,6 +903,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28989'
         }
       }],
       filter: {
@@ -844,7 +973,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29019'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -904,6 +1046,11 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29031'
         }
       }],
       filter: {
@@ -965,6 +1112,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28992'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -1033,6 +1185,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28998'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1099,6 +1256,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28974'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1165,6 +1327,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29010'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1334,6 +1501,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29013'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1521,12 +1693,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 26952
+          tagid: '26952'
         }
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27015
+          tagid: '27015'
         }
       }],
       filter: {
@@ -1607,12 +1779,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27048
+          tagid: '27048'
         }
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27096
+          tagid: '27096'
         }
       }],
       filter: {
@@ -1669,7 +1841,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28983'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2172,7 +2357,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28968'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2354,7 +2552,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29025'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2404,7 +2615,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x300_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29040'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2454,7 +2678,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x300_4',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29028'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2504,7 +2741,20 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '480x300_5',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29016'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -2575,7 +2825,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27165
+          tagid: '27165'
         }
       }],
       filter: {
@@ -2648,12 +2898,360 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27120
+          tagid: '27120'
         }
       }],
       filter: {
         maxWidth: 1000,
         urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'square-category-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3484148,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6118905'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33412445
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'square-category-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3484150,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6118906'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33412499
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'square-category-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3484152,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6118907'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33412706
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'm-square-category-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 480],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3484154,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16, 261, 256, 484]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6118908'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33412759
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-category-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3484156,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16, 261]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6118909'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33412811
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-category-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3484158,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16, 261]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6118910'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33412813
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-category-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3484160,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16, 261]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6118911'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33412843
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-category-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3484162,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 48, 16, 261]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6118912'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33412866
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
       }
     }],
     prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.4.0/prebid.min.js'
@@ -2665,11 +3263,11 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       enabled: true,
-      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-seznam-feed', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9']
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-seznam-feed', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-category-2', 'm-square-category-3', 'm-square-category-4', 'm-square-category-5']
     },
     interscroller: {
       enabled: true,
-      adUnits: ['m-square-1', 'm-square-gallery-1']
+      adUnits: ['m-square-1', 'm-square-gallery-1', 'm-square-category-1']
     },
     skin: {
       enabled: true,
