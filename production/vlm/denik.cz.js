@@ -472,14 +472,17 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_m_square_1'
         }
       }, {
-        bidder: 'performax',
+        bidder: 'r2b2',
         params: {
-          tagid: '28134'
+          d: 'denik.cz',
+          p: '480x480_1',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
         params: {
-          tagid: '28152'
+          tagid: '28134'
         }
       }],
       filter: {
@@ -554,6 +557,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_m_square_3'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x480_3',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
@@ -633,6 +644,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_m_square_2'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x480_2',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
@@ -1074,6 +1093,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_wallpaper_2'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28137'
@@ -1239,9 +1266,7 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [336, 280],
-            [480, 820],
-            [480, 480],
-            [720, 1280]
+            [480, 480]
           ]
         }
       },
@@ -1252,7 +1277,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2362996,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 256, 261, 484]
+          sizes: [15, 48, 16, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1261,7 +1286,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2528138,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 256, 261, 484]
+          sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1307,6 +1332,64 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '28122'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [720, 1280],
+            [480, 820]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3506666,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [484, 256]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3505196,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [484, 256]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6142367'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33866452
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: 'interscroller_gallery',
+          m: 1,
+          g: 'hb'
         }
       }],
       filter: {
@@ -2471,6 +2554,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM__denikcz_m_square_bottom_1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28179'
@@ -2852,6 +2943,11 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'vlm_banner_low'
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28152'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -3034,6 +3130,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x480_4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28131'
@@ -3098,6 +3202,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x480_5',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28182'
@@ -3154,6 +3266,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x300_3',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
@@ -3214,6 +3334,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x300_4',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28128'
@@ -3270,6 +3398,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x300_5',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
