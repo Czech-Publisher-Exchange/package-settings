@@ -212,11 +212,6 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '28953'
         }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28884'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -273,6 +268,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kondice.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
@@ -1513,6 +1516,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kondice.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28887'
@@ -1573,6 +1584,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kondice.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
@@ -1642,6 +1661,11 @@ window.cpexWebsiteSettings = {
           p: 'interscroller',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28884'
         }
       }],
       filter: {
