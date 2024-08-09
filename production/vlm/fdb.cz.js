@@ -1132,7 +1132,8 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/document.getElementsByClassName('body')[0]/*E*/
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['blabla']
     },
     native: {
       enabled: false
