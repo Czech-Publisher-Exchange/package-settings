@@ -2655,7 +2655,8 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000
+        minWidth: 1000,
+        urlHas: 'mluvi/prehled/'
       }
     }, {
       code: 'native_long_1',
