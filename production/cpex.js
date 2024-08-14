@@ -68,7 +68,7 @@ window.cpexPublisherSettings = {
   general: {
     onLoad: /*S*/ () => {
       /* blokový komentář */
-      console.log('preserving new lines')
+      console.log('preserving new lines - produkce')
     } /*E*/
   }
 }
