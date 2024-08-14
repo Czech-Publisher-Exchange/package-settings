@@ -909,6 +909,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_commercial-article-native-detail'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x300_native',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28203'
@@ -1164,6 +1172,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_m-commercial-article-native-detail'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '336x280_native',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28125'
@@ -1329,6 +1345,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_cz_m_square-gallery-1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x480_gallery_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28122'
@@ -1466,6 +1490,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_cz_m_square-gallery-2'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x480_gallery_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28191'
@@ -1543,6 +1575,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_cz_m_square-gallery-3'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '480x480_gallery_3',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
