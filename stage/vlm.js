@@ -70,39 +70,31 @@ window.cpexPublisherSettings = {
     }
   },
   general: {
-    onLoad: /*S*/ () => {
-      window.cX = window.cX || {};
-      window.cX.callQueue = window.cX.callQueue || [];
-      window.cX.callQueue.push(['invoke', () => {
-        window.__tcfapi('addEventListener', 2, (data, success) => {
-          if (success === false) {
-            return;
-          }
-          if (data.vendor.consents[570] && data.vendor.consents[755]) {
-            const segments = window.cX.getUserSegmentIds({
-              persistedQueryId: '51ff14b454af0cf4aedc891fee56b86c1aa69a31',
-            });
-            if (Array.isArray(segments) && segments.length) {
-              window.cpexPackage.utils.addElement('iframe', document.body, {
-                src: 'https://cdn.cpex.cz/cookies/save.html?name=exc&time=1209600&data=' + encodeURIComponent(segments.toString()),
-                width: 0,
-                height: 0,
-                style: 'border: none; display: block',
-              });
-            }
-            const pianoId = window.cX.getCxenseUserId();
-            console.log('pianoId:', pianoId);
-            if (pianoId) {
-              window.cpexPackage.utils.addElement('img', document.body, {
-                src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&&cxsite=4732541702467398367&cxckp=' + pianoId,
-                width: 0,
-                height: 0,
-                style: 'display: block',
-              });
-            }
-          }
-        });
-      }]);
-    }/*E*/
+    onLoad: /*S*/(() => {
+    /* Custom JavaScript code to be executed once the package is loaded */
+    
+    console.log('Script is running');
+
+    const pianoId = window.cX.getCxenseUserId();
+    window.pianoId = pianoId;
+    console.log('window.pianoId:', window.pianoId);
+
+    if (window.pianoId === undefined) {
+        console.log('pianoId is undefined');
+    } else if (window.pianoId === null) {
+        console.log('pianoId is null');
+    } else {
+        console.log('pianoId is available');
+    }
+
+    if (pianoId) {
+                  window.cpexPackage.utils.addElement('img', document.body, {
+                    src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&&cxsite=4732541702467398367&cxckp=' + pianoId,
+                    width: 0,
+                    height: 0,
+                    style: 'display: block',
+                  });
+                }
+})();/*E*/
   }
 }
