@@ -587,9 +587,7 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [480, 480],
-            [480, 820],
-            [336, 280],
-            [720, 1280]
+            [336, 280]
           ]
         }
       },
@@ -600,7 +598,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3260592,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 261, 256, 16, 484]
+          sizes: [48, 15, 261, 16]
         }
       }, {
         bidder: 'pubmatic',
@@ -1593,6 +1591,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: '336x280_native',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '29478'
@@ -2157,6 +2163,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: '480x300_native',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '29454'
@@ -2276,6 +2290,43 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000,
         urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3513402,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: 'interscroller_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
       }
     }]
   },
