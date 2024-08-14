@@ -53,13 +53,7 @@ window.cpexPublisherSettings = {
       enabled: true
     },
     native: {
-      enabled: true,
-      adUnitConfig: {
-        'native-1': {
-          titleLength: '66',
-          descriptionLength: '99'
-        }
-      }
+      enabled: true
     },
     slideup: {
       enabled: true
@@ -70,5 +64,11 @@ window.cpexPublisherSettings = {
     responsive: {
       enabled: true
     }
+  },
+  general: {
+    onLoad: /*S*/ () => {
+      /* blokový komentář */
+      console.log('preserving new lines - stage')
+    } /*E*/
   }
 }
