@@ -681,6 +681,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '480x300_native',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '26568'
@@ -1045,9 +1053,7 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [480, 480],
-            [480, 820],
-            [336, 280],
-            [720, 1280]
+            [336, 280]
           ]
         }
       },
@@ -1058,7 +1064,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3241654,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 261, 256, 16, 484]
+          sizes: [48, 15, 261, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1067,7 +1073,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3241694,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 261, 256, 16, 484]
+          sizes: [48, 15, 261, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3008,6 +3014,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: '336x280_native',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '26586'
@@ -4245,6 +4259,45 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3513392,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'interscroller_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
       }
     }]
   },
