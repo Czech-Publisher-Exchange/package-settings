@@ -70,45 +70,38 @@ window.cpexPublisherSettings = {
     }
   },
   general: {
-    onLoad: /*S*/(() => {
-    window.cX = window.cX || {};
-    window.cX.callQueue = window.cX.callQueue || [];
-    console.log('cX initialized or exists:', window.cX);
-
-    window.cX.callQueue.push(['invoke', () => {
-        console.log('invoke called');
-        
-        window.__tcfapi('addEventListener', 2, (data, success) => {
-            console.log('addEventListener callback triggered');
-            
-            if (success === false) {
-                console.log('TCF API call failed');
-                return;
-            }
-            
-            if (data.vendor.consents[570] && data.vendor.consents[755]) {
-                console.log('Required vendor consents are present');
-
-                const pianoId = window.cX.getCxenseUserId();
-                window.pianoId = pianoId;
-                console.log('window.pianoId:', window.pianoId);  // Výpis pianoId do konzole
-
-                if (window.pianoId) {
-                    console.log('pianoId exists, adding element to DOM');
-                    window.cpexPackage.utils.addElement('img', document.body, {
-                        src: 'https://x.cz/?=' + pianoId,
-                        width: 0,
-                        height: 0,
-                        style: 'display: block',
-                    });
-                } else {
-                    console.log('pianoId is undefined or null');
-                }
-            } else {
-                console.log('Required vendor consents are missing');
-            }
-        });
-    }]);
-}/*E*/
+    onLoad: /*S*/() => {
+     window.cX = window.cX || {};
+     window.cX.callQueue = window.cX.callQueue || [];
+     window.cX.callQueue.push(['invoke', () => {
+       window.__tcfapi('addEventListener', 2, (data, success) => {
+         if (success === false) {
+           return;
+         }
+         if (data.vendor.consents[570] && data.vendor.consents[755]) {
+           const segments = window.cX.getUserSegmentIds({
+             persistedQueryId: 'xx',
+           });
+           if (Array.isArray(segments) && segments.length) {
+             window.cpexPackage.utils.addElement('iframe', document.body, {
+               src: 'https://cdn.xxxxxx.cz/xx/save.html?name=exc&time=1209600&data=' + encodeURIComponent(segments.toString()),
+               width: 0,
+               height: 0,
+               style: 'border: none; display: block',
+             });
+           }
+           const pianoId = window.cX.getCxenseUserId();
+           if (pianoId) {
+             window.cpexPackage.utils.addElement('img', document.body, {
+               src: 'https://x.cz/?=' + pianoId,
+               width: 0,
+               height: 0,
+               style: 'display: block',
+             });
+           }
+         }
+       });
+     }]);
+   }/*E*/
   }
 }
