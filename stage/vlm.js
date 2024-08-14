@@ -109,7 +109,6 @@ window.cpexPublisherSettings = {
             }
         });
     }]);
-})();
-/*E*/
+}/*E*/
   }
 }
