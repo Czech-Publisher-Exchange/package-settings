@@ -93,14 +93,6 @@ window.cpexWebsiteSettings = {
         params: {
           inventoryCode: 'ECO_aktualnecz_leader'
         }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'aktualne.cz',
-          p: '728x90_2',
-          m: 0,
-          g: 'hb'
-        }
       }]
     }, {
       code: 'halfpage-1',
