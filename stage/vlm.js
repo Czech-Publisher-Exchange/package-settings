@@ -21,7 +21,10 @@ window.cpexPublisherSettings = {
       adform: 'Adform',
       r2b2: 'R2B2',
       triplelift: 'Triplelift_HB',
-      ix: 'Index_HB'
+      ix: 'Index_HB',
+      sspBC: 'WP_HB',
+      performax: 'Performax',
+      'omg-adform': 'OMG-Adform'
     }
   },
   headerbidding: {
@@ -39,6 +42,11 @@ window.cpexPublisherSettings = {
       adform: {
         bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
           return bidCpm * 0.9
+        } /*E*/
+      },
+      r2b2: {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
+          return bidCpm * 0.8
         } /*E*/
       }
     }
@@ -63,18 +71,38 @@ window.cpexPublisherSettings = {
   },
   general: {
     onLoad: /*S*/ () => {
-      window.addEventListener('cpexCustomFormatAdded', (e) => {
-        if (e.detail.type === 'slideup') {
-          function setRefreshTimeout() {
-            clearTimeout(window.cpexSlideupRefreshTimeout);
-            window.cpexSlideupRefreshTimeout = setTimeout(() => {
-              window.cpexPackage.adserver.refresh(['m-sticky'])
-            }, 30000);
-          };
-          setRefreshTimeout();
-          window.addEventListener('cpexSlideupClosed', setRefreshTimeout)
-        }
-      })
-    } /*E*/
+      window.cX = window.cX || {};
+      window.cX.callQueue = window.cX.callQueue || [];
+      window.cX.callQueue.push(['invoke', () => {
+        window.__tcfapi('addEventListener', 2, (data, success) => {
+          if (success === false) {
+            return;
+          }
+          if (data.vendor.consents[570] && data.vendor.consents[755]) {
+            const segments = window.cX.getUserSegmentIds({
+              persistedQueryId: '51ff14b454af0cf4aedc891fee56b86c1aa69a31',
+            });
+            if (Array.isArray(segments) && segments.length) {
+              window.cpexPackage.utils.addElement('iframe', document.body, {
+                src: 'https://cdn.cpex.cz/cookies/save.html?name=exc&time=1209600&data=' + encodeURIComponent(segments.toString()),
+                width: 0,
+                height: 0,
+                style: 'border: none; display: block',
+              });
+            }
+            const pianoId = window.cX.getCxenseUserId();
+            console.log('pianoId:', pianoId);
+            if (pianoId) {
+              window.cpexPackage.utils.addElement('img', document.body, {
+                src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&&cxsite=4732541702467398367&cxckp=' + pianoId,
+                width: 0,
+                height: 0,
+                style: 'display: block',
+              });
+            }
+          }
+        });
+      }]);
+    }/*E*/
   }
 }
