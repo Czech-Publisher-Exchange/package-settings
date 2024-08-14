@@ -724,6 +724,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_native',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '29328'
@@ -3824,6 +3832,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '336x280_native',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'performax',
