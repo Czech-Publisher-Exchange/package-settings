@@ -1719,6 +1719,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 33871476
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30713'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1783,6 +1788,11 @@ window.cpexWebsiteSettings = {
         bidder: 'projectagora',
         params: {
           placementId: 33871477
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30707'
         }
       }],
       filter: {
@@ -1849,6 +1859,11 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 33871478
         }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30716'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1913,6 +1928,11 @@ window.cpexWebsiteSettings = {
         bidder: 'projectagora',
         params: {
           placementId: 33871479
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30689'
         }
       }],
       filter: {
@@ -2656,7 +2676,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        urlHas: 'mluvi/prehled/'
+        urlHas: 'zbran'
       }
     }, {
       code: 'native_long_1',
@@ -2679,7 +2699,7 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         minWidth: 1000,
-        urlHasNot: 'mluvi/prehled/'
+        urlHasNot: 'zbran'
       }
     }, {
       code: 'native_long_1',
@@ -2716,7 +2736,15 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 33871472
         }
-      }]
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30701'
+        }
+      }],
+      filter: {
+        urlHas: 'zbran'
+      }
     }, {
       code: 'native_long_2',
       mediaTypes: {
@@ -2777,6 +2805,11 @@ window.cpexWebsiteSettings = {
         bidder: 'projectagora',
         params: {
           placementId: 33871473
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30686'
         }
       }]
     }, {
@@ -2839,6 +2872,11 @@ window.cpexWebsiteSettings = {
         bidder: 'projectagora',
         params: {
           placementId: 33871475
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30710'
         }
       }]
     }, {
