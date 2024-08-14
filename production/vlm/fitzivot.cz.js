@@ -860,6 +860,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'fitzivot.cz',
+          p: '336x280_native',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '29556'
@@ -989,6 +997,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'fitzivot.cz',
+          p: '480x300_native',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '29517'
@@ -1063,8 +1079,7 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [300, 300],
             [336, 280],
-            [480, 480],
-            [480, 820]
+            [480, 480]
           ]
         }
       },
@@ -1075,7 +1090,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3108056,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 261, 256]
+          sizes: [15, 48, 16, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1084,7 +1099,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3108110,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16, 261, 256]
+          sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2438,6 +2453,43 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000,
         urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3513394,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'fitzivot.cz',
+          p: 'interscroller_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
       }
     }]
   },
