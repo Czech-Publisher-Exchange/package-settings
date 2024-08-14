@@ -71,6 +71,7 @@ window.cpexPublisherSettings = {
   },
   general: {
     onLoad: /*S*/() => {
+    console.log('loglog ');
     window.cX = window.cX || {};
     window.cX.callQueue = window.cX.callQueue || [];
     console.log('cX initialized or exists:', window.cX);
