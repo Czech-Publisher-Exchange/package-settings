@@ -1005,6 +1005,7 @@ window.cpexWebsiteSettings = {
              });
            }
            const pianoId = window.cX.getCxenseUserId();
+           console.log('pianoId:', pianoId);
            if (pianoId) {
              window.cpexPackage.utils.addElement('img', document.body, {
                src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&&cxsite=4732541702467398411&cxckp=' + pianoId,
