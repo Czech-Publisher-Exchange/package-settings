@@ -719,6 +719,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_ireceptar_commercial-article-native-detail'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: '480x300_native',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -812,6 +820,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: '336x280_native',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -1635,9 +1651,7 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [336, 280],
-            [480, 820],
-            [480, 480],
-            [720, 1280]
+            [480, 480]
           ]
         }
       },
@@ -1648,7 +1662,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3288336,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 256, 261, 484]
+          sizes: [48, 15, 16, 261]
         }
       }, {
         bidder: 'pubmatic',
@@ -2900,6 +2914,45 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000,
         urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3513398,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [256, 484]
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: 'interscroller_gallery',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
       }
     }]
   }
