@@ -71,30 +71,45 @@ window.cpexPublisherSettings = {
   },
   general: {
     onLoad: /*S*/(() => {
-    /* Custom JavaScript code to be executed once the package is loaded */
-    
-    console.log('Script is running');
+    window.cX = window.cX || {};
+    window.cX.callQueue = window.cX.callQueue || [];
+    console.log('cX initialized or exists:', window.cX);
 
-    const pianoId = window.cX.getCxenseUserId();
-    window.pianoId = pianoId;
-    console.log('window.pianoId:', window.pianoId);
+    window.cX.callQueue.push(['invoke', () => {
+        console.log('invoke called');
+        
+        window.__tcfapi('addEventListener', 2, (data, success) => {
+            console.log('addEventListener callback triggered');
+            
+            if (success === false) {
+                console.log('TCF API call failed');
+                return;
+            }
+            
+            if (data.vendor.consents[570] && data.vendor.consents[755]) {
+                console.log('Required vendor consents are present');
 
-    if (window.pianoId === undefined) {
-        console.log('pianoId is undefined');
-    } else if (window.pianoId === null) {
-        console.log('pianoId is null');
-    } else {
-        console.log('pianoId is available');
-    }
+                const pianoId = window.cX.getCxenseUserId();
+                window.pianoId = pianoId;
+                console.log('window.pianoId:', window.pianoId);  // Výpis pianoId do konzole
 
-    if (pianoId) {
-                  window.cpexPackage.utils.addElement('img', document.body, {
-                    src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&&cxsite=4732541702467398367&cxckp=' + pianoId,
-                    width: 0,
-                    height: 0,
-                    style: 'display: block',
-                  });
+                if (window.pianoId) {
+                    console.log('pianoId exists, adding element to DOM');
+                    window.cpexPackage.utils.addElement('img', document.body, {
+                        src: 'https://x.cz/?=' + pianoId,
+                        width: 0,
+                        height: 0,
+                        style: 'display: block',
+                    });
+                } else {
+                    console.log('pianoId is undefined or null');
                 }
-})();/*E*/
+            } else {
+                console.log('Required vendor consents are missing');
+            }
+        });
+    }]);
+})();
+/*E*/
   }
 }
