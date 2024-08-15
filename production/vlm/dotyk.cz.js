@@ -3576,5 +3576,18 @@ window.cpexWebsiteSettings = {
       magnite: 4,
       xandr: 164
     }
+  },
+  ab: {
+    enabled: true,
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/dotyk.cz.js',
+        probability: 0.5
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/dotyk.cz_b.js',
+        probability: 0.5
+      }
+    }
   }
 }
