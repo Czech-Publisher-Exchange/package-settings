@@ -693,7 +693,8 @@ window.cpexWebsiteSettings = {
         }
       }]
     }],
-    currency: 'USD'
+    currency: 'USD',
+    analytics: ['cpexAnalytics', 'pubmatic']
   },
   formats: {
     skin: {
