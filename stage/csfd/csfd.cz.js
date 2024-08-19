@@ -1,7 +1,6 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'csfd.cz',
-    note: 'test uložení'
+    name: 'csfd.cz'
   },
   headerbidding: {
     adUnits: [{
@@ -1686,6 +1685,50 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
+      code: 'mobile_native_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1966103,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 133741,
+          tagId: 'sas_133741'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3137611,
+          networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 33871476
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30713'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
       code: 'mobile_native_2',
       mediaTypes: {
         native: {}
@@ -1706,6 +1749,50 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'csfd_banner_default'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'mobile_native_2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1966104,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 133263,
+          tagId: 'sas_133263'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3137612,
+          networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 33871477
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30707'
         }
       }],
       filter: {
@@ -1738,6 +1825,50 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
+      code: 'mobile_native_3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1966101,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 133742,
+          tagId: 'sas_133742'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3137613,
+          networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 33871478
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30716'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
       code: 'mobile_native_4',
       mediaTypes: {
         native: {}
@@ -1758,6 +1889,50 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'csfd_banner_default'
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'mobile_native_4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1966102,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 133743,
+          tagId: 'sas_133743'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3137614,
+          networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 33871479
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30689'
         }
       }],
       filter: {
@@ -2481,23 +2656,44 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [1, 1]
+            [320, 100]
           ]
         }
       },
       bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1966113,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
           pageId: 1041480,
-          formatId: 130452,
-          tagId: 'sas_130452'
+          formatId: 133738,
+          tagId: 'sas_133738'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3137608,
+          networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 33871472
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30701'
         }
       }],
       filter: {
-        minWidth: 1000,
-        urlHasNot: 'prehled'
+        urlHas: 'zbran'
       }
     }, {
       code: 'native_long_2',
@@ -2526,6 +2722,47 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
+      code: 'native_long_2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1966112,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 133739,
+          tagId: 'sas_133739'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3137609,
+          networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 33871473
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30686'
+        }
+      }]
+    }, {
       code: 'native_short_1',
       mediaTypes: {
         native: {}
@@ -2551,6 +2788,47 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
+    }, {
+      code: 'native_short_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1966111,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 133740,
+          tagId: 'sas_133740'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3137610,
+          networkId: 419
+        }
+      }, {
+        bidder: 'projectagora',
+        params: {
+          placementId: 33871475
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '30710'
+        }
+      }]
     }, {
       code: 'rectangle',
       mediaTypes: {
