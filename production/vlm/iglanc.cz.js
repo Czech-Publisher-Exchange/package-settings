@@ -3306,8 +3306,7 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
-    }],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.4.0/prebid.min.js'
+    }]
   },
   formats: {
     vignette: {
