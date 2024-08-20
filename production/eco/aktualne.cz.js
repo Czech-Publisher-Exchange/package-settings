@@ -964,7 +964,8 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
-      offsetScroll: true
+      offsetScroll: true,
+      hide: [/*S*/document.getElementsByClassName('advert__leader')[0]/*E*/]
     },
     interscroller: {
       enabled: true,
