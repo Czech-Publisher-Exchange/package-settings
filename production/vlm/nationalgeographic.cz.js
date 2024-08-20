@@ -12,7 +12,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m-sticky', 'm-sticky-gallery']
+      adUnits: ['m-sticky', 'm-sticky-gallery', 'sticky']
     },
     vignette: {
       enabled: true
