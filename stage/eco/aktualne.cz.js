@@ -9,6 +9,9 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [728, 90],
+            [970, 100],
+            [970, 210],
             [2000, 1400]
           ]
         }
@@ -20,7 +23,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2613988,
           accountId: '10900',
           position: 'atf',
-          sizes: [230]
+          sizes: [2, 95, 96, 230]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -29,7 +32,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2186652,
           accountId: '10900',
           position: 'atf',
-          sizes: [230]
+          sizes: [2, 95, 96, 230]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -92,6 +95,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_aktualnecz_leader'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'aktualne.cz',
+          p: '728x90_2',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -954,7 +965,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
       offsetScroll: true,
-      offset: /*S*/96/*E*/
+      hide: [/*S*/document.getElementsByClassName('advert__leader')[0]/*E*/]
     },
     interscroller: {
       enabled: true,
@@ -974,38 +985,6 @@ window.cpexWebsiteSettings = {
     }
   },
   general: {
-    onLoad: /*S*/() => {
-     /* piano segment export */
-     window.cX = window.cX || {};
-     window.cX.callQueue = window.cX.callQueue || [];
-     window.cX.callQueue.push(['invoke', () => {
-       window.__tcfapi('addEventListener', 2, (data, success) => {
-         if (success === false) { return };
-         if (data.vendor.consents[570] && data.vendor.consents[755]) {
-           const segments = window.cX.getUserSegmentIds({
-             persistedQueryId: '51ff14b454af0cf4aedc891fee56b86c1aa69a31',
-           });
-           if (Array.isArray(segments) && segments.length) {
-             window.cpexPackage.utils.addElement('iframe', document.body, {
-               src: 'https://cdn.cpex.cz/cookies/save.html?name=exc&time=1209600&data=' + encodeURIComponent(segments.toString()),
-               width: 0,
-               height: 0,
-               style: 'border: none; display: block',
-             });
-           }
-           const pianoId = window.cX.getCxenseUserId();
-           console.log('pianoId:', pianoId);
-           if (pianoId) {
-             window.cpexPackage.utils.addElement('img', document.body, {
-               src: 'https://cm.g.doubleclick.net/pixel?google_nid=cpex_ddp&process_consent=T&google_cm&&cxsite=4732541702467398411&cxckp=' + pianoId,
-               width: 0,
-               height: 0,
-               style: 'display: block',
-             });
-           }
-         }
-       })
-     }])
-   } /*E*/
+    errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184'
   }
 }
