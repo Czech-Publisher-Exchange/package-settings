@@ -965,7 +965,8 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
       offsetScroll: true,
-      hide: [/*S*/document.getElementsByClassName('advert__leader')[0]/*E*/]
+      hide: [/*S*/document.getElementsByClassName('advert__leader')[0]/*E*/],
+      generalCSS: "document.querySelector('.advert__leader').style.minHeight = '0';"
     },
     interscroller: {
       enabled: true,
