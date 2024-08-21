@@ -40,7 +40,8 @@ window.cpexPublisherSettings = {
           return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
         } /*E*/
       }
-    }
+    },
+    userIDs: ['czechAdId']
   },
   formats: {
     slideup: {
