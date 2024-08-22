@@ -988,11 +988,11 @@ window.cpexWebsiteSettings = {
   general: {
     errorPath: 'https://73f2bd72d0d2477ab2f976d6098fe246@o530000.ingest.sentry.io/4504531846365184',
     beforeLoad: /*S*/async () => {
-  return new Promise((resolve) => {
     /* applies only if pay or ok is present */
-    if(!window.cpexCmpSubscription) {
-      return;
-      }
+  if(window.cpexCmpSubscription) {
+    return;
+  }
+  return new Promise((resolve) => {
     /* once didomi loads, disable hb if no consent found for purpose 1 or 2 */
     window.didomiOnReady = window.didomiOnReady || [];
     window.didomiOnReady.push(function (Didomi) {
