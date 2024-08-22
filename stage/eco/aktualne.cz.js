@@ -990,7 +990,7 @@ window.cpexWebsiteSettings = {
     beforeLoad: /*S*/async () => {
     return new Promise((resolve) => {
       /* applies only if pay or ok is present */
-      if(!window.cpexCmpSubscription) {
+      if(!window.cpexCmpSubscriptionConfig) {
         resolve();
       }
       /* once didomi loads, disable hb if no consent found for purpose 1 or 2 */
