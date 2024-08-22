@@ -49,7 +49,8 @@ window.cpexPublisherSettings = {
           return bidCpm * 0.8
         } /*E*/
       }
-    }
+    },
+    userIDs: ['czechAdId']
   },
   cmp: {
     enabled: false
