@@ -93,7 +93,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108619,
           tagId: 'sas_108619'
         }
@@ -202,7 +202,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 132834,
           tagId: 'sas_132834'
         }
@@ -311,7 +311,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108740,
           tagId: 'sas_108740'
         }
@@ -420,7 +420,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108741,
           tagId: 'sas_108741'
         }
@@ -528,7 +528,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108759,
           tagId: 'sas_108759'
         }
@@ -636,7 +636,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108773,
           tagId: 'sas_108773'
         }
@@ -748,7 +748,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108767,
           tagId: 'sas_108767'
         }
@@ -856,7 +856,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108768,
           tagId: 'sas_108768'
         }
@@ -967,7 +967,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108761,
           tagId: 'sas_108761'
         }
@@ -1076,7 +1076,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108753,
           tagId: 'sas_108753'
         }
@@ -1173,7 +1173,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108774,
           tagId: 'sas_108774'
         }
@@ -1356,7 +1356,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108782,
           tagId: 'sas_108782'
         }
@@ -1429,7 +1429,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108752,
           tagId: 'sas_108752'
         }
