@@ -1557,6 +1557,14 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: '300x300_bottom_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
