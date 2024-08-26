@@ -2024,7 +2024,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [336, 280],
-            [300, 300]
+            [300, 300],
+            [480, 480]
           ]
         }
       },
@@ -2035,7 +2036,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3288426,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 16, 48]
+          sizes: [15, 16, 48, 261]
         }
       }, {
         bidder: 'pubmatic',
@@ -2068,6 +2069,14 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'poznatsvet.cz',
+          p: '300x300_bottom_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '29130'
@@ -2083,7 +2092,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [336, 280],
-            [300, 300]
+            [300, 300],
+            [480, 480]
           ]
         }
       },
@@ -2111,7 +2121,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [336, 280],
-            [300, 300]
+            [300, 300],
+            [480, 480]
           ]
         }
       },
@@ -3397,7 +3408,7 @@ window.cpexWebsiteSettings = {
     responsive: {
       width: 480,
       height: 480,
-      adUnits: ['m-square-1', 'm-square-4', 'm-square-5', 'm-seznam-feed', 'm-square-2', 'm-square-3', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3']
+      adUnits: ['m-square-1', 'm-square-4', 'm-square-5', 'm-seznam-feed', 'm-square-2', 'm-square-3', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-bottom-1']
     }
   }
 }
