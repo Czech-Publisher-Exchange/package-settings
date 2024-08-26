@@ -1419,7 +1419,10 @@ window.cpexWebsiteSettings = {
           siteId: 3127208,
           networkId: 419
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'mobile_billboard',
       mediaTypes: {
@@ -2743,6 +2746,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
+        minWidth: 1000,
         urlHas: 'zbran'
       }
     }, {
@@ -2811,7 +2815,10 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '30686'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'native_short_1',
       mediaTypes: {
@@ -2878,7 +2885,10 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '30710'
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'rectangle',
       mediaTypes: {
