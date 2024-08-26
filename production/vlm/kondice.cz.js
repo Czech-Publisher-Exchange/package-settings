@@ -1499,6 +1499,14 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kondice.cz',
+          p: '300x300_bottom_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28935'
