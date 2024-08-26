@@ -970,7 +970,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [336, 280],
-            [300, 300]
+            [300, 300],
+            [480, 480]
           ]
         }
       },
@@ -981,7 +982,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3260610,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 16, 48]
+          sizes: [15, 16, 48, 261]
         }
       }, {
         bidder: 'pubmatic',
@@ -1012,6 +1013,14 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'koktejl.cz',
           p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'koktejl.cz',
+          p: '300x300_bottom_1',
           m: 1,
           g: 'hb'
         }
@@ -2356,7 +2365,7 @@ window.cpexWebsiteSettings = {
       }
     },
     responsive: {
-      adUnits: ['m-square-1', 'm-square-2', 'm-seznam-feed', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-3', 'm-square-4', 'm-square-5'],
+      adUnits: ['m-square-1', 'm-square-2', 'm-seznam-feed', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-bottom-1'],
       width: 480,
       height: 480,
       enabled: true
