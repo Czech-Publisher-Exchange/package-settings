@@ -1260,7 +1260,10 @@ window.cpexWebsiteSettings = {
           siteId: 3127230,
           networkId: 419
         }
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'mobile_billboard',
       mediaTypes: {
