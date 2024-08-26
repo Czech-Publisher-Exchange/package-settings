@@ -3790,7 +3790,6 @@ window.cpexWebsiteSettings = {
         websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/kondice.cz_b.js',
         probability: 0.5
       }
-    },
-    enabled: true
+    }
   }
 }
