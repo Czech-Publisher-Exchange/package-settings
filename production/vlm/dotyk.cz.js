@@ -76,6 +76,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_dotyk_leaderboard-top'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28287'
@@ -1240,6 +1248,14 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'dotyk.cz',
           p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '300x300_bottom_1',
           m: 1,
           g: 'hb'
         }
