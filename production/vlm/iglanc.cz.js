@@ -928,7 +928,8 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
-            [336, 280]
+            [336, 280],
+            [480, 480]
           ]
         }
       },
@@ -939,7 +940,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2818220,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16]
+          sizes: [15, 48, 16, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -948,7 +949,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2818286,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 16]
+          sizes: [15, 48, 16, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -985,6 +986,14 @@ window.cpexWebsiteSettings = {
         params: {
           d: 'iglanc.cz',
           p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'iglanc.cz',
+          p: '300x300_bottom_1',
           m: 1,
           g: 'hb'
         }
@@ -3315,7 +3324,7 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       enabled: true,
-      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-seznam-feed', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-category-2', 'm-square-category-3', 'm-square-category-4', 'm-square-category-5']
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-seznam-feed', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-category-2', 'm-square-category-3', 'm-square-category-4', 'm-square-category-5', 'm-square-bottom-1']
     },
     interscroller: {
       enabled: true,
