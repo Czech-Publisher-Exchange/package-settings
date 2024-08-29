@@ -3296,6 +3296,11 @@ window.cpexWebsiteSettings = {
           sizes: [256, 484]
         }
       }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32355525
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -3315,6 +3320,94 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'square-3-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [480, 480],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3526306,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [83, 261, 48, 15, 16]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6210016'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 34001638
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-GA',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [250, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3526304,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 15, 14]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6210029'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 34026260
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
@@ -3324,7 +3417,7 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       enabled: true,
-      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-seznam-feed', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-category-2', 'm-square-category-3', 'm-square-category-4', 'm-square-category-5', 'm-square-bottom-1']
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-seznam-feed', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-category-2', 'm-square-category-3', 'm-square-category-4', 'm-square-category-5', 'm-square-bottom-1', 'square-3-gallery']
     },
     interscroller: {
       enabled: true,
