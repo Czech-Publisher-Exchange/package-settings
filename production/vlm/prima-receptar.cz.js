@@ -13,7 +13,8 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1']
     },
     slideup: {
       enabled: true,
