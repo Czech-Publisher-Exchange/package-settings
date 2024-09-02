@@ -308,7 +308,8 @@ window.cpexWebsiteSettings = {
       enabled: false
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1']
     },
     native: {
       enabled: false
