@@ -77,6 +77,14 @@ window.cpexWebsiteSettings = {
           uid: 'vlm_banner_low'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
