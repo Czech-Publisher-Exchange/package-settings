@@ -87,6 +87,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108619,
+          tagId: 'sas_108619'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -172,6 +181,15 @@ window.cpexWebsiteSettings = {
           p: '300x600',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108618,
+          tagId: 'sas_108618'
         }
       }, {
         bidder: 'sspBC'
@@ -261,6 +279,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108739,
+          tagId: 'sas_108739'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -345,6 +372,15 @@ window.cpexWebsiteSettings = {
           p: '300x250',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108759,
+          tagId: 'sas_108759'
         }
       }, {
         bidder: 'sspBC'
@@ -437,6 +473,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108767,
+          tagId: 'sas_108767'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -521,6 +566,15 @@ window.cpexWebsiteSettings = {
           p: '300x250_paticka',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108768,
+          tagId: 'sas_108768'
         }
       }, {
         bidder: 'sspBC'
@@ -609,6 +663,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108761,
+          tagId: 'sas_108761'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -690,6 +753,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 112405,
+          tagId: 'sas_112405'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -769,6 +841,15 @@ window.cpexWebsiteSettings = {
           p: '160x600_spodni',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 133939,
+          tagId: 'sas_133939'
         }
       }, {
         bidder: 'sspBC'
@@ -859,6 +940,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108752,
+          tagId: 'sas_108752'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -946,6 +1036,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108753,
+          tagId: 'sas_108753'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -1031,6 +1130,15 @@ window.cpexWebsiteSettings = {
           p: '480x300_spodni',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673777,
+          pageId: 2011242,
+          formatId: 108754,
+          tagId: 'sas_108754'
         }
       }, {
         bidder: 'sspBC'
