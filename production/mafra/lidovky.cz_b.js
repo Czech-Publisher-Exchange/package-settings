@@ -3861,6 +3861,15 @@ window.cpexWebsiteSettings = {
           uid: 'mafra_banner_default'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 487780,
+          pageId: 2011234,
+          formatId: 108782,
+          tagId: 'sas_108782'
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
