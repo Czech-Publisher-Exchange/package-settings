@@ -122,6 +122,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_ireceptar_leaderboard_top'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
