@@ -13,7 +13,7 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     interscroller: {
-      enabled: true
+      enabled: false
     },
     slideup: {
       enabled: true,
