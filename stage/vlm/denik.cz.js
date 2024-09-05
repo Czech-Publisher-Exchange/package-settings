@@ -1260,6 +1260,9 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-square-bottom-1', 'm-square-1', 'm-square-2', 'm-square-3', 'm-square-bottom-2', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-seznam-feed', 'm-square-4', 'm-square-5'],
       width: 480,
       height: 480
+    },
+    vignette: {
+      cookieDuration: 1
     }
   }
 }
