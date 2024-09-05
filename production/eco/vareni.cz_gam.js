@@ -694,7 +694,8 @@ window.cpexWebsiteSettings = {
         }
       }]
     }],
-    currency: 'USD'
+    currency: 'USD',
+    customBuckets: [8.6, 9.3, 10.2, 11.4, 13.1, 15.5, 18.8, 23.4, 29.8, 38.7, 51.1, 68.3, 92.3, 125.5, 171.7]
   },
   formats: {
     skin: {
