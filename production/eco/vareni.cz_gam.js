@@ -21,7 +21,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 361048,
-          zoneId: 1965808,
+          zoneId: 3537114,
           accountId: '10900',
           position: 'atf',
           sizes: [230, 94, 57, 96, 95, 2]
@@ -30,7 +30,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 361464,
-          zoneId: 1965810,
+          zoneId: 3537128,
           accountId: '10900',
           position: 'atf',
           sizes: [230, 94, 57, 96, 95, 2]
@@ -84,7 +84,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 32622061
+          placementId: 34049073
         }
       }, {
         bidder: 'criteo',
@@ -123,7 +123,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 361048,
-          zoneId: 1965820,
+          zoneId: 3537116,
           accountId: '10900',
           position: 'atf',
           sizes: [94, 57, 96, 95, 2]
@@ -132,7 +132,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 361464,
-          zoneId: 1965822,
+          zoneId: 3537130,
           accountId: '10900',
           position: 'atf',
           sizes: [94, 57, 96, 95, 2]
@@ -193,7 +193,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21011717
+          placementId: 34049076
         }
       }, {
         bidder: 'criteo',
@@ -230,7 +230,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 361048,
-          zoneId: 1965824,
+          zoneId: 3537118,
           accountId: '10900',
           position: 'atf',
           sizes: [83, 48, 15]
@@ -239,7 +239,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 361464,
-          zoneId: 1965826,
+          zoneId: 3537134,
           accountId: '10900',
           position: 'atf',
           sizes: [83, 48, 15]
@@ -300,7 +300,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21011721
+          placementId: 34049075
         }
       }, {
         bidder: 'criteo',
@@ -337,7 +337,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 361048,
-          zoneId: 1965828,
+          zoneId: 3537120,
           accountId: '10900',
           position: 'atf',
           sizes: [83, 48, 15]
@@ -346,7 +346,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 361464,
-          zoneId: 1965830,
+          zoneId: 3537136,
           accountId: '10900',
           position: 'atf',
           sizes: [83, 48, 15]
@@ -400,7 +400,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21011729
+          placementId: 34049077
         }
       }, {
         bidder: 'criteo',
@@ -438,7 +438,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 361048,
-          zoneId: 1958638,
+          zoneId: 3537122,
           accountId: '10900',
           position: 'atf',
           sizes: [10, 9, 48, 15]
@@ -447,7 +447,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 361464,
-          zoneId: 1958640,
+          zoneId: 3537138,
           accountId: '10900',
           position: 'atf',
           sizes: [10, 9, 48, 15]
@@ -508,7 +508,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21010492
+          placementId: 34049078
         }
       }, {
         bidder: 'criteo',
@@ -546,7 +546,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 361048,
-          zoneId: 1958642,
+          zoneId: 3537124,
           accountId: '10900',
           position: 'atf',
           sizes: [10, 9, 48, 15]
@@ -555,7 +555,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 361464,
-          zoneId: 1958644,
+          zoneId: 3537140,
           accountId: '10900',
           position: 'atf',
           sizes: [10, 9, 48, 15]
@@ -616,7 +616,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 21011627
+          placementId: 34049079
         }
       }, {
         bidder: 'criteo',
@@ -652,7 +652,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 361516,
-          zoneId: 2669022,
+          zoneId: 3537126,
           accountId: '10900',
           position: 'atf',
           sizes: [15, 258]
@@ -661,7 +661,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 361522,
-          zoneId: 2669024,
+          zoneId: 3537142,
           accountId: '10900',
           position: 'atf',
           sizes: [15, 258]
@@ -684,7 +684,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 28273058
+          placementId: 34049074
         }
       }, {
         bidder: 'criteo',
