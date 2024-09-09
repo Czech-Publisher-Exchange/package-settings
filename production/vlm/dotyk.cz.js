@@ -3662,8 +3662,7 @@ window.cpexWebsiteSettings = {
         urlHasNot: 'seznam-hp=1'
       }
     }],
-    analytics: ['cpexAnalytics', 'pubmatic'],
-    auctionTimeoutMs: 1300
+    analytics: ['cpexAnalytics', 'pubmatic']
   },
   website: {
     name: 'dotyk.cz'
