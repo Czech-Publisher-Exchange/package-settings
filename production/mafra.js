@@ -42,7 +42,7 @@ window.cpexPublisherSettings = {
         } /*E*/
       }
     },
-    userIDs: ['czechAdId']
+    userIDs: ['czechAdId', 'id5Id', 'criteo']
   },
   formats: {
     slideup: {
