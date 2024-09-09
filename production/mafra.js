@@ -24,7 +24,8 @@ window.cpexPublisherSettings = {
       teads: 'Teads_HB',
       sspBC: 'WP_HB',
       smart: 'Smart_HB',
-      connectad: 'Connectad_HB'
+      connectad: 'Connectad_HB',
+      rtbhouse: 'RTBHouse_HB'
     }
   },
   headerbidding: {
