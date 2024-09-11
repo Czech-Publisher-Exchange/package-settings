@@ -377,6 +377,172 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'mediumrectangle-mob-pos1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 300],
+            [300, 250],
+            [250, 250],
+            [300, 50]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 361516,
+          zoneId: 1965836,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 48, 15, 14, 44]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 361522,
+          zoneId: 1965838,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 48, 15, 14, 44]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 759662
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 21011829
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '300x250_pos1',
+          m: 1,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'mediumrectangle-mob-pos2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 300],
+            [300, 250],
+            [250, 250],
+            [300, 50]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 361516,
+          zoneId: 1965840,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 48, 15, 14, 44]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 361522,
+          zoneId: 1965842,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [261, 48, 15, 14, 44]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 759663
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 21011832
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '300x250_pos2',
+          m: 1,
+          g: 'hb'
+        }
+      }]
+    }, {
+      code: 'strip',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [320, 50],
+            [300, 50]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 361516,
+          zoneId: 1965852,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 43, 44]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 361522,
+          zoneId: 1965854,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 43, 44]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 759666
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 21011840
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '320x50',
+          m: 1,
+          g: 'hb'
+        }
+      }]
+    }, {
       code: 'popup',
       mediaTypes: {
         banner: {
