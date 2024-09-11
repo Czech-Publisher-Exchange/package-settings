@@ -37,49 +37,15 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4344939'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'knowlimits-adform',
-        params: {
-          mid: 1693297,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb',
-        params: {
-          mid: 1334484,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb-mask',
-        params: {
-          mid: 1334488,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
         bidder: 'adform',
         params: {
-          mid: 1109659,
+          mid: 1983958,
           rcur: 'USD'
         }
       }, {
         bidder: 'ix',
         params: {
           siteId: 759661
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 211430,
-          pageId: 195895
         }
       }, {
         bidder: 'appnexus',
@@ -91,11 +57,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'ECO_varenicz_leader'
         }
       }, {
         bidder: 'r2b2',
@@ -139,56 +100,15 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4344940'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'knowlimits-adform',
-        params: {
-          mid: 1840869,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb',
-        params: {
-          mid: 1334499,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb-mask',
-        params: {
-          mid: 1334501,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 1869826,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
         bidder: 'adform',
         params: {
-          mid: 1109665,
+          mid: 1983959,
           rcur: 'USD'
         }
       }, {
         bidder: 'ix',
         params: {
           siteId: 759665
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 211429,
-          pageId: 195894
         }
       }, {
         bidder: 'appnexus',
@@ -200,11 +120,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'ECO_varenicz_megaboard'
         }
       }, {
         bidder: 'r2b2',
@@ -246,56 +161,15 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4344941'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'knowlimits-adform',
-        params: {
-          mid: 1693298,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb',
-        params: {
-          mid: 1334495,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb-mask',
-        params: {
-          mid: 1334496,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 1869825,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
         bidder: 'adform',
         params: {
-          mid: 1109660,
+          mid: 1983960,
           rcur: 'USD'
         }
       }, {
         bidder: 'ix',
         params: {
           siteId: 759667
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 211434,
-          pageId: 195899
         }
       }, {
         bidder: 'appnexus',
@@ -307,11 +181,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'ECO_varenicz_wallpaper_1'
         }
       }, {
         bidder: 'r2b2',
@@ -353,49 +222,15 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4344942'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'knowlimits-adform',
-        params: {
-          mid: 1693299,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb',
-        params: {
-          mid: 1334497,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb-mask',
-        params: {
-          mid: 1334498,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
         bidder: 'adform',
         params: {
-          mid: 1109662,
+          mid: 1983961,
           rcur: 'USD'
         }
       }, {
         bidder: 'ix',
         params: {
           siteId: 759668
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 211425,
-          pageId: 195890
         }
       }, {
         bidder: 'appnexus',
@@ -407,11 +242,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'ECO_varenicz_wallpaper_x'
         }
       }, {
         bidder: 'r2b2',
@@ -454,56 +284,15 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4344937'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'knowlimits-adform',
-        params: {
-          mid: 1693300,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb',
-        params: {
-          mid: 1334489,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb-mask',
-        params: {
-          mid: 1334490,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 1869823,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
         bidder: 'adform',
         params: {
-          mid: 1109663,
+          mid: 1983954,
           rcur: 'USD'
         }
       }, {
         bidder: 'ix',
         params: {
           siteId: 759659
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 211433,
-          pageId: 195898
         }
       }, {
         bidder: 'appnexus',
@@ -515,11 +304,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'ECO_varenicz_halfpage_1'
         }
       }, {
         bidder: 'r2b2',
@@ -562,56 +346,15 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
-        bidder: 'pubmatic_eco_hb',
-        params: {
-          publisherId: '161532',
-          adSlot: '4344938'
-        },
-        bidderModuleName: 'pubmatic'
-      }, {
-        bidder: 'knowlimits-adform',
-        params: {
-          mid: 1693301,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb',
-        params: {
-          mid: 1334491,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'adform_im_hb-mask',
-        params: {
-          mid: 1334494,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 1869824,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
         bidder: 'adform',
         params: {
-          mid: 1109664,
+          mid: 1983957,
           rcur: 'USD'
         }
       }, {
         bidder: 'ix',
         params: {
           siteId: 759660
-        }
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 211427,
-          pageId: 195892
         }
       }, {
         bidder: 'appnexus',
@@ -623,11 +366,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
-        }
-      }, {
-        bidder: 'triplelift',
-        params: {
-          inventoryCode: 'ECO_varenicz_halfpage_1'
         }
       }, {
         bidder: 'r2b2',
@@ -667,20 +405,6 @@ window.cpexWebsiteSettings = {
           sizes: [15, 258]
         },
         bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'knowlimits-adform',
-        params: {
-          mid: 1840872,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 1869829,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
       }, {
         bidder: 'appnexus',
         params: {
