@@ -4,7 +4,7 @@ window.cpexWebsiteSettings = {
   },
   headerbidding: {
     adUnits: [{
-      code: 'leader',
+      code: 'div-gpt-ad-1713770194654-0',
       mediaTypes: {
         banner: {
           sizes: [
@@ -55,7 +55,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'megaboard',
+      code: 'div-gpt-ad-1713770535650-0',
       mediaTypes: {
         banner: {
           sizes: [
@@ -105,7 +105,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'wallpaper-1',
+      code: 'div-gpt-ad-1713770476727-0',
       mediaTypes: {
         banner: {
           sizes: [
@@ -153,7 +153,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'wallpaper-x',
+      code: 'div-gpt-ad-1725884513651-0-Vareni_Mediumrectangle-desktop-pos1',
       mediaTypes: {
         banner: {
           sizes: [
@@ -201,7 +201,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'halfpage-1',
+      code: 'div-gpt-ad-1713770380141-0-halfpage-1',
       mediaTypes: {
         banner: {
           sizes: [
@@ -250,7 +250,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'halfpage-2',
+      code: 'div-gpt-ad-1713770380141-0-halfpage-2',
       mediaTypes: {
         banner: {
           sizes: [
@@ -299,7 +299,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'mediumrectangle-mob-pos1',
+      code: 'div-gpt-ad-1725884934042-0-Vareni_Mediumrectangle-mobil-pos1',
       mediaTypes: {
         banner: {
           sizes: [
@@ -343,7 +343,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'mediumrectangle-mob-pos2',
+      code: 'div-gpt-ad-1725884513651-0-Vareni_Mediumrectangle-mobil-pos2',
       mediaTypes: {
         banner: {
           sizes: [
@@ -387,7 +387,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'strip',
+      code: 'div-gpt-ad-1713770630683-0',
       mediaTypes: {
         banner: {
           sizes: [
@@ -429,7 +429,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'popup',
+      code: 'div-gpt-ad-1713770693280-0',
       mediaTypes: {
         banner: {
           sizes: [
