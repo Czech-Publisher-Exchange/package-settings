@@ -48,12 +48,6 @@ window.cpexWebsiteSettings = {
           adSlot: '6237195'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1985917,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1137472
@@ -341,12 +335,6 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '6237200'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1985620,
-          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -701,12 +689,6 @@ window.cpexWebsiteSettings = {
           adSlot: '6237206'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1985308,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1137482
@@ -767,12 +749,6 @@ window.cpexWebsiteSettings = {
           adSlot: '6237207'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1985918,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1137483
@@ -831,12 +807,6 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '6237208'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1985919,
-          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
