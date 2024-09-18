@@ -49,7 +49,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 1911817,
+          mid: 1985308,
           rcur: 'USD'
         }
       }, {
@@ -115,13 +115,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 1911812,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1911824,
+          mid: 1985620,
           rcur: 'USD'
         }
       }, {
@@ -187,7 +181,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 1911828,
+          mid: 1985917,
           rcur: 'USD'
         }
       }, {
@@ -250,12 +244,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5142426'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1911830,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073966
@@ -315,12 +303,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5142840'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1911837,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073970
@@ -376,12 +358,6 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5142841'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1911835,
-          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -443,12 +419,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5142842'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1911832,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073972
@@ -507,6 +477,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5695402'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1985918,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -715,6 +691,12 @@ window.cpexWebsiteSettings = {
           sizes: [261, 15, 48, 16, 101]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1985919,
+          rcur: 'USD'
+        }
       }, {
         bidder: 'ix',
         params: {
