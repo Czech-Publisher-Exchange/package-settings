@@ -56,7 +56,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -111,7 +111,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -166,7 +166,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -221,7 +221,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -276,7 +276,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -331,7 +331,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -386,7 +386,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -441,7 +441,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -496,7 +496,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -551,7 +551,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -606,7 +606,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -661,7 +661,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -716,7 +716,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -769,7 +769,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -822,7 +822,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -875,7 +875,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -928,7 +928,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -981,7 +981,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -1034,7 +1034,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }]
     }, {
@@ -1089,7 +1089,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1147,7 +1147,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1205,7 +1205,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1263,7 +1263,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1321,7 +1321,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1379,7 +1379,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1437,7 +1437,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1495,7 +1495,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1553,7 +1553,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1611,7 +1611,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1669,7 +1669,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
@@ -1727,14 +1727,13 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418799
+          uid: 'echo_banner_default'
         }
       }],
       filter: {
         maxWidth: 1000
       }
-    }],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.4.0/prebid.min.js'
+    }]
   },
   general: {
     autoRun: false,
