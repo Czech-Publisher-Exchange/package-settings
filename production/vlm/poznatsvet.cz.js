@@ -3480,5 +3480,18 @@ window.cpexWebsiteSettings = {
       height: 480,
       adUnits: ['m-square-1', 'm-square-4', 'm-square-5', 'm-seznam-feed', 'm-square-2', 'm-square-3', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-bottom-1']
     }
+  },
+  ab: {
+    enabled: true,
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/poznatsvet.cz.js',
+        probability: 0.5
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/poznatsvet.cz_b.js',
+        probability: 0.5
+      }
+    }
   }
 }
