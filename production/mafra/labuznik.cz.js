@@ -378,6 +378,313 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
+    }, {
+      code: 'widesquare',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1984828,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673769,
+          pageId: 2011233,
+          formatId: 108753,
+          tagId: 'sas_108753'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'widesquare_clankovy_2',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1984829,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: '480x300_clankovy_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673769,
+          pageId: 2011233,
+          formatId: 131197,
+          tagId: 'sas_131197'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_300x250_souvisejici',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1984834,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673769,
+          pageId: 2011233,
+          formatId: 108778,
+          tagId: 'sas_108778'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_paticka',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1984833,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673769,
+          pageId: 2011233,
+          formatId: 108768,
+          tagId: 'sas_108768'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_sticky',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1984835,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673769,
+          pageId: 2011233,
+          formatId: 108761,
+          tagId: 'sas_108761'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_300x250_clankovy',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1984838,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673769,
+          pageId: 2011233,
+          formatId: 108764,
+          tagId: 'sas_108764'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_branding',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1984839,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673769,
+          pageId: 2011233,
+          formatId: 108767,
+          tagId: 'sas_108767'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_300x250',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1984837,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673769,
+          pageId: 2011233,
+          formatId: 108759,
+          tagId: 'sas_108759'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_vignete',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1984836,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 673769,
+          pageId: 2011233,
+          formatId: 108774,
+          tagId: 'sas_108774'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
     }]
   },
   formats: {
