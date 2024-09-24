@@ -562,6 +562,30 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
+    }, {
+      code: 'm_paticka',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_300x250_souvisejici',
+      mediaTypes: {},
+      bids: [{
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
     }]
   },
   formats: {
