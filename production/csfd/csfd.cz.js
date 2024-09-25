@@ -3372,7 +3372,8 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      offset: 80
     },
     native: {
       enabled: true,
