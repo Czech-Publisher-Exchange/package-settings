@@ -724,7 +724,7 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      enabled: true,
+      enabled: false,
       contentEl: /*S*/ document.getElementsByClassName('kosilka_cely_web')[0] /*E*/,
       hide: [/*S*/ document.getElementById('leaderboard-top') /*E*/],
       contentCSS: ' '
