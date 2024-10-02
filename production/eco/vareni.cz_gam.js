@@ -53,6 +53,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'eco_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '728x90_leader',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'div-gpt-ad-1713770535650-0',
@@ -103,6 +111,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'eco_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '970x210_megaboard',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'div-gpt-ad-1713770476727-0',
@@ -151,6 +167,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'eco_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '480x300_1',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'div-gpt-ad-1725884513651-0-Vareni_Mediumrectangle-desktop-pos1',
@@ -198,6 +222,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '480x300_x',
+          m: 0,
+          g: 'hb'
         }
       }]
     }, {
@@ -248,6 +280,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'eco_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'div-gpt-ad-1713770380141-0-halfpage-2',
@@ -297,6 +337,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'eco_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'div-gpt-ad-1725884934042-0-Vareni_Mediumrectangle-mobil-pos1',
@@ -340,6 +388,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '300x250_mediumrectangle_1',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
@@ -385,6 +441,14 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 'eco_banner_low'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '300x250_mediumrectangle_2',
+          m: 1,
+          g: 'hb'
+        }
       }]
     }, {
       code: 'div-gpt-ad-1713770630683-0',
@@ -426,6 +490,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 'eco_banner_low'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vareni.cz',
+          p: '320x50_strip',
+          m: 1,
+          g: 'hb'
         }
       }]
     }, {
