@@ -1361,6 +1361,12 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_108782'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131494,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -1432,6 +1438,12 @@ window.cpexWebsiteSettings = {
           pageId: 2011218,
           formatId: 108752,
           tagId: 'sas_108752'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131479,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
