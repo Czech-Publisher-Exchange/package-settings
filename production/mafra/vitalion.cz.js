@@ -95,6 +95,12 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_108743'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158884,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -182,6 +188,12 @@ window.cpexWebsiteSettings = {
           pageId: 2011241,
           formatId: 108619,
           tagId: 'sas_108619'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158885,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -280,6 +292,12 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_108618'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158886,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -362,6 +380,12 @@ window.cpexWebsiteSettings = {
           pageId: 2011241,
           formatId: 112405,
           tagId: 'sas_112405'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158887,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
