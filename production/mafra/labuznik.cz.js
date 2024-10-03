@@ -404,7 +404,20 @@ window.cpexWebsiteSettings = {
       }]
     }, {
       code: 'widesquare',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250],
+            [480, 480],
+            [336, 280],
+            [200, 200],
+            [320, 50]
+          ]
+        }
+      },
       bids: [{
         bidder: 'adform',
         params: {
@@ -445,7 +458,20 @@ window.cpexWebsiteSettings = {
       }]
     }, {
       code: 'widesquare_clankovy_2',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [250, 250],
+            [300, 250],
+            [480, 480],
+            [336, 280],
+            [200, 200],
+            [320, 50]
+          ]
+        }
+      },
       bids: [{
         bidder: 'adform',
         params: {
@@ -486,7 +512,19 @@ window.cpexWebsiteSettings = {
       }]
     }, {
       code: 'm_300x250_souvisejici',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
+          ]
+        }
+      },
       bids: [{
         bidder: 'adform',
         params: {
@@ -527,7 +565,19 @@ window.cpexWebsiteSettings = {
       }]
     }, {
       code: 'm_paticka',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
+          ]
+        }
+      },
       bids: [{
         bidder: 'adform',
         params: {
@@ -568,7 +618,30 @@ window.cpexWebsiteSettings = {
       }]
     }, {
       code: 'm_sticky',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 250],
+            [500, 200],
+            [320, 100],
+            [970, 250],
+            [336, 280],
+            [320, 50],
+            [728, 90],
+            [970, 310],
+            [480, 480],
+            [300, 300],
+            [480, 300],
+            [998, 200],
+            [300, 50],
+            [300, 100],
+            [970, 210],
+            [750, 200],
+            [750, 100]
+          ]
+        }
+      },
       bids: [{
         bidder: 'adform',
         params: {
@@ -609,7 +682,19 @@ window.cpexWebsiteSettings = {
       }]
     }, {
       code: 'm_300x250_clankovy',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
+          ]
+        }
+      },
       bids: [{
         bidder: 'adform',
         params: {
@@ -650,7 +735,23 @@ window.cpexWebsiteSettings = {
       }]
     }, {
       code: 'm_branding',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 820],
+            [300, 600],
+            [720, 1280],
+            [768, 1230],
+            [480, 480],
+            [300, 300],
+            [160, 600],
+            [120, 600],
+            [338, 280]
+          ]
+        }
+      },
       bids: [{
         bidder: 'adform',
         params: {
@@ -691,7 +792,19 @@ window.cpexWebsiteSettings = {
       }]
     }, {
       code: 'm_300x250',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
+          ]
+        }
+      },
       bids: [{
         bidder: 'adform',
         params: {
@@ -732,7 +845,22 @@ window.cpexWebsiteSettings = {
       }]
     }, {
       code: 'm_vignete',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [720, 1280],
+            [480, 820],
+            [300, 600],
+            [300, 250],
+            [480, 480],
+            [300, 300],
+            [480, 300],
+            [160, 600],
+            [250, 250],
+            [336, 280]
+          ]
+        }
+      },
       bids: [{
         bidder: 'adform',
         params: {
