@@ -3005,7 +3005,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.4.0/prebid.min.js'
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.15.0/prebid.min.js'
   },
   formats: {
     skin: {
