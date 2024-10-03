@@ -95,6 +95,12 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_108743'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157924,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -182,6 +188,12 @@ window.cpexWebsiteSettings = {
           pageId: 2011239,
           formatId: 108619,
           tagId: 'sas_108619'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157925,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -280,6 +292,12 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_108618'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157926,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -373,6 +391,12 @@ window.cpexWebsiteSettings = {
           pageId: 2011239,
           formatId: 108759,
           tagId: 'sas_108759'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157927,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -474,6 +498,12 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_108767'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157928,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -541,6 +571,12 @@ window.cpexWebsiteSettings = {
           p: '320x100',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157929,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -638,6 +674,12 @@ window.cpexWebsiteSettings = {
           tagId: 'sas_108768'
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157930,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -727,6 +769,12 @@ window.cpexWebsiteSettings = {
           pageId: 2011239,
           formatId: 108752,
           tagId: 'sas_108752'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157931,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
