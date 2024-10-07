@@ -1886,6 +1886,12 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'mafra_banner_default'
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
@@ -1900,6 +1906,8 @@ window.cpexWebsiteSettings = {
           siteId: 3158888,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
