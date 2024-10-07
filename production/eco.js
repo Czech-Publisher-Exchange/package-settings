@@ -38,7 +38,7 @@ window.cpexPublisherSettings = {
   },
   headerbidding: {
     auctionTimeoutMs: 2000,
-    userIDs: ['czechAdId']
+    userIDs: ['czechAdId', 'id5Id', 'criteo', 'sharedId']
   },
   general: {
     errorApiKey: 'hbp_DAmvPZplPFWmFYRT4W16UT3Qs47LcW1iHniv',
