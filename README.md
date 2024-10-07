@@ -213,6 +213,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `analytics`          | Array, names of adapters to enable        | ['id5Analytics'] |
 | `bidderSettings`     | Object, allows custom bidder configuration        |          |
 | `customBuckets`      | Array of Numbers, each is ceiling of new tier     |          |
+| `priceFloorsUrl`     | String, path to dynamic price floor data (JSON)   |          |
 
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 [Bidder Settings reference](https://docs.prebid.org/dev-docs/publisher-api-reference/bidderSettings.html)
