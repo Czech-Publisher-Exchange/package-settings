@@ -9,10 +9,13 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [2000, 1400],
             [998, 200],
             [728, 90],
             [970, 210],
-            [970, 90]
+            [970, 90],
+            [2000, 1200],
+            [1920, 1080]
           ]
         }
       },
@@ -75,7 +78,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -90,7 +93,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108619,
           tagId: 'sas_108619'
         }
@@ -100,6 +103,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131951,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_infinite',
@@ -182,14 +187,22 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x600_infinite',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 132834,
           tagId: 'sas_132834'
         }
@@ -199,6 +212,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131952,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika',
@@ -281,7 +296,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -296,7 +311,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108740,
           tagId: 'sas_108740'
         }
@@ -306,6 +321,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131953,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead_rubrika_spodni',
@@ -388,7 +405,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -403,7 +420,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108741,
           tagId: 'sas_108741'
         }
@@ -413,6 +430,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131954,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250',
@@ -494,7 +513,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -509,7 +528,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108759,
           tagId: 'sas_108759'
         }
@@ -519,6 +538,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131955,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_300x250_infinite',
@@ -600,14 +621,22 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'homepage.idnes.cz',
+          p: '300x250_infinite',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108773,
           tagId: 'sas_108773'
         }
@@ -617,6 +646,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131956,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -627,8 +658,13 @@ window.cpexWebsiteSettings = {
             [250, 250],
             [480, 820],
             [300, 600],
+            [720, 1280],
             [768, 1230],
-            [480, 480]
+            [480, 480],
+            [300, 300],
+            [160, 600],
+            [120, 600],
+            [338, 280]
           ]
         }
       },
@@ -639,7 +675,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148210,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 10, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -648,7 +684,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148208,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 10, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -697,7 +733,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -712,7 +748,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108767,
           tagId: 'sas_108767'
         }
@@ -722,6 +758,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131957,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_paticka',
@@ -803,7 +841,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -818,7 +856,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108768,
           tagId: 'sas_108768'
         }
@@ -828,6 +866,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131958,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -920,14 +960,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108761,
           tagId: 'sas_108761'
         }
@@ -937,6 +977,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131959,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'widesquare',
@@ -1019,7 +1061,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1034,7 +1076,7 @@ window.cpexWebsiteSettings = {
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108753,
           tagId: 'sas_108753'
         }
@@ -1044,6 +1086,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131960,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_vignete',
@@ -1122,14 +1166,14 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108774,
           tagId: 'sas_108774'
         }
@@ -1139,6 +1183,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131961,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'nativ',
@@ -1161,6 +1207,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954801,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1099254
@@ -1174,7 +1227,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_native'
+          uid: 418807
         }
       }]
     }, {
@@ -1198,6 +1251,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954800,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1099267
@@ -1211,7 +1271,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_native'
+          uid: 418807
         }
       }]
     }, {
@@ -1263,6 +1323,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954798,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1072429
@@ -1282,17 +1349,25 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108782,
           tagId: 'sas_108782'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131494,
+          networkId: 131
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper',
@@ -1333,6 +1408,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954799,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 144582
@@ -1346,17 +1428,25 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 650958,
-          pageId: 1993058,
+          pageId: 2011218,
           formatId: 108752,
           tagId: 'sas_108752'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131479,
+          networkId: 131
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
@@ -1366,11 +1456,11 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
       backgroundEl: /*S*/ document.getElementById('main') /*E*/,
       contentCSS: ' ',
-      hide: [/*S*/ document.getElementById('r-leaderboard-hp') /*E*/],
-      adUnitsForced: ['branding']
+      hide: [/*S*/ document.getElementById('r-leaderboard-hp') /*E*/]
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      offset: 44
     },
     slideup: {
       enabled: true,
