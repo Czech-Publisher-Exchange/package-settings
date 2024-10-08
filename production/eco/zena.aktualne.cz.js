@@ -98,7 +98,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -213,7 +213,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -321,7 +321,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -415,7 +415,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -509,7 +509,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -624,7 +624,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -737,7 +737,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -850,7 +850,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -951,7 +951,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -1019,7 +1019,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'eco_banner_low'
+          uid: 418810
         }
       }]
     }]
