@@ -8,7 +8,8 @@ window.cpexWebsiteSettings = {
       contentCSS: ' '
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      offset: 44
     },
     slideup: {
       enabled: true,
@@ -44,7 +45,9 @@ window.cpexWebsiteSettings = {
             [998, 200],
             [728, 90],
             [970, 210],
-            [970, 90]
+            [970, 90],
+            [2000, 1200],
+            [1920, 1080]
           ]
         }
       },
@@ -55,7 +58,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1147354,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 259, 2, 96, 55]
+          sizes: [230, 259, 2, 96, 55, 265]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -64,7 +67,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1147356,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 259, 2, 96, 55]
+          sizes: [230, 259, 2, 96, 55, 265]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -104,9 +107,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156322
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -117,6 +127,21 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108619,
+          tagId: 'sas_108619'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158148,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -125,7 +150,11 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250]
+            [250, 250],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -136,7 +165,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1140936,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -145,7 +174,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1140938,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -191,9 +220,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156307
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -202,6 +238,21 @@ window.cpexWebsiteSettings = {
           p: '300x250',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108743,
+          tagId: 'sas_108743'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158149,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -215,7 +266,10 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [160, 600],
-            [250, 250]
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -226,7 +280,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1147572,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9, 14]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -235,7 +289,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1147612,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9, 14]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -281,9 +335,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156324
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -292,6 +353,21 @@ window.cpexWebsiteSettings = {
           p: '300x600',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108618,
+          tagId: 'sas_108618'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158150,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -304,7 +380,11 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [300, 300],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -315,7 +395,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148590,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -324,7 +404,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148630,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -370,9 +450,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156328
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -381,6 +468,21 @@ window.cpexWebsiteSettings = {
           p: '300x600_spodni',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108739,
+          tagId: 'sas_108739'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158151,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -393,7 +495,11 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [300, 300],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -404,7 +510,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1906594,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -413,7 +519,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1906698,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -459,9 +565,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156326
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -470,6 +583,21 @@ window.cpexWebsiteSettings = {
           p: '300x600_rubrika',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108740,
+          tagId: 'sas_108740'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158152,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -482,7 +610,11 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [300, 300],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -493,7 +625,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1906790,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -502,7 +634,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1906848,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -548,9 +680,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156327
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -559,6 +698,21 @@ window.cpexWebsiteSettings = {
           p: '300x600_rubrika_spodni',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108741,
+          tagId: 'sas_108741'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158153,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -571,7 +725,11 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [300, 300],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -582,7 +740,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1906888,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -591,7 +749,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1908204,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -637,9 +795,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156325
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -648,6 +813,21 @@ window.cpexWebsiteSettings = {
           p: '300x600_fotogalerie',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108742,
+          tagId: 'sas_108742'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158154,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -659,7 +839,11 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [250, 250],
-            [480, 480]
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -670,7 +854,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1145536,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -679,7 +863,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1145534,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -725,9 +909,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156329
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -736,6 +927,21 @@ window.cpexWebsiteSettings = {
           p: '300x250',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108759,
+          tagId: 'sas_108759'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158155,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -747,7 +953,11 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [250, 250],
-            [480, 480]
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -758,7 +968,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1152568,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -767,7 +977,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1152630,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -813,9 +1023,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156331
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -826,6 +1043,21 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108764,
+          tagId: 'sas_108764'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158156,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -834,7 +1066,12 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250]
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -845,7 +1082,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977104,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -854,7 +1091,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977932,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -900,9 +1137,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156357
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -913,6 +1157,21 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108779,
+          tagId: 'sas_108779'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158157,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -921,7 +1180,12 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250]
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -932,7 +1196,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977102,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -941,7 +1205,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977930,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -987,9 +1251,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156355
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -998,6 +1269,21 @@ window.cpexWebsiteSettings = {
           p: '300x250_souvisejici',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108778,
+          tagId: 'sas_108778'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158158,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1010,8 +1296,14 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
+            [300, 600],
+            [720, 1280],
             [768, 1230],
-            [480, 480]
+            [480, 480],
+            [300, 300],
+            [160, 600],
+            [120, 600],
+            [338, 280]
           ]
         }
       },
@@ -1022,7 +1314,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148302,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1031,7 +1323,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148182,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1077,9 +1369,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156358
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1090,6 +1389,21 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108767,
+          tagId: 'sas_108767'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158159,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -1097,7 +1411,13 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [300, 250]
+            [300, 250],
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -1108,7 +1428,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1148980,
           accountId: '10900',
           position: 'atf',
-          sizes: [15]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1117,7 +1437,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1149018,
           accountId: '10900',
           position: 'atf',
-          sizes: [15]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1163,9 +1483,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156362
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1174,6 +1501,21 @@ window.cpexWebsiteSettings = {
           p: '300x250_paticka',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108768,
+          tagId: 'sas_108768'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158160,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1190,7 +1532,17 @@ window.cpexWebsiteSettings = {
             [970, 250],
             [336, 280],
             [320, 50],
-            [728, 90]
+            [728, 90],
+            [970, 310],
+            [480, 480],
+            [300, 300],
+            [480, 300],
+            [998, 200],
+            [300, 50],
+            [300, 100],
+            [970, 210],
+            [750, 200],
+            [750, 100]
           ]
         }
       },
@@ -1201,7 +1553,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1149080,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 15, 258, 117, 57, 16, 43, 2]
+          sizes: [60, 15, 258, 117, 57, 16, 43, 2, 94, 261, 48, 83, 259, 44, 19, 96, 40, 39]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1210,7 +1562,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1149082,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 15, 258, 117, 57, 16, 43, 2]
+          sizes: [60, 15, 258, 117, 57, 16, 43, 2, 94, 261, 48, 83, 259, 44, 19, 96, 40, 39]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1256,9 +1608,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156363
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1267,6 +1626,21 @@ window.cpexWebsiteSettings = {
           p: 'sticky',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108761,
+          tagId: 'sas_108761'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158161,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1278,7 +1652,13 @@ window.cpexWebsiteSettings = {
           sizes: [
             [970, 310],
             [728, 90],
-            [970, 250]
+            [970, 250],
+            [970, 210],
+            [500, 200],
+            [300, 300],
+            [480, 300],
+            [336, 280],
+            [750, 200]
           ]
         }
       },
@@ -1289,7 +1669,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1154074,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 2, 57]
+          sizes: [94, 2, 57, 96, 258, 48, 83, 16, 40]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1298,7 +1678,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1154076,
           accountId: '10900',
           position: 'atf',
-          sizes: [94, 2, 57]
+          sizes: [94, 2, 57, 96, 258, 48, 83, 16, 40]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1338,9 +1718,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156370
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1349,6 +1736,21 @@ window.cpexWebsiteSettings = {
           p: '970x310',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108752,
+          tagId: 'sas_108752'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158162,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1363,7 +1765,9 @@ window.cpexWebsiteSettings = {
             [250, 250],
             [300, 250],
             [480, 480],
-            [336, 280]
+            [336, 280],
+            [200, 200],
+            [320, 50]
           ]
         }
       },
@@ -1374,7 +1778,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1142436,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261, 16]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1383,7 +1787,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1142438,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261, 16]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1429,9 +1833,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156373
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1440,6 +1851,21 @@ window.cpexWebsiteSettings = {
           p: '480x300',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108753,
+          tagId: 'sas_108753'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158163,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1454,7 +1880,9 @@ window.cpexWebsiteSettings = {
             [250, 250],
             [300, 250],
             [480, 480],
-            [336, 280]
+            [336, 280],
+            [200, 200],
+            [320, 50]
           ]
         }
       },
@@ -1465,7 +1893,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1940154,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261, 16]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1474,7 +1902,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1943066,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261, 16]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1520,9 +1948,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156376
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1531,6 +1966,21 @@ window.cpexWebsiteSettings = {
           p: '480x300_spodni',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108754,
+          tagId: 'sas_108754'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158164,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1545,7 +1995,9 @@ window.cpexWebsiteSettings = {
             [250, 250],
             [300, 250],
             [480, 480],
-            [336, 280]
+            [336, 280],
+            [200, 200],
+            [320, 50]
           ]
         }
       },
@@ -1556,7 +2008,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1143142,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261, 16]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1565,7 +2017,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1143140,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261, 16]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1611,9 +2063,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156375
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1622,6 +2081,21 @@ window.cpexWebsiteSettings = {
           p: '480x300_clankovy',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108758,
+          tagId: 'sas_108758'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158165,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1635,7 +2109,9 @@ window.cpexWebsiteSettings = {
             [998, 200],
             [728, 90],
             [970, 210],
-            [970, 90]
+            [970, 90],
+            [2000, 1200],
+            [1920, 1080]
           ]
         }
       },
@@ -1646,7 +2122,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2157456,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 259, 2, 96, 55]
+          sizes: [230, 259, 2, 96, 55, 265]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1655,7 +2131,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2157458,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 259, 2, 96, 55]
+          sizes: [230, 259, 2, 96, 55, 265]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1695,9 +2171,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156323
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1706,6 +2189,21 @@ window.cpexWebsiteSettings = {
           p: 'branding_fotogalerie',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108757,
+          tagId: 'sas_108757'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158166,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1717,7 +2215,11 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [250, 250],
-            [480, 480]
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -1728,7 +2230,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977096,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1737,7 +2239,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977924,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1783,9 +2285,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156333
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1794,6 +2303,21 @@ window.cpexWebsiteSettings = {
           p: '300x250_clankovy_opak_1',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108775,
+          tagId: 'sas_108775'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158167,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1805,7 +2329,11 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [250, 250],
-            [480, 480]
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -1816,7 +2344,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977098,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1825,7 +2353,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977926,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1871,9 +2399,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156342
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1884,6 +2419,21 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108776,
+          tagId: 'sas_108776'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158168,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -1892,7 +2442,12 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250]
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -1903,7 +2458,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977100,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1912,7 +2467,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1977928,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1958,9 +2513,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156346
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1969,6 +2531,21 @@ window.cpexWebsiteSettings = {
           p: '300x250_clankovy_opak_3',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108777,
+          tagId: 'sas_108777'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158169,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1980,7 +2557,11 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [250, 250],
-            [480, 480]
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -1991,7 +2572,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1149736,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2000,7 +2581,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1149740,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2046,9 +2627,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156347
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2057,6 +2645,21 @@ window.cpexWebsiteSettings = {
           p: '300x250_foto_end',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108765,
+          tagId: 'sas_108765'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158170,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2068,7 +2671,11 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [250, 250],
-            [480, 480]
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -2079,7 +2686,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1154402,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2088,7 +2695,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1154404,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2134,9 +2741,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156349
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2145,6 +2759,21 @@ window.cpexWebsiteSettings = {
           p: '300x250_foto_mid',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108766,
+          tagId: 'sas_108766'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158171,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2156,7 +2785,11 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [250, 250],
-            [480, 480]
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -2167,7 +2800,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1154406,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2176,7 +2809,7 @@ window.cpexWebsiteSettings = {
           zoneId: 1154408,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2222,9 +2855,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156351
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2233,6 +2873,21 @@ window.cpexWebsiteSettings = {
           p: '300x250_foto_start',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108760,
+          tagId: 'sas_108760'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158172,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2245,7 +2900,14 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480]
+            [300, 600],
+            [720, 1280],
+            [768, 1230],
+            [480, 480],
+            [300, 300],
+            [160, 600],
+            [120, 600],
+            [338, 280]
           ]
         }
       },
@@ -2256,7 +2918,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2149610,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2265,7 +2927,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2149612,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2311,9 +2973,16 @@ window.cpexWebsiteSettings = {
           placementId: 27156359
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2322,6 +2991,21 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_foto_scroll',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108783,
+          tagId: 'sas_108783'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158173,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2334,7 +3018,11 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [300, 300],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -2345,7 +3033,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2592642,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2354,7 +3042,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2592644,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2400,9 +3088,16 @@ window.cpexWebsiteSettings = {
           placementId: 27663125
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2411,6 +3106,21 @@ window.cpexWebsiteSettings = {
           p: '300x600_lazyload',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 131199,
+          tagId: 'sas_131199'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158174,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2423,7 +3133,14 @@ window.cpexWebsiteSettings = {
             [300, 250],
             [250, 250],
             [480, 820],
-            [480, 480]
+            [300, 600],
+            [720, 1280],
+            [768, 1230],
+            [480, 480],
+            [300, 300],
+            [160, 600],
+            [120, 600],
+            [338, 280]
           ]
         }
       },
@@ -2434,7 +3151,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2653044,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2443,7 +3160,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2653088,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 256, 261]
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2489,9 +3206,16 @@ window.cpexWebsiteSettings = {
           placementId: 28185829
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2500,6 +3224,21 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_foto_scroll_2',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108784,
+          tagId: 'sas_108784'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158175,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2514,7 +3253,9 @@ window.cpexWebsiteSettings = {
             [250, 250],
             [300, 250],
             [480, 480],
-            [336, 280]
+            [336, 280],
+            [200, 200],
+            [320, 50]
           ]
         }
       },
@@ -2525,7 +3266,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2672392,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261, 16]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'pubmatic',
@@ -2570,9 +3311,16 @@ window.cpexWebsiteSettings = {
           placementId: 28291623
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2581,6 +3329,21 @@ window.cpexWebsiteSettings = {
           p: '480x300_clankovy_2',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 131197,
+          tagId: 'sas_131197'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158176,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2592,7 +3355,14 @@ window.cpexWebsiteSettings = {
           sizes: [
             [720, 1280],
             [480, 820],
-            [300, 600]
+            [300, 600],
+            [300, 250],
+            [480, 480],
+            [300, 300],
+            [480, 300],
+            [160, 600],
+            [250, 250],
+            [336, 280]
           ]
         }
       },
@@ -2603,7 +3373,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2795920,
           accountId: '10900',
           position: 'atf',
-          sizes: [484, 256, 10]
+          sizes: [484, 256, 10, 15, 261, 48, 83, 9, 14, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2612,7 +3382,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2800818,
           accountId: '10900',
           position: 'atf',
-          sizes: [484, 256, 10]
+          sizes: [484, 256, 10, 15, 261, 48, 83, 9, 14, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2647,20 +3417,36 @@ window.cpexWebsiteSettings = {
           siteId: 958827
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 221098,
-          pageId: 204845
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 29858811
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108774,
+          tagId: 'sas_108774'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158177,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2673,7 +3459,11 @@ window.cpexWebsiteSettings = {
             [300, 600],
             [300, 300],
             [300, 250],
-            [160, 600]
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
           ]
         }
       },
@@ -2684,7 +3474,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2866828,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2693,7 +3483,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3275000,
           accountId: '10900',
           position: 'atf',
-          sizes: [10, 48, 15, 9]
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2708,6 +3498,13 @@ window.cpexWebsiteSettings = {
           mid: 1679059,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954694,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -2725,9 +3522,16 @@ window.cpexWebsiteSettings = {
           placementId: 30026264
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2736,6 +3540,21 @@ window.cpexWebsiteSettings = {
           p: '300x600_rubrika_lazyload',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 131200,
+          tagId: 'sas_131200'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158178,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2747,7 +3566,11 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [250, 250],
-            [480, 480]
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -2758,7 +3581,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2877598,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14, 261]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -2772,6 +3595,13 @@ window.cpexWebsiteSettings = {
           mid: 1691342,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954699,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -2789,9 +3619,16 @@ window.cpexWebsiteSettings = {
           placementId: 30130343
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2802,6 +3639,21 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 131201,
+          tagId: 'sas_131201'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158179,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -2810,7 +3662,12 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250]
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -2821,7 +3678,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2877600,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -2835,6 +3692,13 @@ window.cpexWebsiteSettings = {
           mid: 1691343,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954701,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -2852,9 +3716,16 @@ window.cpexWebsiteSettings = {
           placementId: 30130346
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2865,6 +3736,21 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 131202,
+          tagId: 'sas_131202'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158180,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }, {
@@ -2873,7 +3759,12 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [250, 250]
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
           ]
         }
       },
@@ -2884,7 +3775,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2877602,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 14]
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -2898,6 +3789,13 @@ window.cpexWebsiteSettings = {
           mid: 1691341,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954700,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -2915,9 +3813,16 @@ window.cpexWebsiteSettings = {
           placementId: 30130348
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2926,6 +3831,21 @@ window.cpexWebsiteSettings = {
           p: '300x250_foto_mid4',
           m: 1,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 131203,
+          tagId: 'sas_131203'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158181,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2951,6 +3871,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954710,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1099263
@@ -2963,7 +3890,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418807
         }
       }]
     }, {
@@ -2987,6 +3915,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954707,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1099276
@@ -2999,7 +3934,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418807
         }
       }]
     }, {
@@ -3012,7 +3948,9 @@ window.cpexWebsiteSettings = {
             [250, 250],
             [300, 250],
             [480, 480],
-            [336, 280]
+            [336, 280],
+            [200, 200],
+            [320, 50]
           ]
         }
       },
@@ -3023,7 +3961,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3038996,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261, 16]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -3032,7 +3970,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3274978,
           accountId: '10900',
           position: 'atf',
-          sizes: [83, 48, 14, 15, 261, 16]
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3047,6 +3985,13 @@ window.cpexWebsiteSettings = {
           mid: 1781467,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954698,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -3064,9 +4009,16 @@ window.cpexWebsiteSettings = {
           placementId: 30850656
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -3075,6 +4027,21 @@ window.cpexWebsiteSettings = {
           p: '480x300_clankovy_3',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 131198,
+          tagId: 'sas_131198'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158184,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -3086,7 +4053,23 @@ window.cpexWebsiteSettings = {
           sizes: [
             [320, 150],
             [300, 250],
-            [500, 200]
+            [500, 200],
+            [320, 100],
+            [970, 250],
+            [336, 280],
+            [320, 50],
+            [728, 90],
+            [970, 310],
+            [580, 480],
+            [300, 300],
+            [480, 300],
+            [998, 200],
+            [300, 50],
+            [300, 100],
+            [970, 210],
+            [336, 280],
+            [750, 200],
+            [750, 100]
           ]
         }
       },
@@ -3097,7 +4080,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3210332,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 15, 258]
+          sizes: [60, 15, 258, 117, 57, 16, 43, 2, 94, 48, 83, 259, 44, 19, 96, 16, 40, 39]
         }
       }, {
         bidder: 'pubmatic',
@@ -3111,6 +4094,13 @@ window.cpexWebsiteSettings = {
           mid: 1848888,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954697,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'ix',
         params: {
@@ -3128,9 +4118,31 @@ window.cpexWebsiteSettings = {
           placementId: 31818876
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 650958,
+          pageId: 1966138,
+          formatId: 108782,
+          tagId: 'sas_108782'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3158185,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -3155,16 +4167,183 @@ window.cpexWebsiteSettings = {
           sizes: [203]
         }
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6015560'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1917486,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1114166
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 32992456
+        }
       }],
       video: {
         divId: 'outstream'
       }
-    }],
-    auctionTimeoutMs: 3000
+    }, {
+      code: 'm_nativ_clankovy',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450168,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954695,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118687
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055052
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418807
+        }
+      }]
+    }, {
+      code: 'm_nativ_clankovy_horni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450208,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954708,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118706
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055046
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418807
+        }
+      }]
+    }, {
+      code: 'm_nativ_clankovy_spodni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3450248,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954696,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118726
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055056
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418807
+        }
+      }]
+    }, {
+      code: 'nativ_clankovy',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3450284,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1954709,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1118744
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33055045
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418807
+        }
+      }]
+    }]
   }
 }
