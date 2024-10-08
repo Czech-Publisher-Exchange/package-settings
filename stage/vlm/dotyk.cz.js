@@ -68,13 +68,23 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_leaderboard-top'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -144,13 +154,15 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_square-1'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -217,13 +229,15 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_leaderboard-bottom'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -297,13 +311,23 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_skyscraper-1'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '300x600_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -383,7 +407,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -391,14 +415,19 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_dotyk_m-square-1'
         }
       }, {
-        bidder: 'performax',
+        bidder: 'r2b2',
         params: {
-          tagid: '28248'
+          d: 'dotyk.cz',
+          p: '480x480_1',
+          m: 1,
+          g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
-          tagid: '28251'
+          tagid: '28248'
         }
       }],
       filter: {
@@ -467,13 +496,23 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_m-square-2'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -547,7 +586,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -557,6 +596,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -615,8 +656,18 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_native',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -646,7 +697,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -699,8 +750,18 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '336x280_native',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -730,7 +791,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'performax',
@@ -792,13 +853,15 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_cz_Skyscraper_3'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -858,13 +921,15 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotyk_cz_skyscraper_4'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -932,13 +997,23 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotykcz_m_square_3_300x300'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1011,13 +1086,23 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotykcz_m_square_4_480x480'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_4',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1090,13 +1175,23 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotykcz_m_square_5_480x480'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_5',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1169,13 +1264,31 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotykcz_m_square_bottom_1_300x250'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_bottom',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '300x300_bottom_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1193,9 +1306,7 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [336, 280],
-            [480, 820],
-            [480, 480],
-            [720, 1280]
+            [480, 480]
           ]
         }
       },
@@ -1206,7 +1317,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2681990,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 256, 261, 484]
+          sizes: [48, 15, 16, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1215,7 +1326,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2681996,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 16, 256, 261, 484]
+          sizes: [48, 15, 16, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1250,7 +1361,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -1258,10 +1369,80 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_dotykcz_m_square_gallery_1'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_gallery_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
         bidder: 'performax',
         params: {
           tagid: '28218'
         }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [720, 1280],
+            [480, 820]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3505194,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [484, 256]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3505198,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [484, 256]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6142364'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 33866483
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1329,13 +1510,23 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotykcz_m_square_gallery_2'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_gallery_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1408,13 +1599,23 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_dotykcz_m_square_gallery_3'
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x480_gallery_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1463,7 +1664,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -1489,7 +1690,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -1515,7 +1716,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -1541,7 +1742,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -1567,7 +1768,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -1630,13 +1831,15 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_Dotyk_skyscraper-2'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1698,8 +1901,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1755,8 +1960,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -1825,8 +2032,18 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_1',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -1893,7 +2110,22 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '28251'
         }
       }],
       filter: {
@@ -1924,7 +2156,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -1955,7 +2187,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -1981,7 +2213,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -2007,7 +2239,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -2033,7 +2265,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -2059,7 +2291,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -2085,7 +2317,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }],
       filter: {
@@ -2138,8 +2370,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -2190,8 +2424,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2237,8 +2473,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2284,8 +2522,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2331,8 +2571,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2378,8 +2620,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2425,8 +2669,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2478,8 +2724,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2525,8 +2773,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2572,8 +2822,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -2629,7 +2881,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -2639,6 +2891,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -2702,8 +2956,18 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: 'vignette',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -2761,8 +3025,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -2814,8 +3080,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -2861,8 +3129,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -2914,8 +3184,18 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -2972,8 +3252,18 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -3030,8 +3320,18 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_4',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -3088,8 +3388,18 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '480x300_5',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -3152,8 +3462,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -3203,8 +3515,10 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -3265,7 +3579,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -3275,6 +3589,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -3331,7 +3647,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -3341,6 +3657,8 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }, {
         bidder: 'performax',
         params: {
@@ -3405,9 +3723,6 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-bottom-1', 'm-square-bottom-2', 'm-square-bottom-3', 'm-square-4', 'm-square-5', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-seznam-feed', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9'],
       width: 480,
       height: 480
-    },
-    vignette: {
-      enabled: false
     }
   },
   adserver: {
@@ -3418,6 +3733,18 @@ window.cpexWebsiteSettings = {
       index: 3,
       magnite: 4,
       xandr: 164
+    }
+  },
+  ab: {
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/dotyk.cz.js',
+        probability: 0.5
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/dotyk.cz_b.js',
+        probability: 0.5
+      }
     }
   }
 }
