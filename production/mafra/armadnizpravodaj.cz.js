@@ -42,7 +42,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 418806
+          uid: 'mafra_banner_default'
         }
       }, {
         bidder: 'r2b2',
