@@ -46,6 +46,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'pubmatic'
       }, {
+        bidder: 'knowlimits-adform',
+        params: {
+          mid: 1901540,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'adform_im_hb',
         params: {
           mid: 1334582,
@@ -71,14 +78,21 @@ window.cpexWebsiteSettings = {
           siteId: 759674
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211478,
+          pageId: 195943
+        }
+      }, {
         bidder: 'appnexus',
         params: {
-          placementId: 22213120
+          placementId: 32622015
         }
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -92,6 +106,12 @@ window.cpexWebsiteSettings = {
           p: '728x90_2',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131502,
+          networkId: 393
         }
       }]
     }, {
@@ -173,6 +193,12 @@ window.cpexWebsiteSettings = {
           siteId: 759673
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211479,
+          pageId: 195944
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213128
@@ -180,7 +206,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -194,6 +221,12 @@ window.cpexWebsiteSettings = {
           p: '300x600',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131504,
+          networkId: 393
         }
       }]
     }, {
@@ -274,6 +307,12 @@ window.cpexWebsiteSettings = {
           siteId: 759675
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211477,
+          pageId: 195942
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213123
@@ -281,7 +320,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -295,6 +335,12 @@ window.cpexWebsiteSettings = {
           p: '300x250',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131503,
+          networkId: 393
         }
       }]
     }, {
@@ -346,6 +392,12 @@ window.cpexWebsiteSettings = {
           siteId: 809614
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211475,
+          pageId: 195940
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213136
@@ -353,7 +405,8 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
@@ -368,14 +421,24 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131505,
+          networkId: 393
+        }
       }]
     }, {
       code: 'mediumrectangle-mob-pos1',
       mediaTypes: {
         banner: {
           sizes: [
-            [480, 820],
-            [480, 480]
+            [300, 300],
+            [300, 250],
+            [250, 250],
+            [300, 50],
+            [480, 480],
+            [480, 820]
           ]
         }
       },
@@ -386,7 +449,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142966,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 261]
+          sizes: [48, 15, 14, 44, 261, 256]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -395,7 +458,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142968,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 261]
+          sizes: [48, 15, 14, 44, 261, 256]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -431,6 +494,12 @@ window.cpexWebsiteSettings = {
           siteId: 809612
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211480,
+          pageId: 195945
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213138
@@ -438,12 +507,27 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_centrumcz_mediumrectangle_mob_pos1'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'centrum.cz',
+          p: '300x250_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131506,
+          networkId: 393
         }
       }]
     }, {
@@ -451,7 +535,10 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [480, 820],
+            [300, 300],
+            [300, 250],
+            [250, 250],
+            [300, 50],
             [480, 480]
           ]
         }
@@ -463,7 +550,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142970,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 261]
+          sizes: [48, 15, 14, 44, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -472,7 +559,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142972,
           accountId: '10900',
           position: 'atf',
-          sizes: [256, 261]
+          sizes: [48, 15, 14, 44, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -508,6 +595,12 @@ window.cpexWebsiteSettings = {
           siteId: 809613
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 211474,
+          pageId: 195939
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213139
@@ -515,12 +608,27 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418810
         }
       }, {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_centrumcz_mediumrectangle_mob_pos2'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'centrum.cz',
+          p: '300x250_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131507,
+          networkId: 393
         }
       }]
     }, {
@@ -574,11 +682,19 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          uid: 418810
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3131508,
+          networkId: 393
         }
       }]
     }],
-    currency: 'USD'
+    currency: 'USD',
+    analytics: ['cpexAnalytics', 'pubmatic']
   },
   formats: {
     skin: {
@@ -595,6 +711,7 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     interscroller: {
+      adUnits: ['reklama-mediumrectangle1'],
       enabled: true
     }
   },
