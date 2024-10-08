@@ -3762,6 +3762,56 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000,
         urlHasNot: 'seznam-hp=1'
       }
+    }, {
+      code: 'skyscraper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [160, 600],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3578132,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 15, 9, 48]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6276714'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1995924,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 34191119
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 'vlm_banner_low'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   formats: {
