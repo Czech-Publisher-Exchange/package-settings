@@ -63,7 +63,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -72,12 +74,6 @@ window.cpexWebsiteSettings = {
           p: '970x250_3',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113852,
-          networkId: 393
         }
       }],
       filter: {
@@ -139,7 +135,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -148,12 +146,6 @@ window.cpexWebsiteSettings = {
           p: '320x100_3',
           m: 1,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113852,
-          networkId: 393
         }
       }],
       filter: {
@@ -167,7 +159,8 @@ window.cpexWebsiteSettings = {
             [2000, 1400],
             [970, 250],
             [970, 210],
-            [970, 310]
+            [970, 310],
+            [998, 200]
           ]
         }
       },
@@ -178,7 +171,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2858978,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 57, 96, 94]
+          sizes: [230, 57, 96, 94, 259]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -187,7 +180,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2859008,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 57, 96, 94]
+          sizes: [230, 57, 96, 94, 259]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -216,12 +209,14 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 29963299
+          placementId: 30273521
         }
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -238,12 +233,6 @@ window.cpexWebsiteSettings = {
           p: 'branding',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113853,
-          networkId: 393
         }
       }],
       filter: {
@@ -298,12 +287,14 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 29963299
+          placementId: 30273521
         }
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -312,12 +303,6 @@ window.cpexWebsiteSettings = {
           p: 'branding',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113853,
-          networkId: 393
         }
       }],
       filter: {
@@ -380,7 +365,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -389,12 +376,6 @@ window.cpexWebsiteSettings = {
           p: '970x250_2',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113854,
-          networkId: 393
         }
       }],
       filter: {
@@ -455,7 +436,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -464,12 +447,6 @@ window.cpexWebsiteSettings = {
           p: '320x100_2',
           m: 1,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113854,
-          networkId: 393
         }
       }],
       filter: {
@@ -531,7 +508,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -540,12 +519,6 @@ window.cpexWebsiteSettings = {
           p: '480x300_2',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113861,
-          networkId: 393
         }
       }]
     }, {
@@ -568,7 +541,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2858982,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -577,7 +550,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2859012,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -611,7 +584,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -628,12 +603,6 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_1',
           m: 1,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113856,
-          networkId: 393
         }
       }],
       filter: {
@@ -659,7 +628,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2858986,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -668,7 +637,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2859014,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -702,7 +671,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -719,12 +690,6 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_2',
           m: 1,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113857,
-          networkId: 393
         }
       }],
       filter: {
@@ -786,7 +751,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -795,12 +762,6 @@ window.cpexWebsiteSettings = {
           p: '300x600_1',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113859,
-          networkId: 393
         }
       }]
     }, {
@@ -859,7 +820,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -868,12 +831,6 @@ window.cpexWebsiteSettings = {
           p: '300x600_2',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113860,
-          networkId: 393
         }
       }]
     }, {
@@ -932,7 +889,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -941,12 +900,6 @@ window.cpexWebsiteSettings = {
           p: '480x300_1',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113862,
-          networkId: 393
         }
       }]
     }, {
@@ -969,7 +922,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2858996,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -978,7 +931,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2859024,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1012,7 +965,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -1029,12 +984,6 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_1',
           m: 1,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113855,
-          networkId: 393
         }
       }],
       filter: {
@@ -1060,7 +1009,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2858996,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1069,7 +1018,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2859024,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1103,7 +1052,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -1120,12 +1071,6 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_2',
           m: 1,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113855,
-          networkId: 393
         }
       }],
       filter: {
@@ -1151,7 +1096,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2858996,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1160,7 +1105,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2859024,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1194,7 +1139,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -1211,12 +1158,6 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_3',
           m: 1,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113855,
-          networkId: 393
         }
       }],
       filter: {
@@ -1242,7 +1183,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2858996,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1251,7 +1192,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2859024,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1285,7 +1226,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -1302,12 +1245,6 @@ window.cpexWebsiteSettings = {
           p: 'interscroller_4',
           m: 1,
           g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113855,
-          networkId: 393
         }
       }],
       filter: {
@@ -1333,7 +1270,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2858996,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1342,7 +1279,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2859024,
           accountId: '10900',
           position: 'atf',
-          sizes: [15, 48, 256, 16]
+          sizes: [15, 48, 256, 16, 484]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1376,7 +1313,9 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'criteo',
         params: {
-          networkId: 11172
+          networkId: 11172,
+          publisherSubId: 'nova',
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -1394,91 +1333,9 @@ window.cpexWebsiteSettings = {
           m: 1,
           g: 'hb'
         }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113855,
-          networkId: 393
-        }
       }],
       filter: {
         maxWidth: 991
-      }
-    }, {
-      code: 'div-ad-gallery',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [160, 600],
-            [300, 300],
-            [300, 250],
-            [300, 600]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 416558,
-          zoneId: 2858998,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [9, 48, 15, 10]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 416560,
-          zoneId: 2859026,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [9, 48, 15, 10]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5149352'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1761479,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 992698
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 29963309
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'tv.nova.cz',
-          p: '300x600_1',
-          m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3113858,
-          networkId: 393
-        }
-      }],
-      filter: {
-        minWidth: 992
       }
     }]
   },
@@ -1489,10 +1346,10 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/ ,
+      contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/,
       offset: 80,
       offsetScroll: true,
-      contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px; background-color: var(--theme-bg, white);',
+      contentCSS: 'position: relative;margin: auto;margin-top: 280px;padding-top: 0px;background-color: white;',
       generalCSS: '.c-branding .c-leaderboard {  height: 0px;  min-height: 0px}body .c-leaderboard #div-ad-leaderboard {  width: 1920px;  height: 0;  min-height: 0;  position: fixed;  left: 50%;  top: 83px;  transform: translateX(-50%);}body .c-leaderboard #div-ad-leaderboard .banner-highlight {  height: 1400px;}'
     }
   }
