@@ -78,7 +78,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -187,7 +187,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -296,7 +296,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -405,7 +405,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -513,7 +513,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -621,7 +621,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -733,7 +733,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -841,7 +841,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -960,7 +960,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
@@ -1061,7 +1061,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1166,7 +1166,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
@@ -1227,7 +1227,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_native'
+          uid: 418807
         }
       }]
     }, {
@@ -1271,7 +1271,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_native'
+          uid: 418807
         }
       }]
     }, {
@@ -1349,7 +1349,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
@@ -1428,7 +1428,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',

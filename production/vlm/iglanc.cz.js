@@ -53,7 +53,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -125,7 +125,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -197,7 +197,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -270,7 +270,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -349,7 +349,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -440,7 +440,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -520,7 +520,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -599,7 +599,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -678,7 +678,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -757,7 +757,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -836,7 +836,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -910,7 +910,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -987,7 +987,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -1070,7 +1070,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -1141,7 +1141,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1212,7 +1212,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1283,7 +1283,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1354,7 +1354,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1413,7 +1413,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1467,7 +1467,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1528,7 +1528,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1588,7 +1588,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1642,7 +1642,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1709,7 +1709,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -1795,7 +1795,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -1869,7 +1869,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -1935,7 +1935,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1988,7 +1988,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2042,7 +2042,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2096,7 +2096,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2150,7 +2150,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2204,7 +2204,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2248,7 +2248,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2292,7 +2292,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2336,7 +2336,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2385,7 +2385,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2442,7 +2442,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2486,7 +2486,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2530,7 +2530,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2580,7 +2580,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2643,7 +2643,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2706,7 +2706,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2769,7 +2769,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2841,7 +2841,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -2914,7 +2914,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -2970,7 +2970,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -3012,7 +3012,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -3054,7 +3054,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -3100,7 +3100,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -3144,7 +3144,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -3188,7 +3188,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -3232,7 +3232,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -3276,7 +3276,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -3312,7 +3312,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -3365,7 +3365,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -3408,7 +3408,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'

@@ -61,7 +61,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }, {
         bidder: 'r2b2',
@@ -131,7 +131,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }, {
         bidder: 'r2b2',
@@ -197,7 +197,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }, {
         bidder: 'r2b2',
@@ -274,7 +274,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }, {
         bidder: 'r2b2',
@@ -351,7 +351,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }, {
         bidder: 'r2b2',
@@ -421,7 +421,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }, {
         bidder: 'r2b2',
@@ -480,7 +480,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }, {
         bidder: 'r2b2',
@@ -539,7 +539,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }, {
         bidder: 'r2b2',
@@ -593,7 +593,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }],
       filter: {
@@ -642,7 +642,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }],
       filter: {
@@ -691,7 +691,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }],
       filter: {
@@ -740,7 +740,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }],
       filter: {
@@ -789,7 +789,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova_sz',
-          uid: 'nova_sz_banner_default'
+          uid: 418803
         }
       }],
       filter: {

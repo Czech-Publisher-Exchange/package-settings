@@ -65,7 +65,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -137,7 +137,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -216,7 +216,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -294,7 +294,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -367,7 +367,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -438,7 +438,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -510,7 +510,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -586,7 +586,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -673,7 +673,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -753,7 +753,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -822,7 +822,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -891,7 +891,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -967,7 +967,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -1054,7 +1054,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -1141,7 +1141,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -1228,7 +1228,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',
@@ -1315,7 +1315,7 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           publisherSubId: 'nova',
-          uid: 'nova_banner_default'
+          uid: 418802
         }
       }, {
         bidder: 'r2b2',

@@ -79,7 +79,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -169,7 +169,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -258,7 +258,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -359,7 +359,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -449,7 +449,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -541,7 +541,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -632,7 +632,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -690,7 +690,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'connectad',
@@ -742,7 +742,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'connectad',
