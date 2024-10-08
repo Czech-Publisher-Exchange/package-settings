@@ -73,7 +73,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -91,6 +91,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108619,
           tagId: 'sas_108619'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157793,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -165,7 +171,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -183,6 +189,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108757,
           tagId: 'sas_108757'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157794,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -258,7 +270,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -276,6 +288,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108618,
           tagId: 'sas_108618'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157795,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -351,7 +369,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -369,6 +387,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108742,
           tagId: 'sas_108742'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157796,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -444,7 +468,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -462,6 +486,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108740,
           tagId: 'sas_108740'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157797,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -537,7 +567,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -555,6 +585,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108741,
           tagId: 'sas_108741'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157798,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -630,7 +666,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -648,6 +684,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108739,
           tagId: 'sas_108739'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157799,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -722,7 +764,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -740,6 +782,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108759,
           tagId: 'sas_108759'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157800,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -814,7 +862,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -832,6 +880,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108764,
           tagId: 'sas_108764'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157801,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -906,7 +960,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -924,6 +978,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108765,
           tagId: 'sas_108765'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157802,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -998,7 +1058,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1016,6 +1076,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108766,
           tagId: 'sas_108766'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157803,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1090,7 +1156,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1108,6 +1174,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108760,
           tagId: 'sas_108760'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157804,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1186,7 +1258,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1204,6 +1276,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108767,
           tagId: 'sas_108767'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157805,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1282,7 +1360,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1300,6 +1378,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108783,
           tagId: 'sas_108783'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157806,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1374,7 +1458,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1392,6 +1476,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108768,
           tagId: 'sas_108768'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157807,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1477,7 +1567,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
@@ -1487,6 +1577,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108761,
           tagId: 'sas_108761'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157808,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1563,7 +1659,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1581,6 +1677,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108752,
           tagId: 'sas_108752'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157809,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1656,7 +1758,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1674,6 +1776,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108753,
           tagId: 'sas_108753'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157810,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1749,7 +1857,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1767,6 +1875,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108758,
           tagId: 'sas_108758'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157811,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1842,7 +1956,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1860,6 +1974,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108754,
           tagId: 'sas_108754'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157812,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1935,7 +2055,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -1953,6 +2073,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 131199,
           tagId: 'sas_131199'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157813,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2031,7 +2157,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2049,6 +2175,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108784,
           tagId: 'sas_108784'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157814,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2120,7 +2252,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
@@ -2130,6 +2262,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108774,
           tagId: 'sas_108774'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157815,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2198,7 +2336,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2216,6 +2354,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 131200,
           tagId: 'sas_131200'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157816,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2283,7 +2427,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2301,6 +2445,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 131201,
           tagId: 'sas_131201'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157817,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2358,7 +2508,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2376,6 +2526,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 131202,
           tagId: 'sas_131202'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157818,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2433,7 +2589,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2451,6 +2607,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 131203,
           tagId: 'sas_131203'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157819,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2501,7 +2663,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2519,6 +2681,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108743,
           tagId: 'sas_108743'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157820,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2571,7 +2739,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'r2b2',
@@ -2589,6 +2757,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 131197,
           tagId: 'sas_131197'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157821,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2629,7 +2803,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_native'
+          uid: 418807
         }
       }]
     }, {
@@ -2705,7 +2879,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_banner_default'
+          uid: 418806
         }
       }, {
         bidder: 'smart',
@@ -2715,6 +2889,12 @@ window.cpexWebsiteSettings = {
           pageId: 2002824,
           formatId: 108782,
           tagId: 'sas_108782'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3157823,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -2755,7 +2935,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_native'
+          uid: 418807
         }
       }]
     }, {
@@ -2783,7 +2963,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_native'
+          uid: 418807
         }
       }]
     }, {
@@ -2811,7 +2991,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'mafra_native'
+          uid: 418807
         }
       }]
     }]
