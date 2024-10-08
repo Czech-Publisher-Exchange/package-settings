@@ -44,18 +44,6 @@ window.cpexWebsiteSettings = {
           adSlot: '3245623'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908002,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907989,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1931061,
@@ -76,7 +64,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -93,9 +81,77 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29301'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29262'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-top',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [970, 90],
+            [970, 210],
+            [970, 250],
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908002,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907989,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'leaderboard-top',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [970, 90],
+            [970, 210],
+            [970, 250],
+            [2000, 1400]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950998,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951006,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'skyscraper-2',
@@ -134,12 +190,6 @@ window.cpexWebsiteSettings = {
           adSlot: '3245624'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907992,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 938200
@@ -153,7 +203,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -170,9 +220,58 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29268'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'skyscraper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 600],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1907992,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'skyscraper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 600],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951001,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-1',
@@ -213,18 +312,6 @@ window.cpexWebsiteSettings = {
           adSlot: '3245628'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908003,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907993,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1931058,
@@ -245,7 +332,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -270,9 +357,74 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29289'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908003,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907993,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951033,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951031,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'leaderboard-bottom',
@@ -312,12 +464,6 @@ window.cpexWebsiteSettings = {
           adSlot: '3245632'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907991,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 938203
@@ -331,7 +477,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -340,9 +486,60 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29304'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-bottom',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1907991,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'leaderboard-bottom',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951000,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'skyscraper-1',
@@ -381,12 +578,6 @@ window.cpexWebsiteSettings = {
           adSlot: '3245635'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907990,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1931063,
@@ -407,7 +598,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -424,9 +615,58 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29307'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'skyscraper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1907990,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'skyscraper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1950999,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'commercial-article-native-detail',
@@ -468,12 +708,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5774635'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907999,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1088978
@@ -487,11 +721,79 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '480x300_native',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29328'
         }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'commercial-article-native-detail',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [548, 150]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1907999,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'commercial-article-native-detail',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [548, 150]
+          ]
+        },
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951004,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951010,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-2',
@@ -532,18 +834,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4055811'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908017,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907995,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 938206
@@ -557,7 +847,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -582,9 +872,74 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29325'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908017,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1907995,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951032,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951039,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'square-1',
@@ -622,12 +977,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4080492'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907994,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 938207
@@ -641,7 +990,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -658,9 +1007,56 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29253'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1907994,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951002,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky',
@@ -726,7 +1122,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -741,7 +1137,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: '27024, 26931'
+          tagid: '27024'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '26931'
         }
       }],
       filter: {
@@ -787,18 +1188,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4885306'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908018,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908010,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 938208
@@ -812,7 +1201,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -837,9 +1226,74 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29283'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908018,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908010,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951040,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951035,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-4',
@@ -880,18 +1334,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4885307'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908019,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908011,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 938209
@@ -905,7 +1347,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -930,9 +1372,74 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29256'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908019,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908011,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951041,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951036,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-5',
@@ -973,18 +1480,6 @@ window.cpexWebsiteSettings = {
           adSlot: '4885308'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908016,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908012,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 938210
@@ -998,7 +1493,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'triplelift',
@@ -1023,9 +1518,74 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29271'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908016,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908012,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 480],
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [480, 320]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951038,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951037,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-seznam-feed',
@@ -1066,6 +1626,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5650650'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951017,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1067528
@@ -1079,7 +1645,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1125,6 +1691,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5650661'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 1950997,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1067535
@@ -1138,7 +1710,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1204,10 +1776,15 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29313'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1250,12 +1827,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5714561'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907997,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1088981
@@ -1269,7 +1840,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -1281,9 +1852,60 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29316'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1907997,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951018,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'wallpaper-3',
@@ -1323,12 +1945,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5714562'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908001,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073940
@@ -1342,7 +1958,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -1354,9 +1970,60 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29259'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908001,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951020,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'square-quiz-2',
@@ -1409,7 +2076,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1468,7 +2135,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1513,12 +2180,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5714565'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908004,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073943
@@ -1532,7 +2193,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -1544,9 +2205,58 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29265'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'skyscraper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [300, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908004,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'skyscraper-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [300, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951007,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky-gallery',
@@ -1554,82 +2264,7 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [300, 250],
-            [300, 300]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 46270,
-          zoneId: 3205070,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 46272,
-          zoneId: 3205120,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5714566'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1938462,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'ix',
-        params: {
-          siteId: 1073944
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 31863859
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172,
-          uid: 'vlm_banner_high'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'kafe.cz',
-          p: 'sticky_gallery',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: 27057
-        }
-      }],
-      filter: {
-        maxWidth: 1000,
-        urlHas: 'seznam-hp=1'
-      }
-    }, {
-      code: 'm-sticky-gallery',
-      mediaTypes: {
-        banner: {
-          sizes: [
+            [300, 300],
             [320, 150],
             [300, 120],
             [500, 200]
@@ -1643,7 +2278,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3205070,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1652,7 +2287,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3205120,
           accountId: '10900',
           position: 'atf',
-          sizes: [60, 85, 258]
+          sizes: [15, 48, 60, 85, 258]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1660,6 +2295,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5714566'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1938462,
+          rcur: 'USD'
         }
       }, {
         bidder: 'adform',
@@ -1681,7 +2322,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -1696,7 +2337,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27111
+          tagid: '27057'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '27111'
         }
       }],
       filter: {
@@ -1754,7 +2400,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1813,7 +2459,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1872,7 +2518,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1931,7 +2577,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -1990,7 +2636,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2049,7 +2695,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2108,7 +2754,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2167,7 +2813,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2226,7 +2872,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
@@ -2272,18 +2918,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5714576'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908023,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908013,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073954
@@ -2297,7 +2931,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2317,9 +2951,72 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29310'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908023,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908013,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-gallery-3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951049,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951044,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-gallery-2',
@@ -2359,18 +3056,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5714577'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908022,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908014,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073955
@@ -2384,7 +3069,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2404,9 +3089,72 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29274'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908022,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908014,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-gallery-2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [336, 280],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951048,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951045,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-gallery-1',
@@ -2448,18 +3196,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5714578'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908021,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908015,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073956
@@ -2473,7 +3209,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2501,9 +3237,72 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29298'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908021,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908015,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-gallery-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250],
+            [480, 480],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951046,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951047,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-bottom-1',
@@ -2543,18 +3342,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5714579'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908020,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908009,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073957
@@ -2568,7 +3355,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2588,9 +3375,72 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29322'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-bottom-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [336, 280],
+            [300, 300],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908020,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1908009,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-bottom-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [336, 280],
+            [300, 300],
+            [480, 480]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951042,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951034,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'leaderboard-gallery',
@@ -2630,12 +3480,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5714580'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908000,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1073958
@@ -2649,13 +3493,62 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29286'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'leaderboard-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908000,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'leaderboard-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951005,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'wallpaper-1',
@@ -2695,12 +3588,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5714581'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907996,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1931062,
@@ -2721,7 +3608,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2733,9 +3620,60 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29280'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1907996,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951003,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-square-1',
@@ -2763,12 +3701,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5830635'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1931792,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'omg-adform',
         params: {
           mid: 1931064,
@@ -2784,7 +3716,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2796,9 +3728,56 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29277'
+        }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1931792,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-square-1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951043,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-commercial-article-native-detail',
@@ -2839,12 +3818,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5891111'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1907998,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1104281
@@ -2858,11 +3831,77 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: '336x280_native',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29292'
         }
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'm-commercial-article-native-detail',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1907998,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-commercial-article-native-detail',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [548, 150],
+            [300, 300],
+            [300, 250],
+            [336, 280]
+          ]
+        },
+        native: {}
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951019,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1951025,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'wallpaper-4',
@@ -2892,12 +3931,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5906176'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908005,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1104264
@@ -2911,7 +3944,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2923,9 +3956,60 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29295'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908005,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951021,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'wallpaper-5',
@@ -2955,12 +4039,6 @@ window.cpexWebsiteSettings = {
           adSlot: '5906187'
         }
       }, {
-        bidder: 'adform',
-        params: {
-          mid: 1908006,
-          rcur: 'USD'
-        }
-      }, {
         bidder: 'ix',
         params: {
           siteId: 1104271
@@ -2974,7 +4052,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_low'
+          uid: 418805
         }
       }, {
         bidder: 'r2b2',
@@ -2986,9 +4064,60 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '29319'
+        }
       }],
       filter: {
         minWidth: 1000
+      }
+    }, {
+      code: 'wallpaper-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1908006,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'wallpaper-5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [480, 300],
+            [300, 300],
+            [336, 280],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 1951022,
+          rcur: 'USD'
+        }
+      }],
+      filter: {
+        minWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
       }
     }, {
       code: 'm-sticky',
@@ -3046,7 +4175,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -3061,7 +4190,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27156
+          tagid: '27156'
         }
       }],
       filter: {
@@ -3124,7 +4253,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'vlm_banner_high'
+          uid: 418804
         }
       }, {
         bidder: 'r2b2',
@@ -3139,12 +4268,112 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'performax',
         params: {
-          tagid: 27117
+          tagid: '27117'
         }
       }],
       filter: {
         maxWidth: 1000,
         urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'commercial-article-detail-bottom-1',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 33982962
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'commercial-article-detail-bottom-2',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 33982970
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'm-commercial-article-detail-bottom-1',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 33982977
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-commercial-article-detail-bottom-2',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 33983060
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-commercial-article-1-GA',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: 33982991
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }],
+      filter: {
+        maxWidth: 1000
       }
     }]
   },
@@ -3158,28 +4387,34 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        generic: "<article class='box-article'>  <header class='box-article-header'>    <div class='box-article-image'>      <a href='${link}' target='_blank' rel='sponsored noopener'><div class='box-article-img'><img src='${img}'></div></a>    </div>    <div class='box-article-header-bottom'>      <div class='box-article-title'>        <a href='${link}' target='_blank' rel='sponsored noopener'><h2>${title}</h2></a>      </div>    </div>  </header>  <blockquote class='box-article-excerpt'>${desc}</blockquote></article>"
+        generic: "<article class='cpex-native flex flex-col gap-4 group/item w-full mb-8 lg:mb-7 last:mb-0 sm:flex-row'> <a href='${link}' class=' w-full h-auto shrink-0 no-underline relative sm:w-72'>    <div class=' js-article-image w-full'>      <div class=' js-lightbox-wrap lightbox__wrap relative w-auto  -mx-4 sm:mx-0'>        <picture class='shrink-0'> <img src='${img}' alt='${title}' style='width:100%'> </picture>        <div class='flex absolute bottom-2 left-2 right-2 p-2 lg:p-0 lg:bottom-6 lg:left-6 lg:right-6'></div>      </div>    </div>  </a>  <div class=' flex flex-col items-start gap-2'>    <div class='flex flex-wrap gap-2'> <a href='#' class='badge badge--link dark:bg-dark-grey-1 no-underline'> Reklama</a> </div>    <h2 class='m-0 !leading-normal text-xl'> <a href='${link}' class=' block pl-1 -ml-1 no-underline group-hover/item:text-primary-2 dark:group-hover/item:text-dark-primary-2 text-inky dark:text-dark-inky '> ${title} </a> </h2>    <div style='text-align:left'> ${desc} </div>  </div></article>"
+      },
+      adUnitConfig: {
+        'commercial-article-native-detail': {
+          titleLength: 45,
+          descLength: 90
+        }
       }
     },
     vignette: {
-      enabled: false
+      enabled: true
     },
     interscroller: {
-      enabled: true
+      enabled: true,
+      adUnits: ['m-square-1', 'm-square-gallery-1']
     },
     slideup: {
       enabled: true,
       adUnits: ['m-sticky', 'm-sticky-gallery']
     },
     responsive: {
-      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5']
+      adUnits: ['m-square-1', 'm-square-2', 'm-square-3', 'm-square-4', 'm-square-5', 'm-seznam-feed', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-bottom-1']
     }
   },
   cmp: {
     enabled: false
   },
   ab: {
-    enabled: true,
     groupList: {
       a: {
         websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/kafe.cz.js',
