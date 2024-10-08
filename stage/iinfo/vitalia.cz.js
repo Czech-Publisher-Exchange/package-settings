@@ -72,7 +72,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -81,6 +81,12 @@ window.cpexWebsiteSettings = {
           p: '300x600',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135456,
+          networkId: 393
         }
       }]
     }, {
@@ -149,7 +155,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -158,6 +164,12 @@ window.cpexWebsiteSettings = {
           p: '300x300_1',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135457,
+          networkId: 393
         }
       }]
     }, {
@@ -225,7 +237,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -242,6 +254,12 @@ window.cpexWebsiteSettings = {
           p: '998x200',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135458,
+          networkId: 393
         }
       }],
       filter: {
@@ -313,7 +331,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -322,6 +340,12 @@ window.cpexWebsiteSettings = {
           p: '970x310',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135459,
+          networkId: 393
         }
       }],
       filter: {
@@ -390,7 +414,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -399,6 +423,12 @@ window.cpexWebsiteSettings = {
           p: '970x310',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135460,
+          networkId: 393
         }
       }],
       filter: {
@@ -469,7 +499,7 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
         }
       }, {
         bidder: 'r2b2',
@@ -478,6 +508,12 @@ window.cpexWebsiteSettings = {
           p: '480x300',
           m: 0,
           g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135461,
+          networkId: 393
         }
       }],
       filter: {
@@ -547,7 +583,13 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135462,
+          networkId: 393
         }
       }],
       filter: {
@@ -591,7 +633,13 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135463,
+          networkId: 393
         }
       }],
       filter: {
@@ -637,7 +685,13 @@ window.cpexWebsiteSettings = {
         bidder: 'criteo',
         params: {
           networkId: 11172,
-          uid: 'iinfo_banner_default'
+          uid: 418812
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3135464,
+          networkId: 393
         }
       }],
       filter: {
