@@ -67,7 +67,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        minWidth: 1000
+        maxWidth: 1000
       }
     }, {
       code: 'm-square-1',
@@ -119,7 +119,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        minWidth: 1000
+        maxWidth: 1000
       }
     }, {
       code: 'm-commercial-article-native-detail',
@@ -177,7 +177,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        minWidth: 1000
+        maxWidth: 1000
       }
     }, {
       code: 'm-square-bottom-1',
@@ -236,7 +236,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        minWidth: 1000
+        maxWidth: 1000
       }
     }, {
       code: 'm-sticky',
@@ -296,7 +296,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        minWidth: 1000
+        maxWidth: 1000
       }
     }, {
       code: 'leaderboard-top',
@@ -356,7 +356,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'square-1',
@@ -413,7 +413,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'skyscraper-1',
@@ -472,7 +472,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'wallpaper-1',
@@ -531,7 +531,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'skyscraper-2',
@@ -590,7 +590,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'commercial-article-native-detail',
@@ -649,7 +649,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'leaderboard-bottom',
@@ -708,7 +708,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        maxWidth: 1000
+        minWidth: 1000
       }
     }, {
       code: 'm-square-2',
@@ -828,7 +828,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        minWidth: 1000
+        maxWidth: 1000
       }
     }, {
       code: 'm-square-4',
@@ -888,7 +888,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        minWidth: 1000
+        maxWidth: 1000
       }
     }, {
       code: 'm-square-5',
@@ -948,7 +948,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        minWidth: 1000
+        maxWidth: 1000
       }
     }],
     enabled: true
