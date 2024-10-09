@@ -440,6 +440,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1141405
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 34175109
@@ -512,6 +517,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1984829,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1141406
         }
       }, {
         bidder: 'appnexus',
@@ -587,6 +597,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1141407
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 34175108
@@ -658,6 +673,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1984833,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1141408
         }
       }, {
         bidder: 'appnexus',
@@ -832,6 +852,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1141409
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 34175115
@@ -909,6 +934,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1141410
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 34175111
@@ -980,6 +1010,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1984837,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1141411
         }
       }, {
         bidder: 'appnexus',
@@ -1056,6 +1091,11 @@ window.cpexWebsiteSettings = {
         params: {
           mid: 1984836,
           rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1141412
         }
       }, {
         bidder: 'appnexus',
