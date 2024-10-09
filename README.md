@@ -203,7 +203,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `enabled`            | Boolean                                           | true     |
 | `prebidPath`         | String URL     | https://cdn.cpex.cz/hb/prebid/prebid.min.js |
 | `currency`           | String, converts CPM into this currency           | 'USD'    |
-| `prebidDebug`        | Boolean, Toggles debug logging from Prebid        | false    |
+| `prebidDebug`        | Boolean, toggles debug logging from Prebid        | false    |
 | `adUnits`            | Array of AdUnit Objects (below) + custom `filter` | []       |
 | `passbacks`          | Object of adUnit keys with function to be called  | {}       |
 | `auctionTimeoutMs`   | Number, sets pbjs.requestBids timeout             | 1000     |
@@ -214,6 +214,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `bidderSettings`     | Object, allows custom bidder configuration        |          |
 | `customBuckets`      | Array of Numbers, each is ceiling of new tier     |          |
 | `priceFloorsUrl`     | String, path to dynamic price floor data (JSON)   |          |
+| `analyticsGet3PC`    | Boolean, detect and send 3rd party cookie support |          |
 
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 [Bidder Settings reference](https://docs.prebid.org/dev-docs/publisher-api-reference/bidderSettings.html)
