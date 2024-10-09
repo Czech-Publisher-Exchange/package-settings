@@ -3602,6 +3602,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '32015'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -3808,6 +3813,11 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '32018'
+        }
       }],
       filter: {
         minWidth: 1000
