@@ -322,7 +322,8 @@ window.cpexWebsiteSettings = {
         divId: 'preroll-1-player'
       }
     }],
-    auctionTimeoutMs: 5000
+    auctionTimeoutMs: 5000,
+    analyticsGet3PC: true
   },
   adserver: {
     loadPrerequisites: true,
