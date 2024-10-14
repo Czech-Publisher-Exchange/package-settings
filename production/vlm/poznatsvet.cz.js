@@ -3449,8 +3449,7 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
-    }],
-    auctionTimeoutMs: 1300
+    }]
   },
   formats: {
     skin: {
