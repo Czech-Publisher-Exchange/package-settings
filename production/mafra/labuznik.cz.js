@@ -1126,6 +1126,26 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
+    }, {
+      code: 'm_leader',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 100],
+            [300, 100]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3583392,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [117, 19]
+        }
+      }]
     }]
   },
   formats: {
