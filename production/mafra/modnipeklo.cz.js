@@ -602,6 +602,12 @@ window.cpexWebsiteSettings = {
       code: 'm_paticka',
       mediaTypes: {},
       bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 2002183,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -620,6 +626,12 @@ window.cpexWebsiteSettings = {
       code: 'm_300x250_souvisejici',
       mediaTypes: {},
       bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 2002184,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
