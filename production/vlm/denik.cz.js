@@ -81,6 +81,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_leaderboard_bottom'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '1000x210_bottom',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -236,6 +244,14 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_leaderboard_top'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '1000x210_top',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -321,6 +337,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_skyscraper_1'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -3130,6 +3154,14 @@ window.cpexWebsiteSettings = {
           uid: 418805
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '1000x210_gallery',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -3601,6 +3633,14 @@ window.cpexWebsiteSettings = {
           uid: 418805
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -3810,6 +3850,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418805
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
