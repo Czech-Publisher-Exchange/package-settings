@@ -1146,6 +1146,12 @@ window.cpexWebsiteSettings = {
           sizes: [117, 19]
         }
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6290266'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 2000679,
@@ -1156,6 +1162,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: 34227804
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
