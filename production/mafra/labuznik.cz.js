@@ -1145,6 +1145,17 @@ window.cpexWebsiteSettings = {
           position: 'atf',
           sizes: [117, 19]
         }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2000679,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 34227804
+        }
       }]
     }]
   },
