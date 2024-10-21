@@ -556,7 +556,7 @@ window.cpexWebsiteSettings = {
       adUnits: ['reklama-medium-rectangle-1']
     },
     slideup: {
-      adUnits: ['sas-special'],
+      adUnits: ['div-gpt-ad-1713770693280-0'],
       enabled: true,
       backgroundEl: /*S*/ document.getElementById('sas-special-wrapper') /*E*/
     }
