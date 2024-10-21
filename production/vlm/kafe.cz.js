@@ -1134,16 +1134,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '27024'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '26931'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -2334,16 +2324,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '27057'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '27111'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -4193,11 +4173,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '27156'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -4271,11 +4246,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '27117'
-        }
       }],
       filter: {
         maxWidth: 1000,
