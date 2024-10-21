@@ -9,7 +9,6 @@ window.cpexWebsiteSettings = {
         banner: {
           sizes: [
             [2000, 1400],
-            [970, 310],
             [970, 250],
             [970, 210],
             [970, 100],
@@ -24,7 +23,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3537114,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 94, 57, 96, 95, 2]
+          sizes: [230, 57, 96, 95, 2]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -33,7 +32,7 @@ window.cpexWebsiteSettings = {
           zoneId: 3537128,
           accountId: '10900',
           position: 'atf',
-          sizes: [230, 94, 57, 96, 95, 2]
+          sizes: [230, 57, 96, 95, 2]
         },
         bidderModuleName: 'rubicon'
       }, {
