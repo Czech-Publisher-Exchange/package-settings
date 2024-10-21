@@ -560,6 +560,12 @@ window.cpexWebsiteSettings = {
       adUnits: ['div-gpt-ad-1713770693280-0'],
       enabled: true,
       backgroundEl: /*S*/ document.getElementById('sas-special-wrapper') /*E*/
+    },
+    responsive: {
+      enabled: true,
+      adUnits: ['div-gpt-ad-1725884934042-0-Vareni_Mediumrectangle-mobil-pos1', 'div-gpt-ad-1725884513651-0-Vareni_Mediumrectangle-mobil-pos2'],
+      width: 480,
+      height: 480
     }
   },
   general: {
