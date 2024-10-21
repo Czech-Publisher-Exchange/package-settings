@@ -3992,7 +3992,8 @@ window.cpexWebsiteSettings = {
           uid: 418807
         }
       }]
-    }]
+    }],
+    analyticsGet3PC: true
   },
   formats: {
     interscroller: {
