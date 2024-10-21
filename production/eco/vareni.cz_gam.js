@@ -550,7 +550,7 @@ window.cpexWebsiteSettings = {
       contentCSS: ' margin-top: 100px',
       zIndex: null,
       backgroundEl: /*S*/ document.getElementById('brand-c') /*E*/,
-      offset: /*S*/() => { return 60 }/*E*/
+      offset: /*S*/60/*E*/
     },
     interscroller: {
       enabled: true,
