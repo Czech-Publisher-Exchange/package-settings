@@ -547,9 +547,10 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('kFJFkb')[0] /*E*/,
-      contentCSS: ' ',
+      contentCSS: ' margin-top: 100px',
       zIndex: null,
-      backgroundEl: /*S*/ document.getElementById('brand-c') /*E*/
+      backgroundEl: /*S*/ document.getElementById('brand-c') /*E*/,
+      offset: /*S*/() => 60/*E*/
     },
     interscroller: {
       enabled: true,
