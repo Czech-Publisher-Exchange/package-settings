@@ -3992,7 +3992,8 @@ window.cpexWebsiteSettings = {
           uid: 418807
         }
       }]
-    }]
+    }],
+    analyticsGet3PC: true
   },
   formats: {
     interscroller: {
@@ -4045,7 +4046,6 @@ window.cpexWebsiteSettings = {
         probability: 0.1
       }
     },
-    enabled: true,
     selectGroup: /*S*/ () => Unidata.verze.toLowerCase() /*E*/
   }
 }
