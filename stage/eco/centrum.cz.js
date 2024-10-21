@@ -694,12 +694,12 @@ window.cpexWebsiteSettings = {
       }]
     }],
     currency: 'USD',
-    analytics: ['cpexAnalytics', 'pubmatic']
+    analytics: ['cpexAnalytics']
   },
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('sc-1cb3an8-0')[0] /*E*/,
+      contentEl: /*S*/document.getElementById('content')/*E*/,
       hide: [/*S*/ document.getElementById('reklama-leader') /*E*/]
     },
     native: {
