@@ -546,7 +546,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('bhWtgq')[0] /*E*/,
+      contentEl: /*S*/ document.getElementsByClassName('kFJFkb')[0] /*E*/,
       contentCSS: ' ',
       zIndex: null,
       backgroundEl: /*S*/ document.getElementById('brand-c') /*E*/
