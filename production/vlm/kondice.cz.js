@@ -3821,7 +3821,8 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
-    }]
+    }],
+    analyticsGet3PC: true
   },
   formats: {
     skin: {
