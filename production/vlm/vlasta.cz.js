@@ -69,6 +69,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26673'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -201,6 +207,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26667'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -269,6 +281,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26676'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -455,6 +473,27 @@ window.cpexWebsiteSettings = {
         urlHasNot: 'seznam-hp=1'
       }
     }, {
+      code: 'leaderboard-top',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
       code: 'm-square-1',
       mediaTypes: {
         banner: {
@@ -534,6 +573,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26619'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -684,6 +729,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26640'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -760,6 +811,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26670'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -884,6 +941,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26664'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -1023,6 +1086,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26601'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1161,6 +1230,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26622'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1298,6 +1373,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26643'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -1571,6 +1652,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26613'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1687,6 +1774,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -1890,6 +1983,27 @@ window.cpexWebsiteSettings = {
         urlHasNot: 'seznam-hp=1'
       }
     }, {
+      code: 'leaderboard-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 210],
+            [970, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
       code: 'm-commercial-article-1-GA',
       mediaTypes: {
         banner: {
@@ -2040,6 +2154,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26616'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2168,6 +2288,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26655'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -2298,6 +2424,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26610'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2414,6 +2546,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2478,6 +2616,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2542,6 +2686,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2606,6 +2756,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2670,6 +2826,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -2734,6 +2896,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -3027,6 +3195,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -3086,6 +3260,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -3249,6 +3429,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -3298,6 +3484,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -3347,6 +3539,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         maxWidth: 1000
@@ -3408,6 +3606,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26625'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -3504,6 +3708,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -3553,6 +3763,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -3602,6 +3818,12 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -3663,6 +3885,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26631'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -3772,6 +4000,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26649'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -3879,6 +4113,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26661'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -3988,6 +4228,12 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26646'
         }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -4090,6 +4336,12 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26637'
+        }
+      }, {
+        bidder: 'setupad',
+        params: {
+          placement_id: '8684',
+          account_id: 'vlastacz'
         }
       }],
       filter: {
