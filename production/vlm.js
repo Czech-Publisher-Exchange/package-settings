@@ -24,7 +24,8 @@ window.cpexPublisherSettings = {
       ix: 'Index_HB',
       sspBC: 'WP_HB',
       performax: 'Performax',
-      'omg-adform': 'OMG-Adform'
+      'omg-adform': 'OMG-Adform',
+      setupad: 'SetupAd_HB'
     }
   },
   headerbidding: {
