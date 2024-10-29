@@ -3424,6 +3424,36 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'm-square-gallery-4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [480, 480],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 2004090,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }]
   },
   formats: {
@@ -3453,7 +3483,7 @@ window.cpexWebsiteSettings = {
     responsive: {
       width: 480,
       height: 480,
-      adUnits: ['m-square-1', 'm-square-4', 'm-square-5', 'm-seznam-feed', 'm-square-2', 'm-square-3', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-bottom-1']
+      adUnits: ['m-square-1', 'm-square-4', 'm-square-5', 'm-seznam-feed', 'm-square-2', 'm-square-3', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-bottom-1', 'm-square-gallery-4']
     }
   },
   ab: {
