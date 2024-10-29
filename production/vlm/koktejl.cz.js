@@ -793,6 +793,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5752010'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2004101,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
