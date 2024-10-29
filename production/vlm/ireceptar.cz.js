@@ -1711,6 +1711,14 @@ window.cpexWebsiteSettings = {
           uid: 418805
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: '300x300_gallery_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -1775,6 +1783,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418805
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: '300x300_gallery_2',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -1843,6 +1859,14 @@ window.cpexWebsiteSettings = {
           uid: 418805
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: '300x300_gallery_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }, {
         bidder: 'performax',
@@ -1879,6 +1903,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5808581'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2004107,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
