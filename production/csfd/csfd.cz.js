@@ -2971,7 +2971,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'pomo.csfd.cz',
-          p: '300x250',
+          p: '300x300',
           m: 0,
           g: 'hb'
         }
@@ -3157,7 +3157,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 931851,
+          mid: 931836,
           rcur: 'USD'
         }
       }, {
