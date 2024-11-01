@@ -93,16 +93,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28287'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28275'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -171,11 +161,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28278'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -254,11 +239,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28308'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -440,11 +420,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28248'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -529,11 +504,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28263'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -674,11 +644,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28236'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -1020,11 +985,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28221'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1109,11 +1069,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28239'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1198,11 +1153,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28299'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1451,7 +1401,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'dotyk.cz',
-          p: 'interscroller',
+          p: 'interscroller_gallery',
           m: 1,
           g: 'hb'
         }
