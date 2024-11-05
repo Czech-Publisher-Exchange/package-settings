@@ -8,7 +8,8 @@ window.cpexWebsiteSettings = {
   formats: {
     slideup: {
       enabled: true,
-      adUnits: ['advert-popup']
+      adUnits: ['advert-popup'],
+      backgroundEl: /*S*/document.getElementById('advert-popup')/*E*/
     }
   }
 }
