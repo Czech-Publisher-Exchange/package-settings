@@ -81,12 +81,15 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_leaderboard_bottom'
         }
       }, {
-        bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
+        bidder: 'r2b2',
         params: {
-          tagid: '28209'
+          d: 'denik.cz',
+          p: '1000x210_bottom',
+          m: 0,
+          g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -155,11 +158,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28185'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -236,17 +234,15 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_denik_leaderboard_top'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '1000x210_top',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28173'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28149'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -321,6 +317,14 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'VLM_denik_skyscraper_1'
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -491,11 +495,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28134'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -580,11 +579,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28119'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -669,11 +663,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28167'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -754,16 +743,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28161'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28146'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -938,11 +917,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28203'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -1051,11 +1025,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28176'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -1134,11 +1103,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28137'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -1207,11 +1171,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28125'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1382,11 +1341,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28122'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1531,11 +1485,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28191'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1620,11 +1569,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28188'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1665,6 +1609,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '4586571'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2004067,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -2075,11 +2025,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28200'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -2677,11 +2622,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28179'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2758,11 +2698,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28158'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2843,16 +2778,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28197'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28170'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -3071,11 +2996,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28152'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -3114,6 +3034,12 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2002396,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1088920
@@ -3128,6 +3054,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418805
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '1000x210_gallery',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -3269,11 +3203,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28131'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -3343,11 +3272,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28182'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -3411,11 +3335,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28206'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3479,11 +3398,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28128'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3547,11 +3461,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28155'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3601,7 +3510,20 @@ window.cpexWebsiteSettings = {
           uid: 418805
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
+      }, {
+        bidder: 'performax',
+        params: {
+          tagid: '32015'
+        }
       }],
       filter: {
         minWidth: 1000
@@ -3674,11 +3596,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28164'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -3752,11 +3669,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28296'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -3807,6 +3719,14 @@ window.cpexWebsiteSettings = {
           uid: 418805
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: '300x600_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }],
       filter: {
@@ -3829,11 +3749,11 @@ window.cpexWebsiteSettings = {
     native: {
       enabled: true,
       templates: {
-        'commercial-article-1-hp': "<article class='box-article box-article-classic'>  <a class='box-article-left' href='${link}' target='_blank' tabindex='-1' rel='sponsored noopener'>    <img src='${img}' width='105' height='70' class='box-article-img' loading='lazy'>  </a>  <div class='box-article-right'>    <div class='box-article-tags'>      <span class='box-article-tag blue-tag tag'>Reklama</span>    </div>    <h3 class='box-article-title fs16' title='${title}'>      <a href='${link}' target='_blank' rel='sponsored noopener'>        ${title}      </a>    </h3>  </div></article>",
+        'commercial-article-1-hp': "<article class='box-article box-article-classic'>   <a class='box-article-left' href='${link}' target='_blank' tabindex='-1' rel='sponsored noopener'>     <img src='${img}' width='105' height='70' class='box-article-img' style='height: 70px; object-fit: cover' loading='lazy'>   </a>   <div class='box-article-right'>     <div class='box-article-tags'>       <span class='box-article-tag blue-tag tag'>Reklama</span>     </div>     <h3 class='box-article-title fs16' title='${title}'>       <a href='${link}' target='_blank' rel='sponsored noopener'>${title}</a>     </h3>   </div> </article>",
         'commercial-article-2-GA-hp': 'commercial-article-native-detail',
         'm-commercial-article-2': 'commercial-article-1-hp',
-        'commercial-article-2-hp': "<article class='box-article box-article-classic'>  <div class='box-article-left'>    <a class='box-article-img' href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>      <img src='${img}' width='210' height='140' loading='lazy' style='object-fit: cover'>    </a>  </div>  <div class='box-article-right'>    <div class='box-article-tags'>      <div class='box-article-tag'>REKLAMA</div>    </div>    <a href='${link}' target='_blank' rel='sponsored noopener'>      <h3 class='box-article-title fs20'>${title}</h3>      <h4 class='box-article-perex fs16'>${desc}</h4>    </a>  </div></article>",
-        'commercial-article-native-detail': "<article class='box-article box-article-classic' style='height: 130px'> <a class='box-article-left' href='${link}' target='_blank' title='${title}' tabindex='-1' style='display: flex; align-items: center' rel='sponsored noopener'> <img src='${img}' width='210' height='140' class='box-article-img' loading='lazy'> </a>  <div class='box-article-right'>    <div class='box-article-tags'>      <div class='box-article-tag'>REKLAMA</div>    </div> <a class='box-article-perex fs16' href='${link}' target='_blank' rel='sponsored noopener'>      <h3 class='box-article-title fs20'>${title}</h3> ${desc}    </a>  </div></article>",
+        'commercial-article-2-hp': "<article class='box-article box-article-classic'>   <div class='box-article-left'>     <a class='box-article-img' href='${link}' target='_blank' title='${title}' tabindex='-1' rel='sponsored noopener'>       <img src='${img}' width='210' height='140' style='height: 140px; object-fit: cover' loading='lazy'>     </a>   </div>   <div class='box-article-right'>     <div class='box-article-tags'>       <div class='box-article-tag'>REKLAMA</div>     </div> <a href='${link}' target='_blank' rel='sponsored noopener'>       <h3 class='box-article-title fs20'>${title}</h3>       <h4 class='box-article-perex fs16'>${desc}</h4>     </a>   </div> </article>",
+        'commercial-article-native-detail': "<article class='box-article box-article-classic' style='height: 140px'> <a class='box-article-left' href='${link}' target='_blank' title='${title}' tabindex='-1' style='display: flex; align-items: center' rel='sponsored noopener'> <img src='${img}' width='210' height='140' class='box-article-img' style='height: 140px; object-fit: cover' loading='lazy'> </a>   <div class='box-article-right'>     <div class='box-article-tags'>       <div class='box-article-tag'>REKLAMA</div>     </div> <a class='box-article-perex fs16' href='${link}' target='_blank' rel='sponsored noopener'>       <h3 class='box-article-title fs20'>${title}</h3> ${desc}     </a>   </div> </article>",
         'commercial-article-2': 'commercial-article-native-detail',
         'm-commercial-article-native-detail': 'commercial-article-1-hp'
       },
@@ -3857,6 +3777,9 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-square-bottom-1', 'm-square-1', 'm-square-2', 'm-square-3', 'm-square-bottom-2', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-seznam-feed', 'm-square-4', 'm-square-5'],
       width: 480,
       height: 480
+    },
+    vignette: {
+      enabled: false
     }
   }
 }
