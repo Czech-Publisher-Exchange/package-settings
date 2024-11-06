@@ -55,11 +55,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29520'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -256,11 +251,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29529'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -316,11 +306,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29589'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -391,16 +376,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29583'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29541'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -470,11 +445,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29562'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -538,11 +508,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29550'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -612,11 +577,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29580'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -686,11 +646,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29553'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -760,11 +715,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29523'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -834,11 +784,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29535'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -901,11 +846,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29556'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -982,11 +922,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29577'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1050,11 +985,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29517'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -1116,11 +1046,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29559'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -1170,11 +1095,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29565'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1224,11 +1144,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29538'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1278,11 +1193,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '27036'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1776,11 +1686,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29586'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1931,11 +1836,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29544'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2223,11 +2123,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29514'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -2281,11 +2176,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29526'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -2339,11 +2229,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29571'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -2397,11 +2282,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '29574'
-        }
       }],
       filter: {
         minWidth: 1000
