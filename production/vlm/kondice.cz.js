@@ -2514,10 +2514,12 @@ window.cpexWebsiteSettings = {
           publisherId: '158732',
           adSlot: '5823274'
         }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 34357739
+        }
       }],
-      filter: {
-        urlHasNot: 'vydrz-v-pozici-v-up-v-up-hold-20191120'
-      },
       video: {
         divId: 'aqua_video_b09c1791-042f-4753-9f59-cdcbe79b7a27_html5_api'
       }
