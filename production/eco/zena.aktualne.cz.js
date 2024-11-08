@@ -1031,7 +1031,7 @@ window.cpexWebsiteSettings = {
       offset: /*S*/ 64 /*E*/,
       zIndex: 0,
       contentCSS: 'z-index:2; margin-top: 200px',
-      hide: [/*S*/ document.getElementsByClassName('leaderboard')[0] /*E*/, /*S*/document.getElementById('reklama-leader')/*E*/]
+      hide: [/*S*/ document.getElementsByClassName('leaderboard')[0] /*E*/, /*S*/document.getElementsByClassName('reklama-leaderboard-obal')[0]/*E*/]
     },
     interscroller: {
       enabled: true,
