@@ -4196,7 +4196,8 @@ window.cpexWebsiteSettings = {
           uid: 418807
         }
       }]
-    }]
+    }],
+    priceFloorsUrl: 'https://cdn.cpex.cz/hb/pfjson/mafrapf.json'
   },
   formats: {
     skin: {
