@@ -4197,7 +4197,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }],
-    priceFloorsUrl: 'https://cdn.cpex.cz/hb/pfjson/mafrapf.json'
+    priceFloorsUrl: 'https://cdn.cpex.cz/hb/pfjson/mafrapf_test.json'
   },
   formats: {
     skin: {
