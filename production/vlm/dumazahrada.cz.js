@@ -862,6 +862,14 @@ window.cpexWebsiteSettings = {
           uid: 418805
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'vignette',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }],
       filter: {
@@ -4136,6 +4144,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [256, 484]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2015537,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
