@@ -2521,7 +2521,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       video: {
-        divId: 'aqua_video_b09c1791-042f-4753-9f59-cdcbe79b7a27_html5_api'
+        divId: '_'
       }
     }, {
       code: 'm-square-gallery-5',
@@ -2919,6 +2919,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418805
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kondice.cz',
+          p: 'vignette',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -3688,6 +3696,12 @@ window.cpexWebsiteSettings = {
           accountId: '10900',
           position: 'atf',
           sizes: [256, 484]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2015557,
+          rcur: 'USD'
         }
       }, {
         bidder: 'criteo',
