@@ -1719,6 +1719,14 @@ window.cpexWebsiteSettings = {
           uid: 418805
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'kafe.cz',
+          p: 'vignette',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }],
       filter: {
@@ -3100,6 +3108,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5714578'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2015550,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
