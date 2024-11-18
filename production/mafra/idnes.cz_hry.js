@@ -4312,15 +4312,6 @@ window.cpexWebsiteSettings = {
         native: {}
       },
       bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 144582,
-          zoneId: 3450284,
-          accountId: '10900',
-          position: 'atf',
-          sizes: [600]
-        }
-      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1954709,
