@@ -3382,6 +3382,12 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'rubicon'
       }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6410704'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1148905
@@ -3435,6 +3441,12 @@ window.cpexWebsiteSettings = {
           sizes: [48, 15, 83, 261, 101]
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6410705'
+        }
       }, {
         bidder: 'ix',
         params: {
