@@ -4307,6 +4307,26 @@ window.cpexWebsiteSettings = {
           uid: 418807
         }
       }]
+    }, {
+      code: 'outstream',
+      mediaTypes: {
+        video: {
+          playerSize: [
+            [600, 400]
+          ],
+          type: 'outstream'
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 2016618,
+          rcur: 'USD'
+        }
+      }],
+      video: {
+        divId: 'outstream'
+      }
     }]
   },
   formats: {
