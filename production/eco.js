@@ -71,7 +71,7 @@ window.cpexPublisherSettings = {
   },
   formats: {
     skin: {
-      offset: /*S*/() => { window._ecohec ? (window._ecohec.desktopNavigationHeight || 0) : 0 }/*E*/
+      offset: /*S*/() => { return window._ecohec ? (window._ecohec.desktopNavigationHeight || 0) : 0 }/*E*/
     }
   }
 }
