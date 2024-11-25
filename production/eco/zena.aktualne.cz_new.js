@@ -1028,7 +1028,6 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ document.getElementsByClassName('e-ads-branding__content')[0] /*E*/,
-      offset: /*S*/ 64 /*E*/,
       zIndex: 0,
       hide: [/*S*/document.getElementById('reklama-leader')/*E*/]
     },
