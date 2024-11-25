@@ -44,8 +44,6 @@ window.cpexPublisherSettings = {
   general: {
     errorApiKey: 'hbp_DAmvPZplPFWmFYRT4W16UT3Qs47LcW1iHniv',
     onLoad: /*S*/() => {
-     /* skin offset */
-     window.cpexPackage.settings.formats.skin.offset = window._ecohec ? (window._ecohec.desktopNavigationHeight || 0) : 0;
      /* piano segment export */
      window.cX = window.cX || {};
      window.cX.callQueue = window.cX.callQueue || [];
@@ -70,5 +68,10 @@ window.cpexPublisherSettings = {
        })
      }])
    } /*E*/
+  },
+  formats: {
+    skin: {
+      offset: /*S*/() => { window._ecohec ? (window._ecohec.desktopNavigationHeight || 0) : 0 }/*E*/
+    }
   }
 }
