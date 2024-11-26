@@ -3111,6 +3111,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5650652'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017805,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1067531
@@ -3174,6 +3180,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5650663'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017804,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -4481,6 +4493,40 @@ window.cpexWebsiteSettings = {
       filter: {
         maxWidth: 1000
       }
+    }, {
+      code: 'sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 90],
+            [970, 210],
+            [970, 250],
+            [970, 310]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3627814,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 55, 96, 57, 94]
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'vlasta.cz',
+          p: 'sticky',
+          m: 1,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   formats: {
@@ -4502,7 +4548,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m-sticky', 'm-sticky-gallery']
+      adUnits: ['m-sticky', 'm-sticky-gallery', 'sticky']
     },
     responsive: {
       enabled: true,
