@@ -2828,6 +2828,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5650643'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017787,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1067527
@@ -2885,6 +2891,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5650654'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017788,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
