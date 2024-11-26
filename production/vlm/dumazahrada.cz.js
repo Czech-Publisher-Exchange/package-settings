@@ -4118,11 +4118,29 @@ window.cpexWebsiteSettings = {
             [728, 90],
             [970, 250],
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [970, 310]
           ]
         }
       },
-      bids: [],
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3627818,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 57, 48, 15, 94]
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dumazahrada.cz',
+          p: 'sticky',
+          m: 0,
+          g: 'hb'
+        }
+      }],
       filter: {
         minWidth: 1000
       }
