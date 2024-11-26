@@ -1844,6 +1844,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5650644'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017791,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1067530
@@ -1901,6 +1907,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5650655'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017789,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -3585,6 +3597,40 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000,
         urlHasNot: 'seznam-hp=1'
       }
+    }, {
+      code: 'sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 90],
+            [970, 210],
+            [970, 250],
+            [970, 310]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3627820,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 55, 96, 57, 94]
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: 'sticky',
+          m: 0,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }],
     analytics: ['cpexAnalytics', 'pubmatic']
   },
@@ -3632,7 +3678,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m-sticky', 'm-sticky-gallery']
+      adUnits: ['m-sticky', 'm-sticky-gallery', 'sticky']
     },
     responsive: {
       enabled: true,
