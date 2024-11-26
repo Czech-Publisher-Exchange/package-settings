@@ -5,7 +5,7 @@ window.cpexWebsiteSettings = {
       hide: [/*S*/ document.getElementById('leaderboard-top') /*E*/]
     },
     slideup: {
-      adUnits: ['m-sticky', 'm-sticky-gallery'],
+      adUnits: ['m-sticky', 'm-sticky-gallery', 'sticky'],
       enabled: true,
       backgroundEl: /*S*/ document.getElementById('m-sticky') /*E*/
     },
@@ -1199,6 +1199,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5650648'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017797,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1067533
@@ -1256,6 +1262,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5650659'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017796,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -2874,6 +2886,40 @@ window.cpexWebsiteSettings = {
       }],
       filter: {
         maxWidth: 1000
+      }
+    }, {
+      code: 'sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 90],
+            [970, 210],
+            [970, 250],
+            [970, 310]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3627816,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 55, 96, 57, 94]
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ireceptar.cz',
+          p: 'sticky',
+          m: 0,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        minWidth: 1000
       }
     }]
   }
