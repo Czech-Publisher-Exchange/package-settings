@@ -2102,6 +2102,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5650647'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017798,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31687735
@@ -2154,6 +2160,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5650658'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017799,
+          rcur: 'USD'
         }
       }, {
         bidder: 'appnexus',
