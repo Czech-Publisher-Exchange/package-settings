@@ -1415,7 +1415,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 932053,
+          mid: 1768488,
           rcur: 'USD'
         }
       }, {
@@ -2848,7 +2848,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 932039,
+          mid: 932038,
           rcur: 'USD'
         }
       }, {
