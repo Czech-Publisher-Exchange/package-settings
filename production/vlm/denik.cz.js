@@ -2030,6 +2030,14 @@ window.cpexWebsiteSettings = {
           uid: 418805
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'denik.cz',
+          p: 'vignette',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
       }],
       filter: {
