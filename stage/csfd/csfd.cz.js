@@ -2971,7 +2971,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'pomo.csfd.cz',
-          p: '300x250',
+          p: '300x300',
           m: 0,
           g: 'hb'
         }
@@ -3157,7 +3157,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'adform',
         params: {
-          mid: 931851,
+          mid: 931836,
           rcur: 'USD'
         }
       }, {
@@ -3352,13 +3352,14 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }],
-    analytics: ['cpexAnalytics']
+    analytics: ['cpexAnalytics'],
+    analyticsGet3PC: true
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/ document.body /*E*/,
-      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/,
-      hide: [/*S*/ document.getElementById('leaderboard-wrapper') /*E*/],
+      backgroundEl: /*S*/ () => { return document.body } /*E*/,
+      contentEl: /*S*/ () => { document.getElementById('page-wrapper') } /*E*/,
+      hide: [/*S*/ () => { document.getElementById('leaderboard-wrapper') } /*E*/],
       enabled: true,
       zIndex: 0,
       contentCSS: 'position: relative;margin-top: 210px'
