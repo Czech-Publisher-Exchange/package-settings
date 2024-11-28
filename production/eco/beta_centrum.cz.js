@@ -230,6 +230,74 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
+      code: 'halfpage2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [160, 600],
+            [120, 600],
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 385178,
+          zoneId: 2142946,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 8, 48, 15]
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 385180,
+          zoneId: 2142948,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 9, 8, 48, 15]
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic_eco_hb',
+        params: {
+          publisherId: '161532',
+          adSlot: '6423033'
+        },
+        bidderModuleName: 'pubmatic'
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2022008,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1153060
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 22213129
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418810
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3162268,
+          networkId: 393
+        }
+      }]
+    }, {
       code: 'mediumrectangle',
       mediaTypes: {
         banner: {
