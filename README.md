@@ -82,47 +82,47 @@ Common package configuration, mainly handling of events and scripts.
 Has to have trailing comas, as line breaks may be lost. Only single quotes are allowed.
 
 `general: {}`
-| Attribute      | Values                                                    | Default    |
+| Attribute      | Type: Values                                              | Default    |
 |----------------|-----------------------------------------------------------|------------|
-| `autoRun`      | Boolean, true starts package once loaded                  | true       |
-| `customRun`    | JS function, fired when autoRun is disabled               |            |
-| `beforeLoad`   | JS function, fired before run, only settings are loaded   |            |
-| `onLoad`       | JS function, fired once package is fully loaded           |            |
-| `errorPath`    | String, enables error logging. Added to cpexPackageConfig |            |
+| `autoRun`      | Bool: true starts package once loaded                     | true       |
+| `customRun`    | Function: fired when autoRun is disabled                  |            |
+| `beforeLoad`   | Function: fired before run, only settings are loaded      |            |
+| `onLoad`       | Function: fired once package is fully loaded              |            |
+| `errorPath`    | String: enables error logging. Added to cpexPackageConfig |            |
 
 ### Publisher info
 `publisher: {}`
 *Only used for publisher settings*
-| Attribute      | Values                                            | Default    |
+| Attribute      | Type: Values                                      | Default    |
 |----------------|---------------------------------------------------|------------|
-| `code`         | Required, short standard publisher identifier     |            |
-| `name`         | String, optional, legal name of the publisher     |            |
-| `note`         | String, optional, useful note for production      |            |
-| `sellerId`     | Number, required, from cpex.cz/sellers.json       | 0          |
+| `code`         | String: Required, short standard publisher id     |            |
+| `name`         | String: optional, legal name of the publisher     |            |
+| `note`         | String: optional, useful note for production      |            |
+| `sellerId`     | Number: required, from cpex.cz/sellers.json       | 0          |
 
 ### Website info
 `website: {}`
 *Only used for website settings*
-| Attribute      | Values                                            | Default    |
+| Attribute      | Type: Values                                      | Default    |
 |----------------|---------------------------------------------------|------------|
-| `name`         | String, optional, name of the website             |            |
-| `note`         | String, optional, useful note for production      |            |
+| `name`         | String: optional, name of the website             |            |
+| `note`         | String: optional, useful note for production      |            |
 
 ### AB
 `ab: {}`
 *To test multiple settings against each other*
-| Attribute          | Values                                                        | Default    |
+| Attribute          | Type: Values                                                  | Default    |
 |--------------------|---------------------------------------------------------------|------------|
-| `enabled`          | Boolean                                                       | false      |
-| `groupList`        | Object of `Group Objects`*, keys are names of the test groups |            |
-| `selectGroup`      | Function, custom selection method, should return group name   |            |
-| `sasKey`           | String, SAS key to use for sending the group name             |            |
+| `enabled`          | Bool                                                          | false      |
+| `groupList`        | Object: `Group Objects`*, keys are names of the test groups   |            |
+| `selectGroup`      | Function: custom selection method, should return group name   |            |
+| `sasKey`           | String: SAS key to use for sending the group name             |            |
 
   #### * Group object
-  | Attribute          | Values                                           | Default    |
+  | Attribute          | Type: Values                                     | Default    |
   |--------------------|--------------------------------------------------|------------|
-  | `websiteSettings`  | String, URL to override website settings         |            |
-  | `probability`      | Float, range of 0 to 1, all has to add up to 1   | 0          |
+  | `websiteSettings`  | String: URL to override website settings         |            |
+  | `probability`      | Float: range of 0 to 1, all has to add up to 1   | 0          |
 
   #### Example
   ```js
@@ -134,63 +134,63 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 
 ### CMP
 `cmp: {}`
-| Attribute        | Values                                           | Default    |
+| Attribute        | Type: Values                                     | Default    |
 |------------------|--------------------------------------------------|------------|
-| `enabled`        | Boolean                                          | true       |
-| `payEnabled`     | Boolean                                          | false      |
-| `payConfig`      | Object, configuration for 'pay' type. See below. |            |
-| `didomiTemplate` | String, custom didomi template to load           |            |
-| `pixelList`      | Array of URL strings                             | array      |
+| `enabled`        | Bool                                             | true       |
+| `payEnabled`     | Bool                                             | false      |
+| `payConfig`      | Object: configuration for 'pay' type. See below. |            |
+| `didomiTemplate` | String: custom didomi template to load           |            |
+| `pixelList`      | Array: URL strings                               | array      |
 
 #### CMP: payConfig ("Pay or Okay" variant)
-| Attribute          | Type       | Required | Values                                                       | Default              |
-|--------------------|------------|----------|--------------------------------------------------------------|----------------------|
-| `texts`            | Function   | No       | Custom texts, returns object with subset of keys of texts.js | in texts.js          |
-| `generalCSS`       | Function   | No       | Return string of all CSS, if you want to start from scratch  | in styles.js         |
-| `overrideCSS`      | Function   | No       | Return string of some CSS, if you want minor changes         |                      |
-| `links`            | Array      | No       | Objects with HTML attributes for links shown in footer       | in texts.js          |
-| `veil`             | Boolean    | No       | Whether to cover the underlying website                      |                      |
-| `purposeList`      | Boolean    | No       | Whether to show purpose list in footer                       |                      |
-| `primaryLogoURL`   | String     | No       | URL to the website logo                                      |                      |
-| `secondaryLogoURL` | String     | No       | URL to the publisher logo                                    |                      |
-| `registerURL`      | String     | Yes      | URL or `javascript:` to registration                         |                      |
-| `loginURL`         | String     | Yes      | URL or `javascript:` to login                                |                      |
-| `required`         | Array      | Yes      | List of mandatory consent purposes (*), shouldn't be empty   | ['cookies']          |
-| `consentDateLimit` | String     | No       | ISO date (`new Date().toISOString()`) for resetting consent  |                      |
-| `pixels`           | Array      | No       | Array of URLs that will be fired as pixel images             |                      |
+| Attribute          | Required | Type: Values                                                           | Default              |
+|--------------------|----------|------------------------------------------------------------------------|----------------------|
+| `texts`            | No       | Function: Custom texts, returns object with subset of keys of texts.js | in texts.js          |
+| `generalCSS`       | No       | Function: Return string of all CSS, if you want to start from scratch  | in styles.js         |
+| `overrideCSS`      | No       | Function: Return string of some CSS, if you want minor changes         |                      |
+| `links`            | No       | Array: Objects with HTML attributes for links shown in footer          | in texts.js          |
+| `veil`             | No       | Boolean: Whether to cover the underlying website                       |                      |
+| `purposeList`      | No       | Boolean: Whether to show purpose list in footer                        |                      |
+| `primaryLogoURL`   | No       | String: URL to the website logo                                        |                      |
+| `secondaryLogoURL` | No       | String: URL to the publisher logo                                      |                      |
+| `registerURL`      | Yes      | String: URL or `javascript:` to registration                           |                      |
+| `loginURL`         | Yes      | String: URL or `javascript:` to login                                  |                      |
+| `consentDateLimit` | No       | String: ISO date (`new Date().toISOString()`) for resetting consent    |                      |
+| `required`         | Yes      | Array: List of mandatory consent purposes (*), shouldn't be empty      | ['cookies']          |
+| `pixels`           | No       | Array: Array of URLs that will be fired as pixel images                |                      |
 
 ### DSA
 (Digital Services Act) EU requirement to show information about advertisers and profiling
 `dsa: {}`
-| Attribute      | Values                                           | Default    |
+| Attribute      | Type: Values                                     | Default    |
 |----------------|--------------------------------------------------|------------|
-| `enabled`      | Boolean                                          | true       |
-| `render`       | Boolean, enables rendering of ad info            | true       |
-| `pixelList`    | Array of URL strings                             | array      |
+| `enabled`      | Bool                                             | true       |
+| `render`       | Bool: enables rendering of ad info               | true       |
+| `pixelList`    | Array: URL strings                               | array      |
 
 ### Analytics
 `analytics: {}`
-| Attribute      | Values                                           | Default    |
+| Attribute      | Type: Values                                     | Default    |
 |----------------|--------------------------------------------------|------------|
-| `enabled`      | Boolean                                          | true       |
-| `force`        | Boolean, allows to skip consent check            | false      |
+| `enabled`      | Bool                                             | true       |
+| `force`        | Bool: allows to skip consent check               | false      |
 
 ### Ad server
 **Note:** To properly merge between the two types of settings, SSPs should be named consistently. Please use the following strings: **pubmatic, index, magnite, xandr**
 
 `adserver: {}`
-| Attribute            | Values                                                         | Default      |
+| Attribute            | Type: Values                                                   | Default      |
 |----------------------|----------------------------------------------------------------|--------------|
-| `adapter`            | String, required, which adapter to use                         |              |
-| `enabled`            | Boolean, disabling disables HB as well                         | true         |
-| `loadPrerequisites`  | Boolean, loads libraries for adserver                          | false        |
-| `delayCall`          | Number, timeout in milliseconds                                | 0            |
-| `defineSlots`        | **GAM only** Array of slot definition Objects                  |              |
-| `gamPrefix`          | **GAM only** String, path of GAM website, used for defineSlots |              |
-| `gamId`              | **GAM only** String, id of GAM instance, used for defineSlots  |              |
-| `adsObjectEvent`     | **SAS only** String, name of custom event to wait for          |              |
-| `allowedSSPs`        | **SAS only** Object, advertiser IDs allowed for custom formats |              |
-| `bidderTable`        | **SAS only** Object, bidder names in the SAS instance          |              |
+| `adapter`            | String: required, which adapter to use                         |              |
+| `enabled`            | Bool: disabling disables HB as well                            | true         |
+| `loadPrerequisites`  | Bool: loads libraries for adserver                             | false        |
+| `delayCall`          | Number: timeout in milliseconds                                | 0            |
+| `defineSlots`        | **GAM only** Array: slot definition Objects                    |              |
+| `gamPrefix`          | **GAM only** String: path of GAM website, used for defineSlots |              |
+| `gamId`              | **GAM only** String: id of GAM instance, used for defineSlots  |              |
+| `adsObjectEvent`     | **SAS only** String: name of custom event to wait for          |              |
+| `allowedSSPs`        | **SAS only** Object: advertiser IDs allowed for custom formats |              |
+| `bidderTable`        | **SAS only** Object: bidder names in the SAS instance          |              |
 
   - defineSlots: slot definition object: `{ elementId: '', sizes: [], path: '' }`
   - allowedSSPs default: `{ pubmatic: 1, index: 3, magnite: 4, xandr: 5 }`
@@ -198,23 +198,23 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 
 ### Header-bidding
 `headerbidding: {}`
-| Attribute            | Values                                            | Default  |
-|----------------------|---------------------------------------------------|----------|
-| `enabled`            | Boolean                                           | true     |
-| `prebidPath`         | String URL     | https://cdn.cpex.cz/hb/prebid/prebid.min.js |
-| `currency`           | String, converts CPM into this currency           | 'USD'    |
-| `prebidDebug`        | Boolean, toggles debug logging from Prebid        | false    |
-| `adUnits`            | Array of AdUnit Objects (below) + custom `filter` | []       |
-| `passbacks`          | Object of adUnit keys with function to be called  | {}       |
-| `auctionTimeoutMs`   | Number, sets pbjs.requestBids timeout             | 1000     |
-| `cmpLoadTimeoutMs`   | Number, sets consentManagement.gdpr.timeout       | 1000     |
-| `cmpActionTimeoutMs` | Number, sets consentManagement.gdpr.actionTimeout | 2000     |
-| `userIDs`            | Array, names of modules to enable | ['id5Id', 'sharedId', 'criteo'] |
-| `analytics`          | Array, names of adapters to enable        | ['id5Analytics'] |
-| `bidderSettings`     | Object, allows custom bidder configuration        |          |
-| `customBuckets`      | Array of Numbers, each is ceiling of new tier     |          |
-| `priceFloorsUrl`     | String, path to dynamic price floor data (JSON)   |          |
-| `analyticsGet3PC`    | Boolean, detect and send 3rd party cookie support |          |
+| Attribute            | Type: Values                                      | Default                         |
+|----------------------|---------------------------------------------------|---------------------------------|
+| `enabled`            | Bool                                              | true                            |
+| `prebidPath`         | String: URL                           | https://cdn.cpex.cz/hb/prebid/prebid.min.js |
+| `currency`           | String: converts CPM into this currency           | 'USD'                           |
+| `prebidDebug`        | Bool: toggles debug logging from Prebid           | false                           |
+| `adUnits`            | Array: AdUnit Objects (below) + custom `filter`   | []                              |
+| `passbacks`          | Object: adUnit keys with function to be called    | {}                              |
+| `auctionTimeoutMs`   | Number: sets pbjs.requestBids timeout             | 1000                            |
+| `cmpLoadTimeoutMs`   | Number: sets consentManagement.gdpr.timeout       | 1000                            |
+| `cmpActionTimeoutMs` | Number: sets consentManagement.gdpr.actionTimeout | 2000                            |
+| `userIDs`            | Array: names of modules to enable                 | ['id5Id', 'sharedId', 'criteo'] |
+| `analytics`          | Array: names of adapters to enable                | ['id5Analytics']                |
+| `bidderSettings`     | Object: allows custom bidder configuration        |                                 |
+| `customBuckets`      | Array: Numbers, each is ceiling of new tier       |                                 |
+| `priceFloorsUrl`     | String: path to dynamic price floor data (JSON)   |                                 |
+| `analyticsGet3PC`    | Boolean: detect and send 3rd party cookie support |                                 |
 
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 [Bidder Settings reference](https://docs.prebid.org/dev-docs/publisher-api-reference/bidderSettings.html)
@@ -223,103 +223,103 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
   *removes the adUnit if certain runtime conditions apply*
 
   `filter: {}`
-  | Attribute     | Values                                                         |
+  | Attribute     | Type: Values                                                   |
   |---------------|----------------------------------------------------------------|
-  | `maxWidth`    | Number, remove before auction if viewport is larger than X     |
-  | `minWidth`    | Number, remove before auction if viewport is smaller than X    |
-  | `urlIs`       | String, remove before auction if URL is X                      |
-  | `urlIsNot`    | String, remove before auction if URL isn't X                   |
-  | `urlHas`      | String, remove before auction if URL contains X                |
-  | `urlHasNot`   | String, remove before auction if URL doesn't contain X         |
-  | `variable`    | String, remove before auction if window.cpexAdUnitParam != X   |
-  | `cookie`      | String, remove before auction if page contains that cookie     |
-  | `skin`        | String, remove after auction if a skin won in auction          |
+  | `maxWidth`    | Number: remove before auction if viewport is larger than X     |
+  | `minWidth`    | Number: remove before auction if viewport is smaller than X    |
+  | `urlIs`       | String: remove before auction if URL is X                      |
+  | `urlIsNot`    | String: remove before auction if URL isn't X                   |
+  | `urlHas`      | String: remove before auction if URL contains X                |
+  | `urlHasNot`   | String: remove before auction if URL doesn't contain X         |
+  | `variable`    | String: remove before auction if window.cpexAdUnitParam != X   |
+  | `cookie`      | String: remove before auction if page contains that cookie     |
+  | `skin`        | String: remove after auction if a skin won in auction          |
 
 ### Formats
 `formats: {}`
-| Attribute       | Values                                                       |
+| Attribute       | Type: Values                                                 |
 |-----------------|--------------------------------------------------------------|
-| `skin`          | Object with Skin properties, see below                       |
-| `interscroller` | Object with Interscroller properties, see below              |
-| `native`        | Object with Native properties, see below                     |
-| `slideup`       | Object with Slideup properties, see below                    |
-| `vignette`      | Object with Vignette properties, see below                   |
+| `skin`          | Object: Skin properties, see below                           |
+| `interscroller` | Object: Interscroller properties, see below                  |
+| `native`        | Object: Native properties, see below                         |
+| `slideup`       | Object: Slideup properties, see below                        |
+| `vignette`      | Object: Vignette properties, see below                       |
 | `testCreatives` | Object, key: AdUnit, valid: testCreative object, see below   |
 
 #### Skin
 **Note:** Element DOM selectors are written in Javascript code and have to be wrapped in simple brackets, to be properly parsed in the settings editor.
 
 `skin: {}`
-| Attribute       | Values                                                     | Default              |
-|-----------------|------------------------------------------------------------|----------------------|
-| `enabled`       | Boolean                                                    | false                |
-| `adUnitsForced` | Array of adUnits where everything is considered a skin     |                      |
-| `backgroundEl`  | DOM selector, background element                           | document.body        |
-| `contentEl`     | DOM selector, content element                              |                      |
-| `contentCSS`    | CSS style for content element           | 'position: relative; margin-top: 200px' |
-| `generalCSS`    | CSS style for the page in general                          |                      |
-| `hide`          | Array of DOM elements to hide                              |                      |
-| `zIndex`        | CSS `z-index` for skin wrapper (depth)                     |                      |
-| `offset`        | Function, returns pixels from the top, fallback to integer | 0                    |
-| `offsetScroll`  | Should offset disappear with scrolling?                    | false                |
+| Attribute       | Type: Values                                               | Default                                 |
+|-----------------|------------------------------------------------------------|-----------------------------------------|
+| `enabled`       | Boolean                                                    | false                                   |
+| `adUnitsForced` | Array: adUnits where everything is considered a skin       |                                         |
+| `backgroundEl`  | Function: DOM selector, background element                 | () => { return document.body }          |
+| `contentEl`     | Function: DOM selector, content element                    |                                         |
+| `hide`          | Array: DOM selectors                                       |                                         |
+| `contentCSS`    | CSS style for content element                              | 'position: relative; margin-top: 200px' |
+| `generalCSS`    | CSS style for the page in general                          |                                         |
+| `zIndex`        | CSS `z-index` for skin wrapper (depth)                     |                                         |
+| `offset`        | Function: pixels from the top, fallback to integer         | 0                                       |
+| `offsetScroll`  | Bool: Should offset disappear with scrolling?              | false                                   |
 
 #### Interscroller
 `interscroller: {}`
-| Attribute      | Values                                           | Default    |
-|----------------|--------------------------------------------------|------------|
-| `enabled`      | Boolean                                          | false      |
-| `adUnits`      | Array, optional. AdUnits to catch interscroller  |            |
-| `height`       | String for CSS, usually in px or vh              | '75vh'     |
-| `offset`       | Number, pixels from the top                      | 0          |
+| Attribute      | Type: Values                                                        | Default           |
+|----------------|---------------------------------------------------------------------|-------------------|
+| `enabled`      | Bool                                                                | false             |
+| `adUnits`      | Array: optional. AdUnits to catch interscroller                     |                   |
+| `height`       | String: for CSS, usually in px or vh                                | '75vh'            |
+| `offset`       | Number: pixels from the top                                         | 0                 |
 
 #### Native
 `native: {}`
-| Attribute      | Values                                                              | Default           |
+| Attribute      | Type: Values                                                        | Default           |
 |----------------|---------------------------------------------------------------------|-------------------|
-| `enabled`      | Boolean                                                             | false             |
-| `templates`    | Object with string of targeted adUnits as key, comma separated *    | built-in template |
-| `adUnitConfig` | Object, keys for adUnit names, value is custom configuration object |                   |
+| `enabled`      | Bool                                                                | false             |
+| `templates`    | Object: string of targeted adUnits as key, comma separated *        | built-in template |
+| `adUnitConfig` | Object: keys for adUnit names, value is custom configuration object |                   |
 
 * Values contain the template, a string of HTML+CSS, with Mustache variables. If adUnit isn't found, key 'generic' is used.
 
   ##### Native - custom configuration
   `adUnitConfig: {}`
-  | Attribute     | Values                                                            | Default           |
+  | Attribute     | Type: Values                                                      | Default           |
   |---------------|-------------------------------------------------------------------|-------------------|
-  | `titleLength` | Integer, length after which it crops the rest with "..."          | 45                |
-  | `descLength`  | Integer, length after which it crops the rest with "..."          | 90                |
+  | `titleLength` | Integer: length after which it crops the rest with "..."          | 45                |
+  | `descLength`  | Integer: length after which it crops the rest with "..."          | 90                |
 
 #### Slideup
 `slideup: {}`
-| Attribute | Values                                          | Default          |
-|-----------|-------------------------------------------------|------------------|
-| `enabled` | Boolean                                         | false            |
-| `adUnits` | Array, required. AdUnits to catch slideup       |                  |
-| `css`     | String of custom CSS rules                      | default css      |
-| `emptyHeight` | Number, height in pixels used by default    | 0                |
-| `closeTextHTML` | String, innerHTML                    | 'Zavřít&nbsp;&nbsp;✕' |
-| `animationSpeed`| Float, number of seconds                  | 0.2              |
-| `backgroundEl`  | DOM selector, background element          | document.body    |
+| Attribute       | Type: Values                                    | Default               |
+|-----------------|-------------------------------------------------|-----------------------|
+| `enabled`       | Bool                                            | false                 |
+| `adUnits`       | Array: AdUnits to catch slideup. Required       |                       |
+| `css`           | String: custom CSS rules                        | default css           |
+| `emptyHeight`   | Number: height in pixels used by default        | 0                     |
+| `closeTextHTML` | String: innerHTML                               | 'Zavřít&nbsp;&nbsp;✕' |
+| `animationSpeed`| Float: number of seconds                        | 0.2                   |
+| `backgroundEl`  | Function: DOM selector, background element      | document.body         |
 
 #### Vignette
 `vignette: {}`
-| Attribute       | Values                                         | Default     |
-|-----------------|------------------------------------------------|-------------|
-| `enabled`       | Boolean                                        | false       |
-| `adUnits`       | Array, required. AdUnits to catch vignette     |             |
-| `css`           | String of custom CSS rules                     | default css |
-| `closeTextHTML` | String, innerHTML       | 'Zavřít&nbsp;reklamu&nbsp;&nbsp;✕' |
-| `cookieName`    | String, name of cookie to set after rendering  |             |
-| `cookieDuration`| Number, seconds the cookie should last         |             |
+| Attribute       | Type: Values                                   | Default                            |
+|-----------------|------------------------------------------------|------------------------------------|
+| `enabled`       | Bool                                           | false                              |
+| `adUnits`       | Array: AdUnits to catch vignette. Required     |                                    |
+| `css`           | String: custom CSS rules                       | default css                        |
+| `closeTextHTML` | String: innerHTML                              | 'Zavřít&nbsp;reklamu&nbsp;&nbsp;✕' |
+| `cookieName`    | String: name of cookie to set after rendering  |                                    |
+| `cookieDuration`| Number: seconds the cookie should last         |                                    |
 
 #### Responsive
 `responsive: {}`
-| Attribute       | Values                                         | Default     |
+| Attribute       | Type: Values                                   | Default     |
 |-----------------|------------------------------------------------|-------------|
-| `enabled`       | Boolean                                        | false       |
-| `adUnits`       | Array, required. AdUnits to be responsive      |             |
-| `width`         | String, required. What width it has to have    |             |
-| `height`        | String, required. What height it has to have   |             |
+| `enabled`       | Bool                                           | false       |
+| `adUnits`       | Array: AdUnits to be responsive. Required      |             |
+| `width`         | String: Required width                         |             |
+| `height`        | String: Required height                        |             |
 
 #### TestCreatives
 Explained here: [Formats: Testing](https://git.cpex.cz/frontend/cpex-package/-/blob/master/readme/Formats.md#user-content-testing)
