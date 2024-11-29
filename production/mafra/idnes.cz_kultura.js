@@ -4212,6 +4212,11 @@ window.cpexWebsiteSettings = {
           mid: 2016602,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 34608037
+        }
       }],
       video: {
         divId: 'outstream'
