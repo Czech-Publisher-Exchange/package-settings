@@ -4039,15 +4039,6 @@ window.cpexWebsiteSettings = {
       video: {
         divId: 'outstream'
       }
-    }, {
-      code: '',
-      mediaTypes: {
-        banner: {
-          sizes: []
-        }
-      },
-      bids: [],
-      passback: ''
     }]
   },
   formats: {
