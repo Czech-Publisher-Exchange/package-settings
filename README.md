@@ -204,7 +204,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `prebidPath`         | String: URL                           | https://cdn.cpex.cz/hb/prebid/prebid.min.js |
 | `currency`           | String: converts CPM into this currency           | 'USD'                           |
 | `prebidDebug`        | Bool: toggles debug logging from Prebid           | false                           |
-| `adUnits`            | Array: AdUnit Objects (below) + custom `filter`   | []                              |
+| `adUnits`            | Array: AdUnit Objects (below) + custom `filter`*  | []                              |
 | `passbacks`          | Object: adUnit keys with function to be called    | {}                              |
 | `auctionTimeoutMs`   | Number: sets pbjs.requestBids timeout             | 1000                            |
 | `cmpLoadTimeoutMs`   | Number: sets consentManagement.gdpr.timeout       | 1000                            |
@@ -219,7 +219,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 [Standard AdUnit reference](https://docs.prebid.org/dev-docs/adunit-reference.html)
 [Bidder Settings reference](https://docs.prebid.org/dev-docs/publisher-api-reference/bidderSettings.html)
 
-  #### Filter - custom AdUnit property
+  #### * Filter - custom AdUnit property
   *removes the adUnit if certain runtime conditions apply*
 
   `filter: {}`
@@ -234,6 +234,18 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
   | `variable`    | String: remove before auction if window.cpexAdUnitParam != X   |
   | `cookie`      | String: remove before auction if page contains that cookie     |
   | `skin`        | String: remove after auction if a skin won in auction          |
+
+### Refresh
+`refresh: {}`
+| Attribute       | Type: Values                               | Default         |
+|-----------------|--------------------------------------------|-----------------|
+| `enabled`       | Bool                                       | false           |
+| `adUnits`       | Array of objects* (refresh definitions)    |                 |
+
+  #### * Refresh adUnit definitions
+  | `period`        | Number: Seconds between refreshes          | 30            |
+  | `maxCount`      | Number: Limit to number of refreshes       | 0             |
+  | `s2sPosition`   | String: Optional custom CPEx only sources  |               |
 
 ### Formats
 `formats: {}`
