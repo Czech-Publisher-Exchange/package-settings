@@ -1,6 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'cpex.cz'
+    name: 'cpex.cz',
+    note: 'test'
   },
   cmp: {
     enabled: true,
