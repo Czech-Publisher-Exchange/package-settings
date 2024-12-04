@@ -235,17 +235,18 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
   | `cookie`      | String: remove before auction if page contains that cookie     |
   | `skin`        | String: remove after auction if a skin won in auction          |
 
-### Refresh
-`refresh: {}`
+### Auto-refresh
+`autorefresh: {}`
 | Attribute       | Type: Values                               | Default         |
 |-----------------|--------------------------------------------|-----------------|
 | `enabled`       | Bool                                       | false           |
 | `adUnits`       | Array of objects* (refresh definitions)    |                 |
 
   #### * Refresh adUnit definitions
-  | `period`        | Number: Seconds between refreshes          | 30            |
-  | `maxCount`      | Number: Limit to number of refreshes       | 0             |
-  | `s2sPosition`   | String: Optional custom CPEx only sources  |               |
+  | `name`        | String: Required. Name of AdUnit to refresh   |              |
+  | `interval`    | Number: Seconds between refreshes             | 30           |
+  | `maxCount`    | Number: Limit to number of refreshes          | 0            |
+  | `s2sPosition` | String: Optional custom CPEx only sources     |              |
 
 ### Formats
 `formats: {}`
