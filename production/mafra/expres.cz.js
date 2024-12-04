@@ -3190,6 +3190,13 @@ window.cpexWebsiteSettings = {
           mid: 2016599,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2024459,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }],
       video: {
         divId: 'outstream'
