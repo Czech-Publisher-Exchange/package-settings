@@ -3357,9 +3357,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/ () => { return document.body } /*E*/,
-      contentEl: /*S*/ () => { document.getElementById('page-wrapper') } /*E*/,
-      hide: [/*S*/ () => { document.getElementById('leaderboard-wrapper') } /*E*/],
+      backgroundEl: /*S*/ document.body /*E*/,
+      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/,
+      hide: [/*S*/ document.getElementById('leaderboard-wrapper') /*E*/],
       enabled: true,
       zIndex: 0,
       contentCSS: 'position: relative;margin-top: 210px'
@@ -3462,5 +3462,13 @@ window.cpexWebsiteSettings = {
         }
       })
     } /*E*/
+  },
+  autorefresh: {
+    adUnits: [{
+      name: 'leaderboard',
+      interval: 30,
+      maxCount: 10,
+      s2sPosition: ''
+    }]
   }
 }
