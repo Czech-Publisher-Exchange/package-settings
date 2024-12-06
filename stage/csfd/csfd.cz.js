@@ -3469,6 +3469,7 @@ window.cpexWebsiteSettings = {
       interval: 30,
       maxCount: 10,
       s2sPosition: ''
-    }]
+    }],
+    enabled: true
   }
 }
