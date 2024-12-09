@@ -1747,8 +1747,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      hide: [/*S*/ document.getElementsByClassName('adcontainer-header')[0] /*E*/],
-      contentEl: /*S*/ document.getElementById('st-container') /*E*/
+      hide: [/*S*/ () => { return document.getElementsByClassName('adcontainer-header')[0] } /*E*/],
+      contentEl: /*S*/ () => { return document.getElementById('st-container') } /*E*/
     },
     slideup: {
       enabled: true,

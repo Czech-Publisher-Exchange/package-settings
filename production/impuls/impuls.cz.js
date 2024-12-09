@@ -316,8 +316,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementById('page')/*E*/,
-      hide: [/*S*/document.getElementsByClassName('dotbox-fullpage')[0]/*E*/]
+      contentEl: /*S*/ () => { return document.getElementById('page') } /*E*/,
+      hide: [/*S*/ () => { return document.getElementsByClassName('dotbox-fullpage')[0] } /*E*/]
     },
     interscroller: {
       enabled: true

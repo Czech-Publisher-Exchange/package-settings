@@ -890,7 +890,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      backgroundEl: /*S*/document.getElementById('branding-wrapper')/*E*/
+      backgroundEl: /*S*/ () => { return document.getElementById('branding-wrapper') } /*E*/
     },
     interscroller: {
       enabled: true,

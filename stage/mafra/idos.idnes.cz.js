@@ -707,9 +707,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
-      hide: [/*S*/ document.getElementById('r-leaderboard-hp') /*E*/]
+      contentEl: /*S*/ () => { return document.getElementsByClassName('m-bg-4')[0] } /*E*/,
+      backgroundEl: /*S*/ () => { return document.getElementById('main') } /*E*/,
+      hide: [/*S*/ () => { return document.getElementById('r-leaderboard-hp') } /*E*/]
     },
     interscroller: {
       enabled: true,

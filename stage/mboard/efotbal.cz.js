@@ -2,7 +2,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementById('page')/*E*/
+      contentEl: /*S*/ () => { return document.getElementById('page') } /*E*/
     }
   },
   headerbidding: {

@@ -471,7 +471,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementById('brand-a') /*E*/,
+      contentEl: /*S*/ () => { return document.getElementById('brand-a') } /*E*/,
       offset: 130,
       offsetScroll: false
     },

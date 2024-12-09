@@ -695,9 +695,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('parter-cpex-branding-wrapper')[0] } /*E*/,
       contentCSS: 'width: 1060px; margin: 200px auto; position: relative;',
-      hide: [/*S*/ document.getElementsByClassName('js-advert-position-mark-leaderboard')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/]
+      hide: [/*S*/ () => { return document.getElementsByClassName('js-advert-position-mark-leaderboard')[0] } /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/]
     }
   },
   cmp: {

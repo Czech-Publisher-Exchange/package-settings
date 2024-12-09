@@ -12,13 +12,13 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('relative')[0]/*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('relative')[0] } /*E*/,
       offset: 72,
-      hide: [/*S*/document.getElementsByClassName('flex-col')[0]/*E*/]
+      hide: [/*S*/ () => { return document.getElementsByClassName('flex-col')[0] } /*E*/]
     },
     slideup: {
       adUnits: ['reklama-popupmobile'],
-      backgroundEl: /*S*/document.getElementById('reklama-popupmobile-wrapper')/*E*/
+      backgroundEl: /*S*/ () => { return document.getElementById('reklama-popupmobile-wrapper') } /*E*/
     }
   }
 }

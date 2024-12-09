@@ -546,10 +546,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('kFJFkb')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('kFJFkb')[0] } /*E*/,
       contentCSS: ' margin-top: 100px',
       zIndex: null,
-      backgroundEl: /*S*/ document.getElementById('brand-c') /*E*/,
+      backgroundEl: /*S*/ () => { return document.getElementById('brand-c') } /*E*/,
       offset: /*S*/() => 60/*E*/
     },
     interscroller: {
@@ -559,7 +559,7 @@ window.cpexWebsiteSettings = {
     slideup: {
       adUnits: ['div-gpt-ad-1713770693280-0'],
       enabled: true,
-      backgroundEl: /*S*/ document.getElementById('sas-special-wrapper') /*E*/
+      backgroundEl: /*S*/ () => { return document.getElementById('sas-special-wrapper') } /*E*/
     },
     responsive: {
       enabled: true,

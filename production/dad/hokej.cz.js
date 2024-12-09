@@ -51,12 +51,12 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/ document.getElementById('branding-container') /*E*/ ,
-      contentEl: /*S*/ document.getElementsByClassName('content-wrapper')[0] /*E*/ ,
+      backgroundEl: /*S*/ () => { return document.getElementById('branding-container') } /*E*/ ,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('content-wrapper')[0] } /*E*/ ,
       enabled: true,
       offset: 68,
       generalCSS: '#cpex-skin { margin-top: 60px }',
-      hide: [ /*S*/ document.getElementsByClassName('banner-top')[0] /*E*/ ],
+      hide: [ /*S*/ () => { return document.getElementsByClassName('banner-top')[0] } /*E*/ ],
       offsetScroll: true
     },
     slideup: {

@@ -956,8 +956,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('kosilka_cely_web')[0] /*E*/,
-      hide: [/*S*/ document.getElementById('leaderboard-top') /*E*/],
+      contentEl: /*S*/ () => { return document.getElementsByClassName('kosilka_cely_web')[0] } /*E*/,
+      hide: [/*S*/ () => { return document.getElementById('leaderboard-top') } /*E*/],
       contentCSS: ' '
     },
     interscroller: {

@@ -3763,9 +3763,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('page')[0] } /*E*/,
       offsetScroll: false,
-      hide: [/*S*/ document.getElementsByClassName('reklama-box-leaderboard-top')[0] /*E*/],
+      hide: [/*S*/ () => { return document.getElementsByClassName('reklama-box-leaderboard-top')[0] } /*E*/],
       contentCSS: 'position: relative; margin-top: 210px;'
     },
     interscroller: {

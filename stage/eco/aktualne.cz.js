@@ -963,9 +963,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('page')[0] } /*E*/,
       offsetScroll: true,
-      hide: [/*S*/document.getElementsByClassName('advert__leader')[0]/*E*/],
+      hide: [/*S*/ () => { return document.getElementsByClassName('advert__leader')[0] } /*E*/],
       generalCSS: "document.querySelector('.advert__leader').style.minHeight = '0';"
     },
     interscroller: {
@@ -976,7 +976,7 @@ window.cpexWebsiteSettings = {
     slideup: {
       adUnits: ['sas-special4'],
       enabled: true,
-      backgroundEl: /*S*/ document.getElementById('reklama-special4') /*E*/
+      backgroundEl: /*S*/ () => { return document.getElementById('reklama-special4') } /*E*/
     },
     responsive: {
       width: 480,

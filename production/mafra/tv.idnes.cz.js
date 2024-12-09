@@ -156,7 +156,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/
+      contentEl: /*S*/ () => { return document.getElementsByClassName('m-bg-4')[0] } /*E*/
     },
     interscroller: {
       enabled: true

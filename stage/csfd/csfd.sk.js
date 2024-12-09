@@ -3010,10 +3010,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      backgroundEl: /*S*/ document.body /*E*/,
-      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/,
+      backgroundEl: /*S*/ () => { return document.body } /*E*/,
+      contentEl: /*S*/ () => { return document.getElementById('page-wrapper') } /*E*/,
       contentCSS: 'position: relative;margin-top: 210px',
-      hide: [/*S*/ document.getElementById('leaderboard-wrapper') /*E*/]
+      hide: [/*S*/ () => { return document.getElementById('leaderboard-wrapper') } /*E*/]
     },
     interscroller: {
       enabled: true

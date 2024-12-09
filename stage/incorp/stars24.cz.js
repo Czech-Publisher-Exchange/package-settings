@@ -1342,9 +1342,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('main__content')[0] /*E*/ ,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/ ,
-      hide: [ /*S*/ document.getElementsByClassName('main__bg__wrapper')[0] /*E*/ ],
+      contentEl: /*S*/ () => { return document.getElementsByClassName('main__content')[0] } /*E*/ ,
+      backgroundEl: /*S*/ () => { return document.getElementById('main') } /*E*/ ,
+      hide: [ /*S*/ () => { return document.getElementsByClassName('main__bg__wrapper')[0] } /*E*/ ],
       offset: 60
     },
     interscroller: {

@@ -274,7 +274,7 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-sticky']
     },
     skin: {
-      contentEl: /*S*/ document.getElementsByClassName('c-main')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('c-main')[0] } /*E*/,
       enabled: false
     }
   },

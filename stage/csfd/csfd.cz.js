@@ -3357,9 +3357,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/ document.body /*E*/,
-      contentEl: /*S*/ document.getElementById('page-wrapper') /*E*/,
-      hide: [/*S*/ document.getElementById('leaderboard-wrapper') /*E*/],
+      backgroundEl: /*S*/ () => { return document.body } /*E*/,
+      contentEl: /*S*/ () => { return document.getElementById('page-wrapper') } /*E*/,
+      hide: [/*S*/ () => { return document.getElementById('leaderboard-wrapper') } /*E*/],
       enabled: true,
       zIndex: 0,
       contentCSS: 'position: relative;margin-top: 210px'

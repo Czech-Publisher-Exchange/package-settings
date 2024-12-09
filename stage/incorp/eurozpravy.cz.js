@@ -82,7 +82,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('main__content')[0] /*E*/ ,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('main__content')[0] } /*E*/ ,
       offset: 60,
       contentCSS: 'position: relative; margin-top: -26px;'
     }

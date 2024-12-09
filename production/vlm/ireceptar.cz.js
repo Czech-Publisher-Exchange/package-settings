@@ -2,12 +2,12 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      hide: [/*S*/ document.getElementById('leaderboard-top') /*E*/]
+      hide: [/*S*/ () => { return document.getElementById('leaderboard-top') } /*E*/]
     },
     slideup: {
       adUnits: ['m-sticky', 'm-sticky-gallery', 'sticky'],
       enabled: true,
-      backgroundEl: /*S*/ document.getElementById('m-sticky') /*E*/
+      backgroundEl: /*S*/ () => { return document.getElementById('m-sticky') } /*E*/
     },
     interscroller: {
       enabled: true,

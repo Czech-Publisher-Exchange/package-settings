@@ -511,9 +511,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('page')[0] } /*E*/,
       generalCSS: '#leaderboard-top { width: 1000px }',
-      hide: [/*S*/ document.getElementById('js-leaderboard-top-wrap') /*E*/]
+      hide: [/*S*/ () => { return document.getElementById('js-leaderboard-top-wrap') } /*E*/]
     },
     interscroller: {
       enabled: true,

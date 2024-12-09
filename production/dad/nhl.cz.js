@@ -50,9 +50,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      backgroundEl: /*S*/ document.getElementById('branding-container') /*E*/ ,
+      backgroundEl: /*S*/ () => { return document.getElementById('branding-container') } /*E*/ ,
       generalCSS: '#cpex-skin { margin-top: 60px }',
-      hide: [ /*S*/ document.getElementsByClassName('banner-top')[0] /*E*/ ]
+      hide: [ /*S*/ () => { return document.getElementsByClassName('banner-top')[0] } /*E*/ ]
     },
     slideup: {
       defaultHeight: '3'

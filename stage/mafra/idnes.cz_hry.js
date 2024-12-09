@@ -1,10 +1,10 @@
 window.cpexWebsiteSettings = {
   formats: {
     skin: {
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
+      backgroundEl: /*S*/ () => { return document.getElementById('main') } /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('m-bg-4')[0] } /*E*/,
       enabled: true,
-      hide: [/*S*/ document.getElementById('r-leaderboard-hp') /*E*/],
+      hide: [/*S*/ () => { return document.getElementById('r-leaderboard-hp') } /*E*/],
       contentCSS: ' '
     },
     interscroller: {

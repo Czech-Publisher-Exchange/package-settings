@@ -1716,9 +1716,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      hide: [ /*S*/ document.getElementsByClassName('adcontainer-header')[0] /*E*/ ],
-      contentEl: /*S*/ document.getElementById('st-container') /*E*/ ,
-      backgroundEl: /*S*/ document.getElementById('main__content') /*E*/
+      hide: [ /*S*/ () => { return document.getElementsByClassName('adcontainer-header')[0] } /*E*/ ],
+      contentEl: /*S*/ () => { return document.getElementById('st-container') } /*E*/ ,
+      backgroundEl: /*S*/ () => { return document.getElementById('main__content') } /*E*/
     },
     slideup: {
       enabled: true,

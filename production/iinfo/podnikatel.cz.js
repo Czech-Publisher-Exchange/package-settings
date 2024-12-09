@@ -711,9 +711,9 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     skin: {
-      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('parter-cpex-branding-wrapper')[0] } /*E*/,
       enabled: true,
-      hide: [/*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/]
+      hide: [/*S*/ () => { return document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] } /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/]
     },
     native: {
       enabled: true

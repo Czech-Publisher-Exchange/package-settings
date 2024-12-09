@@ -3745,7 +3745,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('homepage__container')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('homepage__container')[0] } /*E*/,
       generalCSS: '#leaderboard-top {  width: 1000px}.main {  position: initial;}',
       offset: /*S*/0/*E*/,
       contentCSS: ' '

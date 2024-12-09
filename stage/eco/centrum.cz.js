@@ -699,15 +699,15 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/document.getElementsByClassName('sc-1cb3an8-0')[0]/*E*/,
-      hide: [/*S*/ document.getElementById('reklama-leader') /*E*/]
+      contentEl: /*S*/ () => { return document.getElementsByClassName('sc-1cb3an8-0')[0] } /*E*/,
+      hide: [/*S*/ () => { return document.getElementById('reklama-leader') } /*E*/]
     },
     native: {
       enabled: true
     },
     slideup: {
       adUnits: ['reklama-popupmobile'],
-      backgroundEl: /*S*/ document.getElementById('reklama-popupmobile-wrapper') /*E*/,
+      backgroundEl: /*S*/ () => { return document.getElementById('reklama-popupmobile-wrapper') } /*E*/,
       enabled: true
     },
     interscroller: {

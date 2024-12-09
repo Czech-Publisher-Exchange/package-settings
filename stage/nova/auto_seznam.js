@@ -800,7 +800,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       offset: 80,
-      contentEl: /*S*/ document.getElementsByClassName('c-content')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('c-content')[0] } /*E*/,
       enabled: true,
       contentCSS: 'position: relative;margin: auto;margin-top: 280px;padding-top: 0px;background-color: var(--theme-bg, white);',
       generalCSS: '.c-branding .c-leaderboard {   height: 0px;   min-height: 0px }body .c-leaderboard #div-ad-leaderboard {   width: 1920px;    height: 0;    min-height: 0;    position: fixed;    left: 50%;    top: 83px;    transform: translateX(-50%);}body .c-leaderboard #div-ad-leaderboard .banner-highlight {    height: 1400px;}'

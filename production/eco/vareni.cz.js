@@ -951,10 +951,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('bhWtgq')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('bhWtgq')[0] } /*E*/,
       contentCSS: ' ',
       zIndex: null,
-      backgroundEl: /*S*/ document.getElementById('brand-c') /*E*/
+      backgroundEl: /*S*/ () => { return document.getElementById('brand-c') } /*E*/
     },
     interscroller: {
       enabled: true,
@@ -963,7 +963,7 @@ window.cpexWebsiteSettings = {
     slideup: {
       adUnits: ['sas-special'],
       enabled: true,
-      backgroundEl: /*S*/ document.getElementById('sas-special-wrapper') /*E*/
+      backgroundEl: /*S*/ () => { return document.getElementById('sas-special-wrapper') } /*E*/
     }
   },
   general: {

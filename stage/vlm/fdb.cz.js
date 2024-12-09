@@ -1128,8 +1128,8 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      hide: [/*S*/document.getElementsByClassName('adWrap__top')[0]/*E*/],
-      contentEl: /*S*/document.getElementsByClassName('body')[0]/*E*/
+      hide: [/*S*/ () => { return document.getElementsByClassName('adWrap__top')[0] } /*E*/],
+      contentEl: /*S*/ () => { return document.getElementsByClassName('body')[0] } /*E*/
     },
     interscroller: {
       enabled: true,

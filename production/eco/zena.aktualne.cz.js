@@ -1027,10 +1027,10 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('page')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('page')[0] } /*E*/,
       zIndex: 0,
       contentCSS: 'z-index:2; margin-top: 200px',
-      hide: [/*S*/ document.getElementsByClassName('leaderboard')[0] /*E*/, /*S*/document.getElementsByClassName('reklama-leaderboard-obal')[0]/*E*/]
+      hide: [/*S*/ () => { return document.getElementsByClassName('leaderboard')[0] } /*E*/, /*S*/ () => { return document.getElementsByClassName('reklama-leaderboard-obal')[0] } /*E*/]
     },
     interscroller: {
       enabled: true,
@@ -1040,7 +1040,7 @@ window.cpexWebsiteSettings = {
     slideup: {
       enabled: true,
       adUnits: ['sas-special4'],
-      backgroundEl: /*S*/ document.getElementById('reklama-special4') /*E*/
+      backgroundEl: /*S*/ () => { return document.getElementById('reklama-special4') } /*E*/
     }
   },
   general: {

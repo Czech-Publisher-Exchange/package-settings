@@ -4256,9 +4256,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('wrapper')[0] /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('wrapper')[0] } /*E*/,
       contentCSS: 'margin-top: 200px; position: initial;',
-      hide: [/*S*/ document.getElementsByClassName('leaderboard-top')[0] /*E*/]
+      hide: [/*S*/ () => { return document.getElementsByClassName('leaderboard-top')[0] } /*E*/]
     },
     native: {
       enabled: true,

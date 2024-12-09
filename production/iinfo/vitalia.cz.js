@@ -703,9 +703,9 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('parter-cpex-branding-wrapper')[0] /*E*/,
-      hide: [/*S*/ document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/],
-      offset: /*S*/ () => document.getElementsByClassName('js_o-header-bar')[0]?.offsetHeight ?? 0 /*E*/
+      contentEl: /*S*/ () => { return document.getElementsByClassName('parter-cpex-branding-wrapper')[0] } /*E*/,
+      hide: [/*S*/ () => { return document.getElementsByClassName('design-advert-placeholder--leaderboard')[0] } /*E*/, /*S*/ document.getElementsByClassName('leaderboard-dynamic-height-wrapper')[0] /*E*/],
+      offset: /*S*/ () => { return document.getElementsByClassName('js_o-header-bar')[0]?.offsetHeight ?? 0 } /*E*/
     },
     native: {
       enabled: true

@@ -3213,8 +3213,8 @@ window.cpexWebsiteSettings = {
     },
     skin: {
       enabled: true,
-      backgroundEl: /*S*/ document.getElementById('main') /*E*/,
-      contentEl: /*S*/ document.getElementsByClassName('m-bg-4')[0] /*E*/,
+      backgroundEl: /*S*/ () => { return document.getElementById('main') } /*E*/,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('m-bg-4')[0] } /*E*/,
       contentCSS: ' '
     },
     vignette: {

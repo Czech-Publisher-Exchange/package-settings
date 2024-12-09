@@ -98,7 +98,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ document.getElementsByClassName('main')[0] /*E*/ ,
+      contentEl: /*S*/ () => { return document.getElementsByClassName('main')[0] } /*E*/ ,
       offset: 40
     }
   }
