@@ -280,6 +280,12 @@ window.cpexWebsiteSettings = {
           siteId: 1153060
         }
       }, {
+        bidder: 'teads',
+        params: {
+          placementId: 234789,
+          pageId: 218198
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213129
@@ -289,6 +295,13 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418810
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          p: '300x600_2',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
