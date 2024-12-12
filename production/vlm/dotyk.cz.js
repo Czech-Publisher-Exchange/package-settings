@@ -1681,9 +1681,32 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-detail-bottom-1',
       mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        },
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3634428,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83, 600]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6429706'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1918737,
@@ -1707,9 +1730,32 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-detail-bottom-2',
       mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        },
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3634430,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83, 600]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6429707'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1918738,
@@ -2232,9 +2278,32 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'm-commercial-article-detail-bottom-1',
       mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        },
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3634432,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83, 600]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6429708'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1918734,
@@ -2258,9 +2327,32 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'm-commercial-article-detail-bottom-2',
       mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        },
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3634434,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83, 600]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6429709'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1918735,
