@@ -80,6 +80,12 @@ window.cpexWebsiteSettings = {
           region: 'prebid-eu'
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'in-pocasi.cz',
@@ -102,6 +108,8 @@ window.cpexWebsiteSettings = {
           siteId: 3162049,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpagead',
@@ -187,6 +195,12 @@ window.cpexWebsiteSettings = {
           region: 'prebid-eu'
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'in-pocasi.cz',
@@ -209,6 +223,8 @@ window.cpexWebsiteSettings = {
           siteId: 3162050,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: '300x300',
@@ -289,6 +305,12 @@ window.cpexWebsiteSettings = {
           region: 'prebid-eu'
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'in-pocasi.cz',
@@ -311,6 +333,8 @@ window.cpexWebsiteSettings = {
           siteId: 3162051,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_sticky',
@@ -406,6 +430,12 @@ window.cpexWebsiteSettings = {
           region: 'prebid-eu'
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
         bidder: 'smart',
         params: {
           domain: '//prg.smartadserver.com',
@@ -420,6 +450,8 @@ window.cpexWebsiteSettings = {
           siteId: 3162052,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm_branding',
@@ -508,6 +540,12 @@ window.cpexWebsiteSettings = {
           region: 'prebid-eu'
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'in-pocasi.cz',
@@ -530,6 +568,8 @@ window.cpexWebsiteSettings = {
           siteId: 3162053,
           networkId: 131
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }]
   },
