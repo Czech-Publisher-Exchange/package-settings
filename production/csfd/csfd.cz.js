@@ -3352,8 +3352,7 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }],
-    analytics: ['cpexAnalytics'],
-    analyticsGet3PC: true
+    analytics: ['cpexAnalytics']
   },
   formats: {
     skin: {
