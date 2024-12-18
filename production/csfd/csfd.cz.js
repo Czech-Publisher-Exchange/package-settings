@@ -1673,6 +1673,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2028145,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31494362
@@ -1742,6 +1749,13 @@ window.cpexWebsiteSettings = {
           mid: 1712006,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2028146,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'appnexus',
         params: {
@@ -1813,6 +1827,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2028147,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31494364
@@ -1882,6 +1903,13 @@ window.cpexWebsiteSettings = {
           mid: 1712008,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2028148,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'appnexus',
         params: {
@@ -2666,6 +2694,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1824961,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31494359
@@ -2761,6 +2796,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2028143,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 31494361
@@ -2830,6 +2872,13 @@ window.cpexWebsiteSettings = {
           mid: 1696620,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 1824960,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'appnexus',
         params: {
@@ -2937,6 +2986,13 @@ window.cpexWebsiteSettings = {
         bidder: 'omg-adform',
         params: {
           mid: 1425879,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2028144,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
