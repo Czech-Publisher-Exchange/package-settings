@@ -4351,6 +4351,8 @@ window.cpexWebsiteSettings = {
           uid: 418807
         }
       }]
-    }]
+    }],
+    analytics: ['cpexAnalytics', 'pubmatic'],
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.23.0/prebid.min.js'
   }
 }
