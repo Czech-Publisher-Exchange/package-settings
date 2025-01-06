@@ -792,7 +792,7 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     interscroller: {
-      adUnits: ['reklama-mediumrectangle1'],
+      adUnits: ['mediumrectangle-mobil,interscroller1'],
       enabled: true
     }
   },
