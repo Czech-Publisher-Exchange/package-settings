@@ -3740,8 +3740,7 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }],
-    analyticsGet3PC: true,
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.23.0/prebid.min.js'
+    analyticsGet3PC: true
   },
   formats: {
     skin: {
