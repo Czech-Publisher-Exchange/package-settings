@@ -4307,6 +4307,15 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 354590,
+          zoneId: 3660794,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [203]
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 2016601,
