@@ -88,7 +88,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'in-pocasi.cz',
+          d: 'mafra.in-pocasi.cz',
           p: 'branding',
           m: 0,
           g: 'hb'
@@ -203,7 +203,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'in-pocasi.cz',
+          d: 'mafra.in-pocasi.cz',
           p: '300x600',
           m: 0,
           g: 'hb'
@@ -313,7 +313,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'in-pocasi.cz',
+          d: 'mafra.in-pocasi.cz',
           p: '300x300_1',
           m: 0,
           g: 'hb'
@@ -548,7 +548,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
-          d: 'in-pocasi.cz',
+          d: 'mafra.in-pocasi.cz',
           p: 'interscroller',
           m: 1,
           g: 'hb'
