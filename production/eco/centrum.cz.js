@@ -716,7 +716,7 @@ window.cpexWebsiteSettings = {
     responsive: {
       width: 480,
       height: 480,
-      adUnits: ['reklama-mediumrectangle2'],
+      adUnits: ['reklama-mediumrectangle2', 'reklama-mediumrectangle1'],
       enabled: true
     }
   },
