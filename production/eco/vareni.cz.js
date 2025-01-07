@@ -964,6 +964,9 @@ window.cpexWebsiteSettings = {
       adUnits: ['sas-special'],
       enabled: true,
       backgroundEl: /*S*/ () => { return document.getElementById('sas-special-wrapper') } /*E*/
+    },
+    responsive: {
+      adUnits: ['reklama-medium-rectangle-1', 'reklama-rectangle2', "reklama-rectangle1'", 'reklama-interscroller']
     }
   },
   general: {
