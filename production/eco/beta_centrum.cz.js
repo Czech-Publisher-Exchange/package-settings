@@ -796,7 +796,7 @@ window.cpexWebsiteSettings = {
     },
     responsive: {
       enabled: true,
-      adUnits: ['mediumrectangle-mobil2'],
+      adUnits: ['mediumrectangle-mobil2', 'mediumrectangle-mobil,interscroller1'],
       width: 480,
       height: 480
     }
