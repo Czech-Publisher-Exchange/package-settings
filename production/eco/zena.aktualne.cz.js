@@ -1034,13 +1034,16 @@ window.cpexWebsiteSettings = {
     },
     interscroller: {
       enabled: true,
-      adUnits: ['sas-rectangle-1'],
+      adUnits: ['mediumrectangle-mobil,interscroller1'],
       offset: 54
     },
     slideup: {
       enabled: true,
-      adUnits: ['sas-special4'],
+      adUnits: ['popup1'],
       backgroundEl: /*S*/ () => { return document.getElementById('reklama-special4') } /*E*/
+    },
+    responsive: {
+      adUnits: ['mediumrectangle-mobil,interscroller1']
     }
   },
   general: {
