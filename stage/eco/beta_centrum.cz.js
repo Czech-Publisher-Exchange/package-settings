@@ -571,12 +571,6 @@ window.cpexWebsiteSettings = {
           siteId: 809612
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 211480,
-          pageId: 195945
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213138
@@ -591,14 +585,6 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_centrumcz_mediumrectangle_mob_pos1'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'centrum.cz',
-          p: '300x250_1',
-          m: 1,
-          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -668,12 +654,6 @@ window.cpexWebsiteSettings = {
           siteId: 809613
         }
       }, {
-        bidder: 'teads',
-        params: {
-          placementId: 211474,
-          pageId: 195939
-        }
-      }, {
         bidder: 'appnexus',
         params: {
           placementId: 22213139
@@ -688,14 +668,6 @@ window.cpexWebsiteSettings = {
         bidder: 'triplelift',
         params: {
           inventoryCode: 'ECO_centrumcz_mediumrectangle_mob_pos2'
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'centrum.cz',
-          p: '300x250_2',
-          m: 1,
-          g: 'hb'
         }
       }, {
         bidder: 'connectad',
