@@ -1260,6 +1260,117 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
+    }, {
+      code: 'halfpagead_fotogalerie',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 600],
+            [300, 300],
+            [300, 250],
+            [160, 600],
+            [250, 250],
+            [120, 600],
+            [250, 360],
+            [250, 600]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3662594,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6567178'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1160266
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 34904151
+        }
+      }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'm_300x250_foto_start',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [250, 250],
+            [480, 480],
+            [300, 50],
+            [300, 100],
+            [300, 150],
+            [200, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3662596,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6567198'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1160267
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 34904152
+        }
+      }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
     }]
   },
   formats: {
