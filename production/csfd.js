@@ -22,7 +22,7 @@ window.cpexPublisherSettings = {
       connectad: 'ConnectAd',
       projectagora: 'ProjectAgora',
       performax: 'Performax',
-      rtbhouse: 'RTBHouse_HB'
+      sspBC: 'WP_HB'
     }
   },
   dsa: {
