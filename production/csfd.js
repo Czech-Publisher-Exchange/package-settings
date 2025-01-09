@@ -21,7 +21,8 @@ window.cpexPublisherSettings = {
       adform: 'Adform_HB',
       connectad: 'ConnectAd',
       projectagora: 'ProjectAgora',
-      performax: 'Performax'
+      performax: 'Performax',
+      rtbhouse: 'RTBHouse_HB'
     }
   },
   dsa: {
