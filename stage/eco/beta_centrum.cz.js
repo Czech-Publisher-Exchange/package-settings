@@ -750,7 +750,7 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     slideup: {
-      adUnits: ['reklama-popupmobile'],
+      adUnits: ['popup1'],
       backgroundEl: /*S*/ () => { return document.getElementById('reklama-popupmobile-wrapper') } /*E*/,
       enabled: true
     },
