@@ -246,7 +246,7 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
   | `adUnit`       | String: Required. Name of AdUnit to refresh   |              |
   | `interval`     | Number: Seconds between refreshes             | 30           |
   | `maxCount`     | Number: Limit to number of refreshes          | 0            |
-  | `hbOnlyAdUnit` | String: Optional custom CPEx only sources     |              |
+  | `hbOnlyAdUnit` | String: Optional HB only source, if CPEx won  |              |
 
 ### Formats
 `formats: {}`
