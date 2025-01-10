@@ -516,7 +516,8 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [250, 250],
-            [300, 50],
+            [336, 280],
+            [480, 480],
             [480, 820]
           ]
         }
@@ -528,7 +529,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142966,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44, 256]
+          sizes: [48, 15, 14, 16, 261, 256]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -537,7 +538,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142968,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44, 256]
+          sizes: [48, 15, 14, 16, 261, 256]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -617,7 +618,7 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [250, 250],
-            [300, 50],
+            [336, 280],
             [480, 480]
           ]
         }
@@ -629,7 +630,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142970,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44, 261]
+          sizes: [48, 15, 14, 16, 261]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -638,7 +639,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2142972,
           accountId: '10900',
           position: 'atf',
-          sizes: [48, 15, 14, 44, 261]
+          sizes: [48, 15, 14, 16, 261]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -785,7 +786,7 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     slideup: {
-      adUnits: ['reklama-popupmobile'],
+      adUnits: ['popup1'],
       backgroundEl: /*S*/ () => { return document.getElementById('reklama-popupmobile-wrapper') } /*E*/,
       enabled: true
     },
