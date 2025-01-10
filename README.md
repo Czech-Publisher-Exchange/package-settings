@@ -243,11 +243,10 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 | `adUnits`       | Array of objects* (refresh definitions)    |                 |
 
   #### * Refresh adUnit definitions
-  | `adUnit`      | String: Required. Name of AdUnit to refresh   |              |
-  | `interval`    | Number: Seconds between refreshes             | 30           |
-  | `maxCount`    | Number: Limit to number of refreshes          | 0            |
-  | `s2sPosition` | String: Optional custom CPEx only sources     |              |
-  | `s2sSize`     | String: Size string (eg. "300x300") for S2S   |              |
+  | `adUnit`       | String: Required. Name of AdUnit to refresh   |              |
+  | `interval`     | Number: Seconds between refreshes             | 30           |
+  | `maxCount`     | Number: Limit to number of refreshes          | 0            |
+  | `hbOnlyAdUnit` | String: Optional custom CPEx only sources     |              |
 
 ### Formats
 `formats: {}`
