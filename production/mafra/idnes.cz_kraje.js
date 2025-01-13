@@ -4313,7 +4313,10 @@ window.cpexWebsiteSettings = {
           zoneId: 3660794,
           accountId: '10900',
           position: 'atf',
-          sizes: [203]
+          video: {
+            language: 'cz',
+            size_id: 203        
+          }
         }
       }, {
         bidder: 'adform',
