@@ -2955,8 +2955,6 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 418805
         }
-      }, {
-        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
