@@ -84,17 +84,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '1000x210_top',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28287'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28275'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -163,11 +161,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28278'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -237,12 +230,15 @@ window.cpexWebsiteSettings = {
           inventoryCode: 'VLM_dotyk_leaderboard-bottom'
         }
       }, {
-        bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
+        bidder: 'r2b2',
         params: {
-          tagid: '28308'
+          d: 'dotyk.cz',
+          p: '1000x210_bottom',
+          m: 0,
+          g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -424,11 +420,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28248'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -513,11 +504,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28263'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -598,16 +584,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28260'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28266'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -668,11 +644,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28236'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -793,11 +764,6 @@ window.cpexWebsiteSettings = {
           networkId: 11172,
           uid: 418805
         }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28230'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -862,11 +828,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28227'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -1014,11 +975,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28221'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1103,11 +1059,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28239'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1192,11 +1143,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28299'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1289,11 +1235,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28215'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1377,12 +1318,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
+        bidder: 'r2b2',
         params: {
-          tagid: '28218'
+          d: 'dotyk.cz',
+          p: '300x300_gallery_1',
+          m: 1,
+          g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1423,6 +1367,12 @@ window.cpexWebsiteSettings = {
           adSlot: '6142364'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2015534,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 33866483
@@ -1437,7 +1387,7 @@ window.cpexWebsiteSettings = {
         bidder: 'r2b2',
         params: {
           d: 'dotyk.cz',
-          p: 'interscroller',
+          p: 'interscroller_gallery',
           m: 1,
           g: 'hb'
         }
@@ -1526,12 +1476,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
+        bidder: 'r2b2',
         params: {
-          tagid: '28290'
+          d: 'dotyk.cz',
+          p: '300x300_gallery_2',
+          m: 1,
+          g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1615,12 +1568,15 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
+        bidder: 'r2b2',
         params: {
-          tagid: '28284'
+          d: 'dotyk.cz',
+          p: '300x300_gallery_3',
+          m: 1,
+          g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
@@ -1725,9 +1681,32 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-detail-bottom-1',
       mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        },
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3634428,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83, 600]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6429706'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1918737,
@@ -1751,9 +1730,32 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'commercial-article-detail-bottom-2',
       mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        },
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3634430,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83, 600]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6429707'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1918738,
@@ -1888,6 +1890,12 @@ window.cpexWebsiteSettings = {
           adSlot: '5650644'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017791,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1067530
@@ -1945,6 +1953,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5650655'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2017789,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -2044,11 +2058,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28281'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -2122,11 +2131,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28251'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2274,9 +2278,32 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'm-commercial-article-detail-bottom-1',
       mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        },
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3634432,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83, 600]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6429708'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1918734,
@@ -2300,9 +2327,32 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'm-commercial-article-detail-bottom-2',
       mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [336, 280],
+            [300, 250],
+            [480, 300]
+          ]
+        },
         native: {}
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3634434,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [48, 16, 15, 83, 600]
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6429709'
+        }
+      }, {
         bidder: 'adform',
         params: {
           mid: 1918735,
@@ -2357,6 +2407,12 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2002399,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1088929
@@ -2371,6 +2427,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418805
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: '1000x210_gallery',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'sspBC'
@@ -2409,6 +2473,12 @@ window.cpexWebsiteSettings = {
         params: {
           publisherId: '158732',
           adSlot: '5808540'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2004078,
+          rcur: 'USD'
         }
       }, {
         bidder: 'ix',
@@ -2893,16 +2963,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28296'
-        }
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28272'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -2968,11 +3028,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28212'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -3196,11 +3251,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28242'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3264,11 +3314,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28233'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3332,11 +3377,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28224'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3400,11 +3440,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28254'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3466,11 +3501,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28293'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -3591,11 +3621,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28269'
-        }
       }],
       filter: {
         maxWidth: 1000,
@@ -3659,15 +3684,44 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'performax',
-        params: {
-          tagid: '28245'
-        }
       }],
       filter: {
         maxWidth: 1000,
         urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'sticky',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [728, 90],
+            [970, 90],
+            [970, 210],
+            [970, 250],
+            [970, 310]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3627820,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [2, 55, 96, 57, 94]
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'dotyk.cz',
+          p: 'sticky',
+          m: 0,
+          g: 'hb'
+        }
+      }],
+      filter: {
+        minWidth: 1000
       }
     }],
     analytics: ['cpexAnalytics', 'pubmatic']
@@ -3716,7 +3770,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['m-sticky', 'm-sticky-gallery']
+      adUnits: ['m-sticky', 'm-sticky-gallery', 'sticky']
     },
     responsive: {
       enabled: true,
@@ -3746,5 +3800,14 @@ window.cpexWebsiteSettings = {
         probability: 0.5
       }
     }
+  },
+  autorefresh: {
+    enabled: true,
+    adUnits: [{
+      adUnit: 'm-sticky',
+      interval: 30,
+      maxCount: 0,
+      s2sPosition: ''
+    }]
   }
 }
