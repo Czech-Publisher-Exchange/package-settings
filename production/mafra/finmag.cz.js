@@ -65,6 +65,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
-    }]
+    }],
+    enabled: false
   }
 }
