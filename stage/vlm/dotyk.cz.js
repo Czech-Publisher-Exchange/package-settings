@@ -3807,7 +3807,8 @@ window.cpexWebsiteSettings = {
       adUnit: 'm-sticky',
       interval: 30,
       maxCount: 0,
-      s2sPosition: ''
+      s2sPosition: '',
+      hbOnlyAdUnit: 'm-sticky'
     }]
   }
 }
