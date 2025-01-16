@@ -3805,6 +3805,11 @@ window.cpexWebsiteSettings = {
           descLength: 90
         }
       }
+    },
+    responsive: {
+      adUnits: ['mobile_square_1', 'mobile_square_2'],
+      width: 480,
+      height: 480
     }
   },
   cmp: {
