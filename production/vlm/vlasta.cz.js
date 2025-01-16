@@ -22,8 +22,7 @@ window.cpexWebsiteSettings = {
           siteId: 144588,
           zoneId: 1893338,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -31,8 +30,7 @@ window.cpexWebsiteSettings = {
           siteId: 25692,
           zoneId: 2752438,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -64,12 +62,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -134,8 +126,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 1927424,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 15, 9, 48]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -143,8 +134,7 @@ window.cpexWebsiteSettings = {
           siteId: 25692,
           zoneId: 2752538,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 15, 9, 48]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -202,12 +192,6 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '26667'
         }
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -230,8 +214,7 @@ window.cpexWebsiteSettings = {
           siteId: 144588,
           zoneId: 1893334,
           accountId: '10900',
-          position: 'atf',
-          sizes: [2, 57, 96, 55]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -239,8 +222,7 @@ window.cpexWebsiteSettings = {
           siteId: 25692,
           zoneId: 2752540,
           accountId: '10900',
-          position: 'atf',
-          sizes: [2, 57, 96, 55]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -272,12 +254,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -346,8 +322,7 @@ window.cpexWebsiteSettings = {
           siteId: 144588,
           zoneId: 1893328,
           accountId: '10900',
-          position: 'atf',
-          sizes: [2, 96, 57, 230]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -355,8 +330,7 @@ window.cpexWebsiteSettings = {
           siteId: 25692,
           zoneId: 2752542,
           accountId: '10900',
-          position: 'atf',
-          sizes: [2, 96, 57, 230]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -468,13 +442,7 @@ window.cpexWebsiteSettings = {
           ]
         }
       },
-      bids: [{
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
-      }],
+      bids: [],
       filter: {
         minWidth: 1000
       }
@@ -497,8 +465,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716536,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 261, 16, 101]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -506,8 +473,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716578,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 261, 16, 101]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -554,12 +520,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -641,8 +601,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 2716498,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 83]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -650,8 +609,7 @@ window.cpexWebsiteSettings = {
           siteId: 25692,
           zoneId: 2716518,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 83]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -704,12 +662,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -732,8 +684,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 2716502,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 15, 9, 48]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -741,8 +692,7 @@ window.cpexWebsiteSettings = {
           siteId: 25692,
           zoneId: 2716522,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 15, 9, 48]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -786,12 +736,6 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26670'
-        }
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
         }
       }],
       filter: {
@@ -862,8 +806,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716538,
           accountId: '10900',
-          position: 'atf',
-          sizes: [261, 15, 48, 16, 101]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -871,8 +814,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716580,
           accountId: '10900',
-          position: 'atf',
-          sizes: [261, 15, 48, 16, 101]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -912,12 +854,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1001,8 +937,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716540,
           accountId: '10900',
-          position: 'atf',
-          sizes: [261, 15, 48, 16, 101]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1010,8 +945,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716582,
           accountId: '10900',
-          position: 'atf',
-          sizes: [261, 15, 48, 16, 101]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1051,12 +985,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1140,8 +1068,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716542,
           accountId: '10900',
-          position: 'atf',
-          sizes: [261, 15, 48, 16, 101]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1149,8 +1076,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716584,
           accountId: '10900',
-          position: 'atf',
-          sizes: [261, 15, 48, 16, 101]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1190,12 +1116,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1279,8 +1199,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716544,
           accountId: '10900',
-          position: 'atf',
-          sizes: [261, 15, 48, 16, 101]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1288,8 +1207,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716586,
           accountId: '10900',
-          position: 'atf',
-          sizes: [261, 15, 48, 16, 101]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1329,12 +1247,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1419,7 +1331,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2716546,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 15, 48, 16, 600]
+          sizes: [600]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1428,7 +1340,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2716588,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 15, 48, 16, 600]
+          sizes: [600]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1539,8 +1451,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716548,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1548,8 +1459,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716590,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1597,12 +1507,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1677,8 +1581,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716550,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1686,8 +1589,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716592,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1719,12 +1621,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -1746,7 +1642,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2716508,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 600]
+          sizes: [600]
         }
       }, {
         bidder: 'ix',
@@ -1785,7 +1681,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2716510,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 600]
+          sizes: [600]
         }
       }, {
         bidder: 'ix',
@@ -1825,8 +1721,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 2716512,
           accountId: '10900',
-          position: 'atf',
-          sizes: [2, 96, 230, 57]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1834,8 +1729,7 @@ window.cpexWebsiteSettings = {
           siteId: 25692,
           zoneId: 2716528,
           accountId: '10900',
-          position: 'atf',
-          sizes: [2, 96, 230, 57]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1938,13 +1832,7 @@ window.cpexWebsiteSettings = {
           ]
         }
       },
-      bids: [{
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
-      }],
+      bids: [],
       filter: {
         minWidth: 1000
       }
@@ -1965,7 +1853,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2716552,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 600]
+          sizes: [600]
         }
       }, {
         bidder: 'ix',
@@ -2004,7 +1892,7 @@ window.cpexWebsiteSettings = {
           zoneId: 2716554,
           accountId: '10900',
           position: 'atf',
-          sizes: [90, 600]
+          sizes: [600]
         }
       }, {
         bidder: 'ix',
@@ -2044,8 +1932,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716556,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2053,8 +1940,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716594,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2094,12 +1980,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2174,8 +2054,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716558,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2183,8 +2062,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716596,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2224,12 +2102,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2304,8 +2176,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716560,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2313,8 +2184,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716598,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2354,12 +2224,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2434,8 +2298,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716562,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2443,8 +2306,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716600,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2476,12 +2338,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2504,8 +2360,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716564,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2513,8 +2368,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716602,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2546,12 +2400,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2574,8 +2422,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716566,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2583,8 +2430,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716604,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2616,12 +2462,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2644,8 +2484,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716568,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2653,8 +2492,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716606,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2686,12 +2524,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2714,8 +2546,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716570,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2723,8 +2554,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716608,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2756,12 +2586,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2784,8 +2608,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716572,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2793,8 +2616,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716610,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 261]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2826,12 +2648,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -2855,8 +2671,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716534,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 60, 85, 258]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2864,8 +2679,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716576,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 60, 85, 258]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2936,8 +2750,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 2716574,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 60, 85, 258]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2945,8 +2758,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 2716612,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 60, 85, 258]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3017,8 +2829,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 3131446,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 10, 16, 67]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -3026,8 +2837,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 3131454,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 10, 16, 67]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3091,8 +2901,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 3177328,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 261, 16, 101]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -3100,8 +2909,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 3177372,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 261, 16, 101]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3134,12 +2942,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -3162,8 +2964,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3177350,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 83, 16]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -3171,8 +2972,7 @@ window.cpexWebsiteSettings = {
           siteId: 25692,
           zoneId: 3177394,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 83, 16]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3205,12 +3005,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3231,8 +3025,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 3312620,
           accountId: '10900',
-          position: 'atf',
-          sizes: [256, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -3240,8 +3033,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 3312622,
           accountId: '10900',
-          position: 'atf',
-          sizes: [256, 484]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3342,8 +3134,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 3288438,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 16, 15, 101]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -3369,12 +3160,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -3397,8 +3182,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 3288440,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 16, 15, 101]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -3424,12 +3208,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -3452,8 +3230,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 3288442,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 16, 15, 101]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -3479,12 +3256,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         maxWidth: 1000
@@ -3507,8 +3278,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3288446,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 15, 9, 48]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -3542,12 +3312,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3616,8 +3380,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3288448,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 16, 15, 83]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -3643,12 +3406,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3671,8 +3428,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3288450,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 16, 15, 83]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -3698,12 +3454,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3726,8 +3476,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3288452,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 16, 15, 83]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -3753,12 +3502,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3781,8 +3524,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3288454,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 83]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -3816,12 +3558,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3890,8 +3626,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3288456,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 83]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -3925,12 +3660,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -3999,8 +3728,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3365136,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 83]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -4034,12 +3762,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -4108,8 +3830,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3365158,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 16, 83]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -4143,12 +3864,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -4217,8 +3932,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3402246,
           accountId: '10900',
-          position: 'atf',
-          sizes: [83, 48, 15, 16]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -4247,12 +3961,6 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }, {
-        bidder: 'setupad',
-        params: {
-          placement_id: '8684',
-          account_id: 'vlastacz'
-        }
       }],
       filter: {
         minWidth: 1000
@@ -4327,8 +4035,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 3209426,
           accountId: '10900',
-          position: 'atf',
-          sizes: [60, 85, 258]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -4336,8 +4043,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 3209458,
           accountId: '10900',
-          position: 'atf',
-          sizes: [60, 85, 258]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -4400,8 +4106,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 3209446,
           accountId: '10900',
-          position: 'atf',
-          sizes: [60, 85, 258]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -4409,8 +4114,7 @@ window.cpexWebsiteSettings = {
           siteId: 46272,
           zoneId: 3209478,
           accountId: '10900',
-          position: 'atf',
-          sizes: [60, 85, 258]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -4464,8 +4168,7 @@ window.cpexWebsiteSettings = {
           siteId: 46270,
           zoneId: 3513390,
           accountId: '10900',
-          position: 'atf',
-          sizes: [256, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'adform',
@@ -4512,8 +4215,7 @@ window.cpexWebsiteSettings = {
           siteId: 26460,
           zoneId: 3627814,
           accountId: '10900',
-          position: 'atf',
-          sizes: [2, 55, 96, 57, 94]
+          position: 'atf'
         }
       }, {
         bidder: 'r2b2',
