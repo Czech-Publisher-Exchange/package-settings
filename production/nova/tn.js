@@ -1222,6 +1222,11 @@ window.cpexWebsiteSettings = {
       offsetScroll: true,
       contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px; background-color: var(--theme-bg, white);',
       generalCSS: '.c-branding .c-leaderboard {   height: 0px;   min-height: 0px }body .c-leaderboard #div-ad-leaderboard {   width: 1920px;    height: 0;    min-height: 0;    position: fixed;    left: 50%;    top: 83px;    transform: translateX(-50%);}body .c-leaderboard #div-ad-leaderboard .banner-highlight {    height: 1400px;}'
+    },
+    responsive: {
+      adUnits: ['div-ad-rectangle-mobile1'],
+      width: 480,
+      height: 480
     }
   }
 }
