@@ -331,8 +331,6 @@ Has to have trailing comas, as line breaks may be lost. Only single quotes are a
 |-----------------|------------------------------------------------|-------------|
 | `enabled`       | Bool                                           | false       |
 | `adUnits`       | Array: AdUnits to be responsive. Required      |             |
-| `width`         | String: Required width                         |             |
-| `height`        | String: Required height                        |             |
 
 #### TestCreatives
 Explained here: [Formats: Testing](https://git.cpex.cz/frontend/cpex-package/-/blob/master/readme/Formats.md#user-content-testing)
