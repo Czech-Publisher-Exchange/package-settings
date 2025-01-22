@@ -10,9 +10,9 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 600],
             [160, 600],
-            [120, 600],
             [300, 300],
-            [300, 250]
+            [300, 250],
+            [250, 250]
           ]
         }
       },
@@ -22,8 +22,7 @@ window.cpexWebsiteSettings = {
           siteId: 235290,
           zoneId: 3140062,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 9, 8, 48, 15]
+          position: 'atf'
         }
       }],
       filter: {
@@ -38,7 +37,7 @@ window.cpexWebsiteSettings = {
             [160, 600],
             [300, 300],
             [300, 250],
-            [120, 600]
+            [250, 250]
           ]
         }
       },
@@ -48,8 +47,7 @@ window.cpexWebsiteSettings = {
           siteId: 235290,
           zoneId: 3140064,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 9, 48, 15, 8]
+          position: 'atf'
         }
       }],
       filter: {
@@ -64,7 +62,7 @@ window.cpexWebsiteSettings = {
             [160, 600],
             [300, 300],
             [300, 250],
-            [120, 600]
+            [250, 250]
           ]
         }
       },
@@ -74,8 +72,7 @@ window.cpexWebsiteSettings = {
           siteId: 235290,
           zoneId: 3140066,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 9, 48, 15, 8]
+          position: 'atf'
         }
       }],
       filter: {
@@ -88,11 +85,10 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 300],
             [300, 250],
-            [480, 820],
-            [720, 1280],
             [250, 250],
-            [200, 200],
-            [300, 100]
+            [720, 1280],
+            [480, 820],
+            [300, 600]
           ]
         }
       },
@@ -102,8 +98,7 @@ window.cpexWebsiteSettings = {
           siteId: 238982,
           zoneId: 3140070,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 256, 484, 14, 13, 19]
+          position: 'atf'
         }
       }],
       filter: {
@@ -117,8 +112,7 @@ window.cpexWebsiteSettings = {
             [300, 300],
             [300, 250],
             [250, 250],
-            [200, 200],
-            [300, 100]
+            [336, 280]
           ]
         }
       },
@@ -128,8 +122,7 @@ window.cpexWebsiteSettings = {
           siteId: 238982,
           zoneId: 3140072,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14, 13, 19]
+          position: 'atf'
         }
       }],
       filter: {
