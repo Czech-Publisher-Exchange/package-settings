@@ -1279,7 +1279,7 @@ window.cpexWebsiteSettings = {
             [970, 210],
             [998, 200],
             [728, 90],
-            [930, 90]
+            [970, 90]
           ]
         }
       },
@@ -1397,8 +1397,7 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
-            [2000, 1400],
-            [1800, 1000]
+            [2000, 1400]
           ]
         }
       },
@@ -1495,22 +1494,6 @@ window.cpexWebsiteSettings = {
       filter: {
         minWidth: 1000
       }
-    }, {
-      code: 'leaderboard',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [1800, 1000]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'connectad',
-        params: {
-          siteId: 3127208,
-          networkId: 419
-        }
-      }]
     }, {
       code: 'mobile_billboard',
       mediaTypes: {
