@@ -4290,8 +4290,7 @@ window.cpexWebsiteSettings = {
       video: {
         divId: 'outstream'
       }
-    }],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.27.0/prebid.min.js'
+    }]
   },
   formats: {
     skin: {
