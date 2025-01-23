@@ -1714,6 +1714,8 @@ window.cpexWebsiteSettings = {
         params: {
           tagid: '25970'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
