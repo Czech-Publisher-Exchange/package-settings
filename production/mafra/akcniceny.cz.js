@@ -1488,8 +1488,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }]
-    }],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.27.0/prebid.min.js'
+    }]
   },
   formats: {
     interscroller: {
