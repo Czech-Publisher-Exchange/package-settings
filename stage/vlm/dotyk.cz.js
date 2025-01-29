@@ -3786,7 +3786,7 @@ window.cpexWebsiteSettings = {
     enabled: true,
     adUnits: [{
       adUnit: 'm-sticky',
-      interval: 30,
+      interval: 7,
       maxCount: 0,
       s2sPosition: '',
       hbOnlyAdUnit: 'm-sticky'
