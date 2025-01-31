@@ -46,11 +46,6 @@ window.cpexWebsiteSettings = {
           siteId: 1162336
         }
       }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 34930362
-        }
-      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -66,6 +61,12 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }]
     }],
-    enabled: false
+    enabled: true
+  },
+  formats: {
+    slideup: {
+      enabled: true,
+      adUnits: ['m_sticky']
+    }
   }
 }
