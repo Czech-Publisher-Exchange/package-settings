@@ -14,6 +14,7 @@ window.cpexPublisherSettings = {
     adapter: 'googletag'
   },
   headerbidding: {
-    auctionTimeoutMs: 1300
+    auctionTimeoutMs: 1300,
+    customBuckets: [2.5, 2.75]
   }
 }
