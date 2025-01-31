@@ -67,5 +67,11 @@ window.cpexWebsiteSettings = {
       }]
     }],
     enabled: true
+  },
+  formats: {
+    slideup: {
+      adUnits: ['m_sticky'],
+      enabled: true
+    }
   }
 }
