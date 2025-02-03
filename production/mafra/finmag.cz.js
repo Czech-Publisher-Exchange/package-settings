@@ -41,6 +41,19 @@ window.cpexWebsiteSettings = {
           adSlot: '6575564'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2041017,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2041018,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1162336
@@ -56,6 +69,21 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 691044,
+          pageId: 2049353,
+          formatId: 108761,
+          tagId: 'sas_108761'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3167650,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
