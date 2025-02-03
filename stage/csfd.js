@@ -17,11 +17,25 @@ window.cpexPublisherSettings = {
       triplelift: 'Triplelift_HB',
       r2b2: 'R2B2',
       smart: 'Smart',
-      teads: 'Teads'
+      teads: 'Teads',
+      adform: 'Adform_HB',
+      connectad: 'ConnectAd',
+      projectagora: 'ProjectAgora',
+      performax: 'Performax',
+      sspBC: 'WP_HB',
+      rtbhouse: 'RTBHouse_HB'
     }
   },
-  headerbidding: {
-    analytics: ['id5Analytics', 'cpexAnalytics']
+  dsa: {
+    customConfig: {
+      dsarequired: 1,
+      pubrender: 0,
+      datatopub: 1,
+      transparency: [{
+        domain: 'csfd.cz',
+        dsaparams: [1, 2]
+      }]
+    }
   },
   general: {
     errorApiKey: 'hbp_tCjxz6JmkE7RI1QnA7qLBjDFb4ItP23y9OCs',
@@ -33,9 +47,7 @@ window.cpexPublisherSettings = {
             if (event.origin !== 'https://cdn.cpex.cz') return;
             if (event.data.type === 'cpexRead') {
               window.dataLayer = window.dataLayer || [];
-              dataLayer.push({
-                seg: event.data.value
-              })
+              dataLayer.push({ seg: event.data.value })
             }
           }, false);
           cpexPackage.utils.addElement('iframe', document.body, {
@@ -47,5 +59,39 @@ window.cpexPublisherSettings = {
         }
       })
     } /*E*/
+  },
+  formats: {
+    native: {
+      enabled: true,
+      templates: {
+        generic: "<style>  .cpex-native a {    display: flex;    text-decoration: none;    color: inherit  }  .cpex-native img {    width: 200px;    object-fit: cover  }  .cpex-native .text {    padding-left: 20px  }</style><div id='native'> <a href='${link}' target='_blank'>    <div class='native-content'>      <div class='native-content-img'> <img src='${img}' alt=''> </div>      <div class='native-content-desc'>        <div class='native-content-desc-text'>          <p class='native-title'>${title}</p>          <p id='nativeText'>${desc}</p>        </div>        <div class='native-info'> <span class='info'>reklama</span> </div>      </div>    </div>  </a></div>"
+      }
+    },
+    interscroller: {
+      adUnits: ['mobile_square_1']
+    },
+    slideup: {
+      css: '#cpex-slideup-close {   height: 28px;   padding: 7px;   font-size: 14px;   background-color: #777777; }',
+      closeTextHTML: 'Zavřít reklamu'
+    }
+  },
+  headerbidding: {
+    bidderSettings: {
+      rubicon: {
+        bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
+          return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
+        } /*E*/
+      },
+      'rubicon-mask': {
+        bidCpmAdjustment: /*S*/ (bidCpm, bid) => {
+          return bid.dealId ? bidCpm * 0.93 : bidCpm * 0.88
+        } /*E*/
+      },
+      projectagora: {
+        bidCpmAdjustment: /*S*/(bidCpm, bid) => {
+          return bidCpm * 0.8
+        }/*E*/
+      }
+    }
   }
 }
