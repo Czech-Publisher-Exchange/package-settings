@@ -3673,8 +3673,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       adUnits: ['slide_up'],
-      enabled: true,
-      closeTextHTML: 'Zavřít reklamu'
+      enabled: true
     },
     vignette: {
       adUnits: ['cpex_vignette'],
