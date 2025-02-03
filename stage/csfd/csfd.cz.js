@@ -3674,7 +3674,6 @@ window.cpexWebsiteSettings = {
     slideup: {
       adUnits: ['slide_up'],
       enabled: true,
-      css: '#cpex-slideup-close {   height: 28px;   padding: 7px;   font-size: 14px;   background-color: #777777; }',
       closeTextHTML: 'Zavřít reklamu'
     },
     vignette: {
