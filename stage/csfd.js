@@ -69,10 +69,6 @@ window.cpexPublisherSettings = {
     },
     interscroller: {
       adUnits: ['mobile_square_1']
-    },
-    slideup: {
-      css: '#cpex-slideup-close {   height: 28px;   padding: 7px;   font-size: 14px;   background-color: #777777; }',
-      closeTextHTML: 'Zavřít reklamu'
     }
   },
   headerbidding: {
