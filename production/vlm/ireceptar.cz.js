@@ -2922,5 +2922,19 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }]
+  },
+  ab: {
+    enabled: true,
+    selectGroup: /*S*/() => window.AdsObject.ball.ab/*E*/,
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/ireceptar.cz.js',
+        probability: 0.5
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/ireceptar.cz_b.js',
+        probability: 0.5
+      }
+    }
   }
 }
