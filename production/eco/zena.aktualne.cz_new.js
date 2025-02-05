@@ -1038,7 +1038,7 @@ window.cpexWebsiteSettings = {
     },
     slideup: {
       enabled: true,
-      adUnits: ['sas-special4'],
+      adUnits: ['popup1'],
       backgroundEl: /*S*/ () => { return document.getElementById('reklama-special4') } /*E*/
     }
   },
