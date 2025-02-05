@@ -23,7 +23,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1993644,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -31,7 +32,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1993652,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -94,9 +96,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108743,
+          tagId: 'sas_108743'
         }
       }, {
         bidder: 'connectad',
@@ -128,7 +137,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1147394,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55, 265]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -136,7 +146,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1147396,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55, 265]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -193,8 +204,6 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: 'branding',
           m: 0,
-          domain: '//prg.smartadserver.com',
-          siteId: 487780,
           g: 'hb'
         }
       }, {
@@ -203,9 +212,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '998x200',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108619,
+          tagId: 'sas_108619'
         }
       }, {
         bidder: 'connectad',
@@ -237,7 +253,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 2164388,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55, 265]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -245,7 +262,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 2164386,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55, 265]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -302,9 +320,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: 'branding_fotogalerie',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108757,
+          tagId: 'sas_108757'
         }
       }, {
         bidder: 'connectad',
@@ -337,7 +362,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1095116,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -345,7 +371,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1095070,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -408,9 +435,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x600',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108618,
+          tagId: 'sas_108618'
         }
       }, {
         bidder: 'connectad',
@@ -443,7 +477,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1908182,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -451,7 +486,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1908234,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -514,9 +550,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x600_fotogalerie',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108742,
+          tagId: 'sas_108742'
         }
       }, {
         bidder: 'connectad',
@@ -549,7 +592,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1906620,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -557,7 +601,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1906774,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -620,9 +665,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x600_rubrika',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108740,
+          tagId: 'sas_108740'
         }
       }, {
         bidder: 'connectad',
@@ -655,7 +707,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1906834,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -663,7 +716,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1906876,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -726,9 +780,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x600_rubrika_spodni',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108741,
+          tagId: 'sas_108741'
         }
       }, {
         bidder: 'connectad',
@@ -761,7 +822,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1148608,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -769,7 +831,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1148648,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -832,9 +895,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x600_spodni',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108739,
+          tagId: 'sas_108739'
         }
       }, {
         bidder: 'connectad',
@@ -866,7 +936,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1145580,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -874,7 +945,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1145578,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -937,9 +1009,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108759,
+          tagId: 'sas_108759'
         }
       }, {
         bidder: 'connectad',
@@ -971,7 +1050,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1152596,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -979,7 +1059,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1152598,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1042,9 +1123,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_clankovy',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108764,
+          tagId: 'sas_108764'
         }
       }, {
         bidder: 'connectad',
@@ -1076,7 +1164,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2117540,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1084,7 +1173,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2117542,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1147,9 +1237,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_clankovy_opak1',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108775,
+          tagId: 'sas_108775'
         }
       }, {
         bidder: 'connectad',
@@ -1181,7 +1278,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2117544,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1189,7 +1287,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2117546,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1252,9 +1351,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_clankovy_opak2',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108776,
+          tagId: 'sas_108776'
         }
       }, {
         bidder: 'connectad',
@@ -1286,7 +1392,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2117548,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1294,7 +1401,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2117550,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1357,9 +1465,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_clankovy_opak3',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108777,
+          tagId: 'sas_108777'
         }
       }, {
         bidder: 'connectad',
@@ -1391,7 +1506,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1149772,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1399,7 +1515,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1149774,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1462,9 +1579,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_foto_end',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108765,
+          tagId: 'sas_108765'
         }
       }, {
         bidder: 'connectad',
@@ -1496,7 +1620,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1154464,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1504,7 +1629,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1154466,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1567,9 +1693,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_foto_mid',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108766,
+          tagId: 'sas_108766'
         }
       }, {
         bidder: 'connectad',
@@ -1601,7 +1734,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1154468,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1609,7 +1743,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1154470,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1672,9 +1807,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_foto_start',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108760,
+          tagId: 'sas_108760'
         }
       }, {
         bidder: 'connectad',
@@ -1706,7 +1848,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2117552,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1714,7 +1857,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2117554,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1777,9 +1921,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_souvisejici',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108778,
+          tagId: 'sas_108778'
         }
       }, {
         bidder: 'connectad',
@@ -1811,7 +1962,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2117556,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1819,7 +1971,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2117558,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1882,9 +2035,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_vybrali',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108779,
+          tagId: 'sas_108779'
         }
       }, {
         bidder: 'connectad',
@@ -1920,7 +2080,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1148222,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1928,7 +2089,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1148220,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1991,9 +2153,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: 'interscroller',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108767,
+          tagId: 'sas_108767'
         }
       }, {
         bidder: 'connectad',
@@ -2029,7 +2198,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2164380,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2037,7 +2207,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2164378,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2100,9 +2271,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: 'interscroller_foto_scroll',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108783,
+          tagId: 'sas_108783'
         }
       }, {
         bidder: 'connectad',
@@ -2134,7 +2312,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1148996,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2142,7 +2321,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1149036,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2205,9 +2385,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_paticka',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108768,
+          tagId: 'sas_108768'
         }
       }, {
         bidder: 'connectad',
@@ -2250,7 +2437,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1149120,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [60, 15, 258, 117, 57, 16, 43, 2, 94, 261, 48, 83, 259, 44, 19, 96, 40, 39]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2258,7 +2446,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1149122,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [60, 15, 258, 117, 57, 16, 43, 2, 94, 261, 48, 83, 259, 44, 19, 96, 40, 39]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2316,6 +2505,15 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 487780,
+          pageId: 2011234,
+          formatId: 108761,
+          tagId: 'sas_108761'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3135547,
@@ -2347,7 +2545,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1395216,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [94, 2, 57, 96, 258, 48, 83, 16, 40]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2355,7 +2554,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 3275070,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [94, 2, 57, 96, 258, 48, 83, 16, 40]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2412,9 +2612,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '970x310',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108752,
+          tagId: 'sas_108752'
         }
       }, {
         bidder: 'connectad',
@@ -2447,7 +2654,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1095114,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2455,7 +2663,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1095214,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2518,9 +2727,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '480x300',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108753,
+          tagId: 'sas_108753'
         }
       }, {
         bidder: 'connectad',
@@ -2553,7 +2769,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1395220,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2561,7 +2778,8 @@ window.cpexWebsiteSettings = {
           siteId: 92920,
           zoneId: 1395226,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2624,9 +2842,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '480x300_clankovy',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108758,
+          tagId: 'sas_108758'
         }
       }, {
         bidder: 'connectad',
@@ -2659,7 +2884,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1395222,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2667,7 +2893,8 @@ window.cpexWebsiteSettings = {
           siteId: 92920,
           zoneId: 1395228,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2730,9 +2957,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '480x300_spodni',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108754,
+          tagId: 'sas_108754'
         }
       }, {
         bidder: 'connectad',
@@ -2765,7 +2999,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 2607340,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2773,7 +3008,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 2607344,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2836,9 +3072,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x600_lazyload',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 131199,
+          tagId: 'sas_131199'
         }
       }, {
         bidder: 'connectad',
@@ -2874,7 +3117,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2653074,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2882,7 +3126,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2653118,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2945,9 +3190,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: 'interscroller_foto_scroll_2',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 108784,
+          tagId: 'sas_108784'
         }
       }, {
         bidder: 'connectad',
@@ -2982,7 +3234,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2795958,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [484, 256, 10, 15, 261, 48, 83, 9, 14, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2990,7 +3243,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2800890,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [484, 256, 10, 15, 261, 48, 83, 9, 14, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3037,6 +3291,15 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 487780,
+          pageId: 2011234,
+          formatId: 108774,
+          tagId: 'sas_108774'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3135567,
@@ -3067,7 +3330,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 2866844,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'pubmatic',
@@ -3122,9 +3386,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x600_rubrika_lazyload',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 131200,
+          tagId: 'sas_131200'
         }
       }, {
         bidder: 'connectad',
@@ -3156,7 +3427,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2877648,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -3211,9 +3483,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_foto_mid2',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 131201,
+          tagId: 'sas_131201'
         }
       }, {
         bidder: 'connectad',
@@ -3245,7 +3524,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2877650,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -3300,9 +3580,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_foto_mid3',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 131202,
+          tagId: 'sas_131202'
         }
       }, {
         bidder: 'connectad',
@@ -3334,7 +3621,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2877652,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -3389,9 +3677,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '300x250_foto_mid4',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 131203,
+          tagId: 'sas_131203'
         }
       }, {
         bidder: 'connectad',
@@ -3424,7 +3719,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 2749604,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -3432,7 +3728,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 3275064,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3482,9 +3779,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '480x300_clankovy_2',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 131197,
+          tagId: 'sas_131197'
         }
       }, {
         bidder: 'connectad',
@@ -3517,7 +3821,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 3038980,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -3525,7 +3830,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 3275054,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -3581,9 +3887,16 @@ window.cpexWebsiteSettings = {
           d: 'lidovky.cz',
           p: '480x300_clankovy_3',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 487780,
-          g: 'hb'
+          pageId: 2011234,
+          formatId: 131198,
+          tagId: 'sas_131198'
         }
       }, {
         bidder: 'connectad',
@@ -3719,7 +4032,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 3210354,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [94, 258, 15, 261, 48, 43, 117, 83, 2, 57, 259, 44, 19, 96, 16, 40, 39]
         }
       }, {
         bidder: 'pubmatic',
@@ -3755,6 +4069,15 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 487780,
+          pageId: 2011234,
+          formatId: 108782,
+          tagId: 'sas_108782'
         }
       }, {
         bidder: 'connectad',

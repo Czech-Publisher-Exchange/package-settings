@@ -24,7 +24,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 857486,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55, 265]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -32,7 +33,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 857494,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55, 265]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -85,9 +87,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: 'branding',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108619,
+          tagId: 'sas_108619'
         }
       }, {
         bidder: 'connectad',
@@ -119,7 +128,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 2247270,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55, 265]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -127,7 +137,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 2247272,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [230, 259, 2, 96, 55, 265]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -180,9 +191,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: 'branding_fotogalerie',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108757,
+          tagId: 'sas_108757'
         }
       }, {
         bidder: 'connectad',
@@ -215,7 +233,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1095088,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -223,7 +242,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1095040,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -276,9 +296,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x600',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108618,
+          tagId: 'sas_108618'
         }
       }, {
         bidder: 'connectad',
@@ -311,7 +338,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1908184,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -319,7 +347,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1908238,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -372,9 +401,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x600_fotogalerie',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108742,
+          tagId: 'sas_108742'
         }
       }, {
         bidder: 'connectad',
@@ -407,7 +443,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1906622,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -415,7 +452,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1906776,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -468,9 +506,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x600_rubrika',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108740,
+          tagId: 'sas_108740'
         }
       }, {
         bidder: 'connectad',
@@ -503,7 +548,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1906836,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -511,7 +557,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1906878,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -564,9 +611,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x600_rubrika_spodni',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108741,
+          tagId: 'sas_108741'
         }
       }, {
         bidder: 'connectad',
@@ -599,7 +653,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1148598,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -607,7 +662,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1148638,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -660,9 +716,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x600_spodni',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108739,
+          tagId: 'sas_108739'
         }
       }, {
         bidder: 'connectad',
@@ -694,7 +757,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1145560,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -702,7 +766,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1145614,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -755,9 +820,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108759,
+          tagId: 'sas_108759'
         }
       }, {
         bidder: 'connectad',
@@ -789,7 +861,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1152582,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -797,7 +870,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1152584,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -850,9 +924,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250_clankovy',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108764,
+          tagId: 'sas_108764'
         }
       }, {
         bidder: 'connectad',
@@ -884,7 +965,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1149754,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -892,7 +974,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1149756,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -945,9 +1028,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250_foto_end',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108765,
+          tagId: 'sas_108765'
         }
       }, {
         bidder: 'connectad',
@@ -979,7 +1069,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1154434,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -987,7 +1078,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1154436,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1040,9 +1132,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250_foto_mid',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108766,
+          tagId: 'sas_108766'
         }
       }, {
         bidder: 'connectad',
@@ -1074,7 +1173,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1154438,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1082,7 +1182,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1154440,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1135,9 +1236,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250_foto_start',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108760,
+          tagId: 'sas_108760'
         }
       }, {
         bidder: 'connectad',
@@ -1173,7 +1281,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1148202,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1181,7 +1290,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1148200,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1234,9 +1344,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: 'interscroller',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108767,
+          tagId: 'sas_108767'
         }
       }, {
         bidder: 'connectad',
@@ -1272,7 +1389,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2164384,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1280,7 +1398,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2164382,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1333,9 +1452,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: 'interscroller_foto_scroll',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108783,
+          tagId: 'sas_108783'
         }
       }, {
         bidder: 'connectad',
@@ -1367,7 +1493,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1148988,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1375,7 +1502,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1149026,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1428,9 +1556,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250_paticka',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108768,
+          tagId: 'sas_108768'
         }
       }, {
         bidder: 'connectad',
@@ -1473,7 +1608,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1149096,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [60, 15, 258, 117, 57, 16, 43, 2, 94, 261, 48, 83, 259, 44, 19, 96, 40, 39]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1481,7 +1617,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1149098,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [60, 15, 258, 117, 57, 16, 43, 2, 94, 261, 48, 83, 259, 44, 19, 96, 40, 39]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1529,6 +1666,15 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108761,
+          tagId: 'sas_108761'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3157808,
@@ -1560,7 +1706,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1154090,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [94, 2, 57, 96, 258, 48, 83, 16, 40]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1568,7 +1715,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1154092,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [94, 2, 57, 96, 258, 48, 83, 16, 40]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1621,9 +1769,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '970x310',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108752,
+          tagId: 'sas_108752'
         }
       }, {
         bidder: 'connectad',
@@ -1656,7 +1811,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1095090,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1664,7 +1820,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1095042,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1717,9 +1874,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '480x300',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108753,
+          tagId: 'sas_108753'
         }
       }, {
         bidder: 'connectad',
@@ -1752,7 +1916,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1395230,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1760,7 +1925,8 @@ window.cpexWebsiteSettings = {
           siteId: 92920,
           zoneId: 1395234,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1813,9 +1979,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '480x300_clankovy',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108758,
+          tagId: 'sas_108758'
         }
       }, {
         bidder: 'connectad',
@@ -1848,7 +2021,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1395232,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1856,7 +2030,8 @@ window.cpexWebsiteSettings = {
           siteId: 92920,
           zoneId: 1395236,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -1909,9 +2084,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '480x300_spodni',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108754,
+          tagId: 'sas_108754'
         }
       }, {
         bidder: 'connectad',
@@ -1944,7 +2126,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 2607338,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -1952,7 +2135,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 2607342,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2005,9 +2189,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x600_lazyload',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 131199,
+          tagId: 'sas_131199'
         }
       }, {
         bidder: 'connectad',
@@ -2043,7 +2234,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2653040,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2051,7 +2243,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2653084,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2104,9 +2297,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: 'interscroller_foto_scroll_2',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108784,
+          tagId: 'sas_108784'
         }
       }, {
         bidder: 'connectad',
@@ -2141,7 +2341,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2773568,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [484, 256, 10, 15, 261, 48, 83, 9, 14, 16]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2149,7 +2350,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2773570,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [484, 256, 10, 15, 261, 48, 83, 9, 14, 16]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2191,6 +2393,15 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108774,
+          tagId: 'sas_108774'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3157815,
@@ -2221,7 +2432,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 2866836,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2229,7 +2441,8 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 3275090,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2275,9 +2488,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x600_rubrika_lazyload',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 131200,
+          tagId: 'sas_131200'
         }
       }, {
         bidder: 'connectad',
@@ -2309,7 +2529,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2877622,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2317,7 +2538,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 3275074,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2363,9 +2585,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250_foto_mid2',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 131201,
+          tagId: 'sas_131201'
         }
       }, {
         bidder: 'connectad',
@@ -2397,7 +2626,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2877624,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -2442,9 +2672,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250_foto_mid3',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 131202,
+          tagId: 'sas_131202'
         }
       }, {
         bidder: 'connectad',
@@ -2476,7 +2713,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2877626,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 261, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -2521,9 +2759,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250_foto_mid4',
           m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 131203,
+          tagId: 'sas_131203'
         }
       }, {
         bidder: 'connectad',
@@ -2554,7 +2799,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 3083806,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [15, 14, 44, 19, 13]
         }
       }, {
         bidder: 'pubmatic',
@@ -2593,9 +2839,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '300x250',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 108743,
+          tagId: 'sas_108743'
         }
       }, {
         bidder: 'connectad',
@@ -2628,7 +2881,8 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 3083978,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [83, 48, 14, 15, 261, 16, 13, 43]
         }
       }, {
         bidder: 'pubmatic',
@@ -2667,9 +2921,16 @@ window.cpexWebsiteSettings = {
           d: 'expres.cz',
           p: '480x300_clankovy_2',
           m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'smart',
+        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          g: 'hb'
+          pageId: 2002824,
+          formatId: 131197,
+          tagId: 'sas_131197'
         }
       }, {
         bidder: 'connectad',
@@ -2750,7 +3011,8 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 3210340,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [94, 258, 15, 261, 48, 43, 117, 83, 2, 57, 259, 44, 19, 96, 16, 40, 39]
         }
       }, {
         bidder: 'rubicon-mask',
@@ -2758,7 +3020,8 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 3275240,
           accountId: '10900',
-          position: 'atf'
+          position: 'atf',
+          sizes: [94, 258, 15, 261, 48, 43, 117, 83, 2, 57, 259, 44, 19, 96, 16, 40, 39]
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -2797,6 +3060,15 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 670745,
+          pageId: 2002824,
+          formatId: 108782,
+          tagId: 'sas_108782'
         }
       }, {
         bidder: 'connectad',
