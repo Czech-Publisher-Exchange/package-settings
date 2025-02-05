@@ -60,16 +60,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: 'branding',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108619,
-          tagId: 'sas_108619'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -144,16 +137,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: '300x600',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108618,
-          tagId: 'sas_108618'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -228,16 +214,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: '300x600_spodni',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108739,
-          tagId: 'sas_108739'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -312,16 +291,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: '300x600_rubrika',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108740,
-          tagId: 'sas_108740'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -396,16 +368,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: '300x600_rubrika_spodni',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108741,
-          tagId: 'sas_108741'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -480,16 +445,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: '300x600_fotogalerie',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108742,
-          tagId: 'sas_108742'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -563,16 +521,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: '300x250',
           m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108759,
-          tagId: 'sas_108759'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -650,16 +601,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: 'interscroller',
           m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108767,
-          tagId: 'sas_108767'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -733,16 +677,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: '300x250_paticka',
           m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108768,
-          tagId: 'sas_108768'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -817,16 +754,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.jenpromuze.cz',
           p: '480x300',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 670745,
-          pageId: 2011227,
-          formatId: 108753,
-          tagId: 'sas_108753'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',

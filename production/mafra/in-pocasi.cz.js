@@ -24,8 +24,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 3625962,
           accountId: '10900',
-          position: 'atf',
-          sizes: [230, 259, 2, 96, 55, 265]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -33,8 +32,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 3625974,
           accountId: '10900',
-          position: 'atf',
-          sizes: [230, 259, 2, 96, 55, 265]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -91,16 +89,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.in-pocasi.cz',
           p: 'branding',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 684782,
-          pageId: 2038259,
-          formatId: 108619,
-          tagId: 'sas_108619'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -133,8 +124,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 3625964,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -142,8 +132,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 3625976,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -206,16 +195,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.in-pocasi.cz',
           p: '300x600',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 684782,
-          pageId: 2038259,
-          formatId: 108618,
-          tagId: 'sas_108618'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -243,8 +225,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 3625968,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -252,8 +233,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 3625978,
           accountId: '10900',
-          position: 'atf',
-          sizes: [48, 15, 14]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -316,16 +296,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.in-pocasi.cz',
           p: '300x300_1',
           m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 684782,
-          pageId: 2038259,
-          formatId: 133911,
-          tagId: 'sas_133911'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -368,8 +341,7 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 3625970,
           accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15, 258, 117, 57, 16, 43, 2, 94, 261, 48, 83, 259, 44, 19, 96, 40, 39]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -377,8 +349,7 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 3625980,
           accountId: '10900',
-          position: 'atf',
-          sizes: [60, 15, 258, 117, 57, 16, 43, 2, 94, 261, 48, 83, 259, 44, 19, 96, 40, 39]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -436,15 +407,6 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 684782,
-          pageId: 2038259,
-          formatId: 108761,
-          tagId: 'sas_108761'
-        }
-      }, {
         bidder: 'connectad',
         params: {
           siteId: 3162052,
@@ -478,8 +440,7 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 3625972,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -487,8 +448,7 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 3625982,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -551,16 +511,9 @@ window.cpexWebsiteSettings = {
           d: 'mafra.in-pocasi.cz',
           p: 'interscroller',
           m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
           domain: '//prg.smartadserver.com',
           siteId: 684782,
-          pageId: 2038259,
-          formatId: 108767,
-          tagId: 'sas_108767'
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
