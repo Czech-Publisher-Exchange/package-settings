@@ -69,6 +69,9 @@ window.cpexPublisherSettings = {
     },
     interscroller: {
       adUnits: ['mobile_square_1']
+    },
+    slideup: {
+      css: '#cpex-slideup {   z-index: 9999; }  #cpex-slideup-wrapper {   background-color: #FFF8; }  #cpex-slideup-close {   box-sizing: border-box;   display: inline-block;   cursor: pointer;   position: absolute;   top: -28px;   right: 0px;   color: #fff;   height: 28px;   padding: 7px;   font-size: 14px;   background-color: #777777;   font-family: Arial, sans-serif;   line-height: 1; }  #cpex-slideup-close:hover {   background-color: #000; }  #cpex-slideup .debugTags {   position: absolute !important;   top: -80px;   left: 50%;   transform: translateX(-50%);   z-index: 999;   width: 300px; }'
     }
   },
   headerbidding: {
