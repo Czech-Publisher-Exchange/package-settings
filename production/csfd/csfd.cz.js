@@ -3409,6 +3409,46 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000
       }
     }, {
+      code: 'slide_up_refresh',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [500, 200],
+            [320, 100],
+            [300, 100],
+            [320, 50],
+            [300, 300],
+            [300, 250],
+            [250, 250],
+            [970, 310],
+            [728, 90],
+            [970, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 238982,
+          zoneId: 3693526,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 238984,
+          zoneId: 3693528,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
       code: 'wide_rectangle_hp',
       mediaTypes: {
         banner: {
@@ -3771,5 +3811,15 @@ window.cpexWebsiteSettings = {
         }
       })
     } /*E*/
+  },
+  autorefresh: {
+    enabled: true,
+    adUnits: [{
+      adUnit: 'slide_up',
+      interval: 30,
+      maxCount: 0,
+      s2sPosition: '',
+      hbOnlyAdUnit: 'slide_up_refresh'
+    }]
   }
 }
