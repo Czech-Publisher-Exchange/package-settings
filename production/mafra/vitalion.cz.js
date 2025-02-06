@@ -23,8 +23,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 731450,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 14, 44, 19, 13]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -32,8 +31,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 731566,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 14, 44, 19, 13]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -130,8 +128,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 731456,
           accountId: '10900',
-          position: 'atf',
-          sizes: [230, 259, 2, 96, 55, 265]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -139,8 +136,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 731574,
           accountId: '10900',
-          position: 'atf',
-          sizes: [230, 259, 2, 96, 55, 265]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -232,8 +228,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 731454,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -241,8 +236,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 731570,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -334,8 +328,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1138452,
           accountId: '10900',
-          position: 'atf',
-          sizes: [9, 8]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -343,8 +336,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1138460,
           accountId: '10900',
-          position: 'atf',
-          sizes: [9, 8]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {

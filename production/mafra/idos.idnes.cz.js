@@ -19,8 +19,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1153926,
           accountId: '10900',
-          position: 'atf',
-          sizes: [39, 2]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -28,8 +27,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1153928,
           accountId: '10900',
-          position: 'atf',
-          sizes: [39, 2]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -112,8 +110,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1138188,
           accountId: '10900',
-          position: 'atf',
-          sizes: [230, 259, 2, 96, 55, 265]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -121,8 +118,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1138186,
           accountId: '10900',
-          position: 'atf',
-          sizes: [230, 259, 2, 96, 55, 265]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -224,8 +220,7 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1148172,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -233,8 +228,7 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1148300,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 14, 256, 10, 484, 261, 48, 9, 8]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -333,8 +327,7 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 1148274,
           accountId: '10900',
-          position: 'atf',
-          sizes: [117, 19]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -342,8 +335,7 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 1148272,
           accountId: '10900',
-          position: 'atf',
-          sizes: [117, 19]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -433,8 +425,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1411816,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -442,8 +433,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 1411818,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -548,8 +538,7 @@ window.cpexWebsiteSettings = {
           siteId: 144582,
           zoneId: 1970000,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -557,8 +546,7 @@ window.cpexWebsiteSettings = {
           siteId: 144584,
           zoneId: 3274938,
           accountId: '10900',
-          position: 'atf',
-          sizes: [10, 48, 15, 9, 14, 8, 32, 179]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
@@ -665,8 +653,7 @@ window.cpexWebsiteSettings = {
           siteId: 157330,
           zoneId: 2795956,
           accountId: '10900',
-          position: 'atf',
-          sizes: [484, 256, 10, 15, 261, 48, 83, 9, 14, 16]
+          position: 'atf'
         }
       }, {
         bidder: 'rubicon-mask',
@@ -674,8 +661,7 @@ window.cpexWebsiteSettings = {
           siteId: 157332,
           zoneId: 2800888,
           accountId: '10900',
-          position: 'atf',
-          sizes: [484, 256, 10, 15, 261, 48, 83, 9, 14, 16]
+          position: 'atf'
         },
         bidderModuleName: 'rubicon'
       }, {
