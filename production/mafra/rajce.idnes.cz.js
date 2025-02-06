@@ -85,15 +85,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 650958,
-          pageId: 2011097,
-          formatId: 108757,
-          tagId: 'sas_108757'
-        }
-      }, {
         bidder: 'connectad',
         params: {
           siteId: 3158611,
@@ -191,15 +182,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 650958,
-          pageId: 2011097,
-          formatId: 108618,
-          tagId: 'sas_108618'
-        }
-      }, {
         bidder: 'connectad',
         params: {
           siteId: 3158612,
@@ -288,15 +270,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 650958,
-          pageId: 2011097,
-          formatId: 108742,
-          tagId: 'sas_108742'
-        }
-      }, {
         bidder: 'connectad',
         params: {
           siteId: 3158613,
@@ -383,15 +356,6 @@ window.cpexWebsiteSettings = {
           p: '300x600_spodni',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 650958,
-          pageId: 2011097,
-          formatId: 108739,
-          tagId: 'sas_108739'
         }
       }, {
         bidder: 'connectad',
@@ -490,15 +454,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 650958,
-          pageId: 2011097,
-          formatId: 108759,
-          tagId: 'sas_108759'
-        }
-      }, {
         bidder: 'connectad',
         params: {
           siteId: 3158615,
@@ -593,15 +548,6 @@ window.cpexWebsiteSettings = {
           p: '300x250_foto_mid',
           m: 1,
           g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 650958,
-          pageId: 2011097,
-          formatId: 108766,
-          tagId: 'sas_108766'
         }
       }, {
         bidder: 'connectad',
@@ -704,15 +650,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 650958,
-          pageId: 2011097,
-          formatId: 108767,
-          tagId: 'sas_108767'
-        }
-      }, {
         bidder: 'connectad',
         params: {
           siteId: 3158617,
@@ -810,15 +747,6 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 650958,
-          pageId: 2011097,
-          formatId: 108753,
-          tagId: 'sas_108753'
-        }
-      }, {
         bidder: 'connectad',
         params: {
           siteId: 3158618,
@@ -905,15 +833,6 @@ window.cpexWebsiteSettings = {
           p: '480x300_spodni',
           m: 0,
           g: 'hb'
-        }
-      }, {
-        bidder: 'smart',
-        params: {
-          domain: '//prg.smartadserver.com',
-          siteId: 650958,
-          pageId: 2011097,
-          formatId: 108754,
-          tagId: 'sas_108754'
         }
       }, {
         bidder: 'connectad',
