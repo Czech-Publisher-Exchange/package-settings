@@ -3631,6 +3631,12 @@ window.cpexWebsiteSettings = {
           region: 'prebid-eu'
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418811
+        }
+      }, {
         bidder: 'sspBC'
       }],
       filter: {
@@ -3698,5 +3704,15 @@ window.cpexWebsiteSettings = {
         }
       }
     }
+  },
+  autorefresh: {
+    adUnits: [{
+      adUnit: 'slide_up',
+      interval: 30,
+      maxCount: 0,
+      s2sPosition: '',
+      hbOnlyAdUnit: 'slide_up_refresh'
+    }],
+    enabled: true
   }
 }
