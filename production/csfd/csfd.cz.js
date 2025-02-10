@@ -3443,6 +3443,36 @@ window.cpexWebsiteSettings = {
           position: 'atf'
         },
         bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6614469'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1175217
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35116521
+        }
+      }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '5DIt2Ahw0lbFQkgdd1jT',
+          region: 'prebid-eu'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418811
+        }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
