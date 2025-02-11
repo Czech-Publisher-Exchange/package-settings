@@ -4186,5 +4186,15 @@ window.cpexWebsiteSettings = {
         probability: 0.5
       }
     }
+  },
+  autorefresh: {
+    enabled: true,
+    adUnits: [{
+      adUnit: 'm-sticky',
+      interval: 30,
+      maxCount: 0,
+      s2sPosition: '',
+      hbOnlyAdUnit: 'm-sticky_refresh'
+    }]
   }
 }
