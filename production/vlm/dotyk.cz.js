@@ -3643,6 +3643,12 @@ window.cpexWebsiteSettings = {
           position: 'atf'
         }
       }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
         bidder: 'r2b2',
         params: {
           d: 'dotyk.cz',
@@ -3650,6 +3656,8 @@ window.cpexWebsiteSettings = {
           m: 0,
           g: 'hb'
         }
+      }, {
+        bidder: 'sspBC'
       }],
       filter: {
         minWidth: 1000
@@ -3692,6 +3700,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978721'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm-square-2-hp',
@@ -3730,6 +3746,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978720'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm-square-1-feed',
@@ -3769,6 +3793,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978729'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm-square-2-feed',
@@ -3808,6 +3840,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978722'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'm-square-3-feed',
@@ -3846,6 +3886,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978718'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper-1-hp',
@@ -3883,6 +3931,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978719'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper-2-hp',
@@ -3920,6 +3976,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978725'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper-1-feed',
@@ -3957,6 +4021,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978728'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper-2-feed',
@@ -3994,6 +4066,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978724'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'wallpaper-3-feed',
@@ -4031,6 +4111,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978726'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'commercial-article-2-hp',
@@ -4068,6 +4156,14 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978723'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'commercial-article-3-hp',
@@ -4105,7 +4201,74 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978727'
         }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
       }]
+    }, {
+      code: 'm-sticky_refresh',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3699220,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3699222,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6616613'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1175725
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35123489
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418804
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
     }],
     analytics: ['cpexAnalytics', 'pubmatic']
   },
