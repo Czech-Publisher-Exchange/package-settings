@@ -679,7 +679,7 @@ window.cpexWebsiteSettings = {
         bidderModuleName: 'connectad'
       }]
     }, {
-      code: 'cnc_rectangle_480_repeater_*',
+      code: 'cnc_rectangle_480_repeater__1',
       mediaTypes: {
         banner: {
           sizes: [
@@ -736,7 +736,372 @@ window.cpexWebsiteSettings = {
         }
       }]
     }, {
-      code: 'cnc_mobile_rectangle_repeater_*',
+      code: 'cnc_mobile_rectangle_repeater__1',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [600, 1080],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: '144574',
+          zoneId: '2342686',
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubi-mask',
+        params: {
+          siteId: '144576',
+          zoneId: '2343694',
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158123',
+          adSlot: '4353933'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1384067,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: '944241'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '24561415'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: '11172',
+          uid: '418808'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: '3124986',
+          networkId: '393'
+        }
+      }, {
+        bidder: 'cnc_connad',
+        params: {
+          siteId: '3159971',
+          networkId: '465'
+        },
+        bidderModuleName: 'connectad'
+      }]
+    }, {
+      code: 'cnc_mobile_rectangle_repeater__2',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [600, 1080],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: '144574',
+          zoneId: '2342686',
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubi-mask',
+        params: {
+          siteId: '144576',
+          zoneId: '2343694',
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158123',
+          adSlot: '4353933'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1384067,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: '944241'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '24561415'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: '11172',
+          uid: '418808'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: '3124986',
+          networkId: '393'
+        }
+      }, {
+        bidder: 'cnc_connad',
+        params: {
+          siteId: '3159971',
+          networkId: '465'
+        },
+        bidderModuleName: 'connectad'
+      }]
+    }, {
+      code: 'cnc_mobile_rectangle_repeater__3',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [600, 1080],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: '144574',
+          zoneId: '2342686',
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubi-mask',
+        params: {
+          siteId: '144576',
+          zoneId: '2343694',
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158123',
+          adSlot: '4353933'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1384067,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: '944241'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '24561415'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: '11172',
+          uid: '418808'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: '3124986',
+          networkId: '393'
+        }
+      }, {
+        bidder: 'cnc_connad',
+        params: {
+          siteId: '3159971',
+          networkId: '465'
+        },
+        bidderModuleName: 'connectad'
+      }]
+    }, {
+      code: 'cnc_mobile_rectangle_repeater__4',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [600, 1080],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: '144574',
+          zoneId: '2342686',
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubi-mask',
+        params: {
+          siteId: '144576',
+          zoneId: '2343694',
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158123',
+          adSlot: '4353933'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1384067,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: '944241'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '24561415'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: '11172',
+          uid: '418808'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: '3124986',
+          networkId: '393'
+        }
+      }, {
+        bidder: 'cnc_connad',
+        params: {
+          siteId: '3159971',
+          networkId: '465'
+        },
+        bidderModuleName: 'connectad'
+      }]
+    }, {
+      code: 'cnc_mobile_rectangle_repeater__5',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280],
+            [600, 1080],
+            [480, 820],
+            [720, 1280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: '144574',
+          zoneId: '2342686',
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubi-mask',
+        params: {
+          siteId: '144576',
+          zoneId: '2343694',
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158123',
+          adSlot: '4353933'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 1384067,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: '944241'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: '24561415'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: '11172',
+          uid: '418808'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: '3124986',
+          networkId: '393'
+        }
+      }, {
+        bidder: 'cnc_connad',
+        params: {
+          siteId: '3159971',
+          networkId: '465'
+        },
+        bidderModuleName: 'connectad'
+      }]
+    }, {
+      code: 'cnc_mobile_rectangle_repeater__6',
       mediaTypes: {
         banner: {
           sizes: [
