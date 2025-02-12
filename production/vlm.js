@@ -25,7 +25,9 @@ window.cpexPublisherSettings = {
       sspBC: 'WP_HB',
       performax: 'Performax',
       'omg-adform': 'OMG-Adform',
-      setupad: 'SetupAd_HB'
+      setupad: 'SetupAd_HB',
+      teads: 'Teads_HB',
+      rtbhouse: 'RTBHouse_HB'
     }
   },
   headerbidding: {
