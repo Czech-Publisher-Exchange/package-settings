@@ -1,6 +1,7 @@
 window.cpexWebsiteSettings = {
   website: {
-    name: 'zena.aktualne.cz'
+    name: 'zena.aktualne.cz',
+    note: 'neni v produkci'
   },
   cmp: {
     enabled: false
