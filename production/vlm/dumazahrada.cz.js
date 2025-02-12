@@ -4463,5 +4463,19 @@ window.cpexWebsiteSettings = {
       height: 480,
       enabled: true
     }
+  },
+  ab: {
+    enabled: true,
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/dumazahrada.cz.js',
+        probability: 0.5
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/dumazahrada.cz_b.js',
+        probability: 0.5
+      }
+    },
+    selectGroup: /*S*/() => window.AdsObject.ball.ab/*E*/
   }
 }
