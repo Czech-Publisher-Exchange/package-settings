@@ -862,6 +862,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'r2b2',
         params: {
+          d: 'aktualne.cz',
           p: 'sticky',
           m: 1,
           g: 'hb'
