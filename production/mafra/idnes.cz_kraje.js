@@ -3484,7 +3484,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 144582,
-          zoneId: 3468794,
+          zoneId: 3702514,
           accountId: '10900',
           position: 'atf',
           sizes: [600]
