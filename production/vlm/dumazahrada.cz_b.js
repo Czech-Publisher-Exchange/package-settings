@@ -4580,7 +4580,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978743'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-2-hp',
       mediaTypes: {
@@ -4624,7 +4635,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978746'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-1-feed',
       mediaTypes: {
@@ -4669,7 +4691,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978753'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-2-feed',
       mediaTypes: {
@@ -4714,7 +4747,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978745'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-3-feed',
       mediaTypes: {
@@ -4758,7 +4802,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978747'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'wallpaper-1-hp',
       mediaTypes: {
@@ -4801,7 +4856,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978754'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'wallpaper-2-hp',
       mediaTypes: {
@@ -4844,7 +4910,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978744'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'wallpaper-1-feed',
       mediaTypes: {
@@ -4887,7 +4964,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978749'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'wallpaper-2-feed',
       mediaTypes: {
@@ -4930,7 +5018,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978751'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'wallpaper-3-feed',
       mediaTypes: {
@@ -4973,7 +5072,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978750'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'commercial-article-2-hp',
       mediaTypes: {
@@ -5010,7 +5120,18 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978748'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'commercial-article-3-hp',
       mediaTypes: {
@@ -5047,7 +5168,257 @@ window.cpexWebsiteSettings = {
         params: {
           placementId: '34978752'
         }
-      }]
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-10',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3702710,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6621621'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 236720,
+          pageId: 220111
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35155960
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-11',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3702712,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6621622'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 236845,
+          pageId: 220234
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35155967
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-12',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3702714,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6621623'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 236846,
+          pageId: 220235
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35155970
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'm-square-gallery-ga',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3702716,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6621624'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 236842,
+          pageId: 220231
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35155980
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'square-3-gallery',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 300],
+            [300, 250]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 26460,
+          zoneId: 3702718,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6621625'
+        }
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 236814,
+          pageId: 220203
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35155987
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418805
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }]
   },
   formats: {
@@ -5085,7 +5456,7 @@ window.cpexWebsiteSettings = {
       }
     },
     responsive: {
-      adUnits: ['m-square-1', 'm-square-2', 'm-seznam-feed', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-bottom-1'],
+      adUnits: ['m-square-1', 'm-square-2', 'm-seznam-feed', 'm-square-gallery-1', 'm-square-gallery-2', 'm-square-gallery-3', 'm-square-gallery-4', 'm-square-gallery-5', 'm-square-gallery-6', 'm-square-gallery-7', 'm-square-gallery-8', 'm-square-gallery-9', 'm-square-3', 'm-square-4', 'm-square-5', 'm-square-bottom-1', 'm-square-1-hp', 'm-square-2-hp', 'm-square-1-feed', 'm-square-2-feed', 'm-square-3-feed'],
       width: 480,
       height: 480,
       enabled: true
