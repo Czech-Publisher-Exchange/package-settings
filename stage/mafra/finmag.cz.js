@@ -41,14 +41,29 @@ window.cpexWebsiteSettings = {
           adSlot: '6575564'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2041017,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2041100,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2041018,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1162336
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 34930362
         }
       }, {
         bidder: 'rtbhouse',
@@ -63,6 +78,12 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3167650,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
     }],
@@ -70,8 +91,17 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     slideup: {
-      adUnits: ['m_sticky'],
-      enabled: true
+      enabled: true,
+      adUnits: ['m_sticky']
     }
+  },
+  autorefresh: {
+    enabled: true,
+    adUnits: [{
+      adUnit: 'm_sticky',
+      interval: 10,
+      maxCount: 0,
+      s2sPosition: ''
+    }]
   }
 }
