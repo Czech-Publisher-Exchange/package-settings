@@ -946,8 +946,7 @@ window.cpexWebsiteSettings = {
         }
       }]
     }],
-    currency: 'USD',
-    analyticsGet3PC: true
+    currency: 'USD'
   },
   formats: {
     skin: {
