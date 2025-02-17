@@ -993,6 +993,7 @@ window.cpexWebsiteSettings = {
         resolve();
       });
       setTimeout(() => { /* fallback */
+        cpexPackage.utils.cpexWarn('Consent not granted in time, disabling HB');
         cpexPackage.settings.headerbidding.enabled = false;
         resolve()
       }, 1000);
