@@ -2863,6 +2863,15 @@ window.cpexWebsiteSettings = {
           position: 'atf'
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3706452,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -3579,6 +3588,15 @@ window.cpexWebsiteSettings = {
           position: 'atf'
         }
       }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3706450,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
@@ -4269,6 +4287,161 @@ window.cpexWebsiteSettings = {
         maxWidth: 1000,
         urlHas: 'seznam-hp=1'
       }
+    }, {
+      code: 'm-sticky-gallery_refresh',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [300, 250],
+            [300, 300]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3706438,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3706444,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6632488'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35178969
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418804
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHas: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-sticky_refresh',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3706440,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3706446,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6632490'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35178975
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418804
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
+    }, {
+      code: 'm-sticky-gallery_refresh',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [320, 150],
+            [300, 120],
+            [500, 200]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 46270,
+          zoneId: 3706442,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 46272,
+          zoneId: 3706448,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6632489'
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35178979
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418804
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000,
+        urlHasNot: 'seznam-hp=1'
+      }
     }],
     analytics: ['cpexAnalytics', 'pubmatic']
   },
@@ -4358,6 +4531,12 @@ window.cpexWebsiteSettings = {
       maxCount: 0,
       s2sPosition: '',
       hbOnlyAdUnit: 'm-sticky_refresh'
+    }, {
+      adUnit: 'm-sticky-gallery',
+      interval: 30,
+      maxCount: 0,
+      s2sPosition: '',
+      hbOnlyAdUnit: 'm-sticky-gallery_refresh'
     }]
   }
 }
