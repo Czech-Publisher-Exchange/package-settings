@@ -38,6 +38,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608668'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044339,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047980,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046694,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174318
@@ -64,6 +84,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168444,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -107,6 +141,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608669'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044338,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047969,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046700,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174319
@@ -127,6 +181,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168445,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -171,6 +239,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608670'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044330,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047978,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046701,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174320
@@ -197,6 +285,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168446,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -241,6 +343,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608671'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044331,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047979,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046692,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174321
@@ -267,6 +389,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '300x600_spodni',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168447,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -310,6 +446,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608672'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044333,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047983,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046693,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174322
@@ -336,6 +492,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168448,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -379,6 +549,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608673'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044334,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047987,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046702,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174323
@@ -405,6 +595,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168449,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -448,6 +652,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608674'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044345,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047982,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046703,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174324
@@ -474,6 +698,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '300x250_clankovy_2',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168450,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -521,6 +759,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608675'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044336,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047981,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046695,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174325
@@ -547,6 +805,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168451,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -590,6 +862,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608676'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044335,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047988,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046696,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174328
@@ -616,6 +908,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168452,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -670,6 +976,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608677'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044340,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047989,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046697,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174329
@@ -696,6 +1022,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168453,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -742,6 +1074,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608678'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044347,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047990,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046705,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174330
@@ -762,6 +1114,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168454,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -807,6 +1165,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608679'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044337,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047967,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046698,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174333
@@ -827,6 +1205,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168455,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -871,6 +1263,26 @@ window.cpexWebsiteSettings = {
           adSlot: '6608680'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044332,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047991,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046699,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1174334
@@ -899,8 +1311,54 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168456,
+          networkId: 131
+        }
+      }, {
         bidder: 'sspBC'
       }]
+    }, {
+      code: 'outstream',
+      mediaTypes: {
+        video: {
+          playerSize: [
+            [600, 400]
+          ],
+          type: 'outstream'
+        }
+      },
+      bids: [{
+        bidder: 'adform',
+        params: {
+          mid: 2044346,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046704,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35175212
+        }
+      }],
+      video: {
+        divId: 'outstream'
+      }
     }],
     enabled: true
   },
