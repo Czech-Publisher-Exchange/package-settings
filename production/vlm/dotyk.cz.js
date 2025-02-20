@@ -3640,47 +3640,6 @@ window.cpexWebsiteSettings = {
         urlHasNot: 'seznam-hp=1'
       }
     }, {
-      code: 'sticky',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [728, 90],
-            [970, 90],
-            [970, 210],
-            [970, 250],
-            [970, 310]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 26460,
-          zoneId: 3627820,
-          accountId: '10900',
-          position: 'atf'
-        }
-      }, {
-        bidder: 'criteo',
-        params: {
-          networkId: 11172,
-          uid: 418805
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'dotyk.cz',
-          p: 'sticky',
-          m: 0,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'sspBC'
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
       code: 'm-square-1-hp',
       mediaTypes: {
         banner: {
