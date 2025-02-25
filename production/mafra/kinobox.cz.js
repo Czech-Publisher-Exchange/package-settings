@@ -888,7 +888,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        urlHasNot: 'utm_medium=sekce-z-internetu'
+        urlHasNot: 'utm_source=www.seznam.cz'
       }
     }, {
       code: 'wallpaper',
