@@ -380,14 +380,5 @@ window.cpexWebsiteSettings = {
         'native-2': 'native-1'
       }
     }
-  },
-  autorefresh: {
-    enabled: true,
-    adUnits: [{
-      name: 'rectangle-1',
-      interval: 30,
-      maxCount: 10,
-      s2sPosition: ''
-    }]
   }
 }
