@@ -1155,6 +1155,12 @@ window.cpexWebsiteSettings = {
           adSlot: '6567178'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2031881,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1160266
@@ -1175,6 +1181,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: '300x600_fotogalerie',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3169683,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -1209,6 +1229,12 @@ window.cpexWebsiteSettings = {
           adSlot: '6567198'
         }
       }, {
+        bidder: 'adform',
+        params: {
+          mid: 2031883,
+          rcur: 'USD'
+        }
+      }, {
         bidder: 'ix',
         params: {
           siteId: 1160267
@@ -1229,6 +1255,20 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'labuznik.cz',
+          p: '300x250_foto_start',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3169684,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
