@@ -23,6 +23,7 @@ window.cpexWebsiteSettings = {
     }
   },
   headerbidding: {
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/seznam/prebid.js',
     prebidDebug: true,
     adUnits: [{
       code: 'rectangle-1',
@@ -39,6 +40,12 @@ window.cpexWebsiteSettings = {
         native: {}
       },
       bids: [{
+        bidder: 'seznam',
+        params: {
+          tagid: '379811',
+          test: true
+        }
+      }, {
         bidder: 'rubicon',
         params: {
           siteId: '140646',
