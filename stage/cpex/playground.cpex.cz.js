@@ -94,10 +94,7 @@ window.cpexWebsiteSettings = {
           publisherId: 'w6O8SDnYNMT7Cb6AHGZf',
           region: 'prebid-eu'
         }
-      }],
-      filter: {
-        urlHasNot: 'debug'
-      }
+      }]
     }, {
       code: 'rectangle-2',
       mediaTypes: {
