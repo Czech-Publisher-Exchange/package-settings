@@ -891,6 +891,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'ocko.tv',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3169214,
