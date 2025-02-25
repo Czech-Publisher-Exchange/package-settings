@@ -806,7 +806,7 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }],
       filter: {
-        urlHas: 'utm_medium=sekce-z-internetu'
+        urlHas: 'utm_source=www.seznam.cz'
       }
     }, {
       code: 'm_sticky',
