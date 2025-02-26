@@ -3593,7 +3593,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon',
         params: {
           siteId: 238982,
-          zoneId: 3693526,
+          zoneId: 3697588,
           accountId: '10900',
           position: 'atf'
         }
@@ -3601,7 +3601,7 @@ window.cpexWebsiteSettings = {
         bidder: 'rubicon-mask',
         params: {
           siteId: 238984,
-          zoneId: 3693528,
+          zoneId: 3697590,
           accountId: '10900',
           position: 'atf'
         },
@@ -3610,17 +3610,17 @@ window.cpexWebsiteSettings = {
         bidder: 'pubmatic',
         params: {
           publisherId: '158732',
-          adSlot: '6614469'
+          adSlot: '6614482'
         }
       }, {
         bidder: 'ix',
         params: {
-          siteId: 1175217
+          siteId: 1175218
         }
       }, {
         bidder: 'appnexus',
         params: {
-          placementId: 35116521
+          placementId: 35116525
         }
       }, {
         bidder: 'rtbhouse',
