@@ -64,8 +64,7 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'seznam',
         params: {
-          tagid: '379811',
-          test: true
+          tagid: '379811'
         }
       },
       {
