@@ -2933,7 +2933,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-2-hp',
       mediaTypes: {
@@ -2979,7 +2982,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-1-feed',
       mediaTypes: {
@@ -3026,7 +3032,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-2-feed',
       mediaTypes: {
@@ -3073,7 +3082,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'm-square-3-feed',
       mediaTypes: {
@@ -3119,7 +3131,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        maxWidth: 1000
+      }
     }, {
       code: 'wallpaper-1-hp',
       mediaTypes: {
@@ -3164,7 +3179,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'wallpaper-2-hp',
       mediaTypes: {
@@ -3209,7 +3227,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'wallpaper-1-feed',
       mediaTypes: {
@@ -3254,7 +3275,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'wallpaper-2-feed',
       mediaTypes: {
@@ -3299,7 +3323,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'wallpaper-3-feed',
       mediaTypes: {
@@ -3344,7 +3371,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'commercial-article-2-hp',
       mediaTypes: {
@@ -3389,7 +3419,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'commercial-article-3-hp',
       mediaTypes: {
@@ -3434,7 +3467,10 @@ window.cpexWebsiteSettings = {
         }
       }, {
         bidder: 'sspBC'
-      }]
+      }],
+      filter: {
+        minWidth: 1000
+      }
     }, {
       code: 'm-sticky_refresh',
       mediaTypes: {
