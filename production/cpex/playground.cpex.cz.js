@@ -42,7 +42,7 @@ window.cpexWebsiteSettings = {
       bids: [{
         bidder: 'seznam',
         params: {
-          tagid: '380897'
+          tagid: '381050'
         }
       }, {
         bidder: 'rubicon',
