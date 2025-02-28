@@ -5363,7 +5363,6 @@ window.cpexWebsiteSettings = {
         websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/dumazahrada.cz_b.js',
         probability: 0.5
       }
-    },
-    selectGroup: /*S*/() => window.AdsObject.ball.ab/*E*/
+    }
   }
 }
