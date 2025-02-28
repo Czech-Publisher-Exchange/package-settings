@@ -94,7 +94,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -133,7 +133,7 @@ window.cpexWebsiteSettings = {
             [160, 600],
             [300, 300],
             [300, 250],
-            [120, 600]
+            [250, 250]
           ]
         }
       },
@@ -222,7 +222,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -261,8 +261,7 @@ window.cpexWebsiteSettings = {
             [160, 600],
             [300, 300],
             [300, 250],
-            [250, 250],
-            [336, 280]
+            [250, 250]
           ]
         }
       },
@@ -351,7 +350,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -390,8 +389,7 @@ window.cpexWebsiteSettings = {
             [160, 600],
             [300, 300],
             [300, 250],
-            [250, 250],
-            [336, 280]
+            [250, 250]
           ]
         }
       },
@@ -480,7 +478,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -519,8 +517,7 @@ window.cpexWebsiteSettings = {
             [160, 600],
             [300, 300],
             [300, 250],
-            [250, 250],
-            [336, 280]
+            [250, 250]
           ]
         }
       },
@@ -609,7 +606,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -736,7 +733,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -863,7 +860,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -990,7 +987,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -1117,7 +1114,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -1244,7 +1241,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -1365,7 +1362,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -1478,7 +1475,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -1594,7 +1591,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -1714,7 +1711,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -1807,7 +1804,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -1898,7 +1895,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -1989,7 +1986,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -2080,7 +2077,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -2205,7 +2202,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -2320,7 +2317,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -2457,7 +2454,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -2584,7 +2581,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -2711,7 +2708,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -2833,7 +2830,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -2907,14 +2904,10 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'native_long_1',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -2950,7 +2943,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -3042,7 +3035,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -3133,7 +3126,7 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -3258,7 +3251,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -3296,7 +3289,6 @@ window.cpexWebsiteSettings = {
             [500, 200],
             [320, 100],
             [300, 100],
-            [320, 50],
             [300, 300],
             [300, 250],
             [250, 250],
@@ -3381,7 +3373,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -3404,6 +3396,75 @@ window.cpexWebsiteSettings = {
         bidder: 'performax',
         params: {
           tagid: '26208'
+        }
+      }, {
+        bidder: 'sspBC'
+      }],
+      filter: {
+        maxWidth: 1000
+      }
+    }, {
+      code: 'slide_up_refresh',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [500, 200],
+            [320, 100],
+            [300, 100],
+            [300, 300],
+            [300, 250],
+            [250, 250],
+            [970, 310],
+            [728, 90],
+            [970, 250],
+            [336, 280]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 238982,
+          zoneId: 3693526,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 238984,
+          zoneId: 3693528,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6614469'
+        }
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1175217
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35116521
+        }
+      }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '5DIt2Ahw0lbFQkgdd1jT',
+          region: 'prebid-eu'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418811
         }
       }, {
         bidder: 'sspBC'
@@ -3509,7 +3570,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -3628,7 +3689,7 @@ window.cpexWebsiteSettings = {
           g: 'hb'
         }
       }, {
-        bidder: 'smart',
+        bidder: 'equativ',
         params: {
           domain: '//prg.smartadserver.com',
           siteId: 280501,
@@ -3774,5 +3835,15 @@ window.cpexWebsiteSettings = {
         }
       })
     } /*E*/
+  },
+  autorefresh: {
+    enabled: true,
+    adUnits: [{
+      adUnit: 'slide_up',
+      interval: 30,
+      maxCount: 0,
+      s2sPosition: '',
+      hbOnlyAdUnit: 'slide_up_refresh'
+    }]
   }
 }
