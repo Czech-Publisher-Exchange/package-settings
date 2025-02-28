@@ -23,7 +23,8 @@ window.cpexPublisherSettings = {
       projectagora: 'ProjectAgora',
       performax: 'Performax',
       sspBC: 'WP_HB',
-      rtbhouse: 'RTBHouse_HB'
+      rtbhouse: 'RTBHouse_HB',
+      equativ: 'Smart'
     }
   },
   dsa: {
