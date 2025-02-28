@@ -2904,11 +2904,7 @@ window.cpexWebsiteSettings = {
     }, {
       code: 'native_long_1',
       mediaTypes: {
-        banner: {
-          sizes: [
-            [1, 1]
-          ]
-        }
+        native: {}
       },
       bids: [{
         bidder: 'smart',
