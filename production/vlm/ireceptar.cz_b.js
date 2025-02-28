@@ -35,7 +35,7 @@ window.cpexWebsiteSettings = {
     }
   },
   website: {
-    name: 'ireceptar.cz'
+    name: 'ireceptar.cz_b'
   },
   cmp: {
     enabled: false
