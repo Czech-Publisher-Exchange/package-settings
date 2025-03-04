@@ -56,7 +56,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 878618
+          siteId: 1189766
         }
       }, {
         bidder: 'teads',
@@ -152,7 +152,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 878619
+          siteId: 1189767
         }
       }, {
         bidder: 'appnexus',
@@ -243,7 +243,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 878620
+          siteId: 1189768
         }
       }, {
         bidder: 'teads',
@@ -334,7 +334,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'ix',
         params: {
-          siteId: 878621
+          siteId: 1189769
         }
       }, {
         bidder: 'appnexus',
