@@ -55,6 +55,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189732
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 211326,
@@ -146,6 +151,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189733
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -239,6 +249,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189734
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221897,
@@ -330,6 +345,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189735
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -423,6 +443,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189736
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221899,
@@ -514,6 +539,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189737
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -607,6 +637,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189738
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221901,
@@ -699,6 +734,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189739
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221902,
@@ -789,6 +829,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189740
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -881,6 +926,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189741
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221904,
@@ -971,6 +1021,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189742
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -1063,6 +1118,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189743
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221906,
@@ -1153,6 +1213,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189744
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -1249,6 +1314,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189745
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221908,
@@ -1339,6 +1409,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189746
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -1436,6 +1511,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189747
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221910,
@@ -1520,6 +1600,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189748
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -1613,6 +1698,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189749
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221913,
@@ -1704,6 +1794,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189750
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -1797,6 +1892,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189751
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221916,
@@ -1888,6 +1988,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189752
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -1984,6 +2089,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189753
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221918,
@@ -2079,6 +2189,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189754
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221919,
@@ -2160,6 +2275,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189755
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -2243,6 +2363,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189756
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221921,
@@ -2325,6 +2450,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189757
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221922,
@@ -2402,6 +2532,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189758
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 221923,
@@ -2478,6 +2613,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189759
+        }
       }, {
         bidder: 'teads',
         params: {
@@ -2571,6 +2711,11 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189760
+        }
+      }, {
         bidder: 'teads',
         params: {
           placementId: 211326,
@@ -2625,6 +2770,11 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1189761
+        }
       }, {
         bidder: 'appnexus',
         params: {
