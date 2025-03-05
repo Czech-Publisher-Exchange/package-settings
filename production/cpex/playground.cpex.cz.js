@@ -36,8 +36,7 @@ window.cpexWebsiteSettings = {
             [480, 480],
             [300, 600]
           ]
-        },
-        native: {}
+        }
       },
       bids: [{
         bidder: 'seznam',
