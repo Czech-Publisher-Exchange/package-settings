@@ -329,7 +329,7 @@ window.cpexWebsiteSettings = {
       }
     }],
     auctionTimeoutMs: 5000,
-    analyticsGet3PC: true
+    analyticsGet3PC: false
   },
   adserver: {
     loadPrerequisites: true,
