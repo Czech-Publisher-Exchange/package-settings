@@ -614,62 +614,6 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }]
     }, {
-      code: 'm_300x250_clankovy_2',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [300, 250],
-            [250, 250],
-            [480, 480],
-            [300, 50],
-            [300, 100],
-            [300, 150],
-            [200, 200]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'adform',
-        params: {
-          mid: 2044345,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'omg-adform',
-        params: {
-          mid: 2047982,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'fragile-adform',
-        params: {
-          mid: 2046703,
-          rcur: 'USD'
-        },
-        bidderModuleName: 'adform'
-      }, {
-        bidder: 'teads',
-        params: {
-          placementId: 236880,
-          pageId: 220269
-        }
-      }, {
-        bidder: 'r2b2',
-        params: {
-          d: 'mafra.newstream.cz',
-          p: '300x250_clankovy_2',
-          m: 1,
-          g: 'hb'
-        }
-      }, {
-        bidder: 'connectad',
-        params: {
-          siteId: 3168450,
-          networkId: 131
-        }
-      }]
-    }, {
       code: 'm_300x250_clankovy_opak1',
       mediaTypes: {
         banner: {
@@ -754,6 +698,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
