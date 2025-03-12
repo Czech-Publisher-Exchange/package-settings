@@ -25,8 +25,7 @@ window.cpexWebsiteSettings = {
           siteId: 416558,
           zoneId: 3335250,
           accountId: '10900',
-          position: 'atf',
-          sizes: [230, 57, 96, 94, 259]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -99,8 +98,7 @@ window.cpexWebsiteSettings = {
           siteId: 416558,
           zoneId: 3335250,
           accountId: '10900',
-          position: 'atf',
-          sizes: [230]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -176,8 +174,7 @@ window.cpexWebsiteSettings = {
           siteId: 416558,
           zoneId: 3335264,
           accountId: '10900',
-          position: 'atf',
-          sizes: [16, 83, 48, 15]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -224,6 +221,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
+            [480, 480],
             [480, 820],
             [336, 280],
             [720, 1280]
@@ -236,8 +234,7 @@ window.cpexWebsiteSettings = {
           siteId: 416562,
           zoneId: 3335254,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 256, 16, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -301,6 +298,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
+            [480, 480],
             [480, 820],
             [336, 280],
             [720, 1280]
@@ -313,8 +311,7 @@ window.cpexWebsiteSettings = {
           siteId: 416562,
           zoneId: 3335256,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 256, 16, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -378,6 +375,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
+            [480, 480],
             [480, 820],
             [336, 280],
             [720, 1280]
@@ -390,8 +388,7 @@ window.cpexWebsiteSettings = {
           siteId: 416562,
           zoneId: 3335258,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 256, 16, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -466,8 +463,7 @@ window.cpexWebsiteSettings = {
           siteId: 416558,
           zoneId: 3335260,
           accountId: '10900',
-          position: 'atf',
-          sizes: [9, 48, 15, 10]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -525,8 +521,7 @@ window.cpexWebsiteSettings = {
           siteId: 416558,
           zoneId: 3335262,
           accountId: '10900',
-          position: 'atf',
-          sizes: [9, 48, 15, 10]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -584,8 +579,7 @@ window.cpexWebsiteSettings = {
           siteId: 416558,
           zoneId: 3335266,
           accountId: '10900',
-          position: 'atf',
-          sizes: [16, 83, 48, 15]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -632,6 +626,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
+            [480, 480],
             [480, 820],
             [336, 280],
             [720, 1280]
@@ -644,8 +639,7 @@ window.cpexWebsiteSettings = {
           siteId: 416562,
           zoneId: 3335252,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 256, 16, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -681,6 +675,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
+            [480, 480],
             [480, 820],
             [336, 280],
             [720, 1280]
@@ -693,8 +688,7 @@ window.cpexWebsiteSettings = {
           siteId: 416562,
           zoneId: 3335252,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 256, 16, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -730,6 +724,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
+            [480, 480],
             [480, 820],
             [336, 280],
             [720, 1280]
@@ -742,8 +737,7 @@ window.cpexWebsiteSettings = {
           siteId: 416562,
           zoneId: 3335252,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 256, 16, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -779,6 +773,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
+            [480, 480],
             [480, 820],
             [336, 280],
             [720, 1280]
@@ -791,8 +786,7 @@ window.cpexWebsiteSettings = {
           siteId: 416562,
           zoneId: 3335252,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 256, 16, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -828,6 +822,7 @@ window.cpexWebsiteSettings = {
           sizes: [
             [300, 250],
             [300, 300],
+            [480, 480],
             [480, 820],
             [336, 280],
             [720, 1280]
@@ -840,8 +835,7 @@ window.cpexWebsiteSettings = {
           siteId: 416562,
           zoneId: 3335252,
           accountId: '10900',
-          position: 'atf',
-          sizes: [15, 48, 256, 16, 484]
+          position: 'atf'
         }
       }, {
         bidder: 'pubmatic',
@@ -884,6 +878,9 @@ window.cpexWebsiteSettings = {
       offsetScroll: true,
       contentCSS: 'position: relative; margin: auto; margin-top: 280px; padding-top: 0px; background-color: var(--theme-bg, white);',
       generalCSS: '.c-branding .c-leaderboard {   height: 0px;   min-height: 0px }body .c-leaderboard #div-ad-leaderboard {   width: 1920px;    height: 0;    min-height: 0;    position: fixed;    left: 50%;    top: 83px;    transform: translateX(-50%);}body .c-leaderboard #div-ad-leaderboard .banner-highlight {    height: 1400px;}'
+    },
+    responsive: {
+      enabled: true
     }
   }
 }
