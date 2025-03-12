@@ -2903,7 +2903,13 @@ window.cpexWebsiteSettings = {
       }
     }, {
       code: 'native_long_1',
-      mediaTypes: {},
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [1, 1]
+          ]
+        }
+      },
       bids: [{
         bidder: 'smart',
         params: {
