@@ -2903,9 +2903,7 @@ window.cpexWebsiteSettings = {
       }
     }, {
       code: 'native_long_1',
-      mediaTypes: {
-        native: {}
-      },
+      mediaTypes: {},
       bids: [{
         bidder: 'smart',
         params: {
