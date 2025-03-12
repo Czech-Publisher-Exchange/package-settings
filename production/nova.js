@@ -38,7 +38,8 @@ window.cpexPublisherSettings = {
       adUnits: ['div-ad-rectangle-mobile1', 'div-ad-rectangle-mobile2', 'div-ad-rectangle-mobile3', 'div-ad-gallery-mobile1', 'div-ad-gallery-mobile2', 'div-ad-gallery-mobile3', 'div-ad-gallery-mobile4', 'div-ad-gallery-mobile5']
     },
     responsive: {
-      adUnits: ['div-ad-rectangle-mobile1', 'div-ad-rectangle-mobile2', 'div-ad-rectangle-mobile3', 'div-ad-gallery-mobile1', 'div-ad-gallery-mobile2', 'div-ad-gallery-mobile3', 'div-ad-gallery-mobile4', 'div-ad-gallery-mobile5']
+      adUnits: ['div-ad-rectangle-mobile1', 'div-ad-rectangle-mobile2', 'div-ad-rectangle-mobile3', 'div-ad-gallery-mobile1', 'div-ad-gallery-mobile2', 'div-ad-gallery-mobile3', 'div-ad-gallery-mobile4', 'div-ad-gallery-mobile5'],
+      enabled: true
     }
   }
 }
