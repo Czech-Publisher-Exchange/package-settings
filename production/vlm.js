@@ -27,7 +27,8 @@ window.cpexPublisherSettings = {
       'omg-adform': 'OMG-Adform',
       setupad: 'SetupAd_HB',
       teads: 'Teads_HB',
-      rtbhouse: 'RTBHouse_HB'
+      rtbhouse: 'RTBHouse_HB',
+      connectad: 'ConnectAd_HB'
     }
   },
   headerbidding: {
