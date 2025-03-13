@@ -1172,8 +1172,8 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ () => { return document.getElementsByClassName('body')[0] } /*E*/,
-      hide: [/*S*/() => { return document.getElementsByClassName('adWrap__top')[0] } /*E*/],
-      adUnitsForced: []
+      hide: [/*S*/ () => { return document.getElementId('r-leaderboardhp') } /*E*/],
+      adUnitsForced: undefined
     }
   }
 }
