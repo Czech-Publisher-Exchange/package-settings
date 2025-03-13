@@ -47,7 +47,8 @@ window.cpexPublisherSettings = {
   },
   formats: {
     skin: {
-      enabled: true
+      enabled: true,
+      adUnitsForced: ['temp']
     },
     interscroller: {
       enabled: true

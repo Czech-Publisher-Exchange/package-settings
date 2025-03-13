@@ -355,7 +355,8 @@ window.cpexWebsiteSettings = {
       backgroundEl: /*S*/ () => { return document.body } /*E*/,
       contentEl: /*S*/ () => { return document.getElementById('routify-app') } /*E*/,
       hide: [/*S*/ () => { return document.getElementById('leaderboard-1') } /*E*/],
-      contentCSS: 'position: relative; width: 1080px; margin: auto; margin-top: 200px'
+      contentCSS: 'position: relative; width: 1080px; margin: auto; margin-top: 200px',
+      adUnitsForced: []
     },
     responsive: {
       adUnits: ['responsive-1'],
