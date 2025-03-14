@@ -1175,5 +1175,8 @@ window.cpexWebsiteSettings = {
       hide: [/*S*/ () => { return document.getElementById('r-leaderboardhp') } /*E*/],
       adUnitsForced: []
     }
+  },
+  website: {
+    name: 'newstream.cz'
   }
 }
