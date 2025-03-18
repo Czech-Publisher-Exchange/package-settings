@@ -2898,8 +2898,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        urlHas: 'zbran,mord'
+        minWidth: 1000
       }
     }, {
       code: 'native_long_1',
@@ -2921,8 +2920,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        urlHasNot: 'zbran,mord'
+        minWidth: 1000
       }
     }, {
       code: 'native_long_1',
@@ -2973,8 +2971,7 @@ window.cpexWebsiteSettings = {
         }
       }],
       filter: {
-        minWidth: 1000,
-        urlHas: 'zbran,mord'
+        minWidth: 1000
       }
     }, {
       code: 'native_long_2',
