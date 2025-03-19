@@ -1183,6 +1183,14 @@ window.cpexWebsiteSettings = {
       contentEl: /*S*/ () => { return document.getElementsByClassName('body')[0] } /*E*/,
       hide: [/*S*/ () => { return document.getElementById('r-leaderboardhp') } /*E*/],
       adUnitsForced: []
+    },
+    native: {
+      templates: {
+        nativ: "<article class='article'>   <figure class='article_photo'> <img src='${img}' alt='reklama' class='article_image' width='320' height='225' loading='lazy'> </figure>   <div class='article_text'>     <h2 class='article_heading'>${title}</h2> <span class='article_category'>Reklama</span>     <p class='article_desc'>${desc}</p>   </div> <a href='${link}' class='article_coverLink' target='_blank'><span>Otevřít reklamu</span></a> </article>",
+        m_nativ: "<article class='article'>   <figure class='article_photo'> <img src='${img}' alt='reklama' class='article_image' width='320' height='225' loading='lazy'> </figure>   <div class='article_text'>     <h2 class='article_heading'>${title}</h2> <span class='article_category'>Reklama</span>     <p class='article_desc'>${desc}</p>   </div> <a href='${link}' class='article_coverLink' target='_blank'><span>Otevřít reklamu</span></a> </article>",
+        m_nativ_spodni: "<article class='article'>   <figure class='article_photo'> <img src='${img}' alt='reklama' class='article_image' width='320' height='225' loading='lazy'> </figure>   <div class='article_text'>     <h2 class='article_heading'>${title}</h2> <span class='article_category'>Reklama</span>     <p class='article_desc'>${desc}</p>   </div> <a href='${link}' class='article_coverLink' target='_blank'><span>Otevřít reklamu</span></a> </article>"
+      },
+      enabled: true
     }
   },
   website: {
