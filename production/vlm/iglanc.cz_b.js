@@ -3360,7 +3360,7 @@ window.cpexWebsiteSettings = {
       actionTimeout: cpexPackage.settings.headerbidding.cmpActionTimeoutMs || 0
     }
   },
-})
+});
 
 cpexPackage.headerbidding.pbjs.bidderSettings.standard = { storageAllowed: true } }/*E*/
   }
