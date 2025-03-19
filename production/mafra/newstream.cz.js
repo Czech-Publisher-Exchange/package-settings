@@ -936,6 +936,50 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }]
     }, {
+      code: 'nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3693516,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044342,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046709,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1174331
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35094232
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418807
+        }
+      }]
+    }, {
       code: 'wallpaper',
       mediaTypes: {
         banner: {
