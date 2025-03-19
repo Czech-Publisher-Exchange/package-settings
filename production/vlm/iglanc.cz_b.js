@@ -3346,22 +3346,23 @@ window.cpexWebsiteSettings = {
     enabled: false
   },
   general: {
-    beforeLoad: /*S*/cpexPackage.headerbidding.pbjs.setConfig({
-  consentManagement: {
-    gdpr: {
-      cmpApi: 'iab',
-      defaultGdprScope: true,
-      rules: [
-        { purpose: 'storage', enforcePurpose: true, enforceVendor: true },
-        { purpose: 'basicAds', enforcePurpose: false, enforceVendor: false },
-        { purpose: 'measurement', enforcePurpose: false, enforceVendor: false }
-      ],
-      timeout: cpexPackage.settings.headerbidding.cmpLoadTimeoutMs || 2000,
-      actionTimeout: cpexPackage.settings.headerbidding.cmpActionTimeoutMs || 0
-    }
-  },
-});
-
-cpexPackage.headerbidding.pbjs.bidderSettings.standard = { storageAllowed: true } }/*E*/
+    beforeLoad: /*S*/() => {
+  cpexPackage.headerbidding.pbjs.setConfig({
+    consentManagement: {
+      gdpr: {
+        cmpApi: 'iab',
+        defaultGdprScope: true,
+        rules: [
+          { purpose: 'storage', enforcePurpose: true, enforceVendor: true },
+          { purpose: 'basicAds', enforcePurpose: false, enforceVendor: false },
+          { purpose: 'measurement', enforcePurpose: false, enforceVendor: false }
+        ],
+        timeout: cpexPackage.settings.headerbidding.cmpLoadTimeoutMs || 2000,
+        actionTimeout: cpexPackage.settings.headerbidding.cmpActionTimeoutMs || 0
+      }
+    },
+  });
+  cpexPackage.headerbidding.pbjs.bidderSettings.standard = { storageAllowed: true }
+}/*E*/
   }
 }
