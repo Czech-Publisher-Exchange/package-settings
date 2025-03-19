@@ -18,6 +18,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3732644,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3732692,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771184'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072754,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075468,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327291
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -28,6 +69,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171696,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -49,6 +96,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3732646,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3732694,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771185'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072755,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075467,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327293
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -59,6 +147,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171697,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -80,6 +174,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3732648,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3732696,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771186'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072756,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075469,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327297
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -90,6 +225,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171698,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -111,6 +252,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3732650,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3732698,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771187'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072757,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075491,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327292
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -121,6 +303,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171699,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -140,6 +328,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3732652,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3732700,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771188'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072758,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075492,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327295
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -150,6 +379,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171700,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -170,6 +405,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3732654,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3732702,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771189'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072759,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075500,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327300
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -180,6 +456,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171701,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -200,6 +482,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3732656,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3732704,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771190'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072760,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075493,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327302
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -210,6 +533,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171702,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -230,6 +559,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3732658,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3732706,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771191'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072761,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075494,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327294
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -240,6 +610,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171703,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -260,6 +636,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3732660,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3732710,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771192'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072762,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075495,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327298
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -270,6 +687,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171704,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -290,6 +713,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3732662,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3732712,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771193'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072763,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075496,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327296
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -300,6 +764,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171705,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -320,6 +790,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3732666,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3732714,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771194'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072765,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075497,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327303
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -330,6 +841,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171706,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -350,6 +867,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3732668,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3732716,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771195'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072766,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075498,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327299
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -360,6 +918,12 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171707,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
@@ -380,6 +944,47 @@ window.cpexWebsiteSettings = {
         }
       },
       bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3732670,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3732718,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6771196'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072764,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075499,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35327301
+        }
+      }, {
         bidder: 'rtbhouse',
         params: {
           publisherId: '7LTOeORMcRSgGMug4SXQ',
@@ -390,6 +995,89 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171708,
+          networkId: 131
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
+      code: 'branding',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [2000, 1400],
+            [998, 200],
+            [728, 90],
+            [970, 210],
+            [970, 90],
+            [2000, 1200],
+            [1920, 1080]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3736236,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 157332,
+          zoneId: 3736234,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6775995'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2072753,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2075466,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35378614
+        }
+      }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3171709,
+          networkId: 131
         }
       }, {
         bidder: 'sspBC'
