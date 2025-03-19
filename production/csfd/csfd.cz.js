@@ -1786,6 +1786,25 @@ window.cpexWebsiteSettings = {
       mediaTypes: {
         banner: {
           sizes: [
+            [1, 1]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'smart',
+        params: {
+          domain: '//prg.smartadserver.com',
+          siteId: 280501,
+          pageId: 1041480,
+          formatId: 130451,
+          tagId: 'sas_130451'
+        }
+      }]
+    }, {
+      code: 'mobile_native_1',
+      mediaTypes: {
+        banner: {
+          sizes: [
             [320, 100]
           ]
         }
