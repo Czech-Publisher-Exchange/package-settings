@@ -727,6 +727,94 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }]
     }, {
+      code: 'm_nativ',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3693506,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044341,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046707,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1174326
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35094229
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418807
+        }
+      }]
+    }, {
+      code: 'm_nativ_spodni',
+      mediaTypes: {
+        native: {}
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 157330,
+          zoneId: 3693508,
+          accountId: '10900',
+          position: 'atf',
+          sizes: [600]
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044344,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046706,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1174327
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35094228
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418807
+        }
+      }]
+    }, {
       code: 'm_paticka',
       mediaTypes: {
         banner: {
