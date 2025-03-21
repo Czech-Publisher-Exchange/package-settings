@@ -23,7 +23,8 @@ window.cpexPublisherSettings = {
       adform: 'adform_hb',
       ix: 'index_hb',
       criteo: 'criteo_hb',
-      r2b2: 'r2b2_hb'
+      r2b2: 'r2b2_hb',
+      rtbhouse: 'RTBHouse_HB'
     },
     areaKey: 'divId'
   },
