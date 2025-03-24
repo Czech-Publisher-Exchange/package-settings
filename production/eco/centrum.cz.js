@@ -87,6 +87,12 @@ window.cpexWebsiteSettings = {
           placementId: 32622015
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: 'KJXvox0jvbCbrIveBxPe',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -111,6 +117,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131502,
           networkId: 393
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'halfpage',
@@ -200,6 +208,12 @@ window.cpexWebsiteSettings = {
           placementId: 22213128
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: 'KJXvox0jvbCbrIveBxPe',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -224,6 +238,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131504,
           networkId: 393
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'mediumrectangle',
@@ -312,6 +328,12 @@ window.cpexWebsiteSettings = {
           placementId: 22213123
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: 'KJXvox0jvbCbrIveBxPe',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -336,6 +358,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131503,
           networkId: 393
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'strip',
@@ -388,6 +412,12 @@ window.cpexWebsiteSettings = {
           placementId: 22213136
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: 'KJXvox0jvbCbrIveBxPe',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -412,6 +442,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131505,
           networkId: 393
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'mediumrectangle-mob-pos1',
@@ -489,6 +521,12 @@ window.cpexWebsiteSettings = {
           placementId: 22213138
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: 'KJXvox0jvbCbrIveBxPe',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -513,6 +551,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131506,
           networkId: 393
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'mediumrectangle-mob-pos2',
@@ -588,6 +628,12 @@ window.cpexWebsiteSettings = {
           placementId: 22213139
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: 'KJXvox0jvbCbrIveBxPe',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -612,6 +658,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131507,
           networkId: 393
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'popup',
@@ -660,6 +708,12 @@ window.cpexWebsiteSettings = {
           placementId: 28273071
         }
       }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: 'KJXvox0jvbCbrIveBxPe',
+          region: 'prebid-eu'
+        }
+      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -679,6 +733,8 @@ window.cpexWebsiteSettings = {
           siteId: 3131508,
           networkId: 393
         }
+      }, {
+        bidder: 'sspBC'
       }]
     }, {
       code: 'popup_refresh',
