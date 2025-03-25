@@ -3363,7 +3363,7 @@ window.cpexWebsiteSettings = {
         }
       },
     });
-    pbjs.bidderSettings.standard = { storageAllowed: true }
+    pbjs.bidderSettings.standard?.storageAllowed = true
   })
 }/*E*/
   }
