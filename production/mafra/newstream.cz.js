@@ -1503,7 +1503,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: /*S*/ () => { return document.getElementsByClassName('body')[0] } /*E*/,
       hide: [/*S*/ () => { return document.getElementById('r-leaderboardhp') } /*E*/],
-      adUnitsForced: ['branding']
+      adUnitsForced: ['branding', '']
     },
     native: {
       templates: {
