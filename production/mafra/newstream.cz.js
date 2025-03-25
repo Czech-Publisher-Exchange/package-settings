@@ -103,6 +103,103 @@ window.cpexWebsiteSettings = {
         bidder: 'sspBC'
       }]
     }, {
+      code: 'branding',
+      mediaTypes: {
+        banner: {
+          sizes: [
+            [2000, 1400],
+            [998, 200],
+            [728, 90],
+            [970, 210],
+            [970, 90],
+            [2000, 1200],
+            [1920, 1080]
+          ]
+        }
+      },
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 144582,
+          zoneId: 3693492,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 144584,
+          zoneId: 3695326,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'pubmatic',
+        params: {
+          publisherId: '158732',
+          adSlot: '6608669'
+        }
+      }, {
+        bidder: 'adform',
+        params: {
+          mid: 2044338,
+          rcur: 'USD'
+        }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2047969,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2046700,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'ix',
+        params: {
+          siteId: 1174319
+        }
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35094220
+        }
+      }, {
+        bidder: 'rtbhouse',
+        params: {
+          publisherId: '7LTOeORMcRSgGMug4SXQ',
+          region: 'prebid-eu'
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'mafra.newstream.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3168445,
+          networkId: 131
+        }
+      }, {
+        bidder: 'sspBC'
+      }]
+    }, {
       code: 'halfpagead',
       mediaTypes: {
         banner: {
@@ -1406,7 +1503,7 @@ window.cpexWebsiteSettings = {
       enabled: true,
       contentEl: /*S*/ () => { return document.getElementsByClassName('body')[0] } /*E*/,
       hide: [/*S*/ () => { return document.getElementById('r-leaderboardhp') } /*E*/],
-      adUnitsForced: []
+      adUnitsForced: ['branding']
     },
     native: {
       templates: {
