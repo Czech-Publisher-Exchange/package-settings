@@ -447,7 +447,35 @@ window.cpexWebsiteSettings = {
           ]
         }
       },
-      bids: []
+      bids: [{
+        bidder: 'rubicon',
+        params: {
+          siteId: 361516,
+          zoneId: 3746670,
+          accountId: '10900',
+          position: 'atf'
+        }
+      }, {
+        bidder: 'rubicon-mask',
+        params: {
+          siteId: 361522,
+          zoneId: 3746672,
+          accountId: '10900',
+          position: 'atf'
+        },
+        bidderModuleName: 'rubicon'
+      }, {
+        bidder: 'appnexus',
+        params: {
+          placementId: 35427220
+        }
+      }, {
+        bidder: 'criteo',
+        params: {
+          networkId: 11172,
+          uid: 418810
+        }
+      }]
     }, {
       code: 'div-gpt-ad-1713770630683-0',
       mediaTypes: {
