@@ -48,6 +48,13 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2077350,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 35327282
@@ -115,6 +122,13 @@ window.cpexWebsiteSettings = {
         bidder: 'omg-adform',
         params: {
           mid: 2075501,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2077352,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
@@ -191,6 +205,19 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2077353,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 239794,
+          pageId: 223158
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 35327284
@@ -260,6 +287,19 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2077347,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 239795,
+          pageId: 223159
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -333,6 +373,19 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2077351,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 239796,
+          pageId: 223160
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 35327283
@@ -403,6 +456,13 @@ window.cpexWebsiteSettings = {
         bidder: 'omg-adform',
         params: {
           mid: 2075509,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2077354,
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
@@ -482,6 +542,19 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2077348,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 239797,
+          pageId: 223161
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 35327287
@@ -552,6 +625,19 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         },
         bidderModuleName: 'adform'
+      }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2077346,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 239798,
+          pageId: 223162
+        }
       }, {
         bidder: 'appnexus',
         params: {
@@ -635,6 +721,19 @@ window.cpexWebsiteSettings = {
         },
         bidderModuleName: 'adform'
       }, {
+        bidder: 'fragile-adform',
+        params: {
+          mid: 2077349,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
+        bidder: 'teads',
+        params: {
+          placementId: 239799,
+          pageId: 223163
+        }
+      }, {
         bidder: 'appnexus',
         params: {
           placementId: 35327290
@@ -665,14 +764,18 @@ window.cpexWebsiteSettings = {
   },
   formats: {
     slideup: {
-      enabled: false,
+      enabled: true,
       adUnits: ['m_sticky']
     },
     skin: {
       enabled: true,
       contentEl: /*S*/ () => { return document.getElementsByClassName('body')[0] } /*E*/,
       hide: [/*S*/ () => { return document.getElementById('r-leaderboardhp') } /*E*/],
-      adUnitsForced: []
+      adUnitsForced: ['branding']
+    },
+    vignette: {
+      enabled: true,
+      adUnits: ['m_vignete']
     }
   },
   website: {
