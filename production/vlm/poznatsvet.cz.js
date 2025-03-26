@@ -4454,7 +4454,7 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-sticky', 'm-sticky-gallery']
     },
     vignette: {
-      enabled: false
+      enabled: true
     },
     responsive: {
       width: 480,
