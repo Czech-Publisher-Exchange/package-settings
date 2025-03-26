@@ -5640,7 +5640,7 @@ window.cpexWebsiteSettings = {
       enabled: true
     },
     vignette: {
-      enabled: false
+      enabled: true
     }
   },
   ab: {
