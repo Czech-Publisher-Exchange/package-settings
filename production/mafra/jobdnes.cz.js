@@ -83,6 +83,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171696,
@@ -177,6 +185,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '480x300_clankovy',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -275,6 +291,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '480x300_clankovy_2',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171698,
@@ -371,6 +395,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '480x300_clankovy_3',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171699,
@@ -463,6 +495,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -560,6 +600,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171701,
@@ -653,6 +701,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '300x250_clankovy',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -750,6 +806,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '300x250_clankovy_opak_1',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171703,
@@ -843,6 +907,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '300x250_clankovy_opak_2',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -940,6 +1012,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '300x250_clankovy_opak_3',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171705,
@@ -1033,6 +1113,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '300x250_souvisejici',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -1130,6 +1218,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '300x250_vybrali',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171707,
@@ -1225,6 +1321,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: '300x250_paticka',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171708,
@@ -1312,6 +1416,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'jobdnes.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
