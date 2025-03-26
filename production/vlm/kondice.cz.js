@@ -3702,7 +3702,7 @@ window.cpexWebsiteSettings = {
       adUnits: ['m-sticky', 'm-sticky-gallery']
     },
     vignette: {
-      enabled: true
+      enabled: false
     },
     responsive: {
       enabled: true,
