@@ -4402,8 +4402,7 @@ window.cpexWebsiteSettings = {
         urlHasNot: 'seznam-hp=1'
       }
     }],
-    analytics: ['cpexAnalytics', 'pubmatic'],
-    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.27.0/prebid.min.js'
+    analytics: ['cpexAnalytics', 'pubmatic']
   },
   website: {
     name: 'dotyk.cz'
