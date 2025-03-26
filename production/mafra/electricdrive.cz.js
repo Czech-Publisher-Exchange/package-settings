@@ -72,6 +72,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'electricdrive.cz',
+          p: '970x310',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171710,
@@ -148,6 +156,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'electricdrive.cz',
+          p: 'branding',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -235,6 +251,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'electricdrive.cz',
+          p: '300x600',
+          m: 0,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171712,
@@ -316,6 +340,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'electricdrive.cz',
+          p: '300x250',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -401,6 +433,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'electricdrive.cz',
+          p: '480x300',
+          m: 0,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
@@ -572,6 +612,14 @@ window.cpexWebsiteSettings = {
           uid: 418806
         }
       }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'electricdrive.cz',
+          p: 'interscroller',
+          m: 1,
+          g: 'hb'
+        }
+      }, {
         bidder: 'connectad',
         params: {
           siteId: 3171716,
@@ -654,6 +702,14 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418806
+        }
+      }, {
+        bidder: 'r2b2',
+        params: {
+          d: 'electricdrive.cz',
+          p: '300x250',
+          m: 1,
+          g: 'hb'
         }
       }, {
         bidder: 'connectad',
