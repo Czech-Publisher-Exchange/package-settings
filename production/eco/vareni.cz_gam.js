@@ -570,7 +570,7 @@ window.cpexWebsiteSettings = {
     skin: {
       enabled: true,
       contentEl: /*S*/ () => { return document.getElementsByClassName('kFJFkb')[0] } /*E*/,
-      contentCSS: ' margin-top: 100px',
+      contentCSS: ' margin-top: 200px',
       zIndex: null,
       backgroundEl: /*S*/ () => { return document.getElementById('brand-c') } /*E*/,
       offset: /*S*/() => 60/*E*/
