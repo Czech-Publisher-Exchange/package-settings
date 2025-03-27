@@ -24,7 +24,8 @@ window.cpexPublisherSettings = {
       performax: 'Performax',
       sspBC: 'WP_HB',
       rtbhouse: 'RTBHouse_HB',
-      equativ: 'Smart'
+      equativ: 'Smart',
+      adkernel: 'Adsolut_HB'
     }
   },
   dsa: {
