@@ -3349,21 +3349,21 @@ window.cpexWebsiteSettings = {
     onLoad: /*S*/() => {
   window.addEventListener('cpexPrebidConfigured', () => {
     pbjs.bidderSettings.standard.storageAllowed = true
-  });
-  pbjs.setConfig({
-    consentManagement: {
-      gdpr: {
-        cmpApi: 'iab',
-        defaultGdprScope: true,
-        rules: [
-          { purpose: 'storage', enforcePurpose: true, enforceVendor: true },
-          { purpose: 'basicAds', enforcePurpose: false, enforceVendor: false },
-          { purpose: 'measurement', enforcePurpose: false, enforceVendor: false }
-        ],
-        timeout: cpexPackage.settings.headerbidding.cmpLoadTimeoutMs || 2000,
-        actionTimeout: cpexPackage.settings.headerbidding.cmpActionTimeoutMs || 0
+    pbjs.setConfig({
+      consentManagement: {
+        gdpr: {
+          cmpApi: 'iab',
+          defaultGdprScope: true,
+          rules: [
+            { purpose: 'storage', enforcePurpose: true, enforceVendor: true },
+            { purpose: 'basicAds', enforcePurpose: false, enforceVendor: false },
+            { purpose: 'measurement', enforcePurpose: false, enforceVendor: false }
+          ],
+          timeout: cpexPackage.settings.headerbidding.cmpLoadTimeoutMs || 2000,
+          actionTimeout: cpexPackage.settings.headerbidding.cmpActionTimeoutMs || 0
+        }
       }
-    }
+    })
   });
   window.cX = window.cX || {};
   window.cX.callQueue = window.cX.callQueue || [];
