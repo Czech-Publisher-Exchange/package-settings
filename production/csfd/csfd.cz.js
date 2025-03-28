@@ -3487,6 +3487,12 @@ window.cpexWebsiteSettings = {
           uid: 418811
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3173128,
+          networkId: 393
+        }
+      }, {
         bidder: 'sspBC'
       }],
       filter: {
