@@ -3344,5 +3344,17 @@ window.cpexWebsiteSettings = {
   },
   cmp: {
     enabled: false
+  },
+  ab: {
+    groupList: {
+      a: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/iglanc.cz.js',
+        probability: 0.5
+      },
+      b: {
+        websiteSettings: 'https://cdn.cpex.cz/settings/production/vlm/iglanc.cz_b.js',
+        probability: 0.5
+      }
+    }
   }
 }
