@@ -169,12 +169,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }, {
-        bidder: 'adkernel',
+        bidder: 'adsolut',
         params: {
           host: 'cpm.adsolut.in',
           zoneId: 256150
         },
-        bidderModuleName: 'adsolut'
+        bidderModuleName: 'adkernel'
       }],
       filter: {
         minWidth: 1000
@@ -3642,12 +3642,19 @@ window.cpexWebsiteSettings = {
           uid: 418811
         }
       }, {
+        bidder: 'connectad',
+        params: {
+          siteId: 3173129,
+          networkId: 393
+        }
+      }, {
         bidder: 'sspBC'
       }],
       filter: {
         maxWidth: 1000
       }
-    }]
+    }],
+    prebidPath: 'https://cdn.cpex.cz/stage/hb/prebid/9.27.0/prebid.min.js'
   },
   formats: {
     skin: {
