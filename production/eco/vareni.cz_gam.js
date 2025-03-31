@@ -569,7 +569,7 @@ window.cpexWebsiteSettings = {
   formats: {
     skin: {
       enabled: true,
-      contentEl: /*S*/ () => { return document.getElementsByClassName('kFJFkb')[0] } /*E*/,
+      contentEl: /*S*/ () => { return document.getElementById('vareni-content') } /*E*/,
       contentCSS: ' margin-top: 200px',
       zIndex: null,
       backgroundEl: /*S*/ () => { return document.getElementById('brand-c') } /*E*/,
