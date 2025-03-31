@@ -518,6 +518,13 @@ window.cpexWebsiteSettings = {
           position: 'atf'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2074042,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1954975,
