@@ -1390,6 +1390,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2074043,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1954976,
@@ -1453,6 +1460,13 @@ window.cpexWebsiteSettings = {
           rcur: 'USD'
         }
       }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2074046,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
+      }, {
         bidder: 'fragile-adform',
         params: {
           mid: 1954978,
@@ -1487,6 +1501,13 @@ window.cpexWebsiteSettings = {
           mid: 1782809,
           rcur: 'USD'
         }
+      }, {
+        bidder: 'omg-adform',
+        params: {
+          mid: 2074045,
+          rcur: 'USD'
+        },
+        bidderModuleName: 'adform'
       }, {
         bidder: 'fragile-adform',
         params: {
