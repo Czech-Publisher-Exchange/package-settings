@@ -169,12 +169,12 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'sspBC'
       }, {
-        bidder: 'adkernel',
+        bidder: 'adsolut',
         params: {
           host: 'cpm.adsolut.in',
           zoneId: 256150
         },
-        bidderModuleName: 'adsolut'
+        bidderModuleName: 'adkernel'
       }],
       filter: {
         minWidth: 1000
