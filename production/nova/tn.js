@@ -60,7 +60,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -136,7 +136,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -219,7 +219,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -307,7 +307,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -392,7 +392,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -473,7 +473,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -565,7 +565,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -657,7 +657,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -741,7 +741,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -814,7 +814,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -887,7 +887,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -962,7 +962,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -1040,7 +1040,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -1118,7 +1118,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -1196,7 +1196,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
@@ -1266,7 +1266,7 @@ window.cpexWebsiteSettings = {
       }, {
         bidder: 'rtbhouse',
         params: {
-          publisherId: '85eFWX7hx1LWzMzgFcMB, DIRECT',
+          publisherId: '85eFWX7hx1LWzMzgFcMB',
           region: 'prebid-eu'
         }
       }, {
