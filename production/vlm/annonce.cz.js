@@ -61,56 +61,6 @@ window.cpexWebsiteSettings = {
         minWidth: 1000
       }
     }, {
-      code: 'skyscraper-1',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [120, 600],
-            [160, 600]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 26460,
-          zoneId: 880998,
-          accountId: '10900',
-          position: 'atf'
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 25692,
-          zoneId: 881010,
-          accountId: '10900',
-          position: 'atf'
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5384551'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1911801,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 15782930
-        }
-      }, {
-        bidder: 'sspBC'
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
       code: 'square-1',
       mediaTypes: {
         banner: {
@@ -159,56 +109,6 @@ window.cpexWebsiteSettings = {
         params: {
           networkId: 11172,
           uid: 418805
-        }
-      }, {
-        bidder: 'sspBC'
-      }],
-      filter: {
-        minWidth: 1000
-      }
-    }, {
-      code: 'skyscraper-2',
-      mediaTypes: {
-        banner: {
-          sizes: [
-            [120, 600],
-            [160, 600]
-          ]
-        }
-      },
-      bids: [{
-        bidder: 'rubicon',
-        params: {
-          siteId: 26460,
-          zoneId: 3027186,
-          accountId: '10900',
-          position: 'atf'
-        }
-      }, {
-        bidder: 'rubicon-mask',
-        params: {
-          siteId: 25692,
-          zoneId: 3027190,
-          accountId: '10900',
-          position: 'atf'
-        },
-        bidderModuleName: 'rubicon'
-      }, {
-        bidder: 'pubmatic',
-        params: {
-          publisherId: '158732',
-          adSlot: '5384553'
-        }
-      }, {
-        bidder: 'adform',
-        params: {
-          mid: 1911805,
-          rcur: 'USD'
-        }
-      }, {
-        bidder: 'appnexus',
-        params: {
-          placementId: 30822192
         }
       }, {
         bidder: 'sspBC'
