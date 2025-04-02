@@ -72,12 +72,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156562
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -172,12 +166,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156561
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -278,12 +266,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156565
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -380,12 +362,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156573
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -486,12 +462,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156567
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -588,12 +558,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156568
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -694,12 +658,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156566
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -795,12 +753,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156574
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -900,12 +852,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156576
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -1003,12 +949,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156587
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -1104,12 +1044,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156585
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -1213,12 +1147,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156588
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -1314,12 +1242,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156590
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -1430,12 +1352,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156592
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -1519,12 +1435,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156594
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -1625,12 +1535,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156595
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -1727,12 +1631,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156610
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -1833,12 +1731,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156602
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -1928,12 +1820,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156563
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -2033,12 +1919,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156577
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -2134,12 +2014,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156578
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -2239,12 +2113,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156580
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -2340,12 +2208,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156581
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -2445,12 +2307,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156582
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -2546,12 +2402,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27156584
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -2655,12 +2505,6 @@ window.cpexWebsiteSettings = {
           placementId: 27156589
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -2757,12 +2601,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 27724988
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -2866,12 +2704,6 @@ window.cpexWebsiteSettings = {
           placementId: 28186781
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -2959,12 +2791,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 28291624
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -3061,12 +2887,6 @@ window.cpexWebsiteSettings = {
           placementId: 29858812
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -3157,12 +2977,6 @@ window.cpexWebsiteSettings = {
           placementId: 30037352
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -3249,12 +3063,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 30130429
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -3345,12 +3153,6 @@ window.cpexWebsiteSettings = {
           placementId: 30130431
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -3437,12 +3239,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 30130434
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
@@ -3645,12 +3441,6 @@ window.cpexWebsiteSettings = {
           placementId: 30850653
         }
       }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
-        }
-      }, {
         bidder: 'criteo',
         params: {
           networkId: 11172,
@@ -3749,12 +3539,6 @@ window.cpexWebsiteSettings = {
         bidder: 'appnexus',
         params: {
           placementId: 31818881
-        }
-      }, {
-        bidder: 'rtbhouse',
-        params: {
-          publisherId: '7LTOeORMcRSgGMug4SXQ',
-          region: 'prebid-eu'
         }
       }, {
         bidder: 'criteo',
