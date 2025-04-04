@@ -20,5 +20,5 @@ jobs:
           key: ${{ secrets.VPS_PRIVATE_KEY }}
           script: |
             set -e  # fail on error
-            cd /srv/cd-src/settings
+            cd /srv/cdn-src/settings
             git pull origin main
